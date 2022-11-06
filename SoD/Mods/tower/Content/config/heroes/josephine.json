@@ -1,0 +1,68 @@
+{
+	"josephine" :
+	{
+		"class" : "alchemist",
+		"female" : true,
+
+		//"index" : 34,
+
+		"images" :
+		{
+			"specialtySmall" : "heroes/josephine/icons/speciality/Un3234.bmp",
+			"specialtyLarge" : "heroes/josephine/icons/speciality/Un4434.bmp",
+			"large" : "heroes/josephine/icons/portrait/HPL034AL.bmp",
+			"small" : "heroes/josephine/icons/portrait/HPS034AL.bmp"
+		},
+
+		"army" : [
+			{
+				"creature" : "apprenticeGremlin",
+				"max" : 40,
+				"min" : 30
+			},
+			{
+				"creature" : "ironGolem",
+				"max" : 2,
+				"min" : 2
+			},
+			{
+				"creature" : "ironGolem",
+				"max" : 3,
+				"min" : 2
+			}
+		],
+
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "mysticism"
+			},
+			{
+				"level" : "basic",
+				"skill" : "sorcery"
+			}
+		],
+		"specialties" : [
+			{
+				"info" : 32,
+				"subtype" : 0,
+				"type" : 1,
+				"val" : 0
+			}
+		],
+		"spellbook" : [
+			"haste"
+		],
+		
+		"texts" : {
+			"biography" : "Josephine was the first to successfully animate a stone golem, creating a process that was much more sophisticated than that used for the gargoyle, on which her research was based.",
+			"name" : "Josephine",
+			"specialty" : {
+				"description" : "Increases the Attack and Defense skills of any Stone or Iron Golems for each level attained after 3rd level.",
+				"name" : "Golems",
+				"tooltip" : "Creature Bonus: Golems"
+			}
+		}
+	}
+}
+

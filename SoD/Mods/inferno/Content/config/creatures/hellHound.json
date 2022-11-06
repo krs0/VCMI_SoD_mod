@@ -1,0 +1,56 @@
+{
+	"hellHound": {
+		"name" : {
+			"plural" : "Hell Hounds",
+			"singular" : "Hell Hound"
+		},
+		"faction" : "inferno",
+		"level" : 3,
+		"upgrades": ["cerberus"],
+		"cost" : {
+			"gold" : 200
+		},
+		"speed" : 7,
+		"hitPoints" : 25,
+		"attack" : 10,
+		"defense" : 6,
+		"damage" : {
+			"max" : 7,
+			"min" : 2
+		},
+		"doubleWide" : true,
+		"growth" : 5,
+		"horde" : 3,
+		"aiValue" : 357,
+		"fightValue" : 275,
+		"advMapAmount" : {
+			"max" : 25,
+			"min" : 12
+		},
+		"abilities" : {
+			"FLYING_ARMY" : null
+		},
+		"abilityText" : "",
+		"graphics" : {
+			"animation" : "creatures/hellHound/battle/CHHOUN.def",
+			"map" : "creatures/hellHound/adventureMap/AVWhoun0.def",
+			"iconSmall" : "creatures/hellHound/icons/CPRSMALL49.bmp",
+			"iconLarge" : "creatures/hellHound/icons/TwCrPort49.bmp",
+			"animationTime" : {
+				"attack" : 1,
+				"flight" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"timeBetweenFidgets" : 1,
+			"troopCountLocationOffset" : 0
+		},
+		"sound" : {
+			"attack" : "creatures/hellHound/HHNDATTK.wav",
+			"defend" : "creatures/hellHound/HHNDDFND.wav",
+			"killed" : "creatures/hellHound/HHNDKILL.wav",
+			"move" : "creatures/hellHound/HHNDMOVE.wav",
+			"wince" : "creatures/hellHound/HHNDWNCE.wav"
+		},
+	}
+}

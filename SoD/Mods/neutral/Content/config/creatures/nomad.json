@@ -1,0 +1,59 @@
+{
+	"nomad": {
+		"name" : {
+			"plural" : "Nomads",
+			"singular" : "Nomad"
+		},
+		"faction" : "neutral",
+		"level" : 3,
+		"cost" : {
+			"gold" : 200
+		},
+		"speed" : 7,
+		"hitPoints" : 30,
+		"attack" : 9,
+		"defense" : 8,
+		"damage" : {
+			"max" : 6,
+			"min" : 2
+		},
+		"doubleWide" : true,
+		"growth" : 7,
+		"horde" : 0,
+		"aiValue" : 345,
+		"fightValue" : 285,
+		"advMapAmount" : {
+			"max" : 25,
+			"min" : 12
+		},
+		"abilities" : {
+			"sandWalker" : {
+				"propagator" : "HERO",
+				"subtype" : "terrain.sand",
+				"type" : "NO_TERRAIN_PENALTY"
+			}
+		},
+		"abilityText" : "Sandwalkers.",
+		"graphics" : {
+			"animation" : "creatures/nomad/battle/CNOMAD.def",
+			"map" : "creatures/nomad/adventureMap/AVWnomd.def",
+			"iconSmall" : "creatures/nomad/icons/CPRSMALL144.bmp",
+			"iconLarge" : "creatures/nomad/icons/TwCrPort144.bmp",
+			"animationTime" : {
+				"attack" : 1,
+				"flight" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"timeBetweenFidgets" : 1,
+			"troopCountLocationOffset" : 0
+		},
+		"sound" : {
+			"attack" : "creatures/nomad/NMADATTK.wav",
+			"defend" : "creatures/nomad/NMADDFND.wav",
+			"killed" : "creatures/nomad/NMADKILL.wav",
+			"move" : "creatures/nomad/NMADMOVE.wav",
+			"wince" : "creatures/nomad/NMADWNCE.wav"
+		}
+	}
+}

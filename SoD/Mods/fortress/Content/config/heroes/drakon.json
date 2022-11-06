@@ -1,0 +1,65 @@
+{
+	"drakon" :
+	{
+		"class" : "beastmaster",
+		"female" : false,
+
+		//"index" : 113,
+
+		"images" :
+		{
+			"specialtySmall" : "heroes/drakon/icons/speciality/Un32113.bmp",
+			"specialtyLarge" : "heroes/drakon/icons/speciality/Un44113.bmp",
+			"large" : "heroes/drakon/icons/portrait/HPL113BS.bmp",
+			"small" : "heroes/drakon/icons/portrait/HPS113BS.bmp"
+		},
+
+		"army" : [
+			{
+				"creature" : "gnoll",
+				"max" : 20,
+				"min" : 10
+			},
+			{
+				"creature" : "gnoll",
+				"max" : 20,
+				"min" : 10
+			},
+			{
+				"creature" : "gnoll",
+				"max" : 20,
+				"min" : 10
+			}
+		],
+
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "armorer"
+			},
+			{
+				"level" : "basic",
+				"skill" : "leadership"
+			}
+		],
+		"specialties" : [
+			{
+				"info" : 106,
+				"subtype" : 0,
+				"type" : 1,
+				"val" : 0
+			}
+		],
+
+		"texts" : {
+			"biography" : "Drakon was the greatest warrior in his village, and later the region, before choosing to serve King Tralossk.  His charismatic demeanor (at least with other Gnolls) has troops volunteering to join his armies in droves.",
+			"name" : "Drakon",
+			"specialty" : {
+				"description" : "Increases the Attack and Defense skills of any Gnolls or Gnoll Marauders for each level attained after 1st level.",
+				"name" : "Gnolls",
+				"tooltip" : "Creature Bonus: Gnolls"
+			}
+		}
+	}
+}
+

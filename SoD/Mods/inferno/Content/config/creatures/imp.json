@@ -1,0 +1,53 @@
+{
+	"imp": {
+		"name" : {
+			"plural" : "Imps",
+			"singular" : "Imp"
+		},
+		"faction" : "inferno",
+		"level" : 1,
+		"upgrades": ["familiar"],
+		"cost" : {
+			"gold" : 50
+		},
+		"speed" : 5,
+		"hitPoints" : 4,
+		"attack" : 2,
+		"defense" : 3,
+		"damage" : {
+			"max" : 2,
+			"min" : 1
+		},
+		"doubleWide" : false,
+		"growth" : 15,
+		"horde" : 8,
+		"aiValue" : 50,
+		"fightValue" : 50,
+		"advMapAmount" : {
+			"max" : 50,
+			"min" : 20
+		},
+		"abilityText" : "",
+		"graphics" : {
+			"animation" : "creatures/imp/battle/CIMP.def",
+			"map" : "creatures/imp/adventureMap/AVWimp0.def",
+			"iconSmall" : "creatures/imp/icons/CPRSMALL44.bmp",
+			"iconLarge" : "creatures/imp/icons/TwCrPort44.bmp",
+			"animationTime" : {
+				"attack" : 1,
+				"flight" : 1,
+				"idle" : 10,
+				"walk" : 1.25
+			},
+			"timeBetweenFidgets" : 1,
+			"troopCountLocationOffset" : 0
+		},
+		"sound" : {
+			"attack" : "creatures/imp/IMPPATTK.wav",
+			"defend" : "creatures/imp/IMPPDFND.wav",
+			"killed" : "creatures/imp/IMPPKILL.wav",
+			"move" : "creatures/imp/IMPPMOVE.wav",
+			"wince" : "creatures/imp/IMPPWNCE.wav"
+		}
+	}
+}

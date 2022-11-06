@@ -1,0 +1,64 @@
+{
+	"chaosHydra": {
+		"name" : {
+			"plural" : "Chaos Hydras",
+			"singular" : "Chaos Hydra"
+		},
+		"faction" : "fortress",
+		"level" : 7,
+		"cost" : {
+			"gold" : 3500,
+			"sulfur" : 1
+		},
+		"speed" : 7,
+		"hitPoints" : 250,
+		"attack" : 18,
+		"defense" : 20,
+		"damage" : {
+			"max" : 45,
+			"min" : 25
+		},
+		"doubleWide" : true,
+		"growth" : 1,
+		"horde" : 0,
+		"aiValue" : 5931,
+		"fightValue" : 5272,
+		"advMapAmount" : {
+			"max" : 8,
+			"min" : 3
+		},
+		"abilities" : {
+			"KING_1" : {
+				"type" : "KING1"
+			},
+			"attackAll" : {
+				"type" : "ATTACKS_ALL_ADJACENT"
+			},
+			"noRetaliate" : {
+				"type" : "BLOCKS_RETALIATION"
+			}
+		},
+		"abilityText" : "Attacks all adjacent enemies.  Enemies cannot retaliate.",
+		"graphics" : {
+			"animation" : "creatures/chaosHydra/battle/CCHYDR.def",
+			"map" : "creatures/chaosHydra/adventureMap/AVWhydx0.def",
+			"iconSmall" : "creatures/chaosHydra/icons/CPRSMALL113.bmp",
+			"iconLarge" : "creatures/chaosHydra/icons/TwCrPort113.bmp",
+			"animationTime" : {
+				"attack" : 1,
+				"flight" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"timeBetweenFidgets" : 1,
+			"troopCountLocationOffset" : 0
+		},
+		"sound" : {
+			"attack" : "creatures/chaosHydra/CHYDATTK.wav",
+			"defend" : "creatures/chaosHydra/CHYDDFND.wav",
+			"killed" : "creatures/chaosHydra/CHYDKILL.wav",
+			"move" : "creatures/chaosHydra/CHYDMOVE.wav",
+			"wince" : "creatures/chaosHydra/CHYDWNCE.wav"
+		}
+	}
+}

@@ -1,0 +1,10 @@
+// list of mods inside
+{
+	"name" : "SoD",
+	"description" : "Original SoD contents as mod",
+
+	"version" : "0.99",
+	"author" : "Original SoD - mod by VCMI Team",
+	"contact" : "http://forum.vcmi.eu/index.php",
+	"modType" : "Expansion"
+}

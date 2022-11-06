@@ -1,0 +1,86 @@
+{
+	"lizardWarrior": {
+		"name" : {
+			"plural" : "Lizard Warriors",
+			"singular" : "Lizard Warrior"
+		},
+		"faction" : "fortress",
+		"level" : 2,
+		"cost" : {
+			"gold" : 140
+		},
+		"speed" : 5,
+		"hitPoints" : 15,
+		"attack" : 6,
+		"defense" : 8,
+		"damage" : {
+			"max" : 5,
+			"min" : 2
+		},
+		"shots" : 24,
+		"doubleWide" : false,
+		"growth" : 9,
+		"horde" : 0,
+		"aiValue" : 156,
+		"fightValue" : 130,
+		"advMapAmount" : {
+			"max" : 25,
+			"min" : 16
+		},
+		"abilities" : {
+			"SHOOTING_ARMY" : {
+				"type" : "SHOOTER"
+			}
+		},
+		"abilityText" : "",
+		"hasDoubleWeek" : true,
+		"graphics" : {
+			"animation" : "creatures/lizardWarrior/battle/CALIZA.def",
+			"map" : "creatures/lizardWarrior/adventureMap/AVWlizx0.def",
+			"iconSmall" : "creatures/lizardWarrior/icons/CPRSMALL103.bmp",
+			"iconLarge" : "creatures/lizardWarrior/icons/TwCrPort103.bmp",
+			"animationTime" : {
+				"attack" : 1,
+				"flight" : 1,
+				"idle" : 10,
+				"walk" : 0.9
+			},
+			"missile" : {
+				"projectile" : "creatures/lizardWarrior/projectile/PPLIZAX.DEF",
+				"attackClimaxFrame" : 9,
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				],
+				"offset" : {
+					"lowerX" : 25,
+					"lowerY" : -56,
+					"middleX" : 49,
+					"middleY" : -66,
+					"upperX" : 39,
+					"upperY" : -76
+				},
+			},
+			"timeBetweenFidgets" : 1,
+			"troopCountLocationOffset" : 0
+		},
+		"sound" : {
+			"attack" : "creatures/lizardWarrior/ALIZATTK.wav",
+			"defend" : "creatures/lizardWarrior/ALIZDFND.wav",
+			"killed" : "creatures/lizardWarrior/ALIZKILL.wav",
+			"move" : "creatures/lizardWarrior/ALIZMOVE.wav",
+			"shoot" : "creatures/lizardWarrior/ALIZSHOT.wav",
+			"wince" : "creatures/lizardWarrior/ALIZWNCE.wav"
+		}
+	}
+}

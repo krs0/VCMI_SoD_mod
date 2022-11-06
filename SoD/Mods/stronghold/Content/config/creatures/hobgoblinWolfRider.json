@@ -1,0 +1,58 @@
+{
+	"hobgoblinWolfRider": {
+		"name" : {
+			"plural" : "Wolf Raiders",
+			"singular" : "Wolf Raider"
+		},
+		"faction" : "stronghold",
+		"level" : 2,
+		"cost" : {
+			"gold" : 140
+		},
+		"speed" : 8,
+		"hitPoints" : 10,
+		"attack" : 8,
+		"defense" : 5,
+		"damage" : {
+			"max" : 4,
+			"min" : 3
+		},
+		"doubleWide" : true,
+		"growth" : 9,
+		"horde" : 0,
+		"aiValue" : 203,
+		"fightValue" : 174,
+		"advMapAmount" : {
+			"max" : 25,
+			"min" : 16
+		},
+		"abilities" : {
+			"extraAttack" : {
+				"type" : "ADDITIONAL_ATTACK",
+				"val" : 1
+			}
+		},
+		"abilityText" : "Strikes twice",
+		"graphics" : {
+			"animation" : "creatures/hobgoblinWolfRider/battle/CUWLFR.def",
+			"map" : "creatures/hobgoblinWolfRider/adventureMap/AVWwolx0.def",
+			"iconSmall" : "creatures/hobgoblinWolfRider/icons/CPRSMALL89.bmp",
+			"iconLarge" : "creatures/hobgoblinWolfRider/icons/TwCrPort89.bmp",
+			"animationTime" : {
+				"attack" : 1,
+				"flight" : 1,
+				"idle" : 10,
+				"walk" : 0.93
+			},
+			"timeBetweenFidgets" : 1,
+			"troopCountLocationOffset" : 0
+		},
+		"sound" : {
+			"attack" : "creatures/hobgoblinWolfRider/HGWRATTK.wav",
+			"defend" : "creatures/hobgoblinWolfRider/HGWRDFND.wav",
+			"killed" : "creatures/hobgoblinWolfRider/HGWRKILL.wav",
+			"move" : "creatures/hobgoblinWolfRider/HGWRMOVE.wav",
+			"wince" : "creatures/hobgoblinWolfRider/HGWRWNCE.wav"
+		}
+	}
+}

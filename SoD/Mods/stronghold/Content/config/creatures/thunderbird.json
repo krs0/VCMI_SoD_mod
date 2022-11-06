@@ -1,0 +1,67 @@
+{
+	"thunderbird": {
+		"name" : {
+			"plural" : "Thunderbirds",
+			"singular" : "Thunderbird"
+		},
+		"faction" : "stronghold",
+		"level" : 5,
+		"cost" : {
+			"gold" : 700
+		},
+		"speed" : 11,
+		"hitPoints" : 60,
+		"attack" : 13,
+		"defense" : 11,
+		"damage" : {
+			"max" : 15,
+			"min" : 11
+		},
+		"doubleWide" : true,
+		"growth" : 3,
+		"horde" : 0,
+		"aiValue" : 1106,
+		"fightValue" : 869,
+		"advMapAmount" : {
+			"max" : 12,
+			"min" : 8
+		},
+		"abilities" : {
+			"FLYING_ARMY" : {
+				"type" : "FLYING"
+			},
+			"thunderOnAttack" : {
+				"subtype" : "spell.thunderbolt",
+				"type" : "SPELL_AFTER_ATTACK",
+				"val" : 20
+			},
+			"thunderStrength" : {
+				"subtype" : "spell.thunderbolt",
+				"type" : "SPECIFIC_SPELL_POWER",
+				"val" : 10
+			}
+		},
+		"abilityText" : "Lightning strike.",
+		"graphics" : {
+			"animation" : "creatures/thunderbird/battle/CTBIRD.def",
+			"map" : "creatures/thunderbird/adventureMap/AVWrocx0.def",
+			"iconSmall" : "creatures/thunderbird/icons/CPRSMALL95.bmp",
+			"iconLarge" : "creatures/thunderbird/icons/TwCrPort95.bmp",
+			"animationTime" : {
+				"attack" : 1,
+				"flight" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"timeBetweenFidgets" : 1,
+			"troopCountLocationOffset" : 0
+		},
+		"sound" : {
+			"attack" : "creatures/thunderbird/TBRDATTK.wav",
+			"defend" : "creatures/thunderbird/TBRDDFND.wav",
+			"killed" : "creatures/thunderbird/TBRDKILL.wav",
+			"move" : "creatures/thunderbird/TBRDMOVE.wav",
+			"wince" : "creatures/thunderbird/TBRDWNCE.wav"
+		}
+	}
+}

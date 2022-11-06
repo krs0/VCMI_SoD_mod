@@ -1,0 +1,65 @@
+{
+	"ivor" :
+	{
+		"class" : "ranger",
+		"female" : false,
+
+		//"index" : 21,
+
+		"images" :
+		{
+			"specialtySmall" : "heroes/ivor/icons/speciality/Un3221.bmp",
+			"specialtyLarge" : "heroes/ivor/icons/speciality/Un4421.bmp",
+			"large" : "heroes/ivor/icons/portrait/HPL021RN.bmp",
+			"small" : "heroes/ivor/icons/portrait/HPS021RN.bmp"
+		},
+
+		"army" : [
+			{
+				"creature" : "centaur",
+				"max" : 24,
+				"min" : 12
+			},
+			{
+				"creature" : "woodElf",
+				"max" : 6,
+				"min" : 3
+			},
+			{
+				"creature" : "woodElf",
+				"max" : 6,
+				"min" : 3
+			}
+		],
+
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "archery"
+			},
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			}
+		],
+		"specialties" : [
+			{
+				"info" : 18,
+				"subtype" : 0,
+				"type" : 1,
+				"val" : 0
+			}
+		],
+
+		"texts" : {
+			"biography" : "Ivor's lineage can be traced back nearly to the Silence.  Though bred as nobility, he has always been a hothead, preferring to lead an attack rather than wait to be attacked.  His brashness has so far kept him alive.",
+			"name" : "Ivor",
+			"specialty" : {
+				"description" : "Increases the Attack and Defense skills of any Wood Elves or Grand Elves for each level attained after 3rd level.",
+				"name" : "Elves",
+				"tooltip" : "Creature Bonus: Elves"
+			}
+		}
+	}
+}
+

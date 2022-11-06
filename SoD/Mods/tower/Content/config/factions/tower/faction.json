@@ -1,0 +1,13 @@
+{
+	"tower" :
+	{
+		"name" : "tower",
+		"alignment" : "good",
+		"nativeTerrain" : "snow",
+		"creatureBackground" :
+		{
+			"120px" : "factions/tower/TPCASTOW.bmp",
+			"130px" : "factions/tower/CRBKGTOW.bmp"
+		},
+	}
+}

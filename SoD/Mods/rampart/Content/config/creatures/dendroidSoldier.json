@@ -1,0 +1,59 @@
+{
+	"dendroidSoldier": {
+		"name" : {
+			"plural" : "Dendroid Soldiers",
+			"singular" : "Dendroid Soldier"
+		},
+		"faction" : "rampart",
+		"level" : 5,
+		"cost" : {
+			"gold" : 425
+		},
+		"speed" : 4,
+		"hitPoints" : 65,
+		"attack" : 9,
+		"defense" : 12,
+		"damage" : {
+			"max" : 14,
+			"min" : 10
+		},
+		"doubleWide" : false,
+		"growth" : 3,
+		"horde" : 2,
+		"aiValue" : 803,
+		"fightValue" : 765,
+		"advMapAmount" : {
+			"max" : 12,
+			"min" : 8
+		},
+		"abilities" : {
+			"binds" : {
+				"subtype" : "spell.bind",
+				"type" : "SPELL_AFTER_ATTACK",
+				"val" : 100
+			}
+		},
+		"abilityText" : "Binds enemies in place.",
+		"graphics" : {
+			"animation" : "creatures/dendroidSoldier/battle/CBTREE.def",
+			"map" : "creatures/dendroidSoldier/adventureMap/AVWtree0.def",
+			"iconSmall" : "creatures/dendroidSoldier/icons/CPRSMALL25.bmp",
+			"iconLarge" : "creatures/dendroidSoldier/icons/TwCrPort25.bmp",
+			"animationTime" : {
+				"attack" : 1,
+				"flight" : 1,
+				"idle" : 10,
+				"walk" : 1.55
+			},
+			"timeBetweenFidgets" : 1,
+			"troopCountLocationOffset" : 0
+		},
+		"sound" : {
+			"attack" : "creatures/dendroidSoldier/BTREATTK.wav",
+			"defend" : "creatures/dendroidSoldier/BTREDFND.wav",
+			"killed" : "creatures/dendroidSoldier/BTREKILL.wav",
+			"move" : "creatures/dendroidSoldier/BTREMOVE.wav",
+			"wince" : "creatures/dendroidSoldier/BTREWNCE.wav"
+		}
+	}
+}

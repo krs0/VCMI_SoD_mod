@@ -1,0 +1,53 @@
+{
+	"pitFiend": {
+		"name" : {
+			"plural" : "Pit Fiends",
+			"singular" : "Pit Fiend"
+		},
+		"faction" : "inferno",
+		"level" : 5,
+		"upgrades": ["pitLord"],
+		"cost" : {
+			"gold" : 500
+		},
+		"speed" : 6,
+		"hitPoints" : 45,
+		"attack" : 13,
+		"defense" : 13,
+		"damage" : {
+			"max" : 17,
+			"min" : 13
+		},
+		"doubleWide" : false,
+		"growth" : 3,
+		"horde" : 0,
+		"aiValue" : 765,
+		"fightValue" : 765,
+		"advMapAmount" : {
+			"max" : 16,
+			"min" : 8
+		},
+		"abilityText" : "",
+		"graphics" : {
+			"animation" : "creatures/pitFiend/battle/CPFIEN.def",
+			"map" : "creatures/pitFiend/adventureMap/AVWpitf0.def",
+			"iconSmall" : "creatures/pitFiend/icons/CPRSMALL52.bmp",
+			"iconLarge" : "creatures/pitFiend/icons/TwCrPort52.bmp",
+			"animationTime" : {
+				"attack" : 1,
+				"flight" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"timeBetweenFidgets" : 1,
+			"troopCountLocationOffset" : 0
+		},
+		"sound" : {
+			"attack" : "creatures/pitFiend/PFNDATTK.wav",
+			"defend" : "creatures/pitFiend/PFNDDFND.wav",
+			"killed" : "creatures/pitFiend/PFNDKILL.wav",
+			"move" : "creatures/pitFiend/PFNDMOVE.wav",
+			"wince" : "creatures/pitFiend/PFNDWNCE.wav"
+		}
+	}
+}

@@ -1,0 +1,57 @@
+{
+	"champion": {
+		"name" : {
+			"plural" : "Champions",
+			"singular" : "Champion"
+		},
+		"faction" : "castle",
+		"level" : 6,
+		"cost" : {
+			"gold" : 1200
+		},
+		"speed" : 9,
+		"hitPoints" : 100,
+		"attack" : 16,
+		"defense" : 16,
+		"damage" : {
+			"max" : 25,
+			"min" : 20
+		},
+		"doubleWide" : true,
+		"growth" : 2,
+		"horde" : 0,
+		"aiValue" : 2100,
+		"fightValue" : 1800,
+		"advMapAmount" : {
+			"max" : 10,
+			"min" : 5
+		},
+		"abilities" : {
+			"const_jousting" : {
+				"type" : "JOUSTING"
+			}
+		},
+		"abilityText" : "Jousting bonus.",
+		"graphics" : {
+			"animation" : "creatures/champion/battle/CCHAMP.def",
+			"map" : "creatures/champion/adventureMap/AVWcvlx0.def",
+			"iconSmall" : "creatures/champion/icons/CPRSMALL13.bmp",
+			"iconLarge" : "creatures/champion/icons/TwCrPort13.bmp",
+			"animationTime" : {
+				"attack" : 1,
+				"flight" : 1,
+				"idle" : 10,
+				"walk" : 0.9
+			},
+			"timeBetweenFidgets" : 1,
+			"troopCountLocationOffset" : 0
+		},
+		"sound" : {
+			"attack" : "creatures/champion/CHMPATTK.wav",
+			"defend" : "creatures/champion/CHMPDFND.wav",
+			"killed" : "creatures/champion/CHMPKILL.wav",
+			"move" : "creatures/champion/CHMPMOVE.wav",
+			"wince" : "creatures/champion/CHMPWNCE.wav"
+		}
+	}
+}

@@ -1,0 +1,58 @@
+{
+	"halberdier": {
+		"name" : {
+			"plural" : "Halberdiers",
+			"singular" : "Halberdier"
+		},
+		"faction" : "castle",
+		"level" : 1,
+		"upgrades": ["halberdier"],
+		"cost" : {
+			"gold" : 75
+		},
+		"speed" : 5,
+		"hitPoints" : 10,
+		"attack" : 6,
+		"defense" : 5,
+		"damage" : {
+			"max" : 3,
+			"min" : 2
+		},
+		"doubleWide" : false,
+		"growth" : 14,
+		"horde" : 0,
+		"aiValue" : 115,
+		"fightValue" : 115,
+		"advMapAmount" : {
+			"max" : 30,
+			"min" : 20
+		},
+		"abilities" : {
+			"cavalryChargeImmunity" : {
+				"type" : "CHARGE_IMMUNITY"
+			}
+		},
+		"abilityText" : "",
+		"graphics" : {
+			"animation" : "creatures/halberdier/battle/CHALBD.def",
+			"map" : "creatures/halberdier/adventureMap/AVWpikx0.def",
+			"iconSmall" : "creatures/halberdier/icons/CPRSMALL3.bmp",
+			"iconLarge" : "creatures/halberdier/icons/TwCrPort3.bmp",
+			"animationTime" : {
+				"attack" : 1,
+				"flight" : 1,
+				"idle" : 10,
+				"walk" : 0.9
+			},
+			"timeBetweenFidgets" : 1,
+			"troopCountLocationOffset" : 0
+		},
+		"sound" : {
+			"attack" : "creatures/halberdier/HALBATTK.wav",
+			"defend" : "creatures/halberdier/HALBDFND.wav",
+			"killed" : "creatures/halberdier/HALBKILL.wav",
+			"move" : "creatures/halberdier/HALBMOVE.wav",
+			"wince" : "creatures/halberdier/HALBWNCE.wav"
+		}
+	}
+}

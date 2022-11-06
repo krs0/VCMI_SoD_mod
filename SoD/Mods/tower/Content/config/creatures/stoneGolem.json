@@ -1,0 +1,62 @@
+{
+	"stoneGolem": {
+		"name" : {
+			"plural" : "Iron Golems",
+			"singular" : "Iron Golem"
+		},
+		"faction" : "tower",
+		"level" : 3,
+		"cost" : {
+			"gold" : 200
+		},
+		"speed" : 5,
+		"hitPoints" : 35,
+		"attack" : 9,
+		"defense" : 10,
+		"damage" : {
+			"max" : 5,
+			"min" : 4
+		},
+		"doubleWide" : false,
+		"growth" : 6,
+		"horde" : 0,
+		"aiValue" : 412,
+		"fightValue" : 412,
+		"advMapAmount" : {
+			"max" : 20,
+			"min" : 12
+		},
+		"abilities" : {
+			"magicResistance" : {
+				"subtype" : -1,
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"val" : 75
+			},
+			"nonliving" : {
+				"type" : "NON_LIVING"
+			}
+		},
+		"abilityText" : "Damage from spells reduced 75%.",
+		"graphics" : {
+			"animation" : "creatures/stoneGolem/battle/CIGOLE.def",
+			"map" : "creatures/stoneGolem/adventureMap/AVWgolx0.def",
+			"iconSmall" : "creatures/stoneGolem/icons/CPRSMALL35.bmp",
+			"iconLarge" : "creatures/stoneGolem/icons/TwCrPort35.bmp",
+			"animationTime" : {
+				"attack" : 1,
+				"flight" : 1,
+				"idle" : 10,
+				"walk" : 1.45
+			},
+			"timeBetweenFidgets" : 1,
+			"troopCountLocationOffset" : 0
+		},
+		"sound" : {
+			"attack" : "creatures/stoneGolem/IGLMATTK.wav",
+			"defend" : "creatures/stoneGolem/IGLMDFND.wav",
+			"killed" : "creatures/stoneGolem/IGLMKILL.wav",
+			"move" : "creatures/stoneGolem/IGLMMOVE.wav",
+			"wince" : "creatures/stoneGolem/IGLMWNCE.wav"
+		}
+	}
+}

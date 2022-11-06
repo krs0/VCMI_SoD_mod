@@ -1,0 +1,13 @@
+{
+	"necropolis" :
+	{
+		"name" : "necropolis",
+		"alignment" : "evil",
+		"nativeTerrain" : "dirt",
+		"creatureBackground" :
+		{
+			"120px" : "factions/necropolis/TPCASNEC.bmp",
+			"130px" : "factions/necropolis/CRBKGNEC.bmp"
+		},
+	}
+}

@@ -1,0 +1,66 @@
+{
+	"valeska" :
+	{
+		"class" : "knight",
+		"female" : true,
+
+		//"index" : 1,
+								
+		"images" :
+		{
+			"specialtySmall" : "heroes/valeska/icons/speciality/Un321.bmp",
+			"specialtyLarge" : "heroes/valeska/icons/speciality/Un441.bmp",
+			"large" : "heroes/valeska/icons/portrait/HPL001KN.bmp",
+			"small" : "heroes/valeska/icons/portrait/HPS001KN.bmp"
+		},
+
+		"army" : [
+			{
+				"creature" : "archer",
+				"max" : 7,
+				"min" : 4
+			},
+			{
+				"creature" : "archer",
+				"max" : 7,
+				"min" : 4
+			},
+			{
+				"creature" : "archer",
+				"max" : 7,
+				"min" : 4
+			}
+		],
+
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "leadership"
+			},
+			{
+				"level" : "basic",
+				"skill" : "archery"
+			}
+		],
+		
+		"specialties" : [
+			{
+				"info" : 2,
+				"subtype" : 0,
+				"type" : 1,
+				"val" : 0
+			}
+		],
+
+		"texts" : {
+			"biography" : "Valeska became known as a master marksman when she first served in the Erathian military.  Now she not only commands her own forces, but spends time personally training her Crossbow troops as well.",
+			"name" : "Valeska",
+			"specialty" : {
+				"description" : "Increases the Attack and Defense skills of any Archers or Marksmen for each level attained after 2nd level.",
+				"name" : "Archers",
+				"tooltip" : "Creature Bonus: Archers"
+			}
+		}
+	}
+}
+

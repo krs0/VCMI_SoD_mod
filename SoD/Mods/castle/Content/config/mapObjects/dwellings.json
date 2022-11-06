@@ -1,0 +1,190 @@
+{
+	"creatureGeneratorCommon" :
+	{
+		"handler": "dwelling",
+		"base" : 
+		{
+			"base" : 
+			{
+				"visitableFrom" : [ "---", "+++", "+++" ],
+				"mask" : [ "VVV", "VBB", "VAA" ]
+			}
+		},
+		"types" : 
+		{
+			"guardhouse" : 
+			{
+				"name" : "Guardhouse",
+				"creatures" : [
+					[
+						"pikeman"
+					]
+				],
+				"templates" : 
+				{
+					"default" : 
+					{
+						"animation" : "factions/castle/adventureMap/dwellings/AVGPIKE0.def",
+						"mask" : [ "VVV", "VBB", "VAA" ]
+					}
+				}
+			},
+			"archersTower" : 
+			{
+				"name" : "Archers' Tower",
+				"creatures" : [
+					[
+						"archer"
+					]
+				],
+				"templates" : 
+				{
+					"default" : 
+					{
+						"animation" : "factions/castle/adventureMap/dwellings/AVGCROS0.def",
+						"mask" : [
+							"VVV",
+							"VBB",
+							"VAA"
+						],
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						]
+					}
+				}
+			},
+			"griffinTower" : 
+			{
+				"name" : "Griffin Tower",
+				"creatures" : [
+					[
+						"griffin"
+					]
+				],
+				"templates" : 
+				{
+					"default" : 
+					{
+						"animation" : "factions/castle/adventureMap/dwellings/AVGgrff0.def",
+						"mask" : [
+							"VVV",
+							"VBB",
+							"VAA"
+						],
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						]
+					}
+				}
+			},
+			"barracks" : 
+			{
+				"name" : "Barracks",
+				"creatures" : [
+					[
+						"swordsman"
+					]
+				],
+				"templates" : 
+				{
+					"default" : 
+					{
+						"animation" : "factions/castle/adventureMap/dwellings/AVGSWOR0.def",
+						"mask" : [
+							"VVV",
+							"VBB",
+							"VAA"
+						],
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						]
+					}
+				}
+			},
+			"monastery" : 
+			{
+				"name" : "Monastery",
+				"creatures" : [
+					[
+						"monk"
+					]
+				],
+				"templates" : 
+				{
+					"default" : 
+					{
+						"animation" : "factions/castle/adventureMap/dwellings/AVGmonk0.def",
+						"mask" : [
+							"VVV",
+							"VBB",
+							"VAA"
+						],
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						]
+					}
+				}
+			},
+			"trainingGrounds" : 
+			{
+				"name" : "Training Grounds",
+				"creatures" : [
+					[
+						"cavalier"
+					]
+				],
+				"templates" : 
+				{
+					"default" : 
+					{
+						"animation" : "factions/castle/adventureMap/dwellings/AVGcavl0.def",
+						"mask" : [
+							"VVV",
+							"VBB",
+							"VAA"
+						],
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						]
+					}
+				}
+			},
+			"portalOfGlory" : 
+			{
+				"name" : "Portal of Glory",
+				"creatures" : [
+					[
+						"angel"
+					]
+				],
+				"templates" : 
+				{
+					"default" : 
+					{
+						"animation" : "factions/castle/adventureMap/dwellings/AVGangl0.def",
+						"mask" : [
+							"VVV",
+							"VBB",
+							"VAA"
+						],
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						]
+					}
+				}
+			}
+		}
+	}
+}

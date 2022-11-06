@@ -1,0 +1,61 @@
+{
+	"damacon" :
+	{
+		"class" : "warlock",
+		"female" : false,
+
+		//"index" : 84,
+
+		"images" :
+		{
+			"specialtySmall" : "heroes/damacon/icons/speciality/Un3284.bmp",
+			"specialtyLarge" : "heroes/damacon/icons/speciality/Un4484.bmp",
+			"large" : "heroes/damacon/icons/portrait/HPL084OV.bmp",
+			"small" : "heroes/damacon/icons/portrait/HPS084OV.bmp"
+		},
+
+		"army" : [
+			{
+				"creature" : "troglodyte",
+				"max" : 40,
+				"min" : 30
+			},
+			{
+				"creature" : "harpy",
+				"max" : 6,
+				"min" : 4
+			},
+			{
+				"creature" : "beholder",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+
+		"skills" : [
+			{
+				"level" : "advanced",
+				"skill" : "offence"
+			}
+		],
+		"specialties" : [
+			{
+				"info" : 0,
+				"subtype" : 6,
+				"type" : 10,
+				"val" : 350
+			}
+		],
+
+		"texts" : {
+			"biography" : "While Damacon has always been a bit of a pushover, even among other troglodytes, he can sniff out gold almost without trying.  He will donate gold to any cause willing to allow him to lead.",
+			"name" : "Damacon",
+			"specialty" : {
+				"description" : "Increases kingdom's income by 350 gold per day.",
+				"name" : "+350 Gold",
+				"tooltip" : "+350 Gold each day"
+			}
+		}
+	}
+}
+

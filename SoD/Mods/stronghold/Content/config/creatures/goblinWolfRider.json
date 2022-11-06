@@ -1,0 +1,54 @@
+{
+	"goblinWolfRider": {
+		"name" : {
+			"plural" : "Wolf Riders",
+			"singular" : "Wolf Rider"
+		},
+		"faction" : "stronghold",
+		"level" : 2,
+		"upgrades": ["hobgoblinWolfRider"],
+		"cost" : {
+			"gold" : 100
+		},
+		"speed" : 6,
+		"hitPoints" : 10,
+		"attack" : 7,
+		"defense" : 5,
+		"damage" : {
+			"max" : 4,
+			"min" : 2
+		},
+		"doubleWide" : true,
+		"growth" : 9,
+		"horde" : 0,
+		"hasDoubleWeek" : true,
+		"aiValue" : 130,
+		"fightValue" : 130,
+		"advMapAmount" : {
+			"max" : 30,
+			"min" : 16
+		},
+		"abilityText" : "",
+		"graphics" : {
+			"animation" : "creatures/goblinWolfRider/battle/CBWLFR.def",
+			"map" : "creatures/goblinWolfRider/adventureMap/AVWwolf0.def",
+			"iconSmall" : "creatures/goblinWolfRider/icons/CPRSMALL88.bmp",
+			"iconLarge" : "creatures/goblinWolfRider/icons/TwCrPort88.bmp",
+			"animationTime" : {
+				"attack" : 1,
+				"flight" : 1,
+				"idle" : 10,
+				"walk" : 0.93
+			},
+			"timeBetweenFidgets" : 1,
+			"troopCountLocationOffset" : 0
+		},
+		"sound" : {
+			"attack" : "creatures/goblinWolfRider/GWRDATTK.wav",
+			"defend" : "creatures/goblinWolfRider/GWRDDFND.wav",
+			"killed" : "creatures/goblinWolfRider/GWRDKILL.wav",
+			"move" : "creatures/goblinWolfRider/GWRDMOVE.wav",
+			"wince" : "creatures/goblinWolfRider/GWRDWNCE.wav"
+		}
+	}
+}

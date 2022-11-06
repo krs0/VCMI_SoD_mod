@@ -1,0 +1,13 @@
+{
+	"castle" :
+	{
+		"name" : "castle",
+		"alignment" : "good",
+		"nativeTerrain" : "grass",
+		"creatureBackground" :
+		{
+			"120px" : "factions/castle/TPCASCAS.bmp",
+			"130px" : "factions/castle/CRBKGCAS.bmp"
+		},
+	}
+}

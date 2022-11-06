@@ -1,0 +1,13 @@
+{
+	"stronghold" :
+	{
+		"name" : "stronghold",
+		"alignment" : "neutral",
+		"nativeTerrain" : "rough",
+		"creatureBackground" :
+		{
+			"120px" : "factions/stronghold/TPCASSTR.bmp",
+			"130px" : "factions/stronghold/CRBKGSTR.bmp"
+		},
+	}
+}

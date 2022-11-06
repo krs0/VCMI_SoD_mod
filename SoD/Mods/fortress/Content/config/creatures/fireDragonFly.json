@@ -1,0 +1,68 @@
+{
+	"fireDragonFly": {
+		"name" : {
+			"plural" : "Dragon Flies",
+			"singular" : "Dragon Fly"
+		},
+		"faction" : "fortress",
+		"level" : 3,
+		"cost" : {
+			"gold" : 240
+		},
+		"speed" : 13,
+		"hitPoints" : 20,
+		"attack" : 8,
+		"defense" : 10,
+		"damage" : {
+			"max" : 5,
+			"min" : 2
+		},
+		"doubleWide" : false,
+		"growth" : 8,
+		"horde" : 0,
+		"aiValue" : 312,
+		"fightValue" : 250,
+		"advMapAmount" : {
+			"max" : 16,
+			"min" : 10
+		},
+		"abilities" : {
+			"FLYING_ARMY" : {
+				"type" : "FLYING"
+			},
+			"castWeakness" : {
+				"subtype" : "spell.weakness",
+				"type" : "SPELL_AFTER_ATTACK",
+				"val" : 100
+			},
+			"dispellHelpful" : {
+				"subtype" : "spell.dispelHelpful",
+				"type" : "SPELL_AFTER_ATTACK",
+				"val" : 100
+			}
+		},
+		"abilityText" : "Dispels beneficial spells.  Weakens enemies.",
+		"graphics" : {
+			"animation" : "creatures/fireDragonFly/battle/CDRFIR.def",
+			"map" : "creatures/fireDragonFly/adventureMap/AvWDfir.def",
+			"iconSmall" : "creatures/fireDragonFly/icons/CPRSMALL107.bmp",
+			"iconLarge" : "creatures/fireDragonFly/icons/TwCrPort107.bmp",
+			"animationTime" : {
+				"attack" : 1,
+				"flight" : 1,
+				"idle" : 10,
+				"walk" : 0.77
+			},
+			"timeBetweenFidgets" : 1,
+			"troopCountLocationOffset" : 0
+		},
+		"sound" : {
+			"attack" : "creatures/fireDragonFly/FDFLATTK.wav",
+			"defend" : "creatures/fireDragonFly/FDFLDFND.wav",
+			"killed" : "creatures/fireDragonFly/FDFLKILL.wav",
+			"move" : "creatures/fireDragonFly/FDFLMOVE.wav",
+			"shoot" : "creatures/fireDragonFly/FDFLSHOT.wav",
+			"wince" : "creatures/fireDragonFly/FDFLWNCE.wav"
+		}
+	}
+}

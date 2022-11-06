@@ -1,0 +1,57 @@
+{
+	"gretchin" :
+	{
+		"class" : "barbarian",
+		"female" : true,
+
+		//"index" : 100,
+
+		"images" :
+		{
+			"specialtySmall" : "heroes/gretchin/icons/speciality/Un32100.bmp",
+			"specialtyLarge" : "heroes/gretchin/icons/speciality/Un44100.bmp",
+			"large" : "heroes/gretchin/icons/portrait/HPL100BR.bmp",
+			"small" : "heroes/gretchin/icons/portrait/HPS100BR.bmp"
+		},
+
+		"army" : [
+			{
+				"creature" : "goblin",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "goblin",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "goblin",
+				"max" : 25,
+				"min" : 15
+			}
+		],
+
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			},
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			}
+		],
+
+		"texts" : {
+			"biography" : "Not only is Gretchin an excellent leader, but all who follow her will tell you the same thing - she's like having another mom who can take care of you.",
+			"name" : "Gretchin",
+			"specialty" : {
+				"description" : "Increases the Attack and Defense skills of any Goblins or Hobgoblins for each level attained after 1st level.",
+				"name" : "Goblins",
+				"tooltip" : "Creature Bonus: Goblins"
+			}
+		}
+	}
+}
+

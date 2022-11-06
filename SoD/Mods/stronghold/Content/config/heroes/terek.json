@@ -1,0 +1,68 @@
+{
+	"terek" :
+	{
+		"class" : "battlemage",
+		"female" : false,
+
+		//"index" : 107,
+
+		"images" :
+		{
+			"specialtySmall" : "heroes/terek/icons/speciality/Un32107.bmp",
+			"specialtyLarge" : "heroes/terek/icons/speciality/Un44107.bmp",
+			"large" : "heroes/terek/icons/portrait/HPL107BM.bmp",
+			"small" : "heroes/terek/icons/portrait/HPS107BM.bmp"
+		},
+
+		"army" : [
+			{
+				"creature" : "goblin",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "goblinWolfRider",
+				"max" : 7,
+				"min" : 5
+			},
+			{
+				"creature" : "orc",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "tactics"
+			}
+		],
+		"specialties" : [
+			{
+				"info" : 0,
+				"subtype" : 2,
+				"type" : 2,
+				"val" : 5
+			}
+		],
+		"spellbook" : [
+			"haste"
+		],
+		
+		"texts" : {
+			"biography" : "Terek spent several years as a strong-man in the Circus of the Sun, challenging spectators to see who could throw large rocks the furthest.  One day he lost, and was run out of the Circus, but the man who had beaten him recruited him for the Krewlod Army.",
+			"name" : "Terek",
+			"specialty" : {
+				"description" : "Casts Haste with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
+				"name" : "Haste",
+				"tooltip" : "Spell Bonus: Haste"
+			}
+		}
+	}
+}
+

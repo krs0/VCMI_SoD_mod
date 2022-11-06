@@ -1,0 +1,13 @@
+{
+	"conflux" :
+	{
+		"name" : "conflux",
+		"alignment" : "neutral",
+		"nativeTerrain" : "grass",
+		"creatureBackground" :
+		{
+			"120px" : "factions/conflux/TPCASELE.bmp",
+			"130px" : "factions/conflux/CRBKGELE.bmp"
+		},
+	}
+}

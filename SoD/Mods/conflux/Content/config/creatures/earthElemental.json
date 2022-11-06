@@ -1,0 +1,78 @@
+{
+	"earthElemental": {
+		"name" : {
+			"plural" : "Earth Elementals",
+			"singular" : "Earth Elemental"
+		},
+		"faction" : "conflux",
+		"level" : 5,
+		"upgrades": ["magmaElemental"],
+		"cost" : {
+			"gold" : 400
+		},
+		"speed" : 4,
+		"hitPoints" : 40,
+		"attack" : 10,
+		"defense" : 10,
+		"damage" : {
+			"max" : 8,
+			"min" : 4
+		},
+		"doubleWide" : false,
+		"growth" : 4,
+		"horde" : 0,
+		"aiValue" : 330,
+		"fightValue" : 415,
+		"advMapAmount" : {
+			"max" : 30,
+			"min" : 16
+		},
+		"abilities" : {
+			"armageddonImmunity" : {
+				"subtype" : "spell.armageddon",
+				"type" : "SPELL_IMMUNITY"
+			},
+			"chainLightingImmunity" : {
+				"subtype" : "spell.chainLightning",
+				"type" : "SPELL_IMMUNITY"
+			},
+			"immuneToMind" : {
+				"type" : "MIND_IMMUNITY"
+			},
+			"lightingImmunity" : {
+				"subtype" : "spell.lightningBolt",
+				"type" : "SPELL_IMMUNITY"
+			},
+			"meteorShowerVulnerability" : {
+				"subtype" : "spell.meteorShower",
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"val" : 100
+			},
+			"nonLiving" : {
+				"type" : "NON_LIVING"
+			}
+		},
+		"abilityText" : "Meteor shower vulnerability.",
+		"graphics" : {
+			"animation" : "creatures/earthElemental/battle/CEELEM.def",
+			"map" : "creatures/earthElemental/adventureMap/AVWelme0.def",
+			"iconSmall" : "creatures/earthElemental/icons/CPRSMALL115.bmp",
+			"iconLarge" : "creatures/earthElemental/icons/TwCrPort115.bmp",
+			"animationTime" : {
+				"attack" : 1,
+				"flight" : 1,
+				"idle" : 0,
+				"walk" : 1
+			},
+			"timeBetweenFidgets" : 1,
+			"troopCountLocationOffset" : 0
+		},
+		"sound" : {
+			"attack" : "creatures/earthElemental/EELMATTK.wav",
+			"defend" : "creatures/earthElemental/EELMDFND.wav",
+			"killed" : "creatures/earthElemental/EELMKILL.wav",
+			"move" : "creatures/earthElemental/EELMMOVE.wav",
+			"wince" : "creatures/earthElemental/EELMWNCE.wav"
+		},
+	}
+}

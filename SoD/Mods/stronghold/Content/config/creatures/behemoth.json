@@ -1,0 +1,62 @@
+{
+	"behemoth": {
+		"name" : {
+			"plural" : "Behemoths",
+			"singular" : "Behemoth"
+		},
+		"faction" : "stronghold",
+		"level" : 7,
+		"upgrades": ["ancientBehemoth"],
+		"cost" : {
+			"gold" : 1500
+		},
+		"speed" : 6,
+		"hitPoints" : 160,
+		"attack" : 17,
+		"defense" : 17,
+		"damage" : {
+			"max" : 50,
+			"min" : 30
+		},
+		"doubleWide" : true,
+		"growth" : 1,
+		"horde" : 0,
+		"aiValue" : 3162,
+		"fightValue" : 3162,
+		"advMapAmount" : {
+			"max" : 10,
+			"min" : 4
+		},
+		"abilities" : {
+			"KING_1" : {
+				"type" : "KING1"
+			},
+			"reduceDefence" : {
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 40
+			}
+		},
+		"abilityText" : "Target enemy's defense is reduced 40%.",
+		"graphics" : {
+			"animation" : "creatures/behemoth/battle/CYBEHE.def",
+			"map" : "creatures/behemoth/adventureMap/AVWbhmt0.def",
+			"iconSmall" : "creatures/behemoth/icons/CPRSMALL98.bmp",
+			"iconLarge" : "creatures/behemoth/icons/TwCrPort98.bmp",
+			"animationTime" : {
+				"attack" : 1,
+				"flight" : 1,
+				"idle" : 10,
+				"walk" : 1.17
+			},
+			"timeBetweenFidgets" : 1,
+			"troopCountLocationOffset" : 0
+		},
+		"sound" : {
+			"attack" : "creatures/behemoth/YBMHATTK.wav",
+			"defend" : "creatures/behemoth/YBMHDFND.wav",
+			"killed" : "creatures/behemoth/YBMHKILL.wav",
+			"move" : "creatures/behemoth/YBMHMOVE.wav",
+			"wince" : "creatures/behemoth/YBMHWNCE.wav"
+		}
+	}
+}

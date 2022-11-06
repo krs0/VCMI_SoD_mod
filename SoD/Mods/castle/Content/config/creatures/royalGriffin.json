@@ -1,0 +1,61 @@
+{
+	"royalGriffin": {
+		"name" : {
+			"plural" : "Royal Griffins",
+			"singular" : "Royal Griffin"
+		},
+		"faction" : "castle",
+		"level" : 3,
+		"cost" : {
+			"gold" : 240
+		},
+		"speed" : 9,
+		"hitPoints" : 25,
+		"attack" : 9,
+		"defense" : 9,
+		"damage" : {
+			"max" : 6,
+			"min" : 3
+		},
+		"doubleWide" : true,
+		"growth" : 7,
+		"horde" : 3,
+		"aiValue" : 448,
+		"fightValue" : 364,
+		"advMapAmount" : {
+			"max" : 20,
+			"min" : 12
+		},
+		"abilities" : {
+			"FLYING_ARMY" : {
+				"type" : "FLYING"
+			},
+			"unlimitedRetaliation" : {
+				"type" : "UNLIMITED_RETALIATIONS"
+			}
+		},
+		"abilityText" : "Unlimited retaliations.",
+		"hasDoubleWeek" : true,
+		"graphics" : {
+			"animation" : "creatures/royalGriffin/battle/CRGRIF.def",
+			"map" : "creatures/royalGriffin/adventureMap/AVWgrix0.def",
+			"iconSmall" : "creatures/royalGriffin/icons/CPRSMALL7.bmp",
+			"iconLarge" : "creatures/royalGriffin/icons/TwCrPort7.bmp",
+			"animationTime" : {
+				"attack" : 1,
+				"flight" : 1,
+				"idle" : 10,
+				"walk" : 1.05
+			},
+			"timeBetweenFidgets" : 1,
+			"troopCountLocationOffset" : 0
+		},
+		"sound" : {
+			"attack" : "creatures/royalGriffin/RGRFATTK.wav",
+			"defend" : "creatures/royalGriffin/RGRFDFND.wav",
+			"killed" : "creatures/royalGriffin/RGRFKILL.wav",
+			"move" : "creatures/royalGriffin/RGRFMOVE.wav",
+			"wince" : "creatures/royalGriffin/RGRFWNCE.wav"
+		}
+	}
+}

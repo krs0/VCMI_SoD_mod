@@ -1,0 +1,13 @@
+{
+	"dungeon" :
+	{
+		"name" : "dungeon",
+		"alignment" : "evil",
+		"nativeTerrain" : "subterra",
+		"creatureBackground" :
+		{
+			"120px" : "factions/dungeon/TPCASDUN.bmp",
+			"130px" : "factions/dungeon/CRBKGDUN.bmp"
+		},
+	}
+}

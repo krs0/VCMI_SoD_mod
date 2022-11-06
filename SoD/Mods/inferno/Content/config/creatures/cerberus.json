@@ -1,0 +1,61 @@
+{
+	"cerberus": {
+		"name" : {
+			"plural" : "Cerberi",
+			"singular" : "Cerberus"
+		},
+		"faction" : "inferno",
+		"level" : 3,
+		"cost" : {
+			"gold" : 250
+		},
+		"speed" : 8,
+		"hitPoints" : 25,
+		"attack" : 10,
+		"defense" : 8,
+		"damage" : {
+			"max" : 7,
+			"min" : 2
+		},
+		"doubleWide" : true,
+		"growth" : 5,
+		"horde" : 3,
+		"aiValue" : 392,
+		"fightValue" : 308,
+		"advMapAmount" : {
+			"max" : 20,
+			"min" : 12
+		},
+		"abilities" : {
+			"FLYING_ARMY" : null,
+			"noRetaliation" : {
+				"type" : "BLOCKS_RETALIATION"
+			},
+			"threeHeads" : {
+				"type" : "THREE_HEADED_ATTACK"
+			}
+		},
+		"abilityText" : "3-headed attack.\nEnemies cannot retaliate.",
+		"graphics" : {
+			"animation" : "creatures/cerberus/battle/CCERBU.def",
+			"map" : "creatures/cerberus/adventureMap/AVWhoux0.def",
+			"iconSmall" : "creatures/cerberus/icons/CPRSMALL48.bmp",
+			"iconLarge" : "creatures/cerberus/icons/TwCrPort48.bmp",
+			"animationTime" : {
+				"attack" : 1,
+				"flight" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"timeBetweenFidgets" : 1,
+			"troopCountLocationOffset" : 0
+		},
+		"sound" : {
+			"attack" : "creatures/cerberus/CERBATTK.wav",
+			"defend" : "creatures/cerberus/CERBDFND.wav",
+			"killed" : "creatures/cerberus/CERBKILL.wav",
+			"move" : "creatures/cerberus/CERBMOVE.wav",
+			"wince" : "creatures/cerberus/CERBWNCE.wav"
+		}
+	}
+}

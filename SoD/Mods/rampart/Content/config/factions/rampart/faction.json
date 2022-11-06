@@ -1,0 +1,13 @@
+{
+	"rampart" :
+	{
+		"name" : "rampart",
+		"alignment" : "good",
+		"nativeTerrain" : "grass",
+		"creatureBackground" :
+		{
+			"120px" : "factions/rampart/TPCASRAM.bmp",
+			"130px" : "factions/rampart/CRBKGRAM.bmp"
+		},
+	}
+}

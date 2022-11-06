@@ -1,0 +1,66 @@
+{
+	"wight": {
+		"name" : {
+			"plural" : "Wights",
+			"singular" : "Wight"
+		},
+		"faction" : "necropolis",
+		"level" : 3,
+		"upgrades": ["wraith"],
+		"cost" : {
+			"gold" : 200
+		},
+		"speed" : 5,
+		"hitPoints" : 18,
+		"attack" : 7,
+		"defense" : 7,
+		"damage" : {
+			"max" : 5,
+			"min" : 3
+		},
+		"doubleWide" : false,
+		"growth" : 7,
+		"hasDoubleWeek" : true,
+		"horde" : 0,
+		"aiValue" : 252,
+		"fightValue" : 231,
+		"advMapAmount" : {
+			"max" : 25,
+			"min" : 12
+		},
+		"abilities" : {
+			"FLYING_ARMY" : {
+				"type" : "FLYING"
+			},
+			"IS_UNDEAD" : {
+				"type" : "UNDEAD"
+			},
+			"regenerate" : {
+				"subtype" : 1,
+				"type" : "FULL_HP_REGENERATION"
+			}
+		},
+		"abilityText" : "Undead.  Regenerating.",
+		"graphics" : {
+			"animation" : "creatures/wight/battle/CWIGHT.def",
+			"map" : "creatures/wight/adventureMap/AvWWigh.def",
+			"iconSmall" : "creatures/wight/icons/CPRSMALL62.bmp",
+			"iconLarge" : "creatures/wight/icons/TwCrPort62.bmp",
+			"animationTime" : {
+				"attack" : 1,
+				"flight" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"timeBetweenFidgets" : 1,
+			"troopCountLocationOffset" : 0
+		},
+		"sound" : {
+			"attack" : "creatures/wight/WGHTATTK.wav",
+			"defend" : "creatures/wight/WGHTDFND.wav",
+			"killed" : "creatures/wight/WGHTKILL.wav",
+			"move" : "creatures/wight/WGHTMOVE.wav",
+			"wince" : "creatures/wight/WGHTWNCE.wav"
+		}
+	}
+}

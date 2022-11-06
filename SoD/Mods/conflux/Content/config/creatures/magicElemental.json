@@ -1,0 +1,70 @@
+{
+	"magicElemental": {
+		"name" : {
+			"plural" : "Magic Elementals",
+			"singular" : "Magic Elemental"
+		},
+		"faction" : "conflux",
+		"level" : 6,
+		"cost" : {
+			"gold" : 800
+		},
+		"speed" : 9,
+		"hitPoints" : 80,
+		"attack" : 15,
+		"defense" : 13,
+		"damage" : {
+			"max" : 25,
+			"min" : 15
+		},
+		"doubleWide" : false,
+		"growth" : 2,
+		"horde" : 0,
+		"aiValue" : 2012,
+		"fightValue" : 1724,
+		"advMapAmount" : {
+			"max" : 12,
+			"min" : 8
+		},
+		"abilities" : {
+			"IMMUNE_TO_MIND_SPELLS" : {
+				"type" : "MIND_IMMUNITY"
+			},
+			"MULTI_HEADED" : {
+				"type" : "ATTACKS_ALL_ADJACENT"
+			},
+			"const_free_attack" : {
+				"type" : "BLOCKS_RETALIATION"
+			},
+			"magicImmunity" : {
+				"type" : "LEVEL_SPELL_IMMUNITY",
+				"val" : 5
+			},
+			"nonLiving" : {
+				"type" : "NON_LIVING"
+			}
+		},
+		"abilityText" : "Attacks all adjacent enemies w/o retaliation. Spell immunity.",
+		"graphics" : {
+			"animation" : "creatures/magicElemental/battle/CMAGEL.def",
+			"map" : "creatures/magicElemental/adventureMap/AVWmagel.def",
+			"iconSmall" : "creatures/magicElemental/icons/CPRSMALL123.bmp",
+			"iconLarge" : "creatures/magicElemental/icons/TwCrPort123.bmp",
+			"animationTime" : {
+				"attack" : 1,
+				"flight" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"timeBetweenFidgets" : 1,
+			"troopCountLocationOffset" : 0
+		},
+		"sound" : {
+			"attack" : "creatures/magicElemental/MGELATTK.wav",
+			"defend" : "creatures/magicElemental/MGELDFND.wav",
+			"killed" : "creatures/magicElemental/MGELKILL.wav",
+			"move" : "creatures/magicElemental/MGELMOVE.wav",
+			"wince" : "creatures/magicElemental/MGELWNCE.wav"
+		}
+	}
+}

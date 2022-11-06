@@ -1,0 +1,117 @@
+{
+	"creatureGeneratorCommon" :
+	{
+		"goblinBarracks" : 
+		{
+			"name" : "Goblin Barracks",
+			"creatures" : [
+				[
+					"goblin"
+				]
+			],
+			"templates" : 
+			{
+				"default" : 
+				{
+					"animation" : "factions/stronghold/adventureMap/dwellings/AVGgobl0.def",
+				}
+			}
+		},
+		"wolfPen" : 
+		{
+			"name" : "Wolf Pen",
+			"creatures" : [
+				[
+					"goblinWolfRider"
+				]
+			],
+			"templates" : 
+			{
+				"default" : 
+				{
+					"animation" : "factions/stronghold/adventureMap/dwellings/AVGWOLF0.def",
+				}
+			}
+		},
+		"orcTower" : 
+		{
+			"name" : "Orc Tower",
+			"creatures" : [
+				[
+					"orc"
+				]
+			],
+			"templates" : 
+			{
+				"default" : 
+				{
+					"animation" : "factions/stronghold/adventureMap/dwellings/AVGorcg0.def",
+				}
+			}
+		},
+		"ogreFort" : 
+		{
+			"name" : "Ogre Fort",
+			"creatures" : [
+				[
+					"ogre"
+				]
+			],
+			"templates" : 
+			{
+				"default" : 
+				{
+					"animation" : "factions/stronghold/adventureMap/dwellings/AVGogre0.def",
+				}
+			}
+		},
+		"cliffNest" : 
+		{
+			"name" : "Cliff Nest",
+			"creatures" : [
+				[
+					"roc"
+				]
+			],
+			"templates" : 
+			{
+				"default" : 
+				{
+					"animation" : "factions/stronghold/adventureMap/dwellings/AVGrocs0.def",
+				}
+			}
+		},
+		"cyclopsCave" : 
+		{
+			"name" : "Cyclops Cave",
+			"creatures" : [
+				[
+					"cyclop"
+				]
+			],
+			"templates" : 
+			{
+				"default" : 
+				{
+					"animation" : "factions/stronghold/adventureMap/dwellings/AVGcycl0.def",
+				}
+			}
+		},
+		"behemothLair" : 
+		{
+			"name" : "Behemoth Lair",
+			"creatures" : [
+				[
+					"behemoth"
+				]
+			],
+			"templates" : 
+			{
+				"default" : 
+				{
+					"animation" : "factions/stronghold/adventureMap/dwellings/AVGbhmt0.def",
+				}
+			}
+		}
+	}
+}

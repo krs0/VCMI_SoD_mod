@@ -1,0 +1,64 @@
+{
+	"unicorn": {
+		"name" : {
+			"plural" : "Unicorns",
+			"singular" : "Unicorn"
+		},
+		"faction" : "rampart",
+		"level" : 6,
+		"upgrades": ["warUnicorn"],
+		"cost" : {
+			"gold" : 850
+		},
+		"speed" : 7,
+		"hitPoints" : 90,
+		"attack" : 15,
+		"defense" : 14,
+		"damage" : {
+			"max" : 22,
+			"min" : 18
+		},
+		"doubleWide" : true,
+		"growth" : 2,
+		"horde" : 0,
+		"aiValue" : 1806,
+		"fightValue" : 1548,
+		"advMapAmount" : {
+			"max" : 12,
+			"min" : 5
+		},
+		"abilities" : {
+			"blinds" : {
+				"subtype" : "spell.blind",
+				"type" : "SPELL_AFTER_ATTACK",
+				"val" : 20
+			},
+			"spellResistAura" : {
+				"type" : "SPELL_RESISTANCE_AURA",
+				"val" : 20
+			}
+		},
+		"abilityText" : "Aura of magic resistance.  Blinding attack.",
+		"graphics" : {
+			"animation" : "creatures/unicorn/battle/CUNICO.def",
+			"map" : "creatures/unicorn/adventureMap/AVWunic0.def",
+			"iconSmall" : "creatures/unicorn/icons/CPRSMALL26.bmp",
+			"iconLarge" : "creatures/unicorn/icons/TwCrPort26.bmp",
+			"animationTime" : {
+				"attack" : 1,
+				"flight" : 1,
+				"idle" : 10,
+				"walk" : 1.2
+			},
+			"timeBetweenFidgets" : 1,
+			"troopCountLocationOffset" : 0
+		},
+		"sound" : {
+			"attack" : "creatures/unicorn/UNICATTK.wav",
+			"defend" : "creatures/unicorn/UNICDFND.wav",
+			"killed" : "creatures/unicorn/UNICKILL.wav",
+			"move" : "creatures/unicorn/UNICMOVE.wav",
+			"wince" : "creatures/unicorn/UNICWNCE.wav"
+		},
+	}
+}

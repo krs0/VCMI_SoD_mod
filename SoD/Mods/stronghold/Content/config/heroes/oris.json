@@ -1,0 +1,68 @@
+{
+	"oris" :
+	{
+		"class" : "battlemage",
+		"female" : true,
+
+		//"index" : 110,
+
+		"images" :
+		{
+			"specialtySmall" : "heroes/oris/icons/speciality/Un32110.bmp",
+			"specialtyLarge" : "heroes/oris/icons/speciality/Un44110.bmp",
+			"large" : "heroes/oris/icons/portrait/HPL110BM.bmp",
+			"small" : "heroes/oris/icons/portrait/HPS110BM.bmp"
+		},
+
+		"army" : [
+			{
+				"creature" : "goblin",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "goblinWolfRider",
+				"max" : 7,
+				"min" : 5
+			},
+			{
+				"creature" : "orc",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "eagleEye"
+			}
+		],
+		"specialties" : [
+			{
+				"info" : 0,
+				"subtype" : 25,
+				"type" : 2,
+				"val" : 5
+			}
+		],
+		"spellbook" : [
+			"protectAir"
+		],
+		
+		"texts" : {
+			"biography" : "Oris did not show much promise as a mage early in her career, but her uncanny ability to learn nearly any spell she sees cast has made up for any apparent lack of magical skills.",
+			"name" : "Oris",
+			"specialty" : {
+				"description" : "Receives a 5% per level bonus to Eagle Eye skill percentage.",
+				"name" : "Eagle Eye",
+				"tooltip" : "Secondary Skill Bonus: Eagle Eye"
+			}
+		}
+	}
+}
+
