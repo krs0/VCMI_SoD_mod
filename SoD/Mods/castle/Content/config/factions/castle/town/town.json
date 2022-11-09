@@ -92,22 +92,22 @@
 			{
 				"village" : {
 					"normal" : {
-						"small" : "factions/castle/town/icons/itpa20.bmp",
-					 	"large" : "factions/castle/town/icons/itpt18.bmp"
+						"small" : "factions/castle/town/icons/ITPA_0_20.bmp",
+					 	"large" : "factions/castle/town/icons/ITPT_0_18.bmp"
 					 },
 					"built"  : {
-						"small" : "factions/castle/town/icons/itpa21.bmp",
-						"large" : "factions/castle/town/icons/itpt19.bmp" 
+						"small" : "factions/castle/town/icons/ITPA_0_21.bmp",
+						"large" : "factions/castle/town/icons/ITPT_0_19.bmp" 
 					}
 				},
 				"fort" : {
 					"normal" : {
-						"small" : "factions/castle/town/icons/itpa2.bmp",
-					 	"large" : "factions/castle/town/icons/itpt0.bmp" 
+						"small" : "factions/castle/town/icons/ITPA_0_2.bmp",
+					 	"large" : "factions/castle/town/icons/ITPT_0_0.bmp" 
 					 },
 					"built"  : {
-						"small" : "factions/castle/town/icons/itpa3.bmp",
-						 "large" : "factions/castle/town/icons/itpt1.bmp"
+						"small" : "factions/castle/town/icons/ITPA_0_3.bmp",
+						 "large" : "factions/castle/town/icons/ITPT_0_1.bmp"
 					}
 				}
 			},

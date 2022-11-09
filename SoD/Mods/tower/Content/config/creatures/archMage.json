@@ -46,8 +46,8 @@
 		"graphics" : {
 			"animation" : "creatures/archMage/battle/CAMAGE.def",
 			"map" : "creatures/archMage/adventureMap/AVWmagx0.def",
-			"iconSmall" : "creatures/archMage/icons/CPRSMALL37.bmp",
-			"iconLarge" : "creatures/archMage/icons/TwCrPort37.bmp",
+			"iconSmall" : "creatures/archMage/icons/CPRSMALL_0_37.bmp",
+			"iconLarge" : "creatures/archMage/icons/TWCRPORT_0_37.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

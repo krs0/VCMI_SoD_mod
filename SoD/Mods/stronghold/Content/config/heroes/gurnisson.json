@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/gurnisson/icons/speciality/Un3297.bmp",
-			"specialtyLarge" : "heroes/gurnisson/icons/speciality/Un4497.bmp",
+			"specialtySmall" : "heroes/gurnisson/icons/speciality/UN32_0_97.bmp",
+			"specialtyLarge" : "heroes/gurnisson/icons/speciality/UN44_0_97.bmp",
 			"large" : "heroes/gurnisson/icons/portrait/HPL097BR.bmp",
 			"small" : "heroes/gurnisson/icons/portrait/HPS097BR.bmp"
 		},

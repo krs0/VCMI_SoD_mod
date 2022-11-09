@@ -32,8 +32,8 @@
 		"graphics" : {
 			"animation" : "creatures/gnoll/battle/CGNOLL.def",
 			"map" : "creatures/gnoll/adventureMap/AVWgnll0.def",
-			"iconSmall" : "creatures/gnoll/icons/CPRSMALL100.bmp",
-			"iconLarge" : "creatures/gnoll/icons/TwCrPort100.bmp",
+			"iconSmall" : "creatures/gnoll/icons/CPRSMALL_0_100.bmp",
+			"iconLarge" : "creatures/gnoll/icons/TWCRPORT_0_100.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

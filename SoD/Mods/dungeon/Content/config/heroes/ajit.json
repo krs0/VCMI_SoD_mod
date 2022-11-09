@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/ajit/icons/speciality/Un3283.bmp",
-			"specialtyLarge" : "heroes/ajit/icons/speciality/Un4483.bmp",
+			"specialtySmall" : "heroes/ajit/icons/speciality/UN32_0_83.bmp",
+			"specialtyLarge" : "heroes/ajit/icons/speciality/UN44_0_83.bmp",
 			"large" : "heroes/ajit/icons/portrait/HPL083OV.bmp",
 			"small" : "heroes/ajit/icons/portrait/HPS083OV.bmp"
 		},

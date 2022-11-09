@@ -43,8 +43,8 @@
 		"graphics" : {
 			"animation" : "creatures/vampire/battle/CVAMP.def",
 			"map" : "creatures/vampire/adventureMap/AVWvamp0.def",
-			"iconSmall" : "creatures/vampire/icons/CPRSMALL64.bmp",
-			"iconLarge" : "creatures/vampire/icons/TwCrPort64.bmp",
+			"iconSmall" : "creatures/vampire/icons/CPRSMALL_0_64.bmp",
+			"iconLarge" : "creatures/vampire/icons/TWCRPORT_0_64.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

@@ -38,8 +38,8 @@
 		"graphics" : {
 			"animation" : "creatures/dendroidGuard/battle/CTREE.def",
 			"map" : "creatures/dendroidGuard/adventureMap/AVWtrex0.def",
-			"iconSmall" : "creatures/dendroidGuard/icons/CPRSMALL24.bmp",
-			"iconLarge" : "creatures/dendroidGuard/icons/TwCrPort24.bmp",
+			"iconSmall" : "creatures/dendroidGuard/icons/CPRSMALL_0_24.bmp",
+			"iconLarge" : "creatures/dendroidGuard/icons/TWCRPORT_0_24.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

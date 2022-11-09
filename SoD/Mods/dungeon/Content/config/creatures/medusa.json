@@ -47,8 +47,8 @@
 		"graphics" : {
 			"animation" : "creatures/medusa/battle/CMEDUS.def",
 			"map" : "creatures/medusa/adventureMap/AvWMeds.def",
-			"iconSmall" : "creatures/medusa/icons/CPRSMALL78.bmp",
-			"iconLarge" : "creatures/medusa/icons/TwCrPort78.bmp",
+			"iconSmall" : "creatures/medusa/icons/CPRSMALL_0_78.bmp",
+			"iconLarge" : "creatures/medusa/icons/TWCRPORT_0_78.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

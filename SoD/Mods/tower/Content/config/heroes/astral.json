@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/astral/icons/speciality/Un3240.bmp",
-			"specialtyLarge" : "heroes/astral/icons/speciality/Un4440.bmp",
+			"specialtySmall" : "heroes/astral/icons/speciality/UN32_0_40.bmp",
+			"specialtyLarge" : "heroes/astral/icons/speciality/UN44_0_40.bmp",
 			"large" : "heroes/astral/icons/portrait/HPL040WZ.bmp",
 			"small" : "heroes/astral/icons/portrait/HPS040WZ.bmp"
 		},

@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/gundula/icons/speciality/Un32109.bmp",
-			"specialtyLarge" : "heroes/gundula/icons/speciality/Un44109.bmp",
+			"specialtySmall" : "heroes/gundula/icons/speciality/UN32_0_109.bmp",
+			"specialtyLarge" : "heroes/gundula/icons/speciality/UN44_0_109.bmp",
 			"large" : "heroes/gundula/icons/portrait/HPL109BM.bmp",
 			"small" : "heroes/gundula/icons/portrait/HPS109BM.bmp"
 		},

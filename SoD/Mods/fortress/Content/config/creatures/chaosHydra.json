@@ -42,8 +42,8 @@
 		"graphics" : {
 			"animation" : "creatures/chaosHydra/battle/CCHYDR.def",
 			"map" : "creatures/chaosHydra/adventureMap/AVWhydx0.def",
-			"iconSmall" : "creatures/chaosHydra/icons/CPRSMALL113.bmp",
-			"iconLarge" : "creatures/chaosHydra/icons/TwCrPort113.bmp",
+			"iconSmall" : "creatures/chaosHydra/icons/CPRSMALL_0_113.bmp",
+			"iconLarge" : "creatures/chaosHydra/icons/TWCRPORT_0_113.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

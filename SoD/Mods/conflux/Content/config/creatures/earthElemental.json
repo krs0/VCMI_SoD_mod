@@ -56,8 +56,8 @@
 		"graphics" : {
 			"animation" : "creatures/earthElemental/battle/CEELEM.def",
 			"map" : "creatures/earthElemental/adventureMap/AVWelme0.def",
-			"iconSmall" : "creatures/earthElemental/icons/CPRSMALL115.bmp",
-			"iconLarge" : "creatures/earthElemental/icons/TwCrPort115.bmp",
+			"iconSmall" : "creatures/earthElemental/icons/CPRSMALL_0_115.bmp",
+			"iconLarge" : "creatures/earthElemental/icons/TWCRPORT_0_115.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

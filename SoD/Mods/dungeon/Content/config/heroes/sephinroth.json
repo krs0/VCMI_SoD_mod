@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/sephinroth/icons/speciality/Un3294.bmp",
-			"specialtyLarge" : "heroes/sephinroth/icons/speciality/Un4494.bmp",
+			"specialtySmall" : "heroes/sephinroth/icons/speciality/UN32_0_94.bmp",
+			"specialtyLarge" : "heroes/sephinroth/icons/speciality/UN44_0_94.bmp",
 			"large" : "heroes/sephinroth/icons/portrait/HPL094WL.bmp",
 			"small" : "heroes/sephinroth/icons/portrait/HPS094WL.bmp"
 		},

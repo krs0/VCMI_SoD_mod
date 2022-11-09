@@ -36,8 +36,8 @@
 		"graphics" : {
 			"animation" : "creatures/skeleton/battle/CSKELE.def",
 			"map" : "creatures/skeleton/adventureMap/AVWskel0.def",
-			"iconSmall" : "creatures/skeleton/icons/CPRSMALL58.bmp",
-			"iconLarge" : "creatures/skeleton/icons/TwCrPort58.bmp",
+			"iconSmall" : "creatures/skeleton/icons/CPRSMALL_0_58.bmp",
+			"iconLarge" : "creatures/skeleton/icons/TWCRPORT_0_58.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

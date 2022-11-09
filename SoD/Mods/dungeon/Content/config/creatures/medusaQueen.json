@@ -46,8 +46,8 @@
 		"graphics" : {
 			"animation" : "creatures/medusaQueen/battle/CMEDUQ.def",
 			"map" : "creatures/medusaQueen/adventureMap/AVWmedx0.def",
-			"iconSmall" : "creatures/medusaQueen/icons/CPRSMALL79.bmp",
-			"iconLarge" : "creatures/medusaQueen/icons/TwCrPort79.bmp",
+			"iconSmall" : "creatures/medusaQueen/icons/CPRSMALL_0_79.bmp",
+			"iconLarge" : "creatures/medusaQueen/icons/TWCRPORT_0_79.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

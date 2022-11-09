@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/merist/icons/speciality/Un32124.bmp",
-			"specialtyLarge" : "heroes/merist/icons/speciality/Un44124.bmp",
+			"specialtySmall" : "heroes/merist/icons/speciality/UN32_0_124.bmp",
+			"specialtyLarge" : "heroes/merist/icons/speciality/UN44_0_124.bmp",
 			"large" : "heroes/merist/icons/portrait/HPL124WH.bmp",
 			"small" : "heroes/merist/icons/portrait/HPS124WH.bmp"
 		},

@@ -44,8 +44,8 @@
 		"graphics" : {
 			"animation" : "creatures/cyclopKing/battle/CCYCLLOR.def",
 			"map" : "creatures/cyclopKing/adventureMap/AVWcycx0.def",
-			"iconSmall" : "creatures/cyclopKing/icons/CPRSMALL97.bmp",
-			"iconLarge" : "creatures/cyclopKing/icons/TwCrPort97.bmp",
+			"iconSmall" : "creatures/cyclopKing/icons/CPRSMALL_0_97.bmp",
+			"iconLarge" : "creatures/cyclopKing/icons/TWCRPORT_0_97.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

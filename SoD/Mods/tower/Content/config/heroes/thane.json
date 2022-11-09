@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/thane/icons/speciality/Un3233.bmp",
-			"specialtyLarge" : "heroes/thane/icons/speciality/Un4433.bmp",
+			"specialtySmall" : "heroes/thane/icons/speciality/UN32_0_33.bmp",
+			"specialtyLarge" : "heroes/thane/icons/speciality/UN44_0_33.bmp",
 			"large" : "heroes/thane/icons/portrait/HPL033AL.bmp",
 			"small" : "heroes/thane/icons/portrait/HPS033AL.bmp"
 		},

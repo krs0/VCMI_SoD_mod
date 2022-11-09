@@ -40,8 +40,8 @@
 		"graphics" : {
 			"animation" : "creatures/goldGolem/battle/CGGOLE.def",
 			"map" : "creatures/goldGolem/adventureMap/AVWglmg0.def",
-			"iconSmall" : "creatures/goldGolem/icons/CPRSMALL118.bmp",
-			"iconLarge" : "creatures/goldGolem/icons/TwCrPort118.bmp",
+			"iconSmall" : "creatures/goldGolem/icons/CPRSMALL_0_118.bmp",
+			"iconLarge" : "creatures/goldGolem/icons/TWCRPORT_0_118.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

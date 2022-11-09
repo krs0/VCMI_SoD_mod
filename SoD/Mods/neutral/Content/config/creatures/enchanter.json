@@ -85,8 +85,8 @@
 		"graphics" : {
 			"animation" : "creatures/enchanter/battle/Cench.def",
 			"map" : "creatures/enchanter/adventureMap/AVWench.def",
-			"iconSmall" : "creatures/enchanter/icons/CPRSMALL138.bmp",
-			"iconLarge" : "creatures/enchanter/icons/TwCrPort138.bmp",
+			"iconSmall" : "creatures/enchanter/icons/CPRSMALL_0_138.bmp",
+			"iconLarge" : "creatures/enchanter/icons/TWCRPORT_0_138.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

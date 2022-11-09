@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/cyra/icons/speciality/Un3246.bmp",
-			"specialtyLarge" : "heroes/cyra/icons/speciality/Un4446.bmp",
+			"specialtySmall" : "heroes/cyra/icons/speciality/UN32_0_46.bmp",
+			"specialtyLarge" : "heroes/cyra/icons/speciality/UN44_0_46.bmp",
 			"large" : "heroes/cyra/icons/portrait/HPL046WZ.bmp",
 			"small" : "heroes/cyra/icons/portrait/HPS046WZ.bmp"
 		},

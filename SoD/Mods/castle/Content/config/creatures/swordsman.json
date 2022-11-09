@@ -30,8 +30,8 @@
 		"graphics" : {
 			"animation" : "creatures/swordsman/battle/CSWORD.def",
 			"map" : "creatures/swordsman/adventureMap/AVWswrd0.def",
-			"iconSmall" : "creatures/swordsman/icons/CPRSMALL8.bmp",
-			"iconLarge" : "creatures/swordsman/icons/TwCrPort8.bmp",
+			"iconSmall" : "creatures/swordsman/icons/CPRSMALL_0_8.bmp",
+			"iconLarge" : "creatures/swordsman/icons/TWCRPORT_0_8.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

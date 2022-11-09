@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/fiur/icons/speciality/Un32134.bmp",
-			"specialtyLarge" : "heroes/fiur/icons/speciality/Un44134.bmp",
+			"specialtySmall" : "heroes/fiur/icons/speciality/UN32_0_134.bmp",
+			"specialtyLarge" : "heroes/fiur/icons/speciality/UN44_0_134.bmp",
 			"large" : "heroes/fiur/icons/portrait/HPL006PL.bmp",
 			"small" : "heroes/fiur/icons/portrait/HPS006PL.bmp"
 		},

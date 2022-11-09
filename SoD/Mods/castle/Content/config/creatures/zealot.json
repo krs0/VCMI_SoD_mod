@@ -39,8 +39,8 @@
 		"graphics" : {
 			"animation" : "creatures/zealot/battle/CZEALT.def",
 			"map" : "creatures/zealot/adventureMap/AVWmonx0.def",
-			"iconSmall" : "creatures/zealot/icons/CPRSMALL11.bmp",
-			"iconLarge" : "creatures/zealot/icons/TwCrPort11.bmp",
+			"iconSmall" : "creatures/zealot/icons/CPRSMALL_0_11.bmp",
+			"iconLarge" : "creatures/zealot/icons/TWCRPORT_0_11.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

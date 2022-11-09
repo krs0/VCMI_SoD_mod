@@ -31,8 +31,8 @@
 		"graphics" : {
 			"animation" : "creatures/gorgon/battle/CCGORG.def",
 			"map" : "creatures/gorgon/adventureMap/AvWGorg.def",
-			"iconSmall" : "creatures/gorgon/icons/CPRSMALL104.bmp",
-			"iconLarge" : "creatures/gorgon/icons/TwCrPort104.bmp",
+			"iconSmall" : "creatures/gorgon/icons/CPRSMALL_0_104.bmp",
+			"iconLarge" : "creatures/gorgon/icons/TWCRPORT_0_104.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

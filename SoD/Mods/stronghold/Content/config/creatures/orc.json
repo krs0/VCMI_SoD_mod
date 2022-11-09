@@ -37,8 +37,8 @@
 		"graphics" : {
 			"animation" : "creatures/orc/battle/CORC.def",
 			"map" : "creatures/orc/adventureMap/AVWorc0.def",
-			"iconSmall" : "creatures/orc/icons/CPRSMALL90.bmp",
-			"iconLarge" : "creatures/orc/icons/TwCrPort90.bmp",
+			"iconSmall" : "creatures/orc/icons/CPRSMALL_0_90.bmp",
+			"iconLarge" : "creatures/orc/icons/TWCRPORT_0_90.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

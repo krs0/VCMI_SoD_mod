@@ -3,12 +3,13 @@
 	{
 		"class" : "necromancer",
 		"female" : true,
+		
 		//"index" : 77,
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/xsi/icons/speciality/Un3277.bmp",
-			"specialtyLarge" : "heroes/xsi/icons/speciality/Un4477.bmp",
+			"specialtySmall" : "heroes/xsi/icons/speciality/UN32_0_77.bmp",
+			"specialtyLarge" : "heroes/xsi/icons/speciality/UN44_0_77.bmp",
 			"large" : "heroes/xsi/icons/portrait/HPL077NC.bmp",
 			"small" : "heroes/xsi/icons/portrait/HPS077NC.bmp"
 		},

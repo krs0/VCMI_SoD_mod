@@ -53,8 +53,8 @@
 		"graphics" : {
 			"animation" : "creatures/fireElemental/battle/CFELEM.def",
 			"map" : "creatures/fireElemental/adventureMap/AVWelmf0.def",
-			"iconSmall" : "creatures/fireElemental/icons/CPRSMALL116.bmp",
-			"iconLarge" : "creatures/fireElemental/icons/TwCrPort116.bmp",
+			"iconSmall" : "creatures/fireElemental/icons/CPRSMALL_0_116.bmp",
+			"iconLarge" : "creatures/fireElemental/icons/TWCRPORT_0_116.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

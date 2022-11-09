@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/fafner/icons/speciality/Un3237.bmp",
-			"specialtyLarge" : "heroes/fafner/icons/speciality/Un4437.bmp",
+			"specialtySmall" : "heroes/fafner/icons/speciality/UN32_0_37.bmp",
+			"specialtyLarge" : "heroes/fafner/icons/speciality/UN44_0_37.bmp",
 			"large" : "heroes/fafner/icons/portrait/HPL037AL.bmp",
 			"small" : "heroes/fafner/icons/portrait/HPS037AL.bmp"
 		},

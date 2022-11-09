@@ -37,8 +37,8 @@
 		"graphics" : {
 			"animation" : "creatures/manticore/battle/CMCORE.def",
 			"map" : "creatures/manticore/adventureMap/AVWmant0.def",
-			"iconSmall" : "creatures/manticore/icons/CPRSMALL82.bmp",
-			"iconLarge" : "creatures/manticore/icons/TwCrPort82.bmp",
+			"iconSmall" : "creatures/manticore/icons/CPRSMALL_0_82.bmp",
+			"iconLarge" : "creatures/manticore/icons/TWCRPORT_0_82.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

@@ -45,8 +45,8 @@
 		"graphics" : {
 			"animation" : "creatures/thunderbird/battle/CTBIRD.def",
 			"map" : "creatures/thunderbird/adventureMap/AVWrocx0.def",
-			"iconSmall" : "creatures/thunderbird/icons/CPRSMALL95.bmp",
-			"iconLarge" : "creatures/thunderbird/icons/TwCrPort95.bmp",
+			"iconSmall" : "creatures/thunderbird/icons/CPRSMALL_0_95.bmp",
+			"iconLarge" : "creatures/thunderbird/icons/TWCRPORT_0_95.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

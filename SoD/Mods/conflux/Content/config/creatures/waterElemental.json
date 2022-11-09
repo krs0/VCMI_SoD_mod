@@ -66,8 +66,8 @@
 		"graphics" : {
 			"animation" : "creatures/waterElemental/battle/CWELEM.def",
 			"map" : "creatures/waterElemental/adventureMap/AVWelmw0.def",
-			"iconSmall" : "creatures/waterElemental/icons/CPRSMALL117.bmp",
-			"iconLarge" : "creatures/waterElemental/icons/TwCrPort117.bmp",
+			"iconSmall" : "creatures/waterElemental/icons/CPRSMALL_0_117.bmp",
+			"iconLarge" : "creatures/waterElemental/icons/TWCRPORT_0_117.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

@@ -41,8 +41,8 @@
 		"graphics" : {
 			"animation" : "creatures/grandElf/battle/CGRELF.def",
 			"map" : "creatures/grandElf/adventureMap/AVWelfx0.def",
-			"iconSmall" : "creatures/grandElf/icons/CPRSMALL21.bmp",
-			"iconLarge" : "creatures/grandElf/icons/TwCrPort21.bmp",
+			"iconSmall" : "creatures/grandElf/icons/CPRSMALL_0_21.bmp",
+			"iconLarge" : "creatures/grandElf/icons/TWCRPORT_0_21.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

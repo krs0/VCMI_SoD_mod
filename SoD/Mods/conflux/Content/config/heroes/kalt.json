@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/kalt/icons/speciality/Un32135.bmp",
-			"specialtyLarge" : "heroes/kalt/icons/speciality/Un44135.bmp",
+			"specialtySmall" : "heroes/kalt/icons/speciality/UN32_0_135.bmp",
+			"specialtyLarge" : "heroes/kalt/icons/speciality/UN44_0_135.bmp",
 			"large" : "heroes/kalt/icons/portrait/HPL007PL.bmp",
 			"small" : "heroes/kalt/icons/portrait/HPS007PL.bmp"
 		},

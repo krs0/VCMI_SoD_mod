@@ -50,8 +50,8 @@
 		"graphics" : {
 			"animation" : "creatures/boneDragon/battle/CNDRGN.def",
 			"map" : "creatures/boneDragon/adventureMap/AVWbone0.def",
-			"iconSmall" : "creatures/boneDragon/icons/CPRSMALL70.bmp",
-			"iconLarge" : "creatures/boneDragon/icons/TwCrPort70.bmp",
+			"iconSmall" : "creatures/boneDragon/icons/CPRSMALL_0_70.bmp",
+			"iconLarge" : "creatures/boneDragon/icons/TWCRPORT_0_70.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

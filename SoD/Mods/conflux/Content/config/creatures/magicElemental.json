@@ -48,8 +48,8 @@
 		"graphics" : {
 			"animation" : "creatures/magicElemental/battle/CMAGEL.def",
 			"map" : "creatures/magicElemental/adventureMap/AVWmagel.def",
-			"iconSmall" : "creatures/magicElemental/icons/CPRSMALL123.bmp",
-			"iconLarge" : "creatures/magicElemental/icons/TwCrPort123.bmp",
+			"iconSmall" : "creatures/magicElemental/icons/CPRSMALL_0_123.bmp",
+			"iconLarge" : "creatures/magicElemental/icons/TWCRPORT_0_123.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

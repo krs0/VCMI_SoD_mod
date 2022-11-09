@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/rosic/icons/speciality/Un32121.bmp",
-			"specialtyLarge" : "heroes/rosic/icons/speciality/Un44121.bmp",
+			"specialtySmall" : "heroes/rosic/icons/speciality/UN32_0_121.bmp",
+			"specialtyLarge" : "heroes/rosic/icons/speciality/UN44_0_121.bmp",
 			"large" : "heroes/rosic/icons/portrait/HPL121WH.bmp",
 			"small" : "heroes/rosic/icons/portrait/HPS121WH.bmp"
 		},

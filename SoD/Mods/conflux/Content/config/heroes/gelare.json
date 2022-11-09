@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/gelare/icons/speciality/Un32142.bmp",
-			"specialtyLarge" : "heroes/gelare/icons/speciality/Un44142.bmp",
+			"specialtySmall" : "heroes/gelare/icons/speciality/UN32_0_142.bmp",
+			"specialtyLarge" : "heroes/gelare/icons/speciality/UN44_0_142.bmp",
 			"large" : "heroes/gelare/icons/portrait/HPL006EL.bmp",
 			"small" : "heroes/gelare/icons/portrait/HPS006EL.bmp"
 		},

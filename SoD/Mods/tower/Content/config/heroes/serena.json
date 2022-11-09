@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/serena/icons/speciality/Un3242.bmp",
-			"specialtyLarge" : "heroes/serena/icons/speciality/Un4442.bmp",
+			"specialtySmall" : "heroes/serena/icons/speciality/UN32_0_42.bmp",
+			"specialtyLarge" : "heroes/serena/icons/speciality/UN44_0_42.bmp",
 			"large" : "heroes/serena/icons/portrait/HPL042WZ.bmp",
 			"small" : "heroes/serena/icons/portrait/HPS042WZ.bmp"
 		},

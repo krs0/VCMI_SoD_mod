@@ -42,8 +42,8 @@
 		"graphics" : {
 			"animation" : "creatures/unicorn/battle/CUNICO.def",
 			"map" : "creatures/unicorn/adventureMap/AVWunic0.def",
-			"iconSmall" : "creatures/unicorn/icons/CPRSMALL26.bmp",
-			"iconLarge" : "creatures/unicorn/icons/TwCrPort26.bmp",
+			"iconSmall" : "creatures/unicorn/icons/CPRSMALL_0_26.bmp",
+			"iconLarge" : "creatures/unicorn/icons/TWCRPORT_0_26.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

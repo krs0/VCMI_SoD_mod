@@ -3,12 +3,13 @@
 	{
 		"class" : "necromancer",
 		"female" : false,
+		
 		//"index" : 76,
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/thant/icons/speciality/Un3276.bmp",
-			"specialtyLarge" : "heroes/thant/icons/speciality/Un4476.bmp",
+			"specialtySmall" : "heroes/thant/icons/speciality/UN32_0_76.bmp",
+			"specialtyLarge" : "heroes/thant/icons/speciality/UN44_0_76.bmp",
 			"large" : "heroes/thant/icons/portrait/HPL076NC.bmp",
 			"small" : "heroes/thant/icons/portrait/HPS076NC.bmp"
 		},

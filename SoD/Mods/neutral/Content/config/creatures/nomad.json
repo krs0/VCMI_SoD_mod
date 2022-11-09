@@ -37,8 +37,8 @@
 		"graphics" : {
 			"animation" : "creatures/nomad/battle/CNOMAD.def",
 			"map" : "creatures/nomad/adventureMap/AVWnomd.def",
-			"iconSmall" : "creatures/nomad/icons/CPRSMALL144.bmp",
-			"iconLarge" : "creatures/nomad/icons/TwCrPort144.bmp",
+			"iconSmall" : "creatures/nomad/icons/CPRSMALL_0_144.bmp",
+			"iconLarge" : "creatures/nomad/icons/TWCRPORT_0_144.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

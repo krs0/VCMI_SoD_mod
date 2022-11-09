@@ -36,8 +36,8 @@
 		"graphics" : {
 			"animation" : "creatures/naga/battle/CNAGA.def",
 			"map" : "creatures/naga/adventureMap/AVWnaga0.def",
-			"iconSmall" : "creatures/naga/icons/CPRSMALL40.bmp",
-			"iconLarge" : "creatures/naga/icons/TwCrPort40.bmp",
+			"iconSmall" : "creatures/naga/icons/CPRSMALL_0_40.bmp",
+			"iconLarge" : "creatures/naga/icons/TWCRPORT_0_40.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

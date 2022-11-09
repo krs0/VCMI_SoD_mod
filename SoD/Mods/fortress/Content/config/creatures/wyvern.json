@@ -36,8 +36,8 @@
 		"graphics" : {
 			"animation" : "creatures/wyvern/battle/CWYVER.def",
 			"map" : "creatures/wyvern/adventureMap/AvWWyvr.def",
-			"iconSmall" : "creatures/wyvern/icons/CPRSMALL110.bmp",
-			"iconLarge" : "creatures/wyvern/icons/TwCrPort110.bmp",
+			"iconSmall" : "creatures/wyvern/icons/CPRSMALL_0_110.bmp",
+			"iconLarge" : "creatures/wyvern/icons/TWCRPORT_0_110.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

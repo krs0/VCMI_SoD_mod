@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/darkstorn/icons/speciality/Un3295.bmp",
-			"specialtyLarge" : "heroes/darkstorn/icons/speciality/Un4495.bmp",
+			"specialtySmall" : "heroes/darkstorn/icons/speciality/UN32_0_95.bmp",
+			"specialtyLarge" : "heroes/darkstorn/icons/speciality/UN44_0_95.bmp",
 			"large" : "heroes/darkstorn/icons/portrait/HPL095WL.bmp",
 			"small" : "heroes/darkstorn/icons/portrait/HPS095WL.bmp"
 		},

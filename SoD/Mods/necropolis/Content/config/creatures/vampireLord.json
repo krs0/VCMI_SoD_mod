@@ -47,8 +47,8 @@
 		"graphics" : {
 			"animation" : "creatures/vampireLord/battle/CNOSFE.def",
 			"map" : "creatures/vampireLord/adventureMap/AVWvamx0.def",
-			"iconSmall" : "creatures/vampireLord/icons/CPRSMALL65.bmp",
-			"iconLarge" : "creatures/vampireLord/icons/TwCrPort65.bmp",
+			"iconSmall" : "creatures/vampireLord/icons/CPRSMALL_0_65.bmp",
+			"iconLarge" : "creatures/vampireLord/icons/TWCRPORT_0_65.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

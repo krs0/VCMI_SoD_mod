@@ -93,22 +93,22 @@
 			{
 				"village" : {
 					"normal" : {
-						"small" : "factions/fortress/icons/itpa34.bmp",
-					 	"large" : "factions/fortress/icons/itpt32.bmp"
+						"small" : "factions/fortress/icons/ITPA_0_34.bmp",
+					 	"large" : "factions/fortress/icons/ITPT_0_32.bmp"
 					 },
 					"built"  : {
-						"small" : "factions/fortress/icons/itpa35.bmp",
-						"large" : "factions/fortress/icons/itpt33.bmp" 
+						"small" : "factions/fortress/icons/ITPA_0_35.bmp",
+						"large" : "factions/fortress/icons/ITPT_0_33.bmp" 
 					}
 				},
 				"fort" : {
 					"normal" : {
-						"small" : "factions/fortress/icons/itpa16.bmp",
-					 	"large" : "factions/fortress/icons/itpt14.bmp" 
+						"small" : "factions/fortress/icons/ITPA_0_16.bmp",
+					 	"large" : "factions/fortress/icons/ITPT_0_14.bmp" 
 					 },
 					"built"  : {
-						"small" : "factions/fortress/icons/itpa17.bmp",
-						 "large" : "factions/fortress/icons/itpt15.bmp"
+						"small" : "factions/fortress/icons/ITPA_0_17.bmp",
+						 "large" : "factions/fortress/icons/ITPT_0_15.bmp"
 					}
 				}
 			},

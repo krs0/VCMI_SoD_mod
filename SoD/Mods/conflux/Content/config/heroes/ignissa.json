@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/ignissa/icons/speciality/Un32130.bmp",
-			"specialtyLarge" : "heroes/ignissa/icons/speciality/Un44130.bmp",
+			"specialtySmall" : "heroes/ignissa/icons/speciality/UN32_0_130.bmp",
+			"specialtyLarge" : "heroes/ignissa/icons/speciality/UN44_0_130.bmp",
 			"large" : "heroes/ignissa/icons/portrait/HPL002PL.bmp",
 			"small" : "heroes/ignissa/icons/portrait/HPS002PL.bmp"
 		},

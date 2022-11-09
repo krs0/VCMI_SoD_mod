@@ -37,8 +37,8 @@
 		"abilityText" : "Unlimited ammunition.",
 		"graphics" : {
 			"animation" : "creatures/ammoCart/battle/SMCART.def",
-			"iconSmall" : "creatures/ammoCart/icons/CPRSMALL150.bmp",
-			"iconLarge" : "creatures/ammoCart/icons/TwCrPort150.bmp",
+			"iconSmall" : "creatures/ammoCart/icons/CPRSMALL_0_150.bmp",
+			"iconLarge" : "creatures/ammoCart/icons/TWCRPORT_0_150.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

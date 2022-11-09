@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/vey/icons/speciality/Un32105.bmp",
-			"specialtyLarge" : "heroes/vey/icons/speciality/Un44105.bmp",
+			"specialtySmall" : "heroes/vey/icons/speciality/UN32_0_105.bmp",
+			"specialtyLarge" : "heroes/vey/icons/speciality/UN44_0_105.bmp",
 			"large" : "heroes/vey/icons/portrait/HPL105BM.bmp",
 			"small" : "heroes/vey/icons/portrait/HPS105BM.bmp"
 		},

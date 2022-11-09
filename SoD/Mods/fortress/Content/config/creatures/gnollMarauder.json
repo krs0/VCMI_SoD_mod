@@ -31,8 +31,8 @@
 		"graphics" : {
 			"animation" : "creatures/gnollMarauder/battle/CGNOLM.def",
 			"map" : "creatures/gnollMarauder/adventureMap/AVWgnlx0.def",
-			"iconSmall" : "creatures/gnollMarauder/icons/CPRSMALL101.bmp",
-			"iconLarge" : "creatures/gnollMarauder/icons/TwCrPort101.bmp",
+			"iconSmall" : "creatures/gnollMarauder/icons/CPRSMALL_0_101.bmp",
+			"iconLarge" : "creatures/gnollMarauder/icons/TWCRPORT_0_101.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

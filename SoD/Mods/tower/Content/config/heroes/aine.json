@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/aine/icons/speciality/Un3247.bmp",
-			"specialtyLarge" : "heroes/aine/icons/speciality/Un4447.bmp",
+			"specialtySmall" : "heroes/aine/icons/speciality/UN32_0_47.bmp",
+			"specialtyLarge" : "heroes/aine/icons/speciality/UN44_0_47.bmp",
 			"large" : "heroes/aine/icons/portrait/HPL047WZ.bmp",
 			"small" : "heroes/aine/icons/portrait/HPS047WZ.bmp"
 		},

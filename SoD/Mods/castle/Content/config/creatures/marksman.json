@@ -41,8 +41,8 @@
 		"graphics" : {
 			"animation" : "creatures/marksman/battle/CHCBOW.def",
 			"map" : "creatures/marksman/adventureMap/AvWHcrs.def",
-			"iconSmall" : "creatures/marksman/icons/CPRSMALL5.bmp",
-			"iconLarge" : "creatures/marksman/icons/TwCrPort5.bmp",
+			"iconSmall" : "creatures/marksman/icons/CPRSMALL_0_5.bmp",
+			"iconLarge" : "creatures/marksman/icons/TWCRPORT_0_5.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/ciele/icons/speciality/Un32138.bmp",
-			"specialtyLarge" : "heroes/ciele/icons/speciality/Un44138.bmp",
+			"specialtySmall" : "heroes/ciele/icons/speciality/UN32_0_138.bmp",
+			"specialtyLarge" : "heroes/ciele/icons/speciality/UN44_0_138.bmp",
 			"large" : "heroes/ciele/icons/portrait/HPL002EL.bmp",
 			"small" : "heroes/ciele/icons/portrait/HPS002EL.bmp"
 		},

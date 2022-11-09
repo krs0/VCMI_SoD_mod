@@ -39,8 +39,8 @@
 		"graphics" : {
 			"animation" : "creatures/stoneGargoyle/battle/CGARGO.def",
 			"map" : "creatures/stoneGargoyle/adventureMap/AVWgarg0.def",
-			"iconSmall" : "creatures/stoneGargoyle/icons/CPRSMALL32.bmp",
-			"iconLarge" : "creatures/stoneGargoyle/icons/TwCrPort32.bmp",
+			"iconSmall" : "creatures/stoneGargoyle/icons/CPRSMALL_0_32.bmp",
+			"iconLarge" : "creatures/stoneGargoyle/icons/TWCRPORT_0_32.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

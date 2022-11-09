@@ -41,8 +41,8 @@
 		"abilityText" : "Attacks siege walls.",
 		"graphics" : {
 			"animation" : "creatures/catapult/battle/SMCATA.def",
-			"iconSmall" : "creatures/catapult/icons/CPRSMALL147.bmp",
-			"iconLarge" : "creatures/catapult/icons/TwCrPort147.bmp",
+			"iconSmall" : "creatures/catapult/icons/CPRSMALL_0_147.bmp",
+			"iconLarge" : "creatures/catapult/icons/TWCRPORT_0_147.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

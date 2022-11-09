@@ -70,8 +70,8 @@
 		"graphics" : {
 			"animation" : "creatures/magmaElemental/battle/CSTONE.def",
 			"map" : "creatures/magmaElemental/adventureMap/AVWstone.def",
-			"iconSmall" : "creatures/magmaElemental/icons/CPRSMALL127.bmp",
-			"iconLarge" : "creatures/magmaElemental/icons/TwCrPort127.bmp",
+			"iconSmall" : "creatures/magmaElemental/icons/CPRSMALL_0_127.bmp",
+			"iconLarge" : "creatures/magmaElemental/icons/TWCRPORT_0_127.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

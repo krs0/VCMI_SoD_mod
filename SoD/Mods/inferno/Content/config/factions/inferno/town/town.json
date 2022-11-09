@@ -93,22 +93,22 @@
 			{
 				"village" : {
 					"normal" : {
-						"small" : "factions/inferno/icons/itpa26.bmp",
-					 	"large" : "factions/inferno/icons/itpt24.bmp"
+						"small" : "factions/inferno/icons/ITPA_0_26.bmp",
+					 	"large" : "factions/inferno/icons/ITPT_0_24.bmp"
 					 },
 					"built"  : {
-						"small" : "factions/inferno/icons/itpa27.bmp",
-						"large" : "factions/inferno/icons/itpt25.bmp" 
+						"small" : "factions/inferno/icons/ITPA_0_27.bmp",
+						"large" : "factions/inferno/icons/ITPT_0_25.bmp" 
 					}
 				},
 				"fort" : {
 					"normal" : {
-						"small" : "factions/inferno/icons/itpa8.bmp",
-					 	"large" : "factions/inferno/icons/itpt6.bmp" 
+						"small" : "factions/inferno/icons/ITPA_0_8.bmp",
+					 	"large" : "factions/inferno/icons/ITPT_0_6.bmp" 
 					 },
 					"built"  : {
-						"small" : "factions/inferno/icons/itpa9.bmp",
-						 "large" : "factions/inferno/icons/itpt7.bmp"
+						"small" : "factions/inferno/icons/ITPA_0_9.bmp",
+						 "large" : "factions/inferno/icons/ITPT_0_7.bmp"
 					}
 				}
 			},

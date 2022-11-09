@@ -35,8 +35,8 @@
 		"graphics" : {
 			"animation" : "creatures/skeletonWarrior/battle/CWSKEL.def",
 			"map" : "creatures/skeletonWarrior/adventureMap/AVWskex0.def",
-			"iconSmall" : "creatures/skeletonWarrior/icons/CPRSMALL59.bmp",
-			"iconLarge" : "creatures/skeletonWarrior/icons/TwCrPort59.bmp",
+			"iconSmall" : "creatures/skeletonWarrior/icons/CPRSMALL_0_59.bmp",
+			"iconLarge" : "creatures/skeletonWarrior/icons/TWCRPORT_0_59.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

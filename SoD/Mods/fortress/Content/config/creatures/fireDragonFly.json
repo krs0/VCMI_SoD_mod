@@ -45,8 +45,8 @@
 		"graphics" : {
 			"animation" : "creatures/fireDragonFly/battle/CDRFIR.def",
 			"map" : "creatures/fireDragonFly/adventureMap/AvWDfir.def",
-			"iconSmall" : "creatures/fireDragonFly/icons/CPRSMALL107.bmp",
-			"iconLarge" : "creatures/fireDragonFly/icons/TwCrPort107.bmp",
+			"iconSmall" : "creatures/fireDragonFly/icons/CPRSMALL_0_107.bmp",
+			"iconLarge" : "creatures/fireDragonFly/icons/TWCRPORT_0_107.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

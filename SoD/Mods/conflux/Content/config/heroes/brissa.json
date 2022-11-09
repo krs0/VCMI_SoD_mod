@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/brissa/icons/speciality/Un32137.bmp",
-			"specialtyLarge" : "heroes/brissa/icons/speciality/Un44137.bmp",
+			"specialtySmall" : "heroes/brissa/icons/speciality/UN32_0_137.bmp",
+			"specialtyLarge" : "heroes/brissa/icons/speciality/UN44_0_137.bmp",
 			"large" : "heroes/brissa/icons/portrait/HPL001EL.bmp",
 			"small" : "heroes/brissa/icons/portrait/HPS001EL.bmp"
 		},

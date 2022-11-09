@@ -52,8 +52,8 @@
 		"graphics" : {
 			"animation" : "creatures/rustDragon/battle/CRSDGN.def",
 			"map" : "creatures/rustDragon/adventureMap/AVWrust.def",
-			"iconSmall" : "creatures/rustDragon/icons/CPRSMALL137.bmp",
-			"iconLarge" : "creatures/rustDragon/icons/TwCrPort137.bmp",
+			"iconSmall" : "creatures/rustDragon/icons/CPRSMALL_0_137.bmp",
+			"iconLarge" : "creatures/rustDragon/icons/TWCRPORT_0_137.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

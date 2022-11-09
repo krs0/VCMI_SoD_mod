@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/styg/icons/speciality/Un32125.bmp",
-			"specialtyLarge" : "heroes/styg/icons/speciality/Un44125.bmp",
+			"specialtySmall" : "heroes/styg/icons/speciality/UN32_0_125.bmp",
+			"specialtyLarge" : "heroes/styg/icons/speciality/UN44_0_125.bmp",
 			"large" : "heroes/styg/icons/portrait/HPL125WH.bmp",
 			"small" : "heroes/styg/icons/portrait/HPS125WH.bmp"
 		},

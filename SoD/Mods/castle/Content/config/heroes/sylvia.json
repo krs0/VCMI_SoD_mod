@@ -8,8 +8,8 @@
 				
 		"images" :
 		{
-			"specialtySmall" : "heroes/sylvia/icons/speciality/Un323.bmp",
-			"specialtyLarge" : "heroes/sylvia/icons/speciality/Un443.bmp",
+			"specialtySmall" : "heroes/sylvia/icons/speciality/UN32_0_3.bmp",
+			"specialtyLarge" : "heroes/sylvia/icons/speciality/UN44_0_3.bmp",
 			"large" : "heroes/sylvia/icons/portrait/HPL003KN.bmp",
 			"small" : "heroes/sylvia/icons/portrait/HPS003KN.bmp"
 		},

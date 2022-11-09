@@ -40,8 +40,8 @@
 		"graphics" : {
 			"animation" : "creatures/behemoth/battle/CYBEHE.def",
 			"map" : "creatures/behemoth/adventureMap/AVWbhmt0.def",
-			"iconSmall" : "creatures/behemoth/icons/CPRSMALL98.bmp",
-			"iconLarge" : "creatures/behemoth/icons/TwCrPort98.bmp",
+			"iconSmall" : "creatures/behemoth/icons/CPRSMALL_0_98.bmp",
+			"iconLarge" : "creatures/behemoth/icons/TWCRPORT_0_98.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

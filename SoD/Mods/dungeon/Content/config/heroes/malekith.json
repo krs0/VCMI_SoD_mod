@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/malekith/icons/speciality/Un3290.bmp",
-			"specialtyLarge" : "heroes/malekith/icons/speciality/Un4490.bmp",
+			"specialtySmall" : "heroes/malekith/icons/speciality/UN32_0_90.bmp",
+			"specialtyLarge" : "heroes/malekith/icons/speciality/UN44_0_90.bmp",
 			"large" : "heroes/malekith/icons/portrait/HPL090WL.bmp",
 			"small" : "heroes/malekith/icons/portrait/HPS090WL.bmp"
 		},

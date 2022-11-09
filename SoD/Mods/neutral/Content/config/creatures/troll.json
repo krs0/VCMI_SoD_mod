@@ -35,8 +35,8 @@
 		"graphics" : {
 			"animation" : "creatures/troll/battle/CTROLL.def",
 			"map" : "creatures/troll/adventureMap/AVWtrll.def",
-			"iconSmall" : "creatures/troll/icons/CPRSMALL146.bmp",
-			"iconLarge" : "creatures/troll/icons/TwCrPort146.bmp",
+			"iconSmall" : "creatures/troll/icons/CPRSMALL_0_146.bmp",
+			"iconLarge" : "creatures/troll/icons/TWCRPORT_0_146.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

@@ -49,8 +49,8 @@
 		"graphics" : {
 			"animation" : "creatures/goldDragon/battle/CDDRAG.def",
 			"map" : "creatures/goldDragon/adventureMap/AVWdrax0.def",
-			"iconSmall" : "creatures/goldDragon/icons/CPRSMALL29.bmp",
-			"iconLarge" : "creatures/goldDragon/icons/TwCrPort29.bmp",
+			"iconSmall" : "creatures/goldDragon/icons/CPRSMALL_0_29.bmp",
+			"iconLarge" : "creatures/goldDragon/icons/TWCRPORT_0_29.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

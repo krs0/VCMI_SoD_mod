@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/marius/icons/speciality/Un3250.bmp",
-			"specialtyLarge" : "heroes/marius/icons/speciality/Un4450.bmp",
+			"specialtySmall" : "heroes/marius/icons/speciality/UN32_0_50.bmp",
+			"specialtyLarge" : "heroes/marius/icons/speciality/UN44_0_50.bmp",
 			"large" : "heroes/marius/icons/portrait/HPL050HR.bmp",
 			"small" : "heroes/marius/icons/portrait/HPS050HR.bmp"
 		},

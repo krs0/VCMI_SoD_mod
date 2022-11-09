@@ -46,8 +46,8 @@
 		"graphics" : {
 			"animation" : "creatures/ogreMage/battle/COGMAG.def",
 			"map" : "creatures/ogreMage/adventureMap/AVWogrx0.def",
-			"iconSmall" : "creatures/ogreMage/icons/CPRSMALL93.bmp",
-			"iconLarge" : "creatures/ogreMage/icons/TwCrPort93.bmp",
+			"iconSmall" : "creatures/ogreMage/icons/CPRSMALL_0_93.bmp",
+			"iconLarge" : "creatures/ogreMage/icons/TWCRPORT_0_93.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

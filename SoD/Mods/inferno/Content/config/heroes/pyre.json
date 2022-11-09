@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/pyre/icons/speciality/Un3254.bmp",
-			"specialtyLarge" : "heroes/pyre/icons/speciality/Un4454.bmp",
+			"specialtySmall" : "heroes/pyre/icons/speciality/UN32_0_54.bmp",
+			"specialtyLarge" : "heroes/pyre/icons/speciality/UN44_0_54.bmp",
 			"large" : "heroes/pyre/icons/portrait/HPL054HR.bmp",
 			"small" : "heroes/pyre/icons/portrait/HPS054HR.bmp"
 		},

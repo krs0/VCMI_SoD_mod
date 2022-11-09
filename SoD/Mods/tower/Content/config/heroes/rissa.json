@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/rissa/icons/speciality/Un3238.bmp",
-			"specialtyLarge" : "heroes/rissa/icons/speciality/Un4438.bmp",
+			"specialtySmall" : "heroes/rissa/icons/speciality/UN32_0_38.bmp",
+			"specialtyLarge" : "heroes/rissa/icons/speciality/UN44_0_38.bmp",
 			"large" : "heroes/rissa/icons/portrait/HPL038AL.bmp",
 			"small" : "heroes/rissa/icons/portrait/HPS038AL.bmp"
 		},

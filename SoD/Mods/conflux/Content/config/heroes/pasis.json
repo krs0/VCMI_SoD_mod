@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/pasis/icons/speciality/Un32128.bmp",
-			"specialtyLarge" : "heroes/pasis/icons/speciality/Un44128.bmp",
+			"specialtySmall" : "heroes/pasis/icons/speciality/UN32_0_128.bmp",
+			"specialtyLarge" : "heroes/pasis/icons/speciality/UN44_0_128.bmp",
 			"large" : "heroes/pasis/icons/portrait/HPL000PL.bmp",
 			"small" : "heroes/pasis/icons/portrait/HPS000PL.bmp"
 		},

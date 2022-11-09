@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/calid/icons/speciality/Un3260.bmp",
-			"specialtyLarge" : "heroes/calid/icons/speciality/Un4460.bmp",
+			"specialtySmall" : "heroes/calid/icons/speciality/UN32_0_60.bmp",
+			"specialtyLarge" : "heroes/calid/icons/speciality/UN44_0_60.bmp",
 			"large" : "heroes/calid/icons/portrait/HPL060DM.bmp",
 			"small" : "heroes/calid/icons/portrait/HPS060DM.bmp"
 		},

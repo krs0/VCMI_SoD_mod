@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/oris/icons/speciality/Un32110.bmp",
-			"specialtyLarge" : "heroes/oris/icons/speciality/Un44110.bmp",
+			"specialtySmall" : "heroes/oris/icons/speciality/UN32_0_110.bmp",
+			"specialtyLarge" : "heroes/oris/icons/speciality/UN44_0_110.bmp",
 			"large" : "heroes/oris/icons/portrait/HPL110BM.bmp",
 			"small" : "heroes/oris/icons/portrait/HPS110BM.bmp"
 		},

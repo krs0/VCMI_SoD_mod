@@ -60,8 +60,8 @@
 		"graphics" : {
 			"animation" : "creatures/devil/battle/CDEVIL.def",
 			"map" : "creatures/devil/adventureMap/AVWdevl0.def",
-			"iconSmall" : "creatures/devil/icons/CPRSMALL56.bmp",
-			"iconLarge" : "creatures/devil/icons/TwCrPort56.bmp",
+			"iconSmall" : "creatures/devil/icons/CPRSMALL_0_56.bmp",
+			"iconLarge" : "creatures/devil/icons/TWCRPORT_0_56.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/gunnar/icons/speciality/Un3285.bmp",
-			"specialtyLarge" : "heroes/gunnar/icons/speciality/Un4485.bmp",
+			"specialtySmall" : "heroes/gunnar/icons/speciality/UN32_0_85.bmp",
+			"specialtyLarge" : "heroes/gunnar/icons/speciality/UN44_0_85.bmp",
 			"large" : "heroes/gunnar/icons/portrait/HPL085OV.bmp",
 			"small" : "heroes/gunnar/icons/portrait/HPS085OV.bmp"
 		},

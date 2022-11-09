@@ -45,8 +45,8 @@
 		"graphics" : {
 			"animation" : "creatures/serpentFly/battle/CDRFLY.def",
 			"map" : "creatures/serpentFly/adventureMap/AvWDfly.def",
-			"iconSmall" : "creatures/serpentFly/icons/CPRSMALL106.bmp",
-			"iconLarge" : "creatures/serpentFly/icons/TwCrPort106.bmp",
+			"iconSmall" : "creatures/serpentFly/icons/CPRSMALL_0_106.bmp",
+			"iconLarge" : "creatures/serpentFly/icons/TWCRPORT_0_106.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

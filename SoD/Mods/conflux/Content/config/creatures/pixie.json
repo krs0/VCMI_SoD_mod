@@ -39,8 +39,8 @@
 		"graphics" : {
 			"animation" : "creatures/pixie/battle/CPIXIE.def",
 			"map" : "creatures/pixie/adventureMap/AVWpixie.def",
-			"iconSmall" : "creatures/pixie/icons/CPRSMALL121.bmp",
-			"iconLarge" : "creatures/pixie/icons/TwCrPort121.bmp",
+			"iconSmall" : "creatures/pixie/icons/CPRSMALL_0_121.bmp",
+			"iconLarge" : "creatures/pixie/icons/TWCRPORT_0_121.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

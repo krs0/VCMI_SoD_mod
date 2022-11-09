@@ -92,22 +92,22 @@
 			{
 				"village" : {
 					"normal" : {
-						"small" : "factions/stronghold/icons/itpa32.bmp",
-					 	"large" : "factions/stronghold/icons/itpt30.bmp"
+						"small" : "factions/stronghold/icons/ITPA_0_32.bmp",
+					 	"large" : "factions/stronghold/icons/ITPT_0_30.bmp"
 					 },
 					"built"  : {
-						"small" : "factions/stronghold/icons/itpa33.bmp",
-						"large" : "factions/stronghold/icons/itpt31.bmp" 
+						"small" : "factions/stronghold/icons/ITPA_0_33.bmp",
+						"large" : "factions/stronghold/icons/ITPT_0_31.bmp" 
 					}
 				},
 				"fort" : {
 					"normal" : {
-						"small" : "factions/stronghold/icons/itpa14.bmp",
-					 	"large" : "factions/stronghold/icons/itpt12.bmp" 
+						"small" : "factions/stronghold/icons/ITPA_0_14.bmp",
+					 	"large" : "factions/stronghold/icons/ITPT_0_12.bmp" 
 					 },
 					"built"  : {
-						"small" : "factions/stronghold/icons/itpa15.bmp",
-						 "large" : "factions/stronghold/icons/itpt13.bmp"
+						"small" : "factions/stronghold/icons/ITPA_0_15.bmp",
+						 "large" : "factions/stronghold/icons/ITPT_0_13.bmp"
 					}
 				}
 			},

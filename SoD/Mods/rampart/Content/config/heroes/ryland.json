@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/ryland/icons/speciality/Un3219.bmp",
-			"specialtyLarge" : "heroes/ryland/icons/speciality/Un4419.bmp",
+			"specialtySmall" : "heroes/ryland/icons/speciality/UN32_0_19.bmp",
+			"specialtyLarge" : "heroes/ryland/icons/speciality/UN44_0_19.bmp",
 			"large" : "heroes/ryland/icons/portrait/HPL019RN.bmp",
 			"small" : "heroes/ryland/icons/portrait/HPS019RN.bmp"
 		},

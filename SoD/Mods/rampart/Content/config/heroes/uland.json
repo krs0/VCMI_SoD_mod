@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/uland/icons/speciality/Un3225.bmp",
-			"specialtyLarge" : "heroes/uland/icons/speciality/Un4425.bmp",
+			"specialtySmall" : "heroes/uland/icons/speciality/UN32_0_25.bmp",
+			"specialtyLarge" : "heroes/uland/icons/speciality/UN44_0_25.bmp",
 			"large" : "heroes/uland/icons/portrait/HPL025DR.bmp",
 			"small" : "heroes/uland/icons/portrait/HPS025DR.bmp"
 		},

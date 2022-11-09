@@ -38,8 +38,8 @@
 		"abilityText" : "",
 		"graphics" : {
 			"animation" : "creatures/ballista/battle/SMBAL.def",
-			"iconSmall" : "creatures/ballista/icons/CPRSMALL148.bmp",
-			"iconLarge" : "creatures/ballista/icons/TwCrPort148.bmp",
+			"iconSmall" : "creatures/ballista/icons/CPRSMALL_0_148.bmp",
+			"iconLarge" : "creatures/ballista/icons/TWCRPORT_0_148.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

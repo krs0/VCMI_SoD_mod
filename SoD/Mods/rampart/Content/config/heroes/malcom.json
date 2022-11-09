@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/malcom/icons/speciality/Un3228.bmp",
-			"specialtyLarge" : "heroes/malcom/icons/speciality/Un4428.bmp",
+			"specialtySmall" : "heroes/malcom/icons/speciality/UN32_0_28.bmp",
+			"specialtyLarge" : "heroes/malcom/icons/speciality/UN44_0_28.bmp",
 			"large" : "heroes/malcom/icons/portrait/HPL028DR.bmp",
 			"small" : "heroes/malcom/icons/portrait/HPS028DR.bmp"
 		},

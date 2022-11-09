@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/iona/icons/speciality/Un3239.bmp",
-			"specialtyLarge" : "heroes/iona/icons/speciality/Un4439.bmp",
+			"specialtySmall" : "heroes/iona/icons/speciality/UN32_0_39.bmp",
+			"specialtyLarge" : "heroes/iona/icons/speciality/UN44_0_39.bmp",
 			"large" : "heroes/iona/icons/portrait/HPL039AL.bmp",
 			"small" : "heroes/iona/icons/portrait/HPS039AL.bmp"
 		},

@@ -37,8 +37,8 @@
 		"graphics" : {
 			"animation" : "creatures/dendroidSoldier/battle/CBTREE.def",
 			"map" : "creatures/dendroidSoldier/adventureMap/AVWtree0.def",
-			"iconSmall" : "creatures/dendroidSoldier/icons/CPRSMALL25.bmp",
-			"iconLarge" : "creatures/dendroidSoldier/icons/TwCrPort25.bmp",
+			"iconSmall" : "creatures/dendroidSoldier/icons/CPRSMALL_0_25.bmp",
+			"iconLarge" : "creatures/dendroidSoldier/icons/TWCRPORT_0_25.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

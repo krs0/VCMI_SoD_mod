@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/torosar/icons/speciality/Un3236.bmp",
-			"specialtyLarge" : "heroes/torosar/icons/speciality/Un4436.bmp",
+			"specialtySmall" : "heroes/torosar/icons/speciality/UN32_0_36.bmp",
+			"specialtyLarge" : "heroes/torosar/icons/speciality/UN44_0_36.bmp",
 			"large" : "heroes/torosar/icons/portrait/HPL036AL.bmp",
 			"small" : "heroes/torosar/icons/portrait/HPS036AL.bmp"
 		},

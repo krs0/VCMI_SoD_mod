@@ -37,8 +37,8 @@
 		"graphics" : {
 			"animation" : "creatures/lizardWarrior/battle/CALIZA.def",
 			"map" : "creatures/lizardWarrior/adventureMap/AVWlizx0.def",
-			"iconSmall" : "creatures/lizardWarrior/icons/CPRSMALL103.bmp",
-			"iconLarge" : "creatures/lizardWarrior/icons/TwCrPort103.bmp",
+			"iconSmall" : "creatures/lizardWarrior/icons/CPRSMALL_0_103.bmp",
+			"iconLarge" : "creatures/lizardWarrior/icons/TWCRPORT_0_103.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

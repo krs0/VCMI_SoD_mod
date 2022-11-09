@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/halon/icons/speciality/Un3241.bmp",
-			"specialtyLarge" : "heroes/halon/icons/speciality/Un4441.bmp",
+			"specialtySmall" : "heroes/halon/icons/speciality/UN32_0_41.bmp",
+			"specialtyLarge" : "heroes/halon/icons/speciality/UN44_0_41.bmp",
 			"large" : "heroes/halon/icons/portrait/HPL041WZ.bmp",
 			"small" : "heroes/halon/icons/portrait/HPS041WZ.bmp"
 		},

@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/geon/icons/speciality/Un3292.bmp",
-			"specialtyLarge" : "heroes/geon/icons/speciality/Un4492.bmp",
+			"specialtySmall" : "heroes/geon/icons/speciality/UN32_0_92.bmp",
+			"specialtyLarge" : "heroes/geon/icons/speciality/UN44_0_92.bmp",
 			"large" : "heroes/geon/icons/portrait/HPL092WL.bmp",
 			"small" : "heroes/geon/icons/portrait/HPS092WL.bmp"
 		},

@@ -41,8 +41,8 @@
 		"graphics" : {
 			"animation" : "creatures/blackKnight/battle/CBKNIG.def",
 			"map" : "creatures/blackKnight/adventureMap/AVWbkni0.def",
-			"iconSmall" : "creatures/blackKnight/icons/CPRSMALL68.bmp",
-			"iconLarge" : "creatures/blackKnight/icons/TwCrPort68.bmp",
+			"iconSmall" : "creatures/blackKnight/icons/CPRSMALL_0_68.bmp",
+			"iconLarge" : "creatures/blackKnight/icons/TWCRPORT_0_68.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

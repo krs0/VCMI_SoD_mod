@@ -40,8 +40,8 @@
 		"graphics" : {
 			"animation" : "creatures/silverPegasus/battle/CAPEGS.def",
 			"map" : "creatures/silverPegasus/adventureMap/AVWpegx0.def",
-			"iconSmall" : "creatures/silverPegasus/icons/CPRSMALL23.bmp",
-			"iconLarge" : "creatures/silverPegasus/icons/TwCrPort23.bmp",
+			"iconSmall" : "creatures/silverPegasus/icons/CPRSMALL_0_23.bmp",
+			"iconLarge" : "creatures/silverPegasus/icons/TWCRPORT_0_23.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

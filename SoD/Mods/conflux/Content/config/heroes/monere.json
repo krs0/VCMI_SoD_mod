@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/monere/icons/speciality/Un32132.bmp",
-			"specialtyLarge" : "heroes/monere/icons/speciality/Un44132.bmp",
+			"specialtySmall" : "heroes/monere/icons/speciality/UN32_0_132.bmp",
+			"specialtyLarge" : "heroes/monere/icons/speciality/UN44_0_132.bmp",
 			"large" : "heroes/monere/icons/portrait/HPL004PL.bmp",
 			"small" : "heroes/monere/icons/portrait/HPS004PL.bmp"
 		},

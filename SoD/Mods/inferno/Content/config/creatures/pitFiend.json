@@ -31,8 +31,8 @@
 		"graphics" : {
 			"animation" : "creatures/pitFiend/battle/CPFIEN.def",
 			"map" : "creatures/pitFiend/adventureMap/AVWpitf0.def",
-			"iconSmall" : "creatures/pitFiend/icons/CPRSMALL52.bmp",
-			"iconLarge" : "creatures/pitFiend/icons/TwCrPort52.bmp",
+			"iconSmall" : "creatures/pitFiend/icons/CPRSMALL_0_52.bmp",
+			"iconLarge" : "creatures/pitFiend/icons/TWCRPORT_0_52.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

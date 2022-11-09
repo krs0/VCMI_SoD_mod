@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/calh/icons/speciality/Un3253.bmp",
-			"specialtyLarge" : "heroes/calh/icons/speciality/Un4453.bmp",
+			"specialtySmall" : "heroes/calh/icons/speciality/UN32_0_53.bmp",
+			"specialtyLarge" : "heroes/calh/icons/speciality/UN44_0_53.bmp",
 			"large" : "heroes/calh/icons/portrait/HPL053HR.bmp",
 			"small" : "heroes/calh/icons/portrait/HPS053HR.bmp"
 		},

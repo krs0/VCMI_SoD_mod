@@ -37,8 +37,8 @@
 		"abilityText" : "Heals troops.",
 		"graphics" : {
 			"animation" : "creatures/firstAidTent/battle/SMTENT.def",
-			"iconSmall" : "creatures/firstAidTent/icons/CPRSMALL149.bmp",
-			"iconLarge" : "creatures/firstAidTent/icons/TwCrPort149.bmp",
+			"iconSmall" : "creatures/firstAidTent/icons/CPRSMALL_0_149.bmp",
+			"iconLarge" : "creatures/firstAidTent/icons/TWCRPORT_0_149.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

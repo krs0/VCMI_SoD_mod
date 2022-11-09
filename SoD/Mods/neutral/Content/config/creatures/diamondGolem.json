@@ -40,8 +40,8 @@
 		"graphics" : {
 			"animation" : "creatures/diamondGolem/battle/CDGOLE.def",
 			"map" : "creatures/diamondGolem/adventureMap/AVWglmd0.def",
-			"iconSmall" : "creatures/diamondGolem/icons/CPRSMALL119.bmp",
-			"iconLarge" : "creatures/diamondGolem/icons/TwCrPort119.bmp",
+			"iconSmall" : "creatures/diamondGolem/icons/CPRSMALL_0_119.bmp",
+			"iconLarge" : "creatures/diamondGolem/icons/TWCRPORT_0_119.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

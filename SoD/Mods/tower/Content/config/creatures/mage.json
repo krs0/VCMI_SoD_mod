@@ -44,8 +44,8 @@
 		"graphics" : {
 			"animation" : "creatures/mage/battle/CMAGE.def",
 			"map" : "creatures/mage/adventureMap/AVWmage0.def",
-			"iconSmall" : "creatures/mage/icons/CPRSMALL36.bmp",
-			"iconLarge" : "creatures/mage/icons/TwCrPort36.bmp",
+			"iconSmall" : "creatures/mage/icons/CPRSMALL_0_36.bmp",
+			"iconLarge" : "creatures/mage/icons/TWCRPORT_0_36.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

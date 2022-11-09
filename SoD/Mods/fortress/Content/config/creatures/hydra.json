@@ -42,8 +42,8 @@
 		"graphics" : {
 			"animation" : "creatures/hydra/battle/CHYDRA.def",
 			"map" : "creatures/hydra/adventureMap/AvWHydr.def",
-			"iconSmall" : "creatures/hydra/icons/CPRSMALL112.bmp",
-			"iconLarge" : "creatures/hydra/icons/TwCrPort112.bmp",
+			"iconSmall" : "creatures/hydra/icons/CPRSMALL_0_112.bmp",
+			"iconLarge" : "creatures/hydra/icons/TWCRPORT_0_112.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

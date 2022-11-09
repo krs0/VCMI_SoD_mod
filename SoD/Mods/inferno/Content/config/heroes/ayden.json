@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/ayden/icons/speciality/Un3256.bmp",
-			"specialtyLarge" : "heroes/ayden/icons/speciality/Un4456.bmp",
+			"specialtySmall" : "heroes/ayden/icons/speciality/UN32_0_56.bmp",
+			"specialtyLarge" : "heroes/ayden/icons/speciality/UN44_0_56.bmp",
 			"large" : "heroes/ayden/icons/portrait/HPL056DM.bmp",
 			"small" : "heroes/ayden/icons/portrait/HPS056DM.bmp"
 		},

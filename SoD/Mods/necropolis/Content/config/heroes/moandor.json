@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/moandor/icons/speciality/Un3266.bmp",
-			"specialtyLarge" : "heroes/moandor/icons/speciality/Un4466.bmp",
+			"specialtySmall" : "heroes/moandor/icons/speciality/UN32_0_66.bmp",
+			"specialtyLarge" : "heroes/moandor/icons/speciality/UN44_0_66.bmp",
 			"large" : "heroes/moandor/icons/portrait/HPL066DK.bmp",
 			"small" : "heroes/moandor/icons/portrait/HPS066DK.bmp"
 		},

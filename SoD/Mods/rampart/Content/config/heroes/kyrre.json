@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/kyrre/icons/speciality/Un3223.bmp",
-			"specialtyLarge" : "heroes/kyrre/icons/speciality/Un4423.bmp",
+			"specialtySmall" : "heroes/kyrre/icons/speciality/UN32_0_23.bmp",
+			"specialtyLarge" : "heroes/kyrre/icons/speciality/UN44_0_23.bmp",
 			"large" : "heroes/kyrre/icons/portrait/HPL023RN.bmp",
 			"small" : "heroes/kyrre/icons/portrait/HPS023RN.bmp"
 		},

@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/deemer/icons/speciality/Un3293.bmp",
-			"specialtyLarge" : "heroes/deemer/icons/speciality/Un4493.bmp",
+			"specialtySmall" : "heroes/deemer/icons/speciality/UN32_0_93.bmp",
+			"specialtyLarge" : "heroes/deemer/icons/speciality/UN44_0_93.bmp",
 			"large" : "heroes/deemer/icons/portrait/HPL093WL.bmp",
 			"small" : "heroes/deemer/icons/portrait/HPS093WL.bmp"
 		},

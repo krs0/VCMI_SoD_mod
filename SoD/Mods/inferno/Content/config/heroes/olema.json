@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/olema/icons/speciality/Un3259.bmp",
-			"specialtyLarge" : "heroes/olema/icons/speciality/Un4459.bmp",
+			"specialtySmall" : "heroes/olema/icons/speciality/UN32_0_59.bmp",
+			"specialtyLarge" : "heroes/olema/icons/speciality/UN44_0_59.bmp",
 			"large" : "heroes/olema/icons/portrait/HPL059DM.bmp",
 			"small" : "heroes/olema/icons/portrait/HPS059DM.bmp"
 		},

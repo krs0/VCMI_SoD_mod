@@ -35,8 +35,8 @@
 		"graphics" : {
 			"animation" : "creatures/nagaQueen/battle/CNAGAG.def",
 			"map" : "creatures/nagaQueen/adventureMap/AVWnagx0.def",
-			"iconSmall" : "creatures/nagaQueen/icons/CPRSMALL41.bmp",
-			"iconLarge" : "creatures/nagaQueen/icons/TwCrPort41.bmp",
+			"iconSmall" : "creatures/nagaQueen/icons/CPRSMALL_0_41.bmp",
+			"iconLarge" : "creatures/nagaQueen/icons/TWCRPORT_0_41.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

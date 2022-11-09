@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/zubin/icons/speciality/Un32108.bmp",
-			"specialtyLarge" : "heroes/zubin/icons/speciality/Un44108.bmp",
+			"specialtySmall" : "heroes/zubin/icons/speciality/UN32_0_108.bmp",
+			"specialtyLarge" : "heroes/zubin/icons/speciality/UN44_0_108.bmp",
 			"large" : "heroes/zubin/icons/portrait/HPL108BM.bmp",
 			"small" : "heroes/zubin/icons/portrait/HPS108BM.bmp"
 		},

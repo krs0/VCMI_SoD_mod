@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/fiona/icons/speciality/Un3248.bmp",
-			"specialtyLarge" : "heroes/fiona/icons/speciality/Un4448.bmp",
+			"specialtySmall" : "heroes/fiona/icons/speciality/UN32_0_48.bmp",
+			"specialtyLarge" : "heroes/fiona/icons/speciality/UN44_0_48.bmp",
 			"large" : "heroes/fiona/icons/portrait/HPL048HR.bmp",
 			"small" : "heroes/fiona/icons/portrait/HPS048HR.bmp"
 		},

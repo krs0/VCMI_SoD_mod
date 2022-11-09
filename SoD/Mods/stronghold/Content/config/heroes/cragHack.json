@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/cragHack/icons/speciality/Un32102.bmp",
-			"specialtyLarge" : "heroes/cragHack/icons/speciality/Un44102.bmp",
+			"specialtySmall" : "heroes/cragHack/icons/speciality/UN32_0_102.bmp",
+			"specialtyLarge" : "heroes/cragHack/icons/speciality/UN44_0_102.bmp",
 			"large" : "heroes/cragHack/icons/portrait/HPL102BR.bmp",
 			"small" : "heroes/cragHack/icons/portrait/HPS102BR.bmp"
 		},

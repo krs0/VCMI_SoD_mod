@@ -37,8 +37,8 @@
 		"graphics" : {
 			"animation" : "creatures/archer/battle/CLCBOW.def",
 			"map" : "creatures/archer/adventureMap/AvWLCrs.def",
-			"iconSmall" : "creatures/archer/icons/CPRSMALL4.bmp",
-			"iconLarge" : "creatures/archer/icons/TwCrPort4.bmp",
+			"iconSmall" : "creatures/archer/icons/CPRSMALL_0_4.bmp",
+			"iconLarge" : "creatures/archer/icons/TWCRPORT_0_4.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

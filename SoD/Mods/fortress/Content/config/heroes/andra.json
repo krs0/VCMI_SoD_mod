@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/andra/icons/speciality/Un32126.bmp",
-			"specialtyLarge" : "heroes/andra/icons/speciality/Un44126.bmp",
+			"specialtySmall" : "heroes/andra/icons/speciality/UN32_0_126.bmp",
+			"specialtyLarge" : "heroes/andra/icons/speciality/UN44_0_126.bmp",
 			"large" : "heroes/andra/icons/portrait/HPL126WH.bmp",
 			"small" : "heroes/andra/icons/portrait/HPS126WH.bmp"
 		},

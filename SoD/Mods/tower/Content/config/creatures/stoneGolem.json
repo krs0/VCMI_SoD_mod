@@ -40,8 +40,8 @@
 		"graphics" : {
 			"animation" : "creatures/stoneGolem/battle/CIGOLE.def",
 			"map" : "creatures/stoneGolem/adventureMap/AVWgolx0.def",
-			"iconSmall" : "creatures/stoneGolem/icons/CPRSMALL35.bmp",
-			"iconLarge" : "creatures/stoneGolem/icons/TwCrPort35.bmp",
+			"iconSmall" : "creatures/stoneGolem/icons/CPRSMALL_0_35.bmp",
+			"iconLarge" : "creatures/stoneGolem/icons/TWCRPORT_0_35.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

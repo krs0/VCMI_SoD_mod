@@ -3,12 +3,13 @@
 	{
 		"class" : "necromancer",
 		"female" : true,
+		
 		//"index" : 73,
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/aislinn/icons/speciality/Un3273.bmp",
-			"specialtyLarge" : "heroes/aislinn/icons/speciality/Un4473.bmp",
+			"specialtySmall" : "heroes/aislinn/icons/speciality/UN32_0_73.bmp",
+			"specialtyLarge" : "heroes/aislinn/icons/speciality/UN44_0_73.bmp",
 			"large" : "heroes/aislinn/icons/portrait/HPL073NC.bmp",
 			"small" : "heroes/aislinn/icons/portrait/HPS073NC.bmp"
 		},

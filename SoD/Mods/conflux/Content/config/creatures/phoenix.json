@@ -55,8 +55,8 @@
 		"graphics" : {
 			"animation" : "creatures/phoenix/battle/CPHX.def",
 			"map" : "creatures/phoenix/adventureMap/AVWphx.def",
-			"iconSmall" : "creatures/phoenix/icons/CPRSMALL133.bmp",
-			"iconLarge" : "creatures/phoenix/icons/TwCrPort133.bmp",
+			"iconSmall" : "creatures/phoenix/icons/CPRSMALL_0_133.bmp",
+			"iconLarge" : "creatures/phoenix/icons/TWCRPORT_0_133.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/shiva/icons/speciality/Un3299.bmp",
-			"specialtyLarge" : "heroes/shiva/icons/speciality/Un4499.bmp",
+			"specialtySmall" : "heroes/shiva/icons/speciality/UN32_0_99.bmp",
+			"specialtyLarge" : "heroes/shiva/icons/speciality/UN44_0_99.bmp",
 			"large" : "heroes/shiva/icons/portrait/HPL099BR.bmp",
 			"small" : "heroes/shiva/icons/portrait/HPS099BR.bmp"
 		},

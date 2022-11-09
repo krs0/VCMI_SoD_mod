@@ -41,8 +41,8 @@
 		"graphics" : {
 			"animation" : "creatures/griffin/battle/CGRIFF.def",
 			"map" : "creatures/griffin/adventureMap/AvWGrif.def",
-			"iconSmall" : "creatures/griffin/icons/CPRSMALL6.bmp",
-			"iconLarge" : "creatures/griffin/icons/TwCrPort6.bmp",
+			"iconSmall" : "creatures/griffin/icons/CPRSMALL_0_6.bmp",
+			"iconLarge" : "creatures/griffin/icons/TWCRPORT_0_6.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

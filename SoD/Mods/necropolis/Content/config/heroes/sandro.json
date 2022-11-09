@@ -3,12 +3,13 @@
 	{
 		"class" : "necromancer",
 		"female" : false,
+		
 		//"index" : 74,
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/sandro/icons/speciality/Un3274.bmp",
-			"specialtyLarge" : "heroes/sandro/icons/speciality/Un4474.bmp",
+			"specialtySmall" : "heroes/sandro/icons/speciality/UN32_0_74.bmp",
+			"specialtyLarge" : "heroes/sandro/icons/speciality/UN44_0_74.bmp",
 			"large" : "heroes/sandro/icons/portrait/HPL074NC.bmp",
 			"small" : "heroes/sandro/icons/portrait/HPS074NC.bmp"
 		},

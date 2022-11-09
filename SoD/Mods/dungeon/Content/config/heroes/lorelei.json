@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/lorelei/icons/speciality/Un3280.bmp",
-			"specialtyLarge" : "heroes/lorelei/icons/speciality/Un4480.bmp",
+			"specialtySmall" : "heroes/lorelei/icons/speciality/UN32_0_80.bmp",
+			"specialtyLarge" : "heroes/lorelei/icons/speciality/UN44_0_80.bmp",
 			"large" : "heroes/lorelei/icons/portrait/HPL080OV.bmp",
 			"small" : "heroes/lorelei/icons/portrait/HPS080OV.bmp"
 		},

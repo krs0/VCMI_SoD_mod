@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/verdish/icons/speciality/Un32123.bmp",
-			"specialtyLarge" : "heroes/verdish/icons/speciality/Un44123.bmp",
+			"specialtySmall" : "heroes/verdish/icons/speciality/UN32_0_123.bmp",
+			"specialtyLarge" : "heroes/verdish/icons/speciality/UN44_0_123.bmp",
 			"large" : "heroes/verdish/icons/portrait/HPL123WH.bmp",
 			"small" : "heroes/verdish/icons/portrait/HPS123WH.bmp"
 		},

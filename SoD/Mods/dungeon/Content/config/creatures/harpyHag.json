@@ -42,8 +42,8 @@
 		"graphics" : {
 			"animation" : "creatures/harpyHag/battle/CHARPH.def",
 			"map" : "creatures/harpyHag/adventureMap/AVWharx0.def",
-			"iconSmall" : "creatures/harpyHag/icons/CPRSMALL75.bmp",
-			"iconLarge" : "creatures/harpyHag/icons/TwCrPort75.bmp",
+			"iconSmall" : "creatures/harpyHag/icons/CPRSMALL_0_75.bmp",
+			"iconLarge" : "creatures/harpyHag/icons/TWCRPORT_0_75.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

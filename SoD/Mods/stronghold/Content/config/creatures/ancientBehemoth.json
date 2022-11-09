@@ -39,8 +39,8 @@
 		"graphics" : {
 			"animation" : "creatures/ancientBehemoth/battle/CABEHE.def",
 			"map" : "creatures/ancientBehemoth/adventureMap/AVWbhmx0.def",
-			"iconSmall" : "creatures/ancientBehemoth/icons/CPRSMALL99.bmp",
-			"iconLarge" : "creatures/ancientBehemoth/icons/TwCrPort99.bmp",
+			"iconSmall" : "creatures/ancientBehemoth/icons/CPRSMALL_0_99.bmp",
+			"iconLarge" : "creatures/ancientBehemoth/icons/TWCRPORT_0_99.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

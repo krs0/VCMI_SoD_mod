@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/mephala/icons/speciality/Un3216.bmp",
-			"specialtyLarge" : "heroes/mephala/icons/speciality/Un4416.bmp",
+			"specialtySmall" : "heroes/mephala/icons/speciality/UN32_0_16.bmp",
+			"specialtyLarge" : "heroes/mephala/icons/speciality/UN44_0_16.bmp",
 			"large" : "heroes/mephala/icons/portrait/HPL016RN.bmp",
 			"small" : "heroes/mephala/icons/portrait/HPS016RN.bmp"
 		},

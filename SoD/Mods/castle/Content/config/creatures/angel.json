@@ -55,8 +55,8 @@
 		"graphics" : {
 			"animation" : "creatures/angel/battle/CANGEL.def",
 			"map" : "creatures/angel/adventureMap/AvWAngl.def",
-			"iconSmall" : "creatures/angel/icons/CPRSMALL14.bmp",
-			"iconLarge" : "creatures/angel/icons/TwCrPort14.bmp",
+			"iconSmall" : "creatures/angel/icons/CPRSMALL_0_14.bmp",
+			"iconLarge" : "creatures/angel/icons/TWCRPORT_0_14.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

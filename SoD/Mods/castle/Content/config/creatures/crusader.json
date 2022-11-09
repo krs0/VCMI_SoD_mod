@@ -36,8 +36,8 @@
 		"graphics" : {
 			"animation" : "creatures/crusader/battle/CCRUSD.def",
 			"map" : "creatures/crusader/adventureMap/AVWswrx0.def",
-			"iconSmall" : "creatures/crusader/icons/CPRSMALL9.bmp",
-			"iconLarge" : "creatures/crusader/icons/TwCrPort9.bmp",
+			"iconSmall" : "creatures/crusader/icons/CPRSMALL_0_9.bmp",
+			"iconLarge" : "creatures/crusader/icons/TWCRPORT_0_9.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

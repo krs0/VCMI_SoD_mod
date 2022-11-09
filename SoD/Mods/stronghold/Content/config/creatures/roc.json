@@ -36,8 +36,8 @@
 		"graphics" : {
 			"animation" : "creatures/roc/battle/CROC.def",
 			"map" : "creatures/roc/adventureMap/AVWroc0.def",
-			"iconSmall" : "creatures/roc/icons/CPRSMALL94.bmp",
-			"iconLarge" : "creatures/roc/icons/TwCrPort94.bmp",
+			"iconSmall" : "creatures/roc/icons/CPRSMALL_0_94.bmp",
+			"iconLarge" : "creatures/roc/icons/TWCRPORT_0_94.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

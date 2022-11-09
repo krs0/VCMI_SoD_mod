@@ -50,8 +50,8 @@
 		"graphics" : {
 			"animation" : "creatures/greenDragon/battle/CGDRAG.def",
 			"map" : "creatures/greenDragon/adventureMap/AVWdrag0.def",
-			"iconSmall" : "creatures/greenDragon/icons/CPRSMALL28.bmp",
-			"iconLarge" : "creatures/greenDragon/icons/TwCrPort28.bmp",
+			"iconSmall" : "creatures/greenDragon/icons/CPRSMALL_0_28.bmp",
+			"iconLarge" : "creatures/greenDragon/icons/TWCRPORT_0_28.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

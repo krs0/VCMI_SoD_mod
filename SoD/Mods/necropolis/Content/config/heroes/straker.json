@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/straker/icons/speciality/Un3264.bmp",
-			"specialtyLarge" : "heroes/straker/icons/speciality/Un4464.bmp",
+			"specialtySmall" : "heroes/straker/icons/speciality/UN32_0_64.bmp",
+			"specialtyLarge" : "heroes/straker/icons/speciality/UN44_0_64.bmp",
 			"large" : "heroes/straker/icons/portrait/HPL064DK.bmp",
 			"small" : "heroes/straker/icons/portrait/HPS064DK.bmp"
 		},

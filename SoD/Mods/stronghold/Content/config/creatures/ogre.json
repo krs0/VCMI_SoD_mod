@@ -31,8 +31,8 @@
 		"graphics" : {
 			"animation" : "creatures/ogre/battle/COGRE.def",
 			"map" : "creatures/ogre/adventureMap/AVWogre0.def",
-			"iconSmall" : "creatures/ogre/icons/CPRSMALL92.bmp",
-			"iconLarge" : "creatures/ogre/icons/TwCrPort92.bmp",
+			"iconSmall" : "creatures/ogre/icons/CPRSMALL_0_92.bmp",
+			"iconLarge" : "creatures/ogre/icons/TWCRPORT_0_92.bmp",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

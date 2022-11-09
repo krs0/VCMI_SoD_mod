@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/ivor/icons/speciality/Un3221.bmp",
-			"specialtyLarge" : "heroes/ivor/icons/speciality/Un4421.bmp",
+			"specialtySmall" : "heroes/ivor/icons/speciality/UN32_0_21.bmp",
+			"specialtyLarge" : "heroes/ivor/icons/speciality/UN44_0_21.bmp",
 			"large" : "heroes/ivor/icons/portrait/HPL021RN.bmp",
 			"small" : "heroes/ivor/icons/portrait/HPS021RN.bmp"
 		},
