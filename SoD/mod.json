@@ -2,9 +2,14 @@
 {
 	"name" : "SoD",
 	"description" : "Original SoD contents as mod",
-
-	"version" : "0.99",
+	"modType" : "Expansion",
+	"version" : "0.1.0",
 	"author" : "Original SoD - mod by VCMI Team",
-	"contact" : "http://forum.vcmi.eu/index.php",
-	"modType" : "Expansion"
+	"contact" : "https://forum.vcmi.eu/t/sod-files-mod-like/675",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"changelog" :
+	{
+		"0.1.0" : [ "Initial Version with factions, partially modded" ],
+	}
 }
