@@ -39,8 +39,8 @@
 		"graphics" : {
 			"animation" : "creatures/lizardman/battle/CPLIZA.def",
 			"map" : "creatures/lizardman/adventureMap/AvWLizr.def",
-			"iconSmall" : "creatures/lizardman/icons/CPRSMALL_0_102.bmp",
-			"iconLarge" : "creatures/lizardman/icons/TWCRPORT_0_102.bmp",
+			"iconSmall" : "creatures/lizardman/icons/CPRSMALL_0_102.png",
+			"iconLarge" : "creatures/lizardman/icons/TWCRPORT_0_102.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

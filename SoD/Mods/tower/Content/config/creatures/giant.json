@@ -40,8 +40,8 @@
 		"graphics" : {
 			"animation" : "creatures/giant/battle/CLTITA.def",
 			"map" : "creatures/giant/adventureMap/AVWtitn0.def",
-			"iconSmall" : "creatures/giant/icons/CPRSMALL_0_42.bmp",
-			"iconLarge" : "creatures/giant/icons/TWCRPORT_0_42.bmp",
+			"iconSmall" : "creatures/giant/icons/CPRSMALL_0_42.png",
+			"iconLarge" : "creatures/giant/icons/TWCRPORT_0_42.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

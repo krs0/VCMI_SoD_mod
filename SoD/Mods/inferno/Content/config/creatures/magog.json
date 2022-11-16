@@ -40,8 +40,8 @@
 		"graphics" : {
 			"animation" : "creatures/magog/battle/CMAGOG.def",
 			"map" : "creatures/magog/adventureMap/AVWgogx0.def",
-			"iconSmall" : "creatures/magog/icons/CPRSMALL_0_47.bmp",
-			"iconLarge" : "creatures/magog/icons/TWCRPORT_0_47.bmp",
+			"iconSmall" : "creatures/magog/icons/CPRSMALL_0_47.png",
+			"iconLarge" : "creatures/magog/icons/TWCRPORT_0_47.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

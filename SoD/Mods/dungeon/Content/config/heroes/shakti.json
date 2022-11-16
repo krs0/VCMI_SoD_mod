@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/shakti/icons/speciality/UN32_0_87.bmp",
-			"specialtyLarge" : "heroes/shakti/icons/speciality/UN44_0_87.bmp",
+			"specialtySmall" : "heroes/shakti/icons/speciality/UN32_0_87.png",
+			"specialtyLarge" : "heroes/shakti/icons/speciality/UN44_0_87.png",
 			"large" : "heroes/shakti/icons/portrait/HPL087OV.bmp",
 			"small" : "heroes/shakti/icons/portrait/HPS087OV.bmp"
 		},

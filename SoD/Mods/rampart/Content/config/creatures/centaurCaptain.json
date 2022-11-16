@@ -32,8 +32,8 @@
 		"graphics" : {
 			"animation" : "creatures/centaurCaptain/battle/CECENT.def",
 			"map" : "creatures/centaurCaptain/adventureMap/AVWcentx0.def",
-			"iconSmall" : "creatures/centaurCaptain/icons/CPRSMALL_0_17.bmp",
-			"iconLarge" : "creatures/centaurCaptain/icons/TWCRPORT_0_17.bmp",
+			"iconSmall" : "creatures/centaurCaptain/icons/CPRSMALL_0_17.png",
+			"iconLarge" : "creatures/centaurCaptain/icons/TWCRPORT_0_17.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

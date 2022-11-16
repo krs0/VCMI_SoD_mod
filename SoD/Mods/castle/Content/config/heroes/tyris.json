@@ -8,8 +8,8 @@
 						
 		"images" :
 		{
-			"specialtySmall" : "heroes/tyris/icons/speciality/UN32_0_7.bmp",
-			"specialtyLarge" : "heroes/tyris/icons/speciality/UN44_0_7.bmp",
+			"specialtySmall" : "heroes/tyris/icons/speciality/UN32_0_7.png",
+			"specialtyLarge" : "heroes/tyris/icons/speciality/UN44_0_7.png",
 			"large" : "heroes/tyris/icons/portrait/HPL007KN.bmp",
 			"small" : "heroes/tyris/icons/portrait/HPS007KN.bmp"
 		},

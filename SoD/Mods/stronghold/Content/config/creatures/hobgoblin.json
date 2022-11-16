@@ -34,8 +34,8 @@
 		"graphics" : {
 			"animation" : "creatures/hobgoblin/battle/CHGOBL.def",
 			"map" : "creatures/hobgoblin/adventureMap/AVWgobx0.def",
-			"iconSmall" : "creatures/hobgoblin/icons/CPRSMALL_0_87.bmp",
-			"iconLarge" : "creatures/hobgoblin/icons/TWCRPORT_0_87.bmp",
+			"iconSmall" : "creatures/hobgoblin/icons/CPRSMALL_0_87.png",
+			"iconLarge" : "creatures/hobgoblin/icons/TWCRPORT_0_87.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

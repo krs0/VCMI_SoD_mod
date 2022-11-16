@@ -55,8 +55,8 @@
 		"graphics" : {
 			"animation" : "creatures/ghostDragon/battle/CHDRGN.def",
 			"map" : "creatures/ghostDragon/adventureMap/AVWbonx0.def",
-			"iconSmall" : "creatures/ghostDragon/icons/CPRSMALL_0_71.bmp",
-			"iconLarge" : "creatures/ghostDragon/icons/TWCRPORT_0_71.bmp",
+			"iconSmall" : "creatures/ghostDragon/icons/CPRSMALL_0_71.png",
+			"iconLarge" : "creatures/ghostDragon/icons/TWCRPORT_0_71.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

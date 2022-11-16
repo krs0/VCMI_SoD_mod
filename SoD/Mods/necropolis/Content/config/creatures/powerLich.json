@@ -43,8 +43,8 @@
 		"graphics" : {
 			"animation" : "creatures/powerLich/battle/CPLICH.def",
 			"map" : "creatures/powerLich/adventureMap/AVWlicx0.def",
-			"iconSmall" : "creatures/powerLich/icons/CPRSMALL_0_67.bmp",
-			"iconLarge" : "creatures/powerLich/icons/TWCRPORT_0_67.bmp",
+			"iconSmall" : "creatures/powerLich/icons/CPRSMALL_0_67.png",
+			"iconLarge" : "creatures/powerLich/icons/TWCRPORT_0_67.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

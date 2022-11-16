@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/mirlanda/icons/speciality/UN32_0_120.bmp",
-			"specialtyLarge" : "heroes/mirlanda/icons/speciality/UN44_0_120.bmp",
+			"specialtySmall" : "heroes/mirlanda/icons/speciality/UN32_0_120.png",
+			"specialtyLarge" : "heroes/mirlanda/icons/speciality/UN44_0_120.png",
 			"large" : "heroes/mirlanda/icons/portrait/HPL120WH.bmp",
 			"small" : "heroes/mirlanda/icons/portrait/HPS120WH.bmp"
 		},

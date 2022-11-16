@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/vokial/icons/speciality/UN32_0_65.bmp",
-			"specialtyLarge" : "heroes/vokial/icons/speciality/UN44_0_65.bmp",
+			"specialtySmall" : "heroes/vokial/icons/speciality/UN32_0_65.png",
+			"specialtyLarge" : "heroes/vokial/icons/speciality/UN44_0_65.png",
 			"large" : "heroes/vokial/icons/portrait/HPL065DK.bmp",
 			"small" : "heroes/vokial/icons/portrait/HPS065DK.bmp"
 		},

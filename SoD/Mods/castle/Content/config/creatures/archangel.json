@@ -69,8 +69,8 @@
 		"graphics" : {
 			"animation" : "creatures/archangel/battle/CRANGL.def",
 			"map" : "creatures/archangel/adventureMap/AvWArch.def",
-			"iconSmall" : "creatures/archangel/icons/CPRSMALL_0_15.bmp",
-			"iconLarge" : "creatures/archangel/icons/TWCRPORT_0_15.bmp",
+			"iconSmall" : "creatures/archangel/icons/CPRSMALL_0_15.png",
+			"iconLarge" : "creatures/archangel/icons/TWCRPORT_0_15.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

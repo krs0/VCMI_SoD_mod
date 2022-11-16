@@ -38,8 +38,8 @@
 		"graphics" : {
 			"animation" : "creatures/obsidianGargoyle/battle/COGARG.def",
 			"map" : "creatures/obsidianGargoyle/adventureMap/AVWgarx0.def",
-			"iconSmall" : "creatures/obsidianGargoyle/icons/CPRSMALL_0_33.bmp",
-			"iconLarge" : "creatures/obsidianGargoyle/icons/TWCRPORT_0_33.bmp",
+			"iconSmall" : "creatures/obsidianGargoyle/icons/CPRSMALL_0_33.png",
+			"iconLarge" : "creatures/obsidianGargoyle/icons/TWCRPORT_0_33.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

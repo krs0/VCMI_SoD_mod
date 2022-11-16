@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/coronius/icons/speciality/UN32_0_24.bmp",
-			"specialtyLarge" : "heroes/coronius/icons/speciality/UN44_0_24.bmp",
+			"specialtySmall" : "heroes/coronius/icons/speciality/UN32_0_24.png",
+			"specialtyLarge" : "heroes/coronius/icons/speciality/UN44_0_24.png",
 			"large" : "heroes/coronius/icons/portrait/HPL024DR.bmp",
 			"small" : "heroes/coronius/icons/portrait/HPS024DR.bmp"
 		},

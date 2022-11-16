@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/jeddite/icons/speciality/UN32_0_91.bmp",
-			"specialtyLarge" : "heroes/jeddite/icons/speciality/UN44_0_91.bmp",
+			"specialtySmall" : "heroes/jeddite/icons/speciality/UN32_0_91.png",
+			"specialtyLarge" : "heroes/jeddite/icons/speciality/UN44_0_91.png",
 			"large" : "heroes/jeddite/icons/portrait/HPL091WL.bmp",
 			"small" : "heroes/jeddite/icons/portrait/HPS091WL.bmp"
 		},

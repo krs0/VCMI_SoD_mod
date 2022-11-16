@@ -35,8 +35,8 @@
 		"graphics" : {
 			"animation" : "creatures/mummy/battle/CMUMMY.def",
 			"map" : "creatures/mummy/adventureMap/AVWmumy.def",
-			"iconSmall" : "creatures/mummy/icons/CPRSMALL_0_143.bmp",
-			"iconLarge" : "creatures/mummy/icons/TWCRPORT_0_143.bmp",
+			"iconSmall" : "creatures/mummy/icons/CPRSMALL_0_143.png",
+			"iconLarge" : "creatures/mummy/icons/TWCRPORT_0_143.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

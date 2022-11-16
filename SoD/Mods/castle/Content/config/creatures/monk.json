@@ -37,8 +37,8 @@
 		"graphics" : {
 			"animation" : "creatures/monk/battle/CMONKK.def",
 			"map" : "creatures/monk/adventureMap/AvWMonk.def",
-			"iconSmall" : "creatures/monk/icons/CPRSMALL_0_10.bmp",
-			"iconLarge" : "creatures/monk/icons/TWCRPORT_0_10.bmp",
+			"iconSmall" : "creatures/monk/icons/CPRSMALL_0_10.png",
+			"iconLarge" : "creatures/monk/icons/TWCRPORT_0_10.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/saurug/icons/speciality/UN32_0_111.bmp",
-			"specialtyLarge" : "heroes/saurug/icons/speciality/UN44_0_111.bmp",
+			"specialtySmall" : "heroes/saurug/icons/speciality/UN32_0_111.png",
+			"specialtyLarge" : "heroes/saurug/icons/speciality/UN44_0_111.png",
 			"large" : "heroes/saurug/icons/portrait/HPL111BM.bmp",
 			"small" : "heroes/saurug/icons/portrait/HPS111BM.bmp"
 		},

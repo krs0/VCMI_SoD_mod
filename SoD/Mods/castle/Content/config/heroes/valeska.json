@@ -8,8 +8,8 @@
 								
 		"images" :
 		{
-			"specialtySmall" : "heroes/valeska/icons/speciality/UN32_0_1.bmp",
-			"specialtyLarge" : "heroes/valeska/icons/speciality/UN44_0_1.bmp",
+			"specialtySmall" : "heroes/valeska/icons/speciality/UN32_0_1.png",
+			"specialtyLarge" : "heroes/valeska/icons/speciality/UN44_0_1.png",
 			"large" : "heroes/valeska/icons/portrait/HPL001KN.bmp",
 			"small" : "heroes/valeska/icons/portrait/HPS001KN.bmp"
 		},

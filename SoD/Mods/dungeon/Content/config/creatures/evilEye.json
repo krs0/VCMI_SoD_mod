@@ -40,8 +40,8 @@
 		"graphics" : {
 			"animation" : "creatures/evilEye/battle/CEVEYE.def",
 			"map" : "creatures/evilEye/adventureMap/AVWbehx0.def",
-			"iconSmall" : "creatures/evilEye/icons/CPRSMALL_0_77.bmp",
-			"iconLarge" : "creatures/evilEye/icons/TWCRPORT_0_77.bmp",
+			"iconSmall" : "creatures/evilEye/icons/CPRSMALL_0_77.png",
+			"iconLarge" : "creatures/evilEye/icons/TWCRPORT_0_77.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

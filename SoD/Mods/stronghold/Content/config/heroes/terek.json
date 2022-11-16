@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/terek/icons/speciality/UN32_0_107.bmp",
-			"specialtyLarge" : "heroes/terek/icons/speciality/UN44_0_107.bmp",
+			"specialtySmall" : "heroes/terek/icons/speciality/UN32_0_107.png",
+			"specialtyLarge" : "heroes/terek/icons/speciality/UN44_0_107.png",
 			"large" : "heroes/terek/icons/portrait/HPL107BM.bmp",
 			"small" : "heroes/terek/icons/portrait/HPS107BM.bmp"
 		},

@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/ash/icons/speciality/UN32_0_61.bmp",
-			"specialtyLarge" : "heroes/ash/icons/speciality/UN44_0_61.bmp",
+			"specialtySmall" : "heroes/ash/icons/speciality/UN32_0_61.png",
+			"specialtyLarge" : "heroes/ash/icons/speciality/UN44_0_61.png",
 			"large" : "heroes/ash/icons/portrait/HPL061DM.bmp",
 			"small" : "heroes/ash/icons/portrait/HPS061DM.bmp"
 		},

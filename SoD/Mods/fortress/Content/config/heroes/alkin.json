@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/alkin/icons/speciality/UN32_0_116.bmp",
-			"specialtyLarge" : "heroes/alkin/icons/speciality/UN44_0_116.bmp",
+			"specialtySmall" : "heroes/alkin/icons/speciality/UN32_0_116.png",
+			"specialtyLarge" : "heroes/alkin/icons/speciality/UN44_0_116.png",
 			"large" : "heroes/alkin/icons/portrait/HPL116BS.bmp",
 			"small" : "heroes/alkin/icons/portrait/HPS116BS.bmp"
 		},

@@ -39,8 +39,8 @@
 		"graphics" : {
 			"animation" : "creatures/royalGriffin/battle/CRGRIF.def",
 			"map" : "creatures/royalGriffin/adventureMap/AVWgrix0.def",
-			"iconSmall" : "creatures/royalGriffin/icons/CPRSMALL_0_7.bmp",
-			"iconLarge" : "creatures/royalGriffin/icons/TWCRPORT_0_7.bmp",
+			"iconSmall" : "creatures/royalGriffin/icons/CPRSMALL_0_7.png",
+			"iconLarge" : "creatures/royalGriffin/icons/TWCRPORT_0_7.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

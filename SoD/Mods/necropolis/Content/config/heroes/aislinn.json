@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/aislinn/icons/speciality/UN32_0_73.bmp",
-			"specialtyLarge" : "heroes/aislinn/icons/speciality/UN44_0_73.bmp",
+			"specialtySmall" : "heroes/aislinn/icons/speciality/UN32_0_73.png",
+			"specialtyLarge" : "heroes/aislinn/icons/speciality/UN44_0_73.png",
 			"large" : "heroes/aislinn/icons/portrait/HPL073NC.bmp",
 			"small" : "heroes/aislinn/icons/portrait/HPS073NC.bmp"
 		},

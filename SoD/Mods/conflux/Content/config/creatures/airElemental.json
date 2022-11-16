@@ -56,8 +56,8 @@
 		"graphics" : {
 			"animation" : "creatures/airElemental/battle/CAELEM.def",
 			"map" : "creatures/airElemental/adventureMap/AVWelma0.def",
-			"iconSmall" : "creatures/airElemental/icons/CPRSMALL_0_114.bmp",
-			"iconLarge" : "creatures/airElemental/icons/TWCRPORT_0_114.bmp",
+			"iconSmall" : "creatures/airElemental/icons/CPRSMALL_0_114.png",
+			"iconLarge" : "creatures/airElemental/icons/TWCRPORT_0_114.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

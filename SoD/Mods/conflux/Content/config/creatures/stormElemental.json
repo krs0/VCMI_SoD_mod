@@ -70,8 +70,8 @@
 		"graphics" : {
 			"animation" : "creatures/stormElemental/battle/CSTORM.def",
 			"map" : "creatures/stormElemental/adventureMap/AVWstorm.def",
-			"iconSmall" : "creatures/stormElemental/icons/CPRSMALL_0_129.bmp",
-			"iconLarge" : "creatures/stormElemental/icons/TWCRPORT_0_129.bmp",
+			"iconSmall" : "creatures/stormElemental/icons/CPRSMALL_0_129.png",
+			"iconLarge" : "creatures/stormElemental/icons/TWCRPORT_0_129.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

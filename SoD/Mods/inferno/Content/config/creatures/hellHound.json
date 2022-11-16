@@ -34,8 +34,8 @@
 		"graphics" : {
 			"animation" : "creatures/hellHound/battle/CHHOUN.def",
 			"map" : "creatures/hellHound/adventureMap/AVWhoun0.def",
-			"iconSmall" : "creatures/hellHound/icons/CPRSMALL_0_49.bmp",
-			"iconLarge" : "creatures/hellHound/icons/TWCRPORT_0_49.bmp",
+			"iconSmall" : "creatures/hellHound/icons/CPRSMALL_0_49.png",
+			"iconLarge" : "creatures/hellHound/icons/TWCRPORT_0_49.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

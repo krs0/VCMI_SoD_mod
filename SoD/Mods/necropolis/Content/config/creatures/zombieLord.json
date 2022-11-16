@@ -35,8 +35,8 @@
 		"graphics" : {
 			"animation" : "creatures/zombieLord/battle/CZOMLO.def",
 			"map" : "creatures/zombieLord/adventureMap/AVWzomx0.def",
-			"iconSmall" : "creatures/zombieLord/icons/CPRSMALL_0_60.bmp",
-			"iconLarge" : "creatures/zombieLord/icons/TWCRPORT_0_60.bmp",
+			"iconSmall" : "creatures/zombieLord/icons/CPRSMALL_0_60.png",
+			"iconLarge" : "creatures/zombieLord/icons/TWCRPORT_0_60.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

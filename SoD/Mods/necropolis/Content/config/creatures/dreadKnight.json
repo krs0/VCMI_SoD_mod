@@ -44,8 +44,8 @@
 		"graphics" : {
 			"animation" : "creatures/dreadKnight/battle/CBLORD.def",
 			"map" : "creatures/dreadKnight/adventureMap/AVWbknx0.def",
-			"iconSmall" : "creatures/dreadKnight/icons/CPRSMALL_0_69.bmp",
-			"iconLarge" : "creatures/dreadKnight/icons/TWCRPORT_0_69.bmp",
+			"iconSmall" : "creatures/dreadKnight/icons/CPRSMALL_0_69.png",
+			"iconLarge" : "creatures/dreadKnight/icons/TWCRPORT_0_69.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

@@ -32,8 +32,8 @@
 		"graphics" : {
 			"animation" : "creatures/goblinWolfRider/battle/CBWLFR.def",
 			"map" : "creatures/goblinWolfRider/adventureMap/AVWwolf0.def",
-			"iconSmall" : "creatures/goblinWolfRider/icons/CPRSMALL_0_88.bmp",
-			"iconLarge" : "creatures/goblinWolfRider/icons/TWCRPORT_0_88.bmp",
+			"iconSmall" : "creatures/goblinWolfRider/icons/CPRSMALL_0_88.png",
+			"iconLarge" : "creatures/goblinWolfRider/icons/TWCRPORT_0_88.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

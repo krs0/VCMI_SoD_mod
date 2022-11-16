@@ -40,8 +40,8 @@
 		"graphics" : {
 			"animation" : "creatures/cyclop/battle/CCYCLR.def",
 			"map" : "creatures/cyclop/adventureMap/AVWcycl0.def",
-			"iconSmall" : "creatures/cyclop/icons/CPRSMALL_0_96.bmp",
-			"iconLarge" : "creatures/cyclop/icons/TWCRPORT_0_96.bmp",
+			"iconSmall" : "creatures/cyclop/icons/CPRSMALL_0_96.png",
+			"iconLarge" : "creatures/cyclop/icons/TWCRPORT_0_96.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

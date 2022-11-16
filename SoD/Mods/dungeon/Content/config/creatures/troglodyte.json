@@ -44,8 +44,8 @@
 		"graphics" : {
 			"animation" : "creatures/troglodyte/battle/CTROGL.def",
 			"map" : "creatures/troglodyte/adventureMap/AVWtrog0.def",
-			"iconSmall" : "creatures/troglodyte/icons/CPRSMALL_0_72.bmp",
-			"iconLarge" : "creatures/troglodyte/icons/TWCRPORT_0_72.bmp",
+			"iconSmall" : "creatures/troglodyte/icons/CPRSMALL_0_72.png",
+			"iconLarge" : "creatures/troglodyte/icons/TWCRPORT_0_72.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

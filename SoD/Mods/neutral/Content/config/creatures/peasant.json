@@ -30,8 +30,8 @@
 		"graphics" : {
 			"animation" : "creatures/peasant/battle/CPEAS.def",
 			"map" : "creatures/peasant/adventureMap/AVWpeas.def",
-			"iconSmall" : "creatures/peasant/icons/CPRSMALL_0_141.bmp",
-			"iconLarge" : "creatures/peasant/icons/TWCRPORT_0_141.bmp",
+			"iconSmall" : "creatures/peasant/icons/CPRSMALL_0_141.png",
+			"iconLarge" : "creatures/peasant/icons/TWCRPORT_0_141.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

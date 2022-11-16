@@ -41,8 +41,8 @@
 		"graphics" : {
 			"animation" : "creatures/scorpicore/battle/CCMCOR.def",
 			"map" : "creatures/scorpicore/adventureMap/AVWmanx0.def",
-			"iconSmall" : "creatures/scorpicore/icons/CPRSMALL_0_83.bmp",
-			"iconLarge" : "creatures/scorpicore/icons/TWCRPORT_0_83.bmp",
+			"iconSmall" : "creatures/scorpicore/icons/CPRSMALL_0_83.png",
+			"iconLarge" : "creatures/scorpicore/icons/TWCRPORT_0_83.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

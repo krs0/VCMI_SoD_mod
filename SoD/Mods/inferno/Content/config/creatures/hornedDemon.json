@@ -30,8 +30,8 @@
 		"graphics" : {
 			"animation" : "creatures/hornedDemon/battle/CTHDEM.def",
 			"map" : "creatures/hornedDemon/adventureMap/AVWdemx0.def",
-			"iconSmall" : "creatures/hornedDemon/icons/CPRSMALL_0_51.bmp",
-			"iconLarge" : "creatures/hornedDemon/icons/TWCRPORT_0_51.bmp",
+			"iconSmall" : "creatures/hornedDemon/icons/CPRSMALL_0_51.png",
+			"iconLarge" : "creatures/hornedDemon/icons/TWCRPORT_0_51.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

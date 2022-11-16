@@ -36,8 +36,8 @@
 		"graphics" : {
 			"animation" : "creatures/hobgoblinWolfRider/battle/CUWLFR.def",
 			"map" : "creatures/hobgoblinWolfRider/adventureMap/AVWwolx0.def",
-			"iconSmall" : "creatures/hobgoblinWolfRider/icons/CPRSMALL_0_89.bmp",
-			"iconLarge" : "creatures/hobgoblinWolfRider/icons/TWCRPORT_0_89.bmp",
+			"iconSmall" : "creatures/hobgoblinWolfRider/icons/CPRSMALL_0_89.png",
+			"iconLarge" : "creatures/hobgoblinWolfRider/icons/TWCRPORT_0_89.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

@@ -42,8 +42,8 @@
 		"graphics" : {
 			"animation" : "creatures/harpy/battle/CHARPY.def",
 			"map" : "creatures/harpy/adventureMap/AVWharp0.def",
-			"iconSmall" : "creatures/harpy/icons/CPRSMALL_0_74.bmp",
-			"iconLarge" : "creatures/harpy/icons/TWCRPORT_0_74.bmp",
+			"iconSmall" : "creatures/harpy/icons/CPRSMALL_0_74.png",
+			"iconLarge" : "creatures/harpy/icons/TWCRPORT_0_74.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

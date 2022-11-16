@@ -37,8 +37,8 @@
 		"graphics" : {
 			"animation" : "creatures/dwarf/battle/CDWARF.def",
 			"map" : "creatures/dwarf/adventureMap/AVWdwrf0.def",
-			"iconSmall" : "creatures/dwarf/icons/CPRSMALL_0_18.bmp",
-			"iconLarge" : "creatures/dwarf/icons/TWCRPORT_0_18.bmp",
+			"iconSmall" : "creatures/dwarf/icons/CPRSMALL_0_18.png",
+			"iconLarge" : "creatures/dwarf/icons/TWCRPORT_0_18.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

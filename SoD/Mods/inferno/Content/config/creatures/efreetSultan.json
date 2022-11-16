@@ -53,8 +53,8 @@
 		"graphics" : {
 			"animation" : "creatures/efreetSultan/battle/CEFRES.def",
 			"map" : "creatures/efreetSultan/adventureMap/AVWefrx0.def",
-			"iconSmall" : "creatures/efreetSultan/icons/CPRSMALL_0_55.bmp",
-			"iconLarge" : "creatures/efreetSultan/icons/TWCRPORT_0_55.bmp",
+			"iconSmall" : "creatures/efreetSultan/icons/CPRSMALL_0_55.png",
+			"iconLarge" : "creatures/efreetSultan/icons/TWCRPORT_0_55.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

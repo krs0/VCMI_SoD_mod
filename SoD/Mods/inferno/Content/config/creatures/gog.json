@@ -38,8 +38,8 @@
 		"graphics" : {
 			"animation" : "creatures/gog/battle/CGOG.def",
 			"map" : "creatures/gog/adventureMap/AVWgog0.def",
-			"iconSmall" : "creatures/gog/icons/CPRSMALL_0_46.bmp",
-			"iconLarge" : "creatures/gog/icons/TWCRPORT_0_46.bmp",
+			"iconSmall" : "creatures/gog/icons/CPRSMALL_0_46.png",
+			"iconLarge" : "creatures/gog/icons/TWCRPORT_0_46.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

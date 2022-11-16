@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/inteus/icons/speciality/UN32_0_140.bmp",
-			"specialtyLarge" : "heroes/inteus/icons/speciality/UN44_0_140.bmp",
+			"specialtySmall" : "heroes/inteus/icons/speciality/UN32_0_140.png",
+			"specialtyLarge" : "heroes/inteus/icons/speciality/UN44_0_140.png",
 			"large" : "heroes/inteus/icons/portrait/HPL004EL.bmp",
 			"small" : "heroes/inteus/icons/portrait/HPS004EL.bmp"
 		},

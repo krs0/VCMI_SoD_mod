@@ -8,8 +8,8 @@
 										
 		"images" :
 		{
-			"specialtySmall" : "heroes/rion/icons/speciality/UN32_0_8.bmp",
-			"specialtyLarge" : "heroes/rion/icons/speciality/UN44_0_8.bmp",
+			"specialtySmall" : "heroes/rion/icons/speciality/UN32_0_8.png",
+			"specialtyLarge" : "heroes/rion/icons/speciality/UN44_0_8.png",
 			"large" : "heroes/rion/icons/portrait/HPL008CL.bmp",
 			"small" : "heroes/rion/icons/portrait/HPS008CL.bmp"
 		},

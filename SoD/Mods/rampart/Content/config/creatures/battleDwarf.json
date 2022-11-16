@@ -36,8 +36,8 @@
 		"graphics" : {
 			"animation" : "creatures/battleDwarf/battle/CBDWAR.def",
 			"map" : "creatures/battleDwarf/adventureMap/AVWdwrx0.def",
-			"iconSmall" : "creatures/battleDwarf/icons/CPRSMALL_0_19.bmp",
-			"iconLarge" : "creatures/battleDwarf/icons/TWCRPORT_0_19.bmp",
+			"iconSmall" : "creatures/battleDwarf/icons/CPRSMALL_0_19.png",
+			"iconLarge" : "creatures/battleDwarf/icons/TWCRPORT_0_19.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

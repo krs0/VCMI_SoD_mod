@@ -45,8 +45,8 @@
 		"graphics" : {
 			"animation" : "creatures/psychicElemental/battle/CPSYEL.def",
 			"map" : "creatures/psychicElemental/adventureMap/AVWpsye.def",
-			"iconSmall" : "creatures/psychicElemental/icons/CPRSMALL_0_122.bmp",
-			"iconLarge" : "creatures/psychicElemental/icons/TWCRPORT_0_122.bmp",
+			"iconSmall" : "creatures/psychicElemental/icons/CPRSMALL_0_122.png",
+			"iconLarge" : "creatures/psychicElemental/icons/TWCRPORT_0_122.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

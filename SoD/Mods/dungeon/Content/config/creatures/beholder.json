@@ -41,8 +41,8 @@
 		"graphics" : {
 			"animation" : "creatures/beholder/battle/CBEHOL.def",
 			"map" : "creatures/beholder/adventureMap/AVWbehl0.def",
-			"iconSmall" : "creatures/beholder/icons/CPRSMALL_0_76.bmp",
-			"iconLarge" : "creatures/beholder/icons/TWCRPORT_0_76.bmp",
+			"iconSmall" : "creatures/beholder/icons/CPRSMALL_0_76.png",
+			"iconLarge" : "creatures/beholder/icons/TWCRPORT_0_76.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

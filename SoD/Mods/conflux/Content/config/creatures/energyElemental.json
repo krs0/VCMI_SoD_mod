@@ -59,8 +59,8 @@
 		"graphics" : {
 			"animation" : "creatures/energyElemental/battle/CNRG.def",
 			"map" : "creatures/energyElemental/adventureMap/AVWnrg.def",
-			"iconSmall" : "creatures/energyElemental/icons/CPRSMALL_0_131.bmp",
-			"iconLarge" : "creatures/energyElemental/icons/TWCRPORT_0_131.bmp",
+			"iconSmall" : "creatures/energyElemental/icons/CPRSMALL_0_131.png",
+			"iconLarge" : "creatures/energyElemental/icons/TWCRPORT_0_131.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

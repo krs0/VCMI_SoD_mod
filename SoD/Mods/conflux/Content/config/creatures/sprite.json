@@ -38,8 +38,8 @@
 		"graphics" : {
 			"animation" : "creatures/sprite/battle/CSPRITE.def",
 			"map" : "creatures/sprite/adventureMap/AVWsprit.def",
-			"iconSmall" : "creatures/sprite/icons/CPRSMALL_0_120.bmp",
-			"iconLarge" : "creatures/sprite/icons/TWCRPORT_0_120.bmp",
+			"iconSmall" : "creatures/sprite/icons/CPRSMALL_0_120.png",
+			"iconLarge" : "creatures/sprite/icons/TWCRPORT_0_120.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

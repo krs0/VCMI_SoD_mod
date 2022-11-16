@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/aenain/icons/speciality/UN32_0_141.bmp",
-			"specialtyLarge" : "heroes/aenain/icons/speciality/UN44_0_141.bmp",
+			"specialtySmall" : "heroes/aenain/icons/speciality/UN32_0_141.png",
+			"specialtyLarge" : "heroes/aenain/icons/speciality/UN44_0_141.png",
 			"large" : "heroes/aenain/icons/portrait/HPL005EL.bmp",
 			"small" : "heroes/aenain/icons/portrait/HPS005EL.bmp"
 		},

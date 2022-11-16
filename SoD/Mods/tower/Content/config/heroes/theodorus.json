@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/theodorus/icons/speciality/UN32_0_44.bmp",
-			"specialtyLarge" : "heroes/theodorus/icons/speciality/UN44_0_44.bmp",
+			"specialtySmall" : "heroes/theodorus/icons/speciality/UN32_0_44.png",
+			"specialtyLarge" : "heroes/theodorus/icons/speciality/UN44_0_44.png",
 			"large" : "heroes/theodorus/icons/portrait/HPL044WZ.bmp",
 			"small" : "heroes/theodorus/icons/portrait/HPS044WZ.bmp"
 		},

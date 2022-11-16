@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/ufretin/icons/speciality/UN32_0_17.bmp",
-			"specialtyLarge" : "heroes/ufretin/icons/speciality/UN44_0_17.bmp",
+			"specialtySmall" : "heroes/ufretin/icons/speciality/UN32_0_17.png",
+			"specialtyLarge" : "heroes/ufretin/icons/speciality/UN44_0_17.png",
 			"large" : "heroes/ufretin/icons/portrait/HPL017RN.bmp",
 			"small" : "heroes/ufretin/icons/portrait/HPS017RN.bmp"
 		},

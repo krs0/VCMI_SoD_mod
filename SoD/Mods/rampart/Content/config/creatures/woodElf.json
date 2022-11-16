@@ -37,8 +37,8 @@
 		"graphics" : {
 			"animation" : "creatures/woodElf/battle/CELF.def",
 			"map" : "creatures/woodElf/adventureMap/AVWelfw0.def",
-			"iconSmall" : "creatures/woodElf/icons/CPRSMALL_0_20.bmp",
-			"iconLarge" : "creatures/woodElf/icons/TWCRPORT_0_20.bmp",
+			"iconSmall" : "creatures/woodElf/icons/CPRSMALL_0_20.png",
+			"iconLarge" : "creatures/woodElf/icons/TWCRPORT_0_20.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

@@ -46,8 +46,8 @@
 		"graphics" : {
 			"animation" : "creatures/firebird/battle/CFBIRD.def",
 			"map" : "creatures/firebird/adventureMap/AVWfbird.def",
-			"iconSmall" : "creatures/firebird/icons/CPRSMALL_0_132.bmp",
-			"iconLarge" : "creatures/firebird/icons/TWCRPORT_0_132.bmp",
+			"iconSmall" : "creatures/firebird/icons/CPRSMALL_0_132.png",
+			"iconLarge" : "creatures/firebird/icons/TWCRPORT_0_132.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

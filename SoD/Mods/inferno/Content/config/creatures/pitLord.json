@@ -42,8 +42,8 @@
 		"graphics" : {
 			"animation" : "creatures/pitLord/battle/CPFOE.def",
 			"map" : "creatures/pitLord/adventureMap/AVWpitx0.def",
-			"iconSmall" : "creatures/pitLord/icons/CPRSMALL_0_53.bmp",
-			"iconLarge" : "creatures/pitLord/icons/TWCRPORT_0_53.bmp",
+			"iconSmall" : "creatures/pitLord/icons/CPRSMALL_0_53.png",
+			"iconLarge" : "creatures/pitLord/icons/TWCRPORT_0_53.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

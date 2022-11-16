@@ -39,8 +39,8 @@
 		"graphics" : {
 			"animation" : "creatures/walkingDead/battle/CZOMBI.def",
 			"map" : "creatures/walkingDead/adventureMap/AVWzomb0.def",
-			"iconSmall" : "creatures/walkingDead/icons/CPRSMALL_0_61.bmp",
-			"iconLarge" : "creatures/walkingDead/icons/TWCRPORT_0_61.bmp",
+			"iconSmall" : "creatures/walkingDead/icons/CPRSMALL_0_61.png",
+			"iconLarge" : "creatures/walkingDead/icons/TWCRPORT_0_61.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

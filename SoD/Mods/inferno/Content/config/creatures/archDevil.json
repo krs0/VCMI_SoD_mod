@@ -58,8 +58,8 @@
 		"graphics" : {
 			"animation" : "creatures/archDevil/battle/CADEVL.def",
 			"map" : "creatures/archDevil/adventureMap/AVWdevx0.def",
-			"iconSmall" : "creatures/archDevil/icons/CPRSMALL_0_57.bmp",
-			"iconLarge" : "creatures/archDevil/icons/TWCRPORT_0_57.bmp",
+			"iconSmall" : "creatures/archDevil/icons/CPRSMALL_0_57.png",
+			"iconLarge" : "creatures/archDevil/icons/TWCRPORT_0_57.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

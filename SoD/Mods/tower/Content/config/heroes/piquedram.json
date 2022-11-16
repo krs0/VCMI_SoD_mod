@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/piquedram/icons/speciality/UN32_0_32.bmp",
-			"specialtyLarge" : "heroes/piquedram/icons/speciality/UN44_0_32.bmp",
+			"specialtySmall" : "heroes/piquedram/icons/speciality/UN32_0_32.png",
+			"specialtyLarge" : "heroes/piquedram/icons/speciality/UN44_0_32.png",
 			"large" : "heroes/piquedram/icons/portrait/HPL032AL.bmp",
 			"small" : "heroes/piquedram/icons/portrait/HPS032AL.bmp"
 		},

@@ -41,8 +41,8 @@
 		"graphics" : {
 			"animation" : "creatures/ironGolem/battle/CSGOLE.def",
 			"map" : "creatures/ironGolem/adventureMap/AVWgolm0.def",
-			"iconSmall" : "creatures/ironGolem/icons/CPRSMALL_0_34.bmp",
-			"iconLarge" : "creatures/ironGolem/icons/TWCRPORT_0_34.bmp",
+			"iconSmall" : "creatures/ironGolem/icons/CPRSMALL_0_34.png",
+			"iconLarge" : "creatures/ironGolem/icons/TWCRPORT_0_34.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

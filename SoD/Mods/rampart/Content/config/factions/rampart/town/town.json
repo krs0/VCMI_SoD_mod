@@ -95,22 +95,22 @@
 			{
 				"village" : {
 					"normal" : {
-						"small" : "factions/rampart/icons/ITPA_0_22.bmp",
-					 	"large" : "factions/rampart/icons/ITPT_0_20.bmp"
+						"small" : "factions/rampart/icons/ITPA_0_22.png",
+					 	"large" : "factions/rampart/icons/ITPT_0_20.png"
 					 },
 					"built"  : {
-						"small" : "factions/rampart/icons/ITPA_0_23.bmp",
-						"large" : "factions/rampart/icons/ITPT_0_21.bmp" 
+						"small" : "factions/rampart/icons/ITPA_0_23.png",
+						"large" : "factions/rampart/icons/ITPT_0_21.png" 
 					}
 				},
 				"fort" : {
 					"normal" : {
-						"small" : "factions/rampart/icons/ITPA_0_4.bmp",
-					 	"large" : "factions/rampart/icons/ITPT_0_2.bmp" 
+						"small" : "factions/rampart/icons/ITPA_0_4.png",
+					 	"large" : "factions/rampart/icons/ITPT_0_2.png" 
 					 },
 					"built"  : {
-						"small" : "factions/rampart/icons/ITPA_0_5.bmp",
-						 "large" : "factions/rampart/icons/ITPT_0_3.bmp"
+						"small" : "factions/rampart/icons/ITPA_0_5.png",
+						 "large" : "factions/rampart/icons/ITPT_0_3.png"
 					}
 				}
 			},

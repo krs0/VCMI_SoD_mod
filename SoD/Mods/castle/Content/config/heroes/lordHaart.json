@@ -8,8 +8,8 @@
 				
 		"images" :
 		{
-			"specialtySmall" : "heroes/lordHaart/icons/speciality/UN32_0_4.bmp",
-			"specialtyLarge" : "heroes/lordHaart/icons/speciality/UN44_0_4.bmp",
+			"specialtySmall" : "heroes/lordHaart/icons/speciality/UN32_0_4.png",
+			"specialtyLarge" : "heroes/lordHaart/icons/speciality/UN44_0_4.png",
 			"large" : "heroes/lordHaart/icons/portrait/HPL004KN.bmp",
 			"small" : "heroes/lordHaart/icons/portrait/HPS004KN.bmp"
 		},

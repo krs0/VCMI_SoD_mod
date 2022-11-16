@@ -36,8 +36,8 @@
 		"graphics" : {
 			"animation" : "creatures/halfling/battle/CHALF.def",
 			"map" : "creatures/halfling/adventureMap/AVWhalf.def",
-			"iconSmall" : "creatures/halfling/icons/CPRSMALL_0_140.bmp",
-			"iconLarge" : "creatures/halfling/icons/TWCRPORT_0_140.bmp",
+			"iconSmall" : "creatures/halfling/icons/CPRSMALL_0_140.png",
+			"iconLarge" : "creatures/halfling/icons/TWCRPORT_0_140.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

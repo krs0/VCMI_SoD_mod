@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/tamika/icons/speciality/UN32_0_68.bmp",
-			"specialtyLarge" : "heroes/tamika/icons/speciality/UN44_0_68.bmp",
+			"specialtySmall" : "heroes/tamika/icons/speciality/UN32_0_68.png",
+			"specialtyLarge" : "heroes/tamika/icons/speciality/UN44_0_68.png",
 			"large" : "heroes/tamika/icons/portrait/HPL068DK.bmp",
 			"small" : "heroes/tamika/icons/portrait/HPS068DK.bmp"
 		},

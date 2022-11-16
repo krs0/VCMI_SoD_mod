@@ -53,8 +53,8 @@
 		"graphics" : {
 			"animation" : "creatures/rogue/battle/CROGUE.def",
 			"map" : "creatures/rogue/adventureMap/AVWrog.def",
-			"iconSmall" : "creatures/rogue/icons/CPRSMALL_0_145.bmp",
-			"iconLarge" : "creatures/rogue/icons/TWCRPORT_0_145.bmp",
+			"iconSmall" : "creatures/rogue/icons/CPRSMALL_0_145.png",
+			"iconLarge" : "creatures/rogue/icons/TWCRPORT_0_145.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

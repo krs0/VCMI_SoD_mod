@@ -44,8 +44,8 @@
 		"graphics" : {
 			"animation" : "creatures/wight/battle/CWIGHT.def",
 			"map" : "creatures/wight/adventureMap/AvWWigh.def",
-			"iconSmall" : "creatures/wight/icons/CPRSMALL_0_62.bmp",
-			"iconLarge" : "creatures/wight/icons/TWCRPORT_0_62.bmp",
+			"iconSmall" : "creatures/wight/icons/CPRSMALL_0_62.png",
+			"iconLarge" : "creatures/wight/icons/TWCRPORT_0_62.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

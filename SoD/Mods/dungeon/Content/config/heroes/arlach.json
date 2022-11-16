@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/arlach/icons/speciality/UN32_0_81.bmp",
-			"specialtyLarge" : "heroes/arlach/icons/speciality/UN44_0_81.bmp",
+			"specialtySmall" : "heroes/arlach/icons/speciality/UN32_0_81.png",
+			"specialtyLarge" : "heroes/arlach/icons/speciality/UN44_0_81.png",
 			"large" : "heroes/arlach/icons/portrait/HPL081OV.bmp",
 			"small" : "heroes/arlach/icons/portrait/HPS081OV.bmp"
 		},

@@ -46,8 +46,8 @@
 		"graphics" : {
 			"animation" : "creatures/crystalDragon/battle/CCDRGN.def",
 			"map" : "creatures/crystalDragon/adventureMap/AVWcdrg.def",
-			"iconSmall" : "creatures/crystalDragon/icons/CPRSMALL_0_135.bmp",
-			"iconLarge" : "creatures/crystalDragon/icons/TWCRPORT_0_135.bmp",
+			"iconSmall" : "creatures/crystalDragon/icons/CPRSMALL_0_135.png",
+			"iconLarge" : "creatures/crystalDragon/icons/TWCRPORT_0_135.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

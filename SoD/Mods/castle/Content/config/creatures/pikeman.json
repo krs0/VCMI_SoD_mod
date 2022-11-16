@@ -36,8 +36,8 @@
 		"graphics" : {
 			"animation" : "creatures/pikeman/battle/CPKMAN.def",
 			"map" : "creatures/pikeman/adventureMap/AvWPike.def",
-			"iconSmall" : "creatures/pikeman/icons/CPRSMALL_0_2.bmp",
-			"iconLarge" : "creatures/pikeman/icons/TWCRPORT_0_2.bmp",
+			"iconSmall" : "creatures/pikeman/icons/CPRSMALL_0_2.png",
+			"iconLarge" : "creatures/pikeman/icons/TWCRPORT_0_2.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

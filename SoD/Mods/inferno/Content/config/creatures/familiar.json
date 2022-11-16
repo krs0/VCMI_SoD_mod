@@ -36,8 +36,8 @@
 		"graphics" : {
 			"animation" : "creatures/familiar/battle/CFAMIL.def",
 			"map" : "creatures/familiar/adventureMap/AVWimpx0.def",
-			"iconSmall" : "creatures/familiar/icons/CPRSMALL_0_45.bmp",
-			"iconLarge" : "creatures/familiar/icons/TWCRPORT_0_45.bmp",
+			"iconSmall" : "creatures/familiar/icons/CPRSMALL_0_45.png",
+			"iconLarge" : "creatures/familiar/icons/TWCRPORT_0_45.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

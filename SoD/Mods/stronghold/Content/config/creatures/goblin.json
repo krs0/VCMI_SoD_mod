@@ -35,8 +35,8 @@
 		"graphics" : {
 			"animation" : "creatures/goblin/battle/CGOBLI.def",
 			"map" : "creatures/goblin/adventureMap/AVWgobl0.def",
-			"iconSmall" : "creatures/goblin/icons/CPRSMALL_0_86.bmp",
-			"iconLarge" : "creatures/goblin/icons/TWCRPORT_0_86.bmp",
+			"iconSmall" : "creatures/goblin/icons/CPRSMALL_0_86.png",
+			"iconLarge" : "creatures/goblin/icons/TWCRPORT_0_86.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

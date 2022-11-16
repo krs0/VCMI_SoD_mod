@@ -50,8 +50,8 @@
 		"graphics" : {
 			"animation" : "creatures/efreet/battle/CEFREE.def",
 			"map" : "creatures/efreet/adventureMap/AVWefre0.def",
-			"iconSmall" : "creatures/efreet/icons/CPRSMALL_0_54.bmp",
-			"iconLarge" : "creatures/efreet/icons/TWCRPORT_0_54.bmp",
+			"iconSmall" : "creatures/efreet/icons/CPRSMALL_0_54.png",
+			"iconLarge" : "creatures/efreet/icons/TWCRPORT_0_54.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

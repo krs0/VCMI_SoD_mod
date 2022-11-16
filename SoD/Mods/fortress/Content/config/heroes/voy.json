@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/voy/icons/speciality/UN32_0_122.bmp",
-			"specialtyLarge" : "heroes/voy/icons/speciality/UN44_0_122.bmp",
+			"specialtySmall" : "heroes/voy/icons/speciality/UN32_0_122.png",
+			"specialtyLarge" : "heroes/voy/icons/speciality/UN44_0_122.png",
 			"large" : "heroes/voy/icons/portrait/HPL122WH.bmp",
 			"small" : "heroes/voy/icons/portrait/HPS122WH.bmp"
 		},

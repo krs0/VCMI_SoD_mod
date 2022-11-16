@@ -45,8 +45,8 @@
 		"graphics" : {
 			"animation" : "creatures/sharpshooter/battle/CSHARP.def",
 			"map" : "creatures/sharpshooter/adventureMap/AVWsharp.def",
-			"iconSmall" : "creatures/sharpshooter/icons/CPRSMALL_0_139.bmp",
-			"iconLarge" : "creatures/sharpshooter/icons/TWCRPORT_0_139.bmp",
+			"iconSmall" : "creatures/sharpshooter/icons/CPRSMALL_0_139.png",
+			"iconLarge" : "creatures/sharpshooter/icons/TWCRPORT_0_139.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

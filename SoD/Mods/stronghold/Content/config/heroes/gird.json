@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/gird/icons/speciality/UN32_0_104.bmp",
-			"specialtyLarge" : "heroes/gird/icons/speciality/UN44_0_104.bmp",
+			"specialtySmall" : "heroes/gird/icons/speciality/UN32_0_104.png",
+			"specialtyLarge" : "heroes/gird/icons/speciality/UN44_0_104.png",
 			"large" : "heroes/gird/icons/portrait/HPL104BM.bmp",
 			"small" : "heroes/gird/icons/portrait/HPS104BM.bmp"
 		},

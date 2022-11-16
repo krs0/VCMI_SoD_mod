@@ -60,8 +60,8 @@
 		"graphics" : {
 			"animation" : "creatures/iceElemental/battle/CICEE.def",
 			"map" : "creatures/iceElemental/adventureMap/AVWicee.def",
-			"iconSmall" : "creatures/iceElemental/icons/CPRSMALL_0_125.bmp",
-			"iconLarge" : "creatures/iceElemental/icons/TWCRPORT_0_125.bmp",
+			"iconSmall" : "creatures/iceElemental/icons/CPRSMALL_0_125.png",
+			"iconLarge" : "creatures/iceElemental/icons/TWCRPORT_0_125.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

@@ -30,8 +30,8 @@
 		"graphics" : {
 			"animation" : "creatures/boar/battle/CBOAR.def",
 			"map" : "creatures/boar/adventureMap/AVWboar.def",
-			"iconSmall" : "creatures/boar/icons/CPRSMALL_0_142.bmp",
-			"iconLarge" : "creatures/boar/icons/TWCRPORT_0_142.bmp",
+			"iconSmall" : "creatures/boar/icons/CPRSMALL_0_142.png",
+			"iconLarge" : "creatures/boar/icons/TWCRPORT_0_142.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

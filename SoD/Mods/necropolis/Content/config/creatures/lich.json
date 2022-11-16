@@ -44,8 +44,8 @@
 		"graphics" : {
 			"animation" : "creatures/lich/battle/CLICH.def",
 			"map" : "creatures/lich/adventureMap/AVWlich0.def",
-			"iconSmall" : "creatures/lich/icons/CPRSMALL_0_66.bmp",
-			"iconLarge" : "creatures/lich/icons/TWCRPORT_0_66.bmp",
+			"iconSmall" : "creatures/lich/icons/CPRSMALL_0_66.png",
+			"iconLarge" : "creatures/lich/icons/TWCRPORT_0_66.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

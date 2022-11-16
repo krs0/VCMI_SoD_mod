@@ -51,8 +51,8 @@
 		"graphics" : {
 			"animation" : "creatures/redDragon/battle/CRDRGN.def",
 			"map" : "creatures/redDragon/adventureMap/AvWRDrg.def",
-			"iconSmall" : "creatures/redDragon/icons/CPRSMALL_0_84.bmp",
-			"iconLarge" : "creatures/redDragon/icons/TWCRPORT_0_84.bmp",
+			"iconSmall" : "creatures/redDragon/icons/CPRSMALL_0_84.png",
+			"iconLarge" : "creatures/redDragon/icons/TWCRPORT_0_84.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

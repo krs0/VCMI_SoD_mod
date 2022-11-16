@@ -37,8 +37,8 @@
 		"graphics" : {
 			"animation" : "creatures/greaterBasilisk/battle/CGBASI.def",
 			"map" : "creatures/greaterBasilisk/adventureMap/AvWGBas.def",
-			"iconSmall" : "creatures/greaterBasilisk/icons/CPRSMALL_0_109.bmp",
-			"iconLarge" : "creatures/greaterBasilisk/icons/TWCRPORT_0_109.bmp",
+			"iconSmall" : "creatures/greaterBasilisk/icons/CPRSMALL_0_109.png",
+			"iconLarge" : "creatures/greaterBasilisk/icons/TWCRPORT_0_109.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

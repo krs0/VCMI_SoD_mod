@@ -41,8 +41,8 @@
 		"graphics" : {
 			"animation" : "creatures/pegasus/battle/CPEGAS.def",
 			"map" : "creatures/pegasus/adventureMap/AVWpega0.def",
-			"iconSmall" : "creatures/pegasus/icons/CPRSMALL_0_22.bmp",
-			"iconLarge" : "creatures/pegasus/icons/TWCRPORT_0_22.bmp",
+			"iconSmall" : "creatures/pegasus/icons/CPRSMALL_0_22.png",
+			"iconLarge" : "creatures/pegasus/icons/TWCRPORT_0_22.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

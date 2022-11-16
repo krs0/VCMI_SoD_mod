@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/melodia/icons/speciality/UN32_0_29.bmp",
-			"specialtyLarge" : "heroes/melodia/icons/speciality/UN44_0_29.bmp",
+			"specialtySmall" : "heroes/melodia/icons/speciality/UN32_0_29.png",
+			"specialtyLarge" : "heroes/melodia/icons/speciality/UN44_0_29.png",
 			"large" : "heroes/melodia/icons/portrait/HPL029DR.bmp",
 			"small" : "heroes/melodia/icons/portrait/HPS029DR.bmp"
 		},

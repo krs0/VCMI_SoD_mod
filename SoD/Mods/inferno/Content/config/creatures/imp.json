@@ -31,8 +31,8 @@
 		"graphics" : {
 			"animation" : "creatures/imp/battle/CIMP.def",
 			"map" : "creatures/imp/adventureMap/AVWimp0.def",
-			"iconSmall" : "creatures/imp/icons/CPRSMALL_0_44.bmp",
-			"iconLarge" : "creatures/imp/icons/TWCRPORT_0_44.bmp",
+			"iconSmall" : "creatures/imp/icons/CPRSMALL_0_44.png",
+			"iconLarge" : "creatures/imp/icons/TWCRPORT_0_44.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

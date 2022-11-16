@@ -40,8 +40,8 @@
 		"graphics" : {
 			"animation" : "creatures/wyvernMonarch/battle/CWYVMN.def",
 			"map" : "creatures/wyvernMonarch/adventureMap/AVWwyvx0.def",
-			"iconSmall" : "creatures/wyvernMonarch/icons/CPRSMALL_0_111.bmp",
-			"iconLarge" : "creatures/wyvernMonarch/icons/TWCRPORT_0_111.bmp",
+			"iconSmall" : "creatures/wyvernMonarch/icons/CPRSMALL_0_111.png",
+			"iconLarge" : "creatures/wyvernMonarch/icons/TWCRPORT_0_111.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

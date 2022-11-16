@@ -55,8 +55,8 @@
 		"graphics" : {
 			"animation" : "creatures/azureDragon/battle/CADRGN.def",
 			"map" : "creatures/azureDragon/adventureMap/AVWazure.def",
-			"iconSmall" : "creatures/azureDragon/icons/CPRSMALL_0_134.bmp",
-			"iconLarge" : "creatures/azureDragon/icons/TWCRPORT_0_134.bmp",
+			"iconSmall" : "creatures/azureDragon/icons/CPRSMALL_0_134.png",
+			"iconLarge" : "creatures/azureDragon/icons/TWCRPORT_0_134.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

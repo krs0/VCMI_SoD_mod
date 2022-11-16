@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/icons/speciality/UN32_0_114.bmp",
-			"specialtyLarge" : "heroes/icons/speciality/UN44_0_114.bmp",
+			"specialtySmall" : "heroes/icons/speciality/UN32_0_114.png",
+			"specialtyLarge" : "heroes/icons/speciality/UN44_0_114.png",
 			"large" : "heroes/icons/portrait/HPL114BS.bmp",
 			"small" : "heroes/icons/portrait/HPS114BS.bmp"
 		},

@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/gem/icons/speciality/UN32_0_27.bmp",
-			"specialtyLarge" : "heroes/gem/icons/speciality/UN44_0_27.bmp",
+			"specialtySmall" : "heroes/gem/icons/speciality/UN32_0_27.png",
+			"specialtyLarge" : "heroes/gem/icons/speciality/UN44_0_27.png",
 			"large" : "heroes/gem/icons/portrait/HPL027DR.bmp",
 			"small" : "heroes/gem/icons/portrait/HPS027DR.bmp"
 		},

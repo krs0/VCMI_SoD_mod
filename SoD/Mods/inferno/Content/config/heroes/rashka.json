@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/rashka/icons/speciality/UN32_0_49.bmp",
-			"specialtyLarge" : "heroes/rashka/icons/speciality/UN44_0_49.bmp",
+			"specialtySmall" : "heroes/rashka/icons/speciality/UN32_0_49.png",
+			"specialtyLarge" : "heroes/rashka/icons/speciality/UN44_0_49.png",
 			"large" : "heroes/rashka/icons/portrait/HPL049HR.bmp",
 			"small" : "heroes/rashka/icons/portrait/HPS049HR.bmp"
 		},

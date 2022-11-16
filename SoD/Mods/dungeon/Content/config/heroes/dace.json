@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/dace/icons/speciality/UN32_0_82.bmp",
-			"specialtyLarge" : "heroes/dace/icons/speciality/UN44_0_82.bmp",
+			"specialtySmall" : "heroes/dace/icons/speciality/UN32_0_82.png",
+			"specialtyLarge" : "heroes/dace/icons/speciality/UN44_0_82.png",
 			"large" : "heroes/dace/icons/portrait/HPL082OV.bmp",
 			"small" : "heroes/dace/icons/portrait/HPS082OV.bmp"
 		},

@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/zydar/icons/speciality/UN32_0_62.bmp",
-			"specialtyLarge" : "heroes/zydar/icons/speciality/UN44_0_62.bmp",
+			"specialtySmall" : "heroes/zydar/icons/speciality/UN32_0_62.png",
+			"specialtyLarge" : "heroes/zydar/icons/speciality/UN44_0_62.png",
 			"large" : "heroes/zydar/icons/portrait/HPL062DM.bmp",
 			"small" : "heroes/zydar/icons/portrait/HPS062DM.bmp"
 		},

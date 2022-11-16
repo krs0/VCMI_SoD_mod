@@ -37,8 +37,8 @@
 		"graphics" : {
 			"animation" : "creatures/minotaur/battle/CMINOT.def",
 			"map" : "creatures/minotaur/adventureMap/AvWMino.def",
-			"iconSmall" : "creatures/minotaur/icons/CPRSMALL_0_80.bmp",
-			"iconLarge" : "creatures/minotaur/icons/TWCRPORT_0_80.bmp",
+			"iconSmall" : "creatures/minotaur/icons/CPRSMALL_0_80.png",
+			"iconLarge" : "creatures/minotaur/icons/TWCRPORT_0_80.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

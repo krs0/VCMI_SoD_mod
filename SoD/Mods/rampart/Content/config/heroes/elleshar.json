@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/elleshar/icons/speciality/UN32_0_26.bmp",
-			"specialtyLarge" : "heroes/elleshar/icons/speciality/UN44_0_26.bmp",
+			"specialtySmall" : "heroes/elleshar/icons/speciality/UN32_0_26.png",
+			"specialtyLarge" : "heroes/elleshar/icons/speciality/UN44_0_26.png",
 			"large" : "heroes/elleshar/icons/portrait/HPL026DR.bmp",
 			"small" : "heroes/elleshar/icons/portrait/HPS026DR.bmp"
 		},

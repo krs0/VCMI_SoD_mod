@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/daremyth/icons/speciality/UN32_0_43.bmp",
-			"specialtyLarge" : "heroes/daremyth/icons/speciality/UN44_0_43.bmp",
+			"specialtySmall" : "heroes/daremyth/icons/speciality/UN32_0_43.png",
+			"specialtyLarge" : "heroes/daremyth/icons/speciality/UN44_0_43.png",
 			"large" : "heroes/daremyth/icons/portrait/HPL043WZ.bmp",
 			"small" : "heroes/daremyth/icons/portrait/HPS043WZ.bmp"
 		},

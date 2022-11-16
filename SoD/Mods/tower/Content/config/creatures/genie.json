@@ -46,8 +46,8 @@
 		"graphics" : {
 			"animation" : "creatures/genie/battle/CGENIE.def",
 			"map" : "creatures/genie/adventureMap/AVWgeni0.def",
-			"iconSmall" : "creatures/genie/icons/CPRSMALL_0_38.bmp",
-			"iconLarge" : "creatures/genie/icons/TWCRPORT_0_38.bmp",
+			"iconSmall" : "creatures/genie/icons/CPRSMALL_0_38.png",
+			"iconLarge" : "creatures/genie/icons/TWCRPORT_0_38.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

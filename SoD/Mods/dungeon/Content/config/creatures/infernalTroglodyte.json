@@ -42,8 +42,8 @@
 		"graphics" : {
 			"animation" : "creatures/infernalTroglodyte/battle/CITROG.def",
 			"map" : "creatures/infernalTroglodyte/adventureMap/AvWInfr.def",
-			"iconSmall" : "creatures/infernalTroglodyte/icons/CPRSMALL_0_73.bmp",
-			"iconLarge" : "creatures/infernalTroglodyte/icons/TWCRPORT_0_73.bmp",
+			"iconSmall" : "creatures/infernalTroglodyte/icons/CPRSMALL_0_73.png",
+			"iconLarge" : "creatures/infernalTroglodyte/icons/TWCRPORT_0_73.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

@@ -58,8 +58,8 @@
 		"graphics" : {
 			"animation" : "creatures/masterGenie/battle/CSULTA.def",
 			"map" : "creatures/masterGenie/adventureMap/AVWgenx0.def",
-			"iconSmall" : "creatures/masterGenie/icons/CPRSMALL_0_39.bmp",
-			"iconLarge" : "creatures/masterGenie/icons/TWCRPORT_0_39.bmp",
+			"iconSmall" : "creatures/masterGenie/icons/CPRSMALL_0_39.png",
+			"iconLarge" : "creatures/masterGenie/icons/TWCRPORT_0_39.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

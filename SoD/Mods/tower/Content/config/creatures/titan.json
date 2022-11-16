@@ -51,8 +51,8 @@
 		"graphics" : {
 			"animation" : "creatures/titan/battle/CGTITA.def",
 			"map" : "creatures/titan/adventureMap/AVWtitx0.def",
-			"iconSmall" : "creatures/titan/icons/CPRSMALL_0_43.bmp",
-			"iconLarge" : "creatures/titan/icons/TWCRPORT_0_43.bmp",
+			"iconSmall" : "creatures/titan/icons/CPRSMALL_0_43.png",
+			"iconLarge" : "creatures/titan/icons/TWCRPORT_0_43.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/krellion/icons/speciality/UN32_0_101.bmp",
-			"specialtyLarge" : "heroes/krellion/icons/speciality/UN44_0_101.bmp",
+			"specialtySmall" : "heroes/krellion/icons/speciality/UN32_0_101.png",
+			"specialtyLarge" : "heroes/krellion/icons/speciality/UN44_0_101.png",
 			"large" : "heroes/krellion/icons/portrait/HPL101BR.bmp",
 			"small" : "heroes/krellion/icons/portrait/HPS101BR.bmp"
 		},

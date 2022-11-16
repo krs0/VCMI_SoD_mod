@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/adela/icons/speciality/UN32_0_9.bmp",
-			"specialtyLarge" : "heroes/adela/icons/speciality/UN44_0_9.bmp",
+			"specialtySmall" : "heroes/adela/icons/speciality/UN32_0_9.png",
+			"specialtyLarge" : "heroes/adela/icons/speciality/UN44_0_9.png",
 			"large" : "heroes/adela/icons/portrait/HPL009CL.bmp",
 			"small" : "heroes/adela/icons/portrait/HPS009CL.bmp"
 		},

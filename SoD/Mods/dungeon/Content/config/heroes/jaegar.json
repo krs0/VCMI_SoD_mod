@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/jaegar/icons/speciality/UN32_0_89.bmp",
-			"specialtyLarge" : "heroes/jaegar/icons/speciality/UN44_0_89.bmp",
+			"specialtySmall" : "heroes/jaegar/icons/speciality/UN32_0_89.png",
+			"specialtyLarge" : "heroes/jaegar/icons/speciality/UN44_0_89.png",
 			"large" : "heroes/jaegar/icons/portrait/HPL089WL.bmp",
 			"small" : "heroes/jaegar/icons/portrait/HPS089WL.bmp"
 		},

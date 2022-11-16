@@ -36,8 +36,8 @@
 		"graphics" : {
 			"animation" : "creatures/masterGremlin/battle/CGREMM.def",
 			"map" : "creatures/masterGremlin/adventureMap/AVWgrex0.def",
-			"iconSmall" : "creatures/masterGremlin/icons/CPRSMALL_0_31.bmp",
-			"iconLarge" : "creatures/masterGremlin/icons/TWCRPORT_0_31.bmp",
+			"iconSmall" : "creatures/masterGremlin/icons/CPRSMALL_0_31.png",
+			"iconLarge" : "creatures/masterGremlin/icons/TWCRPORT_0_31.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

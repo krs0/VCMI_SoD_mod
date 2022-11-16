@@ -36,8 +36,8 @@
 		"graphics" : {
 			"animation" : "creatures/cavalier/battle/CCAVLR.def",
 			"map" : "creatures/cavalier/adventureMap/AVWcvlr0.def",
-			"iconSmall" : "creatures/cavalier/icons/CPRSMALL_0_12.bmp",
-			"iconLarge" : "creatures/cavalier/icons/TWCRPORT_0_12.bmp",
+			"iconSmall" : "creatures/cavalier/icons/CPRSMALL_0_12.png",
+			"iconLarge" : "creatures/cavalier/icons/TWCRPORT_0_12.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

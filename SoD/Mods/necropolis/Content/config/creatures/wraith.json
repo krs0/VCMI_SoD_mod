@@ -46,8 +46,8 @@
 		"graphics" : {
 			"animation" : "creatures/wraith/battle/CWRAIT.def",
 			"map" : "creatures/wraith/adventureMap/AVWwigx0.def",
-			"iconSmall" : "creatures/wraith/icons/CPRSMALL_0_63.bmp",
-			"iconLarge" : "creatures/wraith/icons/TWCRPORT_0_63.bmp",
+			"iconSmall" : "creatures/wraith/icons/CPRSMALL_0_63.png",
+			"iconLarge" : "creatures/wraith/icons/TWCRPORT_0_63.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

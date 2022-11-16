@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/vidomina/icons/speciality/UN32_0_78.bmp",
-			"specialtyLarge" : "heroes/vidomina/icons/speciality/UN44_0_78.bmp",
+			"specialtySmall" : "heroes/vidomina/icons/speciality/UN32_0_78.png",
+			"specialtyLarge" : "heroes/vidomina/icons/speciality/UN44_0_78.png",
 			"large" : "heroes/vidomina/icons/portrait/HPL078NC.bmp",
 			"small" : "heroes/vidomina/icons/portrait/HPS078NC.bmp"
 		},

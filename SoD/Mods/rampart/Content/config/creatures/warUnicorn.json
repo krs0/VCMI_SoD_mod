@@ -41,8 +41,8 @@
 		"graphics" : {
 			"animation" : "creatures/warUnicorn/battle/CWUNIC.def",
 			"map" : "creatures/warUnicorn/adventureMap/AVWunix0.def",
-			"iconSmall" : "creatures/warUnicorn/icons/CPRSMALL_0_27.bmp",
-			"iconLarge" : "creatures/warUnicorn/icons/TWCRPORT_0_27.bmp",
+			"iconSmall" : "creatures/warUnicorn/icons/CPRSMALL_0_27.png",
+			"iconLarge" : "creatures/warUnicorn/icons/TWCRPORT_0_27.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

@@ -31,8 +31,8 @@
 		"graphics" : {
 			"animation" : "creatures/demon/battle/COHDEM.def",
 			"map" : "creatures/demon/adventureMap/AVWdemn0.def",
-			"iconSmall" : "creatures/demon/icons/CPRSMALL_0_50.bmp",
-			"iconLarge" : "creatures/demon/icons/TWCRPORT_0_50.bmp",
+			"iconSmall" : "creatures/demon/icons/CPRSMALL_0_50.png",
+			"iconLarge" : "creatures/demon/icons/TWCRPORT_0_50.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

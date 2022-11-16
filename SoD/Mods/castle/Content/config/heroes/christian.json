@@ -8,8 +8,8 @@
 		
 		"images" :
 		{
-			"specialtySmall" : "heroes/christian/icons/speciality/UN32_0_6.bmp",
-			"specialtyLarge" : "heroes/christian/icons/speciality/UN44_0_6.bmp",
+			"specialtySmall" : "heroes/christian/icons/speciality/UN32_0_6.png",
+			"specialtyLarge" : "heroes/christian/icons/speciality/UN44_0_6.png",
 			"large" : "heroes/christian/icons/portrait/HPL006KN.bmp",
 			"small" : "heroes/christian/icons/portrait/HPS006KN.bmp"
 		},

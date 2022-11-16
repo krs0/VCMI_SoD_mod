@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/adelaide/icons/speciality/UN32_0_11.bmp",
-			"specialtyLarge" : "heroes/adelaide/icons/speciality/UN44_0_11.bmp",
+			"specialtySmall" : "heroes/adelaide/icons/speciality/UN32_0_11.png",
+			"specialtyLarge" : "heroes/adelaide/icons/speciality/UN44_0_11.png",
 			"large" : "heroes/adelaide/icons/portrait/HPL011CL.bmp",
 			"small" : "heroes/adelaide/icons/portrait/HPS011CL.bmp"
 		},

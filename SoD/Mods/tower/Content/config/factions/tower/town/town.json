@@ -92,22 +92,22 @@
 			{
 				"village" : {
 					"normal" : {
-						"small" : "factions/tower/icons/ITPA_0_24.bmp",
-					 	"large" : "factions/tower/icons/ITPT_0_22.bmp"
+						"small" : "factions/tower/icons/ITPA_0_24.png",
+					 	"large" : "factions/tower/icons/ITPT_0_22.png"
 					 },
 					"built"  : {
-						"small" : "factions/tower/icons/ITPA_0_25.bmp",
-						"large" : "factions/tower/icons/ITPT_0_23.bmp" 
+						"small" : "factions/tower/icons/ITPA_0_25.png",
+						"large" : "factions/tower/icons/ITPT_0_23.png" 
 					}
 				},
 				"fort" : {
 					"normal" : {
-						"small" : "factions/tower/icons/ITPA_0_6.bmp",
-					 	"large" : "factions/tower/icons/ITPT_0_4.bmp" 
+						"small" : "factions/tower/icons/ITPA_0_6.png",
+					 	"large" : "factions/tower/icons/ITPT_0_4.png" 
 					 },
 					"built"  : {
-						"small" : "factions/tower/icons/ITPA_0_7.bmp",
-						 "large" : "factions/tower/icons/ITPT_0_5.bmp"
+						"small" : "factions/tower/icons/ITPA_0_7.png",
+						 "large" : "factions/tower/icons/ITPT_0_5.png"
 					}
 				}
 			},

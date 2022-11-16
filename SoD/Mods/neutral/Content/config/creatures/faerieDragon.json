@@ -103,8 +103,8 @@
 		"graphics" : {
 			"animation" : "creatures/faerieDragon/battle/CFDRGN.def",
 			"map" : "creatures/faerieDragon/adventureMap/AVWfdrg.def",
-			"iconSmall" : "creatures/faerieDragon/icons/CPRSMALL_0_136.bmp",
-			"iconLarge" : "creatures/faerieDragon/icons/TWCRPORT_0_136.bmp",
+			"iconSmall" : "creatures/faerieDragon/icons/CPRSMALL_0_136.png",
+			"iconLarge" : "creatures/faerieDragon/icons/TWCRPORT_0_136.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

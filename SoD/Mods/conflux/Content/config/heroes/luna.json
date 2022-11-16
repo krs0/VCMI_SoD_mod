@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/luna/icons/speciality/UN32_0_136.bmp",
-			"specialtyLarge" : "heroes/luna/icons/speciality/UN44_0_136.bmp",
+			"specialtySmall" : "heroes/luna/icons/speciality/UN32_0_136.png",
+			"specialtyLarge" : "heroes/luna/icons/speciality/UN44_0_136.png",
 			"large" : "heroes/luna/icons/portrait/HPL000EL.bmp",
 			"small" : "heroes/luna/icons/portrait/HPS000EL.bmp"
 		},

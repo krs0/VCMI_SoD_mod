@@ -61,8 +61,8 @@
 		"graphics" : {
 			"animation" : "creatures/blackDragon/blackDragon/battle/CBDRGN.def",
 			"map" : "creatures/blackDragon/blackDragon/adventureMap/AVWddrx0.def",
-			"iconSmall" : "creatures/blackDragon/blackDragon/icons/CPRSMALL_0_85.bmp",
-			"iconLarge" : "creatures/blackDragon/blackDragon/icons/TWCRPORT_0_85.bmp",
+			"iconSmall" : "creatures/blackDragon/blackDragon/icons/CPRSMALL_0_85.png",
+			"iconLarge" : "creatures/blackDragon/blackDragon/icons/TWCRPORT_0_85.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

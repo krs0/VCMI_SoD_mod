@@ -38,8 +38,8 @@
 		"graphics" : {
 			"animation" : "creatures/basilisk/battle/CBASIL.def",
 			"map" : "creatures/basilisk/adventureMap/AvWBasl.def",
-			"iconSmall" : "creatures/basilisk/icons/CPRSMALL_0_108.bmp",
-			"iconLarge" : "creatures/basilisk/icons/TWCRPORT_0_108.bmp",
+			"iconSmall" : "creatures/basilisk/icons/CPRSMALL_0_108.png",
+			"iconLarge" : "creatures/basilisk/icons/TWCRPORT_0_108.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

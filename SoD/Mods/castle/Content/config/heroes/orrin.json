@@ -8,8 +8,8 @@
 								
 		"images" :
 		{
-			"specialtySmall" : "heroes/orrin/icons/speciality/UN32_0_0.bmp",
-			"specialtyLarge" : "heroes/orrin/icons/speciality/UN44_0_0.bmp",
+			"specialtySmall" : "heroes/orrin/icons/speciality/UN32_0_0.png",
+			"specialtyLarge" : "heroes/orrin/icons/speciality/UN44_0_0.png",
 			"large" : "heroes/orrin/icons/portrait/HPL000KN.bmp",
 			"small" : "heroes/orrin/icons/portrait/HPS000KN.bmp"
 		},

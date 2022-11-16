@@ -92,22 +92,22 @@
 			{
 				"village" : {
 					"normal" : {
-						"small" : "factions/dungeon/icons/ITPA_0_30.bmp",
-					 	"large" : "factions/dungeon/icons/ITPT_0_10.bmp"
+						"small" : "factions/dungeon/icons/ITPA_0_30.png",
+					 	"large" : "factions/dungeon/icons/ITPT_0_10.png"
 					 },
 					"built"  : {
-						"small" : "factions/dungeon/icons/ITPA_0_31.bmp",
-						"large" : "factions/dungeon/icons/ITPT_0_11.bmp" 
+						"small" : "factions/dungeon/icons/ITPA_0_31.png",
+						"large" : "factions/dungeon/icons/ITPT_0_11.png" 
 					}
 				},
 				"fort" : {
 					"normal" : {
-						"small" : "factions/dungeon/icons/ITPA_0_12.bmp",
-					 	"large" : "factions/dungeon/icons/ITPT_0_28.bmp" 
+						"small" : "factions/dungeon/icons/ITPA_0_12.png",
+					 	"large" : "factions/dungeon/icons/ITPT_0_28.png" 
 					 },
 					"built"  : {
-						"small" : "factions/dungeon/icons/ITPA_0_13.bmp",
-						 "large" : "factions/dungeon/icons/ITPT_0_29.bmp"
+						"small" : "factions/dungeon/icons/ITPA_0_13.png",
+						 "large" : "factions/dungeon/icons/ITPT_0_29.png"
 					}
 				}
 			},

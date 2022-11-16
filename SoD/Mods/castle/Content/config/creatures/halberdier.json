@@ -36,8 +36,8 @@
 		"graphics" : {
 			"animation" : "creatures/halberdier/battle/CHALBD.def",
 			"map" : "creatures/halberdier/adventureMap/AVWpikx0.def",
-			"iconSmall" : "creatures/halberdier/icons/CPRSMALL_0_3.bmp",
-			"iconLarge" : "creatures/halberdier/icons/TWCRPORT_0_3.bmp",
+			"iconSmall" : "creatures/halberdier/icons/CPRSMALL_0_3.png",
+			"iconLarge" : "creatures/halberdier/icons/TWCRPORT_0_3.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

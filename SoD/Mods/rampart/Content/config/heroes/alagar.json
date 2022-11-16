@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/alagar/icons/speciality/UN32_0_30.bmp",
-			"specialtyLarge" : "heroes/alagar/icons/speciality/UN44_0_30.bmp",
+			"specialtySmall" : "heroes/alagar/icons/speciality/UN32_0_30.png",
+			"specialtyLarge" : "heroes/alagar/icons/speciality/UN44_0_30.png",
 			"large" : "heroes/alagar/icons/portrait/HPL030DR.bmp",
 			"small" : "heroes/alagar/icons/portrait/HPS030DR.bmp"
 		},

@@ -37,8 +37,8 @@
 		"graphics" : {
 			"animation" : "creatures/mightyGorgon/battle/CBGOG.def",
 			"map" : "creatures/mightyGorgon/adventureMap/AVWgorx0.def",
-			"iconSmall" : "creatures/mightyGorgon/icons/CPRSMALL_0_105.bmp",
-			"iconLarge" : "creatures/mightyGorgon/icons/TWCRPORT_0_105.bmp",
+			"iconSmall" : "creatures/mightyGorgon/icons/CPRSMALL_0_105.png",
+			"iconLarge" : "creatures/mightyGorgon/icons/TWCRPORT_0_105.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

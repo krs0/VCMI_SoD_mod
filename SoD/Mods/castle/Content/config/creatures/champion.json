@@ -35,8 +35,8 @@
 		"graphics" : {
 			"animation" : "creatures/champion/battle/CCHAMP.def",
 			"map" : "creatures/champion/adventureMap/AVWcvlx0.def",
-			"iconSmall" : "creatures/champion/icons/CPRSMALL_0_13.bmp",
-			"iconLarge" : "creatures/champion/icons/TWCRPORT_0_13.bmp",
+			"iconSmall" : "creatures/champion/icons/CPRSMALL_0_13.png",
+			"iconLarge" : "creatures/champion/icons/TWCRPORT_0_13.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,

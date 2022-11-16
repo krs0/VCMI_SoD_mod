@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/sanya/icons/speciality/UN32_0_13.bmp",
-			"specialtyLarge" : "heroes/sanya/icons/speciality/UN44_0_13.bmp",
+			"specialtySmall" : "heroes/sanya/icons/speciality/UN32_0_13.png",
+			"specialtyLarge" : "heroes/sanya/icons/speciality/UN44_0_13.png",
 			"large" : "heroes/sanya/icons/portrait/HPL013CL.bmp",
 			"small" : "heroes/sanya/icons/portrait/HPS013CL.bmp"
 		},

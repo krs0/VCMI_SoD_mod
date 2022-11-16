@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/caitlin/icons/speciality/UN32_0_15.bmp",
-			"specialtyLarge" : "heroes/caitlin/icons/speciality/UN44_0_15.bmp",
+			"specialtySmall" : "heroes/caitlin/icons/speciality/UN32_0_15.png",
+			"specialtyLarge" : "heroes/caitlin/icons/speciality/UN44_0_15.png",
 			"large" : "heroes/caitlin/icons/portrait/HPL015CL.bmp",
 			"small" : "heroes/caitlin/icons/portrait/HPS015CL.bmp"
 		},

@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/sandro/icons/speciality/UN32_0_74.bmp",
-			"specialtyLarge" : "heroes/sandro/icons/speciality/UN44_0_74.bmp",
+			"specialtySmall" : "heroes/sandro/icons/speciality/UN32_0_74.png",
+			"specialtyLarge" : "heroes/sandro/icons/speciality/UN44_0_74.png",
 			"large" : "heroes/sandro/icons/portrait/HPL074NC.bmp",
 			"small" : "heroes/sandro/icons/portrait/HPS074NC.bmp"
 		},

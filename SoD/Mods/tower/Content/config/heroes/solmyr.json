@@ -8,8 +8,8 @@
 
 		"images" :
 		{
-			"specialtySmall" : "heroes/solmyr/icons/speciality/UN32_0_45.bmp",
-			"specialtyLarge" : "heroes/solmyr/icons/speciality/UN44_0_45.bmp",
+			"specialtySmall" : "heroes/solmyr/icons/speciality/UN32_0_45.png",
+			"specialtyLarge" : "heroes/solmyr/icons/speciality/UN44_0_45.png",
 			"large" : "heroes/solmyr/icons/portrait/HPL045WZ.bmp",
 			"small" : "heroes/solmyr/icons/portrait/HPS045WZ.bmp"
 		},

@@ -36,8 +36,8 @@
 		"graphics" : {
 			"animation" : "creatures/orcChieftain/battle/CORCCH.def",
 			"map" : "creatures/orcChieftain/adventureMap/AVWorcx0.def",
-			"iconSmall" : "creatures/orcChieftain/icons/CPRSMALL_0_91.bmp",
-			"iconLarge" : "creatures/orcChieftain/icons/TWCRPORT_0_91.bmp",
+			"iconSmall" : "creatures/orcChieftain/icons/CPRSMALL_0_91.png",
+			"iconLarge" : "creatures/orcChieftain/icons/TWCRPORT_0_91.png",
 			"animationTime" : {
 				"attack" : 1,
 				"flight" : 1,
