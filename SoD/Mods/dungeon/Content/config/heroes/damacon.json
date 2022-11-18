@@ -10,8 +10,8 @@
 		{
 			"specialtySmall" : "heroes/damacon/icons/speciality/UN32_0_84.png",
 			"specialtyLarge" : "heroes/damacon/icons/speciality/UN44_0_84.png",
-			"large" : "heroes/damacon/icons/portrait/HPL084OV.bmp",
-			"small" : "heroes/damacon/icons/portrait/HPS084OV.bmp"
+			"large" : "heroes/damacon/icons/portrait/HPL084OV.png",
+			"small" : "heroes/damacon/icons/portrait/HPS084OV.png"
 		},
 
 		"army" : [

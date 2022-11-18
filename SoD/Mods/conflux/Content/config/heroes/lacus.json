@@ -10,8 +10,8 @@
 		{
 			"specialtySmall" : "heroes/lacus/icons/speciality/UN32_0_131.png",
 			"specialtyLarge" : "heroes/lacus/icons/speciality/UN44_0_131.png",
-			"large" : "heroes/lacus/icons/portrait/HPL003PL.bmp",
-			"small" : "heroes/lacus/icons/portrait/HPS003PL.bmp"
+			"large" : "heroes/lacus/icons/portrait/HPL003PL.png",
+			"small" : "heroes/lacus/icons/portrait/HPS003PL.png"
 		},
 
 		"army" : [

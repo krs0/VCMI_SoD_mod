@@ -6,8 +6,8 @@
 		"nativeTerrain" : "grass",
 		"creatureBackground" :
 		{
-			"120px" : "factions/castle/TPCASCAS.bmp",
-			"130px" : "factions/castle/CRBKGCAS.bmp"
+			"120px" : "factions/castle/TPCASCAS.png",
+			"130px" : "factions/castle/CRBKGCAS.png"
 		},
 	}
 }

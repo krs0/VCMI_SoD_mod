@@ -6,8 +6,8 @@
 		"nativeTerrain" : "snow",
 		"creatureBackground" :
 		{
-			"120px" : "factions/tower/TPCASTOW.bmp",
-			"130px" : "factions/tower/CRBKGTOW.bmp"
+			"120px" : "factions/tower/TPCASTOW.png",
+			"130px" : "factions/tower/CRBKGTOW.png"
 		},
 	}
 }

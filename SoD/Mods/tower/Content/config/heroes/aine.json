@@ -10,8 +10,8 @@
 		{
 			"specialtySmall" : "heroes/aine/icons/speciality/UN32_0_47.png",
 			"specialtyLarge" : "heroes/aine/icons/speciality/UN44_0_47.png",
-			"large" : "heroes/aine/icons/portrait/HPL047WZ.bmp",
-			"small" : "heroes/aine/icons/portrait/HPS047WZ.bmp"
+			"large" : "heroes/aine/icons/portrait/HPL047WZ.png",
+			"small" : "heroes/aine/icons/portrait/HPS047WZ.png"
 		},
 
 		"army" : [

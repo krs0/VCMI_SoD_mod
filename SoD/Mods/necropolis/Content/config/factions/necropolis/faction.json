@@ -6,8 +6,8 @@
 		"nativeTerrain" : "dirt",
 		"creatureBackground" :
 		{
-			"120px" : "factions/necropolis/TPCASNEC.bmp",
-			"130px" : "factions/necropolis/CRBKGNEC.bmp"
+			"120px" : "factions/necropolis/TPCASNEC.png",
+			"130px" : "factions/necropolis/CRBKGNEC.png"
 		},
 	}
 }

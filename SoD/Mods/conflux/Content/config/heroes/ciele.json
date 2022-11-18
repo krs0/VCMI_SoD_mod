@@ -10,8 +10,8 @@
 		{
 			"specialtySmall" : "heroes/ciele/icons/speciality/UN32_0_138.png",
 			"specialtyLarge" : "heroes/ciele/icons/speciality/UN44_0_138.png",
-			"large" : "heroes/ciele/icons/portrait/HPL002EL.bmp",
-			"small" : "heroes/ciele/icons/portrait/HPS002EL.bmp"
+			"large" : "heroes/ciele/icons/portrait/HPL002EL.png",
+			"small" : "heroes/ciele/icons/portrait/HPS002EL.png"
 		},
 
 		"army" : [

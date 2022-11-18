@@ -10,8 +10,8 @@
 		{
 			"specialtySmall" : "heroes/xsi/icons/speciality/UN32_0_77.png",
 			"specialtyLarge" : "heroes/xsi/icons/speciality/UN44_0_77.png",
-			"large" : "heroes/xsi/icons/portrait/HPL077NC.bmp",
-			"small" : "heroes/xsi/icons/portrait/HPS077NC.bmp"
+			"large" : "heroes/xsi/icons/portrait/HPL077NC.png",
+			"small" : "heroes/xsi/icons/portrait/HPS077NC.png"
 		},
 
 

@@ -10,8 +10,8 @@
 		{
 			"specialtySmall" : "heroes/serena/icons/speciality/UN32_0_42.png",
 			"specialtyLarge" : "heroes/serena/icons/speciality/UN44_0_42.png",
-			"large" : "heroes/serena/icons/portrait/HPL042WZ.bmp",
-			"small" : "heroes/serena/icons/portrait/HPS042WZ.bmp"
+			"large" : "heroes/serena/icons/portrait/HPL042WZ.png",
+			"small" : "heroes/serena/icons/portrait/HPS042WZ.png"
 		},
 
 		"army" : [

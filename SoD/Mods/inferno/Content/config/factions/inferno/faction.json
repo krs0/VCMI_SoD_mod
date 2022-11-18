@@ -6,8 +6,8 @@
 		"nativeTerrain" : "lava",
 		"creatureBackground" :
 		{
-			"120px" : "factions/inferno/TPCASINF.bmp",
-			"130px" : "factions/inferno/CRBKGINF.bmp"
+			"120px" : "factions/inferno/TPCASINF.png",
+			"130px" : "factions/inferno/CRBKGINF.png"
 		},
 	}
 }

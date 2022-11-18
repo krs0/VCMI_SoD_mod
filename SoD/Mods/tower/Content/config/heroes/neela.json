@@ -10,8 +10,8 @@
 		{
 			"specialtySmall" : "heroes/neela/icons/speciality/UN32_0_35.png",
 			"specialtyLarge" : "heroes/neela/icons/speciality/UN44_0_35.png",
-			"large" : "heroes/neela/icons/portrait/HPL035AL.bmp",
-			"small" : "heroes/neela/icons/portrait/HPS035AL.bmp"
+			"large" : "heroes/neela/icons/portrait/HPL035AL.png",
+			"small" : "heroes/neela/icons/portrait/HPS035AL.png"
 		},
 
 		"army" : [

@@ -10,8 +10,8 @@
 		{
 			"specialtySmall" : "heroes/axsis/icons/speciality/UN32_0_58.png",
 			"specialtyLarge" : "heroes/axsis/icons/speciality/UN44_0_58.png",
-			"large" : "heroes/axsis/icons/portrait/HPL058DM.bmp",
-			"small" : "heroes/axsis/icons/portrait/HPS058DM.bmp"
+			"large" : "heroes/axsis/icons/portrait/HPL058DM.png",
+			"small" : "heroes/axsis/icons/portrait/HPS058DM.png"
 		},
 
 		"army" : [

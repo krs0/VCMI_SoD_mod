@@ -10,8 +10,8 @@
 		{
 			"specialtySmall" : "heroes/jenova/icons/speciality/UN32_0_18.png",
 			"specialtyLarge" : "heroes/jenova/icons/speciality/UN44_0_18.png",
-			"large" : "heroes/jenova/icons/portrait/HPL018RN.bmp",
-			"small" : "heroes/jenova/icons/portrait/HPS018RN.bmp"
+			"large" : "heroes/jenova/icons/portrait/HPL018RN.png",
+			"small" : "heroes/jenova/icons/portrait/HPS018RN.png"
 		},
 
 		"army" : [

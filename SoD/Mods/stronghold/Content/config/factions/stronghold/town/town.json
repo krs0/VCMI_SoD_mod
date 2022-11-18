@@ -6,10 +6,10 @@
 			"musicTheme" : "factions/stronghold/Stronghold.mp3",
 			"defaultTavern" : 5,
 
-			"townBackground": "factions/stronghold/townScreen/TBSTBACK.bmp",
-			"guildBackground" : "SoD/TPMAGE.bmp",
-			"guildWindow": "factions/stronghold/townScreen/TPMAGEST.bmp",
-			"hallBackground": "factions/stronghold/townScreen/TPTHBKTW.BMP",
+			"townBackground": "factions/stronghold/townScreen/TBSTBACK.png",
+			"guildBackground" : "SoD/TPMAGE.png",
+			"guildWindow": "factions/stronghold/townScreen/TPMAGEST.png",
+			"hallBackground": "factions/stronghold/townScreen/TPTHBKTW.png",
 			"tavernVideo" : "SoD/TAVERN.BIK",
 
 			"creatures" :

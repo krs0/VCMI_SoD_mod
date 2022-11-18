@@ -10,8 +10,8 @@
 		{
 			"specialtySmall" : "heroes/sephinroth/icons/speciality/UN32_0_94.png",
 			"specialtyLarge" : "heroes/sephinroth/icons/speciality/UN44_0_94.png",
-			"large" : "heroes/sephinroth/icons/portrait/HPL094WL.bmp",
-			"small" : "heroes/sephinroth/icons/portrait/HPS094WL.bmp"
+			"large" : "heroes/sephinroth/icons/portrait/HPL094WL.png",
+			"small" : "heroes/sephinroth/icons/portrait/HPS094WL.png"
 		},
 
 		"army" : [

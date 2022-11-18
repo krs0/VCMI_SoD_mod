@@ -10,8 +10,8 @@
 		{
 			"specialtySmall" : "heroes/brissa/icons/speciality/UN32_0_137.png",
 			"specialtyLarge" : "heroes/brissa/icons/speciality/UN44_0_137.png",
-			"large" : "heroes/brissa/icons/portrait/HPL001EL.bmp",
-			"small" : "heroes/brissa/icons/portrait/HPS001EL.bmp"
+			"large" : "heroes/brissa/icons/portrait/HPL001EL.png",
+			"small" : "heroes/brissa/icons/portrait/HPS001EL.png"
 		},
 
 		"army" : [

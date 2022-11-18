@@ -6,10 +6,10 @@
 			"musicTheme" : "factions/inferno/InfernoTown.mp3",
 			"defaultTavern" : 5,
 
-			"townBackground": "factions/inferno/townScreen/TBINBACK.bmp",
-			"guildBackground" : "SoD/TPMAGE.bmp",
-			"guildWindow": "factions/inferno/townScreen/TPMAGEIN.bmp",
-			"hallBackground": "factions/inferno/townScreen/TPTHBKIN.BMP",
+			"townBackground": "factions/inferno/townScreen/TBINBACK.png",
+			"guildBackground" : "SoD/TPMAGE.png",
+			"guildWindow": "factions/inferno/townScreen/TPMAGEIN.png",
+			"hallBackground": "factions/inferno/townScreen/TPTHBKIN.png",
 			"tavernVideo" : "SoD/TAVERN.BIK",
 
 			"creatures" :

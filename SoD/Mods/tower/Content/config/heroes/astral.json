@@ -10,8 +10,8 @@
 		{
 			"specialtySmall" : "heroes/astral/icons/speciality/UN32_0_40.png",
 			"specialtyLarge" : "heroes/astral/icons/speciality/UN44_0_40.png",
-			"large" : "heroes/astral/icons/portrait/HPL040WZ.bmp",
-			"small" : "heroes/astral/icons/portrait/HPS040WZ.bmp"
+			"large" : "heroes/astral/icons/portrait/HPL040WZ.png",
+			"small" : "heroes/astral/icons/portrait/HPS040WZ.png"
 		},
 
 		"army" : [

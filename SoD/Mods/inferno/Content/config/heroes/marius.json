@@ -10,8 +10,8 @@
 		{
 			"specialtySmall" : "heroes/marius/icons/speciality/UN32_0_50.png",
 			"specialtyLarge" : "heroes/marius/icons/speciality/UN44_0_50.png",
-			"large" : "heroes/marius/icons/portrait/HPL050HR.bmp",
-			"small" : "heroes/marius/icons/portrait/HPS050HR.bmp"
+			"large" : "heroes/marius/icons/portrait/HPL050HR.png",
+			"small" : "heroes/marius/icons/portrait/HPS050HR.png"
 		},
 
 		"army" : [

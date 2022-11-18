@@ -10,8 +10,8 @@
 		{
 			"specialtySmall" : "heroes/terek/icons/speciality/UN32_0_107.png",
 			"specialtyLarge" : "heroes/terek/icons/speciality/UN44_0_107.png",
-			"large" : "heroes/terek/icons/portrait/HPL107BM.bmp",
-			"small" : "heroes/terek/icons/portrait/HPS107BM.bmp"
+			"large" : "heroes/terek/icons/portrait/HPL107BM.png",
+			"small" : "heroes/terek/icons/portrait/HPS107BM.png"
 		},
 
 		"army" : [

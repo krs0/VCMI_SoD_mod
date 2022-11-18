@@ -10,8 +10,8 @@
 		{
 			"specialtySmall" : "heroes/gurnisson/icons/speciality/UN32_0_97.png",
 			"specialtyLarge" : "heroes/gurnisson/icons/speciality/UN44_0_97.png",
-			"large" : "heroes/gurnisson/icons/portrait/HPL097BR.bmp",
-			"small" : "heroes/gurnisson/icons/portrait/HPS097BR.bmp"
+			"large" : "heroes/gurnisson/icons/portrait/HPL097BR.png",
+			"small" : "heroes/gurnisson/icons/portrait/HPS097BR.png"
 		},
 
 		"army" : [

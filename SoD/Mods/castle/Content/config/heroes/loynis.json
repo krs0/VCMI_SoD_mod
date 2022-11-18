@@ -10,8 +10,8 @@
 		{
 			"specialtySmall" : "heroes/loynis/icons/speciality/UN32_0_14.png",
 			"specialtyLarge" : "heroes/loynis/icons/speciality/UN44_0_14.png",
-			"large" : "heroes/loynis/icons/portrait/HPL014CL.bmp",
-			"small" : "heroes/loynis/icons/portrait/HPS014CL.bmp"
+			"large" : "heroes/loynis/icons/portrait/HPL014CL.png",
+			"small" : "heroes/loynis/icons/portrait/HPS014CL.png"
 		},
 
 		"army" : [

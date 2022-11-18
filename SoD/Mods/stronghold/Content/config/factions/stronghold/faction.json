@@ -6,8 +6,8 @@
 		"nativeTerrain" : "rough",
 		"creatureBackground" :
 		{
-			"120px" : "factions/stronghold/TPCASSTR.bmp",
-			"130px" : "factions/stronghold/CRBKGSTR.bmp"
+			"120px" : "factions/stronghold/TPCASSTR.png",
+			"130px" : "factions/stronghold/CRBKGSTR.png"
 		},
 	}
 }

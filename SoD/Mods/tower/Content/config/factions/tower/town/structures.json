@@ -9,140 +9,140 @@
 				{
 					"animation" : "factions/tower/townScreen/animation/TBTWMAGE.def",
 					"x" : 597, "y" : 82,
-					"border" : "factions/tower/townScreen/border/TOTGLD1.bmp",
-					"area" : "factions/tower/townScreen/area/TZTGLD1.bmp"
+					"border" : "factions/tower/townScreen/border/TOTGLD1.png",
+					"area" : "factions/tower/townScreen/area/TZTGLD1.png"
 
 				},
 				"mageGuild2": 
 				{
 					"animation" : "factions/tower/townScreen/animation/TBTWMAG2.def",
 					"x" : 593, "y" : 65,
-					"border" : "factions/tower/townScreen/border/TOTGLD2.bmp",
-					"area" : "factions/tower/townScreen/area/TZTGLD2.bmp"
+					"border" : "factions/tower/townScreen/border/TOTGLD2.png",
+					"area" : "factions/tower/townScreen/area/TZTGLD2.png"
 
 				},
 				"mageGuild3": 
 				{
 					"animation" : "factions/tower/townScreen/animation/TBTWMAG3.def",
 					"x" : 593, "y" : 48,
-					"border" : "factions/tower/townScreen/border/TOTGLD3.bmp",
-					"area" : "factions/tower/townScreen/area/TZTGLD3.bmp"
+					"border" : "factions/tower/townScreen/border/TOTGLD3.png",
+					"area" : "factions/tower/townScreen/area/TZTGLD3.png"
 
 				},
 				"mageGuild4": 
 				{
 					"animation" : "factions/tower/townScreen/animation/TBTWMAG4.def",
 					"x" : 593, "y" : 31,
-					"border" : "factions/tower/townScreen/border/TOTGLD4.bmp",
-					"area" : "factions/tower/townScreen/area/TZTGLD4.bmp"
+					"border" : "factions/tower/townScreen/border/TOTGLD4.png",
+					"area" : "factions/tower/townScreen/area/TZTGLD4.png"
 
 				},
 				"mageGuild5": 
 				{
 					"animation" : "factions/tower/townScreen/animation/TBTWMAG5.def",
 					"x" : 593, "y" : 14,
-					"border" : "factions/tower/townScreen/border/TOTGLD5.bmp",
-					"area" : "factions/tower/townScreen/area/TZTGLD5.bmp"
+					"border" : "factions/tower/townScreen/border/TOTGLD5.png",
+					"area" : "factions/tower/townScreen/area/TZTGLD5.png"
 
 				},
 				"tavern":  
 				{
 					"animation" : "factions/tower/townScreen/animation/TBTWTVRN.def",
 					"x" : 375, "y" : 278, "z" : 1,
-					"border" : "factions/tower/townScreen/border/TOTTAV.bmp",
-					"area" : "factions/tower/townScreen/area/TZTTAV.bmp"
+					"border" : "factions/tower/townScreen/border/TOTTAV.png",
+					"area" : "factions/tower/townScreen/area/TZTTAV.png"
 				},
 				"fort":
 				{
 					"animation" : "factions/tower/townScreen/animation/TBTWCSTL.def",
 					"x" : 304, "y" : 0,
-					"border" : "factions/tower/townScreen/border/TOTCAS1.bmp",
-					"area" : "factions/tower/townScreen/area/TZTCAS1.bmp"
+					"border" : "factions/tower/townScreen/border/TOTCAS1.png",
+					"area" : "factions/tower/townScreen/area/TZTCAS1.png"
 				},
 				"citadel":  
 				{
 					"animation" : "factions/tower/townScreen/animation/TBTWCAS2.def",
 					"x" : 301, "y" : 0,
-					"border" : "factions/tower/townScreen/border/TOTCAS2.bmp",
-					"area" : "factions/tower/townScreen/area/TZTCAS2.bmp"
+					"border" : "factions/tower/townScreen/border/TOTCAS2.png",
+					"area" : "factions/tower/townScreen/area/TZTCAS2.png"
 				},
 				"castle":  
 				{
 					"animation" : "factions/tower/townScreen/animation/TBTWCAS3.def",
 					"x" : 301, "y" : 0,
-					"border" : "factions/tower/townScreen/border/TOTCAS3.bmp",
-					"area" : "factions/tower/townScreen/area/TZTCAS3.bmp"
+					"border" : "factions/tower/townScreen/border/TOTCAS3.png",
+					"area" : "factions/tower/townScreen/area/TZTCAS3.png"
 				},
 				"villageHall": 
 				{
 					"animation" : "factions/tower/townScreen/animation/TBTWHALL.def",
 					"x" : 0, "y" : 259, "z" : 1,
-					"border" : "factions/tower/townScreen/border/TOTHAL1.bmp",
-					"area" : "factions/tower/townScreen/area/TZTHAL1.bmp"
+					"border" : "factions/tower/townScreen/border/TOTHAL1.png",
+					"area" : "factions/tower/townScreen/area/TZTHAL1.png"
 				},
 				"townHall": 
 				{
 					"animation" : "factions/tower/townScreen/animation/TBTWHAL2.def",
 					"x" : 0, "y" : 220, "z" : 1,
-					"border" : "factions/tower/townScreen/border/TOTHAL2.bmp",
-					"area" : "factions/tower/townScreen/area/TZTHAL2.bmp"
+					"border" : "factions/tower/townScreen/border/TOTHAL2.png",
+					"area" : "factions/tower/townScreen/area/TZTHAL2.png"
 				},
 				"cityHall": 
 				{
 					"animation" : "factions/tower/townScreen/animation/TBTWHAL3.def",
 					"x" : 0, "y" : 82, "z" : 1,
-					"border" : "factions/tower/townScreen/border/TOTHAL3.bmp",
-					"area" : "factions/tower/townScreen/area/TZTHAL3.bmp"
+					"border" : "factions/tower/townScreen/border/TOTHAL3.png",
+					"area" : "factions/tower/townScreen/area/TZTHAL3.png"
 				},
 				"capitol":  
 				{
 					"animation" : "factions/tower/townScreen/animation/TBTWHAL4.def",
 					"x" : 0, "y" : 82, "z" : 1,
-					"border" : "factions/tower/townScreen/border/TOTHAL4.bmp",
-					"area" : "factions/tower/townScreen/area/TZTHAL4.bmp"
+					"border" : "factions/tower/townScreen/border/TOTHAL4.png",
+					"area" : "factions/tower/townScreen/area/TZTHAL4.png"
 				},
 				"marketplace": 
 				{
 					"animation" : "factions/tower/townScreen/animation/TBTWMARK.def",
 					"x" : 614, "y" : 292,
-					"border" : "factions/tower/townScreen/border/TOTMRK.bmp", 
-					"area" : "factions/tower/townScreen/area/TZTMRK.bmp"
+					"border" : "factions/tower/townScreen/border/TOTMRK.png", 
+					"area" : "factions/tower/townScreen/area/TZTMRK.png"
 				},
 				"resourceSilo": 
 				{
 					"animation" : "factions/tower/townScreen/animation/TBTWSILO.def",
 					"x" : 763, "y" : 214, "z" : 3,
-					"border" : "factions/tower/townScreen/border/TOTMRKS.bmp",
-					"area" : "factions/tower/townScreen/area/TZTMRKS.bmp"
+					"border" : "factions/tower/townScreen/border/TOTMRKS.png",
+					"area" : "factions/tower/townScreen/area/TZTMRKS.png"
 				},
 				"blacksmith": 
 				{
 					"animation" : "factions/tower/townScreen/animation/TBTWBLAK.def",
 					"x" : 478, "y" : 211,
-					"border" : "factions/tower/townScreen/border/TOTBLKA.bmp",
-					"area" : "factions/tower/townScreen/area/TZTBLKA.bmp"
+					"border" : "factions/tower/townScreen/border/TOTBLKA.png",
+					"area" : "factions/tower/townScreen/area/TZTBLKA.png"
 				},
 				"special1": 
 				{
 					"animation" : "factions/tower/townScreen/animation/TBTWSPEC.def",
 					"x" : 674, "y" : 276, "z" : 2,
-					"border" : "factions/tower/townScreen/border/TOTMRKA.bmp",
-					"area" : "factions/tower/townScreen/area/TZTMRKA.bmp"
+					"border" : "factions/tower/townScreen/border/TOTMRKA.png",
+					"area" : "factions/tower/townScreen/area/TZTMRKA.png"
 				},
 				"horde1":  
 				{
 					"animation" : "factions/tower/townScreen/animation/TBTWHRD1.def",
 					"x" : 0, "y" : 47,
-					"border" : "factions/tower/townScreen/border/TOTGAR1H.bmp",
-					"area" : "factions/tower/townScreen/area/TZTGAR1H.bmp",
+					"border" : "factions/tower/townScreen/border/TOTGAR1H.png",
+					"area" : "factions/tower/townScreen/area/TZTGAR1H.png",
 					"hidden" : true
 				},
 				"horde1Upgr": 
 				{
 					"animation" : "factions/tower/townScreen/animation/TBTWHRD2.def",
 					"x" : 0, "y" : 28,
-					"border" : "factions/tower/townScreen/border/TOTGAR2H.bmp",
-					"area" : "factions/tower/townScreen/area/TZTGAR2H.bmp",
+					"border" : "factions/tower/townScreen/border/TOTGAR2H.png",
+					"area" : "factions/tower/townScreen/area/TZTGAR2H.png",
 					"hidden" : true,
 					"builds" : "horde1"
 				},
@@ -150,127 +150,127 @@
 				{
 					"animation" : "factions/tower/townScreen/animation/TBTWEXT0.def",
 					"x" : 409, "y" : 82,
-					"border" : "factions/tower/townScreen/border/TOTCASW.bmp",
-					"area" : "factions/tower/townScreen/area/TZTCASW.bmp"
+					"border" : "factions/tower/townScreen/border/TOTCASW.png",
+					"area" : "factions/tower/townScreen/area/TZTCASW.png"
 				},
 				"special3": 
 				{
 					"animation" : "factions/tower/townScreen/animation/TBTWEXT1.def",
 					"x" : 702, "y" : 115,
-					"border" : "factions/tower/townScreen/border/TOTGLDL.bmp",
-					"area" : "factions/tower/townScreen/area/TZTGLDL.bmp"
+					"border" : "factions/tower/townScreen/border/TOTGLDL.png",
+					"area" : "factions/tower/townScreen/area/TZTGLDL.png"
 				},
 				"special4": 
 				{
 					"animation" : "factions/tower/townScreen/animation/TBTWEXT2.def",
 					"x" : 592, "y" : 189, "z" : 1,
-					"border" : "factions/tower/townScreen/border/TOTGLDW.bmp", 
-					"area" : "factions/tower/townScreen/area/TZTGLDW.bmp"
+					"border" : "factions/tower/townScreen/border/TOTGLDW.png", 
+					"area" : "factions/tower/townScreen/area/TZTGLDW.png"
 				},
 				"grail":  
 				{
 					"animation" : "factions/tower/townScreen/animation/TBTWHOLY.def",
 					"x" : 237, "y" : 14, "z" : -1,
-					"border" : "factions/tower/townScreen/border/TOTHOLYA.bmp",
-					"area" : "factions/tower/townScreen/area/TZTHOLYA.bmp"
+					"border" : "factions/tower/townScreen/border/TOTHOLYA.png",
+					"area" : "factions/tower/townScreen/area/TZTHOLYA.png"
 				},
 				"dwellingLvl1": 
 				{
 					"animation" : "factions/tower/townScreen/animation/TBTWDW_0.def",
 					"x" : 453, "y" : 221, "z" : 1,
-					"border" : "factions/tower/townScreen/border/TOTGRM1A.bmp",
-					"area" : "factions/tower/townScreen/area/TZTGRM1A.bmp"
+					"border" : "factions/tower/townScreen/border/TOTGRM1A.png",
+					"area" : "factions/tower/townScreen/area/TZTGRM1A.png"
 				},
 				"dwellingLvl2": 
 				{
 					"animation" : "factions/tower/townScreen/animation/TBTWDW_1.def",
 					"x" : 4, "y" : 46,
-					"border" : "factions/tower/townScreen/border/TOTGAR1.bmp",
-					"area" : "factions/tower/townScreen/area/TZTGAR1.bmp"
+					"border" : "factions/tower/townScreen/border/TOTGAR1.png",
+					"area" : "factions/tower/townScreen/area/TZTGAR1.png"
 				},
 				"dwellingLvl3": 
 				{
 					"animation" : "factions/tower/townScreen/animation/TBTWDW_2.def",
 					"x" : 209, "y" : 177, "z" : 1,
-					"border" : "factions/tower/townScreen/border/TOTGOL1A.bmp",
-					"area" : "factions/tower/townScreen/area/TZTGOL1A.bmp"
+					"border" : "factions/tower/townScreen/border/TOTGOL1A.png",
+					"area" : "factions/tower/townScreen/area/TZTGOL1A.png"
 				},
 				"dwellingLvl4": 
 				{
 					"animation" : "factions/tower/townScreen/animation/TBTWDW_3.def",
 					"x" : 613, "y" : 95,
-					"border" : "factions/tower/townScreen/border/TOTMAG1.bmp",
-					"area" : "factions/tower/townScreen/area/TZTMAG1.bmp"
+					"border" : "factions/tower/townScreen/border/TOTMAG1.png",
+					"area" : "factions/tower/townScreen/area/TZTMAG1.png"
 				},
 				"dwellingLvl5": 
 				{
 					"animation" : "factions/tower/townScreen/animation/TBTWDW_4.def",
 					"x" : 511, "y" : 75,
-					"border" : "factions/tower/townScreen/border/TOTGEN1.bmp",
-					"area" : "factions/tower/townScreen/area/TZTGEN1.bmp"
+					"border" : "factions/tower/townScreen/border/TOTGEN1.png",
+					"area" : "factions/tower/townScreen/area/TZTGEN1.png"
 				},
 				"dwellingLvl6": 
 				{
 					"animation" : "factions/tower/townScreen/animation/TBTWDW_5.def",
 					"x" : 681, "y" : 208, "z" : 2,
-					"border" : "factions/tower/townScreen/border/TOTNAG1.bmp", 
-					"area" : "factions/tower/townScreen/area/TZTNAG1.bmp"
+					"border" : "factions/tower/townScreen/border/TOTNAG1.png", 
+					"area" : "factions/tower/townScreen/area/TZTNAG1.png"
 				},
 				"dwellingLvl7": 
 				{
 					"animation" : "factions/tower/townScreen/animation/TBTWDW_6.def",
 					"x" : 75, "y" : 144, "z" : -1,
-					"border" : "factions/tower/townScreen/border/TOTTIT1.bmp", 
-					"area" : "factions/tower/townScreen/area/TZTTIT1.bmp"
+					"border" : "factions/tower/townScreen/border/TOTTIT1.png", 
+					"area" : "factions/tower/townScreen/area/TZTTIT1.png"
 				},
 				"dwellingUpLvl1":
 				{
 					"animation" : "factions/tower/townScreen/animation/TBTWUP_0.def",
 					"x" : 446, "y" : 221, "z" : 1,
-					"border" : "factions/tower/townScreen/border/TOTGRM2A.bmp",
-					"area" : "factions/tower/townScreen/area/TZTGRM2A.bmp"
+					"border" : "factions/tower/townScreen/border/TOTGRM2A.png",
+					"area" : "factions/tower/townScreen/area/TZTGRM2A.png"
 				},
 				"dwellingUpLvl2":
 				{
 					"animation" : "factions/tower/townScreen/animation/TBTWUP_1.def",
 					"x" : 4, "y" : 28,
-					"border" : "factions/tower/townScreen/border/TOTGAR2.bmp",
-					"area" : "factions/tower/townScreen/area/TZTGAR2.bmp"
+					"border" : "factions/tower/townScreen/border/TOTGAR2.png",
+					"area" : "factions/tower/townScreen/area/TZTGAR2.png"
 				},
 				"dwellingUpLvl3":
 				{
 					"animation" : "factions/tower/townScreen/animation/TBTWUP_2.def",
 					"x" : 209, "y" : 177, "z" : 1,
-					"border" : "factions/tower/townScreen/border/TOTGOL2A.bmp",
-					"area" : "factions/tower/townScreen/area/TZTGOL2A.bmp"
+					"border" : "factions/tower/townScreen/border/TOTGOL2A.png",
+					"area" : "factions/tower/townScreen/area/TZTGOL2A.png"
 				},
 				"dwellingUpLvl4":
 				{
 					"animation" : "factions/tower/townScreen/animation/TBTWUP_3.def",
 					"x" : 613, "y" : 74,
-					"border" : "factions/tower/townScreen/border/TOTMAG2.bmp",
-					"area" : "factions/tower/townScreen/area/TZTMAG2.bmp"
+					"border" : "factions/tower/townScreen/border/TOTMAG2.png",
+					"area" : "factions/tower/townScreen/area/TZTMAG2.png"
 				},
 				"dwellingUpLvl5":
 				{
 					"animation" : "factions/tower/townScreen/animation/TBTWUP_4.def",
 					"x" : 511, "y" : 8,
-					"border" : "factions/tower/townScreen/border/TOTGEN2.bmp",
-					"area" : "factions/tower/townScreen/area/TZTGEN2.bmp"
+					"border" : "factions/tower/townScreen/border/TOTGEN2.png",
+					"area" : "factions/tower/townScreen/area/TZTGEN2.png"
 				},
 				"dwellingUpLvl6":
 				{
 					"animation" : "factions/tower/townScreen/animation/TBTWUP_5.def",
 					"x" : 681, "y" : 157, "z" : 2,
-					"border" : "factions/tower/townScreen/border/TOTNAG2.bmp",
-					"area" : "factions/tower/townScreen/area/TZTNAG2.bmp"
+					"border" : "factions/tower/townScreen/border/TOTNAG2.png",
+					"area" : "factions/tower/townScreen/area/TZTNAG2.png"
 				},
 				"dwellingUpLvl7":
 				{
 					"animation" : "factions/tower/townScreen/animation/TBTWUP_6.def",
 					"x" : 75, "y" : 91, "z" : -1,
-					"border" : "factions/tower/townScreen/border/TOTTIT2.bmp",
-					"area" : "factions/tower/townScreen/area/TZTTIT2.bmp"
+					"border" : "factions/tower/townScreen/border/TOTTIT2.png",
+					"area" : "factions/tower/townScreen/area/TZTTIT2.png"
 				}
 			}
 		}

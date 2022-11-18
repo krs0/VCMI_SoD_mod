@@ -10,8 +10,8 @@
 		{
 			"specialtySmall" : "heroes/fiur/icons/speciality/UN32_0_134.png",
 			"specialtyLarge" : "heroes/fiur/icons/speciality/UN44_0_134.png",
-			"large" : "heroes/fiur/icons/portrait/HPL006PL.bmp",
-			"small" : "heroes/fiur/icons/portrait/HPS006PL.bmp"
+			"large" : "heroes/fiur/icons/portrait/HPL006PL.png",
+			"small" : "heroes/fiur/icons/portrait/HPS006PL.png"
 		},
 
 		"army" : [

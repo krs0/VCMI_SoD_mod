@@ -6,8 +6,8 @@
 		"nativeTerrain" : "subterra",
 		"creatureBackground" :
 		{
-			"120px" : "factions/dungeon/TPCASDUN.bmp",
-			"130px" : "factions/dungeon/CRBKGDUN.bmp"
+			"120px" : "factions/dungeon/TPCASDUN.png",
+			"130px" : "factions/dungeon/CRBKGDUN.png"
 		},
 	}
 }

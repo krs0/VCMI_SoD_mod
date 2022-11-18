@@ -10,8 +10,8 @@
 		{
 			"specialtySmall" : "heroes/nimbus/icons/speciality/UN32_0_75.png",
 			"specialtyLarge" : "heroes/nimbus/icons/speciality/UN44_0_75.png",
-			"large" : "heroes/nimbus/icons/portrait/HPL075NC.bmp",
-			"small" : "heroes/nimbus/icons/portrait/HPS075NC.bmp"
+			"large" : "heroes/nimbus/icons/portrait/HPL075NC.png",
+			"small" : "heroes/nimbus/icons/portrait/HPS075NC.png"
 		},
 
 

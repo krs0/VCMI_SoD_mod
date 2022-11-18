@@ -10,8 +10,8 @@
 		{
 			"specialtySmall" : "heroes/broghild/icons/speciality/UN32_0_119.png",
 			"specialtyLarge" : "heroes/broghild/icons/speciality/UN44_0_119.png",
-			"large" : "heroes/broghild/icons/portrait/HPL119BS.bmp",
-			"small" : "heroes/broghild/icons/portrait/HPS119BS.bmp"
+			"large" : "heroes/broghild/icons/portrait/HPL119BS.png",
+			"small" : "heroes/broghild/icons/portrait/HPS119BS.png"
 		},
 
 		"army" : [

@@ -10,8 +10,8 @@
 		{
 			"specialtySmall" : "heroes/mephala/icons/speciality/UN32_0_16.png",
 			"specialtyLarge" : "heroes/mephala/icons/speciality/UN44_0_16.png",
-			"large" : "heroes/mephala/icons/portrait/HPL016RN.bmp",
-			"small" : "heroes/mephala/icons/portrait/HPS016RN.bmp"
+			"large" : "heroes/mephala/icons/portrait/HPL016RN.png",
+			"small" : "heroes/mephala/icons/portrait/HPS016RN.png"
 		},
 
 		"army" : [

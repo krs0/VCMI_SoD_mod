@@ -10,8 +10,8 @@
 		{
 			"specialtySmall" : "heroes/labetha/icons/speciality/UN32_0_139.png",
 			"specialtyLarge" : "heroes/labetha/icons/speciality/UN44_0_139.png",
-			"large" : "heroes/labetha/icons/portrait/HPL003EL.bmp",
-			"small" : "heroes/labetha/icons/portrait/HPS003EL.bmp"
+			"large" : "heroes/labetha/icons/portrait/HPL003EL.png",
+			"small" : "heroes/labetha/icons/portrait/HPS003EL.png"
 		},
 
 		"army" : [

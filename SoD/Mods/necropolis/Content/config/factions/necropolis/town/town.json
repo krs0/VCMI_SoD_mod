@@ -6,10 +6,10 @@
 			"musicTheme" : "factions/necropolis/NecroTown.mp3",
 			"defaultTavern" : 5,
 
-			"townBackground": "factions/necropolis/townScreen/TBNCBACK.bmp",
-			"guildBackground" : "SoD/TPMAGE.bmp",
-			"guildWindow": "factions/necropolis/townScreen/TPMAGENC.bmp",
-			"hallBackground": "factions/necropolis/townScreen/TPTHBKNC.BMP",
+			"townBackground": "factions/necropolis/townScreen/TBNCBACK.png",
+			"guildBackground" : "SoD/TPMAGE.png",
+			"guildWindow": "factions/necropolis/townScreen/TPMAGENC.png",
+			"hallBackground": "factions/necropolis/townScreen/TPTHBKNC.png",
 			"tavernVideo" : "SoD/TAVERN.BIK",
 
 			"creatures" :

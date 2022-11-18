@@ -10,8 +10,8 @@
 		{
 			"specialtySmall" : "heroes/icons/speciality/UN32_0_57.png",
 			"specialtyLarge" : "heroes/icons/speciality/UN44_0_57.png",
-			"large" : "heroes/icons/portrait/HPL057DM.bmp",
-			"small" : "heroes/icons/portrait/HPS057DM.bmp"
+			"large" : "heroes/icons/portrait/HPL057DM.png",
+			"small" : "heroes/icons/portrait/HPS057DM.png"
 		},
 
 		"army" : [

@@ -10,8 +10,8 @@
 		{
 			"specialtySmall" : "heroes/cragHack/icons/speciality/UN32_0_102.png",
 			"specialtyLarge" : "heroes/cragHack/icons/speciality/UN44_0_102.png",
-			"large" : "heroes/cragHack/icons/portrait/HPL102BR.bmp",
-			"small" : "heroes/cragHack/icons/portrait/HPS102BR.bmp"
+			"large" : "heroes/cragHack/icons/portrait/HPL102BR.png",
+			"small" : "heroes/cragHack/icons/portrait/HPS102BR.png"
 		},
 
 		"army" : [

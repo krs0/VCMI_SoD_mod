@@ -10,8 +10,8 @@
 		{
 			"specialtySmall" : "heroes/yog/icons/speciality/UN32_0_96.png",
 			"specialtyLarge" : "heroes/yog/icons/speciality/UN44_0_96.png",
-			"large" : "heroes/yog/icons/portrait/HPL096BR.bmp",
-			"small" : "heroes/yog/icons/portrait/HPS096BR.bmp"
+			"large" : "heroes/yog/icons/portrait/HPL096BR.png",
+			"small" : "heroes/yog/icons/portrait/HPS096BR.png"
 		},
 
 		"army" : [

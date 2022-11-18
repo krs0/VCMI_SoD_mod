@@ -10,8 +10,8 @@
 		{
 			"specialtySmall" : "heroes/cyra/icons/speciality/UN32_0_46.png",
 			"specialtyLarge" : "heroes/cyra/icons/speciality/UN44_0_46.png",
-			"large" : "heroes/cyra/icons/portrait/HPL046WZ.bmp",
-			"small" : "heroes/cyra/icons/portrait/HPS046WZ.bmp"
+			"large" : "heroes/cyra/icons/portrait/HPL046WZ.png",
+			"small" : "heroes/cyra/icons/portrait/HPS046WZ.png"
 		},
 
 		"army" : [

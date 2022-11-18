@@ -10,8 +10,8 @@
 		{
 			"specialtySmall" : "heroes/josephine/icons/speciality/UN32_0_34.png",
 			"specialtyLarge" : "heroes/josephine/icons/speciality/UN44_0_34.png",
-			"large" : "heroes/josephine/icons/portrait/HPL034AL.bmp",
-			"small" : "heroes/josephine/icons/portrait/HPS034AL.bmp"
+			"large" : "heroes/josephine/icons/portrait/HPL034AL.png",
+			"small" : "heroes/josephine/icons/portrait/HPS034AL.png"
 		},
 
 		"army" : [

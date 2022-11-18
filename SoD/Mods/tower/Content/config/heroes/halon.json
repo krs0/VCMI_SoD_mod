@@ -10,8 +10,8 @@
 		{
 			"specialtySmall" : "heroes/halon/icons/speciality/UN32_0_41.png",
 			"specialtyLarge" : "heroes/halon/icons/speciality/UN44_0_41.png",
-			"large" : "heroes/halon/icons/portrait/HPL041WZ.bmp",
-			"small" : "heroes/halon/icons/portrait/HPS041WZ.bmp"
+			"large" : "heroes/halon/icons/portrait/HPL041WZ.png",
+			"small" : "heroes/halon/icons/portrait/HPS041WZ.png"
 		},
 
 		"army" : [

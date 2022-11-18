@@ -10,8 +10,8 @@
 		{
 			"specialtySmall" : "heroes/piquedram/icons/speciality/UN32_0_32.png",
 			"specialtyLarge" : "heroes/piquedram/icons/speciality/UN44_0_32.png",
-			"large" : "heroes/piquedram/icons/portrait/HPL032AL.bmp",
-			"small" : "heroes/piquedram/icons/portrait/HPS032AL.bmp"
+			"large" : "heroes/piquedram/icons/portrait/HPL032AL.png",
+			"small" : "heroes/piquedram/icons/portrait/HPS032AL.png"
 		},
 
 		"army" : [

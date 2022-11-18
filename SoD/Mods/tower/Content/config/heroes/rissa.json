@@ -10,8 +10,8 @@
 		{
 			"specialtySmall" : "heroes/rissa/icons/speciality/UN32_0_38.png",
 			"specialtyLarge" : "heroes/rissa/icons/speciality/UN44_0_38.png",
-			"large" : "heroes/rissa/icons/portrait/HPL038AL.bmp",
-			"small" : "heroes/rissa/icons/portrait/HPS038AL.bmp"
+			"large" : "heroes/rissa/icons/portrait/HPL038AL.png",
+			"small" : "heroes/rissa/icons/portrait/HPS038AL.png"
 		},
 
 		"army" : [

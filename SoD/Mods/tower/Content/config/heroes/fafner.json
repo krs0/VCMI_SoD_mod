@@ -10,8 +10,8 @@
 		{
 			"specialtySmall" : "heroes/fafner/icons/speciality/UN32_0_37.png",
 			"specialtyLarge" : "heroes/fafner/icons/speciality/UN44_0_37.png",
-			"large" : "heroes/fafner/icons/portrait/HPL037AL.bmp",
-			"small" : "heroes/fafner/icons/portrait/HPS037AL.bmp"
+			"large" : "heroes/fafner/icons/portrait/HPL037AL.png",
+			"small" : "heroes/fafner/icons/portrait/HPS037AL.png"
 		},
 
 		"army" : [

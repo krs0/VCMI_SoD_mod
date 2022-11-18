@@ -10,8 +10,8 @@
 		{
 			"specialtySmall" : "heroes/gerwulf/icons/speciality/UN32_0_118.png",
 			"specialtyLarge" : "heroes/gerwulf/icons/speciality/UN44_0_118.png",
-			"large" : "heroes/gerwulf/icons/portrait/HPL118BS.bmp",
-			"small" : "heroes/gerwulf/icons/portrait/HPS118BS.bmp"
+			"large" : "heroes/gerwulf/icons/portrait/HPL118BS.png",
+			"small" : "heroes/gerwulf/icons/portrait/HPS118BS.png"
 		},
 
 		"army" : [

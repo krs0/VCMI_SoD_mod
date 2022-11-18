@@ -10,8 +10,8 @@
 		{
 			"specialtySmall" : "heroes/jabarkas/icons/speciality/UN32_0_98.png",
 			"specialtyLarge" : "heroes/jabarkas/icons/speciality/UN44_0_98.png",
-			"large" : "heroes/jabarkas/icons/portrait/HPL098BR.bmp",
-			"small" : "heroes/jabarkas/icons/portrait/HPS098BR.bmp"
+			"large" : "heroes/jabarkas/icons/portrait/HPL098BR.png",
+			"small" : "heroes/jabarkas/icons/portrait/HPS098BR.png"
 		},
 
 		"army" : [

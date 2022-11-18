@@ -10,8 +10,8 @@
 		{
 			"specialtySmall" : "heroes/cuthbert/icons/speciality/UN32_0_10.png",
 			"specialtyLarge" : "heroes/cuthbert/icons/speciality/UN44_0_10.png",
-			"large" : "heroes/cuthbert/icons/portrait/HPL010CL.bmp",
-			"small" : "heroes/cuthbert/icons/portrait/HPS010CL.bmp"
+			"large" : "heroes/cuthbert/icons/portrait/HPL010CL.png",
+			"small" : "heroes/cuthbert/icons/portrait/HPS010CL.png"
 		},
 
 		"army" : [

@@ -6,10 +6,10 @@
 			"musicTheme" : "factions/castle/CstleTown.mp3", //don't fix its not a typo!!!
 			"defaultTavern" : 5,
 			
-			"townBackground": "factions/castle/townScreen/TBCSBACK.bmp",
-			"guildBackground" : "SoD/TPMAGE.bmp",
-			"guildWindow": "factions/castle/townScreen/TPMAGECS.bmp",
-			"hallBackground": "factions/castle/townScreen/TPTHBKCS.BMP",
+			"townBackground": "factions/castle/townScreen/TBCSBACK.png",
+			"guildBackground" : "SoD/TPMAGE.png",
+			"guildWindow": "factions/castle/townScreen/TPMAGECS.png",
+			"hallBackground": "factions/castle/townScreen/TPTHBKCS.png",
 			"tavernVideo" : "SoD/TAVERN.BIK",
 
 			"creatures" :

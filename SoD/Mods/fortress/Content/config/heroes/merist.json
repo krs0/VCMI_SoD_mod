@@ -10,8 +10,8 @@
 		{
 			"specialtySmall" : "heroes/merist/icons/speciality/UN32_0_124.png",
 			"specialtyLarge" : "heroes/merist/icons/speciality/UN44_0_124.png",
-			"large" : "heroes/merist/icons/portrait/HPL124WH.bmp",
-			"small" : "heroes/merist/icons/portrait/HPS124WH.bmp"
+			"large" : "heroes/merist/icons/portrait/HPL124WH.png",
+			"small" : "heroes/merist/icons/portrait/HPS124WH.png"
 		},
 
 		"army" : [

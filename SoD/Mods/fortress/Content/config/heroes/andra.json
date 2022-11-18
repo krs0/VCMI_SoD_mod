@@ -10,8 +10,8 @@
 		{
 			"specialtySmall" : "heroes/andra/icons/speciality/UN32_0_126.png",
 			"specialtyLarge" : "heroes/andra/icons/speciality/UN44_0_126.png",
-			"large" : "heroes/andra/icons/portrait/HPL126WH.bmp",
-			"small" : "heroes/andra/icons/portrait/HPS126WH.bmp"
+			"large" : "heroes/andra/icons/portrait/HPL126WH.png",
+			"small" : "heroes/andra/icons/portrait/HPS126WH.png"
 		},
 
 		"army" : [

@@ -10,8 +10,8 @@
 		{
 			"specialtySmall" : "heroes/saurug/icons/speciality/UN32_0_111.png",
 			"specialtyLarge" : "heroes/saurug/icons/speciality/UN44_0_111.png",
-			"large" : "heroes/saurug/icons/portrait/HPL111BM.bmp",
-			"small" : "heroes/saurug/icons/portrait/HPS111BM.bmp"
+			"large" : "heroes/saurug/icons/portrait/HPL111BM.png",
+			"small" : "heroes/saurug/icons/portrait/HPS111BM.png"
 		},
 
 		"army" : [

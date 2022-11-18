@@ -10,8 +10,8 @@
 		{
 			"specialtySmall" : "heroes/geon/icons/speciality/UN32_0_92.png",
 			"specialtyLarge" : "heroes/geon/icons/speciality/UN44_0_92.png",
-			"large" : "heroes/geon/icons/portrait/HPL092WL.bmp",
-			"small" : "heroes/geon/icons/portrait/HPS092WL.bmp"
+			"large" : "heroes/geon/icons/portrait/HPL092WL.png",
+			"small" : "heroes/geon/icons/portrait/HPS092WL.png"
 		},
 
 		"army" : [

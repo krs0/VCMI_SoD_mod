@@ -10,8 +10,8 @@
 		{
 			"specialtySmall" : "heroes/ivor/icons/speciality/UN32_0_21.png",
 			"specialtyLarge" : "heroes/ivor/icons/speciality/UN44_0_21.png",
-			"large" : "heroes/ivor/icons/portrait/HPL021RN.bmp",
-			"small" : "heroes/ivor/icons/portrait/HPS021RN.bmp"
+			"large" : "heroes/ivor/icons/portrait/HPL021RN.png",
+			"small" : "heroes/ivor/icons/portrait/HPS021RN.png"
 		},
 
 		"army" : [

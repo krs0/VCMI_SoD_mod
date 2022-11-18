@@ -6,10 +6,10 @@
 			"musicTheme" : "factions/conflux/ElemTown.mp3",
 			"defaultTavern" : 5,
 
-			"townBackground": "factions/conflux/townScreen/TBELBACK.bmp",
-			"guildBackground" : "SoD/TPMAGE.bmp",
-			"guildWindow": "factions/conflux/townScreen/TPMAGEEL.bmp",
-			"hallBackground": "factions/conflux/townScreen/TPTHBKFR.BMP",
+			"townBackground": "factions/conflux/townScreen/TBELBACK.png",
+			"guildBackground" : "SoD/TPMAGE.png",
+			"guildWindow": "factions/conflux/townScreen/TPMAGEEL.png",
+			"hallBackground": "factions/conflux/townScreen/TPTHBKFR.png",
 			"tavernVideo" : "SoD/TAVERN.BIK",
 
 			"creatures" :

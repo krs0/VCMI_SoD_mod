@@ -5,8 +5,8 @@
 		"alignment" : "neutral",
 		"creatureBackground" :
 		{
-			"120px" : "factions/neutral/TPCASNEU.bmp",
-			"130px" : "factions/neutral/CRBKGNEU.bmp"
+			"120px" : "factions/neutral/TPCASNEU.png",
+			"130px" : "factions/neutral/CRBKGNEU.png"
 		}
 	}
 }

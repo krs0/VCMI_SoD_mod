@@ -10,8 +10,8 @@
 		{
 			"specialtySmall" : "heroes/clancy/icons/speciality/UN32_0_22.png",
 			"specialtyLarge" : "heroes/clancy/icons/speciality/UN44_0_22.png",
-			"large" : "heroes/clancy/icons/portrait/HPL022RN.bmp",
-			"small" : "heroes/clancy/icons/portrait/HPS022RN.bmp"
+			"large" : "heroes/clancy/icons/portrait/HPL022RN.png",
+			"small" : "heroes/clancy/icons/portrait/HPS022RN.png"
 		},
 
 		"army" : [

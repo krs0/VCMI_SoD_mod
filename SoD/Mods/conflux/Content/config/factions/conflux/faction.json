@@ -6,8 +6,8 @@
 		"nativeTerrain" : "grass",
 		"creatureBackground" :
 		{
-			"120px" : "factions/conflux/TPCASELE.bmp",
-			"130px" : "factions/conflux/CRBKGELE.bmp"
+			"120px" : "factions/conflux/TPCASELE.png",
+			"130px" : "factions/conflux/CRBKGELE.png"
 		},
 	}
 }

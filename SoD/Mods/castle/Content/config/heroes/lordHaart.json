@@ -10,8 +10,8 @@
 		{
 			"specialtySmall" : "heroes/lordHaart/icons/speciality/UN32_0_4.png",
 			"specialtyLarge" : "heroes/lordHaart/icons/speciality/UN44_0_4.png",
-			"large" : "heroes/lordHaart/icons/portrait/HPL004KN.bmp",
-			"small" : "heroes/lordHaart/icons/portrait/HPS004KN.bmp"
+			"large" : "heroes/lordHaart/icons/portrait/HPL004KN.png",
+			"small" : "heroes/lordHaart/icons/portrait/HPS004KN.png"
 		},
 
 		"army" : [

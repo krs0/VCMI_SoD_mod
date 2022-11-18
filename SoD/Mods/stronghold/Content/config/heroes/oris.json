@@ -10,8 +10,8 @@
 		{
 			"specialtySmall" : "heroes/oris/icons/speciality/UN32_0_110.png",
 			"specialtyLarge" : "heroes/oris/icons/speciality/UN44_0_110.png",
-			"large" : "heroes/oris/icons/portrait/HPL110BM.bmp",
-			"small" : "heroes/oris/icons/portrait/HPS110BM.bmp"
+			"large" : "heroes/oris/icons/portrait/HPL110BM.png",
+			"small" : "heroes/oris/icons/portrait/HPS110BM.png"
 		},
 
 		"army" : [

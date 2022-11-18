@@ -10,8 +10,8 @@
 		{
 			"specialtySmall" : "heroes/iona/icons/speciality/UN32_0_39.png",
 			"specialtyLarge" : "heroes/iona/icons/speciality/UN44_0_39.png",
-			"large" : "heroes/iona/icons/portrait/HPL039AL.bmp",
-			"small" : "heroes/iona/icons/portrait/HPS039AL.bmp"
+			"large" : "heroes/iona/icons/portrait/HPL039AL.png",
+			"small" : "heroes/iona/icons/portrait/HPS039AL.png"
 		},
 
 		"army" : [

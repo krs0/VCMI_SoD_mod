@@ -6,10 +6,10 @@
 			"musicTheme" : "factions/fortress/FortressTown.mp3",
 			"defaultTavern" : 5,
 
-			"townBackground": "factions/fortress/townScreen/TBFRBACK.bmp",
-			"guildBackground" : "SoD/TPMAGE.bmp",
-			"guildWindow": "factions/fortress/townScreen/TPMAGEFR.bmp",
-			"hallBackground": "factions/fortress/townScreen/TPTHBKFR.BMP",
+			"townBackground": "factions/fortress/townScreen/TBFRBACK.png",
+			"guildBackground" : "SoD/TPMAGE.png",
+			"guildWindow": "factions/fortress/townScreen/TPMAGEFR.png",
+			"hallBackground": "factions/fortress/townScreen/TPTHBKFR.png",
 			"tavernVideo" : "SoD/TAVERN.BIK",
 
 			"creatures" :

@@ -6,10 +6,10 @@
 			"musicTheme" : "factions/dungeon/Dungeon.mp3",
 			"defaultTavern" : 5,
 
-			"townBackground": "factions/dungeon/townScreen/TBDNBACK.bmp",
-			"guildBackground" : "SoD/TPMAGE.bmp",
-			"guildWindow": "factions/dungeon/townScreen/TPMAGEDN.bmp",
-			"hallBackground": "factions/dungeon/townScreen/TPTHBKDG.BMP",
+			"townBackground": "factions/dungeon/townScreen/TBDNBACK.png",
+			"guildBackground" : "SoD/TPMAGE.png",
+			"guildWindow": "factions/dungeon/townScreen/TPMAGEDN.png",
+			"hallBackground": "factions/dungeon/townScreen/TPTHBKDG.png",
 			"tavernVideo" : "SoD/TAVERN.BIK",
 
 			"creatures" :

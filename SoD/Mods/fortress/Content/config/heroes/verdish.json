@@ -10,8 +10,8 @@
 		{
 			"specialtySmall" : "heroes/verdish/icons/speciality/UN32_0_123.png",
 			"specialtyLarge" : "heroes/verdish/icons/speciality/UN44_0_123.png",
-			"large" : "heroes/verdish/icons/portrait/HPL123WH.bmp",
-			"small" : "heroes/verdish/icons/portrait/HPS123WH.bmp"
+			"large" : "heroes/verdish/icons/portrait/HPL123WH.png",
+			"small" : "heroes/verdish/icons/portrait/HPS123WH.png"
 		},
 
 		"army" : [

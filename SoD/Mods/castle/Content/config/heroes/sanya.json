@@ -10,8 +10,8 @@
 		{
 			"specialtySmall" : "heroes/sanya/icons/speciality/UN32_0_13.png",
 			"specialtyLarge" : "heroes/sanya/icons/speciality/UN44_0_13.png",
-			"large" : "heroes/sanya/icons/portrait/HPL013CL.bmp",
-			"small" : "heroes/sanya/icons/portrait/HPS013CL.bmp"
+			"large" : "heroes/sanya/icons/portrait/HPL013CL.png",
+			"small" : "heroes/sanya/icons/portrait/HPS013CL.png"
 		},
 
 		"army" : [

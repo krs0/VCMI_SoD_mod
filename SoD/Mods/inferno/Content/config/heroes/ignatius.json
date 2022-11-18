@@ -10,8 +10,8 @@
 		{
 			"specialtySmall" : "heroes/ignatius/icons/speciality/UN32_0_51.png",
 			"specialtyLarge" : "heroes/ignatius/icons/speciality/UN44_0_51.png",
-			"large" : "heroes/ignatius/icons/portrait/HPL051HR.bmp",
-			"small" : "heroes/ignatius/icons/portrait/HPS051HR.bmp"
+			"large" : "heroes/ignatius/icons/portrait/HPL051HR.png",
+			"small" : "heroes/ignatius/icons/portrait/HPS051HR.png"
 		},
 
 		"army" : [

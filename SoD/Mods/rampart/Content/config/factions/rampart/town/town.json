@@ -6,10 +6,10 @@
 			"musicTheme" : "factions/rampart/Rampart.mp3",
 			"defaultTavern" : 5,
 
-			"townBackground": "factions/rampart/townScreen/TBRMBACK.bmp",
-			"guildBackground" : "SoD/TPMAGE.bmp",
-			"guildWindow": "factions/rampart/townScreen/TPMAGERM.bmp",
-			"hallBackground": "factions/rampart/townScreen/TPTHBKRM.BMP",
+			"townBackground": "factions/rampart/townScreen/TBRMBACK.png",
+			"guildBackground" : "SoD/TPMAGE.png",
+			"guildWindow": "factions/rampart/townScreen/TPMAGERM.png",
+			"hallBackground": "factions/rampart/townScreen/TPTHBKRM.png",
 			"tavernVideo" : "SoD/TAVERN.BIK",
 
 			"creatures" :

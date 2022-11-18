@@ -6,10 +6,10 @@
 			"musicTheme" : "factions/tower/TowerTown.mp3",
 			"defaultTavern" : 5,
 
-			"townBackground": "factions/tower/townScreen/TBTWBACK.bmp",
-			"guildBackground" : "SoD/TPMAGE.bmp",
-			"guildWindow": "factions/tower/townScreen/TPMAGETW.bmp",
-			"hallBackground": "factions/tower/townScreen/TPTHBKTW.BMP",
+			"townBackground": "factions/tower/townScreen/TBTWBACK.png",
+			"guildBackground" : "SoD/TPMAGE.png",
+			"guildWindow": "factions/tower/townScreen/TPMAGETW.png",
+			"hallBackground": "factions/tower/townScreen/TPTHBKTW.png",
 			"tavernVideo" : "SoD/TAVERN.BIK",
 
 			"creatures" :

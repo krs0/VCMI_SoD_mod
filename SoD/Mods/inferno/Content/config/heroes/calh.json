@@ -10,8 +10,8 @@
 		{
 			"specialtySmall" : "heroes/calh/icons/speciality/UN32_0_53.png",
 			"specialtyLarge" : "heroes/calh/icons/speciality/UN44_0_53.png",
-			"large" : "heroes/calh/icons/portrait/HPL053HR.bmp",
-			"small" : "heroes/calh/icons/portrait/HPS053HR.bmp"
+			"large" : "heroes/calh/icons/portrait/HPL053HR.png",
+			"small" : "heroes/calh/icons/portrait/HPS053HR.png"
 		},
 
 		"army" : [

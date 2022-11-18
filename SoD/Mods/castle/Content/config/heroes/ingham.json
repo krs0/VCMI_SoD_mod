@@ -10,8 +10,8 @@
 		{
 			"specialtySmall" : "heroes/ingham/icons/speciality/UN32_0_12.png",
 			"specialtyLarge" : "heroes/ingham/icons/speciality/UN44_0_12.png",
-			"large" : "heroes/ingham/icons/portrait/HPL012CL.bmp",
-			"small" : "heroes/ingham/icons/portrait/HPS012CL.bmp"
+			"large" : "heroes/ingham/icons/portrait/HPL012CL.png",
+			"small" : "heroes/ingham/icons/portrait/HPS012CL.png"
 		},
 
 		"army" : [
