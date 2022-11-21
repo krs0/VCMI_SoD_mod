@@ -46,14 +46,10 @@
 				"skill" : "mysticism"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 8,
-				"subtype" : 0,
-				"type" : 1,
-				"val" : 0
-			}
-		],
+
+		"specialty" : {
+			"creature" : "monk"
+		},
 
 		"texts" : {
 			"biography" : "Ingham maintained a modest monastery in the years before the Kreegan attack.  He and his monks were quickly pressed into the service of the Erathian crown.",

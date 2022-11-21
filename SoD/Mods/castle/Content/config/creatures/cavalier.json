@@ -1,8 +1,8 @@
 {
 	"cavalier": {
 		"name" : {
-			"plural" : "Cavaliers",
-			"singular" : "Cavalier"
+			"singular" : "Cavalier",
+			"plural" : "Cavaliers"
 		},
 		"faction" : "castle",
 		"level" : 6,

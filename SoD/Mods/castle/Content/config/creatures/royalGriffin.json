@@ -1,8 +1,8 @@
 {
 	"royalGriffin": {
 		"name" : {
-			"plural" : "Royal Griffins",
-			"singular" : "Royal Griffin"
+			"singular" : "Royal Griffin",
+			"plural" : "Royal Griffins"
 		},
 		"faction" : "castle",
 		"level" : 3,
@@ -26,6 +26,7 @@
 			"max" : 20,
 			"min" : 12
 		},
+		"hasDoubleWeek" : true,
 		"abilities" : {
 			"FLYING_ARMY" : {
 				"type" : "FLYING"
@@ -35,7 +36,6 @@
 			}
 		},
 		"abilityText" : "Unlimited retaliations.",
-		"hasDoubleWeek" : true,
 		"graphics" : {
 			"animation" : "creatures/royalGriffin/battle/CRGRIF.def",
 			"map" : "creatures/royalGriffin/adventureMap/AVWgrix0.def",

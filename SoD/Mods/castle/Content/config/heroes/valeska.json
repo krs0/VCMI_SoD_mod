@@ -43,14 +43,9 @@
 			}
 		],
 		
-		"specialties" : [
-			{
-				"info" : 2,
-				"subtype" : 0,
-				"type" : 1,
-				"val" : 0
-			}
-		],
+		"specialty" : {
+			"creature" : "archer"
+		},
 
 		"texts" : {
 			"biography" : "Valeska became known as a master marksman when she first served in the Erathian military.  Now she not only commands her own forces, but spends time personally training her Crossbow troops as well.",

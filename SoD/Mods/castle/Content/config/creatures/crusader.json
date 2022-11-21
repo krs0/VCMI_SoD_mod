@@ -1,8 +1,8 @@
 {
 	"crusader": {
 		"name" : {
-			"plural" : "Crusaders",
-			"singular" : "Crusader"
+			"singular" : "Crusader",
+			"plural" : "Crusaders"
 		},
 		"faction" : "castle",
 		"level" : 4,
@@ -17,7 +17,6 @@
 			"max" : 10,
 			"min" : 7
 		},
-		"doubleWide" : false,
 		"growth" : 4,
 		"horde" : 0,
 		"aiValue" : 588,

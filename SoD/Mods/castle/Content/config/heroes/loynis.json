@@ -46,14 +46,16 @@
 				"skill" : "learning"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 0,
-				"subtype" : 48,
-				"type" : 8,
-				"val" : 0
+
+		"specialty" : {
+			"bonuses" : {
+				"prayer" : {
+					"addInfo" : 0,
+					"subtype" : "spell.prayer",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
 			}
-		],
+		},
 
 		"texts" : {
 			"biography" : "Loynis has always believed that physical violence was never necessary as long as proper magic and prayer could be invoked.  Amazingly enough, he made it work, and now is regarded as a successful, though unconventional, leader.",

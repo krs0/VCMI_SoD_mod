@@ -1,8 +1,8 @@
 {
 	"monk": {
 		"name" : {
-			"plural" : "Monks",
-			"singular" : "Monk"
+			"singular" : "Monk",
+			"plural" : "Monks"
 		},
 		"faction" : "castle",
 		"level" : 5,
@@ -19,7 +19,6 @@
 			"min" : 10
 		},
 		"shots" : 12,
-		"doubleWide" : false,
 		"growth" : 3,
 		"horde" : 0,
 		"aiValue" : 485,

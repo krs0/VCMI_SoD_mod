@@ -1,8 +1,8 @@
 {
 	"zealot": {
 		"name" : {
-			"plural" : "Zealots",
-			"singular" : "Zealot"
+			"singular" : "Zealot",
+			"plural" : "Zealots"
 		},
 		"faction" : "castle",
 		"level" : 5,
@@ -18,7 +18,6 @@
 			"min" : 10
 		},
 		"shots" : 24,
-		"doubleWide" : false,
 		"growth" : 3,
 		"horde" : 0,
 		"aiValue" : 750,

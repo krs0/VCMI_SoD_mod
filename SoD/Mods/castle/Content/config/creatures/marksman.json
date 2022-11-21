@@ -1,8 +1,8 @@
 {
 	"marksman": {
 		"name" : {
-			"plural" : "Marksmen",
-			"singular" : "Marksman"
+			"singular" : "Marksman",
+			"plural" : "Marksmen"
 		},
 		"faction" : "castle",
 		"level" : 2,
@@ -18,7 +18,6 @@
 			"min" : 2
 		},
 		"shots" : 24,
-		"doubleWide" : false,
 		"growth" : 9,
 		"horde" : 0,
 		"aiValue" : 184,

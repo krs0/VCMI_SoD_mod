@@ -1,8 +1,8 @@
 {
 	"archer": {
 		"name" : {
-			"plural" : "Archers",
-			"singular" : "Archer"
+			"singular" : "Archer",
+			"plural" : "Archers"
 		},
 		"extraNames" : ["lightCrossbowman"],
 		"faction" : "castle",
@@ -20,7 +20,6 @@
 			"min" : 2
 		},
 		"shots" : 12,
-		"doubleWide" : false,
 		"growth" : 9,
 		"horde" : 0,
 		"aiValue" : 126,
@@ -34,6 +33,7 @@
 				"type" : "SHOOTER"
 			}
 		},
+		"abilityText" : "",
 		"graphics" : {
 			"animation" : "creatures/archer/battle/CLCBOW.def",
 			"map" : "creatures/archer/adventureMap/AvWLCrs.def",

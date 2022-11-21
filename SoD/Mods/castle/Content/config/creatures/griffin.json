@@ -1,8 +1,8 @@
 {
 	"griffin": {
 		"name" : {
-			"plural" : "Griffins",
-			"singular" : "Griffin"
+			"singular" : "Griffin",
+			"plural" : "Griffins"
 		},
 		"faction" : "castle",
 		"level" : 3,
@@ -27,6 +27,7 @@
 			"max" : 25,
 			"min" : 12
 		},
+		"hasDoubleWeek" : true,
 		"abilities" : {
 			"FLYING_ARMY" : {
 				"type" : "FLYING"
@@ -37,7 +38,6 @@
 			}
 		},
 		"abilityText" : "Retaliates twice.",
-		"hasDoubleWeek" : true,
 		"graphics" : {
 			"animation" : "creatures/griffin/battle/CGRIFF.def",
 			"map" : "creatures/griffin/adventureMap/AvWGrif.def",

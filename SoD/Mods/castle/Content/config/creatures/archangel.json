@@ -1,8 +1,8 @@
 {
 	"archangel": {
 		"name" : {
-			"plural" : "Archangels",
-			"singular" : "Archangel"
+			"singular" : "Archangel",
+			"plural" : "Archangels"
 		},
 		"faction" : "castle",
 		"level" : 7,
@@ -37,16 +37,17 @@
 			},
 			"const_raises_morale" : {
 				"propagator" : "HERO",
+				"stacking" : "Angels",
 				"type" : "MORALE",
 				"val" : 1
 			},
-			"hateArchDevils" : {
-				"subtype" : "creature.archDevil",
+			"hateDevils" : {
+				"subtype" : "creature.devil",
 				"type" : "HATE",
 				"val" : 50
 			},
-			"hateDevils" : {
-				"subtype" : "creature.devil",
+			"hateArchDevils" : {
+				"subtype" : "creature.archDevil",
 				"type" : "HATE",
 				"val" : 50
 			},

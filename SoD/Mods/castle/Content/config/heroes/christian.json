@@ -42,14 +42,10 @@
 				"skill" : "artillery"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 146,
-				"subtype" : 0,
-				"type" : 1,
-				"val" : 0
-			}
-		],
+		
+		"specialty" : {
+			"creature" : "ballista"
+		},
 
 		"texts" : {
 			"biography" : "Christian was always more of a frontiersman than a Knight, having set foot in nearly every part of Enroth before finally settling into military service in Erathia.  Though a wanderer and a bit of a dreamer, his battlefield tactics are feared throughout the world.",

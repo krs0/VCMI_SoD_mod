@@ -1,8 +1,8 @@
 {
 	"angel": {
 		"name" : {
-			"plural" : "Angels",
-			"singular" : "Angel"
+			"singular" : "Angel",
+			"plural" : "Angels"
 		},
 		"faction" : "castle",
 		"level" : 7,
@@ -19,7 +19,6 @@
 			"max" : 50,
 			"min" : 50
 		},
-		"doubleWide" : true,
 		"growth" : 1,
 		"horde" : 0,
 		"aiValue" : 5019,
@@ -37,16 +36,17 @@
 			},
 			"const_raises_morale" : {
 				"propagator" : "HERO",
+				"stacking" : "Angels",
 				"type" : "MORALE",
 				"val" : 1
 			},
-			"hateArchDevils" : {
-				"subtype" : "creature.archDevil",
+			"hateDevils" : {
+				"subtype" : "creature.devil",
 				"type" : "HATE",
 				"val" : 50
 			},
-			"hateDevils" : {
-				"subtype" : "creature.devil",
+			"hateArchDevils" : {
+				"subtype" : "creature.archDevil",
 				"type" : "HATE",
 				"val" : 50
 			}

@@ -1,8 +1,8 @@
 {
 	"champion": {
 		"name" : {
-			"plural" : "Champions",
-			"singular" : "Champion"
+			"singular" : "Champion",
+			"plural" : "Champions"
 		},
 		"faction" : "castle",
 		"level" : 6,

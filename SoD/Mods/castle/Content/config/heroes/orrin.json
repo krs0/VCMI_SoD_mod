@@ -43,14 +43,17 @@
 			}
 		],
 		
-		"specialties" : [
-			{
-				"info" : 0,
-				"subtype" : 1,
-				"type" : 2,
-				"val" : 5
+		"specialty" : {
+			"bonuses" : {
+				"archery" : {
+					"subtype" : "skill.archery",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE"
+				}
 			}
-		],
+		},
 
 		"texts" : {
 			"biography" : "Orrin trained with one of Erathia's best siege tacticians during his early military service.  Any archers under his command learn quickly to shoot at targets behind obstacles.",

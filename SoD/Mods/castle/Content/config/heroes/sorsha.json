@@ -43,14 +43,9 @@
 			}
 		],
 		
-		"specialties" : [
-			{
-				"info" : 6,
-				"subtype" : 0,
-				"type" : 1,
-				"val" : 0
-			}
-		],
+		"specialty" : {
+			"creature" : "swordsman"
+		},
 
 		"texts" : {
 			"biography" : "Following Queen Catherine's example, Sorsha joined the ranks of the Erathian Military, quickly proving herself as a master of swordplay.  She was granted her first command shortly after the Kreegans arrived in Erathia.",

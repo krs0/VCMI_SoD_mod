@@ -1,12 +1,11 @@
 {
 	"halberdier": {
 		"name" : {
-			"plural" : "Halberdiers",
-			"singular" : "Halberdier"
+			"singular" : "Halberdier",
+			"plural" : "Halberdiers"
 		},
 		"faction" : "castle",
 		"level" : 1,
-		"upgrades": ["halberdier"],
 		"cost" : {
 			"gold" : 75
 		},
@@ -18,7 +17,6 @@
 			"max" : 3,
 			"min" : 2
 		},
-		"doubleWide" : false,
 		"growth" : 14,
 		"horde" : 0,
 		"aiValue" : 115,

@@ -11,7 +11,8 @@
 					"x" : 46, "y" : 119
 				},
 				"maguild1": 
-				{			"animation" : "factions/castle/townScreen/animation/TBCSMAGE.def",
+				{	
+					"animation" : "factions/castle/townScreen/animation/TBCSMAGE.def",
 					"x" : 707, "y" : 166, "z" : 1,
 					"border" : "factions/castle/townScreen/border/TOCSMAG1.png",
 					"area" : "factions/castle/townScreen/area/TZCSMAG1.png"

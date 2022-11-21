@@ -46,14 +46,16 @@
 				"skill" : "intelligence"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 0,
-				"subtype" : 6,
-				"type" : 10,
-				"val" : 350
+
+		"specialty" : {
+			"bonuses" : {
+				"gold" : {
+					"subtype" : "resource.gold",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 350
+				}
 			}
-		],
+		},
 
 		"texts" : {
 			"biography" : "Before she was granted command, Caitlin was considered by some to be possessed by evil spirits.  Despite these claims, donations to her church were unsurpassed when she was still in the church's ranks.",

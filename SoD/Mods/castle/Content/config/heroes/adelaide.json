@@ -42,14 +42,17 @@
 				"skill" : "wisdom"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 0,
-				"subtype" : 20,
-				"type" : 3,
-				"val" : 3
+		
+		"specialty" : {
+			"bonuses" : {
+				"frostRing" : {
+					"subtype" : "spell.frostRing",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
 			}
-		],
+		},
 
 		"texts" : {
 			"biography" : "Caught at sea during a storm, Adelaide was shipwrecked on the shores of Vori, home of the Snow Elves.  She trained with them for some twenty years, and upon her return to Erathia discovered that no time had passed in her absence.",

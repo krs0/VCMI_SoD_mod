@@ -17,8 +17,8 @@
 		"mapObject" : {
 			"templates" : {
 				"default" : {
-					"animation" : "heroClasses/cleric/AH06_.def",
-					"editorAnimation" : "heroClasses/cleric/AH06_E.def"
+					"animation" : "heroClasses/cleric/AH01_.def",
+					"editorAnimation" : "heroClasses/cleric/AH01_E.def"
 				}
 			}
 		},
@@ -27,18 +27,6 @@
 			"defence" : 0,
 			"knowledge" : 2,
 			"spellpower" : 2
-		},
-		"highLevelChance" : {
-			"attack" : 20,
-			"defence" : 20,
-			"knowledge" : 30,
-			"spellpower" : 30
-		},
-		"lowLevelChance" : {
-			"attack" : 20,
-			"defence" : 15,
-			"knowledge" : 35,
-			"spellpower" : 30
 		},
 		"secondarySkills" : {
 			"airMagic" : 4,
@@ -69,6 +57,18 @@
 			"tactics" : 2,
 			"waterMagic" : 4,
 			"wisdom" : 7
+		},
+		"highLevelChance" : {
+			"attack" : 20,
+			"defence" : 20,
+			"knowledge" : 30,
+			"spellpower" : 30
+		},
+		"lowLevelChance" : {
+			"attack" : 20,
+			"defence" : 15,
+			"knowledge" : 35,
+			"spellpower" : 30
 		},
 		"tavern" : {
 			"castle" : 6,

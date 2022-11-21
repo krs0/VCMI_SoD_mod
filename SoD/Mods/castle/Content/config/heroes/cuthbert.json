@@ -46,14 +46,16 @@
 				"skill" : "estates"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 0,
-				"subtype" : 45,
-				"type" : 8,
-				"val" : 0
+
+		"specialty" : {
+			"bonuses" : {
+				"weakness" : {
+					"addInfo" : 0,
+					"subtype" : "spell.weakness",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
 			}
-		],
+		},
 
 		"texts" : {
 			"biography" : "As a young man, Cuthbert toyed with the darker magics, but when his wife died because a spell that he cast had gone awry, he turned to good and has never looked back.  His insights to the workings of dark magic give him an edge possessed by no other.",

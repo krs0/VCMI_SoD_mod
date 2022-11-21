@@ -45,14 +45,17 @@
 
 		"special" : true,
 		
-		"specialties" : [
-			{
-				"info" : 0,
-				"subtype" : 13,
-				"type" : 2,
-				"val" : 5
+		"specialty" : {
+			"bonuses" : {
+				"estates" : {
+					"subtype" : "skill.estates",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE"
+				}
 			}
-		],
+		},
 
 		"texts" : {
 			"biography" : "Some have said that Lord Haart's departure from Enroth was due to ties with a Necromantic cult, but his service to the crown of Erathia has been as spotless as it was to Roland Ironfist before the Succession Wars.",
