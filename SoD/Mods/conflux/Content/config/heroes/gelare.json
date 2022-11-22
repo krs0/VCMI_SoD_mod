@@ -13,7 +13,6 @@
 			"large" : "heroes/gelare/icons/portrait/HPL006EL.png",
 			"small" : "heroes/gelare/icons/portrait/HPS006EL.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "pixies",
@@ -31,7 +30,6 @@
 				"min" : 2
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,18 +40,18 @@
 				"skill" : "waterMagic"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 0,
-				"subtype" : 6,
-				"type" : 10,
-				"val" : 350
+		"specialty" : {
+			"bonuses" : {
+				"gold" : {
+					"subtype" : "resource.gold",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 350
+				}
 			}
-		],
+		},
 		"spellbook" : [
 			"dispel"
 		],
-		
 		"texts" : {
 			"biography" : "Gelare was born with a wisdom beyond his years, even for an elf.  Always calm, reflective and serene on the outside, Gelare did not question his calling to the Conflux.",
 			"name" : "Gelare",

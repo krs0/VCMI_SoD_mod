@@ -13,7 +13,6 @@
 			"large" : "heroes/labetha/icons/portrait/HPL003EL.png",
 			"small" : "heroes/labetha/icons/portrait/HPS003EL.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "pixies",
@@ -31,7 +30,6 @@
 				"min" : 2
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,18 +40,18 @@
 				"skill" : "earthMagic"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 0,
-				"subtype" : 46,
-				"type" : 8,
-				"val" : 0
+		"specialty" : {
+			"bonuses" : {
+				"stoneSkin" : {
+					"addInfo" : 0,
+					"subtype" : "spell.stoneSkin",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
 			}
-		],
+		},
 		"spellbook" : [
 			"stoneSkin"
 		],
-		
 		"texts" : {
 			"biography" : "Born poor, Labetha's parents were slaughtered peasantry during the Restoration wars.  Taken by dendroids and brought into their service in AvLee, her power over the earth developed quickly.  When she felt the Conflux calling, she answered quickly.",
 			"name" : "Labetha",

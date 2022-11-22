@@ -1,8 +1,8 @@
 {
 	"magmaElemental": {
 		"name" : {
-			"plural" : "Magma Elementals",
-			"singular" : "Magma Elemental"
+			"singular" : "Magma Elemental",
+			"plural" : "Magma Elementals"
 		},
 		"faction" : "conflux",
 		"level" : 5,
@@ -18,7 +18,6 @@
 			"min" : 6
 		},
 		"spellPoints" : 3,
-		"doubleWide" : false,
 		"growth" : 4,
 		"horde" : 0,
 		"aiValue" : 490,
@@ -43,10 +42,9 @@
 				"subtype" : "spell.lightningBolt",
 				"type" : "SPELL_IMMUNITY"
 			},
-			"meteorShowerVulnerability" :
-			{
-				"type" : "MORE_DAMAGE_FROM_SPELL",
+			"meteorShowerVulnerability" : {
 				"subtype" : "spell.meteorShower",
+				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"val" : 100
 			},
 			"nonLiving" : {

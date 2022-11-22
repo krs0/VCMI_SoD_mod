@@ -1,8 +1,8 @@
 {
 	"firebird": {
 		"name" : {
-			"plural" : "Firebirds",
-			"singular" : "Firebird"
+			"singular" : "Firebird",
+			"plural" : "Firebirds"
 		},
 		"faction" : "conflux",
 		"level" : 7,

@@ -13,7 +13,6 @@
 			"large" : "heroes/luna/icons/portrait/HPL000EL.png",
 			"small" : "heroes/luna/icons/portrait/HPS000EL.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "pixies",
@@ -31,7 +30,6 @@
 				"min" : 2
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,18 +40,19 @@
 				"skill" : "fireMagic"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 0,
-				"subtype" : 13,
-				"type" : 5,
-				"val" : 100
+		"specialty" : {
+			"bonuses" : {
+				"fireWall" : {
+					"subtype" : "spell.fireWall",
+					"type" : "SPECIFIC_SPELL_DAMAGE",
+					"val" : 100,
+					"valueType" : "BASE_NUMBER"
+				}
 			}
-		],
+		},
 		"spellbook" : [
 			"fireWall"
 		],
-		
 		"texts" : {
 			"biography" : "Originally a sorceress in Enroth, Luna felt the call of the elemental Conflux and made her way to Erathia.  Once in Erathia, Luna was compelled to disregard her aquatic talents and turn her efforts to developing her skills in fire magic.",
 			"name" : "Luna",

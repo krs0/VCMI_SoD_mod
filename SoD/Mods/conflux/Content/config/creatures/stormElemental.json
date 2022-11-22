@@ -1,8 +1,8 @@
 {
 	"stormElemental": {
 		"name" : {
-			"plural" : "Storm Elementals",
-			"singular" : "Storm Elemental"
+			"singular" : "Storm Elemental",
+			"plural" : "Storm Elementals"
 		},
 		"faction" : "conflux",
 		"level" : 2,
@@ -34,6 +34,11 @@
 			},
 			"SHOOTING_ARMY" : {
 				"type" : "SHOOTER"
+			},
+			"armageddonVulnerablity" : {
+				"subtype" : "spell.armageddon",
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"val" : 100
 			},
 			"chainLightingVulnerablity" : {
 				"subtype" : "spell.chainLightning",

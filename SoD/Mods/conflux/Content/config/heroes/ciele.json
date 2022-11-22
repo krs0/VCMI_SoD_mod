@@ -13,7 +13,6 @@
 			"large" : "heroes/ciele/icons/portrait/HPL002EL.png",
 			"small" : "heroes/ciele/icons/portrait/HPS002EL.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "pixies",
@@ -31,7 +30,6 @@
 				"min" : 2
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,18 +40,19 @@
 				"skill" : "waterMagic"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 0,
-				"subtype" : 15,
-				"type" : 5,
-				"val" : 50
+		"specialty" : {
+			"bonuses" : {
+				"magicArrow" : {
+					"subtype" : "spell.magicArrow",
+					"type" : "SPECIFIC_SPELL_DAMAGE",
+					"val" : 50,
+					"valueType" : "BASE_NUMBER"
+				}
 			}
-		],
+		},
 		"spellbook" : [
 			"magicArrow"
 		],
-		
 		"texts" : {
 			"biography" : "Growing up next to the ocean bordering Avlee, Ciele always felt a bond with the ancient waters.  She has wandered the lands seeking her calling.  Now she finds herself serving the Conflux.",
 			"name" : "Ciele",

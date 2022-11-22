@@ -13,7 +13,6 @@
 			"large" : "heroes/aenain/icons/portrait/HPL005EL.png",
 			"small" : "heroes/aenain/icons/portrait/HPS005EL.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "pixies",
@@ -31,7 +30,6 @@
 				"min" : 2
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,18 +40,18 @@
 				"skill" : "airMagic"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 0,
-				"subtype" : 47,
-				"type" : 8,
-				"val" : 0
+		"specialty" : {
+			"bonuses" : {
+				"disruptingRay" : {
+					"addInfo" : -2,
+					"subtype" : "spell.disruptingRay",
+					"type" : "SPECIAL_ADD_VALUE_ENCHANT"
+				}
 			}
-		],
+		},
 		"spellbook" : [
 			"disruptingRay"
 		],
-		
 		"texts" : {
 			"biography" : "Created by great power from mystical forces, Genies are creatures of magic.  Aenain was made imperfect.  For centuries he has worked hard to overcome the perception of his imperfection.  For his dilligence and dedication to Air Magic, Aenain was called to the Conflux.",
 			"name" : "Aenain",

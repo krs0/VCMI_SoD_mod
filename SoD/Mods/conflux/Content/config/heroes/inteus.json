@@ -13,7 +13,6 @@
 			"large" : "heroes/inteus/icons/portrait/HPL004EL.png",
 			"small" : "heroes/inteus/icons/portrait/HPS004EL.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "pixies",
@@ -31,7 +30,6 @@
 				"min" : 2
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,18 +40,18 @@
 				"skill" : "fireMagic"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 0,
-				"subtype" : 43,
-				"type" : 8,
-				"val" : 0
+		"specialty" : {
+			"bonuses" : {
+				"bloodlust" : {
+					"addInfo" : 0,
+					"subtype" : "spell.bloodlust",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
 			}
-		],
+		},
 		"spellbook" : [
 			"bloodlust"
 		],
-		
 		"texts" : {
 			"biography" : "At an early age, Inteus' mastery of fire earned him a spot with a troupe of entertainers.  Some believed he wad the son of a Fire Elemental.  One night, he felt a calling and left his profession.  Now he serves the Conflux.",
 			"name" : "Inteus",

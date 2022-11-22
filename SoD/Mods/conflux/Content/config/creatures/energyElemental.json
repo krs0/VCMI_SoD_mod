@@ -1,8 +1,8 @@
 {
 	"energyElemental": {
 		"name" : {
-			"plural" : "Energy Elementals",
-			"singular" : "Energy Elemental"
+			"singular" : "Energy Elemental",
+			"plural" : "Energy Elementals"
 		},
 		"faction" : "conflux",
 		"level" : 4,
@@ -18,7 +18,6 @@
 			"min" : 4
 		},
 		"spellPoints" : 3,
-		"doubleWide" : false,
 		"growth" : 5,
 		"horde" : 0,
 		"aiValue" : 470,
@@ -34,9 +33,22 @@
 			"IMMUNE_TO_MIND_SPELLS" : {
 				"type" : "MIND_IMMUNITY"
 			},
+			"frostRingVulnerablity" : {
+				"subtype" : "spell.frostRing",
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"val" : 100
+			},
+			"iceBoltVulnerablity" : {
+				"subtype" : "spell.iceBolt",
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"val" : 100
+			},
 			"immuneToFire" : {
 				"subtype" : 0,
 				"type" : "FIRE_IMMUNITY"
+			},
+			"immuneToMind" : {
+				"type" : "MIND_IMMUNITY"
 			},
 			"nonLiving" : {
 				"type" : "NON_LIVING"

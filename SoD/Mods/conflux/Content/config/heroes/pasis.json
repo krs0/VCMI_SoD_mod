@@ -13,7 +13,6 @@
 			"large" : "heroes/pasis/icons/portrait/HPL000PL.png",
 			"small" : "heroes/pasis/icons/portrait/HPS000PL.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "pixies",
@@ -31,7 +30,6 @@
 				"min" : 2
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,21 +40,29 @@
 				"skill" : "offence"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 120,
-				"subtype" : 1,
-				"type" : 4,
+		"specialty" : {
+			"base" : {
+				"limiters" : [
+					{
+						"parameters" : [
+							"psychicElemental",
+							true
+						],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				],
+				"type" : "PRIMARY_SKILL",
 				"val" : 3
 			},
-			{
-				"info" : 120,
-				"subtype" : 2,
-				"type" : 4,
-				"val" : 3
+			"bonuses" : {
+				"attack" : {
+					"subtype" : "primSkill.attack"
+				},
+				"defence" : {
+					"subtype" : "primSkill.defence"
+				}
 			}
-		],
-
+		},
 		"texts" : {
 			"biography" : "Pasis has always been extremely fascinated by those of Corporeal form.  Extensive research and interaction with these creatures made her an ideal candidate for the Conflux.",
 			"name" : "Pasis",

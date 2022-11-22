@@ -1,8 +1,8 @@
 {
 	"airElemental": {
 		"name" : {
-			"plural" : "Air Elementals",
-			"singular" : "Air Elemental"
+			"singular" : "Air Elemental",
+			"plural" : "Air Elementals"
 		},
 		"extraNames" : [
 			"airElementals"
@@ -21,7 +21,6 @@
 			"max" : 8,
 			"min" : 2
 		},
-		"doubleWide" : false,
 		"growth" : 6,
 		"horde" : 0,
 		"aiValue" : 356,
@@ -31,6 +30,11 @@
 			"min" : 8
 		},
 		"abilities" : {
+			"armageddonVulnerablity" : {
+				"subtype" : "spell.armageddon",
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"val" : 100
+			},
 			"chainLightingVulnerablity" : {
 				"subtype" : "spell.chainLightning",
 				"type" : "MORE_DAMAGE_FROM_SPELL",

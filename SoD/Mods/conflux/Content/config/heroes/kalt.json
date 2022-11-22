@@ -13,7 +13,6 @@
 			"large" : "heroes/kalt/icons/portrait/HPL007PL.png",
 			"small" : "heroes/kalt/icons/portrait/HPS007PL.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "pixies",
@@ -31,7 +30,6 @@
 				"min" : 1
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,15 +40,24 @@
 				"skill" : "learning"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 115,
-				"subtype" : 1,
-				"type" : 4,
-				"val" : 2
+		"specialty" : {
+			"bonuses" : {
+				"attack" : {
+					"limiters" : [
+						{
+							"parameters" : [
+								"waterElemental",
+								true
+							],
+							"type" : "CREATURE_TYPE_LIMITER"
+						}
+					],
+					"subtype" : "primSkill.attack",
+					"type" : "PRIMARY_SKILL",
+					"val" : 2
+				}
 			}
-		],
-		
+		},
 		"texts" : {
 			"biography" : "Always the quick study, Kalt felt called to the Conflux where he could feed his voracious appitite for learning new and different things.",
 			"name" : "Kalt",

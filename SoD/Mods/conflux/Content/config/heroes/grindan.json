@@ -13,7 +13,6 @@
 			"large" : "heroes/grindan/icons/portrait/HPL007EL.png",
 			"small" : "heroes/grindan/icons/portrait/HPS007EL.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "pixies",
@@ -31,7 +30,6 @@
 				"min" : 2
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,18 +40,18 @@
 				"skill" : "earthMagic"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 0,
-				"subtype" : 6,
-				"type" : 10,
-				"val" : 350
+		"specialty" : {
+			"bonuses" : {
+				"gold" : {
+					"subtype" : "resource.gold",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 350
+				}
 			}
-		],
+		},
 		"spellbook" : [
 			"slow"
 		],
-		
 		"texts" : {
 			"biography" : "Dwarves love gold.  Some more than others.  None have the power of earth to find it with such regularity as Grindan.",
 			"name" : "Grindan",

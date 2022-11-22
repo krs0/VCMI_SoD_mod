@@ -13,7 +13,6 @@
 			"large" : "heroes/erdamon/icons/portrait/HPL005PL.png",
 			"small" : "heroes/erdamon/icons/portrait/HPS005PL.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "pixies",
@@ -31,7 +30,6 @@
 				"min" : 2
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,27 +40,36 @@
 				"skill" : "tactics"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 113,
-				"subtype" : 1,
-				"type" : 4,
-				"val" : 2
+		"specialty" : {
+			"base" : {
+				"limiters" : [
+					{
+						"parameters" : [
+							"earthElemental",
+							true
+						],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				]
 			},
-			{
-				"info" : 113,
-				"subtype" : 2,
-				"type" : 4,
-				"val" : 1
-			},
-			{
-				"info" : 113,
-				"subtype" : 4,
-				"type" : 4,
-				"val" : 5
+			"bonuses" : {
+				"attack" : {
+					"subtype" : "primSkill.attack",
+					"type" : "PRIMARY_SKILL",
+					"val" : 2
+				},
+				"damage" : {
+					"subtype" : 0,
+					"type" : "CREATURE_DAMAGE",
+					"val" : 5
+				},
+				"defence" : {
+					"subtype" : "primSkill.defence",
+					"type" : "PRIMARY_SKILL",
+					"val" : 1
+				}
 			}
-		],
-
+		},
 		"texts" : {
 			"biography" : "An ancient lord of magma, Erdamon has slept for centuries within the mountains bordering Eeofol.  Pulled from his slumber to aid the Conflux, Erdamon welcomes the battle to rid the world of the Kreegans.",
 			"name" : "Erdamon",

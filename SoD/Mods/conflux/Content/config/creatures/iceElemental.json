@@ -1,8 +1,8 @@
 {
 	"iceElemental": {
 		"name" : {
-			"plural" : "Ice Elementals",
-			"singular" : "Ice Elemental"
+			"singular" : "Ice Elemental",
+			"plural" : "Ice Elementals"
 		},
 		"faction" : "conflux",
 		"level" : 3,
@@ -35,9 +35,37 @@
 			"SHOOTING_ARMY" : {
 				"type" : "SHOOTER"
 			},
+			"armageddonVulnerablity" : {
+				"subtype" : "spell.armageddon",
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"val" : 100
+			},
+			"fireShieldVulnerablity" : {
+				"subtype" : "spell.fireShield",
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"val" : 100
+			},
+			"fireWallVulnerablity" : {
+				"subtype" : "spell.fireWall",
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"val" : 100
+			},
+			"fireballVulnerablity" : {
+				"subtype" : "spell.fireball",
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"val" : 100
+			},
+			"immuneToMind" : {
+				"type" : "MIND_IMMUNITY"
+			},
 			"immuneToWater" : {
 				"subtype" : 2,
 				"type" : "WATER_IMMUNITY"
+			},
+			"infernoVulnerablity" : {
+				"subtype" : "spell.inferno",
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"val" : 100
 			},
 			"nonLiving" : {
 				"type" : "NON_LIVING"

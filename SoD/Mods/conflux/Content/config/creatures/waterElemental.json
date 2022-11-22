@@ -1,8 +1,8 @@
 {
 	"waterElemental": {
 		"name" : {
-			"plural" : "Water Elementals",
-			"singular" : "Water Elemental"
+			"singular" : "Water Elemental",
+			"plural" : "Water Elementals"
 		},
 		"extraNames" : [
 			"waterElementals"
@@ -31,6 +31,11 @@
 			"min" : 12
 		},
 		"abilities" : {
+			"armageddonVulnerablity" : {
+				"subtype" : "spell.armageddon",
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"val" : 100
+			},
 			"fireShieldVulnerablity" : {
 				"subtype" : "spell.fireShield",
 				"type" : "MORE_DAMAGE_FROM_SPELL",

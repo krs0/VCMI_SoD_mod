@@ -13,7 +13,6 @@
 			"large" : "heroes/lacus/icons/portrait/HPL003PL.png",
 			"small" : "heroes/lacus/icons/portrait/HPS003PL.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "pixies",
@@ -31,22 +30,30 @@
 				"min" : 1
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "advanced",
 				"skill" : "tactics"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 115,
-				"subtype" : 1,
-				"type" : 4,
-				"val" : 2
+		"specialty" : {
+			"bonuses" : {
+				"attack" : {
+					"limiters" : [
+						{
+							"parameters" : [
+								"waterElemental",
+								true
+							],
+							"type" : "CREATURE_TYPE_LIMITER"
+						}
+					],
+					"subtype" : "primSkill.attack",
+					"type" : "PRIMARY_SKILL",
+					"val" : 2
+				}
 			}
-		],
-
+		},
 		"texts" : {
 			"biography" : "Fierce competition of all Water Elementals took place to determine who would have the honor to serve the Conflux. Lacus earned her position through her advanced knowledge of Tactics.",
 			"name" : "Lacus",

@@ -13,7 +13,6 @@
 			"large" : "heroes/fiur/icons/portrait/HPL006PL.png",
 			"small" : "heroes/fiur/icons/portrait/HPS006PL.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "pixies",
@@ -31,34 +30,42 @@
 				"min" : 2
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "advanced",
 				"skill" : "offence"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 114,
-				"subtype" : 1,
-				"type" : 4,
-				"val" : 1
+		"specialty" : {
+			"base" : {
+				"limiters" : [
+					{
+						"parameters" : [
+							"fireElemental",
+							true
+						],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				]
 			},
-			{
-				"info" : 114,
-				"subtype" : 1,
-				"type" : 4,
-				"val" : 2
-			},
-			{
-				"info" : 114,
-				"subtype" : 3,
-				"type" : 4,
-				"val" : 2
+			"bonuses" : {
+				"attack" : {
+					"subtype" : "primSkill.attack",
+					"type" : "PRIMARY_SKILL",
+					"val" : 1
+				},
+				"damage" : {
+					"subtype" : 0,
+					"type" : "CREATURE_DAMAGE",
+					"val" : 2
+				},
+				"defence" : {
+					"subtype" : "primSkill.defence",
+					"type" : "PRIMARY_SKILL",
+					"val" : 2
+				}
 			}
-		],
-
+		},
 		"texts" : {
 			"biography" : "Fiur is young, and his battle prowess untried, but he has a ferociousness like no other.  It is believed he will become one of the most powerful heroes of the Conflux.",
 			"name" : "Fiur",

@@ -1,8 +1,8 @@
 {
 	"phoenix": {
 		"name" : {
-			"plural" : "Phoenixes",
-			"singular" : "Phoenix"
+			"singular" : "Phoenix",
+			"plural" : "Phoenixes"
 		},
 		"faction" : "conflux",
 		"level" : 7,

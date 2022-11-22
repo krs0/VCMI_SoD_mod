@@ -13,7 +13,6 @@
 			"large" : "heroes/monere/icons/portrait/HPL004PL.png",
 			"small" : "heroes/monere/icons/portrait/HPS004PL.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "pixies",
@@ -31,7 +30,6 @@
 				"min" : 2
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,21 +40,29 @@
 				"skill" : "offence"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 120,
-				"subtype" : 1,
-				"type" : 4,
+		"specialty" : {
+			"base" : {
+				"limiters" : [
+					{
+						"parameters" : [
+							"psychicElemental",
+							true
+						],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				],
+				"type" : "PRIMARY_SKILL",
 				"val" : 3
 			},
-			{
-				"info" : 120,
-				"subtype" : 2,
-				"type" : 4,
-				"val" : 3
+			"bonuses" : {
+				"attack" : {
+					"subtype" : "primSkill.attack"
+				},
+				"defence" : {
+					"subtype" : "primSkill.defence"
+				}
 			}
-		],
-
+		},
 		"texts" : {
 			"biography" : "As a being of pure energy, Monere enjoyed the freedoms of his natural state.  However, his curiosity for beings of corporeal form drove him to the Conflux.",
 			"name" : "Monere",

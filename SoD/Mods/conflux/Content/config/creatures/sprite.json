@@ -1,8 +1,8 @@
 {
 	"sprite": {
 		"name" : {
-			"plural" : "Sprites",
-			"singular" : "Sprite"
+			"singular" : "Sprite",
+			"plural" : "Sprites"
 		},
 		"faction" : "conflux",
 		"level" : 1,
@@ -17,7 +17,6 @@
 			"max" : 3,
 			"min" : 1
 		},
-		"doubleWide" : false,
 		"growth" : 20,
 		"horde" : 10,
 		"aiValue" : 95,

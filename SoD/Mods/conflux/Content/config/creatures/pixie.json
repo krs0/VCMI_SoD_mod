@@ -1,8 +1,8 @@
 {
 	"pixie": {
 		"name" : {
-			"plural" : "Pixies",
-			"singular" : "Pixie"
+			"singular" : "Pixie",
+			"plural" : "Pixies"
 		},
 		"extraNames" : [
 			"pixies"
@@ -21,7 +21,6 @@
 			"max" : 2,
 			"min" : 1
 		},
-		"doubleWide" : false,
 		"growth" : 20,
 		"horde" : 10,
 		"aiValue" : 55,

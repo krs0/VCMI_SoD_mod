@@ -1,8 +1,8 @@
 {
 	"fireElemental": {
 		"name" : {
-			"plural" : "Fire Elementals",
-			"singular" : "Fire Elemental"
+			"singular" : "Fire Elemental",
+			"plural" : "Fire Elementals"
 		},
 		"faction" : "conflux",
 		"level" : 4,
@@ -18,7 +18,6 @@
 			"max" : 6,
 			"min" : 4
 		},
-		"doubleWide" : false,
 		"growth" : 5,
 		"horde" : 0,
 		"aiValue" : 345,

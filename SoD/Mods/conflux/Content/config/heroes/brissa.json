@@ -13,7 +13,6 @@
 			"large" : "heroes/brissa/icons/portrait/HPL001EL.png",
 			"small" : "heroes/brissa/icons/portrait/HPS001EL.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "pixies",
@@ -31,7 +30,6 @@
 				"min" : 2
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,18 +40,18 @@
 				"skill" : "airMagic"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 0,
-				"subtype" : 53,
-				"type" : 8,
-				"val" : 0
+		"specialty" : {
+			"bonuses" : {
+				"haste" : {
+					"addInfo" : 0,
+					"subtype" : "spell.haste",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
 			}
-		],
+		},
 		"spellbook" : [
 			"haste"
 		],
-		
 		"texts" : {
 			"biography" : "A young genie, even by their standards, Brissa joined the Restoration War before she completed her training.  What she lacks in training, she makes up in experience.",
 			"name" : "Brissa",
