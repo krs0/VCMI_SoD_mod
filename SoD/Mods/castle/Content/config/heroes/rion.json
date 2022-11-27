@@ -13,7 +13,6 @@
 			"large" : "heroes/rion/icons/portrait/HPL008CL.png",
 			"small" : "heroes/rion/icons/portrait/HPS008CL.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "pikeman",
@@ -31,11 +30,9 @@
 				"min" : 2
 			}
 		],
-
 		"spellbook" : [
 			"stoneSkin"
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -46,7 +43,6 @@
 				"skill" : "firstAid"
 			}
 		],
-
 		"specialty" : {
 			"bonuses" : {
 				"firstAid" : {
@@ -58,7 +54,6 @@
 				}
 			}
 		},
-
 		"texts" : {
 			"biography" : "Rion worked as a battlefield medic in the Erathian Military, but proved his ability to command when his captain was slain fighting the Kreegan hordes.  Rion was able to outmaneuver the enemy long enough for reinforcements to arrive.",
 			"name" : "Rion",

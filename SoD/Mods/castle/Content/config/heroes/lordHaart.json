@@ -13,7 +13,6 @@
 			"large" : "heroes/lordHaart/icons/portrait/HPL004KN.png",
 			"small" : "heroes/lordHaart/icons/portrait/HPS004KN.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "pikeman",
@@ -31,7 +30,6 @@
 				"min" : 2
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,9 +40,7 @@
 				"skill" : "estates"
 			}
 		],
-
 		"special" : true,
-		
 		"specialty" : {
 			"bonuses" : {
 				"estates" : {
@@ -56,7 +52,6 @@
 				}
 			}
 		},
-
 		"texts" : {
 			"biography" : "Some have said that Lord Haart's departure from Enroth was due to ties with a Necromantic cult, but his service to the crown of Erathia has been as spotless as it was to Roland Ironfist before the Succession Wars.",
 			"name" : "Lord Haart",

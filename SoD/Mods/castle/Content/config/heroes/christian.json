@@ -13,7 +13,6 @@
 			"large" : "heroes/christian/icons/portrait/HPL006KN.png",
 			"small" : "heroes/christian/icons/portrait/HPS006KN.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "pikeman",
@@ -31,7 +30,6 @@
 				"min" : 2
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,11 +40,9 @@
 				"skill" : "artillery"
 			}
 		],
-		
 		"specialty" : {
 			"creature" : "ballista"
 		},
-
 		"texts" : {
 			"biography" : "Christian was always more of a frontiersman than a Knight, having set foot in nearly every part of Enroth before finally settling into military service in Erathia.  Though a wanderer and a bit of a dreamer, his battlefield tactics are feared throughout the world.",
 			"name" : "Christian",

@@ -13,7 +13,6 @@
 			"large" : "heroes/sylvia/icons/portrait/HPL003KN.png",
 			"small" : "heroes/sylvia/icons/portrait/HPS003KN.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "pikeman",
@@ -31,7 +30,6 @@
 				"min" : 2
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,7 +40,6 @@
 				"skill" : "navigation"
 			}
 		],
-		
 		"specialty" : {
 			"bonuses" : {
 				"navigation" : {
@@ -54,7 +51,6 @@
 				}
 			}
 		},
-
 		"texts" : {
 			"biography" : "Sylvia spent several years as a Regnan Pirate before realizing that a pirate's life was not for her.  She sought a new life in the Erathian Military, and now serves in the Coastal Patrol, fighting off raids from the same Pirates she once sailed with.",
 			"name" : "Sylvia",

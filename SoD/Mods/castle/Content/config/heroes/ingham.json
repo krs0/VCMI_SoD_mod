@@ -13,7 +13,6 @@
 			"large" : "heroes/ingham/icons/portrait/HPL012CL.png",
 			"small" : "heroes/ingham/icons/portrait/HPS012CL.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "pikeman",
@@ -31,11 +30,9 @@
 				"min" : 2
 			}
 		],
-
 		"spellbook" : [
 			"curse"
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -46,11 +43,9 @@
 				"skill" : "mysticism"
 			}
 		],
-
 		"specialty" : {
 			"creature" : "monk"
 		},
-
 		"texts" : {
 			"biography" : "Ingham maintained a modest monastery in the years before the Kreegan attack.  He and his monks were quickly pressed into the service of the Erathian crown.",
 			"name" : "Ingham",

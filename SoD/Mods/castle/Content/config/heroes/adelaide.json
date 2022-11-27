@@ -13,7 +13,6 @@
 			"large" : "heroes/adelaide/icons/portrait/HPL011CL.png",
 			"small" : "heroes/adelaide/icons/portrait/HPS011CL.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "pikeman",
@@ -31,18 +30,15 @@
 				"min" : 2
 			}
 		],
-
 		"spellbook" : [
 			"frostRing"
 		],
-
 		"skills" : [
 			{
 				"level" : "advanced",
 				"skill" : "wisdom"
 			}
 		],
-		
 		"specialty" : {
 			"bonuses" : {
 				"frostRing" : {
@@ -53,7 +49,6 @@
 				}
 			}
 		},
-
 		"texts" : {
 			"biography" : "Caught at sea during a storm, Adelaide was shipwrecked on the shores of Vori, home of the Snow Elves.  She trained with them for some twenty years, and upon her return to Erathia discovered that no time had passed in her absence.",
 			"name" : "Adelaide",

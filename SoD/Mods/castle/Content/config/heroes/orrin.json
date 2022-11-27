@@ -13,7 +13,6 @@
 			"large" : "heroes/orrin/icons/portrait/HPL000KN.png",
 			"small" : "heroes/orrin/icons/portrait/HPS000KN.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "pikeman",
@@ -31,7 +30,6 @@
 				"min" : 2
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,7 +40,6 @@
 				"skill" : "archery"
 			}
 		],
-		
 		"specialty" : {
 			"bonuses" : {
 				"archery" : {
@@ -54,7 +51,6 @@
 				}
 			}
 		},
-
 		"texts" : {
 			"biography" : "Orrin trained with one of Erathia's best siege tacticians during his early military service.  Any archers under his command learn quickly to shoot at targets behind obstacles.",
 			"name" : "Orrin",

@@ -13,7 +13,6 @@
 			"large" : "heroes/tyris/icons/portrait/HPL007KN.png",
 			"small" : "heroes/tyris/icons/portrait/HPS007KN.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "pikeman",
@@ -31,7 +30,6 @@
 				"min" : 2
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,11 +40,9 @@
 				"skill" : "tactics"
 			}
 		],
-
 		"specialty" : {
 			"creature" : "cavalier"
 		},
-
 		"texts" : {
 			"biography" : "Tyris rose quickly through the ranks of the Erathian Cavalry, not only for her ability to handle a horse, but for her 'sixth sense' regarding mounted strategy and tactics.  She has also never lost a joust.",
 			"name" : "Tyris",

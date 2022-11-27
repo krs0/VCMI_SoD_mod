@@ -13,7 +13,6 @@
 			"large" : "heroes/edric/icons/portrait/HPL002KN.png",
 			"small" : "heroes/edric/icons/portrait/HPS002KN.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "pikeman",
@@ -31,7 +30,6 @@
 				"min" : 2
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,7 +40,6 @@
 				"skill" : "armorer"
 			}
 		],
-		
 		"specialty":
 		[
 			{
@@ -86,11 +83,9 @@
 			}
 
 		],
-		
 		"specialty" : {
 			"creature" : "griffin"
 		},
-
 		"texts" : {
 			"biography" : "Edric's great grandfather was the first man in Erathia to domesticate and train a wild Griffin.  Now, Edric's family maintains Erathia's largest Griffin breeding grounds for use in the King's armies.",
 			"name" : "Edric",

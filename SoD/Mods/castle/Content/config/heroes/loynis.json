@@ -13,7 +13,6 @@
 			"large" : "heroes/loynis/icons/portrait/HPL014CL.png",
 			"small" : "heroes/loynis/icons/portrait/HPS014CL.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "pikeman",
@@ -31,11 +30,6 @@
 				"min" : 2
 			}
 		],
-
-		"spellbook" : [
-			"prayer"
-		],
-		
 		"skills" : [
 			{
 				"level" : "basic",
@@ -46,7 +40,6 @@
 				"skill" : "learning"
 			}
 		],
-
 		"specialty" : {
 			"bonuses" : {
 				"prayer" : {
@@ -56,7 +49,9 @@
 				}
 			}
 		},
-
+		"spellbook" : [
+			"prayer"
+		],
 		"texts" : {
 			"biography" : "Loynis has always believed that physical violence was never necessary as long as proper magic and prayer could be invoked.  Amazingly enough, he made it work, and now is regarded as a successful, though unconventional, leader.",
 			"name" : "Loynis",

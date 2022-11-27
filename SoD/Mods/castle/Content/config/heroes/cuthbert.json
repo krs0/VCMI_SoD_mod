@@ -13,7 +13,6 @@
 			"large" : "heroes/cuthbert/icons/portrait/HPL010CL.png",
 			"small" : "heroes/cuthbert/icons/portrait/HPS010CL.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "pikeman",
@@ -31,11 +30,9 @@
 				"min" : 2
 			}
 		],
-
 		"spellbook" : [
 			"weakness"
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -46,7 +43,6 @@
 				"skill" : "estates"
 			}
 		],
-
 		"specialty" : {
 			"bonuses" : {
 				"weakness" : {
@@ -56,7 +52,6 @@
 				}
 			}
 		},
-
 		"texts" : {
 			"biography" : "As a young man, Cuthbert toyed with the darker magics, but when his wife died because a spell that he cast had gone awry, he turned to good and has never looked back.  His insights to the workings of dark magic give him an edge possessed by no other.",
 			"name" : "Cuthbert",

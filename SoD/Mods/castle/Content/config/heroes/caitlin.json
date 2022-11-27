@@ -13,7 +13,6 @@
 			"large" : "heroes/caitlin/icons/portrait/HPL015CL.png",
 			"small" : "heroes/caitlin/icons/portrait/HPS015CL.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "pikeman",
@@ -31,11 +30,9 @@
 				"min" : 2
 			}
 		],
-
 		"spellbook" : [
 			"cure"
 		],
-		
 		"skills" : [
 			{
 				"level" : "basic",
@@ -46,7 +43,6 @@
 				"skill" : "intelligence"
 			}
 		],
-
 		"specialty" : {
 			"bonuses" : {
 				"gold" : {
@@ -56,7 +52,6 @@
 				}
 			}
 		},
-
 		"texts" : {
 			"biography" : "Before she was granted command, Caitlin was considered by some to be possessed by evil spirits.  Despite these claims, donations to her church were unsurpassed when she was still in the church's ranks.",
 			"name" : "Caitlin",

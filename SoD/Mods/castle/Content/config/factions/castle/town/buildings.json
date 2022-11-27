@@ -21,10 +21,8 @@
 					"name" : "Capitol",
 					"produce" : {
 						"gold" : 4000
-					},
-					"requires" : ["castle"],
-					"upgrades" : "cityHall"
-					},
+					}
+				},
 				"castle" : {
 					"cost" : {
 						"gold" : 5000,
@@ -32,8 +30,7 @@
 						"wood" : 10
 					},
 					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
-					"name" : "Castle",
-					"upgrades" : "citadel"
+					"name" : "Castle"
 				},
 				"citadel" : {
 					"cost" : {
@@ -41,8 +38,7 @@
 						"ore" : 5
 					},
 					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
-					"name" : "Citadel",
-					"upgrades" : "fort"
+					"name" : "Citadel"
 				},
 				"cityHall" : {
 					"cost" : {
@@ -52,9 +48,7 @@
 					"name" : "City Hall",
 					"produce" : {
 						"gold" : 2000
-					},
-					"requires" : ["allOf", ["mageGuild1"], ["marketplace"], ["blacksmith"]],
-					"upgrades" : "townHall"
+					}
 				},
 				"dwellingLvl1" : {
 					"cost" : {
@@ -62,8 +56,7 @@
 						"ore" : 10
 					},
 					"description" : "The Guardhouse allows you to recruit Pikemen.",
-					"name" : "Guardhouse",
-					"requires" : ["fort"]
+					"name" : "Guardhouse"
 				},
 				"dwellingLvl2" : {
 					"cost" : {
@@ -72,8 +65,7 @@
 						"wood" : 5
 					},
 					"description" : "The Archers' Tower allows you to recruit Archers.",
-					"name" : "Archers' Tower",
-					"requires" : ["dwellingLvl1"]
+					"name" : "Archers' Tower"
 				},
 				"dwellingLvl3" : {
 					"cost" : {
@@ -81,8 +73,7 @@
 						"ore" : 5
 					},
 					"description" : "The Griffin Tower allows you to recruit Griffins.",
-					"name" : "Griffin Tower",
-					"requires" : ["dwellingLvl4"]
+					"name" : "Griffin Tower"
 				},
 				"dwellingLvl4" : {
 					"cost" : {
@@ -91,7 +82,6 @@
 					},
 					"description" : "The Barracks allow you to recruit Swordsmen.",
 					"name" : "Barracks"
-					"requires" : ["allOf", ["blacksmith"], ["dwellingLvl1"]]
 				},
 				"dwellingLvl5" : {
 					"cost" : {
@@ -104,8 +94,7 @@
 						"wood" : 5
 					},
 					"description" : "The Monastery allows you to recruit Monks.",
-					"name" : "Monastery",
-					"requires" : ["allOf", ["mageGuild1"], ["dwellingLvl4"]]
+					"name" : "Monastery"
 				},
 				"dwellingLvl6" : {
 					"cost" : {
@@ -113,8 +102,7 @@
 						"wood" : 20
 					},
 					"description" : "The Training Grounds allow you to recruit Cavaliers.",
-					"name" : "Training Grounds",
-					"requires" : ["special2"]
+					"name" : "Training Grounds"
 				},
 				"dwellingLvl7" : {
 					"cost" : {
@@ -125,8 +113,7 @@
 						"sulfur" : 10
 					},
 					"description" : "The Portal of Glory allows you to recruit Angels.",
-					"name" : "Portal of Glory",
-					"requires" : ["dwellingLvl5"]
+					"name" : "Portal of Glory"
 				},
 				"dwellingUpLvl1" : {
 					"cost" : {
@@ -134,8 +121,7 @@
 						"ore" : 5
 					},
 					"description" : "The Guardhouse allows you to recruit Halberdiers.",
-					"name" : "Upg. Guardhouse",
-					"upgrades" : "dwellingLvl1"
+					"name" : "Upg. Guardhouse"
 				},
 				"dwellingUpLvl2" : {
 					"cost" : {
@@ -144,8 +130,7 @@
 						"wood" : 5
 					},
 					"description" : "The Archers' Tower allows you to recruit Marksmen.",
-					"name" : "Upg. Archers' Tower",
-					"upgrades" : "dwellingLvl2"
+					"name" : "Upg. Archers' Tower"
 				},
 				"dwellingUpLvl3" : {
 					"cost" : {
@@ -153,8 +138,7 @@
 						"ore" : 5
 					},
 					"description" : "The Griffin Tower allows you to recruit Royal Griffins.",
-					"name" : "Upg. Griffin Tower",
-					"upgrades" : "dwellingLvl3"
+					"name" : "Upg. Griffin Tower"
 				},
 				"dwellingUpLvl4" : {
 					"cost" : {
@@ -163,8 +147,7 @@
 						"ore" : 5
 					},
 					"description" : "The Barracks allow you to recruit Crusaders.",
-					"name" : "Upg. Barracks",
-					"upgrades" : "dwellingLvl4"
+					"name" : "Upg. Barracks"
 				},
 				"dwellingUpLvl5" : {
 					"cost" : {
@@ -177,8 +160,7 @@
 						"wood" : 2
 					},
 					"description" : "The Monastery allows you to recruit Zealots.",
-					"name" : "Upg. Monastery",
-					"upgrades" : "dwellingLvl5"
+					"name" : "Upg. Monastery"
 				},
 				"dwellingUpLvl6" : {
 					"cost" : {
@@ -186,8 +168,7 @@
 						"wood" : 10
 					},
 					"description" : "The Training Grounds allow you to recruit Champions.",
-					"name" : "Upg. Training Grounds",
-					"upgrades" : "dwellingLvl6"
+					"name" : "Upg. Training Grounds"
 				},
 				"dwellingUpLvl7" : {
 					"cost" : {
@@ -198,8 +179,7 @@
 						"sulfur" : 10
 					},
 					"description" : "The Portal of Glory allows you to recruit Arch Angels.",
-					"name" : "Upg. Portal of Glory",
-					"upgrades" : "dwellingLvl7"
+					"name" : "Upg. Portal of Glory"
 				},
 				"fort" : {
 					"cost" : {
@@ -231,17 +211,14 @@
 						"gold" : 1000
 					},
 					"description" : "The Griffin Bastion increases Griffin production by 3 per week.",
-					"name" : "Griffin Bastion",
-					"upgrades" : "dwellingLvl3"
+					"name" : "Griffin Bastion"
 				},
 				"horde1Upgr" : {
 					"cost" : {
 						"gold" : 1000
 					},
 					"description" : "The Griffin Bastion increases Royal Griffin production by 3 per week.",
-					"name" : "Griffin Bastion",
-					"requires" : ["horde1"],
-					"upgrades" : "dwellingUpLvl3"
+					"name" : "Griffin Bastion"
 				},
 				"horde2" : null,
 				"horde2Upgr" : null,
@@ -265,8 +242,7 @@
 						"wood" : 5
 					},
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 2",
-					"upgrades" : "mageGuild1"
+					"name" : "Mage Guild Level 2"
 				},
 				"mageGuild3" : {
 					"cost" : {
@@ -279,8 +255,7 @@
 						"wood" : 5
 					},
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 3",
-					"upgrades" : "mageGuild2"
+					"name" : "Mage Guild Level 3"
 				},
 				"mageGuild4" : {
 					"cost" : {
@@ -293,8 +268,7 @@
 						"wood" : 5
 					},
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 4",
-					"upgrades" : "mageGuild3"
+					"name" : "Mage Guild Level 4"
 				},
 				"marketplace" : {
 					"cost" : {
@@ -314,16 +288,14 @@
 					"produce" : {
 						"ore" : 1,
 						"wood" : 1
-					},
-					"requires" : ["marketplace"]
+					}
 				},
 				"ship" : {
 					"cost" : {
 						"gold" : 0
 					},
 					"description" : "The Shipyard allows you to purchase ships.",
-					"name" : "Shipyard",
-					"upgrades" : "shipyard"
+					"name" : "Shipyard"
 				},
 				"shipyard" : {
 					"cost" : {
@@ -339,8 +311,7 @@
 						"ore" : 10
 					},
 					"description" : "The lighthouse grants additional mobility to any ships you control.",
-					"name" : "Lighthouse",
-					"requires" : ["shipyard"],
+					"name" : "Lighthouse"
 					"type" : "lighthouse"
 				},
 				"special2" : {
@@ -349,8 +320,7 @@
 						"wood" : 10
 					},
 					"description" : "The Stables increase the land movement rate of any visiting hero.",
-					"name" : "Stables",
-					"requires" : ["dwellingLvl4"],
+					"name" : "Stables"
 					"type" : "stables"
 				},
 				"special3" : {
@@ -360,8 +330,7 @@
 					},
 					"description" : "During a siege, the Brotherhood of the Sword increases troop morale by +2.",
 					"name" : "Brotherhood of the Sword",
-					"type" : "brotherhoodOfSword",
-					"upgrades" : "tavern"
+					"type" : "brotherhoodOfSword"
 				},
 				"tavern" : {
 					"cost" : {
@@ -379,9 +348,7 @@
 					"name" : "Town Hall",
 					"produce" : {
 						"gold" : 1000
-					},
-					"requires" : ["tavern"],
-					"upgrades" : "villageHall"
+					}
 				},
 				"villageHall" : {
 					"cost" : {

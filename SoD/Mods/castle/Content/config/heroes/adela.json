@@ -13,7 +13,6 @@
 			"large" : "heroes/adela/icons/portrait/HPL009CL.png",
 			"small" : "heroes/adela/icons/portrait/HPS009CL.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "pikeman",
@@ -31,11 +30,9 @@
 				"min" : 2
 			}
 		],
-
 		"spellbook" : [
 			"bless"
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -46,7 +43,6 @@
 				"skill" : "diplomacy"
 			}
 		],
-		
 		"specialty" : {
 			"bonuses" : {
 				"bless" : {
@@ -58,7 +54,6 @@
 				}
 			}
 		},
-
 		"texts" : {
 			"biography" : "Originally Adela only contributed her skills prior to battles.  If she could not convince her commander to avoid a fight, she would at least prepare a blessing for the troops as they entered combat.  She was given command of the Whitestone garrison.",
 			"name" : "Adela",
