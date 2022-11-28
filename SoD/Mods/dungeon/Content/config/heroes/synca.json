@@ -13,7 +13,6 @@
 			"large" : "heroes/synca/icons/portrait/HPL086OV.png",
 			"small" : "heroes/synca/icons/portrait/HPS086OV.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "troglodyte",
@@ -31,7 +30,6 @@
 				"min" : 3
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,15 +40,9 @@
 				"skill" : "scholar"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 80,
-				"subtype" : 0,
-				"type" : 1,
-				"val" : 0
-			}
-		],
-
+		"specialty" : {
+			"creature" : "manticore"
+		},
 		"texts" : {
 			"biography" : "Synca was originally an aboveworlder, and though she loyally serves the Dungeon Overlords she really prefers the great outdoors to the dank, cramped spaces of the caverns of Nighon.",
 			"name" : "Synca",

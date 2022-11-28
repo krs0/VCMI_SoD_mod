@@ -13,7 +13,6 @@
 			"large" : "heroes/darkstorn/icons/portrait/HPL095WL.png",
 			"small" : "heroes/darkstorn/icons/portrait/HPS095WL.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "troglodyte",
@@ -31,7 +30,6 @@
 				"min" : 3
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,18 +40,18 @@
 				"skill" : "learning"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 0,
-				"subtype" : 46,
-				"type" : 8,
-				"val" : 0
+		"specialty" : {
+			"bonuses" : {
+				"stoneSkin" : {
+					"addInfo" : 0,
+					"subtype" : "spell.stoneSkin",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
 			}
-		],
+		},
 		"spellbook" : [
 			"stoneSkin"
 		],
-
 		"texts" : {
 			"biography" : "Darkstorn challenged his way through the ranks of warriors of Nighon, secretly using magic to ensure he won each battle.  Once in a position of power, he finally revealed his true powers.  None have challenged him since.",
 			"name" : "Darkstorn",

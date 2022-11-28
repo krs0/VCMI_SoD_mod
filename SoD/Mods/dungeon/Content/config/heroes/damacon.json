@@ -13,7 +13,6 @@
 			"large" : "heroes/damacon/icons/portrait/HPL084OV.png",
 			"small" : "heroes/damacon/icons/portrait/HPS084OV.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "troglodyte",
@@ -31,22 +30,21 @@
 				"min" : 3
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "advanced",
 				"skill" : "offence"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 0,
-				"subtype" : 6,
-				"type" : 10,
-				"val" : 350
+		"specialty" : {
+			"bonuses" : {
+				"gold" : {
+					"subtype" : "resource.gold",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 350
+				}
 			}
-		],
-
+		},
 		"texts" : {
 			"biography" : "While Damacon has always been a bit of a pushover, even among other troglodytes, he can sniff out gold almost without trying.  He will donate gold to any cause willing to allow him to lead.",
 			"name" : "Damacon",

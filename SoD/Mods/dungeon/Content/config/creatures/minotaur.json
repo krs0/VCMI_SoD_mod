@@ -1,8 +1,8 @@
 {
 	"minotaur": {
 		"name" : {
-			"plural" : "Minotaurs",
-			"singular" : "Minotaur"
+			"singular" : "Minotaur",
+			"plural" : "Minotaurs"
 		},
 		"faction" : "dungeon",
 		"level" : 5,
@@ -18,7 +18,6 @@
 			"max" : 20,
 			"min" : 12
 		},
-		"doubleWide" : false,
 		"growth" : 3,
 		"horde" : 0,
 		"aiValue" : 835,
@@ -33,7 +32,6 @@
 			}
 		},
 		"abilityText" : "Good morale.",
-		"hasDoubleWeek" : true,
 		"graphics" : {
 			"animation" : "creatures/minotaur/battle/CMINOT.def",
 			"map" : "creatures/minotaur/adventureMap/AvWMino.def",

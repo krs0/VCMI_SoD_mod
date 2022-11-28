@@ -13,7 +13,6 @@
 			"large" : "heroes/shakti/icons/portrait/HPL087OV.png",
 			"small" : "heroes/shakti/icons/portrait/HPS087OV.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "troglodyte",
@@ -31,7 +30,6 @@
 				"min" : 30
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,15 +40,9 @@
 				"skill" : "offence"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 70,
-				"subtype" : 0,
-				"type" : 1,
-				"val" : 0
-			}
-		],
-
+		"specialty" : {
+			"creature" : "troglodyte"
+		},
 		"texts" : {
 			"biography" : "Though eyeless, Shakti has amazing vision when it comes to battlefield tactics.  His Troglodyte hordes are feared the world over, especially in the dark tunnels of Nighon.",
 			"name" : "Shakti",

@@ -13,7 +13,6 @@
 			"large" : "heroes/dace/icons/portrait/HPL082OV.png",
 			"small" : "heroes/dace/icons/portrait/HPS082OV.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "troglodyte",
@@ -31,7 +30,6 @@
 				"min" : 3
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,15 +40,9 @@
 				"skill" : "offence"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 78,
-				"subtype" : 0,
-				"type" : 1,
-				"val" : 0
-			}
-		],
-
+		"specialty" : {
+			"creature" : "minotaur"
+		},
 		"texts" : {
 			"biography" : "Dace was born into a warrior clan, learning to fight from masters who seemed older than time.  He provides Nighon with exceptional leadership, especially when commanding other minotaurs.",
 			"name" : "Dace",

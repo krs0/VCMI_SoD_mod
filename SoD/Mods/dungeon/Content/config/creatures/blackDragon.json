@@ -1,12 +1,11 @@
 {
 	"blackDragon": {
 		"name" : {
-			"plural" : "Black Dragons",
-			"singular" : "Black Dragon"
+			"singular" : "Black Dragon",
+			"plural" : "Black Dragons"
 		},
 		"faction" : "dungeon",
 		"level" : 7,
-		"upgrades": ["blackDragon"],
 		"cost" : {
 			"sulfur" : 2,
 			"gold" : 4000
@@ -57,7 +56,6 @@
 			}
 		},
 		"abilityText" : "Immune to all spells.",
-		"hasDoubleWeek" : true,
 		"graphics" : {
 			"animation" : "creatures/blackDragon/blackDragon/battle/CBDRGN.def",
 			"map" : "creatures/blackDragon/blackDragon/adventureMap/AVWddrx0.def",

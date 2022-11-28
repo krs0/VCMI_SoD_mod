@@ -1,8 +1,8 @@
 {
 	"infernalTroglodyte": {
 		"name" : {
-			"plural" : "Infernal Troglodytes",
-			"singular" : "Infernal Troglodyte"
+			"singular" : "Infernal Troglodyte",
+			"plural" : "Infernal Troglodytes"
 		},
 		"faction" : "dungeon",
 		"level" : 1,
@@ -17,7 +17,6 @@
 			"max" : 3,
 			"min" : 1
 		},
-		"doubleWide" : false,
 		"growth" : 14,
 		"horde" : 7,
 		"aiValue" : 84,

@@ -13,7 +13,6 @@
 			"large" : "heroes/ajit/icons/portrait/HPL083OV.png",
 			"small" : "heroes/ajit/icons/portrait/HPS083OV.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "troglodyte",
@@ -31,7 +30,6 @@
 				"min" : 3
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,15 +40,9 @@
 				"skill" : "resistance"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 74,
-				"subtype" : 0,
-				"type" : 1,
-				"val" : 0
-			}
-		],
-
+		"specialty" : {
+			"creature" : "beholder"
+		},
 		"texts" : {
 			"biography" : "Ajit studied carefully the works of Agar, the foolish wizard/scientist of Enroth who accidentally created the beholders and evil eyes which he now commands, training a 'better breed' to be used in combat.",
 			"name" : "Ajit",

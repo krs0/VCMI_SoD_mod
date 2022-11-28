@@ -1,8 +1,8 @@
 {
 	"redDragon": {
 		"name" : {
-			"plural" : "Red Dragons",
-			"singular" : "Red Dragon"
+			"singular" : "Red Dragon",
+			"plural" : "Red Dragons"
 		},
 		"faction" : "dungeon",
 		"level" : 7,
@@ -47,7 +47,6 @@
 			}
 		},
 		"abilityText" : "Immune to spell levels 1-3.",
-		"hasDoubleWeek" : true,
 		"graphics" : {
 			"animation" : "creatures/redDragon/battle/CRDRGN.def",
 			"map" : "creatures/redDragon/adventureMap/AvWRDrg.def",

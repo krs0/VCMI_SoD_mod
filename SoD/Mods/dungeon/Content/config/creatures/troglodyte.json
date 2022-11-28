@@ -1,8 +1,8 @@
 {
 	"troglodyte": {
 		"name" : {
-			"plural" : "Troglodytes",
-			"singular" : "Troglodyte"
+			"singular" : "Troglodyte",
+			"plural" : "Troglodytes"
 		},
 		"faction" : "dungeon",
 		"level" : 1,
@@ -18,9 +18,9 @@
 			"max" : 3,
 			"min" : 1
 		},
-		"doubleWide" : false,
 		"growth" : 14,
 		"horde" : 7,
+		"hasDoubleWeek" : true,
 		"aiValue" : 59,
 		"fightValue" : 73,
 		"advMapAmount" : {
@@ -40,7 +40,6 @@
 			}
 		},
 		"abilityText" : "Immune to Blinding.",
-		"hasDoubleWeek" : true,
 		"graphics" : {
 			"animation" : "creatures/troglodyte/battle/CTROGL.def",
 			"map" : "creatures/troglodyte/adventureMap/AVWtrog0.def",

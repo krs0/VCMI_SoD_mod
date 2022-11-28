@@ -1,8 +1,8 @@
 {
 	"medusaQueen": {
 		"name" : {
-			"plural" : "Medusa Queens",
-			"singular" : "Medusa Queen"
+			"singular" : "Medusa Queen",
+			"plural" : "Medusa Queens"
 		},
 		"faction" : "dungeon",
 		"level" : 4,
@@ -35,14 +35,16 @@
 				"type" : "NO_MELEE_PENALTY"
 			},
 			"petrification" : {
-				"addInfo" : 2000,
+				"addInfo" : [
+					0,
+					2
+				],
 				"subtype" : "spell.stoneGaze",
 				"type" : "SPELL_AFTER_ATTACK",
 				"val" : 20
 			}
 		},
 		"abilityText" : "No melee penalty.\nStone gaze.",
-		"hasDoubleWeek" : true,
 		"graphics" : {
 			"animation" : "creatures/medusaQueen/battle/CMEDUQ.def",
 			"map" : "creatures/medusaQueen/adventureMap/AVWmedx0.def",

@@ -1,8 +1,8 @@
 {
 	"harpy": {
 		"name" : {
-			"plural" : "Harpies",
-			"singular" : "Harpy"
+			"singular" : "Harpy",
+			"plural" : "Harpies"
 		},
 		"faction" : "dungeon",
 		"level" : 2,
@@ -20,9 +20,9 @@
 			"max" : 4,
 			"min" : 1
 		},
-		"doubleWide" : false,
 		"growth" : 8,
 		"horde" : 0,
+		"hasDoubleWeek" : true,
 		"aiValue" : 154,
 		"fightValue" : 140,
 		"advMapAmount" : {
@@ -38,7 +38,6 @@
 			}
 		},
 		"abilityText" : "Strike and return.",
-		"hasDoubleWeek" : true,
 		"graphics" : {
 			"animation" : "creatures/harpy/battle/CHARPY.def",
 			"map" : "creatures/harpy/adventureMap/AVWharp0.def",

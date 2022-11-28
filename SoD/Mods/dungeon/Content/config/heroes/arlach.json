@@ -13,7 +13,6 @@
 			"large" : "heroes/arlach/icons/portrait/HPL081OV.png",
 			"small" : "heroes/arlach/icons/portrait/HPS081OV.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "troglodyte",
@@ -31,7 +30,6 @@
 				"min" : 3
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,15 +40,9 @@
 				"skill" : "offence"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 146,
-				"subtype" : 0,
-				"type" : 1,
-				"val" : 0
-			}
-		],
-
+		"specialty" : {
+			"creature" : "ballista"
+		},
 		"texts" : {
 			"biography" : "Arlach is one of the few troglodytes who are actually trusted to lead the armies of Nighon.  Arlach shows remarkable skill with the ballista, and is often called upon to wreak havoc upon enemy fortifications.",
 			"name" : "Arlach",

@@ -1,8 +1,8 @@
 {
 	"harpyHag": {
 		"name" : {
-			"plural" : "Harpy Hags",
-			"singular" : "Harpy Hag"
+			"singular" : "Harpy Hag",
+			"plural" : "Harpy Hags"
 		},
 		"faction" : "dungeon",
 		"level" : 2,
@@ -17,7 +17,6 @@
 			"max" : 4,
 			"min" : 1
 		},
-		"doubleWide" : false,
 		"growth" : 8,
 		"horde" : 0,
 		"aiValue" : 238,
@@ -38,7 +37,6 @@
 			}
 		},
 		"abilityText" : "Strike and return.\nNo enemy retaliation.",
-		"hasDoubleWeek" : true,
 		"graphics" : {
 			"animation" : "creatures/harpyHag/battle/CHARPH.def",
 			"map" : "creatures/harpyHag/adventureMap/AVWharx0.def",

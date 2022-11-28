@@ -1,8 +1,8 @@
 {
 	"scorpicore": {
 		"name" : {
-			"plural" : "Scorpicores",
-			"singular" : "Scorpicore"
+			"singular" : "Scorpicore",
+			"plural" : "Scorpicores"
 		},
 		"faction" : "dungeon",
 		"level" : 6,
@@ -37,7 +37,6 @@
 			}
 		},
 		"abilityText" : "Paralyzing venom.",
-		"hasDoubleWeek" : true,
 		"graphics" : {
 			"animation" : "creatures/scorpicore/battle/CCMCOR.def",
 			"map" : "creatures/scorpicore/adventureMap/AVWmanx0.def",

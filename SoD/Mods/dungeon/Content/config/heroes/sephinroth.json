@@ -13,7 +13,6 @@
 			"large" : "heroes/sephinroth/icons/portrait/HPL094WL.png",
 			"small" : "heroes/sephinroth/icons/portrait/HPS094WL.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "troglodyte",
@@ -31,7 +30,6 @@
 				"min" : 3
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,18 +40,18 @@
 				"skill" : "intelligence"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 0,
-				"subtype" : 4,
-				"type" : 10,
-				"val" : 1
+		"specialty" : {
+			"bonuses" : {
+				"crystal" : {
+					"subtype" : "resource.crystal",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 1
+				}
 			}
-		],
+		},
 		"spellbook" : [
 			"protectAir"
 		],
-
 		"texts" : {
 			"biography" : "Sephinroth claims to be the illegitimate child of King Gryphonheart.  His refusal to acknowledge her has served to fuel her hatred against the Throne of Erathia, which she one day hopes to claim for herself.  Having joined the ranks of the Warlocks, she is the only known female ever to bear that title.",
 			"name" : "Sephinroth",

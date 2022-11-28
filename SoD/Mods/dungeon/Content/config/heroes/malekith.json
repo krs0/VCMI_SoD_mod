@@ -13,7 +13,6 @@
 			"large" : "heroes/malekith/icons/portrait/HPL090WL.png",
 			"small" : "heroes/malekith/icons/portrait/HPS090WL.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "troglodyte",
@@ -31,7 +30,6 @@
 				"min" : 3
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,18 +40,20 @@
 				"skill" : "sorcery"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 0,
-				"subtype" : 25,
-				"type" : 2,
-				"val" : 5
+		"specialty" : {
+			"bonuses" : {
+				"sorcery" : {
+					"subtype" : "skill.sorcery",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE"
+				}
 			}
-		],
+		},
 		"spellbook" : [
 			"bloodlust"
 		],
-
 		"texts" : {
 			"biography" : "One would expect a minotaur to be a fierce warrior, but Malekith wields magic with a fury that rivals the strength of the land's best mages.",
 			"name" : "Malekith",

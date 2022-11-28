@@ -13,7 +13,6 @@
 			"large" : "heroes/geon/icons/portrait/HPL092WL.png",
 			"small" : "heroes/geon/icons/portrait/HPS092WL.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "troglodyte",
@@ -31,7 +30,6 @@
 				"min" : 3
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,18 +40,20 @@
 				"skill" : "eagleEye"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 1,
-				"subtype" : 11,
-				"type" : 2,
-				"val" : 5
+		"specialty" : {
+			"bonuses" : {
+				"eagleEye" : {
+					"subtype" : "skill.eagleEye",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE"
+				}
 			}
-		],
+		},
 		"spellbook" : [
 			"slow"
 		],
-
 		"texts" : {
 			"biography" : "Much of Geon's magical skills come from his ability to see into the minds of other spellcasters, reading their thoughts as they invoke their powers, and in many cases learning to cast the spell himself.",
 			"name" : "Geon",

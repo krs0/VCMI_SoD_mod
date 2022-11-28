@@ -13,7 +13,6 @@
 			"large" : "heroes/lorelei/icons/portrait/HPL080OV.png",
 			"small" : "heroes/lorelei/icons/portrait/HPS080OV.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "harpy",
@@ -31,7 +30,6 @@
 				"min" : 4
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,15 +40,9 @@
 				"skill" : "leadership"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 72,
-				"subtype" : 0,
-				"type" : 1,
-				"val" : 0
-			}
-		],
-
+		"specialty" : {
+			"creature" : "harpy"
+		},
 		"texts" : {
 			"biography" : "When Lorelei was a child she wandered away from her home, disappearing into a network of caves.  She was found and raised by a harpy hag, and eventually volunteered to serve the Dungeon Overlords shortly before the invasion of Erathia.  She has no memories of her real parents.",
 			"name" : "Lorelei",

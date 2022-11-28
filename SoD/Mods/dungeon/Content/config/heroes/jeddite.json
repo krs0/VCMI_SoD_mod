@@ -13,7 +13,6 @@
 			"large" : "heroes/jeddite/icons/portrait/HPL091WL.png",
 			"small" : "heroes/jeddite/icons/portrait/HPS091WL.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "troglodyte",
@@ -31,25 +30,25 @@
 				"min" : 3
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "advanced",
 				"skill" : "wisdom"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 0,
-				"subtype" : 38,
-				"type" : 3,
-				"val" : 3
+		"specialty" : {
+			"bonuses" : {
+				"resurrection" : {
+					"subtype" : "spell.resurrection",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
 			}
-		],
+		},
 		"spellbook" : [
 			"resurrection"
 		],
-
 		"texts" : {
 			"biography" : "Some say that Jeddite has seen the face of Zenofex, but many contend that since Jeddite is still alive, the rumor of a meeting could not possibly be true.  Jeddite has never confirmed nor denied the rumor.",
 			"name" : "Jeddite",

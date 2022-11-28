@@ -1,8 +1,8 @@
 {
 	"evilEye": {
 		"name" : {
-			"plural" : "Evil Eyes",
-			"singular" : "Evil Eye"
+			"singular" : "Evil Eye",
+			"plural" : "Evil Eyes"
 		},
 		"faction" : "dungeon",
 		"level" : 3,
@@ -18,7 +18,6 @@
 			"min" : 3
 		},
 		"shots" : 24,
-		"doubleWide" : false,
 		"growth" : 7,
 		"horde" : 0,
 		"aiValue" : 367,
@@ -36,7 +35,6 @@
 			}
 		},
 		"abilityText" : "No melee penalty.",
-		"hasDoubleWeek" : true,
 		"graphics" : {
 			"animation" : "creatures/evilEye/battle/CEVEYE.def",
 			"map" : "creatures/evilEye/adventureMap/AVWbehx0.def",
@@ -50,7 +48,6 @@
 			},
 			"missile" :
 			{
-				"projectile" : "creatures/evilEye/projectile/SMBALX.DEF",
 				"attackClimaxFrame" : 5,
 				"frameAngles" : [
 					0,
@@ -74,6 +71,78 @@
 					"upperX" : 13,
 					"upperY" : -72
 				},
+				"ray" : [
+					{
+						"end" : [
+							160,
+							160,
+							160,
+							64
+						],
+						"start" : [
+							160,
+							160,
+							160,
+							255
+						]
+					},
+					{
+						"end" : [
+							192,
+							192,
+							192,
+							128
+						],
+						"start" : [
+							192,
+							192,
+							192,
+							255
+						]
+					},
+					{
+						"end" : [
+							224,
+							224,
+							224,
+							255
+						],
+						"start" : [
+							224,
+							224,
+							224,
+							255
+						]
+					},
+					{
+						"end" : [
+							192,
+							192,
+							192,
+							128
+						],
+						"start" : [
+							192,
+							192,
+							192,
+							255
+						]
+					},
+					{
+						"end" : [
+							160,
+							160,
+							160,
+							64
+						],
+						"start" : [
+							160,
+							160,
+							160,
+							255
+						]
+					}
+				]
 			},
 			"timeBetweenFidgets" : 1,
 			"troopCountLocationOffset" : 0

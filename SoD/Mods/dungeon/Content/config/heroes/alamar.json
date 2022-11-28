@@ -13,7 +13,6 @@
 			"large" : "heroes/alamar/icons/portrait/HPL088WL.png",
 			"small" : "heroes/alamar/icons/portrait/HPS088WL.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "troglodyte",
@@ -31,7 +30,6 @@
 				"min" : 3
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,18 +40,19 @@
 				"skill" : "scholar"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 0,
-				"subtype" : 38,
-				"type" : 3,
-				"val" : 3
+		"specialty" : {
+			"bonuses" : {
+				"resurrection" : {
+					"subtype" : "spell.resurrection",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
 			}
-		],
+		},
 		"spellbook" : [
 			"resurrection"
 		],
-
 		"texts" : {
 			"biography" : "Alamar served Archibald Ironfist during the succession wars, and was barely able to escape Enroth following Archibald's defeat.  He has since taken up residence in Nighon where he secretly serves the Dungeon Overlords.",
 			"name" : "Alamar",

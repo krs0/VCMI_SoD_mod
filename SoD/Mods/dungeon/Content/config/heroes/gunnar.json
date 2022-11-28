@@ -13,7 +13,6 @@
 			"large" : "heroes/gunnar/icons/portrait/HPL085OV.png",
 			"small" : "heroes/gunnar/icons/portrait/HPS085OV.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "troglodyte",
@@ -31,7 +30,6 @@
 				"min" : 3
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,15 +40,17 @@
 				"skill" : "tactics"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 0,
-				"subtype" : 2,
-				"type" : 2,
-				"val" : 5
+		"specialty" : {
+			"bonuses" : {
+				"logistics" : {
+					"subtype" : "skill.logistics",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE"
+				}
 			}
-		],
-
+		},
 		"texts" : {
 			"biography" : "Gunnar served first as a scout for the Dungeon Overlords, then as a guide and bodyguard to various high-ranking officials, before finally being granted command of a garrison force on the rugged Nighon borders.  What he lacks in brains he makes up for in instinct.",
 			"name" : "Gunnar",

@@ -1,8 +1,8 @@
 {
 	"beholder": {
 		"name" : {
-			"plural" : "Beholders",
-			"singular" : "Beholder"
+			"singular" : "Beholder",
+			"plural" : "Beholders"
 		},
 		"faction" : "dungeon",
 		"level" : 3,
@@ -19,7 +19,6 @@
 			"min" : 3
 		},
 		"shots" : 12,
-		"doubleWide" : false,
 		"growth" : 7,
 		"horde" : 0,
 		"aiValue" : 336,
@@ -51,7 +50,6 @@
 			},
 			"missile" :
 			{
-				"projectile" : "creatures/beholder/projectile/SMBALX.DEF",
 				"attackClimaxFrame" : 5,
 				"frameAngles" : [
 					0,
@@ -75,6 +73,78 @@
 					"upperX" : 14,
 					"upperY" : -73
 				},
+				"ray" : [
+					{
+						"end" : [
+							160,
+							160,
+							160,
+							64
+						],
+						"start" : [
+							160,
+							160,
+							160,
+							255
+						]
+					},
+					{
+						"end" : [
+							192,
+							192,
+							192,
+							128
+						],
+						"start" : [
+							192,
+							192,
+							192,
+							255
+						]
+					},
+					{
+						"end" : [
+							224,
+							224,
+							224,
+							255
+						],
+						"start" : [
+							224,
+							224,
+							224,
+							255
+						]
+					},
+					{
+						"end" : [
+							192,
+							192,
+							192,
+							128
+						],
+						"start" : [
+							192,
+							192,
+							192,
+							255
+						]
+					},
+					{
+						"end" : [
+							160,
+							160,
+							160,
+							64
+						],
+						"start" : [
+							160,
+							160,
+							160,
+							255
+						]
+					}
+				]
 			},
 			"timeBetweenFidgets" : 1,
 			"troopCountLocationOffset" : 0
