@@ -13,7 +13,6 @@
 			"large" : "heroes/calid/icons/portrait/HPL060DM.png",
 			"small" : "heroes/calid/icons/portrait/HPS060DM.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "imp",
@@ -31,7 +30,6 @@
 				"min" : 3
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,18 +40,18 @@
 				"skill" : "learning"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 0,
-				"subtype" : 3,
-				"type" : 10,
-				"val" : 1
+		"specialty" : {
+			"bonuses" : {
+				"sulfur" : {
+					"subtype" : "resource.sulfur",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 1
+				}
 			}
-		],
+		},
 		"spellbook" : [
 			"haste"
 		],
-			
 		"texts" : {
 			"biography" : "Calid possesses an unusual (though useful) ability to sniff out hidden sulfur deposits.  The Dungeon Overlords have used her on several occasions when collecting sulfur for their fearsome dragons.",
 			"name" : "Calid",

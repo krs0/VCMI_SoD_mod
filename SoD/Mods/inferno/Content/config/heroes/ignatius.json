@@ -13,7 +13,6 @@
 			"large" : "heroes/ignatius/icons/portrait/HPL051HR.png",
 			"small" : "heroes/ignatius/icons/portrait/HPS051HR.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "imp",
@@ -31,7 +30,6 @@
 				"min" : 15
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,15 +40,9 @@
 				"skill" : "resistance"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 42,
-				"subtype" : 0,
-				"type" : 1,
-				"val" : 0
-			}
-		],
-		
+		"specialty" : {
+			"creature" : "imp"
+		},
 		"texts" : {
 			"biography" : "When the Devils arrived in Erathia, Ignatius realized that his only hope for survival was to join them.  He has managed to convince them that he always serves some purpose, but fears that one day they will decide that they no longer need the help of a human.",
 			"name" : "Ignatius",

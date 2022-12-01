@@ -13,7 +13,6 @@
 			"large" : "heroes/fiona/icons/portrait/HPL048HR.png",
 			"small" : "heroes/fiona/icons/portrait/HPS048HR.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "imp",
@@ -31,22 +30,15 @@
 				"min" : 3
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "advanced",
 				"skill" : "scouting"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 46,
-				"subtype" : 0,
-				"type" : 1,
-				"val" : 0
-			}
-		],
-
+		"specialty" : {
+			"creature" : "hellHound"
+		},
 		"texts" : {
 			"biography" : "Fiona was a trainer of circus animals in eastern Erathia before the Devils invaded.  She quickly proved to them that her control over animals extended to the always temperamental hell hounds, and she was immediately accepted into the ranks of Eeofol's armies.",
 			"name" : "Fiona",

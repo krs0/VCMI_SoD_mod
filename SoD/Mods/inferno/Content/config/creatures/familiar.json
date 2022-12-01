@@ -1,8 +1,8 @@
 {
 	"familiar": {
 		"name" : {
+			"singular" : "Familiar",
 			"plural" : "Familiars",
-			"singular" : "Familiar"
 		},
 		"faction" : "inferno",
 		"level" : 1,
@@ -17,7 +17,6 @@
 			"max" : 2,
 			"min" : 1
 		},
-		"doubleWide" : false,
 		"growth" : 15,
 		"horde" : 8,
 		"aiValue" : 60,

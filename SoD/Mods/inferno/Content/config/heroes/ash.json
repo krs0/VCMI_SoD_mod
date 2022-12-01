@@ -13,7 +13,6 @@
 			"large" : "heroes/ash/icons/portrait/HPL061DM.png",
 			"small" : "heroes/ash/icons/portrait/HPS061DM.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "imp",
@@ -31,7 +30,6 @@
 				"min" : 3
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,18 +40,18 @@
 				"skill" : "eagleEye"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 0,
-				"subtype" : 43,
-				"type" : 8,
-				"val" : 0
+		"specialty" : {
+			"bonuses" : {
+				"bloodlust" : {
+					"addInfo" : 0,
+					"subtype" : "spell.bloodlust",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
 			}
-		],
+		},
 		"spellbook" : [
 			"bloodlust"
 		],
-			
 		"texts" : {
 			"biography" : "Ash got her name during the initial attack on Erathia.  Her forces managed to trap several dozen elves and dwarves inside a large wooden fort, which she blasted so completely with a spell that the entire structure 'powdered' in a cloud of ash, revealing several dozen very shocked occupants.",
 			"name" : "Ash",

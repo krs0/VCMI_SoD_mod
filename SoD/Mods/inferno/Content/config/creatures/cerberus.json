@@ -1,8 +1,8 @@
 {
 	"cerberus": {
 		"name" : {
-			"plural" : "Cerberi",
-			"singular" : "Cerberus"
+			"singular" : "Cerberus",
+			"plural" : "Cerberi"
 		},
 		"faction" : "inferno",
 		"level" : 3,

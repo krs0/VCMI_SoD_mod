@@ -1,8 +1,8 @@
 {
 	"devil": {
 		"name" : {
-			"plural" : "Devils",
-			"singular" : "Devil"
+			"singular" : "Devil",
+			"plural" : "Devils"
 		},
 		"faction" : "inferno",
 		"level" : 7,
@@ -19,7 +19,6 @@
 			"max" : 40,
 			"min" : 30
 		},
-		"doubleWide" : false,
 		"growth" : 1,
 		"horde" : 0,
 		"aiValue" : 5101,
@@ -41,6 +40,7 @@
 			},
 			"descreaseLuck" : {
 				"effectRange" : "ONLY_ENEMY_ARMY",
+				"stacking" : "Devils",
 				"type" : "LUCK",
 				"val" : -1
 			},

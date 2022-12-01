@@ -13,7 +13,6 @@
 			"large" : "heroes/marius/icons/portrait/HPL050HR.png",
 			"small" : "heroes/marius/icons/portrait/HPS050HR.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "imp",
@@ -31,22 +30,15 @@
 				"min" : 3
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "advanced",
 				"skill" : "armorer"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 48,
-				"subtype" : 0,
-				"type" : 1,
-				"val" : 0
-			}
-		],
-		
+		"specialty" : {
+			"creature" : "demon"
+		},
 		"texts" : {
 			"biography" : "Marius was the mate of Calh for several years, finally splitting up when it became clear that Calh did not agree with her 'master plan' to rid the world of those disgusting, do-good woodland creatures.",
 			"name" : "Marius",

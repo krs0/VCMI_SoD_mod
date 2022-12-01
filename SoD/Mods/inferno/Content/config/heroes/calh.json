@@ -13,7 +13,6 @@
 			"large" : "heroes/calh/icons/portrait/HPL053HR.png",
 			"small" : "heroes/calh/icons/portrait/HPS053HR.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "gog",
@@ -31,7 +30,6 @@
 				"min" : 4
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,15 +40,9 @@
 				"skill" : "scouting"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 42,
-				"subtype" : 0,
-				"type" : 1,
-				"val" : 0
-			}
-		],
-		
+		"specialty" : {
+			"creature" : "gog"
+		},
 		"texts" : {
 			"biography" : "Calh was mated to Marius for several years, but it soon became clear that she was obsessed with the total destruction of, of all things, Dendroids.  They split up, and Calh went on to have a glorious military career.",
 			"name" : "Calh",

@@ -1,8 +1,8 @@
 {
 	"pitFiend": {
 		"name" : {
-			"plural" : "Pit Fiends",
-			"singular" : "Pit Fiend"
+			"singular" : "Pit Fiend",
+			"plural" : "Pit Fiends"
 		},
 		"faction" : "inferno",
 		"level" : 5,
@@ -18,7 +18,6 @@
 			"max" : 17,
 			"min" : 13
 		},
-		"doubleWide" : false,
 		"growth" : 3,
 		"horde" : 0,
 		"aiValue" : 765,

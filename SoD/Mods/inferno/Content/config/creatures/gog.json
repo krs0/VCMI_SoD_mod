@@ -1,8 +1,8 @@
 {
 	"gog": {
 		"name" : {
-			"plural" : "Gogs",
-			"singular" : "Gog"
+			"singular" : "Gog",
+			"plural" : "Gogs"
 		},
 		"faction" : "inferno",
 		"level" : 2,
@@ -12,17 +12,16 @@
 		},
 		"speed" : 4,
 		"shots" : 12,
-		"hitPoints" : 4,
+		"hitPoints" : 13,
 		"attack" : 6,
 		"defense" : 4,
 		"damage" : {
 			"max" : 4,
 			"min" : 2
 		},
-		"doubleWide" : false,
 		"growth" : 8,
-		"hasDoubleWeek" : true,
 		"horde" : 0,
+		"hasDoubleWeek" : true,
 		"aiValue" : 159,
 		"fightValue" : 145,
 		"advMapAmount" : {

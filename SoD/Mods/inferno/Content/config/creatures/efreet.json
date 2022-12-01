@@ -1,8 +1,8 @@
 {
 	"efreet": {
 		"name" : {
-			"plural" : "Efreet",
-			"singular" : "Efreeti"
+			"singular" : "Efreet",
+			"plural" : "Efreeti"
 		},
 		"faction" : "inferno",
 		"level" : 6,
@@ -18,7 +18,6 @@
 			"max" : 24,
 			"min" : 16
 		},
-		"doubleWide" : false,
 		"growth" : 2,
 		"horde" : 0,
 		"aiValue" : 1670,

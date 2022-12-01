@@ -1,8 +1,8 @@
 {
 	"archDevil": {
 		"name" : {
-			"plural" : "Arch Devils",
-			"singular" : "Arch Devil"
+			"singular" : "Arch Devil",
+			"plural" : "Arch Devils"
 		},
 		"faction" : "inferno",
 		"level" : 7,
@@ -18,7 +18,6 @@
 			"max" : 40,
 			"min" : 30
 		},
-		"doubleWide" : false,
 		"growth" : 1,
 		"horde" : 0,
 		"aiValue" : 7115,
@@ -29,8 +28,8 @@
 		},
 		"abilities" : {
 			"FLYING_ARMY" : {
-				"type" : "FLYING",
-				"subtype" : 1
+				"subtype" : 1,
+				"type" : "FLYING"
 			},
 			"KING_2" : {
 				"type" : "KING2"
@@ -40,6 +39,7 @@
 			},
 			"descreaseLuck" : {
 				"effectRange" : "ONLY_ENEMY_ARMY",
+				"stacking" : "Devils",
 				"type" : "LUCK",
 				"val" : -1
 			},
@@ -49,7 +49,7 @@
 				"val" : 50
 			},
 			"hateArchAngels" : {
-				"subtype" : "creature.angel",
+				"subtype" : "creature.archangel",
 				"type" : "HATE",
 				"val" : 50
 			}
@@ -66,7 +66,6 @@
 				"idle" : 10,
 				"walk" : 1
 			},
-			"missile" : null,
 			"timeBetweenFidgets" : 1,
 			"troopCountLocationOffset" : 0
 		},

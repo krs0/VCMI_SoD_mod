@@ -13,7 +13,6 @@
 			"large" : "heroes/icons/portrait/HPL057DM.png",
 			"small" : "heroes/icons/portrait/HPS057DM.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "imp",
@@ -31,7 +30,6 @@
 				"min" : 3
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,18 +40,19 @@
 				"skill" : "scholar"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 0,
-				"subtype" : 22,
-				"type" : 3,
-				"val" : 3
+		"specialty" : {
+			"bonuses" : {
+				"inferno" : {
+					"subtype" : "spell.inferno",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
 			}
-		],
+		},
 		"spellbook" : [
 			"inferno"
 		],
-			
 		"texts" : {
 			"biography" : "Xyron seems to like fire even more than anyone would expect of an Efreeti, but Xyron delights in just about anything having to do with fire or lava.",
 			"name" : "Xyron",

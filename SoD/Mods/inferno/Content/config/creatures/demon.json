@@ -1,8 +1,8 @@
 {
 	"demon": {
 		"name" : {
-			"plural" : "Demons",
-			"singular" : "Demon"
+			"singular" : "Demon",
+			"plural" : "Demons"
 		},
 		"faction" : "inferno",
 		"level" : 4,
@@ -18,7 +18,6 @@
 			"max" : 9,
 			"min" : 7
 		},
-		"doubleWide" : false,
 		"growth" : 4,
 		"horde" : 0,
 		"aiValue" : 445,

@@ -13,7 +13,6 @@
 			"large" : "heroes/rashka/icons/portrait/HPL049HR.png",
 			"small" : "heroes/rashka/icons/portrait/HPS049HR.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "imp",
@@ -31,7 +30,6 @@
 				"min" : 3
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,15 +40,9 @@
 				"skill" : "scholar"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 52,
-				"subtype" : 0,
-				"type" : 1,
-				"val" : 0
-			}
-		],
-		
+		"specialty" : {
+			"creature" : "efreet"
+		},
 		"texts" : {
 			"biography" : "Rashka is one of the strongest and most feared of all Efreet.  His leadership methods focus on intimidation as a method of motivation.  So far, it has worked.",
 			"name" : "Rashka",

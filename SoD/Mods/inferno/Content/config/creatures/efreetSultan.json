@@ -1,8 +1,8 @@
 {
 	"efreetSultan": {
 		"name" : {
-			"plural" : "Efreet Sultans",
-			"singular" : "Efreet Sultan"
+			"singular" : "Efreet Sultan",
+			"plural" : "Efreet Sultans"
 		},
 		"faction" : "inferno",
 		"level" : 6,
@@ -17,7 +17,6 @@
 			"max" : 24,
 			"min" : 16
 		},
-		"doubleWide" : false,
 		"growth" : 2,
 		"horde" : 0,
 		"aiValue" : 1848,
@@ -32,7 +31,7 @@
 			},
 			"fireShield" : {
 				"type" : "FIRE_SHIELD",
-				"val" : 30
+				"val" : 20
 			},
 			"hateGenies" : {
 				"subtype" : "creature.genie",

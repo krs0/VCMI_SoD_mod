@@ -1,8 +1,8 @@
 {
 	"hellHound": {
 		"name" : {
-			"plural" : "Hell Hounds",
-			"singular" : "Hell Hound"
+			"singular" : "Hell Hound",
+			"plural" : "Hell Hounds"
 		},
 		"faction" : "inferno",
 		"level" : 3,

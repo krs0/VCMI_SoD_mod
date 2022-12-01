@@ -13,7 +13,6 @@
 			"large" : "heroes/octavia/icons/portrait/HPL052HR.png",
 			"small" : "heroes/octavia/icons/portrait/HPS052HR.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "imp",
@@ -31,7 +30,6 @@
 				"min" : 3
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,15 +40,15 @@
 				"skill" : "offence"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 0,
-				"subtype" : 6,
-				"type" : 10,
-				"val" : 350
+		"specialty" : {
+			"bonuses" : {
+				"gold" : {
+					"subtype" : "resource.gold",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 350
+				}
 			}
-		],
-		
+		},
 		"texts" : {
 			"biography" : "It is said that Octavia could sneak gold away from a sleeping dragon, but she would have to, as she is constantly spending her wealth on anything that tickles her fancy.",
 			"name" : "Octavia",

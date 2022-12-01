@@ -13,7 +13,6 @@
 			"large" : "heroes/xarfax/icons/portrait/HPL063DM.png",
 			"small" : "heroes/xarfax/icons/portrait/HPS063DM.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "imp",
@@ -31,7 +30,6 @@
 				"min" : 3
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,18 +40,19 @@
 				"skill" : "leadership"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 0,
-				"subtype" : 21,
-				"type" : 3,
-				"val" : 3
+		"specialty" : {
+			"bonuses" : {
+				"fireball" : {
+					"subtype" : "spell.fireball",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
 			}
-		],
+		},
 		"spellbook" : [
 			"fireball"
 		],
-
 		"texts" : {
 			"biography" : "Xarfax served in the Erathian Military until he was captured while fighting the Kreegans in 1162 A.S. (After the Silence).  The Kreegans, realizing the power within him, \"reconditioned\" Xarfax, turning him into a loyal and capable follower.",
 			"name" : "Xarfax",

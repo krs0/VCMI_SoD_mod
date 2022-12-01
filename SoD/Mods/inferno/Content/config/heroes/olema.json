@@ -13,7 +13,6 @@
 			"large" : "heroes/olema/icons/portrait/HPL059DM.png",
 			"small" : "heroes/olema/icons/portrait/HPS059DM.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "imp",
@@ -31,7 +30,6 @@
 				"min" : 3
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,18 +40,18 @@
 				"skill" : "ballistics"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 0,
-				"subtype" : 45,
-				"type" : 8,
-				"val" : 0
+		"specialty" : {
+			"bonuses" : {
+				"weakness" : {
+					"addInfo" : 0,
+					"subtype" : "spell.weakness",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
 			}
-		],
+		},
 		"spellbook" : [
 			"weakness"
 		],
-			
 		"texts" : {
 			"biography" : "Olema spent her entire life in Eeofol, but when the Kreegans arrived, she talked them into letting her serve as a guide to the land, and has since proven her ability to lead.",
 			"name" : "Olema",

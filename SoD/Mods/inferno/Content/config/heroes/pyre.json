@@ -13,7 +13,6 @@
 			"large" : "heroes/pyre/icons/portrait/HPL054HR.png",
 			"small" : "heroes/pyre/icons/portrait/HPS054HR.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "imp",
@@ -31,7 +30,6 @@
 				"min" : 3
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,15 +40,9 @@
 				"skill" : "logistics"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 146,
-				"subtype" : 0,
-				"type" : 1,
-				"val" : 0
-			}
-		],
-		
+		"specialty" : {
+			"creature" : "ballista"
+		},
 		"texts" : {
 			"biography" : "No one knows Pyre's real name, but it is rumored that she was once a member of the Humanists, a foul cult bent on eradicating any non-human inhabitants of Erathia.  Only she knows what motivates her to serve the Devils of Eeofol.",
 			"name" : "Pyre",

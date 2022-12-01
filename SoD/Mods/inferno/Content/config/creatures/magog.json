@@ -1,8 +1,8 @@
 {
 	"magog": {
 		"name" : {
-			"plural" : "Magogs",
-			"singular" : "Magog"
+			"singular" : "Magog",
+			"plural" : "Magogs"
 		},
 		"faction" : "inferno",
 		"level" : 2,
@@ -18,7 +18,6 @@
 			"max" : 4,
 			"min" : 2
 		},
-		"doubleWide" : false,
 		"growth" : 8,
 		"horde" : 0,
 		"aiValue" : 240,
