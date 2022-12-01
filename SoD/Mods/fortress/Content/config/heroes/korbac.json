@@ -13,7 +13,6 @@
 			"large" : "heroes/korbac/icons/portrait/HPL117BS.png",
 			"small" : "heroes/korbac/icons/portrait/HPS117BS.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "gnoll",
@@ -31,7 +30,6 @@
 				"min" : 2
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,15 +40,9 @@
 				"skill" : "pathfinding"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 102,
-				"subtype" : 0,
-				"type" : 1,
-				"val" : 0
-			}
-		],
-
+		"specialty" : {
+			"creature" : "serpentFly"
+		},
 		"texts" : {
 			"biography" : "Korbac became known to the humans of Erathia as the 'hero who saved the scholar, Xanthor.'  However true this might be, Korbac has proven his bravery on more than one occasion in the service of Tatalia.",
 			"name" : "Korbac",

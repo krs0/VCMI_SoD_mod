@@ -1,8 +1,8 @@
 {
 	"fireDragonFly": {
 		"name" : {
-			"plural" : "Dragon Flies",
-			"singular" : "Dragon Fly"
+			"singular" : "Dragon Fly",
+			"plural" : "Dragon Flies"
 		},
 		"faction" : "fortress",
 		"level" : 3,
@@ -17,7 +17,6 @@
 			"max" : 5,
 			"min" : 2
 		},
-		"doubleWide" : false,
 		"growth" : 8,
 		"horde" : 0,
 		"aiValue" : 312,

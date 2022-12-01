@@ -13,7 +13,6 @@
 			"large" : "heroes/broghild/icons/portrait/HPL119BS.png",
 			"small" : "heroes/broghild/icons/portrait/HPS119BS.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "gnoll",
@@ -31,7 +30,6 @@
 				"min" : 2
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,15 +40,9 @@
 				"skill" : "scouting"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 146,
-				"subtype" : 0,
-				"type" : 1,
-				"val" : 0
-			}
-		],
-
+		"specialty" : {
+			"creature" : "wyvern"
+		},
 		"texts" : {
 			"biography" : "Broghild's grandfather first tamed wild Wyverns for use as flying scouts above the Tatalian Lowlands.  The secrets of handling these creatures was passed to Broghild's father, and eventually to him.",
 			"name" : "Broghild",

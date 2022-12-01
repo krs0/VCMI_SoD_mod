@@ -1,8 +1,8 @@
 {
 	"gnoll": {
 		"name" : {
-			"plural" : "Gnolls",
-			"singular" : "Gnoll"
+			"singular" : "Gnoll",
+			"plural" : "Gnolls"
 		},
 		"faction" : "fortress",
 		"level" : 1,

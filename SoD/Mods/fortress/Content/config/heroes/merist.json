@@ -13,7 +13,6 @@
 			"large" : "heroes/merist/icons/portrait/HPL124WH.png",
 			"small" : "heroes/merist/icons/portrait/HPS124WH.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "gnoll",
@@ -31,7 +30,6 @@
 				"min" : 2
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,18 +40,18 @@
 				"skill" : "learning"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 0,
-				"subtype" : 46,
-				"type" : 8,
-				"val" : 0
+		"specialty" : {
+			"bonuses" : {
+				"stoneSkin" : {
+					"addInfo" : 0,
+					"subtype" : "spell.stoneSkin",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
 			}
-		],
+		},
 		"spellbook" : [
 			"stoneSkin"
 		],
-
 		"texts" : {
 			"biography" : "Merist was supposed to have been the healer of her village, but when it was discovered that her magical powers were far greater than what would be required as a village healer, she was quickly pressed into the service of Tatalia.",
 			"name" : "Merist",

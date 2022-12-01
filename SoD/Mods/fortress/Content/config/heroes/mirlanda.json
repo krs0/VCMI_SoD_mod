@@ -13,7 +13,6 @@
 			"large" : "heroes/mirlanda/icons/portrait/HPL120WH.png",
 			"small" : "heroes/mirlanda/icons/portrait/HPS120WH.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "gnoll",
@@ -31,25 +30,24 @@
 				"min" : 2
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "advanced",
 				"skill" : "wisdom"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 108,
-				"subtype" : 0,
-				"type" : 1,
-				"val" : 0
+		"specialty" : {
+			"bonuses" : {
+				"weakness" : {
+					"addInfo" : 0,
+					"subtype" : "spell.weakness",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
 			}
-		],
+		},
 		"spellbook" : [
 			"weakness"
 		],
-
 		"texts" : {
 			"biography" : "Mirlanda spent much of her younger days toying with the dark arts, before realizing that such a path usually leads to self destruction.  She has learned to walk a fine line between good and evil, always making sure that one does not grow more powerful than the other.",
 			"name" : "Mirlanda",

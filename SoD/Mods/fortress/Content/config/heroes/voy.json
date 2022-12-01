@@ -13,7 +13,6 @@
 			"large" : "heroes/voy/icons/portrait/HPL122WH.png",
 			"small" : "heroes/voy/icons/portrait/HPS122WH.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "gnoll",
@@ -31,7 +30,6 @@
 				"min" : 2
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,18 +40,20 @@
 				"skill" : "navigation"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 1,
-				"subtype" : 5,
-				"type" : 2,
-				"val" : 2
+		"specialty" : {
+			"bonuses" : {
+				"navigation" : {
+					"subtype" : "skill.navigation",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE"
+				}
 			}
-		],
+		},
 		"spellbook" : [
 			"slow"
 		],
-
 		"texts" : {
 			"biography" : "Voy is a 'Wind Witch,' often employed by sea captains to help guide ships and ensure that they always receive favorable winds at sea.  She prefers the salty air of the oceans to that of the swamps where she was born.",
 			"name" : "Voy",

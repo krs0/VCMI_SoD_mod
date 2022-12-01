@@ -1,8 +1,8 @@
 {
 	"wyvern": {
 		"name" : {
-			"plural" : "Wyverns",
-			"singular" : "Wyvern"
+			"singular" : "Wyvern",
+			"plural" : "Wyverns"
 		},
 		"faction" : "fortress",
 		"level" : 6,

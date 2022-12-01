@@ -1,8 +1,8 @@
 {
 	"gorgon": {
 		"name" : {
-			"plural" : "Gorgons",
-			"singular" : "Gorgon"
+			"singular" : "Gorgon",
+			"plural" : "Gorgons"
 		},
 		"faction" : "fortress",
 		"level" : 5,

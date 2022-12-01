@@ -1,8 +1,8 @@
 {
 	"chaosHydra": {
 		"name" : {
-			"plural" : "Chaos Hydras",
-			"singular" : "Chaos Hydra"
+			"singular" : "Chaos Hydra",
+			"plural" : "Chaos Hydras"
 		},
 		"faction" : "fortress",
 		"level" : 7,

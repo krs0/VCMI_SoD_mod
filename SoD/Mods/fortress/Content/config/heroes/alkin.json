@@ -13,7 +13,6 @@
 			"large" : "heroes/alkin/icons/portrait/HPL116BS.png",
 			"small" : "heroes/alkin/icons/portrait/HPS116BS.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "gnoll",
@@ -31,7 +30,6 @@
 				"min" : 2
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,15 +40,9 @@
 				"skill" : "offence"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 0,
-				"subtype" : 23,
-				"type" : 2,
-				"val" : 5
-			}
-		],
-
+		"specialty" : {
+			"creature" : "gorgon"
+		},
 		"texts" : {
 			"biography" : "King Tralossk never really liked Alkin, but gave him his own command in the hopes that he would one day get himself killed.  That never happened, and Alkin has led a long and glorious career, much to the displeasure of the King.",
 			"name" : "Alkin",

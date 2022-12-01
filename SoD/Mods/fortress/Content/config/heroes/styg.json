@@ -13,7 +13,6 @@
 			"large" : "heroes/styg/icons/portrait/HPL125WH.png",
 			"small" : "heroes/styg/icons/portrait/HPS125WH.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "gnoll",
@@ -31,7 +30,6 @@
 				"min" : 2
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,18 +40,20 @@
 				"skill" : "sorcery"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 0,
-				"subtype" : 25,
-				"type" : 2,
-				"val" : 5
+		"specialty" : {
+			"bonuses" : {
+				"sorcery" : {
+					"subtype" : "skill.sorcery",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE"
+				}
 			}
-		],
+		},
 		"spellbook" : [
 			"shield"
 		],
-
 		"texts" : {
 			"biography" : "The eleventh daughter of Tralossk, King of Tatalia, Styg turned to witchcraft when it became clear that she would never ascend the Tatalian throne with ten heirs in front of her.",
 			"name" : "Styg",

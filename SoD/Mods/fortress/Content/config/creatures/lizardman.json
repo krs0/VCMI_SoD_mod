@@ -1,8 +1,8 @@
 {
 	"lizardman": {
 		"name" : {
-			"plural" : "Lizardmen",
-			"singular" : "Lizardman"
+			"singular" : "Lizardman",
+			"plural" : "Lizardmen"
 		},
 		"extraNames" : ["primitiveLizardman"],
 		"faction" : "fortress",
@@ -20,9 +20,9 @@
 			"min" : 2
 		},
 		"shots" : 12,
-		"doubleWide" : false,
 		"growth" : 9,
 		"horde" : 0,
+		"hasDoubleWeek" : true,
 		"aiValue" : 126,
 		"fightValue" : 115,
 		"advMapAmount" : {
@@ -35,7 +35,6 @@
 			}
 		},
 		"abilityText" : "",
-		"hasDoubleWeek" : true,
 		"graphics" : {
 			"animation" : "creatures/lizardman/battle/CPLIZA.def",
 			"map" : "creatures/lizardman/adventureMap/AvWLizr.def",

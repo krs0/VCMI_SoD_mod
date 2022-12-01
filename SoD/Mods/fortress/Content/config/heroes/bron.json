@@ -13,7 +13,6 @@
 			"large" : "heroes/bron/icons/portrait/HPL112BS.png",
 			"small" : "heroes/bron/icons/portrait/HPS112BS.png"
 		},
-
 		"army" :
 		[
 			{
@@ -30,7 +29,6 @@
 				"min" : 2, "max" : 4
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -41,15 +39,9 @@
 				"skill" : "resistance"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 0,
-				"subtype" : 5,
-				"type" : 10,
-				"val" : 1
-			}
-		],
-
+		"specialty" : {
+			"creature" : "basilisk"
+		},
 		"texts" : {
 			"biography" : "Bron, though human, possesses an uncanny resistance to the gaze of a Basilisk, which has allowed him to learn more about them than any other creature alive.",
 			"name" : "Bron",

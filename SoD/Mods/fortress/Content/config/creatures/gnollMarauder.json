@@ -1,8 +1,8 @@
 {
 	"gnollMarauder": {
 		"name" : {
-			"plural" : "Gnoll Marauders",
-			"singular" : "Gnoll Marauder"
+			"singular" : "Gnoll Marauder",
+			"plural" : "Gnoll Marauders"
 		},
 		"faction" : "fortress",
 		"level" : 1,
@@ -17,7 +17,6 @@
 			"max" : 3,
 			"min" : 2
 		},
-		"doubleWide" : false,
 		"growth" : 12,
 		"horde" : 6,
 		"aiValue" : 90,

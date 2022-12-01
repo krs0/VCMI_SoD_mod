@@ -1,8 +1,8 @@
 {
 	"wyvernMonarch": {
 		"name" : {
-			"plural" : "Wyvern Monarchs",
-			"singular" : "Wyvern Monarch"
+			"singular" : "Wyvern Monarch",
+			"plural" : "Wyvern Monarchs"
 		},
 		"faction" : "fortress",
 		"level" : 6,

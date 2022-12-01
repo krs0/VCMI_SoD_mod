@@ -1,8 +1,8 @@
 {
 	"hydra": {
 		"name" : {
-			"plural" : "Hydras",
-			"singular" : "Hydra"
+			"singular" : "Hydra",
+			"plural" : "Hydras"
 		},
 		"faction" : "fortress",
 		"level" : 7,

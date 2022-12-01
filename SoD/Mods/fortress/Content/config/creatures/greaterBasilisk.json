@@ -1,8 +1,8 @@
 {
 	"greaterBasilisk": {
 		"name" : {
-			"plural" : "Greater Basilisks",
-			"singular" : "Greater Basilisk"
+			"singular" : "Greater Basilisk",
+			"plural" : "Greater Basilisks"
 		},
 		"faction" : "fortress",
 		"level" : 4,

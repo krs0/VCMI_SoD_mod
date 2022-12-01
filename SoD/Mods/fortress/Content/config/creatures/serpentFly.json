@@ -1,8 +1,8 @@
 {
 	"serpentFly": {
 		"name" : {
-			"plural" : "Serpent Flies",
-			"singular" : "Serpent Fly"
+			"singular" : "Serpent Fly",
+			"plural" : "Serpent Flies"
 		},
 		"extraNames" : [
 			"dragonFly"
@@ -21,9 +21,9 @@
 			"max" : 5,
 			"min" : 2
 		},
-		"doubleWide" : false,
 		"growth" : 8,
 		"horde" : 0,
+		"hasDoubleWeek" : true,
 		"aiValue" : 268,
 		"fightValue" : 215,
 		"advMapAmount" : {
@@ -41,7 +41,6 @@
 			}
 		},
 		"abilityText" : "Dispels beneficial spells.",
-		"hasDoubleWeek" : true,
 		"graphics" : {
 			"animation" : "creatures/serpentFly/battle/CDRFLY.def",
 			"map" : "creatures/serpentFly/adventureMap/AvWDfly.def",

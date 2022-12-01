@@ -13,7 +13,6 @@
 			"large" : "heroes/tiva/icons/portrait/HPL127WH.png",
 			"small" : "heroes/tiva/icons/portrait/HPS127WH.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "gnoll",
@@ -31,7 +30,6 @@
 				"min" : 2
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,18 +40,20 @@
 				"skill" : "eagleEye"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 1,
-				"subtype" : 11,
-				"type" : 2,
-				"val" : 5
+		"specialty" : {
+			"bonuses" : {
+				"eagleEye" : {
+					"subtype" : "skill.eagleEye",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE"
+				}
 			}
-		],
+		},
 		"spellbook" : [
 			"stoneSkin"
 		],
-
 		"texts" : {
 			"biography" : "Tiva achieved her place as a hero by challenging those above her to tests of learning, proving herself as a faster study than any of her peers.  She has achieved much success.",
 			"name" : "Tiva",

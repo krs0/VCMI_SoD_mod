@@ -13,7 +13,6 @@
 			"large" : "heroes/icons/portrait/HPL114BS.png",
 			"small" : "heroes/icons/portrait/HPS114BS.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "lizardman",
@@ -31,7 +30,6 @@
 				"min" : 4
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,15 +40,9 @@
 				"skill" : "archery"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 98,
-				"subtype" : 0,
-				"type" : 1,
-				"val" : 0
-			}
-		],
-
+		"specialty" : {
+			"creature" : "lizardman"
+		},
 		"texts" : {
 			"biography" : "Wedded to the eldest daughter of King Tralossk, Wystan is the next heir to the throne of Tatalia.  Until then, he is content to serve and learn from the King until the time is right for him to kill his mentor and assume the throne.",
 			"name" : "Wystan",

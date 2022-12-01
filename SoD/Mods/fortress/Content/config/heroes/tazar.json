@@ -13,7 +13,6 @@
 			"large" : "heroes/tazar/icons/portrait/HPL115BS.png",
 			"small" : "heroes/tazar/icons/portrait/HPS115BS.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "gnoll",
@@ -31,22 +30,23 @@
 				"min" : 2
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "advanced",
 				"skill" : "armorer"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 100,
-				"subtype" : 0,
-				"type" : 1,
-				"val" : 0
+		"specialty" : {
+			"bonuses" : {
+				"armorer" : {
+					"subtype" : "skill.armorer",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE"
+				}
 			}
-		],
-
+		},
 		"texts" : {
 			"biography" : "During a six month border war with Krewlod, a small force led by Tazar was able to make a stand at a Tatalian outpost, holding off a Krewlod force nearly five times their size for more than eight days until reinforcements arrived.",
 			"name" : "Tazar",

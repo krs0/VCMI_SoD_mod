@@ -1,8 +1,8 @@
 {
 	"basilisk": {
 		"name" : {
-			"plural" : "Basilisks",
-			"singular" : "Basilisk"
+			"singular" : "Basilisk",
+			"plural" : "Basilisks"
 		},
 		"faction" : "fortress",
 		"level" : 4,

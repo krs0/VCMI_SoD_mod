@@ -13,7 +13,6 @@
 			"large" : "heroes/drakon/icons/portrait/HPL113BS.png",
 			"small" : "heroes/drakon/icons/portrait/HPS113BS.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "gnoll",
@@ -31,7 +30,6 @@
 				"min" : 10
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,15 +40,9 @@
 				"skill" : "leadership"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 106,
-				"subtype" : 0,
-				"type" : 1,
-				"val" : 0
-			}
-		],
-
+		"specialty" : {
+			"creature" : "gnoll"
+		},
 		"texts" : {
 			"biography" : "Drakon was the greatest warrior in his village, and later the region, before choosing to serve King Tralossk.  His charismatic demeanor (at least with other Gnolls) has troops volunteering to join his armies in droves.",
 			"name" : "Drakon",
