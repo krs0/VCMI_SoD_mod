@@ -1,8 +1,8 @@
 {
 	"catapult": {
 		"name" : {
-			"plural" : "Catapults",
-			"singular" : "Catapult"
+			"singular" : "Catapult",
+			"plural" : "Catapults"
 		},
 		"faction" : "neutral",
 		"level" : 0,
@@ -11,6 +11,7 @@
 		},
 		"speed" : 0,
 		"hitPoints" : 1000,
+		"doubleWide" : true,
 		"attack" : 10,
 		"defense" : 10,
 		"damage" : {
@@ -18,11 +19,10 @@
 			"min" : 0
 		},
 		"shots" : 24,
-		"doubleWide" : false,
 		"growth" : 0,
 		"horde" : 0,
 		"aiValue" : 500,
-		"fightValue" : 5,
+		"fightValue" : 10,
 		"advMapAmount" : {
 			"max" : 0,
 			"min" : 0

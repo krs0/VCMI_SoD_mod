@@ -1,8 +1,8 @@
 {
 	"enchanter": {
 		"name" : {
-			"plural" : "Enchanters",
-			"singular" : "Enchanter"
+			"singular" : "Enchanter",
+			"plural" : "Enchanters"
 		},
 		"extraNames" : [
 			"enchanters"
@@ -21,7 +21,6 @@
 			"min" : 14
 		},
 		"shots" : 32,
-		"doubleWide" : false,
 		"growth" : 2,
 		"horde" : 0,
 		"aiValue" : 1210,

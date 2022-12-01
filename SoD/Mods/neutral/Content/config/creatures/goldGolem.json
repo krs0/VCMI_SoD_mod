@@ -1,8 +1,8 @@
 {
 	"goldGolem": {
 		"name" : {
-			"plural" : "Gold Golems",
-			"singular" : "Gold Golem"
+			"singular" : "Gold Golem",
+			"plural" : "Gold Golems"
 		},
 		"faction" : "neutral",
 		"level" : 4,
@@ -17,7 +17,6 @@
 			"max" : 10,
 			"min" : 8
 		},
-		"doubleWide" : false,
 		"growth" : 3,
 		"horde" : 0,
 		"aiValue" : 600,

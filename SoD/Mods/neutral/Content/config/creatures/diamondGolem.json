@@ -1,8 +1,8 @@
 {
 	"diamondGolem": {
 		"name" : {
-			"plural" : "Diamond Golems",
 			"singular" : "Diamond Golem"
+			"plural" : "Diamond Golems"
 		},
 		"faction" : "neutral",
 		"level" : 5,
@@ -17,7 +17,6 @@
 			"max" : 14,
 			"min" : 10
 		},
-		"doubleWide" : false,
 		"growth" : 2,
 		"horde" : 0,
 		"aiValue" : 775,

@@ -1,8 +1,8 @@
 {
 	"firstAidTent": {
 		"name" : {
-			"plural" : "First Aid Tents",
-			"singular" : "First Aid Tent"
+			"singular" : "First Aid Tent",
+			"plural" : "First Aid Tents"
 		},
 		"faction" : "neutral",
 		"level" : 0,

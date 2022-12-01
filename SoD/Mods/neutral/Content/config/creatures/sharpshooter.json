@@ -1,8 +1,8 @@
 {
 	"sharpshooter": {
 		"name" : {
-			"plural" : "Sharpshooters",
-			"singular" : "Sharpshooter"
+			"singular" : "Sharpshooter",
+			"plural" : "Sharpshooters"
 		},
 		"extraNames" : [
 			"sharpshooters"
@@ -21,7 +21,6 @@
 			"min" : 8
 		},
 		"shots" : 32,
-		"doubleWide" : false,
 		"growth" : 4,
 		"horde" : 0,
 		"aiValue" : 585,

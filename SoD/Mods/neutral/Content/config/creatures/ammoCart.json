@@ -1,8 +1,8 @@
 {
 	"ammoCart": {
 		"name" : {
-			"plural" : "Ammo Carts",
-			"singular" : "Ammo Cart"
+			"singular" : "Ammo Cart",
+			"plural" : "Ammo Carts"
 		},
 		"faction" : "neutral",
 		"level" : 0,
@@ -17,7 +17,6 @@
 			"max" : 0,
 			"min" : 0
 		},
-		"doubleWide" : false,
 		"growth" : 0,
 		"horde" : 0,
 		"aiValue" : 400,

@@ -1,21 +1,21 @@
 {
 	"ballista": {
 		"name" : {
-			"plural" : "Ballistas",
-			"singular" : "Ballista"
+			"singular" : "Ballista",
+			"plural" : "Ballistas"
 		},
 		"faction" : "neutral",
 		"level" : 0,
 		"cost" : {
-			"gold" : 1000
+			"gold" : 2500
 		},
 		"speed" : 0,
 		"hitPoints" : 250,
 		"attack" : 10,
 		"defense" : 10,
 		"damage" : {
-			"max" : 0,
-			"min" : 0
+			"max" : 3,
+			"min" : 2
 		},
 		"shots" : 24,
 		"doubleWide" : true,

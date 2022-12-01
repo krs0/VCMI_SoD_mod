@@ -1,8 +1,8 @@
 {
 	"boar": {
 		"name" : {
-			"plural" : "Boars",
-			"singular" : "Boar"
+			"singular" : "Boar",
+			"plural" : "Boars"
 		},
 		"faction" : "neutral",
 		"level" : 2,

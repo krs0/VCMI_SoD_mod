@@ -1,8 +1,8 @@
 {
 	"azureDragon": {
 		"name" : {
-			"plural" : "Azure Dragons",
-			"singular" : "Azure Dragon"
+			"singular" : "Azure Dragon",
+			"plural" : "Azure Dragons"
 		},
 		"faction" : "neutral",
 		"level" : 10,

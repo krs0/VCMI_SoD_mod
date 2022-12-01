@@ -1,8 +1,8 @@
 {
 	"mummy": {
 		"name" : {
-			"plural" : "Mummies",
-			"singular" : "Mummy"
+			"singular" : "Mummy",
+			"plural" : "Mummies"
 		},
 		"faction" : "neutral",
 		"level" : 3,
@@ -17,7 +17,6 @@
 			"max" : 5,
 			"min" : 3
 		},
-		"doubleWide" : false,
 		"growth" : 7,
 		"horde" : 0,
 		"aiValue" : 270,
@@ -27,6 +26,11 @@
 			"min" : 12
 		},
 		"abilities" : {
+			"castCurse" : {
+				"subtype" : "spell.curse",
+				"type" : "SPELL_AFTER_ATTACK",
+				"val" : 50
+			},
 			"undead" : {
 				"type" : "UNDEAD"
 			}

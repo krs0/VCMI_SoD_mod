@@ -1,8 +1,8 @@
 {
 	"halfling": {
 		"name" : {
-			"plural" : "Halflings",
-			"singular" : "Halfling"
+			"singular" : "Halfling",
+			"plural" : "Halflings"
 		},
 		"faction" : "neutral",
 		"level" : 1,
@@ -18,7 +18,6 @@
 			"min" : 1
 		},
 		"shots" : 24,
-		"doubleWide" : false,
 		"growth" : 15,
 		"horde" : 0,
 		"aiValue" : 75,
@@ -30,6 +29,9 @@
 		"abilities" : {
 			"SHOOTING_ARMY" : {
 				"type" : "SHOOTER"
+			},
+			"lucky" : {
+				"type" : "SELF_LUCK"
 			}
 		},
 		"abilityText" : "Positive luck.",

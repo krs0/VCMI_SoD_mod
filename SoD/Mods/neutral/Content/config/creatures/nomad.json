@@ -1,8 +1,8 @@
 {
 	"nomad": {
 		"name" : {
-			"plural" : "Nomads",
-			"singular" : "Nomad"
+			"singular" : "Nomad",
+			"plural" : "Nomads"
 		},
 		"faction" : "neutral",
 		"level" : 3,

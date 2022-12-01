@@ -1,8 +1,8 @@
 {
 	"crystalDragon": {
 		"name" : {
-			"plural" : "Crystal Dragons",
-			"singular" : "Crystal Dragon"
+			"singular" : "Crystal Dragon",
+			"plural" : "Crystal Dragons"
 		},
 		"faction" : "neutral",
 		"level" : 10,
@@ -33,13 +33,14 @@
 				"type" : "KING1"
 			},
 			"crystals" : {
-				"propagator" : "HERO",
-				"subtype" : "resource.crystal",
-				"type" : "GENERATE_RESOURCE",
-				"val" : 1
+				"type" : "SPECIAL_CRYSTAL_GENERATION"
 			},
 			"dragon" : {
 				"type" : "DRAGON_NATURE"
+			},
+			"magicResistance" : {
+				"type" : "MAGIC_RESISTANCE",
+				"val" : 20
 			}
 		},
 		"abilityText" : "Crystal generation.",

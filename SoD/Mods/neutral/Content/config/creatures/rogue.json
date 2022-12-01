@@ -1,8 +1,8 @@
 {
 	"rogue": {
 		"name" : {
-			"plural" : "Rogues",
-			"singular" : "Rogue"
+			"singular" : "Rogue",
+			"plural" : "Rogues"
 		},
 		"faction" : "neutral",
 		"level" : 2,
@@ -17,7 +17,6 @@
 			"max" : 4,
 			"min" : 2
 		},
-		"doubleWide" : false,
 		"growth" : 8,
 		"horde" : 0,
 		"aiValue" : 135,

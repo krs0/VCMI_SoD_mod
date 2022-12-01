@@ -1,8 +1,8 @@
 {
 	"rustDragon": {
 		"name" : {
-			"plural" : "Rust Dragons",
-			"singular" : "Rust Dragon"
+			"singular" : "Rust Dragon",
+			"plural" : "Rust Dragons"
 		},
 		"faction" : "neutral",
 		"level" : 10,
@@ -35,12 +35,15 @@
 				"type" : "KING1"
 			},
 			"acidBreath" : {
-				"addInfo" : 20,
+				"addInfo" : 30,
 				"type" : "ACID_BREATH",
 				"val" : 25
 			},
 			"dragon" : {
 				"type" : "DRAGON_NATURE"
+			},
+			"fireBreath" : {
+				"type" : "TWO_HEX_ATTACK_BREATH"
 			},
 			"reduceDefence" : {
 				"subtype" : "spell.acidBreath",

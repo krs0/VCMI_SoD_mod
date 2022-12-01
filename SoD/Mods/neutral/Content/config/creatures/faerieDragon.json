@@ -1,8 +1,8 @@
 {
 	"faerieDragon": {
 		"name" : {
-			"plural" : "Faerie Dragons",
-			"singular" : "Faerie Dragon"
+			"singular" : "Faerie Dragon",
+			"plural" : "Faerie Dragons"
 		},
 		"faction" : "neutral",
 		"level" : 8,
