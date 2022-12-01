@@ -13,8 +13,6 @@
 			"large" : "heroes/nimbus/icons/portrait/HPL075NC.png",
 			"small" : "heroes/nimbus/icons/portrait/HPS075NC.png"
 		},
-
-
 		"army" : [
 			{
 				"creature" : "skeleton",
@@ -32,7 +30,6 @@
 				"min" : 4
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -43,18 +40,20 @@
 				"skill" : "eagleEye"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 1,
-				"subtype" : 11,
-				"type" : 2,
-				"val" : 5
+		"specialty" : {
+			"bonuses" : {
+				"eagleEye" : {
+					"subtype" : "skill.eagleEye",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE"
+				}
 			}
-		],
+		},
 		"spellbook" : [
 			"shield"
 		],
-			
 		"texts" : {
 			"biography" : "When Nimbus was a child he had a small dog that eventually died of old age.  Nimbus discovered that by sacrificing a small bird or other creature, he could resurrect his pet, a feat which he repeated each time the dog died.  Little did he realize that he was already exploring the beginnings of Necromancy.",
 			"name" : "Nimbus",

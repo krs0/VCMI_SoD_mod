@@ -13,8 +13,6 @@
 			"large" : "heroes/xsi/icons/portrait/HPL077NC.png",
 			"small" : "heroes/xsi/icons/portrait/HPS077NC.png"
 		},
-
-
 		"army" : [
 			{
 				"creature" : "skeleton",
@@ -32,7 +30,6 @@
 				"min" : 4
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -43,18 +40,18 @@
 				"skill" : "learning"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 0,
-				"subtype" : 46,
-				"type" : 8,
-				"val" : 0
+		"specialty" : {
+			"bonuses" : {
+				"stoneSkin" : {
+					"addInfo" : 0,
+					"subtype" : "spell.stoneSkin",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
 			}
-		],
+		},
 		"spellbook" : [
 			"stoneSkin"
 		],
-			
 		"texts" : {
 			"biography" : "Xsi was one of but a handful of females deemed worthy to make the transformation into full lich.  Xsi was selected because she possessed a unique ability to resist physical damage - a trick that has saved her more than once.",
 			"name" : "Xsi",

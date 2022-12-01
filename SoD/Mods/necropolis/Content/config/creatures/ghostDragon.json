@@ -1,8 +1,8 @@
 {
 	"ghostDragon": {
 		"name" : {
-			"plural" : "Ghost Dragons",
-			"singular" : "Ghost Dragon"
+			"singular" : "Ghost Dragon",
+			"plural" : "Ghost Dragons"
 		},
 		"faction" : "necropolis",
 		"level" : 7,
@@ -42,8 +42,9 @@
 				"type" : "SPELL_AFTER_ATTACK",
 				"val" : 20
 			},
-			"const_lowers_morale" : {
+			"decreaseMorale" : {
 				"effectRange" : "ONLY_ENEMY_ARMY",
+				"stacking" : "Undead Dragons",
 				"type" : "MORALE",
 				"val" : -1
 			},

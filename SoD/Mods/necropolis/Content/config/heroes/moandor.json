@@ -13,8 +13,6 @@
 			"large" : "heroes/moandor/icons/portrait/HPL066DK.png",
 			"small" : "heroes/moandor/icons/portrait/HPS066DK.png"
 		},
-
-
 		"army" : [
 			{
 				"creature" : "skeleton",
@@ -32,7 +30,6 @@
 				"min" : 4
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -43,18 +40,12 @@
 				"skill" : "learning"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 64,
-				"subtype" : 0,
-				"type" : 1,
-				"val" : 0
-			}
-		],
+		"specialty" : {
+			"creature" : "lich"
+		},
 		"spellbook" : [
 			"slow"
 		],
-			
 		"texts" : {
 			"biography" : "Moandor's charismatic style somehow stayed with him after he was transformed into a lich.  Strangely enough, this provides him with the ability to lead and recruit new liches more effectively than any other hero.",
 			"name" : "Moandor",

@@ -1,8 +1,8 @@
 {
 	"boneDragon": {
 		"name" : {
-			"plural" : "Bone Dragons",
-			"singular" : "Bone Dragon"
+			"singular" : "Bone Dragon",
+			"plural" : "Bone Dragons"
 		},
 		"faction" : "necropolis",
 		"level" : 7,
@@ -37,8 +37,9 @@
 			"KING_1" : {
 				"type" : "KING1"
 			},
-			"const_lowers_morale" : {
+			"decreaseMorale" : {
 				"effectRange" : "ONLY_ENEMY_ARMY",
+				"stacking" : "Undead Dragons",
 				"type" : "MORALE",
 				"val" : -1
 			},

@@ -1,8 +1,8 @@
 {
 	"lich": {
 		"name" : {
-			"plural" : "Liches",
-			"singular" : "Lich"
+			"singular" : "Lich",
+			"plural" : "Liches"
 		},
 		"faction" : "necropolis",
 		"level" : 5,
@@ -19,7 +19,6 @@
 			"min" : 11
 		},
 		"shots" : 12,
-		"doubleWide" : false,
 		"growth" : 3,
 		"horde" : 0,
 		"aiValue" : 848,

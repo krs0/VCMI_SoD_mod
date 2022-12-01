@@ -13,8 +13,6 @@
 			"large" : "heroes/straker/icons/portrait/HPL064DK.png",
 			"small" : "heroes/straker/icons/portrait/HPS064DK.png"
 		},
-
-
 		"army" : [
 			{
 				"creature" : "zombie",
@@ -32,7 +30,6 @@
 				"min" : 4
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -43,18 +40,12 @@
 				"skill" : "resistance"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 58,
-				"subtype" : 0,
-				"type" : 1,
-				"val" : 0
-			}
-		],
+		"specialty" : {
+			"creature" : "walkingDead"
+		},
 		"spellbook" : [
 			"haste"
 		],
-			
 		"texts" : {
 			"biography" : "Straker chose the dark path of Necromancy, but it was soon discovered that his fighting skills by far outclassed his magical abilities.  He serves now in the undead armies of Deyja, hoping to one day join the ranks of true Necromancers.",
 			"name" : "Straker",

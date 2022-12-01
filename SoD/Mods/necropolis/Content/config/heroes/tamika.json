@@ -13,8 +13,6 @@
 			"large" : "heroes/tamika/icons/portrait/HPL068DK.png",
 			"small" : "heroes/tamika/icons/portrait/HPS068DK.png"
 		},
-
-
 		"army" : [
 			{
 				"creature" : "skeleton",
@@ -32,7 +30,6 @@
 				"min" : 4
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -43,18 +40,12 @@
 				"skill" : "offence"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 66,
-				"subtype" : 0,
-				"type" : 1,
-				"val" : 0
-			}
-		],
+		"specialty" : {
+			"creature" : "blackKnight"
+		},
 		"spellbook" : [
 			"magicArrow"
 		],
-			
 		"texts" : {
 			"biography" : "Tamika's superior combat skills have put her in a position of power within the military forces of Deyja.  Besides merely leading troops, she is also responsible for training Black Knights and Dread Knights.",
 			"name" : "Tamika",

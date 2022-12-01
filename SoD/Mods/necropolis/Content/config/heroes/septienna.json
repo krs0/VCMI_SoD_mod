@@ -12,8 +12,6 @@
 			"large" : "heroes/septienna/icons/portrait/HPL072NC.png",
 			"small" : "heroes/septienna/icons/portrait/HPS072NC.png"
 		},
-
-
 		"army" : [
 			{
 				"creature" : "skeleton",
@@ -31,7 +29,6 @@
 				"min" : 4
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,18 +39,19 @@
 				"skill" : "scholar"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 0,
-				"subtype" : 24,
-				"type" : 3,
-				"val" : 3
+		"specialty" : {
+			"bonuses" : {
+				"deathRipple" : {
+					"subtype" : "spell.deathRipple",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
 			}
-		],
+		},
 		"spellbook" : [
 			"deathRipple"
 		],
-			
 		"texts" : {
 			"biography" : "Septienna suffers from what many call 'wasted magic,' as she seems to draw more life energy from her victims than she transfers into her minions.  Some claim that she keeps the residual energy for herself, which may explain why she does not appear to age.",
 			"name" : "Septienna",

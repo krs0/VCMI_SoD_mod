@@ -13,8 +13,6 @@
 			"large" : "heroes/vokial/icons/portrait/HPL065DK.png",
 			"small" : "heroes/vokial/icons/portrait/HPS065DK.png"
 		},
-
-
 		"army" : [
 			{
 				"creature" : "skeleton",
@@ -32,7 +30,6 @@
 				"min" : 4
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -43,18 +40,12 @@
 				"skill" : "artillery"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 62,
-				"subtype" : 0,
-				"type" : 1,
-				"val" : 0
-			}
-		],
+		"specialty" : {
+			"creature" : "vampire"
+		},
 		"spellbook" : [
 			"stoneSkin"
 		],
-			
 		"texts" : {
 			"biography" : "Nearly four centuries ago Vokial ruled his own kingdom, but as time passed he grew increasingly bored with day-to-day responsibilities.  He eventually gave up everything to return to the life of adventuring he much preferred.  He is an elder even among other vampires.",
 			"name" : "Vokial",

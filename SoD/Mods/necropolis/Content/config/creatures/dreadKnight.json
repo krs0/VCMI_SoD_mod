@@ -1,8 +1,8 @@
 {
 	"dreadKnight": {
 		"name" : {
-			"plural" : "Dread Knights",
-			"singular" : "Dread Knight"
+			"singular" : "Dread Knight",
+			"plural" : "Dread Knights"
 		},
 		"faction" : "necropolis",
 		"level" : 6,

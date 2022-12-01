@@ -13,8 +13,6 @@
 			"large" : "heroes/vidomina/icons/portrait/HPL078NC.png",
 			"small" : "heroes/vidomina/icons/portrait/HPS078NC.png"
 		},
-
-
 		"army" : [
 			{
 				"creature" : "skeleton",
@@ -32,25 +30,26 @@
 				"min" : 4
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "advanced",
 				"skill" : "necromancy"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 0,
-				"subtype" : 12,
-				"type" : 2,
-				"val" : 5
+		"specialty" : {
+			"bonuses" : {
+				"necromancy" : {
+					"subtype" : "skill.necromancy",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE"
+				}
 			}
-		],
+		},
 		"spellbook" : [
 			"curse"
 		],
-			
 		"texts" : {
 			"biography" : "At a young age, Vidomina showed promise as a great Alchemist, but was driven from Bracada when it was discovered that she had been using her skills not to animate inanimate matter, but to attempt to bring life to previously living creatures.",
 			"name" : "Vidomina",

@@ -1,8 +1,8 @@
 {
 	"powerLich": {
 		"name" : {
-			"plural" : "Power Liches",
-			"singular" : "Power Lich"
+			"singular" : "Power Lich",
+			"plural" : "Power Liches"
 		},
 		"faction" : "necropolis",
 		"level" : 5,
@@ -18,7 +18,6 @@
 			"min" : 11
 		},
 		"shots" : 24,
-		"doubleWide" : false,
 		"growth" : 3,
 		"horde" : 0,
 		"aiValue" : 1079,

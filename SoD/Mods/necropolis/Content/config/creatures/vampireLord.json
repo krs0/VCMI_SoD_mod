@@ -1,12 +1,11 @@
 {
 	"vampireLord": {
 		"name" : {
-			"plural" : "Vampire Lords",
-			"singular" : "Vampire Lord"
+			"singular" : "Vampire Lord",
+			"plural" : "Vampire Lords"
 		},
 		"faction" : "necropolis",
 		"level" : 4,
-		"upgrades": ["vampireLord"],
 		"cost" : {
 			"gold" : 500
 		},
@@ -18,7 +17,6 @@
 			"max" : 8,
 			"min" : 5
 		},
-		"doubleWide" : false,
 		"growth" : 4,
 		"horde" : 0,
 		"aiValue" : 783,

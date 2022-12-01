@@ -13,8 +13,6 @@
 			"large" : "heroes/aislinn/icons/portrait/HPL073NC.png",
 			"small" : "heroes/aislinn/icons/portrait/HPS073NC.png"
 		},
-
-
 		"army" : [
 			{
 				"creature" : "skeleton",
@@ -32,7 +30,6 @@
 				"min" : 4
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -43,18 +40,19 @@
 				"skill" : "wisdom"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 0,
-				"subtype" : 23,
-				"type" : 3,
-				"val" : 3
+		"specialty" : {
+			"bonuses" : {
+				"meteorShower" : {
+					"subtype" : "spell.meteorShower",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
 			}
-		],
+		},
 		"spellbook" : [
 			"meteorShower"
 		],
-			
 		"texts" : {
 			"biography" : "Aislinn has always preferred the feel of the earth over the sky, and many believe she can draw life from the ground merely by being in contact with it.  ",
 			"name" : "Aislinn",

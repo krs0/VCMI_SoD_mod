@@ -1,8 +1,8 @@
 {
 	"blackKnight": {
 		"name" : {
-			"plural" : "Black Knights",
-			"singular" : "Black Knight"
+			"singular" : "Black Knight",
+			"plural" : "Black Knights"
 		},
 		"faction" : "necropolis",
 		"level" : 6,

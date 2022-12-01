@@ -13,8 +13,6 @@
 			"large" : "heroes/galthran/icons/portrait/HPL071DK.png",
 			"small" : "heroes/galthran/icons/portrait/HPS071DK.png"
 		},
-
-
 		"army" : [
 			{
 				"creature" : "skeleton",
@@ -32,7 +30,6 @@
 				"min" : 20
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -43,18 +40,12 @@
 				"skill" : "armorer"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 56,
-				"subtype" : 0,
-				"type" : 1,
-				"val" : 0
-			}
-		],
+		"specialty" : {
+			"creature" : "skeleton"
+		},
 		"spellbook" : [
 			"shield"
 		],
-			
 		"texts" : {
 			"biography" : "Over the years, Galthran has developed new methods of creating and commanding skeletons which provides him with a distinct advantage in combat.",
 			"name" : "Galthran",
