@@ -13,7 +13,6 @@
 			"large" : "heroes/clancy/icons/portrait/HPL022RN.png",
 			"small" : "heroes/clancy/icons/portrait/HPS022RN.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "centaur",
@@ -31,7 +30,6 @@
 				"min" : 3
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,15 +40,9 @@
 				"skill" : "resistance"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 24,
-				"subtype" : 0,
-				"type" : 1,
-				"val" : 0
-			}
-		],
-
+		"specialty" : {
+			"creature" : "unicorn"
+		},
 		"texts" : {
 			"biography" : "It was by pure accident that Clancy discovered he could communicate with Unicorns, but this unique ability has served him well as he worked his way through the ranks of AvLee's Military Elite.",
 			"name" : "Clancy",

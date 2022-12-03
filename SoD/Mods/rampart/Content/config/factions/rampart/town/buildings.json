@@ -7,12 +7,7 @@
 			{
 				"blacksmith" : {
 					"cost" : {
-						"crystal" : 0,
-						"gems" : 0,
 						"gold" : 1000,
-						"mercury" : 0,
-						"ore" : 0,
-						"sulfur" : 0,
 						"wood" : 5
 					},
 					"description" : "The Blacksmith provides your armies with First Aid Tents.",
@@ -20,25 +15,18 @@
 				},
 				"capitol" : {
 					"cost" : {
-						"crystal" : 0,
-						"gems" : 0,
-						"gold" : 10000,
-						"mercury" : 0,
-						"ore" : 0,
-						"sulfur" : 0,
-						"wood" : 0
+						"gold" : 10000
 					},
 					"description" : "The Capitol earns your kingdom 4000 gold per day.",
-					"name" : "Capitol"
+					"name" : "Capitol",
+					"produce": {
+						"gold": 4000
+					}
 				},
 				"castle" : {
 					"cost" : {
-						"crystal" : 0,
-						"gems" : 0,
 						"gold" : 5000,
-						"mercury" : 0,
 						"ore" : 10,
-						"sulfur" : 0,
 						"wood" : 10
 					},
 					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
@@ -46,38 +34,25 @@
 				},
 				"citadel" : {
 					"cost" : {
-						"crystal" : 0,
-						"gems" : 0,
 						"gold" : 2500,
-						"mercury" : 0,
-						"ore" : 5,
-						"sulfur" : 0,
-						"wood" : 0
+						"ore" : 5
 					},
 					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
 					"name" : "Citadel"
 				},
 				"cityHall" : {
 					"cost" : {
-						"crystal" : 0,
-						"gems" : 0,
-						"gold" : 5000,
-						"mercury" : 0,
-						"ore" : 0,
-						"sulfur" : 0,
-						"wood" : 0
+						"gold" : 5000
 					},
 					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
-					"name" : "City Hall"
+					"name" : "City Hall",
+					"produce" : {
+						"gold" : 2000
+					}
 				},
 				"dwellingLvl1" : {
 					"cost" : {
-						"crystal" : 0,
-						"gems" : 0,
 						"gold" : 500,
-						"mercury" : 0,
-						"ore" : 0,
-						"sulfur" : 0,
 						"wood" : 10
 					},
 					"description" : "The Centaur Stables allow you to recruit Centaurs.",
@@ -85,12 +60,7 @@
 				},
 				"dwellingLvl2" : {
 					"cost" : {
-						"crystal" : 0,
-						"gems" : 0,
 						"gold" : 1000,
-						"mercury" : 0,
-						"ore" : 0,
-						"sulfur" : 0,
 						"wood" : 5
 					},
 					"description" : "The Dwarf Cottage allows you to recruit Dwarves.",
@@ -98,12 +68,7 @@
 				},
 				"dwellingLvl3" : {
 					"cost" : {
-						"crystal" : 0,
-						"gems" : 0,
 						"gold" : 1500,
-						"mercury" : 0,
-						"ore" : 0,
-						"sulfur" : 0,
 						"wood" : 10
 					},
 					"description" : "The Homestead allows you to recruit Wood Elves.",
@@ -112,37 +77,23 @@
 				"dwellingLvl4" : {
 					"cost" : {
 						"crystal" : 10,
-						"gems" : 0,
-						"gold" : 2000,
-						"mercury" : 0,
-						"ore" : 0,
-						"sulfur" : 0,
-						"wood" : 0
+						"gold" : 2000
 					},
 					"description" : "The Enchanted Spring allows you to recruit Pegasi.",
 					"name" : "Enchanted Spring"
 				},
 				"dwellingLvl5" : {
 					"cost" : {
-						"crystal" : 0,
-						"gems" : 0,
-						"gold" : 2500,
-						"mercury" : 0,
-						"ore" : 0,
-						"sulfur" : 0,
-						"wood" : 0
+						"gold" : 2500
 					},
 					"description" : "The Dendroid Arches allow you to recruit Dendroid Guards.",
 					"name" : "Dendroid Arches"
 				},
 				"dwellingLvl6" : {
 					"cost" : {
-						"crystal" : 0,
 						"gems" : 10,
 						"gold" : 4000,
-						"mercury" : 0,
 						"ore" : 5,
-						"sulfur" : 0,
 						"wood" : 5
 					},
 					"description" : "The Unicorn Glade allows you to recruit Unicorns.",
@@ -153,22 +104,14 @@
 						"crystal" : 20,
 						"gems" : 0,
 						"gold" : 10000,
-						"mercury" : 0,
-						"ore" : 30,
-						"sulfur" : 0,
-						"wood" : 0
+						"ore" : 30
 					},
 					"description" : "The Dragon Cliffs allow you to recruit Green Dragons.",
 					"name" : "Dragon Cliffs"
 				},
 				"dwellingUpLvl1" : {
 					"cost" : {
-						"crystal" : 0,
-						"gems" : 0,
 						"gold" : 1000,
-						"mercury" : 0,
-						"ore" : 0,
-						"sulfur" : 0,
 						"wood" : 5
 					},
 					"description" : "The Centaur Stables allow you to recruit Centaur Captains.",
@@ -176,12 +119,7 @@
 				},
 				"dwellingUpLvl2" : {
 					"cost" : {
-						"crystal" : 0,
-						"gems" : 0,
 						"gold" : 1000,
-						"mercury" : 0,
-						"ore" : 0,
-						"sulfur" : 0,
 						"wood" : 5
 					},
 					"description" : "The Dwarf Cottage allows you to recruit Battle Dwarves.",
@@ -189,12 +127,7 @@
 				},
 				"dwellingUpLvl3" : {
 					"cost" : {
-						"crystal" : 0,
-						"gems" : 0,
 						"gold" : 1500,
-						"mercury" : 0,
-						"ore" : 0,
-						"sulfur" : 0,
 						"wood" : 10
 					},
 					"description" : "The Homestead allows you to recruit Grand Elves.",
@@ -203,38 +136,22 @@
 				"dwellingUpLvl4" : {
 					"cost" : {
 						"crystal" : 5,
-						"gems" : 0,
-						"gold" : 2000,
-						"mercury" : 0,
-						"ore" : 0,
-						"sulfur" : 0,
-						"wood" : 0
+						"gold" : 2000
 					},
 					"description" : "The Enchanted Spring allows you to recruit Silver Pegasi.",
 					"name" : "Upg. Enchanted Spring"
 				},
 				"dwellingUpLvl5" : {
 					"cost" : {
-						"crystal" : 0,
-						"gems" : 0,
-						"gold" : 1500,
-						"mercury" : 0,
-						"ore" : 0,
-						"sulfur" : 0,
-						"wood" : 0
+						"gold" : 1500
 					},
 					"description" : "The Dendroid Arches allow you to recruit Dendroid Soldiers.",
 					"name" : "Upg. Dendroid Arches"
 				},
 				"dwellingUpLvl6" : {
 					"cost" : {
-						"crystal" : 0,
 						"gems" : 5,
-						"gold" : 3000,
-						"mercury" : 0,
-						"ore" : 0,
-						"sulfur" : 0,
-						"wood" : 0
+						"gold" : 3000
 					},
 					"description" : "The Unicorn Glade allows you to recruit War Unicorns.",
 					"name" : "Upg. Unicorn Glade"
@@ -242,24 +159,25 @@
 				"dwellingUpLvl7" : {
 					"cost" : {
 						"crystal" : 20,
-						"gems" : 0,
 						"gold" : 20000,
-						"mercury" : 0,
-						"ore" : 30,
-						"sulfur" : 0,
-						"wood" : 0
+						"ore" : 30
 					},
 					"description" : "The Dragon Cliffs allow you to recruit Gold Dragons.",
 					"name" : "Upg. Dragon Cliffs"
 				},
+				"extraCapitol" : {
+					"mode" : "auto"
+				},
+				"extraCityHall" : {
+					"mode" : "auto"
+				},
+				"extraTownHall" : {
+					"mode" : "auto"
+				},
 				"fort" : {
 					"cost" : {
-						"crystal" : 0,
-						"gems" : 0,
 						"gold" : 5000,
-						"mercury" : 0,
 						"ore" : 20,
-						"sulfur" : 0,
 						"wood" : 20
 					},
 					"description" : "The Fort provides your town with defensive walls.",
@@ -267,68 +185,53 @@
 				},
 				"grail" : {
 					"description" : "The presence of the Spirit Guardian increases weekly creature generation by 50%, provides your kingdom with an additional 5000 gold each day, and increases the luck of all allied heroes by +2.",
-					"name" : "Spirit Guardian"
+					"name" : "Spirit Guardian",
+					"mode" : "grail",
+					"produce": {
+						"gold": 5000
+					},
+					"bonuses" : [
+						{
+							"propagator" : "PLAYER_PROPAGATOR",
+							"type" : "LUCK",
+							"val" : 2
+						}
+					],
 				},
 				"horde1" : {
 					"cost" : {
-						"crystal" : 0,
-						"gems" : 0,
-						"gold" : 1000,
-						"mercury" : 0,
-						"ore" : 0,
-						"sulfur" : 0,
-						"wood" : 0
+						"gold" : 1000
 					},
 					"description" : "The Miners' Guild increases Dwarf production by 4 per week.",
 					"name" : "Miners' Guild"
 				},
 				"horde1Upgr" : {
 					"cost" : {
-						"crystal" : 0,
-						"gems" : 0,
-						"gold" : 1000,
-						"mercury" : 0,
-						"ore" : 0,
-						"sulfur" : 0,
-						"wood" : 0
+						"gold" : 1000
 					},
 					"description" : "The Miners' Guild increases Battle Dwarf production by 4 per week.",
-					"name" : "Miners' Guild"
+					"name" : "Miners' Guild",
+					"mode" : "auto"
 				},
 				"horde2" : {
 					"cost" : {
-						"crystal" : 0,
-						"gems" : 0,
-						"gold" : 2000,
-						"mercury" : 0,
-						"ore" : 0,
-						"sulfur" : 0,
-						"wood" : 0
+						"gold" : 2000
 					},
 					"description" : "The Dendroid Saplings increase Dendroid Guard production by 2 per week.",
 					"name" : "Dendroid Saplings"
 				},
 				"horde2Upgr" : {
 					"cost" : {
-						"crystal" : 0,
-						"gems" : 0,
-						"gold" : 2000,
-						"mercury" : 0,
-						"ore" : 0,
-						"sulfur" : 0,
-						"wood" : 0
+						"gold" : 2000
 					},
 					"description" : "The Dendroid Saplings increase Dendroid Soldier production by 2 per week.",
-					"name" : "Dendroid Saplings"
+					"name" : "Dendroid Saplings",
+					"mode" : "auto"
 				},
 				"mageGuild1" : {
 					"cost" : {
-						"crystal" : 0,
-						"gems" : 0,
 						"gold" : 2000,
-						"mercury" : 0,
 						"ore" : 5,
-						"sulfur" : 0,
 						"wood" : 5
 					},
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
@@ -388,12 +291,7 @@
 				},
 				"marketplace" : {
 					"cost" : {
-						"crystal" : 0,
-						"gems" : 0,
 						"gold" : 500,
-						"mercury" : 0,
-						"ore" : 0,
-						"sulfur" : 0,
 						"wood" : 5
 					},
 					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
@@ -401,16 +299,14 @@
 				},
 				"resourceSilo" : {
 					"cost" : {
-						"crystal" : 0,
-						"gems" : 0,
 						"gold" : 5000,
-						"mercury" : 0,
-						"ore" : 5,
-						"sulfur" : 0,
-						"wood" : 0
+						"ore" : 5
 					},
 					"description" : "The Resource Silo provides you with an additional +1 crystal each day.",
-					"name" : "Resource Silo"
+					"name" : "Resource Silo",
+					"produce": {
+						"crystal": 1
+					}
 				},
 				"special1" : {
 					"cost" : {
@@ -428,24 +324,15 @@
 				"special2" : {
 					"cost" : {
 						"crystal" : 10,
-						"gems" : 0,
-						"gold" : 1500,
-						"mercury" : 0,
-						"ore" : 0,
-						"sulfur" : 0,
-						"wood" : 0
+						"gold" : 1500
 					},
 					"description" : "The Fountain of Fortune increases the luck of the garrison hero by +2 when defending against a siege.",
 					"name" : "Fountain of Fortune"
 				},
 				"special3" : {
 					"cost" : {
-						"crystal" : 0,
-						"gems" : 0,
 						"gold" : 5000,
-						"mercury" : 0,
 						"ore" : 10,
-						"sulfur" : 0,
 						"wood" : 5
 					},
 					"description" : "The Treasury earns you 10% interest on any gold you have at the start of each week.",
@@ -453,12 +340,7 @@
 				},
 				"tavern" : {
 					"cost" : {
-						"crystal" : 0,
-						"gems" : 0,
 						"gold" : 500,
-						"mercury" : 0,
-						"ore" : 0,
-						"sulfur" : 0,
 						"wood" : 5
 					},
 					"description" : "The Tavern increases morale for troops defending the city.",
@@ -466,29 +348,24 @@
 				},
 				"townHall" : {
 					"cost" : {
-						"crystal" : 0,
-						"gems" : 0,
-						"gold" : 2500,
-						"mercury" : 0,
-						"ore" : 0,
-						"sulfur" : 0,
-						"wood" : 0
+						"gold" : 2500
 					},
 					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
-					"name" : "Town Hall"
+					"name" : "Town Hall",
+					"produce": {
+						"gold": 1000
+					}
 				},
 				"villageHall" : {
 					"cost" : {
-						"crystal" : 0,
-						"gems" : 0,
-						"gold" : 1,
-						"mercury" : 0,
-						"ore" : 0,
-						"sulfur" : 0,
-						"wood" : 0
+						"gold" : 1
 					},
 					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
-					"name" : "Village Hall"
+					"name" : "Village Hall",
+					"mode" : "auto",
+					"produce": {
+						"gold": 500
+					}
 				}
 			}
 		}

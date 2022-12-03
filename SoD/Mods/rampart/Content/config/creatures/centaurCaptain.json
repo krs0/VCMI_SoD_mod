@@ -1,12 +1,11 @@
 {
 	"centaurCaptain": {
 		"name" : {
-			"plural" : "Centaur Captains",
-			"singular" : "Centaur Captain"
+			"singular" : "Centaur Captain",
+			"plural" : "Centaur Captains"
 		},
 		"faction" : "rampart",
 		"level" : 1,
-		"upgrades": ["centaurCaptain"],
 		"cost" : {
 			"gold" : 90
 		},
@@ -28,7 +27,6 @@
 			"min" : 20
 		},
 		"abilityText" : "",
-		"hasDoubleWeek" : true,
 		"graphics" : {
 			"animation" : "creatures/centaurCaptain/battle/CECENT.def",
 			"map" : "creatures/centaurCaptain/adventureMap/AVWcentx0.def",

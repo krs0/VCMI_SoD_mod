@@ -13,7 +13,6 @@
 			"large" : "heroes/uland/icons/portrait/HPL025DR.png",
 			"small" : "heroes/uland/icons/portrait/HPS025DR.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "centaur",
@@ -31,7 +30,6 @@
 				"min" : 3
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "advanced",
@@ -42,18 +40,19 @@
 				"skill" : "ballistics"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 0,
-				"subtype" : 37,
-				"type" : 3,
-				"val" : 3
+		"specialty" : {
+			"bonuses" : {
+				"cure" : {
+					"subtype" : "spell.cure",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
 			}
-		],
+		},
 		"spellbook" : [
 			"cure"
 		],
-
 		"texts" : {
 			"biography" : "Uland spent a great deal of his life as a battlefield healer before choosing to follow the path of a Druid, but the lessons he learned serving in the military have made him into an excellent leader today.",
 			"name" : "Uland",

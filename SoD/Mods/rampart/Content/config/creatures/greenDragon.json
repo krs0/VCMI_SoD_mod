@@ -1,8 +1,8 @@
 {
 	"greenDragon": {
 		"name" : {
-			"plural" : "Green Dragons",
-			"singular" : "Green Dragon"
+			"singular" : "Green Dragon",
+			"plural" : "Green Dragons"
 		},
 		"faction" : "rampart",
 		"level" : 7,

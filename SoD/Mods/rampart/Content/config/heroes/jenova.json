@@ -13,7 +13,6 @@
 			"large" : "heroes/jenova/icons/portrait/HPL018RN.png",
 			"small" : "heroes/jenova/icons/portrait/HPS018RN.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "centaur",
@@ -31,22 +30,21 @@
 				"min" : 3
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "advanced",
 				"skill" : "archery"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 0,
-				"subtype" : 6,
-				"type" : 10,
-				"val" : 350
+		"specialty" : {
+			"bonuses" : {
+				"gold" : {
+					"subtype" : "resource.gold",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 350
+				}
 			}
-		],
-
+		},
 		"texts" : {
 			"biography" : "Jenova's kindhearted nature has made her well liked throughout much of Erathia.  Her beguiling charms have allowed her to raise money for whatever cause she chooses to follow.",
 			"name" : "Jenova",

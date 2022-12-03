@@ -1,8 +1,8 @@
 {
 	"warUnicorn": {
 		"name" : {
-			"plural" : "War Unicorns",
-			"singular" : "War Unicorn"
+			"singular" : "War Unicorn",
+			"plural" : "War Unicorns"
 		},
 		"faction" : "rampart",
 		"level" : 6,

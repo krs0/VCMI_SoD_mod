@@ -1,8 +1,8 @@
 {
 	"silverPegasus": {
 		"name" : {
-			"plural" : "Silver Pegasi",
-			"singular" : "Silver Pegasus"
+			"singular" : "Silver Pegasus",
+			"plural" : "Silver Pegasi"
 		},
 		"faction" : "rampart",
 		"level" : 4,
@@ -20,7 +20,6 @@
 		"doubleWide" : true,
 		"growth" : 5,
 		"horde" : 0,
-		"hasDoubleWeek" : true,
 		"aiValue" : 532,
 		"fightValue" : 418,
 		"advMapAmount" : {

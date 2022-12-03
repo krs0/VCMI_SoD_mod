@@ -1,8 +1,8 @@
 {
 	"pegasus": {
 		"name" : {
-			"plural" : "Pegasi",
-			"singular" : "Pegasus"
+			"singular" : "Pegasus",
+			"plural" : "Pegasi"
 		},
 		"faction" : "rampart",
 		"level" : 4,

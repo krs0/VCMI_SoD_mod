@@ -13,7 +13,6 @@
 			"large" : "heroes/ufretin/icons/portrait/HPL017RN.png",
 			"small" : "heroes/ufretin/icons/portrait/HPS017RN.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "dwarf",
@@ -31,7 +30,6 @@
 				"min" : 3
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,15 +40,9 @@
 				"skill" : "resistance"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 16,
-				"subtype" : 0,
-				"type" : 1,
-				"val" : 0
-			}
-		],
-
+		"specialty" : {
+			"creature" : "dwarf"
+		},
 		"texts" : {
 			"biography" : "It is unusual to see a Dwarven Ranger, but for Ufretin the skills came naturally.  He has become an icon to the surface-dwelling dwarven population, and a natural born leader among all dwarvenkind.",
 			"name" : "Ufretin",

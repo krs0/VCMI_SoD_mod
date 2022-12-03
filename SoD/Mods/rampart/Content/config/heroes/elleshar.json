@@ -13,7 +13,6 @@
 			"large" : "heroes/elleshar/icons/portrait/HPL026DR.png",
 			"small" : "heroes/elleshar/icons/portrait/HPS026DR.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "centaur",
@@ -31,7 +30,6 @@
 				"min" : 3
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,14 +40,17 @@
 				"skill" : "intelligence"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 0,
-				"subtype" : 24,
-				"type" : 2,
-				"val" : 5
+		"specialty" : {
+			"bonuses" : {
+				"intelligence" : {
+					"subtype" : "skill.intelligence",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE"
+				}
 			}
-		],
+		},
 		"spellbook" : [
 			"curse"
 		],

@@ -13,7 +13,6 @@
 			"large" : "heroes/ryland/icons/portrait/HPL019RN.png",
 			"small" : "heroes/ryland/icons/portrait/HPS019RN.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "centaur",
@@ -31,7 +30,6 @@
 				"min" : 3
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,15 +40,9 @@
 				"skill" : "leadership"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 22,
-				"subtype" : 0,
-				"type" : 1,
-				"val" : 0
-			}
-		],
-
+		"specialty" : {
+			"creature" : "dendroidGuard"
+		},
 		"texts" : {
 			"biography" : "Ryland was the first (and to date, the only) human ever fully accepted by the Circle of Elder Dendroids as a Ranger of AvLee.  Some joke that he was once an Elf, but that he was killed and accidentally reincarnated into a human's body.",
 			"name" : "Ryland",

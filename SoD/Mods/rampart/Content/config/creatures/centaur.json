@@ -1,8 +1,8 @@
 {
 	"centaur": {
 		"name" : {
-			"plural" : "Centaurs",
-			"singular" : "Centaur"
+			"singular" : "Centaur",
+			"plural" : "Centaurs"
 		},
 		"faction" : "rampart",
 		"level" : 1,
@@ -21,6 +21,7 @@
 		"doubleWide" : true,
 		"growth" : 14,
 		"horde" : 0,
+		"hasDoubleWeek" : true,
 		"aiValue" : 100,
 		"fightValue" : 100,
 		"advMapAmount" : {
@@ -28,7 +29,6 @@
 			"min" : 20
 		},
 		"abilityText" : "",
-		"hasDoubleWeek" : true,
 		"graphics" : {
 			"animation" : "creatures/centaur/battle/CCENTR.def",
 			"map" : "creatures/centaur/adventureMap/AVWcent0.def",
@@ -40,7 +40,6 @@
 				"idle" : 10,
 				"walk" : 0.5
 			},
-			"missile" : null,
 			"timeBetweenFidgets" : 1,
 			"troopCountLocationOffset" : 0
 		},

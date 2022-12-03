@@ -13,7 +13,6 @@
 			"large" : "heroes/gem/icons/portrait/HPL027DR.png",
 			"small" : "heroes/gem/icons/portrait/HPS027DR.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "centaur",
@@ -31,7 +30,6 @@
 				"min" : 3
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,18 +40,20 @@
 				"skill" : "firstAid"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 0,
-				"subtype" : 27,
-				"type" : 2,
-				"val" : 5
+		"specialty" : {
+			"bonuses" : {
+				"firstAid" : {
+					"subtype" : "skill.firstAid",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE"
+				}
 			}
-		],
+		},
 		"spellbook" : [
 			"summonBoat"
 		],
-
 		"texts" : {
 			"biography" : "Gem was one of the greatest Sorceresses that Enroth had ever seen, serving King Roland Ironfist during the Succession Wars.  Shortly after Roland had secured the throne of Enroth, Gem left for Erathia, finding a new home in AvLee.",
 			"name" : "Gem",

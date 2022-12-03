@@ -1,8 +1,8 @@
 {
 	"goldDragon": {
 		"name" : {
-			"plural" : "Gold Dragons",
-			"singular" : "Gold Dragon"
+			"singular" : "Gold Dragon",
+			"plural" : "Gold Dragons"
 		},
 		"faction" : "rampart",
 		"level" : 7,

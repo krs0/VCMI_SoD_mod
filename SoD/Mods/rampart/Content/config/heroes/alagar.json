@@ -13,7 +13,6 @@
 			"large" : "heroes/alagar/icons/portrait/HPL030DR.png",
 			"small" : "heroes/alagar/icons/portrait/HPS030DR.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "centaur",
@@ -31,7 +30,6 @@
 				"min" : 3
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,18 +40,19 @@
 				"skill" : "sorcery"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 0,
-				"subtype" : 16,
-				"type" : 3,
-				"val" : 3
+		"specialty" : {
+			"bonuses" : {
+				"iceBolt" : {
+					"subtype" : "spell.iceBolt",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
 			}
-		],
+		},
 		"spellbook" : [
 			"iceBolt"
 		],
-
 		"texts" : {
 			"biography" : "Rumored to have once lived among the Vori Snow Elves, Alagar's command of the element of Water, especially ice, is unsurpassed.  He has served AvLee since before the Kreegan invasion.",
 			"name" : "Alagar",

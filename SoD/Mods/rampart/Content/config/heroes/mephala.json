@@ -13,7 +13,6 @@
 			"large" : "heroes/mephala/icons/portrait/HPL016RN.png",
 			"small" : "heroes/mephala/icons/portrait/HPS016RN.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "centaur",
@@ -31,7 +30,6 @@
 				"min" : 3
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,15 +40,17 @@
 				"skill" : "armorer"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 0,
-				"subtype" : 23,
-				"type" : 2,
-				"val" : 5
+		"specialty" : {
+			"bonuses" : {
+				"armorer" : {
+					"subtype" : "skill.armorer",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE"
+				}
 			}
-		],
-
+		},
 		"texts" : {
 			"biography" : "Trained in the ranks of the Erathian Military, Mephala was a genius when it came to using terrain to her advantage in battle.  She resigned her commission several years ago, preferring the quiet serenity of AvLee to the bustle of the cities of Erathia.",
 			"name" : "Mephala",

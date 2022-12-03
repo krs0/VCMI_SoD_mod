@@ -13,7 +13,6 @@
 			"large" : "heroes/coronius/icons/portrait/HPL024DR.png",
 			"small" : "heroes/coronius/icons/portrait/HPS024DR.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "centaur",
@@ -31,7 +30,6 @@
 				"min" : 3
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,18 +40,18 @@
 				"skill" : "scholar"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 1,
-				"subtype" : 55,
-				"type" : 8,
-				"val" : 0
+		"specialty" : {
+			"bonuses" : {
+				"slayer" : {
+					"addInfo" : 1,
+					"subtype" : "spell.slayer",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
 			}
-		],
+		},
 		"spellbook" : [
 			"slayer"
 		],
-
 		"texts" : {
 			"biography" : "Coronius attended the University of Erathia for one semester before he realized that academics were overrated.  He left Erathia for AvLee, finding a Druid who could teach by example.",
 			"name" : "Coronius",

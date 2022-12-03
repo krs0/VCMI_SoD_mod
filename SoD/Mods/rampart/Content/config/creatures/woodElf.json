@@ -1,8 +1,8 @@
 {
 	"woodElf": {
 		"name" : {
-			"plural" : "Wood Elves",
-			"singular" : "Wood Elf"
+			"singular" : "Wood Elf",
+			"plural" : "Wood Elves"
 		},
 		"faction" : "rampart",
 		"level" : 3,
@@ -19,7 +19,6 @@
 			"min" : 3
 		},
 		"shots" : 24,
-		"doubleWide" : false,
 		"growth" : 7,
 		"horde" : 0,
 		"aiValue" : 234,

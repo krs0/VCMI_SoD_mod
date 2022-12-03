@@ -13,7 +13,6 @@
 			"large" : "heroes/aeris/icons/portrait/HPL031DR.png",
 			"small" : "heroes/aeris/icons/portrait/HPS031DR.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "centaur",
@@ -31,7 +30,6 @@
 				"min" : 3
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,18 +40,12 @@
 				"skill" : "scouting"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 20,
-				"subtype" : 0,
-				"type" : 1,
-				"val" : 0
-			}
-		],
+		"specialty" : {
+			"creature" : "pegasus"
+		},
 		"spellbook" : [
 			"protectAir"
 		],
-
 		"texts" : {
 			"biography" : "Aeris is one of the best animal handlers in all of AvLee.  He can sense ideal pairings between elves and pegasi which have made him one of the most sought out Druids in the land.",
 			"name" : "Aeris",

@@ -13,7 +13,6 @@
 			"large" : "heroes/ivor/icons/portrait/HPL021RN.png",
 			"small" : "heroes/ivor/icons/portrait/HPS021RN.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "centaur",
@@ -31,7 +30,6 @@
 				"min" : 3
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,15 +40,9 @@
 				"skill" : "offence"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 18,
-				"subtype" : 0,
-				"type" : 1,
-				"val" : 0
-			}
-		],
-
+		"specialty" : {
+			"creature" : "woodElf"
+		},
 		"texts" : {
 			"biography" : "Ivor's lineage can be traced back nearly to the Silence.  Though bred as nobility, he has always been a hothead, preferring to lead an attack rather than wait to be attacked.  His brashness has so far kept him alive.",
 			"name" : "Ivor",
