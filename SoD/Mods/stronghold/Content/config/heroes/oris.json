@@ -13,7 +13,6 @@
 			"large" : "heroes/oris/icons/portrait/HPL110BM.png",
 			"small" : "heroes/oris/icons/portrait/HPS110BM.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "goblin",
@@ -31,7 +30,6 @@
 				"min" : 4
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -50,10 +48,17 @@
 				"val" : 5
 			}
 		],
-		"spellbook" : [
-			"protectAir"
-		],
-		
+		"specialty" : {
+			"bonuses" : {
+				"eagleEye" : {
+					"subtype" : "skill.eagleEye",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE"
+				}
+			}
+		},
 		"texts" : {
 			"biography" : "Oris did not show much promise as a mage early in her career, but her uncanny ability to learn nearly any spell she sees cast has made up for any apparent lack of magical skills.",
 			"name" : "Oris",

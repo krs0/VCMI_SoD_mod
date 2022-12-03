@@ -1,8 +1,8 @@
 {
 	"hobgoblin": {
 		"name" : {
-			"plural" : "Hobgoblins",
-			"singular" : "Hobgoblin"
+			"singular" : "Hobgoblin",
+			"plural" : "Hobgoblins"
 		},
 		"extraNames" : [
 			"goblins"
@@ -20,7 +20,6 @@
 			"max" : 2,
 			"min" : 1
 		},
-		"doubleWide" : false,
 		"growth" : 15,
 		"horde" : 8,
 		"hasDoubleWeek" : true,

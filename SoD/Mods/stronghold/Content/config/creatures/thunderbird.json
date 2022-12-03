@@ -1,8 +1,8 @@
 {
 	"thunderbird": {
 		"name" : {
-			"plural" : "Thunderbirds",
-			"singular" : "Thunderbird"
+			"singular" : "Thunderbird",
+			"plural" : "Thunderbirds"
 		},
 		"faction" : "stronghold",
 		"level" : 5,

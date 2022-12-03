@@ -1,8 +1,8 @@
 {
 	"hobgoblinWolfRider": {
 		"name" : {
-			"plural" : "Wolf Raiders",
-			"singular" : "Wolf Raider"
+			"singular" : "Wolf Raider",
+			"plural" : "Wolf Raiders"
 		},
 		"faction" : "stronghold",
 		"level" : 2,

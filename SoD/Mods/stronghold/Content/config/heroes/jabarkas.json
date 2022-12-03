@@ -13,7 +13,6 @@
 			"large" : "heroes/jabarkas/icons/portrait/HPL098BR.png",
 			"small" : "heroes/jabarkas/icons/portrait/HPS098BR.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "goblin",
@@ -31,7 +30,6 @@
 				"min" : 4
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,15 +40,9 @@
 				"skill" : "archery"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 88,
-				"subtype" : 0,
-				"type" : 1,
-				"val" : 0
-			}
-		],
-
+		"specialty" : {
+			"creature" : "orc"
+		},
 		"texts" : {
 			"biography" : "Being the eldest son of Duke Boragus, Jabarkas knows that he will one day rule the lands of Krewlod.  Like his father, he has learned that the best way to achieve his goals is through conquest.",
 			"name" : "Jabarkas",

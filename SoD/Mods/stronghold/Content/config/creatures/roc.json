@@ -1,8 +1,8 @@
 {
 	"roc": {
 		"name" : {
-			"plural" : "Rocs",
-			"singular" : "Roc"
+			"singular" : "Roc",
+			"plural" : "Rocs"
 		},
 		"faction" : "stronghold",
 		"level" : 5,

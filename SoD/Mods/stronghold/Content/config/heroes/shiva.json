@@ -13,7 +13,6 @@
 			"large" : "heroes/shiva/icons/portrait/HPL099BR.png",
 			"small" : "heroes/shiva/icons/portrait/HPS099BR.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "goblin",
@@ -31,7 +30,6 @@
 				"min" : 4
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,15 +40,9 @@
 				"skill" : "scouting"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 92,
-				"subtype" : 0,
-				"type" : 1,
-				"val" : 0
-			}
-		],
-
+		"specialty" : {
+			"creature" : "roc"
+		},
 		"texts" : {
 			"biography" : "Shiva is the youngest of six daughters in a family of circus animal trainers.  Unhappy with the prospect of spending her entire life in the family business, she left the circus to join the Krewlod military as a mercenary, a business that she has excelled at.",
 			"name" : "Shiva",

@@ -13,7 +13,6 @@
 			"large" : "heroes/cragHack/icons/portrait/HPL102BR.png",
 			"small" : "heroes/cragHack/icons/portrait/HPS102BR.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "goblin",
@@ -31,22 +30,23 @@
 				"min" : 4
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "advanced",
 				"skill" : "offence"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 90,
-				"subtype" : 0,
-				"type" : 1,
-				"val" : 0
+		"specialty" : {
+			"bonuses" : {
+				"offence" : {
+					"subtype" : "skill.offence",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE"
+				}
 			}
-		],
-		
+		},
 		"texts" : {
 			"biography" : "A decorated hero in Enroth, Crag Hack became bored with his home, deciding to seek out a new life in Erathia.  He boldly set sail for this new frontier, and was delighted to find a land in turmoil where his skills could be best put to use.",
 			"name" : "Crag Hack",

@@ -13,7 +13,6 @@
 			"large" : "heroes/terek/icons/portrait/HPL107BM.png",
 			"small" : "heroes/terek/icons/portrait/HPS107BM.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "goblin",
@@ -31,7 +30,6 @@
 				"min" : 4
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,18 +40,18 @@
 				"skill" : "tactics"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 0,
-				"subtype" : 2,
-				"type" : 2,
-				"val" : 5
+		"specialty" : {
+			"bonuses" : {
+				"haste" : {
+					"addInfo" : 0,
+					"subtype" : "spell.haste",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
 			}
-		],
+		},
 		"spellbook" : [
 			"haste"
 		],
-		
 		"texts" : {
 			"biography" : "Terek spent several years as a strong-man in the Circus of the Sun, challenging spectators to see who could throw large rocks the furthest.  One day he lost, and was run out of the Circus, but the man who had beaten him recruited him for the Krewlod Army.",
 			"name" : "Terek",

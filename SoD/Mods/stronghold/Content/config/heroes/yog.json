@@ -13,7 +13,6 @@
 			"large" : "heroes/yog/icons/portrait/HPL096BR.png",
 			"small" : "heroes/yog/icons/portrait/HPS096BR.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "goblin",
@@ -31,7 +30,6 @@
 				"min" : 4
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,15 +40,9 @@
 				"skill" : "ballistics"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 94,
-				"subtype" : 0,
-				"type" : 1,
-				"val" : 0
-			}
-		],
-
+		"specialty" : {
+			"creature" : "cyclop"
+		},
 		"texts" : {
 			"biography" : "Yog studied for many years with the Wizards of Bracada, but he was often found reading texts on war rather than those on magic.  The Duke of Krewlod offered him a military command, allowing Yog to happily use his knowledge of war.",
 			"name" : "Yog",

@@ -13,7 +13,6 @@
 			"large" : "heroes/zubin/icons/portrait/HPL108BM.png",
 			"small" : "heroes/zubin/icons/portrait/HPS108BM.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "goblin",
@@ -31,7 +30,6 @@
 				"min" : 4
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,18 +40,18 @@
 				"skill" : "artillery"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 0,
-				"subtype" : 53,
-				"type" : 8,
-				"val" : 0
+		"specialty" : {
+			"bonuses" : {
+				"precision" : {
+					"addInfo" : 0,
+					"subtype" : "spell.precision",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
 			}
-		],
+		},
 		"spellbook" : [
 			"precision"
 		],
-		
 		"texts" : {
 			"biography" : "Zubin was once chief of a tribe which fought against Duke Boragus.  When peace was finally attained, he was offered his own command within the armies of Krewlod.",
 			"name" : "Zubin",

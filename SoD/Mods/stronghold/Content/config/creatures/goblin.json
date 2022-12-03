@@ -1,8 +1,8 @@
 {
 	"goblin": {
 		"name" : {
-			"plural" : "Goblins",
-			"singular" : "Goblin"
+			"singular" : "Goblin",
+			"plural" : "Goblins"
 		},
 		"extraNames" : [
 			"goblins"
@@ -21,10 +21,8 @@
 			"max" : 2,
 			"min" : 1
 		},
-		"doubleWide" : false,
 		"growth" : 15,
 		"horde" : 8,
-		"hasDoubleWeek" : true,
 		"aiValue" : 60,
 		"fightValue" : 60,
 		"advMapAmount" : {

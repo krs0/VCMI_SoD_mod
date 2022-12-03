@@ -13,7 +13,6 @@
 			"large" : "heroes/dessa/icons/portrait/HPL106BM.png",
 			"small" : "heroes/dessa/icons/portrait/HPS106BM.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "goblin",
@@ -31,7 +30,6 @@
 				"min" : 4
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,18 +40,20 @@
 				"skill" : "logistics"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 90,
-				"subtype" : 0,
-				"type" : 1,
-				"val" : 0
+		"specialty" : {
+			"bonuses" : {
+				"logistics" : {
+					"subtype" : "skill.logistics",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE"
+				}
 			}
-		],
+		},
 		"spellbook" : [
 			"stoneSkin"
 		],
-		
 		"texts" : {
 			"biography" : "Nearly fifteen years ago, Dessa's entire village was wiped out in a massacre at the hands of human marauders.  Dessa was one of six children who survived.  Since then he has dreamed of one day paying back the humans for their crime.",
 			"name" : "Dessa",

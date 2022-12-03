@@ -1,8 +1,8 @@
 {
 	"behemoth": {
 		"name" : {
-			"plural" : "Behemoths",
-			"singular" : "Behemoth"
+			"singular" : "Behemoth",
+			"plural" : "Behemoths"
 		},
 		"faction" : "stronghold",
 		"level" : 7,

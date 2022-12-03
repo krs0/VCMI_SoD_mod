@@ -1,8 +1,8 @@
 {
 	"cyclop": {
 		"name" : {
-			"plural" : "Cyclopes",
-			"singular" : "Cyclops"
+			"singular" : "Cyclops",
+			"plural" : "Cyclopes"
 		},
 		"faction" : "stronghold",
 		"level" : 6,
@@ -19,7 +19,6 @@
 			"min" : 16
 		},
 		"shots" : 16,
-		"doubleWide" : false,
 		"growth" : 2,
 		"horde" : 0,
 		"aiValue" : 1266,

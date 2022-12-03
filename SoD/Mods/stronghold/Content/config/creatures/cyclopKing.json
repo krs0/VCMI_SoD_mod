@@ -1,8 +1,8 @@
 {
 	"cyclopKing": {
 		"name" : {
-			"plural" : "Cyclops Kings",
-			"singular" : "Cyclops King"
+			"singular" : "Cyclops King",
+			"plural" : "Cyclops Kings"
 		},
 		"faction" : "stronghold",
 		"level" : 6,
@@ -12,17 +12,16 @@
 		"speed" : 8,
 		"hitPoints" : 70,
 		"attack" : 17,
-		"defense" : 12,
+		"defense" : 13,
 		"damage" : {
 			"max" : 20,
 			"min" : 16
 		},
 		"shots" : 24,
-		"doubleWide" : false,
 		"growth" : 2,
 		"horde" : 0,
 		"aiValue" : 1443,
-		"fightValue" : 1055,
+		"fightValue" : 1110,
 		"advMapAmount" : {
 			"max" : 10,
 			"min" : 5

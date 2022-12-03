@@ -13,7 +13,6 @@
 			"large" : "heroes/gird/icons/portrait/HPL104BM.png",
 			"small" : "heroes/gird/icons/portrait/HPS104BM.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "goblin",
@@ -31,7 +30,6 @@
 				"min" : 4
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,18 +40,20 @@
 				"skill" : "sorcery"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 86,
-				"subtype" : 0,
-				"type" : 1,
-				"val" : 0
+		"specialty" : {
+			"bonuses" : {
+				"sorcery" : {
+					"subtype" : "skill.sorcery",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE"
+				}
 			}
-		],
+		},
 		"spellbook" : [
 			"bloodlust"
 		],
-		
 		"texts" : {
 			"biography" : "Gird learned most of what she knows from the Shaman of her home town.  It is assumed she would have taken his place, but she was taken from her villiage when the Magi of Krewlod conducted a search for children who could wield magic.",
 			"name" : "Gird",

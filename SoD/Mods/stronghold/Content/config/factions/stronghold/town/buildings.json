@@ -7,12 +7,7 @@
 			{
 				"blacksmith" : {
 					"cost" : {
-						"crystal" : 0,
-						"gems" : 0,
 						"gold" : 1000,
-						"mercury" : 0,
-						"ore" : 0,
-						"sulfur" : 0,
 						"wood" : 5
 					},
 					"description" : "The Blacksmith provides your armies with Ammo Carts.",
@@ -20,25 +15,18 @@
 				},
 				"capitol" : {
 					"cost" : {
-						"crystal" : 0,
-						"gems" : 0,
-						"gold" : 10000,
-						"mercury" : 0,
-						"ore" : 0,
-						"sulfur" : 0,
-						"wood" : 0
+						"gold" : 10000
 					},
 					"description" : "The Capitol earns your kingdom 4000 gold per day.",
-					"name" : "Capitol"
+					"name" : "Capitol",
+					"produce": {
+						"gold": 4000
+					}
 				},
 				"castle" : {
 					"cost" : {
-						"crystal" : 0,
-						"gems" : 0,
 						"gold" : 5000,
-						"mercury" : 0,
 						"ore" : 10,
-						"sulfur" : 0,
 						"wood" : 10
 					},
 					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
@@ -46,38 +34,29 @@
 				},
 				"citadel" : {
 					"cost" : {
-						"crystal" : 0,
-						"gems" : 0,
 						"gold" : 2500,
-						"mercury" : 0,
-						"ore" : 5,
-						"sulfur" : 0,
-						"wood" : 0
+						"ore" : 5
 					},
 					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
-					"name" : "Citadel"
+					"name" : "Citadel",
+					"produce": {
+						"gold": 2000
+					}
 				},
 				"cityHall" : {
 					"cost" : {
-						"crystal" : 0,
-						"gems" : 0,
-						"gold" : 5000,
-						"mercury" : 0,
-						"ore" : 0,
-						"sulfur" : 0,
-						"wood" : 0
+						"gold" : 5000
 					},
 					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
-					"name" : "City Hall"
+					"name" : "City Hall",
+					"produce" : {
+						"gold" : 2000
+					},
 				},
 				"dwellingLvl1" : {
 					"cost" : {
-						"crystal" : 0,
-						"gems" : 0,
 						"gold" : 200,
-						"mercury" : 0,
 						"ore" : 5,
-						"sulfur" : 0,
 						"wood" : 5
 					},
 					"description" : "The Goblin Barracks allow you to recruit Goblins.",
@@ -85,12 +64,8 @@
 				},
 				"dwellingLvl2" : {
 					"cost" : {
-						"crystal" : 0,
-						"gems" : 0,
 						"gold" : 1000,
-						"mercury" : 0,
 						"ore" : 5,
-						"sulfur" : 0,
 						"wood" : 10
 					},
 					"description" : "The Wolf Pen allows you to recruit Wolf Riders.",
@@ -98,12 +73,8 @@
 				},
 				"dwellingLvl3" : {
 					"cost" : {
-						"crystal" : 0,
-						"gems" : 0,
 						"gold" : 1000,
-						"mercury" : 0,
 						"ore" : 5,
-						"sulfur" : 0,
 						"wood" : 5
 					},
 					"description" : "The Orc Tower allows you to recruit Orcs.",
@@ -111,12 +82,7 @@
 				},
 				"dwellingLvl4" : {
 					"cost" : {
-						"crystal" : 0,
-						"gems" : 0,
 						"gold" : 2000,
-						"mercury" : 0,
-						"ore" : 0,
-						"sulfur" : 0,
 						"wood" : 20
 					},
 					"description" : "The Ogre Fort allows you to recruit Ogres.",
@@ -124,13 +90,8 @@
 				},
 				"dwellingLvl5" : {
 					"cost" : {
-						"crystal" : 0,
-						"gems" : 0,
 						"gold" : 2500,
-						"mercury" : 0,
-						"ore" : 10,
-						"sulfur" : 0,
-						"wood" : 0
+						"ore" : 10
 					},
 					"description" : "The Cliff Nest allows you to recruit Rocs.",
 					"name" : "Cliff Nest"
@@ -138,12 +99,8 @@
 				"dwellingLvl6" : {
 					"cost" : {
 						"crystal" : 20,
-						"gems" : 0,
 						"gold" : 3500,
-						"mercury" : 0,
-						"ore" : 20,
-						"sulfur" : 0,
-						"wood" : 0
+						"ore" : 20
 					},
 					"description" : "The Cyclops Cave allows you to recruit Cyclopses.",
 					"name" : "Cyclops Cave"
@@ -151,11 +108,8 @@
 				"dwellingLvl7" : {
 					"cost" : {
 						"crystal" : 10,
-						"gems" : 0,
 						"gold" : 10000,
-						"mercury" : 0,
 						"ore" : 10,
-						"sulfur" : 0,
 						"wood" : 10
 					},
 					"description" : "The Behemoth Lair allows you to recruit Behemoths.",
@@ -163,12 +117,8 @@
 				},
 				"dwellingUpLvl1" : {
 					"cost" : {
-						"crystal" : 0,
-						"gems" : 0,
 						"gold" : 1000,
-						"mercury" : 0,
 						"ore" : 5,
-						"sulfur" : 0,
 						"wood" : 5
 					},
 					"description" : "The Goblin Barracks allow you to recruit Hobgoblins.",
@@ -176,12 +126,8 @@
 				},
 				"dwellingUpLvl2" : {
 					"cost" : {
-						"crystal" : 0,
-						"gems" : 0,
 						"gold" : 1000,
-						"mercury" : 0,
 						"ore" : 5,
-						"sulfur" : 0,
 						"wood" : 5
 					},
 					"description" : "The Wolf Pen allows you to recruit Wolf Raiders.",
@@ -189,12 +135,8 @@
 				},
 				"dwellingUpLvl3" : {
 					"cost" : {
-						"crystal" : 0,
-						"gems" : 0,
 						"gold" : 1000,
-						"mercury" : 0,
 						"ore" : 2,
-						"sulfur" : 0,
 						"wood" : 2
 					},
 					"description" : "The Orc Tower allows you to recruit Orc Chieftains.",
@@ -202,12 +144,9 @@
 				},
 				"dwellingUpLvl4" : {
 					"cost" : {
-						"crystal" : 0,
 						"gems" : 5,
 						"gold" : 2000,
-						"mercury" : 0,
 						"ore" : 5,
-						"sulfur" : 0,
 						"wood" : 5
 					},
 					"description" : "The Ogre Fort allows you to recruit Ogre Magi.",
@@ -215,12 +154,8 @@
 				},
 				"dwellingUpLvl5" : {
 					"cost" : {
-						"crystal" : 0,
-						"gems" : 0,
 						"gold" : 2000,
-						"mercury" : 0,
 						"ore" : 5,
-						"sulfur" : 0,
 						"wood" : 5
 					},
 					"description" : "The Cliff Nest allows you to recruit Thunderbirds.",
@@ -228,12 +163,8 @@
 				},
 				"dwellingUpLvl6" : {
 					"cost" : {
-						"crystal" : 0,
-						"gems" : 0,
 						"gold" : 3000,
-						"mercury" : 0,
 						"ore" : 5,
-						"sulfur" : 0,
 						"wood" : 5
 					},
 					"description" : "The Cyclops Cave allows you to recruit Cyclops Kings.",
@@ -242,11 +173,8 @@
 				"dwellingUpLvl7" : {
 					"cost" : {
 						"crystal" : 20,
-						"gems" : 0,
 						"gold" : 15000,
-						"mercury" : 0,
 						"ore" : 10,
-						"sulfur" : 0,
 						"wood" : 10
 					},
 					"description" : "The Behemoth Lair allows you to recruit Ancient Behemoths.",
@@ -254,12 +182,8 @@
 				},
 				"fort" : {
 					"cost" : {
-						"crystal" : 0,
-						"gems" : 0,
 						"gold" : 5000,
-						"mercury" : 0,
 						"ore" : 20,
-						"sulfur" : 0,
 						"wood" : 20
 					},
 					"description" : "The Fort provides your town with defensive walls.",
@@ -267,42 +191,38 @@
 				},
 				"grail" : {
 					"description" : "The presence of the Warlords' Monument increases weekly creature generation by 50%, provides your kingdom with an additional 5000 gold each day, and increases the Attack strength of a garrison hero by +20 when defending against a siege.",
-					"name" : "Warlords' Monument"
+					"name" : "Warlords' Monument",
+					"mode" : "grail",
+					"produce": {
+						"gold": 5000
+					},
+					"bonuses" : [
+						{
+							"subtype" : "primSkill.attack",
+							"type" : "PRIMARY_SKILL",
+							"val" : 20
+						}
+					],
 				},
 				"horde1" : {
 					"cost" : {
-						"crystal" : 0,
-						"gems" : 0,
-						"gold" : 1000,
-						"mercury" : 0,
-						"ore" : 0,
-						"sulfur" : 0,
-						"wood" : 0
+						"gold" : 1000
 					},
 					"description" : "The Mess Hall increases Goblin production by 8 per week.",
 					"name" : "Mess Hall"
 				},
 				"horde1Upgr" : {
 					"cost" : {
-						"crystal" : 0,
-						"gems" : 0,
-						"gold" : 1000,
-						"mercury" : 0,
-						"ore" : 0,
-						"sulfur" : 0,
-						"wood" : 0
+						"gold" : 1000
 					},
 					"description" : "The Mess Hall increases Hobgoblin production by 8 per week.",
-					"name" : "Mess Hall"
+					"name" : "Mess Hall",
+					"mode" : "auto"
 				},
 				"mageGuild1" : {
 					"cost" : {
-						"crystal" : 0,
-						"gems" : 0,
 						"gold" : 2000,
-						"mercury" : 0,
 						"ore" : 5,
-						"sulfur" : 0,
 						"wood" : 5
 					},
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
@@ -336,12 +256,7 @@
 				},
 				"marketplace" : {
 					"cost" : {
-						"crystal" : 0,
-						"gems" : 0,
 						"gold" : 500,
-						"mercury" : 0,
-						"ore" : 0,
-						"sulfur" : 0,
 						"wood" : 5
 					},
 					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
@@ -349,77 +264,54 @@
 				},
 				"resourceSilo" : {
 					"cost" : {
-						"crystal" : 0,
-						"gems" : 0,
 						"gold" : 5000,
-						"mercury" : 0,
-						"ore" : 5,
-						"sulfur" : 0,
-						"wood" : 0
+						"ore" : 5
 					},
 					"description" : "The Resource Silo provides you with an additional +1 wood and +1 ore each day.",
-					"name" : "Resource Silo"
+					"name" : "Resource Silo",
+					"produce": {
+						"ore": 1,
+						"wood": 1
+					}
 				},
 				"special1" : {
 					"cost" : {
-						"crystal" : 0,
-						"gems" : 0,
 						"gold" : 2000,
-						"mercury" : 0,
 						"ore" : 5,
-						"sulfur" : 0,
 						"wood" : 5
 					},
 					"description" : "The Escape Tunnel allows a garrison hero to flee from defending against a siege.",
-					"name" : "Escape Tunnel"
+					"name" : "Escape Tunnel",
+					"type" : "escapeTunnel"
 				},
 				"special2" : {
 					"cost" : {
-						"crystal" : 0,
-						"gems" : 0,
-						"gold" : 1000,
-						"mercury" : 0,
-						"ore" : 0,
-						"sulfur" : 0,
-						"wood" : 0
+						"gold" : 1000
 					},
 					"description" : "The Freelancer's Guild allows you to trade creatures for resources.",
-					"name" : "Freelancer's Guild"
+					"name" : "Freelancer's Guild",
+					"type" : "freelancersGuild"
 				},
 				"special3" : {
 					"cost" : {
-						"crystal" : 0,
-						"gems" : 0,
 						"gold" : 1000,
-						"mercury" : 0,
-						"ore" : 0,
-						"sulfur" : 0,
 						"wood" : 5
 					},
 					"description" : "This Blacksmith upgrade provides your armies with ballistas.",
-					"name" : "Ballista Yard"
+					"name" : "Ballista Yard",
+					"type" : "ballistaYard"
 				},
 				"special4" : {
 					"cost" : {
-						"crystal" : 0,
-						"gems" : 0,
-						"gold" : 1000,
-						"mercury" : 0,
-						"ore" : 0,
-						"sulfur" : 0,
-						"wood" : 0
+						"gold" : 1000
 					},
 					"description" : "The Hall of Valhalla increases the Attack skill of any visiting hero by +1.",
-					"name" : "Hall of Valhalla"
+					"name" : "Hall of Valhalla",
+					"type" : "attackVisitingBonus"
 				},
 				"tavern" : {
 					"cost" : {
-						"crystal" : 0,
-						"gems" : 0,
 						"gold" : 500,
-						"mercury" : 0,
-						"ore" : 0,
-						"sulfur" : 0,
 						"wood" : 5
 					},
 					"description" : "The Tavern increases morale for troops defending the city.",
@@ -427,29 +319,24 @@
 				},
 				"townHall" : {
 					"cost" : {
-						"crystal" : 0,
-						"gems" : 0,
-						"gold" : 2500,
-						"mercury" : 0,
-						"ore" : 0,
-						"sulfur" : 0,
-						"wood" : 0
+						"gold" : 2500
 					},
 					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
-					"name" : "Town Hall"
+					"name" : "Town Hall",
+					"produce": {
+						"gold": 1000
+					}
 				},
 				"villageHall" : {
 					"cost" : {
-						"crystal" : 0,
-						"gems" : 0,
-						"gold" : 1,
-						"mercury" : 0,
-						"ore" : 0,
-						"sulfur" : 0,
-						"wood" : 0
+						"gold" : 1
 					},
 					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
-					"name" : "Village Hall"
+					"name" : "Village Hall",
+					"mode" : "auto",
+					"produce": {
+						"gold": 500
+					}
 				}
 			}
 		}

@@ -1,8 +1,8 @@
 {
 	"orcChieftain": {
 		"name" : {
-			"plural" : "Orc Chieftains",
-			"singular" : "Orc Chieftain"
+			"singular" : "Orc Chieftain",
+			"plural" : "Orc Chieftains"
 		},
 		"faction" : "stronghold",
 		"level" : 3,
@@ -18,7 +18,6 @@
 			"min" : 2
 		},
 		"shots" : 24,
-		"doubleWide" : false,
 		"growth" : 7,
 		"horde" : 0,
 		"aiValue" : 240,

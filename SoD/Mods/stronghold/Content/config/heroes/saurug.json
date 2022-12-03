@@ -13,7 +13,6 @@
 			"large" : "heroes/saurug/icons/portrait/HPL111BM.png",
 			"small" : "heroes/saurug/icons/portrait/HPS111BM.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "goblin",
@@ -31,7 +30,6 @@
 				"min" : 4
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,18 +40,18 @@
 				"skill" : "resistance"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 1,
-				"subtype" : 11,
-				"type" : 2,
-				"val" : 5
+		"specialty" : {
+			"bonuses" : {
+				"gems" : {
+					"subtype" : "resource.gems",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 1
+				}
 			}
-		],
+		},
 		"spellbook" : [
 			"bloodlust"
 		],
-		
 		"texts" : {
 			"biography" : "It is believed that Saurug once studied alchemy in an attempt to make himself wealthy.  Though unsuccessful, his magics have made him of great value to the armies of Krewlod.",
 			"name" : "Saurug",

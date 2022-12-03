@@ -13,7 +13,6 @@
 			"large" : "heroes/gretchin/icons/portrait/HPL100BR.png",
 			"small" : "heroes/gretchin/icons/portrait/HPS100BR.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "goblin",
@@ -31,7 +30,6 @@
 				"min" : 15
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,7 +40,9 @@
 				"skill" : "pathfinding"
 			}
 		],
-
+		"specialty" : {
+			"creature" : "goblin"
+		},
 		"texts" : {
 			"biography" : "Not only is Gretchin an excellent leader, but all who follow her will tell you the same thing - she's like having another mom who can take care of you.",
 			"name" : "Gretchin",

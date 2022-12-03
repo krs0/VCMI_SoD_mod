@@ -1,8 +1,8 @@
 {
 	"ogre": {
 		"name" : {
-			"plural" : "Ogres",
-			"singular" : "Ogre"
+			"singular" : "Ogre",
+			"plural" : "Ogres"
 		},
 		"faction" : "stronghold",
 		"level" : 4,
@@ -18,7 +18,6 @@
 			"max" : 12,
 			"min" : 6
 		},
-		"doubleWide" : false,
 		"growth" : 4,
 		"horde" : 0,
 		"aiValue" : 416,

@@ -1,8 +1,8 @@
 {
 	"orc": {
 		"name" : {
-			"plural" : "Orcs",
-			"singular" : "Orc"
+			"singular" : "Orc",
+			"plural" : "Orcs"
 		},
 		"faction" : "stronghold",
 		"level" : 3,
@@ -19,7 +19,6 @@
 			"min" : 2
 		},
 		"shots" : 12,
-		"doubleWide" : false,
 		"growth" : 7,
 		"horde" : 0,
 		"aiValue" : 192,
