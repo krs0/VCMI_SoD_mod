@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/darkstorn/icons/speciality/UN32_0_95.png",
 			"specialtyLarge" : "heroes/darkstorn/icons/speciality/UN44_0_95.png",
-			"large" : "heroes/darkstorn/icons/portrait/HPL095WL.png",
-			"small" : "heroes/darkstorn/icons/portrait/HPS095WL.png"
+			"small" : "heroes/darkstorn/icons/portrait/HPS095WL.png",
+			"large" : "heroes/darkstorn/icons/portrait/HPL095WL.png"
 		},
 		"army" : [
 			{
 				"creature" : "troglodyte",
-				"max" : 40,
-				"min" : 30
+				"min" : 30,
+				"max" : 40
 			},
 			{
 				"creature" : "harpy",
-				"max" : 6,
-				"min" : 4
+				"min" : 4,
+				"max" : 6
 			},
 			{
 				"creature" : "beholder",
-				"max" : 4,
-				"min" : 3
+				"min" : 3,
+				"max" : 4
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "wisdom"
+				"skill" : "wisdom",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "learning"
+				"skill" : "learning",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -53,8 +53,8 @@
 			"stoneSkin"
 		],
 		"texts" : {
-			"biography" : "Darkstorn challenged his way through the ranks of warriors of Nighon, secretly using magic to ensure he won each battle.  Once in a position of power, he finally revealed his true powers.  None have challenged him since.",
 			"name" : "Darkstorn",
+			"biography" : "Darkstorn challenged his way through the ranks of warriors of Nighon, secretly using magic to ensure he won each battle.  Once in a position of power, he finally revealed his true powers.  None have challenged him since.",
 			"specialty" : {
 				"description" : "Casts Stone Skin with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
 				"name" : "Stone Skin",

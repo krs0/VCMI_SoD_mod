@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/gundula/icons/speciality/UN32_0_109.png",
 			"specialtyLarge" : "heroes/gundula/icons/speciality/UN44_0_109.png",
-			"large" : "heroes/gundula/icons/portrait/HPL109BM.png",
-			"small" : "heroes/gundula/icons/portrait/HPS109BM.png"
+			"small" : "heroes/gundula/icons/portrait/HPS109BM.png",
+			"large" : "heroes/gundula/icons/portrait/HPL109BM.png"
 		},
 		"army" : [
 			{
 				"creature" : "goblin",
-				"max" : 25,
-				"min" : 15
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "goblinWolfRider",
-				"max" : 7,
-				"min" : 5
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "orc",
-				"max" : 6,
-				"min" : 4
+				"min" : 4,
+				"max" : 6
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "wisdom"
+				"skill" : "wisdom",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "offence"
+				"skill" : "offence",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -55,8 +55,8 @@
 			"slow"
 		],
 		"texts" : {
-			"biography" : "Orphaned at birth, Gundula was raised as a daughter to Duke Boragus.  Upon learning that he was not her true father, she joined the military, hoping to die an honorable death in battle.  It hasn't happened, and she has become a feared leader in the military.",
 			"name" : "Gundula",
+			"biography" : "Orphaned at birth, Gundula was raised as a daughter to Duke Boragus.  Upon learning that he was not her true father, she joined the military, hoping to die an honorable death in battle.  It hasn't happened, and she has become a feared leader in the military.",
 			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Offense skill percentage.",
 				"name" : "Offense",

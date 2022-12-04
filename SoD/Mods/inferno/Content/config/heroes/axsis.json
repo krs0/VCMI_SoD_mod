@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/axsis/icons/speciality/UN32_0_58.png",
 			"specialtyLarge" : "heroes/axsis/icons/speciality/UN44_0_58.png",
-			"large" : "heroes/axsis/icons/portrait/HPL058DM.png",
-			"small" : "heroes/axsis/icons/portrait/HPS058DM.png"
+			"small" : "heroes/axsis/icons/portrait/HPS058DM.png",
+			"large" : "heroes/axsis/icons/portrait/HPL058DM.png"
 		},
 		"army" : [
 			{
 				"creature" : "imp",
-				"max" : 25,
-				"min" : 15
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "gog",
-				"max" : 7,
-				"min" : 4
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "hellHound",
-				"max" : 4,
-				"min" : 3
+				"min" : 3,
+				"max" : 4
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "wisdom"
+				"skill" : "wisdom",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "mysticism"
+				"skill" : "mysticism",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -55,8 +55,8 @@
 			"protectAir"
 		],
 		"texts" : {
-			"biography" : "Axsis showed a natural aptitude for magic at a young age, which makes things even more strange than normal, as demons rarely show a natural aptitude for anything that requires thought.",
 			"name" : "Axsis",
+			"biography" : "Axsis showed a natural aptitude for magic at a young age, which makes things even more strange than normal, as demons rarely show a natural aptitude for anything that requires thought.",
 			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Mysticism skill.",
 				"name" : "Mysticism",

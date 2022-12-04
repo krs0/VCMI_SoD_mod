@@ -10,41 +10,42 @@
 		{
 			"specialtySmall" : "heroes/bron/icons/speciality/UN32_0_112.png",
 			"specialtyLarge" : "heroes/bron/icons/speciality/UN44_0_112.png",
-			"large" : "heroes/bron/icons/portrait/HPL112BS.png",
-			"small" : "heroes/bron/icons/portrait/HPS112BS.png"
+			"small" : "heroes/bron/icons/portrait/HPS112BS.png",
+			"large" : "heroes/bron/icons/portrait/HPL112BS.png"
 		},
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "gnoll",
-				"min" : 10, "max" : 20
-
+				"min" : 10,
+				"max" : 20
 			},
 			{
 				"creature" : "basilisk",
-				"min" : 4, "max" : 7
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "serpentFly",
-				"min" : 2, "max" : 4
+				"min" : 2,
+				"max" : 4
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "armorer"
+				"skill" : "armorer",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "resistance"
+				"skill" : "resistance",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
 			"creature" : "basilisk"
 		},
 		"texts" : {
-			"biography" : "Bron, though human, possesses an uncanny resistance to the gaze of a Basilisk, which has allowed him to learn more about them than any other creature alive.",
 			"name" : "Bron",
+			"biography" : "Bron, though human, possesses an uncanny resistance to the gaze of a Basilisk, which has allowed him to learn more about them than any other creature alive.",
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Basilisks or Greater Basilisks for each level attained after 4th level.",
 				"name" : "Basilisks",

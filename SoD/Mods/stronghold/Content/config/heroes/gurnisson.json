@@ -10,44 +10,44 @@
 		{
 			"specialtySmall" : "heroes/gurnisson/icons/speciality/UN32_0_97.png",
 			"specialtyLarge" : "heroes/gurnisson/icons/speciality/UN44_0_97.png",
-			"large" : "heroes/gurnisson/icons/portrait/HPL097BR.png",
-			"small" : "heroes/gurnisson/icons/portrait/HPS097BR.png"
+			"small" : "heroes/gurnisson/icons/portrait/HPS097BR.png",
+			"large" : "heroes/gurnisson/icons/portrait/HPL097BR.png"
 		},
 
 		"army" : [
 			{
 				"creature" : "goblin",
-				"max" : 25,
-				"min" : 15
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "ballista",
-				"max" : 1,
-				"min" : 1
+				"min" : 1,
+				"max" : 1
 			},
 			{
 				"creature" : "orc",
-				"max" : 6,
-				"min" : 4
+				"min" : 4,
+				"max" : 6
 			}
 		],
 
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "offence"
+				"skill" : "offence",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "artillery"
+				"skill" : "artillery",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
 			"creature" : "ballista"
 		},
 		"texts" : {
-			"biography" : "It is unusual for a Goblin to rise to any sort of position of power, but Gurnisson demonstrated a natural aptitude in Ballistics that quite literally launched him into a successful career as a hero for hire.",
 			"name" : "Gurnisson",
+			"biography" : "It is unusual for a Goblin to rise to any sort of position of power, but Gurnisson demonstrated a natural aptitude in Ballistics that quite literally launched him into a successful career as a hero for hire.",
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skill of any Ballista for each level attained after 4th level.",
 				"name" : "Ballista",

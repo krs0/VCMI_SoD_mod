@@ -10,42 +10,42 @@
 		{
 			"specialtySmall" : "heroes/ivor/icons/speciality/UN32_0_21.png",
 			"specialtyLarge" : "heroes/ivor/icons/speciality/UN44_0_21.png",
-			"large" : "heroes/ivor/icons/portrait/HPL021RN.png",
-			"small" : "heroes/ivor/icons/portrait/HPS021RN.png"
+			"small" : "heroes/ivor/icons/portrait/HPS021RN.png",
+			"large" : "heroes/ivor/icons/portrait/HPL021RN.png"
 		},
 		"army" : [
 			{
 				"creature" : "centaur",
-				"max" : 24,
-				"min" : 12
+				"min" : 12,
+				"max" : 24
 			},
 			{
 				"creature" : "woodElf",
-				"max" : 6,
-				"min" : 3
+				"min" : 3,
+				"max" : 6
 			},
 			{
 				"creature" : "woodElf",
-				"max" : 6,
-				"min" : 3
+				"min" : 3,
+				"max" : 6
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "archery"
+				"skill" : "archery",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "offence"
+				"skill" : "offence",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
 			"creature" : "woodElf"
 		},
 		"texts" : {
-			"biography" : "Ivor's lineage can be traced back nearly to the Silence.  Though bred as nobility, he has always been a hothead, preferring to lead an attack rather than wait to be attacked.  His brashness has so far kept him alive.",
 			"name" : "Ivor",
+			"biography" : "Ivor's lineage can be traced back nearly to the Silence.  Though bred as nobility, he has always been a hothead, preferring to lead an attack rather than wait to be attacked.  His brashness has so far kept him alive.",
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Wood Elves or Grand Elves for each level attained after 3rd level.",
 				"name" : "Elves",

@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/labetha/icons/speciality/UN32_0_139.png",
 			"specialtyLarge" : "heroes/labetha/icons/speciality/UN44_0_139.png",
-			"large" : "heroes/labetha/icons/portrait/HPL003EL.png",
-			"small" : "heroes/labetha/icons/portrait/HPS003EL.png"
+			"small" : "heroes/labetha/icons/portrait/HPS003EL.png",
+			"large" : "heroes/labetha/icons/portrait/HPL003EL.png"
 		},
 		"army" : [
 			{
 				"creature" : "pixies",
-				"max" : 25,
-				"min" : 15
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "airElementals",
-				"max" : 5,
-				"min" : 3
+				"min" : 3,
+				"max" : 5
 			},
 			{
 				"creature" : "waterElementals",
-				"max" : 3,
-				"min" : 2
+				"min" : 2,
+				"max" : 3
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "wisdom"
+				"skill" : "wisdom",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "earthMagic"
+				"skill" : "earthMagic",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -53,8 +53,8 @@
 			"stoneSkin"
 		],
 		"texts" : {
-			"biography" : "Born poor, Labetha's parents were slaughtered peasantry during the Restoration wars.  Taken by dendroids and brought into their service in AvLee, her power over the earth developed quickly.  When she felt the Conflux calling, she answered quickly.",
 			"name" : "Labetha",
+			"biography" : "Born poor, Labetha's parents were slaughtered peasantry during the Restoration wars.  Taken by dendroids and brought into their service in AvLee, her power over the earth developed quickly.  When she felt the Conflux calling, she answered quickly.",
 			"specialty" : {
 				"description" : "When cast, Stone Skin is increased +3.",
 				"name" : "Stone Skin",

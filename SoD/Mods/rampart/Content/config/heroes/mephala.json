@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/mephala/icons/speciality/UN32_0_16.png",
 			"specialtyLarge" : "heroes/mephala/icons/speciality/UN44_0_16.png",
-			"large" : "heroes/mephala/icons/portrait/HPL016RN.png",
-			"small" : "heroes/mephala/icons/portrait/HPS016RN.png"
+			"small" : "heroes/mephala/icons/portrait/HPS016RN.png",
+			"large" : "heroes/mephala/icons/portrait/HPL016RN.png"
 		},
 		"army" : [
 			{
 				"creature" : "centaur",
-				"max" : 24,
-				"min" : 12
+				"min" : 12,
+				"max" : 24
 			},
 			{
 				"creature" : "dwarf",
-				"max" : 5,
-				"min" : 3
+				"min" : 3,
+				"max" : 5
 			},
 			{
 				"creature" : "woodElf",
-				"max" : 6,
-				"min" : 3
+				"min" : 3,
+				"max" : 6
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "leadership"
+				"skill" : "leadership",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "armorer"
+				"skill" : "armorer",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -52,8 +52,8 @@
 			}
 		},
 		"texts" : {
-			"biography" : "Trained in the ranks of the Erathian Military, Mephala was a genius when it came to using terrain to her advantage in battle.  She resigned her commission several years ago, preferring the quiet serenity of AvLee to the bustle of the cities of Erathia.",
 			"name" : "Mephala",
+			"biography" : "Trained in the ranks of the Erathian Military, Mephala was a genius when it came to using terrain to her advantage in battle.  She resigned her commission several years ago, preferring the quiet serenity of AvLee to the bustle of the cities of Erathia.",
 			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Armorer skill percentage.",
 				"name" : "Armorer",

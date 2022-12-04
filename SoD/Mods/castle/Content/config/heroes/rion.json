@@ -10,24 +10,24 @@
 		{
 			"specialtySmall" : "heroes/rion/icons/speciality/UN32_0_8.png",
 			"specialtyLarge" : "heroes/rion/icons/speciality/UN44_0_8.png",
-			"large" : "heroes/rion/icons/portrait/HPL008CL.png",
-			"small" : "heroes/rion/icons/portrait/HPS008CL.png"
+			"small" : "heroes/rion/icons/portrait/HPS008CL.png",
+			"large" : "heroes/rion/icons/portrait/HPL008CL.png"
 		},
 		"army" : [
 			{
 				"creature" : "pikeman",
-				"max" : 20,
-				"min" : 10
+				"min" : 10,
+				"max" : 20
 			},
 			{
 				"creature" : "firstAidTent",
-				"max" : 1,
-				"min" : 1
+				"min" : 1,
+				"max" : 1
 			},
 			{
 				"creature" : "griffin",
-				"max" : 3,
-				"min" : 2
+				"min" : 2,
+				"max" : 3
 			}
 		],
 		"spellbook" : [
@@ -35,12 +35,12 @@
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "wisdom"
+				"skill" : "wisdom",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "firstAid"
+				"skill" : "firstAid",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -55,8 +55,8 @@
 			}
 		},
 		"texts" : {
-			"biography" : "Rion worked as a battlefield medic in the Erathian Military, but proved his ability to command when his captain was slain fighting the Kreegan hordes.  Rion was able to outmaneuver the enemy long enough for reinforcements to arrive.",
 			"name" : "Rion",
+			"biography" : "Rion worked as a battlefield medic in the Erathian Military, but proved his ability to command when his captain was slain fighting the Kreegan hordes.  Rion was able to outmaneuver the enemy long enough for reinforcements to arrive.",
 			"specialty" : {
 				"description" : "Receives a 5% per level bonus to First Aid skill.",
 				"name" : "First Aid",

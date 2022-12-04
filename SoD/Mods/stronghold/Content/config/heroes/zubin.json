@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/zubin/icons/speciality/UN32_0_108.png",
 			"specialtyLarge" : "heroes/zubin/icons/speciality/UN44_0_108.png",
-			"large" : "heroes/zubin/icons/portrait/HPL108BM.png",
-			"small" : "heroes/zubin/icons/portrait/HPS108BM.png"
+			"small" : "heroes/zubin/icons/portrait/HPS108BM.png",
+			"large" : "heroes/zubin/icons/portrait/HPL108BM.png"
 		},
 		"army" : [
 			{
 				"creature" : "goblin",
-				"max" : 25,
-				"min" : 15
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "goblinWolfRider",
-				"max" : 7,
-				"min" : 5
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "orc",
-				"max" : 6,
-				"min" : 4
+				"min" : 4,
+				"max" : 6
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "wisdom"
+				"skill" : "wisdom",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "artillery"
+				"skill" : "artillery",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -53,8 +53,8 @@
 			"precision"
 		],
 		"texts" : {
-			"biography" : "Zubin was once chief of a tribe which fought against Duke Boragus.  When peace was finally attained, he was offered his own command within the armies of Krewlod.",
 			"name" : "Zubin",
+			"biography" : "Zubin was once chief of a tribe which fought against Duke Boragus.  When peace was finally attained, he was offered his own command within the armies of Krewlod.",
 			"specialty" : {
 				"description" : "Casts Precision with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
 				"name" : "Precision",

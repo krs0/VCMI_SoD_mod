@@ -10,30 +10,30 @@
 		{
 			"specialtySmall" : "heroes/thorgrim/icons/speciality/UN32_0_20.png",
 			"specialtyLarge" : "heroes/thorgrim/icons/speciality/UN44_0_20.png",
-			"large" : "heroes/thorgrim/icons/portrait/HPL020RN.png",
-			"small" : "heroes/thorgrim/icons/portrait/HPS020RN.png"
+			"small" : "heroes/thorgrim/icons/portrait/HPS020RN.png",
+			"large" : "heroes/thorgrim/icons/portrait/HPL020RN.png"
 		},
 		"army" : [
 			{
 				"creature" : "centaur",
-				"max" : 24,
-				"min" : 12
+				"min" : 12,
+				"max" : 24
 			},
 			{
 				"creature" : "dwarf",
-				"max" : 5,
-				"min" : 3
+				"min" : 3,
+				"max" : 5
 			},
 			{
 				"creature" : "woodElf",
-				"max" : 6,
-				"min" : 3
+				"min" : 3,
+				"max" : 6
 			}
 		],
 		"skills" : [
 			{
-				"level" : "advanced",
-				"skill" : "resistance"
+				"skill" : "resistance",
+				"level" : "advanced"
 			}
 		],
 		"specialty" : {
@@ -48,8 +48,8 @@
 			}
 		},
 		"texts" : {
-			"biography" : "Orphaned as a child, Thorgrim was raised in the northernmost forests of AvLee.  He became known throughout the land for his exceptional ability to resist magics of all kinds.",
 			"name" : "Thorgrim",
+			"biography" : "Orphaned as a child, Thorgrim was raised in the northernmost forests of AvLee.  He became known throughout the land for his exceptional ability to resist magics of all kinds.",
 			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Resistance skill percentage.",
 				"name" : "Resistance",

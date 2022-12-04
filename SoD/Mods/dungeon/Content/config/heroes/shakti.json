@@ -10,42 +10,42 @@
 		{
 			"specialtySmall" : "heroes/shakti/icons/speciality/UN32_0_87.png",
 			"specialtyLarge" : "heroes/shakti/icons/speciality/UN44_0_87.png",
-			"large" : "heroes/shakti/icons/portrait/HPL087OV.png",
-			"small" : "heroes/shakti/icons/portrait/HPS087OV.png"
+			"small" : "heroes/shakti/icons/portrait/HPS087OV.png",
+			"large" : "heroes/shakti/icons/portrait/HPL087OV.png"
 		},
 		"army" : [
 			{
 				"creature" : "troglodyte",
-				"max" : 40,
-				"min" : 30
+				"min" : 30,
+				"max" : 40
 			},
 			{
 				"creature" : "troglodyte",
-				"max" : 40,
-				"min" : 30
+				"min" : 30,
+				"max" : 40
 			},
 			{
 				"creature" : "troglodyte",
-				"max" : 40,
-				"min" : 30
+				"min" : 30,
+				"max" : 40
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "tactics"
+				"skill" : "tactics",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "offence"
+				"skill" : "offence",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
 			"creature" : "troglodyte"
 		},
 		"texts" : {
-			"biography" : "Though eyeless, Shakti has amazing vision when it comes to battlefield tactics.  His Troglodyte hordes are feared the world over, especially in the dark tunnels of Nighon.",
 			"name" : "Shakti",
+			"biography" : "Though eyeless, Shakti has amazing vision when it comes to battlefield tactics.  His Troglodyte hordes are feared the world over, especially in the dark tunnels of Nighon.",
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Troglodytes or Infernal Troglodytes for each level attained after 1st level.",
 				"name" : "Troglodytes",

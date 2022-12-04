@@ -10,42 +10,42 @@
 		{
 			"specialtySmall" : "heroes/yog/icons/speciality/UN32_0_96.png",
 			"specialtyLarge" : "heroes/yog/icons/speciality/UN44_0_96.png",
-			"large" : "heroes/yog/icons/portrait/HPL096BR.png",
-			"small" : "heroes/yog/icons/portrait/HPS096BR.png"
+			"small" : "heroes/yog/icons/portrait/HPS096BR.png",
+			"large" : "heroes/yog/icons/portrait/HPL096BR.png"
 		},
 		"army" : [
 			{
 				"creature" : "goblin",
-				"max" : 25,
-				"min" : 15
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "goblinWolfRider",
-				"max" : 7,
-				"min" : 5
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "orc",
-				"max" : 6,
-				"min" : 4
+				"min" : 4,
+				"max" : 6
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "offence"
+				"skill" : "offence",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "ballistics"
+				"skill" : "ballistics",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
 			"creature" : "cyclop"
 		},
 		"texts" : {
-			"biography" : "Yog studied for many years with the Wizards of Bracada, but he was often found reading texts on war rather than those on magic.  The Duke of Krewlod offered him a military command, allowing Yog to happily use his knowledge of war.",
 			"name" : "Yog",
+			"biography" : "Yog studied for many years with the Wizards of Bracada, but he was often found reading texts on war rather than those on magic.  The Duke of Krewlod offered him a military command, allowing Yog to happily use his knowledge of war.",
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Cyclopses or Cyclops Lords for each level attained after 6th level.",
 				"name" : "Cyclopes",

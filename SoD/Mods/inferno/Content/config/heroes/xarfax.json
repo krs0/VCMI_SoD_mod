@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/xarfax/icons/speciality/UN32_0_63.png",
 			"specialtyLarge" : "heroes/xarfax/icons/speciality/UN44_0_63.png",
-			"large" : "heroes/xarfax/icons/portrait/HPL063DM.png",
-			"small" : "heroes/xarfax/icons/portrait/HPS063DM.png"
+			"small" : "heroes/xarfax/icons/portrait/HPS063DM.png",
+			"large" : "heroes/xarfax/icons/portrait/HPL063DM.png"
 		},
 		"army" : [
 			{
 				"creature" : "imp",
-				"max" : 25,
-				"min" : 15
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "gog",
-				"max" : 7,
-				"min" : 4
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "hellHound",
-				"max" : 4,
-				"min" : 3
+				"min" : 3,
+				"max" : 4
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "wisdom"
+				"skill" : "wisdom",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "leadership"
+				"skill" : "leadership",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -54,8 +54,8 @@
 			"fireball"
 		],
 		"texts" : {
-			"biography" : "Xarfax served in the Erathian Military until he was captured while fighting the Kreegans in 1162 A.S. (After the Silence).  The Kreegans, realizing the power within him, \"reconditioned\" Xarfax, turning him into a loyal and capable follower.",
 			"name" : "Xarfax",
+			"biography" : "Xarfax served in the Erathian Military until he was captured while fighting the Kreegans in 1162 A.S. (After the Silence).  The Kreegans, realizing the power within him, \"reconditioned\" Xarfax, turning him into a loyal and capable follower.",
 			"specialty" : {
 				"description" : "Casts Fireball with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
 				"name" : "Fireball",

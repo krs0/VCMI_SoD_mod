@@ -10,30 +10,30 @@
 		{
 			"specialtySmall" : "heroes/tazar/icons/speciality/UN32_0_115.png",
 			"specialtyLarge" : "heroes/tazar/icons/speciality/UN44_0_115.png",
-			"large" : "heroes/tazar/icons/portrait/HPL115BS.png",
-			"small" : "heroes/tazar/icons/portrait/HPS115BS.png"
+			"small" : "heroes/tazar/icons/portrait/HPS115BS.png",
+			"large" : "heroes/tazar/icons/portrait/HPL115BS.png"
 		},
 		"army" : [
 			{
 				"creature" : "gnoll",
-				"max" : 20,
-				"min" : 10
+				"min" : 10,
+				"max" : 20
 			},
 			{
 				"creature" : "lizardman",
-				"max" : 7,
-				"min" : 4
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "serpentFly",
-				"max" : 4,
-				"min" : 2
+				"min" : 2,
+				"max" : 4
 			}
 		],
 		"skills" : [
 			{
-				"level" : "advanced",
-				"skill" : "armorer"
+				"skill" : "armorer",
+				"level" : "advanced"
 			}
 		],
 		"specialty" : {
@@ -48,8 +48,8 @@
 			}
 		},
 		"texts" : {
-			"biography" : "During a six month border war with Krewlod, a small force led by Tazar was able to make a stand at a Tatalian outpost, holding off a Krewlod force nearly five times their size for more than eight days until reinforcements arrived.",
 			"name" : "Tazar",
+			"biography" : "During a six month border war with Krewlod, a small force led by Tazar was able to make a stand at a Tatalian outpost, holding off a Krewlod force nearly five times their size for more than eight days until reinforcements arrived.",
 			"specialty" : {
 				"description" : "Tazar receives a 5% per level bonus to his Armorer skill percentage.",
 				"name" : "Armorer",

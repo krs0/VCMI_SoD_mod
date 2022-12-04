@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/ayden/icons/speciality/UN32_0_56.png",
 			"specialtyLarge" : "heroes/ayden/icons/speciality/UN44_0_56.png",
-			"large" : "heroes/ayden/icons/portrait/HPL056DM.png",
-			"small" : "heroes/ayden/icons/portrait/HPS056DM.png"
+			"small" : "heroes/ayden/icons/portrait/HPS056DM.png",
+			"large" : "heroes/ayden/icons/portrait/HPL056DM.png"
 		},
 		"army" : [
 			{
 				"creature" : "imp",
-				"max" : 25,
-				"min" : 15
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "gog",
-				"max" : 7,
-				"min" : 4
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "hellHound",
-				"max" : 4,
-				"min" : 3
+				"min" : 3,
+				"max" : 4
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "wisdom"
+				"skill" : "wisdom",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "intelligence"
+				"skill" : "intelligence",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -55,8 +55,8 @@
 			"viewEarth"
 		],
 		"texts" : {
-			"biography" : "Originally a shaman, Ayden offered his services to the Kreegans, discovering a dark desire to one day rule his own kingdom.",
 			"name" : "Ayden",
+			"biography" : "Originally a shaman, Ayden offered his services to the Kreegans, discovering a dark desire to one day rule his own kingdom.",
 			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Intelligence skill percentage.",
 				"name" : "Intelligence",

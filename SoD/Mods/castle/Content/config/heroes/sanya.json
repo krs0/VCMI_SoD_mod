@@ -10,24 +10,24 @@
 		{
 			"specialtySmall" : "heroes/sanya/icons/speciality/UN32_0_13.png",
 			"specialtyLarge" : "heroes/sanya/icons/speciality/UN44_0_13.png",
-			"large" : "heroes/sanya/icons/portrait/HPL013CL.png",
-			"small" : "heroes/sanya/icons/portrait/HPS013CL.png"
+			"small" : "heroes/sanya/icons/portrait/HPS013CL.png",
+			"large" : "heroes/sanya/icons/portrait/HPL013CL.png"
 		},
 		"army" : [
 			{
 				"creature" : "pikeman",
-				"max" : 20,
-				"min" : 10
+				"min" : 10,
+				"max" : 20
 			},
 			{
 				"creature" : "archer",
-				"max" : 7,
-				"min" : 4
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "griffin",
-				"max" : 3,
-				"min" : 2
+				"min" : 2,
+				"max" : 3
 			}
 		],
 		"spellbook" : [
@@ -35,12 +35,12 @@
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "wisdom"
+				"skill" : "wisdom",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "eagleEye"
+				"skill" : "eagleEye",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -55,8 +55,8 @@
 			}
 		},
 		"texts" : {
-			"biography" : "Sanya has always been a fast learner, quickly outperforming first other students, then other acolytes once she had joined the church.  She seems to have a natural ability to learn spells, sometimes merely by watching someone else cast them.",
 			"name" : "Sanya",
+			"biography" : "Sanya has always been a fast learner, quickly outperforming first other students, then other acolytes once she had joined the church.  She seems to have a natural ability to learn spells, sometimes merely by watching someone else cast them.",
 			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Eagle Eye skill percentage.",
 				"name" : "Eagle Eye",

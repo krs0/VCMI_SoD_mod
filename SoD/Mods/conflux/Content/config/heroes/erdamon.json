@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/erdamon/icons/speciality/UN32_0_133.png",
 			"specialtyLarge" : "heroes/erdamon/icons/speciality/UN44_0_133.png",
-			"large" : "heroes/erdamon/icons/portrait/HPL005PL.png",
 			"small" : "heroes/erdamon/icons/portrait/HPS005PL.png"
+			"large" : "heroes/erdamon/icons/portrait/HPL005PL.png"
 		},
 		"army" : [
 			{
 				"creature" : "pixies",
-				"max" : 25,
-				"min" : 15
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "airElementals",
-				"max" : 5,
-				"min" : 3
+				"min" : 3,
+				"max" : 5
 			},
 			{
 				"creature" : "waterElementals",
-				"max" : 3,
-				"min" : 2
+				"min" : 2,
+				"max" : 3
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "estates"
+				"skill" : "estates",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "tactics"
+				"skill" : "tactics",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -68,8 +68,8 @@
 			}
 		},
 		"texts" : {
-			"biography" : "An ancient lord of magma, Erdamon has slept for centuries within the mountains bordering Eeofol.  Pulled from his slumber to aid the Conflux, Erdamon welcomes the battle to rid the world of the Kreegans.",
 			"name" : "Erdamon",
+			"biography" : "An ancient lord of magma, Erdamon has slept for centuries within the mountains bordering Eeofol.  Pulled from his slumber to aid the Conflux, Erdamon welcomes the battle to rid the world of the Kreegans.",
 			"specialty" : {
 				"description" : "Earth/Magma elementals receive +2 Att, +1 Def, and +5 Dmg.",
 				"name" : "Earth Ele.",

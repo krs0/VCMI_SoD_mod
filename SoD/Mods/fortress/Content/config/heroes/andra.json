@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/andra/icons/speciality/UN32_0_126.png",
 			"specialtyLarge" : "heroes/andra/icons/speciality/UN44_0_126.png",
-			"large" : "heroes/andra/icons/portrait/HPL126WH.png",
-			"small" : "heroes/andra/icons/portrait/HPS126WH.png"
+			"small" : "heroes/andra/icons/portrait/HPS126WH.png",
+			"large" : "heroes/andra/icons/portrait/HPL126WH.png"
 		},
 		"army" : [
 			{
 				"creature" : "gnoll",
-				"max" : 20,
-				"min" : 10
+				"min" : 10,
+				"max" : 20
 			},
 			{
 				"creature" : "lizardman",
-				"max" : 7,
-				"min" : 4
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "serpentFly",
-				"max" : 4,
-				"min" : 2
+				"min" : 2,
+				"max" : 4
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "wisdom"
+				"skill" : "wisdom",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "intelligence"
+				"skill" : "intelligence",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -55,8 +55,8 @@
 			"dispel"
 		],
 		"texts" : {
-			"biography" : "Before King Tralossk would allow Andra, a mere human, to lead one of his armies, he subjected her to a series of trials that would test her knowledge.  She never missed a single question, and the King had no choice but to accept her.",
 			"name" : "Andra",
+			"biography" : "Before King Tralossk would allow Andra, a mere human, to lead one of his armies, he subjected her to a series of trials that would test her knowledge.  She never missed a single question, and the King had no choice but to accept her.",
 			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Intelligence skill percentage.",
 				"name" : "Intelligence",

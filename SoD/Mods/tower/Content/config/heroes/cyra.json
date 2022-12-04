@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/cyra/icons/speciality/UN32_0_46.png",
 			"specialtyLarge" : "heroes/cyra/icons/speciality/UN44_0_46.png",
-			"large" : "heroes/cyra/icons/portrait/HPL046WZ.png",
-			"small" : "heroes/cyra/icons/portrait/HPS046WZ.png"
+			"small" : "heroes/cyra/icons/portrait/HPS046WZ.png",
+			"large" : "heroes/cyra/icons/portrait/HPL046WZ.png"
 		},
 		"army" : [
 			{
 				"creature" : "apprenticeGremlin",
-				"max" : 40,
-				"min" : 30
+				"min" : 30,
+				"max" : 40
 			},
 			{
 				"creature" : "stoneGargoyle",
-				"max" : 5,
-				"min" : 3
+				"min" : 3,
+				"max" : 5
 			},
 			{
 				"creature" : "ironGolem",
-				"max" : 3,
-				"min" : 2
+				"min" : 2,
+				"max" : 3
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "wisdom"
+				"skill" : "wisdom",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "diplomacy"
+				"skill" : "diplomacy",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -53,8 +53,8 @@
 			"haste"
 		],
 		"texts" : {
-			"biography" : "Cyra originally sought to learn magic so that she could cast spells on men to make them love her.  She gave up that dream, however, when she discovered that she had real mystical talents that could be put to better use.",
 			"name" : "Cyra",
+			"biography" : "Cyra originally sought to learn magic so that she could cast spells on men to make them love her.  She gave up that dream, however, when she discovered that she had real mystical talents that could be put to better use.",
 			"specialty" : {
 				"description" : "Casts Haste with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
 				"name" : "Haste",

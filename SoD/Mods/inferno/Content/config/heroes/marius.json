@@ -10,38 +10,38 @@
 		{
 			"specialtySmall" : "heroes/marius/icons/speciality/UN32_0_50.png",
 			"specialtyLarge" : "heroes/marius/icons/speciality/UN44_0_50.png",
-			"large" : "heroes/marius/icons/portrait/HPL050HR.png",
-			"small" : "heroes/marius/icons/portrait/HPS050HR.png"
+			"small" : "heroes/marius/icons/portrait/HPS050HR.png",
+			"large" : "heroes/marius/icons/portrait/HPL050HR.png"
 		},
 		"army" : [
 			{
 				"creature" : "imp",
-				"max" : 25,
-				"min" : 15
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "gog",
-				"max" : 7,
-				"min" : 4
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "hellHound",
-				"max" : 4,
-				"min" : 3
+				"min" : 3,
+				"max" : 4
 			}
 		],
 		"skills" : [
 			{
-				"level" : "advanced",
-				"skill" : "armorer"
+				"skill" : "armorer",
+				"level" : "advanced"
 			}
 		],
 		"specialty" : {
 			"creature" : "demon"
 		},
 		"texts" : {
-			"biography" : "Marius was the mate of Calh for several years, finally splitting up when it became clear that Calh did not agree with her 'master plan' to rid the world of those disgusting, do-good woodland creatures.",
 			"name" : "Marius",
+			"biography" : "Marius was the mate of Calh for several years, finally splitting up when it became clear that Calh did not agree with her 'master plan' to rid the world of those disgusting, do-good woodland creatures.",
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Demons or Horned Demons for each level attained after 4th level.",
 				"name" : "Demons",

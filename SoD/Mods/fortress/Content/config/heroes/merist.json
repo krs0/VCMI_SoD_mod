@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/merist/icons/speciality/UN32_0_124.png",
 			"specialtyLarge" : "heroes/merist/icons/speciality/UN44_0_124.png",
-			"large" : "heroes/merist/icons/portrait/HPL124WH.png",
-			"small" : "heroes/merist/icons/portrait/HPS124WH.png"
+			"small" : "heroes/merist/icons/portrait/HPS124WH.png",
+			"large" : "heroes/merist/icons/portrait/HPL124WH.png"
 		},
 		"army" : [
 			{
 				"creature" : "gnoll",
-				"max" : 20,
-				"min" : 10
+				"min" : 10,
+				"max" : 20
 			},
 			{
 				"creature" : "lizardman",
-				"max" : 7,
-				"min" : 4
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "serpentFly",
-				"max" : 4,
-				"min" : 2
+				"min" : 2,
+				"max" : 4
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "wisdom"
+				"skill" : "wisdom",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "learning"
+				"skill" : "learning",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -53,8 +53,8 @@
 			"stoneSkin"
 		],
 		"texts" : {
-			"biography" : "Merist was supposed to have been the healer of her village, but when it was discovered that her magical powers were far greater than what would be required as a village healer, she was quickly pressed into the service of Tatalia.",
 			"name" : "Merist",
+			"biography" : "Merist was supposed to have been the healer of her village, but when it was discovered that her magical powers were far greater than what would be required as a village healer, she was quickly pressed into the service of Tatalia.",
 			"specialty" : {
 				"description" : "Casts Stone Skin with increased effect, based on her level compared to the level of the target unit (the bonus is greater when used on weaker units).",
 				"name" : "Stone Skin",

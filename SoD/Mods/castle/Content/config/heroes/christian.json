@@ -10,42 +10,42 @@
 		{
 			"specialtySmall" : "heroes/christian/icons/speciality/UN32_0_6.png",
 			"specialtyLarge" : "heroes/christian/icons/speciality/UN44_0_6.png",
-			"large" : "heroes/christian/icons/portrait/HPL006KN.png",
-			"small" : "heroes/christian/icons/portrait/HPS006KN.png"
+			"small" : "heroes/christian/icons/portrait/HPS006KN.png",
+			"large" : "heroes/christian/icons/portrait/HPL006KN.png"
 		},
 		"army" : [
 			{
 				"creature" : "pikeman",
-				"max" : 20,
-				"min" : 10
+				"min" : 10,
+				"max" : 20
 			},
 			{
 				"creature" : "ballista",
-				"max" : 1,
-				"min" : 1
+				"min" : 1,
+				"max" : 1
 			},
 			{
 				"creature" : "griffin",
-				"max" : 3,
-				"min" : 2
+				"min" : 2,
+				"max" : 3
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "leadership"
+				"skill" : "leadership",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "artillery"
+				"skill" : "artillery",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
 			"creature" : "ballista"
 		},
 		"texts" : {
-			"biography" : "Christian was always more of a frontiersman than a Knight, having set foot in nearly every part of Enroth before finally settling into military service in Erathia.  Though a wanderer and a bit of a dreamer, his battlefield tactics are feared throughout the world.",
 			"name" : "Christian",
+			"biography" : "Christian was always more of a frontiersman than a Knight, having set foot in nearly every part of Enroth before finally settling into military service in Erathia.  Though a wanderer and a bit of a dreamer, his battlefield tactics are feared throughout the world.",
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skill of any Ballista for each level attained after 4th level.",
 				"name" : "Ballista",

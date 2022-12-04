@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/tamika/icons/speciality/UN32_0_68.png",
 			"specialtyLarge" : "heroes/tamika/icons/speciality/UN44_0_68.png",
-			"large" : "heroes/tamika/icons/portrait/HPL068DK.png",
-			"small" : "heroes/tamika/icons/portrait/HPS068DK.png"
+			"small" : "heroes/tamika/icons/portrait/HPS068DK.png",
+			"large" : "heroes/tamika/icons/portrait/HPL068DK.png"
 		},
 		"army" : [
 			{
 				"creature" : "skeleton",
-				"max" : 30,
-				"min" : 20
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "zombie",
-				"max" : 6,
-				"min" : 4
+				"min" : 4,
+				"max" : 6
 			},
 			{
 				"creature" : "wight",
-				"max" : 6,
-				"min" : 4
+				"min" : 4,
+				"max" : 6
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "necromancy"
+				"skill" : "necromancy",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "offence"
+				"skill" : "offence",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -47,8 +47,8 @@
 			"magicArrow"
 		],
 		"texts" : {
-			"biography" : "Tamika's superior combat skills have put her in a position of power within the military forces of Deyja.  Besides merely leading troops, she is also responsible for training Black Knights and Dread Knights.",
 			"name" : "Tamika",
+			"biography" : "Tamika's superior combat skills have put her in a position of power within the military forces of Deyja.  Besides merely leading troops, she is also responsible for training Black Knights and Dread Knights.",
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Black Knights or Dread Knights for each level attained after 6th level.",
 				"name" : "Black Knights",

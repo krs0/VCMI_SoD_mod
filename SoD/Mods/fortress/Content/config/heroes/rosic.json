@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/rosic/icons/speciality/UN32_0_121.png",
 			"specialtyLarge" : "heroes/rosic/icons/speciality/UN44_0_121.png",
-			"large" : "heroes/rosic/icons/portrait/HPL121WH.png",
-			"small" : "heroes/rosic/icons/portrait/HPS121WH.png"
+			"small" : "heroes/rosic/icons/portrait/HPS121WH.png",
+			"large" : "heroes/rosic/icons/portrait/HPL121WH.png"
 		},
 		"army" : [
 			{
 				"creature" : "gnoll",
-				"max" : 20,
-				"min" : 10
+				"min" : 10,
+				"max" : 20
 			},
 			{
 				"creature" : "lizardman",
-				"max" : 7,
-				"min" : 4
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "serpentFly",
-				"max" : 4,
-				"min" : 2
+				"min" : 2,
+				"max" : 4
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "wisdom"
+				"level" : "basic"
+				"skill" : "wisdom",
 			},
 			{
-				"level" : "basic",
-				"skill" : "mysticism"
+				"skill" : "mysticism",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -55,8 +55,8 @@
 			"magicArrow"
 		],
 		"texts" : {
-			"biography" : "When Rosic was a child she contracted a fever that none of the elders in her village expected her to survive.  But survive she did, and today she claims that it was the fever that gave her her magical powers.",
 			"name" : "Rosic",
+			"biography" : "When Rosic was a child she contracted a fever that none of the elders in her village expected her to survive.  But survive she did, and today she claims that it was the fever that gave her her magical powers.",
 			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Mysticism skill.",
 				"name" : "Mysticism",

@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/geon/icons/speciality/UN32_0_92.png",
 			"specialtyLarge" : "heroes/geon/icons/speciality/UN44_0_92.png",
-			"large" : "heroes/geon/icons/portrait/HPL092WL.png",
-			"small" : "heroes/geon/icons/portrait/HPS092WL.png"
+			"small" : "heroes/geon/icons/portrait/HPS092WL.png",
+			"large" : "heroes/geon/icons/portrait/HPL092WL.png"
 		},
 		"army" : [
 			{
 				"creature" : "troglodyte",
-				"max" : 40,
-				"min" : 30
+				"min" : 30,
+				"max" : 40
 			},
 			{
 				"creature" : "harpy",
-				"max" : 6,
-				"min" : 4
+				"min" : 4,
+				"max" : 6
 			},
 			{
 				"creature" : "beholder",
-				"max" : 4,
-				"min" : 3
+				"min" : 3,
+				"max" : 4
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "wisdom"
+				"skill" : "wisdom",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "eagleEye"
+				"skill" : "eagleEye",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -55,8 +55,8 @@
 			"slow"
 		],
 		"texts" : {
-			"biography" : "Much of Geon's magical skills come from his ability to see into the minds of other spellcasters, reading their thoughts as they invoke their powers, and in many cases learning to cast the spell himself.",
 			"name" : "Geon",
+			"biography" : "Much of Geon's magical skills come from his ability to see into the minds of other spellcasters, reading their thoughts as they invoke their powers, and in many cases learning to cast the spell himself.",
 			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Eagle Eye skill percentage.",
 				"name" : "Eagle Eye",

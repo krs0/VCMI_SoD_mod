@@ -10,42 +10,42 @@
 		{
 			"specialtySmall" : "heroes/tyris/icons/speciality/UN32_0_7.png",
 			"specialtyLarge" : "heroes/tyris/icons/speciality/UN44_0_7.png",
-			"large" : "heroes/tyris/icons/portrait/HPL007KN.png",
-			"small" : "heroes/tyris/icons/portrait/HPS007KN.png"
+			"small" : "heroes/tyris/icons/portrait/HPS007KN.png",
+			"large" : "heroes/tyris/icons/portrait/HPL007KN.png"
 		},
 		"army" : [
 			{
 				"creature" : "pikeman",
-				"max" : 20,
-				"min" : 10
+				"min" : 10,
+				"max" : 20
 			},
 			{
 				"creature" : "archer",
-				"max" : 7,
-				"min" : 4
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "griffin",
-				"max" : 3,
-				"min" : 2
+				"min" : 2,
+				"max" : 3
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "leadership"
+				"skill" : "leadership",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "tactics"
+				"skill" : "tactics",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
 			"creature" : "cavalier"
 		},
 		"texts" : {
-			"biography" : "Tyris rose quickly through the ranks of the Erathian Cavalry, not only for her ability to handle a horse, but for her 'sixth sense' regarding mounted strategy and tactics.  She has also never lost a joust.",
 			"name" : "Tyris",
+			"biography" : "Tyris rose quickly through the ranks of the Erathian Cavalry, not only for her ability to handle a horse, but for her 'sixth sense' regarding mounted strategy and tactics.  She has also never lost a joust.",
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Cavaliers or Champions for each level attained after 6th level.",
 				"name" : "Cavaliers",

@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/ciele/icons/speciality/UN32_0_138.png",
 			"specialtyLarge" : "heroes/ciele/icons/speciality/UN44_0_138.png",
-			"large" : "heroes/ciele/icons/portrait/HPL002EL.png",
-			"small" : "heroes/ciele/icons/portrait/HPS002EL.png"
+			"small" : "heroes/ciele/icons/portrait/HPS002EL.png",
+			"large" : "heroes/ciele/icons/portrait/HPL002EL.png"
 		},
 		"army" : [
 			{
 				"creature" : "pixies",
-				"max" : 25,
-				"min" : 15
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "airElementals",
-				"max" : 5,
-				"min" : 3
+				"min" : 3,
+				"max" : 5
 			},
 			{
 				"creature" : "waterElementals",
-				"max" : 3,
-				"min" : 2
+				"min" : 2,
+				"max" : 3
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "wisdom"
+				"skill" : "wisdom",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "waterMagic"
+				"skill" : "waterMagic",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -54,8 +54,8 @@
 			"magicArrow"
 		],
 		"texts" : {
-			"biography" : "Growing up next to the ocean bordering Avlee, Ciele always felt a bond with the ancient waters.  She has wandered the lands seeking her calling.  Now she finds herself serving the Conflux.",
 			"name" : "Ciele",
+			"biography" : "Growing up next to the ocean bordering Avlee, Ciele always felt a bond with the ancient waters.  She has wandered the lands seeking her calling.  Now she finds herself serving the Conflux.",
 			"specialty" : {
 				"description" : "When cast, Magic Arrow damage is increased 50%.",
 				"name" : "Magic Arrow",

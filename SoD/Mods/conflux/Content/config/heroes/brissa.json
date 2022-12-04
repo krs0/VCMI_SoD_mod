@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/brissa/icons/speciality/UN32_0_137.png",
 			"specialtyLarge" : "heroes/brissa/icons/speciality/UN44_0_137.png",
-			"large" : "heroes/brissa/icons/portrait/HPL001EL.png",
-			"small" : "heroes/brissa/icons/portrait/HPS001EL.png"
+			"small" : "heroes/brissa/icons/portrait/HPS001EL.png",
+			"large" : "heroes/brissa/icons/portrait/HPL001EL.png"
 		},
 		"army" : [
 			{
 				"creature" : "pixies",
-				"max" : 25,
-				"min" : 15
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "airElementals",
-				"max" : 5,
-				"min" : 3
+				"min" : 3,
+				"max" : 5
 			},
 			{
 				"creature" : "waterElementals",
-				"max" : 3,
-				"min" : 2
+				"min" : 2,
+				"max" : 3
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "wisdom"
+				"skill" : "wisdom",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "airMagic"
+				"skill" : "airMagic",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -53,8 +53,8 @@
 			"haste"
 		],
 		"texts" : {
-			"biography" : "A young genie, even by their standards, Brissa joined the Restoration War before she completed her training.  What she lacks in training, she makes up in experience.",
 			"name" : "Brissa",
+			"biography" : "A young genie, even by their standards, Brissa joined the Restoration War before she completed her training.  What she lacks in training, she makes up in experience.",
 			"specialty" : {
 				"description" : "Casts Haste with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
 				"name" : "Haste",

@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/coronius/icons/speciality/UN32_0_24.png",
 			"specialtyLarge" : "heroes/coronius/icons/speciality/UN44_0_24.png",
-			"large" : "heroes/coronius/icons/portrait/HPL024DR.png",
-			"small" : "heroes/coronius/icons/portrait/HPS024DR.png"
+			"small" : "heroes/coronius/icons/portrait/HPS024DR.png",
+			"large" : "heroes/coronius/icons/portrait/HPL024DR.png"
 		},
 		"army" : [
 			{
 				"creature" : "centaur",
-				"max" : 24,
-				"min" : 12
+				"min" : 12,
+				"max" : 24
 			},
 			{
 				"creature" : "dwarf",
-				"max" : 5,
-				"min" : 3
+				"min" : 3,
+				"max" : 5
 			},
 			{
 				"creature" : "woodElf",
-				"max" : 6,
-				"min" : 3
+				"min" : 3,
+				"max" : 6
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "wisdom"
+				"skill" : "wisdom",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "scholar"
+				"skill" : "scholar",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -53,8 +53,8 @@
 			"slayer"
 		],
 		"texts" : {
-			"biography" : "Coronius attended the University of Erathia for one semester before he realized that academics were overrated.  He left Erathia for AvLee, finding a Druid who could teach by example.",
 			"name" : "Coronius",
+			"biography" : "Coronius attended the University of Erathia for one semester before he realized that academics were overrated.  He left Erathia for AvLee, finding a Druid who could teach by example.",
 			"specialty" : {
 				"description" : "Casts Slayer with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
 				"name" : "Slayer",

@@ -3,6 +3,7 @@
 	{
 		"class" : "knight",
 		"female" : false,
+		"special" : true,
 
 		//"index" : 4,
 				
@@ -10,37 +11,36 @@
 		{
 			"specialtySmall" : "heroes/lordHaart/icons/speciality/UN32_0_4.png",
 			"specialtyLarge" : "heroes/lordHaart/icons/speciality/UN44_0_4.png",
-			"large" : "heroes/lordHaart/icons/portrait/HPL004KN.png",
-			"small" : "heroes/lordHaart/icons/portrait/HPS004KN.png"
+			"small" : "heroes/lordHaart/icons/portrait/HPS004KN.png",
+			"large" : "heroes/lordHaart/icons/portrait/HPL004KN.png"
 		},
 		"army" : [
 			{
 				"creature" : "pikeman",
-				"max" : 20,
-				"min" : 10
+				"min" : 10,
+				"max" : 20
 			},
 			{
 				"creature" : "archer",
-				"max" : 7,
-				"min" : 4
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "griffin",
-				"max" : 3,
-				"min" : 2
+				"min" : 2,
+				"max" : 3
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "leadership"
+				"skill" : "leadership",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "estates"
+				"skill" : "estates",
+				"level" : "basic"
 			}
 		],
-		"special" : true,
 		"specialty" : {
 			"bonuses" : {
 				"estates" : {
@@ -53,8 +53,8 @@
 			}
 		},
 		"texts" : {
-			"biography" : "Some have said that Lord Haart's departure from Enroth was due to ties with a Necromantic cult, but his service to the crown of Erathia has been as spotless as it was to Roland Ironfist before the Succession Wars.",
 			"name" : "Lord Haart",
+			"biography" : "Some have said that Lord Haart's departure from Enroth was due to ties with a Necromantic cult, but his service to the crown of Erathia has been as spotless as it was to Roland Ironfist before the Succession Wars.",
 			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Estates skill.",
 				"name" : "Estates",

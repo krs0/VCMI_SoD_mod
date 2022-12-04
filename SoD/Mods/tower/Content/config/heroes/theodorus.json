@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/theodorus/icons/speciality/UN32_0_44.png",
 			"specialtyLarge" : "heroes/theodorus/icons/speciality/UN44_0_44.png",
-			"large" : "heroes/theodorus/icons/portrait/HPL044WZ.png",
-			"small" : "heroes/theodorus/icons/portrait/HPS044WZ.png"
+			"small" : "heroes/theodorus/icons/portrait/HPS044WZ.png",
+			"large" : "heroes/theodorus/icons/portrait/HPL044WZ.png"
 		},
 		"army" : [
 			{
 				"creature" : "apprenticeGremlin",
-				"max" : 40,
-				"min" : 30
+				"min" : 30,
+				"max" : 40
 			},
 			{
 				"creature" : "stoneGargoyle",
-				"max" : 5,
-				"min" : 3
+				"min" : 3,
+				"max" : 5
 			},
 			{
 				"creature" : "ironGolem",
-				"max" : 3,
-				"min" : 2
+				"min" : 2,
+				"max" : 3
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "wisdom"
+				"skill" : "wisdom",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "ballistics"
+				"skill" : "ballistics",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -47,8 +47,8 @@
 			"shield"
 		],
 		"texts" : {
-			"biography" : "Theodorus is easily one of the best spellcasters ever seen in Bracada.  As a result, journeyman mages often seek to learn from him, embarking on a pilgrimage of sorts in the hopes that they can bask in his wisdom.",
 			"name" : "Theodorus",
+			"biography" : "Theodorus is easily one of the best spellcasters ever seen in Bracada.  As a result, journeyman mages often seek to learn from him, embarking on a pilgrimage of sorts in the hopes that they can bask in his wisdom.",
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Magi or Arch Magi for each level attained after 4th level.",
 				"name" : "Magi",

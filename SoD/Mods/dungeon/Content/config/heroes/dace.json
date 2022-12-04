@@ -10,42 +10,42 @@
 		{
 			"specialtySmall" : "heroes/dace/icons/speciality/UN32_0_82.png",
 			"specialtyLarge" : "heroes/dace/icons/speciality/UN44_0_82.png",
-			"large" : "heroes/dace/icons/portrait/HPL082OV.png",
-			"small" : "heroes/dace/icons/portrait/HPS082OV.png"
+			"small" : "heroes/dace/icons/portrait/HPS082OV.png",
+			"large" : "heroes/dace/icons/portrait/HPL082OV.png"
 		},
 		"army" : [
 			{
 				"creature" : "troglodyte",
-				"max" : 40,
-				"min" : 30
+				"min" : 30,
+				"max" : 40
 			},
 			{
 				"creature" : "harpy",
-				"max" : 6,
-				"min" : 4
+				"min" : 4,
+				"max" : 6
 			},
 			{
 				"creature" : "beholder",
-				"max" : 4,
-				"min" : 3
+				"min" : 3,
+				"max" : 4
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "tactics"
+				"skill" : "tactics",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "offence"
+				"skill" : "offence",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
 			"creature" : "minotaur"
 		},
 		"texts" : {
-			"biography" : "Dace was born into a warrior clan, learning to fight from masters who seemed older than time.  He provides Nighon with exceptional leadership, especially when commanding other minotaurs.",
 			"name" : "Dace",
+			"biography" : "Dace was born into a warrior clan, learning to fight from masters who seemed older than time.  He provides Nighon with exceptional leadership, especially when commanding other minotaurs.",
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Minotaurs or Minotaur Kings for each level attained after 5th level.",
 				"name" : "Minotaurs",

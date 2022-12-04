@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/piquedram/icons/speciality/UN32_0_32.png",
 			"specialtyLarge" : "heroes/piquedram/icons/speciality/UN44_0_32.png",
-			"large" : "heroes/piquedram/icons/portrait/HPL032AL.png",
-			"small" : "heroes/piquedram/icons/portrait/HPS032AL.png"
+			"small" : "heroes/piquedram/icons/portrait/HPS032AL.png",
+			"large" : "heroes/piquedram/icons/portrait/HPL032AL.png"
 		},
 		"army" : [
 			{
 				"creature" : "stoneGargoyle",
-				"max" : 5,
-				"min" : 3
+				"min" : 3,
+				"max" : 5
 			},
 			{
 				"creature" : "stoneGargoyle",
-				"max" : 5,
-				"min" : 3
+				"min" : 3,
+				"max" : 5
 			},
 			{
 				"creature" : "stoneGargoyle",
-				"max" : 5,
-				"min" : 3
+				"min" : 3,
+				"max" : 5
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "scouting"
+				"skill" : "scouting",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "mysticism"
+				"skill" : "mysticism",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -47,8 +47,8 @@
 			"shield"
 		],
 		"texts" : {
-			"biography" : "Piquedram spent much of his schooling in Alchemy dealing with various types of non-valuable rock.  It is no surprise, then, that in the service of Bracada he was able to improve upon the basic design of the Gargoyle.",
 			"name" : "Piquedram",
+			"biography" : "Piquedram spent much of his schooling in Alchemy dealing with various types of non-valuable rock.  It is no surprise, then, that in the service of Bracada he was able to improve upon the basic design of the Gargoyle.",
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Stone or Obsidian Gargoyles for each level attained after 2nd level.",
 				"name" : "Gargoyles",

@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/tiva/icons/speciality/UN32_0_127.png",
 			"specialtyLarge" : "heroes/tiva/icons/speciality/UN44_0_127.png",
-			"large" : "heroes/tiva/icons/portrait/HPL127WH.png",
-			"small" : "heroes/tiva/icons/portrait/HPS127WH.png"
+			"small" : "heroes/tiva/icons/portrait/HPS127WH.png",
+			"large" : "heroes/tiva/icons/portrait/HPL127WH.png"
 		},
 		"army" : [
 			{
 				"creature" : "gnoll",
-				"max" : 20,
-				"min" : 10
+				"min" : 10,
+				"max" : 20
 			},
 			{
 				"creature" : "lizardman",
-				"max" : 7,
-				"min" : 4
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "serpentFly",
-				"max" : 4,
-				"min" : 2
+				"min" : 2,
+				"max" : 4
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "wisdom"
+				"skill" : "wisdom",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "eagleEye"
+				"skill" : "eagleEye",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -55,8 +55,8 @@
 			"stoneSkin"
 		],
 		"texts" : {
-			"biography" : "Tiva achieved her place as a hero by challenging those above her to tests of learning, proving herself as a faster study than any of her peers.  She has achieved much success.",
 			"name" : "Tiva",
+			"biography" : "Tiva achieved her place as a hero by challenging those above her to tests of learning, proving herself as a faster study than any of her peers.  She has achieved much success.",
 			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Eagle Eye skill percentage.",
 				"name" : "Eagle Eye",

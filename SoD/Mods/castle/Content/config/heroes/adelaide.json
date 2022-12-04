@@ -10,24 +10,24 @@
 		{
 			"specialtySmall" : "heroes/adelaide/icons/speciality/UN32_0_11.png",
 			"specialtyLarge" : "heroes/adelaide/icons/speciality/UN44_0_11.png",
-			"large" : "heroes/adelaide/icons/portrait/HPL011CL.png",
-			"small" : "heroes/adelaide/icons/portrait/HPS011CL.png"
+			"small" : "heroes/adelaide/icons/portrait/HPS011CL.png",
+			"large" : "heroes/adelaide/icons/portrait/HPL011CL.png"
 		},
 		"army" : [
 			{
 				"creature" : "pikeman",
-				"max" : 20,
-				"min" : 10
+				"min" : 10,
+				"max" : 20
 			},
 			{
 				"creature" : "archer",
-				"max" : 7,
-				"min" : 4
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "griffin",
-				"max" : 3,
-				"min" : 2
+				"min" : 2,
+				"max" : 3
 			}
 		],
 		"spellbook" : [
@@ -35,8 +35,8 @@
 		],
 		"skills" : [
 			{
-				"level" : "advanced",
-				"skill" : "wisdom"
+				"skill" : "wisdom",
+				"level" : "advanced"
 			}
 		],
 		"specialty" : {
@@ -50,8 +50,8 @@
 			}
 		},
 		"texts" : {
-			"biography" : "Caught at sea during a storm, Adelaide was shipwrecked on the shores of Vori, home of the Snow Elves.  She trained with them for some twenty years, and upon her return to Erathia discovered that no time had passed in her absence.",
 			"name" : "Adelaide",
+			"biography" : "Caught at sea during a storm, Adelaide was shipwrecked on the shores of Vori, home of the Snow Elves.  She trained with them for some twenty years, and upon her return to Erathia discovered that no time had passed in her absence.",
 			"specialty" : {
 				"description" : "Casts Frost Ring with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
 				"name" : "Frost Ring",

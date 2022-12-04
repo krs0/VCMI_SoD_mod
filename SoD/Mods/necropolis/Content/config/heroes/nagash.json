@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/nagash/icons/speciality/UN32_0_79.png",
 			"specialtyLarge" : "heroes/nagash/icons/speciality/UN44_0_79.png",
-			"large" : "heroes/nagash/icons/portrait/HPL079NC.png",
-			"small" : "heroes/nagash/icons/portrait/HPS079NC.png"
+			"small" : "heroes/nagash/icons/portrait/HPS079NC.png",
+			"large" : "heroes/nagash/icons/portrait/HPL079NC.png"
 		},
 		"army" : [
 			{
 				"creature" : "skeleton",
-				"max" : 30,
-				"min" : 20
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "zombie",
-				"max" : 6,
-				"min" : 4
+				"min" : 4,
+				"max" : 6
 			},
 			{
 				"creature" : "wight",
-				"max" : 6,
-				"min" : 4
+				"min" : 4,
+				"max" : 6
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "necromancy"
+				"skill" : "necromancy",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "intelligence"
+				"skill" : "intelligence",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -53,8 +53,8 @@
 			"protectAir"
 		],
 		"texts" : {
-			"biography" : "Nagash was a powerful wizard before sacrificing himself to an 'eternal life' as a lich.  He owns much land, though most of it now lies within the desolate borders of Deyja.",
 			"name" : "Nagash",
+			"biography" : "Nagash was a powerful wizard before sacrificing himself to an 'eternal life' as a lich.  He owns much land, though most of it now lies within the desolate borders of Deyja.",
 			"specialty" : {
 				"description" : "Increases kingdom's income by 350 gold per day.",
 				"name" : "+350 Gold",

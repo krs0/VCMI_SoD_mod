@@ -10,30 +10,30 @@
 		{
 			"specialtySmall" : "heroes/astral/icons/speciality/UN32_0_40.png",
 			"specialtyLarge" : "heroes/astral/icons/speciality/UN44_0_40.png",
-			"large" : "heroes/astral/icons/portrait/HPL040WZ.png",
-			"small" : "heroes/astral/icons/portrait/HPS040WZ.png"
+			"small" : "heroes/astral/icons/portrait/HPS040WZ.png",
+			"large" : "heroes/astral/icons/portrait/HPL040WZ.png"
 		},
 		"army" : [
 			{
 				"creature" : "apprenticeGremlin",
-				"max" : 40,
-				"min" : 30
+				"min" : 30,
+				"max" : 40
 			},
 			{
 				"creature" : "stoneGargoyle",
-				"max" : 5,
-				"min" : 3
+				"min" : 3,
+				"max" : 5
 			},
 			{
 				"creature" : "ironGolem",
-				"max" : 3,
-				"min" : 2
+				"min" : 2,
+				"max" : 3
 			}
 		],
 		"skills" : [
 			{
-				"level" : "advanced",
-				"skill" : "wisdom"
+				"skill" : "wisdom",
+				"level" : "advanced"
 			}
 		],
 		"specialty" : {
@@ -50,8 +50,8 @@
 			"hypnotize"
 		],
 		"texts" : {
-			"biography" : "Astral arrived in Erathia nearly ten years ago, and was quickly accepted into the Wizards' Guild in Bracada.  His rise to power within the Guild ranks made some people joke that only magic could have brought him so much success so soon.",
 			"name" : "Astral",
+			"biography" : "Astral arrived in Erathia nearly ten years ago, and was quickly accepted into the Wizards' Guild in Bracada.  His rise to power within the Guild ranks made some people joke that only magic could have brought him so much success so soon.",
 			"specialty" : {
 				"description" : "Casts Hypnotize with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
 				"name" : "Hypnotize",

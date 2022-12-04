@@ -3,40 +3,41 @@
 	{
 		"class" : "necromancer",
 		"female" : true,
+		
 		//"index" : 72,
 
 		"images" :
 		{
 			"specialtySmall" : "heroes/septienna/icons/speciality/UN32_0_72.png",
 			"specialtyLarge" : "heroes/septienna/icons/speciality/UN44_0_72.png",
-			"large" : "heroes/septienna/icons/portrait/HPL072NC.png",
-			"small" : "heroes/septienna/icons/portrait/HPS072NC.png"
+			"small" : "heroes/septienna/icons/portrait/HPS072NC.png",
+			"large" : "heroes/septienna/icons/portrait/HPL072NC.png"
 		},
 		"army" : [
 			{
 				"creature" : "skeleton",
-				"max" : 30,
-				"min" : 20
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "zombie",
-				"max" : 6,
-				"min" : 4
+				"min" : 4,
+				"max" : 6
 			},
 			{
 				"creature" : "wight",
-				"max" : 6,
-				"min" : 4
+				"min" : 4,
+				"max" : 6
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "necromancy"
+				"skill" : "necromancy",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "scholar"
+				"skill" : "scholar",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -53,8 +54,8 @@
 			"deathRipple"
 		],
 		"texts" : {
-			"biography" : "Septienna suffers from what many call 'wasted magic,' as she seems to draw more life energy from her victims than she transfers into her minions.  Some claim that she keeps the residual energy for herself, which may explain why she does not appear to age.",
 			"name" : "Septienna",
+			"biography" : "Septienna suffers from what many call 'wasted magic,' as she seems to draw more life energy from her victims than she transfers into her minions.  Some claim that she keeps the residual energy for herself, which may explain why she does not appear to age.",
 			"specialty" : {
 				"description" : "Casts Death Ripple with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
 				"name" : "Death Ripple",

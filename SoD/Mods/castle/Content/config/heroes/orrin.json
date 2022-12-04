@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/orrin/icons/speciality/UN32_0_0.png",
 			"specialtyLarge" : "heroes/orrin/icons/speciality/UN44_0_0.png",
-			"large" : "heroes/orrin/icons/portrait/HPL000KN.png",
-			"small" : "heroes/orrin/icons/portrait/HPS000KN.png"
+			"small" : "heroes/orrin/icons/portrait/HPS000KN.png",
+			"large" : "heroes/orrin/icons/portrait/HPL000KN.png"
 		},
 		"army" : [
 			{
 				"creature" : "pikeman",
-				"max" : 20,
-				"min" : 10
+				"min" : 10,
+				"max" : 20
 			},
 			{
 				"creature" : "archer",
-				"max" : 7,
-				"min" : 4
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "griffin",
-				"max" : 3,
-				"min" : 2
+				"min" : 2,
+				"max" : 3
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "leadership"
+				"skill" : "leadership",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "archery"
+				"skill" : "archery",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -52,8 +52,8 @@
 			}
 		},
 		"texts" : {
-			"biography" : "Orrin trained with one of Erathia's best siege tacticians during his early military service.  Any archers under his command learn quickly to shoot at targets behind obstacles.",
 			"name" : "Orrin",
+			"biography" : "Orrin trained with one of Erathia's best siege tacticians during his early military service.  Any archers under his command learn quickly to shoot at targets behind obstacles.",
 			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Archery skill percentage.",
 				"name" : "Archery",

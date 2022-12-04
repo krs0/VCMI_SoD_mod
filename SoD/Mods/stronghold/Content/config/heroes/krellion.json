@@ -10,42 +10,42 @@
 		{
 			"specialtySmall" : "heroes/krellion/icons/speciality/UN32_0_101.png",
 			"specialtyLarge" : "heroes/krellion/icons/speciality/UN44_0_101.png",
-			"large" : "heroes/krellion/icons/portrait/HPL101BR.png",
-			"small" : "heroes/krellion/icons/portrait/HPS101BR.png"
+			"small" : "heroes/krellion/icons/portrait/HPS101BR.png",
+			"large" : "heroes/krellion/icons/portrait/HPL101BR.png"
 		},
 		"army" : [
 			{
 				"creature" : "goblin",
-				"max" : 25,
-				"min" : 15
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "goblinWolfRider",
-				"max" : 7,
-				"min" : 5
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "orc",
-				"max" : 6,
-				"min" : 4
+				"min" : 4,
+				"max" : 6
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "offence"
+				"skill" : "offence",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "resistance"
+				"skill" : "resistance",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
 			"creature" : "ogre"
 		},
 		"texts" : {
-			"biography" : "Krellion originally joined the army as a prizefighter, and became so well known that his fans insisted he be made to lead them into battle.  While probably not the smartest decision, Krellion has proven to be an exceptional leader, especially among ogrekind.",
 			"name" : "Krellion",
+			"biography" : "Krellion originally joined the army as a prizefighter, and became so well known that his fans insisted he be made to lead them into battle.  While probably not the smartest decision, Krellion has proven to be an exceptional leader, especially among ogrekind.",
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Ogres or Ogre Magi for each level attained after 4th level.",
 				"name" : "Ogres",

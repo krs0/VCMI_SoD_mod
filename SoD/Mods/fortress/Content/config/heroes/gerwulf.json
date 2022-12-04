@@ -10,42 +10,42 @@
 		{
 			"specialtySmall" : "heroes/gerwulf/icons/speciality/UN32_0_118.png",
 			"specialtyLarge" : "heroes/gerwulf/icons/speciality/UN44_0_118.png",
-			"large" : "heroes/gerwulf/icons/portrait/HPL118BS.png",
-			"small" : "heroes/gerwulf/icons/portrait/HPS118BS.png"
+			"small" : "heroes/gerwulf/icons/portrait/HPS118BS.png",
+			"large" : "heroes/gerwulf/icons/portrait/HPL118BS.png"
 		},
 		"army" : [
 			{
 				"creature" : "gnoll",
-				"max" : 20,
-				"min" : 10
+				"min" : 10,
+				"max" : 20
 			},
 			{
 				"creature" : "ballista",
-				"max" : 1,
-				"min" : 1
+				"min" : 1,
+				"max" : 1
 			},
 			{
 				"creature" : "serpentFly",
-				"max" : 4,
-				"min" : 2
+				"min" : 2,
+				"max" : 4
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "armorer"
+				"skill" : "armorer",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "artillery"
+				"skill" : "artillery",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
 			"creature" : "ballista"
 		},
 		"texts" : {
-			"biography" : "Gerwulf brought the first Ballista to Tatalia, having captured it in a siege against a barbarian stronghold on the border of Krewlod.  He has become Tatalia's leading expert in its deployment across the northwest coast.",
 			"name" : "Gerwulf",
+			"biography" : "Gerwulf brought the first Ballista to Tatalia, having captured it in a siege against a barbarian stronghold on the border of Krewlod.  He has become Tatalia's leading expert in its deployment across the northwest coast.",
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skill of any Ballista for each level attained after 4th level.",
 				"name" : "Ballista",

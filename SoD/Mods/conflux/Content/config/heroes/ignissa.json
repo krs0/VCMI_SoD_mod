@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/ignissa/icons/speciality/UN32_0_130.png",
 			"specialtyLarge" : "heroes/ignissa/icons/speciality/UN44_0_130.png",
-			"large" : "heroes/ignissa/icons/portrait/HPL002PL.png",
-			"small" : "heroes/ignissa/icons/portrait/HPS002PL.png"
+			"small" : "heroes/ignissa/icons/portrait/HPS002PL.png",
+			"large" : "heroes/ignissa/icons/portrait/HPL002PL.png"
 		},
 		"army" : [
 			{
 				"creature" : "pixies",
-				"max" : 25,
-				"min" : 15
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "airElementals",
-				"max" : 5,
-				"min" : 3
+				"min" : 3,
+				"max" : 5
 			},
 			{
 				"creature" : "waterElementals",
-				"max" : 3,
-				"min" : 2
+				"min" : 2,
+				"max" : 3
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "artillery"
+				"skill" : "artillery",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "offence"
+				"skill" : "offence",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -68,8 +68,8 @@
 			}
 		},
 		"texts" : {
-			"biography" : "Four years ago a powerful Wizard summoned Ignissa to this plane.  Unable to return she wandered Antagarich until she felt called to the Conflux.",
 			"name" : "Ignissa",
+			"biography" : "Four years ago a powerful Wizard summoned Ignissa to this plane.  Unable to return she wandered Antagarich until she felt called to the Conflux.",
 			"specialty" : {
 				"description" : "Fire/Energy elementals receive +1 Att, +2 Def, and +2 Dmg.",
 				"name" : "Fire Elementals",

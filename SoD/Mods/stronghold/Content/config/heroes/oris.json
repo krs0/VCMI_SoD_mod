@@ -10,42 +10,34 @@
 		{
 			"specialtySmall" : "heroes/oris/icons/speciality/UN32_0_110.png",
 			"specialtyLarge" : "heroes/oris/icons/speciality/UN44_0_110.png",
-			"large" : "heroes/oris/icons/portrait/HPL110BM.png",
-			"small" : "heroes/oris/icons/portrait/HPS110BM.png"
+			"small" : "heroes/oris/icons/portrait/HPS110BM.png",
+			"large" : "heroes/oris/icons/portrait/HPL110BM.png"
 		},
 		"army" : [
 			{
 				"creature" : "goblin",
-				"max" : 25,
-				"min" : 15
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "goblinWolfRider",
-				"max" : 7,
-				"min" : 5
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "orc",
-				"max" : 6,
-				"min" : 4
+				"min" : 4,
+				"max" : 6
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "wisdom"
+				"skill" : "wisdom",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "eagleEye"
-			}
-		],
-		"specialties" : [
-			{
-				"info" : 0,
-				"subtype" : 25,
-				"type" : 2,
-				"val" : 5
+				"skill" : "eagleEye",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -60,8 +52,8 @@
 			}
 		},
 		"texts" : {
-			"biography" : "Oris did not show much promise as a mage early in her career, but her uncanny ability to learn nearly any spell she sees cast has made up for any apparent lack of magical skills.",
 			"name" : "Oris",
+			"biography" : "Oris did not show much promise as a mage early in her career, but her uncanny ability to learn nearly any spell she sees cast has made up for any apparent lack of magical skills.",
 			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Eagle Eye skill percentage.",
 				"name" : "Eagle Eye",

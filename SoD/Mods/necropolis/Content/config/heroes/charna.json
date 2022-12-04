@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/charna/icons/speciality/UN32_0_67.png",
 			"specialtyLarge" : "heroes/charna/icons/speciality/UN44_0_67.png",
-			"large" : "heroes/charna/icons/portrait/HPL067DK.png",
-			"small" : "heroes/charna/icons/portrait/HPS067DK.png"
+			"small" : "heroes/charna/icons/portrait/HPS067DK.png",
+			"large" : "heroes/charna/icons/portrait/HPL067DK.png"
 		},
 		"army" : [
 			{
 				"creature" : "skeleton",
-				"max" : 30,
-				"min" : 20
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "wight",
-				"max" : 6,
-				"min" : 4
+				"min" : 4,
+				"max" : 6
 			},
 			{
 				"creature" : "wight",
-				"max" : 6,
-				"min" : 4
+				"min" : 4,
+				"max" : 6
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "necromancy"
+				"skill" : "necromancy",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "tactics"
+				"skill" : "tactics",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -47,8 +47,8 @@
 			"magicArrow"
 		],
 		"texts" : {
-			"biography" : "Charna was seduced by the temptation of the powers of darkness.  Though her magical abilities will never allow her to be a true Necromancer, she is a more than effective warrior.",
 			"name" : "Charna",
+			"biography" : "Charna was seduced by the temptation of the powers of darkness.  Though her magical abilities will never allow her to be a true Necromancer, she is a more than effective warrior.",
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Wights or Wraiths for each level attained after 3rd level.",
 				"name" : "Wights",

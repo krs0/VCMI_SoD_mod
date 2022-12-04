@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/solmyr/icons/speciality/UN32_0_45.png",
 			"specialtyLarge" : "heroes/solmyr/icons/speciality/UN44_0_45.png",
-			"large" : "heroes/solmyr/icons/portrait/HPL045WZ.png",
-			"small" : "heroes/solmyr/icons/portrait/HPS045WZ.png"
+			"small" : "heroes/solmyr/icons/portrait/HPS045WZ.png",
+			"large" : "heroes/solmyr/icons/portrait/HPL045WZ.png"
 		},
 		"army" : [
 			{
 				"creature" : "apprenticeGremlin",
-				"max" : 40,
-				"min" : 30
+				"min" : 30,
+				"max" : 40
 			},
 			{
 				"creature" : "stoneGargoyle",
-				"max" : 5,
-				"min" : 3
+				"min" : 3,
+				"max" : 5
 			},
 			{
 				"creature" : "ironGolem",
-				"max" : 3,
-				"min" : 2
+				"min" : 2,
+				"max" : 3
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "wisdom"
+				"skill" : "wisdom",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "sorcery"
+				"skill" : "sorcery",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -54,8 +54,8 @@
 			"chainLightning"
 		],
 		"texts" : {
-			"biography" : "Solmyr was trapped in a genie bottle for over a millenium, and was so grateful to the human who finally released him that he accidentally swore to serve the man for eternity.  As fate would have it, that man is Gavin Magnus, the immortal ruler of the Bracada Highlands.",
 			"name" : "Solmyr",
+			"biography" : "Solmyr was trapped in a genie bottle for over a millenium, and was so grateful to the human who finally released him that he accidentally swore to serve the man for eternity.  As fate would have it, that man is Gavin Magnus, the immortal ruler of the Bracada Highlands.",
 			"specialty" : {
 				"description" : "Casts Chain Lightning with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
 				"name" : "Ch. Lightning",

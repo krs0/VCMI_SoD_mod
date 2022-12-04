@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/loynis/icons/speciality/UN32_0_14.png",
 			"specialtyLarge" : "heroes/loynis/icons/speciality/UN44_0_14.png",
-			"large" : "heroes/loynis/icons/portrait/HPL014CL.png",
-			"small" : "heroes/loynis/icons/portrait/HPS014CL.png"
+			"small" : "heroes/loynis/icons/portrait/HPS014CL.png",
+			"large" : "heroes/loynis/icons/portrait/HPL014CL.png"
 		},
 		"army" : [
 			{
 				"creature" : "pikeman",
-				"max" : 20,
-				"min" : 10
+				"min" : 10,
+				"max" : 20
 			},
 			{
 				"creature" : "archer",
-				"max" : 7,
-				"min" : 4
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "griffin",
-				"max" : 3,
-				"min" : 2
+				"min" : 2,
+				"max" : 3
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "wisdom"
+				"skill" : "wisdom",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "learning"
+				"skill" : "learning",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -53,8 +53,8 @@
 			"prayer"
 		],
 		"texts" : {
-			"biography" : "Loynis has always believed that physical violence was never necessary as long as proper magic and prayer could be invoked.  Amazingly enough, he made it work, and now is regarded as a successful, though unconventional, leader.",
 			"name" : "Loynis",
+			"biography" : "Loynis has always believed that physical violence was never necessary as long as proper magic and prayer could be invoked.  Amazingly enough, he made it work, and now is regarded as a successful, though unconventional, leader.",
 			"specialty" : {
 				"description" : "Casts Prayer with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
 				"name" : "Prayer",

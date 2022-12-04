@@ -10,24 +10,24 @@
 		{
 			"specialtySmall" : "heroes/adela/icons/speciality/UN32_0_9.png",
 			"specialtyLarge" : "heroes/adela/icons/speciality/UN44_0_9.png",
-			"large" : "heroes/adela/icons/portrait/HPL009CL.png",
-			"small" : "heroes/adela/icons/portrait/HPS009CL.png"
+			"small" : "heroes/adela/icons/portrait/HPS009CL.png",
+			"large" : "heroes/adela/icons/portrait/HPL009CL.png"
 		},
 		"army" : [
 			{
 				"creature" : "pikeman",
-				"max" : 20,
-				"min" : 10
+				"min" : 10,
+				"max" : 20
 			},
 			{
 				"creature" : "archer",
-				"max" : 7,
-				"min" : 4
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "griffin",
-				"max" : 3,
-				"min" : 2
+				"min" : 2,
+				"max" : 3
 			}
 		],
 		"spellbook" : [
@@ -35,12 +35,12 @@
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "wisdom"
+				"skill" : "wisdom",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "diplomacy"
+				"skill" : "diplomacy",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -55,8 +55,8 @@
 			}
 		},
 		"texts" : {
-			"biography" : "Originally Adela only contributed her skills prior to battles.  If she could not convince her commander to avoid a fight, she would at least prepare a blessing for the troops as they entered combat.  She was given command of the Whitestone garrison.",
 			"name" : "Adela",
+			"biography" : "Originally Adela only contributed her skills prior to battles.  If she could not convince her commander to avoid a fight, she would at least prepare a blessing for the troops as they entered combat.  She was given command of the Whitestone garrison.",
 			"specialty" : {
 				"description" : "Casts Bless with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
 				"name" : "Bless",

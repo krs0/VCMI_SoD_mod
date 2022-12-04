@@ -10,30 +10,30 @@
 		{
 			"specialtySmall" : "heroes/jenova/icons/speciality/UN32_0_18.png",
 			"specialtyLarge" : "heroes/jenova/icons/speciality/UN44_0_18.png",
-			"large" : "heroes/jenova/icons/portrait/HPL018RN.png",
-			"small" : "heroes/jenova/icons/portrait/HPS018RN.png"
+			"small" : "heroes/jenova/icons/portrait/HPS018RN.png",
+			"large" : "heroes/jenova/icons/portrait/HPL018RN.png"
 		},
 		"army" : [
 			{
 				"creature" : "centaur",
-				"max" : 24,
-				"min" : 12
+				"min" : 12,
+				"max" : 24
 			},
 			{
 				"creature" : "dwarf",
-				"max" : 5,
-				"min" : 3
+				"min" : 3,
+				"max" : 5
 			},
 			{
 				"creature" : "woodElf",
-				"max" : 6,
-				"min" : 3
+				"min" : 3,
+				"max" : 6
 			}
 		],
 		"skills" : [
 			{
-				"level" : "advanced",
-				"skill" : "archery"
+				"skill" : "archery",
+				"level" : "advanced"
 			}
 		],
 		"specialty" : {
@@ -46,8 +46,8 @@
 			}
 		},
 		"texts" : {
-			"biography" : "Jenova's kindhearted nature has made her well liked throughout much of Erathia.  Her beguiling charms have allowed her to raise money for whatever cause she chooses to follow.",
 			"name" : "Jenova",
+			"biography" : "Jenova's kindhearted nature has made her well liked throughout much of Erathia.  Her beguiling charms have allowed her to raise money for whatever cause she chooses to follow.",
 			"specialty" : {
 				"description" : "Increases kingdom's income by 350 gold per day.",
 				"name" : "+350 Gold",

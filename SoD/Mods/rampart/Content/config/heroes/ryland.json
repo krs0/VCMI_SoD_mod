@@ -10,42 +10,42 @@
 		{
 			"specialtySmall" : "heroes/ryland/icons/speciality/UN32_0_19.png",
 			"specialtyLarge" : "heroes/ryland/icons/speciality/UN44_0_19.png",
-			"large" : "heroes/ryland/icons/portrait/HPL019RN.png",
-			"small" : "heroes/ryland/icons/portrait/HPS019RN.png"
+			"small" : "heroes/ryland/icons/portrait/HPS019RN.png",
+			"large" : "heroes/ryland/icons/portrait/HPL019RN.png"
 		},
 		"army" : [
 			{
 				"creature" : "centaur",
-				"max" : 24,
-				"min" : 12
+				"min" : 12,
+				"max" : 24
 			},
 			{
 				"creature" : "dwarf",
-				"max" : 5,
-				"min" : 3
+				"min" : 3,
+				"max" : 5
 			},
 			{
 				"creature" : "woodElf",
-				"max" : 6,
-				"min" : 3
+				"min" : 3,
+				"max" : 6
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "diplomacy"
+				"skill" : "diplomacy",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "leadership"
+				"skill" : "leadership",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
 			"creature" : "dendroidGuard"
 		},
 		"texts" : {
-			"biography" : "Ryland was the first (and to date, the only) human ever fully accepted by the Circle of Elder Dendroids as a Ranger of AvLee.  Some joke that he was once an Elf, but that he was killed and accidentally reincarnated into a human's body.",
 			"name" : "Ryland",
+			"biography" : "Ryland was the first (and to date, the only) human ever fully accepted by the Circle of Elder Dendroids as a Ranger of AvLee.  Some joke that he was once an Elf, but that he was killed and accidentally reincarnated into a human's body.",
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Dendroid Guards or Soldiers for each level attained after 5th level.",
 				"name" : "Dendroids",

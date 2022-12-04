@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/thunar/icons/speciality/UN32_0_129.png",
 			"specialtyLarge" : "heroes/thunar/icons/speciality/UN44_0_129.png",
-			"large" : "heroes/thunar/icons/portrait/HPL001PL.png",
-			"small" : "heroes/thunar/icons/portrait/HPS001PL.png"
+			"small" : "heroes/thunar/icons/portrait/HPS001PL.png",
+			"large" : "heroes/thunar/icons/portrait/HPL001PL.png"
 		},
 		"army" : [
 			{
 				"creature" : "pixies",
-				"max" : 25,
-				"min" : 15
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "airElementals",
-				"max" : 5,
-				"min" : 3
+				"min" : 3,
+				"max" : 5
 			},
 			{
 				"creature" : "waterElementals",
-				"max" : 3,
-				"min" : 2
+				"min" : 2,
+				"max" : 3
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "estates"
+				"skill" : "estates",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "tactics"
+				"skill" : "tactics",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -68,8 +68,8 @@
 			}
 		},
 		"texts" : {
-			"biography" : "Living around the Erathian Capitol for many years Thunar learned extensive Battle Tactics and Estates.  Her curiosity and respect of mortals gained her a place in the Conflux.",
 			"name" : "Thunar",
+			"biography" : "Living around the Erathian Capitol for many years Thunar learned extensive Battle Tactics and Estates.  Her curiosity and respect of mortals gained her a place in the Conflux.",
 			"specialty" : {
 				"description" : "Earth/Magma elementals receive +2 Att, +1 Def, and +5 Dmg.",
 				"name" : "Earth Ele.",

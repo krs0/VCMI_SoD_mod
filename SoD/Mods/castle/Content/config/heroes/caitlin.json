@@ -10,24 +10,24 @@
 		{
 			"specialtySmall" : "heroes/caitlin/icons/speciality/UN32_0_15.png",
 			"specialtyLarge" : "heroes/caitlin/icons/speciality/UN44_0_15.png",
-			"large" : "heroes/caitlin/icons/portrait/HPL015CL.png",
-			"small" : "heroes/caitlin/icons/portrait/HPS015CL.png"
+			"small" : "heroes/caitlin/icons/portrait/HPS015CL.png",
+			"large" : "heroes/caitlin/icons/portrait/HPL015CL.png"
 		},
 		"army" : [
 			{
 				"creature" : "pikeman",
-				"max" : 20,
-				"min" : 10
+				"min" : 10,
+				"max" : 20
 			},
 			{
 				"creature" : "archer",
-				"max" : 7,
-				"min" : 4
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "griffin",
-				"max" : 3,
-				"min" : 2
+				"min" : 2,
+				"max" : 3
 			}
 		],
 		"spellbook" : [
@@ -35,12 +35,12 @@
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "wisdom"
+				"skill" : "wisdom",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "intelligence"
+				"skill" : "intelligence",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -53,8 +53,8 @@
 			}
 		},
 		"texts" : {
-			"biography" : "Before she was granted command, Caitlin was considered by some to be possessed by evil spirits.  Despite these claims, donations to her church were unsurpassed when she was still in the church's ranks.",
 			"name" : "Caitlin",
+			"biography" : "Before she was granted command, Caitlin was considered by some to be possessed by evil spirits.  Despite these claims, donations to her church were unsurpassed when she was still in the church's ranks.",
 			"specialty" : {
 				"description" : "Increases kingdom's income by 350 gold per day.",
 				"name" : "+350 Gold",

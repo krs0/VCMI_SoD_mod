@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/uland/icons/speciality/UN32_0_25.png",
 			"specialtyLarge" : "heroes/uland/icons/speciality/UN44_0_25.png",
-			"large" : "heroes/uland/icons/portrait/HPL025DR.png",
-			"small" : "heroes/uland/icons/portrait/HPS025DR.png"
+			"small" : "heroes/uland/icons/portrait/HPS025DR.png",
+			"large" : "heroes/uland/icons/portrait/HPL025DR.png"
 		},
 		"army" : [
 			{
 				"creature" : "centaur",
-				"max" : 24,
-				"min" : 12
+				"min" : 12,
+				"max" : 24
 			},
 			{
 				"creature" : "dwarf",
-				"max" : 5,
-				"min" : 3
+				"min" : 3,
+				"max" : 5
 			},
 			{
 				"creature" : "woodElf",
-				"max" : 6,
-				"min" : 3
+				"min" : 3,
+				"max" : 6
 			}
 		],
 		"skills" : [
 			{
-				"level" : "advanced",
-				"skill" : "wisdom"
+				"skill" : "wisdom",
+				"level" : "advanced"
 			},
 			{
-				"level" : "basic",
-				"skill" : "ballistics"
+				"skill" : "ballistics",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -54,8 +54,8 @@
 			"cure"
 		],
 		"texts" : {
-			"biography" : "Uland spent a great deal of his life as a battlefield healer before choosing to follow the path of a Druid, but the lessons he learned serving in the military have made him into an excellent leader today.",
 			"name" : "Uland",
+			"biography" : "Uland spent a great deal of his life as a battlefield healer before choosing to follow the path of a Druid, but the lessons he learned serving in the military have made him into an excellent leader today.",
 			"specialty" : {
 				"description" : "Casts Cure with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
 				"name" : "Cure",

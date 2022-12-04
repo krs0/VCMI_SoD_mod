@@ -10,42 +10,42 @@
 		{
 			"specialtySmall" : "heroes/tyraxor/icons/speciality/UN32_0_103.png",
 			"specialtyLarge" : "heroes/tyraxor/icons/speciality/UN44_0_103.png",
-			"large" : "heroes/tyraxor/icons/portrait/HPL103BR.png",
-			"small" : "heroes/tyraxor/icons/portrait/HPS103BR.png"
+			"small" : "heroes/tyraxor/icons/portrait/HPS103BR.png",
+			"large" : "heroes/tyraxor/icons/portrait/HPL103BR.png"
 		},
 		"army" : [
 			{
 				"creature" : "goblinWolfRider",
-				"max" : 7,
-				"min" : 5
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "goblinWolfRider",
-				"max" : 7,
-				"min" : 5
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "goblinWolfRider",
-				"max" : 7,
-				"min" : 5
+				"min" : 5,
+				"max" : 7
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "offence"
+				"skill" : "offence",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "tactics"
+				"skill" : "tactics",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
 			"creature" : "goblinWolfRider"
 		},
 		"texts" : {
-			"biography" : "Tyraxor himself was a wolf rider captain, having finally joined the ranks of Krewlod's heroes after sniffing out a Tatalian ambush during a long march along the border of the two nations.",
 			"name" : "Tyraxor",
+			"biography" : "Tyraxor himself was a wolf rider captain, having finally joined the ranks of Krewlod's heroes after sniffing out a Tatalian ambush during a long march along the border of the two nations.",
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Wolf Riders or Raiders for each level attained after 2nd level.",
 				"name" : "Wolf Riders",

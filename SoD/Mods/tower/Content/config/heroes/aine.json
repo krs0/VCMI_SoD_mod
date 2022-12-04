@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/aine/icons/speciality/UN32_0_47.png",
 			"specialtyLarge" : "heroes/aine/icons/speciality/UN44_0_47.png",
-			"large" : "heroes/aine/icons/portrait/HPL047WZ.png",
-			"small" : "heroes/aine/icons/portrait/HPS047WZ.png"
+			"small" : "heroes/aine/icons/portrait/HPS047WZ.png",
+			"large" : "heroes/aine/icons/portrait/HPL047WZ.png"
 		},
 		"army" : [
 			{
 				"creature" : "apprenticeGremlin",
-				"max" : 40,
-				"min" : 30
+				"min" : 30,
+				"max" : 40
 			},
 			{
 				"creature" : "stoneGargoyle",
-				"max" : 5,
-				"min" : 3
+				"min" : 3,
+				"max" : 5
 			},
 			{
 				"creature" : "ironGolem",
-				"max" : 3,
-				"min" : 2
+				"min" : 2,
+				"max" : 3
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "wisdom"
+				"skill" : "wisdom",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "scholar"
+				"skill" : "scholar",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -53,8 +53,8 @@
 			"curse"
 		],
 		"texts" : {
-			"biography" : "Aine has lived in Bracada longer than most can remember, and is said to be one of the wealthiest heroes in the land.  She must have wealth hidden somewhere, for her kind hearted nature causes her to regularly contribute large sums of money to whatever cause she chooses to pursue.",
 			"name" : "Aine",
+			"biography" : "Aine has lived in Bracada longer than most can remember, and is said to be one of the wealthiest heroes in the land.  She must have wealth hidden somewhere, for her kind hearted nature causes her to regularly contribute large sums of money to whatever cause she chooses to pursue.",
 			"specialty" : {
 				"description" : "Increases kingdom's income by 350 gold per day.",
 				"name" : "+350 Gold",

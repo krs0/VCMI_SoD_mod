@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/ash/icons/speciality/UN32_0_61.png",
 			"specialtyLarge" : "heroes/ash/icons/speciality/UN44_0_61.png",
-			"large" : "heroes/ash/icons/portrait/HPL061DM.png",
-			"small" : "heroes/ash/icons/portrait/HPS061DM.png"
+			"small" : "heroes/ash/icons/portrait/HPS061DM.png",
+			"large" : "heroes/ash/icons/portrait/HPL061DM.png"
 		},
 		"army" : [
 			{
 				"creature" : "imp",
-				"max" : 25,
-				"min" : 15
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "gog",
-				"max" : 7,
-				"min" : 4
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "hellHound",
-				"max" : 4,
-				"min" : 3
+				"min" : 3,
+				"max" : 4
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "wisdom"
+				"skill" : "wisdom",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "eagleEye"
+				"skill" : "eagleEye",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -53,8 +53,8 @@
 			"bloodlust"
 		],
 		"texts" : {
-			"biography" : "Ash got her name during the initial attack on Erathia.  Her forces managed to trap several dozen elves and dwarves inside a large wooden fort, which she blasted so completely with a spell that the entire structure 'powdered' in a cloud of ash, revealing several dozen very shocked occupants.",
 			"name" : "Ash",
+			"biography" : "Ash got her name during the initial attack on Erathia.  Her forces managed to trap several dozen elves and dwarves inside a large wooden fort, which she blasted so completely with a spell that the entire structure 'powdered' in a cloud of ash, revealing several dozen very shocked occupants.",
 			"specialty" : {
 				"description" : "Casts Bloodlust with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
 				"name" : "Bloodlust",

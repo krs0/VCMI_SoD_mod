@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/fafner/icons/speciality/UN32_0_37.png",
 			"specialtyLarge" : "heroes/fafner/icons/speciality/UN44_0_37.png",
-			"large" : "heroes/fafner/icons/portrait/HPL037AL.png",
-			"small" : "heroes/fafner/icons/portrait/HPS037AL.png"
+			"small" : "heroes/fafner/icons/portrait/HPS037AL.png",
+			"large" : "heroes/fafner/icons/portrait/HPL037AL.png"
 		},
 		"army" : [
 			{
 				"creature" : "apprenticeGremlin",
-				"max" : 40,
-				"min" : 30
+				"min" : 30,
+				"max" : 40
 			},
 			{
 				"creature" : "stoneGargoyle",
-				"max" : 5,
-				"min" : 3
+				"min" : 3,
+				"max" : 5
 			},
 			{
 				"creature" : "ironGolem",
-				"max" : 3,
-				"min" : 2
+				"min" : 2,
+				"max" : 3
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "scholar"
+				"skill" : "scholar",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "resistance"
+				"skill" : "resistance",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -47,8 +47,8 @@
 			"haste"
 		],
 		"texts" : {
-			"biography" : "It is said that Fafner became a genie over a millenium ago, when upon finding a genie bottle, wished that he become as powerful as the genie granting the wish.  The wish was granted, and Fafner has served the leaders of Bracada ever since.",
 			"name" : "Fafner",
+			"biography" : "It is said that Fafner became a genie over a millenium ago, when upon finding a genie bottle, wished that he become as powerful as the genie granting the wish.  The wish was granted, and Fafner has served the leaders of Bracada ever since.",
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Nagas or Naga Queens for each level attained after 6th level.",
 				"name" : "Nagas",

@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/straker/icons/speciality/UN32_0_64.png",
 			"specialtyLarge" : "heroes/straker/icons/speciality/UN44_0_64.png",
-			"large" : "heroes/straker/icons/portrait/HPL064DK.png",
-			"small" : "heroes/straker/icons/portrait/HPS064DK.png"
+			"small" : "heroes/straker/icons/portrait/HPS064DK.png",
+			"large" : "heroes/straker/icons/portrait/HPL064DK.png"
 		},
 		"army" : [
 			{
 				"creature" : "zombie",
-				"max" : 6,
-				"min" : 4
+				"min" : 4,
+				"max" : 6
 			},
 			{
 				"creature" : "zombie",
-				"max" : 6,
-				"min" : 4
+				"min" : 4,
+				"max" : 6
 			},
 			{
 				"creature" : "zombie",
-				"max" : 6,
-				"min" : 4
+				"min" : 4,
+				"max" : 6
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "necromancy"
+				"skill" : "necromancy",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "resistance"
+				"skill" : "resistance",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -47,8 +47,8 @@
 			"haste"
 		],
 		"texts" : {
-			"biography" : "Straker chose the dark path of Necromancy, but it was soon discovered that his fighting skills by far outclassed his magical abilities.  He serves now in the undead armies of Deyja, hoping to one day join the ranks of true Necromancers.",
 			"name" : "Straker",
+			"biography" : "Straker chose the dark path of Necromancy, but it was soon discovered that his fighting skills by far outclassed his magical abilities.  He serves now in the undead armies of Deyja, hoping to one day join the ranks of true Necromancers.",
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Walking Dead or Zombies for each level attained after 2nd level.",
 				"name" : "Walking Dead",

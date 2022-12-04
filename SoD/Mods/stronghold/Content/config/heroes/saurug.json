@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/saurug/icons/speciality/UN32_0_111.png",
 			"specialtyLarge" : "heroes/saurug/icons/speciality/UN44_0_111.png",
-			"large" : "heroes/saurug/icons/portrait/HPL111BM.png",
-			"small" : "heroes/saurug/icons/portrait/HPS111BM.png"
+			"small" : "heroes/saurug/icons/portrait/HPS111BM.png",
+			"large" : "heroes/saurug/icons/portrait/HPL111BM.png"
 		},
 		"army" : [
 			{
 				"creature" : "goblin",
-				"max" : 25,
-				"min" : 15
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "goblinWolfRider",
-				"max" : 7,
-				"min" : 5
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "orc",
-				"max" : 6,
-				"min" : 4
+				"min" : 4,
+				"max" : 6
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "wisdom"
+				"skill" : "wisdom",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "resistance"
+				"skill" : "resistance",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -53,8 +53,8 @@
 			"bloodlust"
 		],
 		"texts" : {
-			"biography" : "It is believed that Saurug once studied alchemy in an attempt to make himself wealthy.  Though unsuccessful, his magics have made him of great value to the armies of Krewlod.",
 			"name" : "Saurug",
+			"biography" : "It is believed that Saurug once studied alchemy in an attempt to make himself wealthy.  Though unsuccessful, his magics have made him of great value to the armies of Krewlod.",
 			"specialty" : {
 				"description" : "Increases kingdom's gem production by 1 per day.",
 				"name" : "+1 Gems",

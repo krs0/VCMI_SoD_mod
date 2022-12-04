@@ -10,42 +10,42 @@
 		{
 			"specialtySmall" : "heroes/jabarkas/icons/speciality/UN32_0_98.png",
 			"specialtyLarge" : "heroes/jabarkas/icons/speciality/UN44_0_98.png",
-			"large" : "heroes/jabarkas/icons/portrait/HPL098BR.png",
-			"small" : "heroes/jabarkas/icons/portrait/HPS098BR.png"
+			"small" : "heroes/jabarkas/icons/portrait/HPS098BR.png",
+			"large" : "heroes/jabarkas/icons/portrait/HPL098BR.png"
 		},
 		"army" : [
 			{
 				"creature" : "goblin",
-				"max" : 25,
-				"min" : 15
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "orc",
-				"max" : 6,
-				"min" : 4
+				"min" : 4,
+				"max" : 6
 			},
 			{
 				"creature" : "orc",
-				"max" : 6,
-				"min" : 4
+				"min" : 4,
+				"max" : 6
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "offence"
+				"skill" : "offence",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "archery"
+				"skill" : "archery",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
 			"creature" : "orc"
 		},
 		"texts" : {
-			"biography" : "Being the eldest son of Duke Boragus, Jabarkas knows that he will one day rule the lands of Krewlod.  Like his father, he has learned that the best way to achieve his goals is through conquest.",
 			"name" : "Jabarkas",
+			"biography" : "Being the eldest son of Duke Boragus, Jabarkas knows that he will one day rule the lands of Krewlod.  Like his father, he has learned that the best way to achieve his goals is through conquest.",
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Orcs or Orc Chieftains for each level attained after 3rd level.",
 				"name" : "Orcs",

@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/nimbus/icons/speciality/UN32_0_75.png",
 			"specialtyLarge" : "heroes/nimbus/icons/speciality/UN44_0_75.png",
-			"large" : "heroes/nimbus/icons/portrait/HPL075NC.png",
-			"small" : "heroes/nimbus/icons/portrait/HPS075NC.png"
+			"small" : "heroes/nimbus/icons/portrait/HPS075NC.png",
+			"large" : "heroes/nimbus/icons/portrait/HPL075NC.png"
 		},
 		"army" : [
 			{
 				"creature" : "skeleton",
-				"max" : 30,
-				"min" : 20
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "zombie",
-				"max" : 6,
-				"min" : 4
+				"min" : 4,
+				"max" : 6
 			},
 			{
 				"creature" : "wight",
-				"max" : 6,
-				"min" : 4
+				"min" : 4,
+				"max" : 6
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "necromancy"
+				"skill" : "necromancy",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "eagleEye"
+				"skill" : "eagleEye",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -55,8 +55,8 @@
 			"shield"
 		],
 		"texts" : {
-			"biography" : "When Nimbus was a child he had a small dog that eventually died of old age.  Nimbus discovered that by sacrificing a small bird or other creature, he could resurrect his pet, a feat which he repeated each time the dog died.  Little did he realize that he was already exploring the beginnings of Necromancy.",
 			"name" : "Nimbus",
+			"biography" : "When Nimbus was a child he had a small dog that eventually died of old age.  Nimbus discovered that by sacrificing a small bird or other creature, he could resurrect his pet, a feat which he repeated each time the dog died.  Little did he realize that he was already exploring the beginnings of Necromancy.",
 			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Eagle Eye skill percentage.",
 				"name" : "Eagle Eye",

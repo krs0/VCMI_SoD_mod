@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/gunnar/icons/speciality/UN32_0_85.png",
 			"specialtyLarge" : "heroes/gunnar/icons/speciality/UN44_0_85.png",
-			"large" : "heroes/gunnar/icons/portrait/HPL085OV.png",
-			"small" : "heroes/gunnar/icons/portrait/HPS085OV.png"
+			"small" : "heroes/gunnar/icons/portrait/HPS085OV.png",
+			"large" : "heroes/gunnar/icons/portrait/HPL085OV.png"
 		},
 		"army" : [
 			{
 				"creature" : "troglodyte",
-				"max" : 40,
-				"min" : 30
+				"min" : 30,
+				"max" : 40
 			},
 			{
 				"creature" : "harpy",
-				"max" : 6,
-				"min" : 4
+				"min" : 4,
+				"max" : 6
 			},
 			{
 				"creature" : "beholder",
-				"max" : 4,
-				"min" : 3
+				"min" : 3,
+				"max" : 4
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "logistics"
+				"skill" : "logistics",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "tactics"
+				"skill" : "tactics",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -52,8 +52,8 @@
 			}
 		},
 		"texts" : {
-			"biography" : "Gunnar served first as a scout for the Dungeon Overlords, then as a guide and bodyguard to various high-ranking officials, before finally being granted command of a garrison force on the rugged Nighon borders.  What he lacks in brains he makes up for in instinct.",
 			"name" : "Gunnar",
+			"biography" : "Gunnar served first as a scout for the Dungeon Overlords, then as a guide and bodyguard to various high-ranking officials, before finally being granted command of a garrison force on the rugged Nighon borders.  What he lacks in brains he makes up for in instinct.",
 			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Logistics skill percentage.",
 				"name" : "Logistics",

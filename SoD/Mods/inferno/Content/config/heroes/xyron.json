@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/icons/speciality/UN32_0_57.png",
 			"specialtyLarge" : "heroes/icons/speciality/UN44_0_57.png",
-			"large" : "heroes/icons/portrait/HPL057DM.png",
-			"small" : "heroes/icons/portrait/HPS057DM.png"
+			"small" : "heroes/icons/portrait/HPS057DM.png",
+			"large" : "heroes/icons/portrait/HPL057DM.png"
 		},
 		"army" : [
 			{
 				"creature" : "imp",
-				"max" : 25,
-				"min" : 15
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "gog",
-				"max" : 7,
-				"min" : 4
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "hellHound",
-				"max" : 4,
-				"min" : 3
+				"min" : 3,
+				"max" : 4
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "wisdom"
+				"skill" : "wisdom",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "scholar"
+				"skill" : "scholar",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -54,8 +54,8 @@
 			"inferno"
 		],
 		"texts" : {
-			"biography" : "Xyron seems to like fire even more than anyone would expect of an Efreeti, but Xyron delights in just about anything having to do with fire or lava.",
 			"name" : "Xyron",
+			"biography" : "Xyron seems to like fire even more than anyone would expect of an Efreeti, but Xyron delights in just about anything having to do with fire or lava.",
 			"specialty" : {
 				"description" : "Casts Inferno with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
 				"name" : "Inferno",

@@ -10,42 +10,42 @@
 		{
 			"specialtySmall" : "heroes/rashka/icons/speciality/UN32_0_49.png",
 			"specialtyLarge" : "heroes/rashka/icons/speciality/UN44_0_49.png",
-			"large" : "heroes/rashka/icons/portrait/HPL049HR.png",
-			"small" : "heroes/rashka/icons/portrait/HPS049HR.png"
+			"small" : "heroes/rashka/icons/portrait/HPS049HR.png",
+			"large" : "heroes/rashka/icons/portrait/HPL049HR.png"
 		},
 		"army" : [
 			{
 				"creature" : "imp",
-				"max" : 25,
-				"min" : 15
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "gog",
-				"max" : 7,
-				"min" : 4
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "hellHound",
-				"max" : 4,
-				"min" : 3
+				"min" : 3,
+				"max" : 4
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "wisdom"
+				"skill" : "wisdom",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "scholar"
+				"skill" : "scholar",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
 			"creature" : "efreet"
 		},
 		"texts" : {
-			"biography" : "Rashka is one of the strongest and most feared of all Efreet.  His leadership methods focus on intimidation as a method of motivation.  So far, it has worked.",
 			"name" : "Rashka",
+			"biography" : "Rashka is one of the strongest and most feared of all Efreet.  His leadership methods focus on intimidation as a method of motivation.  So far, it has worked.",
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Efreet or Efreet Sultans for each level attained after 6th level.",
 				"name" : "Efreet",

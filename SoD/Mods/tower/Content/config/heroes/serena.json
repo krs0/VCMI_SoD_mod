@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/serena/icons/speciality/UN32_0_42.png",
 			"specialtyLarge" : "heroes/serena/icons/speciality/UN44_0_42.png",
-			"large" : "heroes/serena/icons/portrait/HPL042WZ.png",
-			"small" : "heroes/serena/icons/portrait/HPS042WZ.png"
+			"small" : "heroes/serena/icons/portrait/HPS042WZ.png",
+			"large" : "heroes/serena/icons/portrait/HPL042WZ.png"
 		},
 		"army" : [
 			{
 				"creature" : "apprenticeGremlin",
-				"max" : 40,
-				"min" : 30
+				"min" : 30,
+				"max" : 40
 			},
 			{
 				"creature" : "stoneGargoyle",
-				"max" : 5,
-				"min" : 3
+				"min" : 3,
+				"max" : 5
 			},
 			{
 				"creature" : "ironGolem",
-				"max" : 3,
-				"min" : 2
+				"min" : 2,
+				"max" : 3
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "wisdom"
+				"skill" : "wisdom",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "eagleEye"
+				"skill" : "eagleEye",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -55,8 +55,8 @@
 			"dispel"
 		],
 		"texts" : {
-			"biography" : "The first time Serena cast a spell she nearly killed herself.  She channeled so much magical energy into the spell that a Wizard in a neighboring town felt it.  He quickly sought her out, bringing her to the Wizards' Guild so that she could learn to control her powers.",
 			"name" : "Serena",
+			"biography" : "The first time Serena cast a spell she nearly killed herself.  She channeled so much magical energy into the spell that a Wizard in a neighboring town felt it.  He quickly sought her out, bringing her to the Wizards' Guild so that she could learn to control her powers.",
 			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Eagle Eye skill percentage.",
 				"name" : "Eagle Eye",

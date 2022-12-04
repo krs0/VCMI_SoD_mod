@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/kyrre/icons/speciality/UN32_0_23.png",
 			"specialtyLarge" : "heroes/kyrre/icons/speciality/UN44_0_23.png",
-			"large" : "heroes/kyrre/icons/portrait/HPL023RN.png",
-			"small" : "heroes/kyrre/icons/portrait/HPS023RN.png"
+			"small" : "heroes/kyrre/icons/portrait/HPS023RN.png",
+			"large" : "heroes/kyrre/icons/portrait/HPL023RN.png"
 		},
 		"army" : [
 			{
 				"creature" : "centaur",
-				"max" : 24,
-				"min" : 12
+				"min" : 12,
+				"max" : 24
 			},
 			{
 				"creature" : "dwarf",
-				"max" : 5,
-				"min" : 3
+				"min" : 3,
+				"max" : 5
 			},
 			{
 				"creature" : "woodElf",
-				"max" : 6,
-				"min" : 3
+				"min" : 3,
+				"max" : 6
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "archery"
+				"skill" : "archery",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "logistics"
+				"skill" : "logistics",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -52,8 +52,8 @@
 			}
 		},
 		"texts" : {
-			"biography" : "Kyrre served as a scout during the initial defense of AvLee from the Kreegan attacks.  Her ability to navigate difficult terrain allowed her to excel in her duties.",
 			"name" : "Kyrre",
+			"biography" : "Kyrre served as a scout during the initial defense of AvLee from the Kreegan attacks.  Her ability to navigate difficult terrain allowed her to excel in her duties.",
 			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Logistics skill percentage.",
 				"name" : "Logistics",

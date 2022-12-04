@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/pasis/icons/speciality/UN32_0_128.png",
 			"specialtyLarge" : "heroes/pasis/icons/speciality/UN44_0_128.png",
-			"large" : "heroes/pasis/icons/portrait/HPL000PL.png",
-			"small" : "heroes/pasis/icons/portrait/HPS000PL.png"
+			"small" : "heroes/pasis/icons/portrait/HPS000PL.png",
+			"large" : "heroes/pasis/icons/portrait/HPL000PL.png"
 		},
 		"army" : [
 			{
 				"creature" : "pixies",
-				"max" : 25,
-				"min" : 15
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "airElementals",
-				"max" : 5,
-				"min" : 3
+				"min" : 3,
+				"max" : 5
 			},
 			{
 				"creature" : "airElementals",
-				"max" : 3,
-				"min" : 2
+				"min" : 2,
+				"max" : 3
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "artillery"
+				"skill" : "artillery",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
 				"skill" : "offence"
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -61,8 +61,8 @@
 			}
 		},
 		"texts" : {
-			"biography" : "Pasis has always been extremely fascinated by those of Corporeal form.  Extensive research and interaction with these creatures made her an ideal candidate for the Conflux.",
 			"name" : "Pasis",
+			"biography" : "Pasis has always been extremely fascinated by those of Corporeal form.  Extensive research and interaction with these creatures made her an ideal candidate for the Conflux.",
 			"specialty" : {
 				"description" : "Psychic/Magic elementals receive +3 Att and +3 Def.",
 				"name" : "Psychic Ele.",

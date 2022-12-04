@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/dessa/icons/speciality/UN32_0_106.png",
 			"specialtyLarge" : "heroes/dessa/icons/speciality/UN44_0_106.png",
-			"large" : "heroes/dessa/icons/portrait/HPL106BM.png",
-			"small" : "heroes/dessa/icons/portrait/HPS106BM.png"
+			"small" : "heroes/dessa/icons/portrait/HPS106BM.png",
+			"large" : "heroes/dessa/icons/portrait/HPL106BM.png"
 		},
 		"army" : [
 			{
 				"creature" : "goblin",
-				"max" : 25,
-				"min" : 15
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "goblinWolfRider",
-				"max" : 7,
-				"min" : 5
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "orc",
-				"max" : 6,
-				"min" : 4
+				"min" : 4,
+				"max" : 6
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "wisdom"
+				"skill" : "wisdom",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "logistics"
+				"skill" : "logistics",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -55,8 +55,8 @@
 			"stoneSkin"
 		],
 		"texts" : {
-			"biography" : "Nearly fifteen years ago, Dessa's entire village was wiped out in a massacre at the hands of human marauders.  Dessa was one of six children who survived.  Since then he has dreamed of one day paying back the humans for their crime.",
 			"name" : "Dessa",
+			"biography" : "Nearly fifteen years ago, Dessa's entire village was wiped out in a massacre at the hands of human marauders.  Dessa was one of six children who survived.  Since then he has dreamed of one day paying back the humans for their crime.",
 			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Logistics skill percentage.",
 				"name" : "Logistics",

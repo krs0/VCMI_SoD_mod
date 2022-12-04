@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/luna/icons/speciality/UN32_0_136.png",
 			"specialtyLarge" : "heroes/luna/icons/speciality/UN44_0_136.png",
-			"large" : "heroes/luna/icons/portrait/HPL000EL.png",
-			"small" : "heroes/luna/icons/portrait/HPS000EL.png"
+			"small" : "heroes/luna/icons/portrait/HPS000EL.png",
+			"large" : "heroes/luna/icons/portrait/HPL000EL.png"
 		},
 		"army" : [
 			{
 				"creature" : "pixies",
-				"max" : 25,
-				"min" : 15
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "airElementals",
-				"max" : 5,
-				"min" : 3
+				"min" : 3,
+				"max" : 5
 			},
 			{
 				"creature" : "waterElementals",
-				"max" : 3,
-				"min" : 2
+				"min" : 2,
+				"max" : 3
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "wisdom"
+				"skill" : "wisdom",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "fireMagic"
+				"skill" : "fireMagic",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -54,8 +54,8 @@
 			"fireWall"
 		],
 		"texts" : {
-			"biography" : "Originally a sorceress in Enroth, Luna felt the call of the elemental Conflux and made her way to Erathia.  Once in Erathia, Luna was compelled to disregard her aquatic talents and turn her efforts to developing her skills in fire magic.",
 			"name" : "Luna",
+			"biography" : "Originally a sorceress in Enroth, Luna felt the call of the elemental Conflux and made her way to Erathia.  Once in Erathia, Luna was compelled to disregard her aquatic talents and turn her efforts to developing her skills in fire magic.",
 			"specialty" : {
 				"description" : "Damage from Fire Walls is doubled.",
 				"name" : "Fire Wall",

@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/galthran/icons/speciality/UN32_0_71.png",
 			"specialtyLarge" : "heroes/galthran/icons/speciality/UN44_0_71.png",
-			"large" : "heroes/galthran/icons/portrait/HPL071DK.png",
-			"small" : "heroes/galthran/icons/portrait/HPS071DK.png"
+			"small" : "heroes/galthran/icons/portrait/HPS071DK.png",
+			"large" : "heroes/galthran/icons/portrait/HPL071DK.png"
 		},
 		"army" : [
 			{
 				"creature" : "skeleton",
-				"max" : 30,
-				"min" : 20
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "skeleton",
-				"max" : 30,
-				"min" : 20
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "skeleton",
-				"max" : 30,
-				"min" : 20
+				"min" : 20,
+				"max" : 30
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "necromancy"
+				"skill" : "necromancy",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "armorer"
+				"skill" : "armorer",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -47,8 +47,8 @@
 			"shield"
 		],
 		"texts" : {
-			"biography" : "Over the years, Galthran has developed new methods of creating and commanding skeletons which provides him with a distinct advantage in combat.",
 			"name" : "Galthran",
+			"biography" : "Over the years, Galthran has developed new methods of creating and commanding skeletons which provides him with a distinct advantage in combat.",
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Skeletons or Skeleton Warriors for each level attained after 1st level.",
 				"name" : "Skeletons",

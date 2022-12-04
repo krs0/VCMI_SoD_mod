@@ -10,30 +10,30 @@
 		{
 			"specialtySmall" : "heroes/isra/icons/speciality/UN32_0_69.png",
 			"specialtyLarge" : "heroes/isra/icons/speciality/UN44_0_69.png",
-			"large" : "heroes/isra/icons/portrait/HPL069DK.png",
-			"small" : "heroes/isra/icons/portrait/HPS069DK.png"
+			"small" : "heroes/isra/icons/portrait/HPS069DK.png",
+			"large" : "heroes/isra/icons/portrait/HPL069DK.png"
 		},
 		"army" : [
 			{
 				"creature" : "skeleton",
-				"max" : 30,
-				"min" : 20
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "zombie",
-				"max" : 6,
-				"min" : 4
+				"min" : 4,
+				"max" : 6
 			},
 			{
 				"creature" : "wight",
-				"max" : 6,
-				"min" : 4
+				"min" : 4,
+				"max" : 6
 			}
 		],
 		"skills" : [
 			{
-				"level" : "advanced",
-				"skill" : "necromancy"
+				"skill" : "necromancy",
+				"level" : "advanced"
 			}
 		],
 		"specialty" : {
@@ -51,8 +51,8 @@
 			"magicArrow"
 		],
 		"texts" : {
-			"biography" : "Isra may not be the greatest spellcaster in Deyja, but the armies she leads always seem to have a disproportionate number of skeletons compared to others.",
 			"name" : "Isra",
+			"biography" : "Isra may not be the greatest spellcaster in Deyja, but the armies she leads always seem to have a disproportionate number of skeletons compared to others.",
 			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Necromancy skill percentage.",
 				"name" : "Necromancy",

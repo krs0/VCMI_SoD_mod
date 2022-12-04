@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/alamar/icons/speciality/UN32_0_88.png",
 			"specialtyLarge" : "heroes/alamar/icons/speciality/UN44_0_88.png",
-			"large" : "heroes/alamar/icons/portrait/HPL088WL.png",
-			"small" : "heroes/alamar/icons/portrait/HPS088WL.png"
+			"small" : "heroes/alamar/icons/portrait/HPS088WL.png",
+			"large" : "heroes/alamar/icons/portrait/HPL088WL.png"
 		},
 		"army" : [
 			{
 				"creature" : "troglodyte",
-				"max" : 40,
-				"min" : 30
+				"min" : 30,
+				"max" : 40
 			},
 			{
 				"creature" : "harpy",
-				"max" : 6,
-				"min" : 4
+				"min" : 4,
+				"max" : 6
 			},
 			{
 				"creature" : "beholder",
-				"max" : 4,
-				"min" : 3
+				"min" : 3,
+				"max" : 4
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "wisdom"
+				"skill" : "wisdom",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "scholar"
+				"skill" : "scholar",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -54,8 +54,8 @@
 			"resurrection"
 		],
 		"texts" : {
-			"biography" : "Alamar served Archibald Ironfist during the succession wars, and was barely able to escape Enroth following Archibald's defeat.  He has since taken up residence in Nighon where he secretly serves the Dungeon Overlords.",
 			"name" : "Alamar",
+			"biography" : "Alamar served Archibald Ironfist during the succession wars, and was barely able to escape Enroth following Archibald's defeat.  He has since taken up residence in Nighon where he secretly serves the Dungeon Overlords.",
 			"specialty" : {
 				"description" : "Casts Resurrection with increased effect, based on his level compared to the level of the target unit (the bonus is greater when used on weaker units).",
 				"name" : "Resurrection",

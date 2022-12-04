@@ -10,30 +10,30 @@
 		{
 			"specialtySmall" : "heroes/lacus/icons/speciality/UN32_0_131.png",
 			"specialtyLarge" : "heroes/lacus/icons/speciality/UN44_0_131.png",
-			"large" : "heroes/lacus/icons/portrait/HPL003PL.png",
-			"small" : "heroes/lacus/icons/portrait/HPS003PL.png"
+			"small" : "heroes/lacus/icons/portrait/HPS003PL.png",
+			"large" : "heroes/lacus/icons/portrait/HPL003PL.png"
 		},
 		"army" : [
 			{
 				"creature" : "pixies",
-				"max" : 25,
-				"min" : 15
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "waterElementals",
-				"max" : 5,
-				"min" : 3
+				"min" : 3,
+				"max" : 5
 			},
 			{
 				"creature" : "waterElementals",
-				"max" : 2,
-				"min" : 1
+				"min" : 1,
+				"max" : 2
 			}
 		],
 		"skills" : [
 			{
-				"level" : "advanced",
-				"skill" : "tactics"
+				"skill" : "tactics",
+				"level" : "advanced"
 			}
 		],
 		"specialty" : {
@@ -52,8 +52,8 @@
 			}
 		},
 		"texts" : {
-			"biography" : "Fierce competition of all Water Elementals took place to determine who would have the honor to serve the Conflux. Lacus earned her position through her advanced knowledge of Tactics.",
 			"name" : "Lacus",
+			"biography" : "Fierce competition of all Water Elementals took place to determine who would have the honor to serve the Conflux. Lacus earned her position through her advanced knowledge of Tactics.",
 			"specialty" : {
 				"description" : "Water/Ice elementals receive +2 Att.",
 				"name" : "Water Ele.",

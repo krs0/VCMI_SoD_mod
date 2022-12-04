@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/alagar/icons/speciality/UN32_0_30.png",
 			"specialtyLarge" : "heroes/alagar/icons/speciality/UN44_0_30.png",
-			"large" : "heroes/alagar/icons/portrait/HPL030DR.png",
-			"small" : "heroes/alagar/icons/portrait/HPS030DR.png"
+			"small" : "heroes/alagar/icons/portrait/HPS030DR.png",
+			"large" : "heroes/alagar/icons/portrait/HPL030DR.png"
 		},
 		"army" : [
 			{
 				"creature" : "centaur",
-				"max" : 24,
-				"min" : 12
+				"min" : 12,
+				"max" : 24
 			},
 			{
 				"creature" : "dwarf",
-				"max" : 5,
-				"min" : 3
+				"min" : 3,
+				"max" : 5
 			},
 			{
 				"creature" : "woodElf",
-				"max" : 6,
-				"min" : 3
+				"min" : 3,
+				"max" : 6
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "wisdom"
+				"skill" : "wisdom",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "sorcery"
+				"skill" : "sorcery",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -54,8 +54,8 @@
 			"iceBolt"
 		],
 		"texts" : {
-			"biography" : "Rumored to have once lived among the Vori Snow Elves, Alagar's command of the element of Water, especially ice, is unsurpassed.  He has served AvLee since before the Kreegan invasion.",
 			"name" : "Alagar",
+			"biography" : "Rumored to have once lived among the Vori Snow Elves, Alagar's command of the element of Water, especially ice, is unsurpassed.  He has served AvLee since before the Kreegan invasion.",
 			"specialty" : {
 				"description" : "Casts Ice Bolt with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
 				"name" : "Ice Bolt",

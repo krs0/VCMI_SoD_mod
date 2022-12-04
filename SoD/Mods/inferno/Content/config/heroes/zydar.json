@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/zydar/icons/speciality/UN32_0_62.png",
 			"specialtyLarge" : "heroes/zydar/icons/speciality/UN44_0_62.png",
-			"large" : "heroes/zydar/icons/portrait/HPL062DM.png",
-			"small" : "heroes/zydar/icons/portrait/HPS062DM.png"
+			"small" : "heroes/zydar/icons/portrait/HPS062DM.png",
+			"large" : "heroes/zydar/icons/portrait/HPL062DM.png"
 		},
 		"army" : [
 			{
 				"creature" : "imp",
-				"max" : 25,
-				"min" : 15
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "gog",
-				"max" : 7,
-				"min" : 4
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "hellHound",
-				"max" : 4,
-				"min" : 3
+				"min" : 3,
+				"max" : 4
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "wisdom"
+				"skill" : "wisdom",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "sorcery"
+				"skill" : "sorcery",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -55,8 +55,8 @@
 			"stoneSkin"
 		],
 		"texts" : {
-			"biography" : "When Zydar isn't in the field leading troops, he is studying new ways to increase the potency of his spells.  While not the greatest of mages, he certainly shows more promise than any of his demon-kin.",
 			"name" : "Zydar",
+			"biography" : "When Zydar isn't in the field leading troops, he is studying new ways to increase the potency of his spells.  While not the greatest of mages, he certainly shows more promise than any of his demon-kin.",
 			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Sorcery skill percentage.",
 				"name" : "Sorcery",

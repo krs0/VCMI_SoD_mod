@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/sylvia/icons/speciality/UN32_0_3.png",
 			"specialtyLarge" : "heroes/sylvia/icons/speciality/UN44_0_3.png",
-			"large" : "heroes/sylvia/icons/portrait/HPL003KN.png",
-			"small" : "heroes/sylvia/icons/portrait/HPS003KN.png"
+			"small" : "heroes/sylvia/icons/portrait/HPS003KN.png",
+			"large" : "heroes/sylvia/icons/portrait/HPL003KN.png"
 		},
 		"army" : [
 			{
 				"creature" : "pikeman",
-				"max" : 20,
-				"min" : 10
+				"min" : 10,
+				"max" : 20
 			},
 			{
 				"creature" : "archer",
-				"max" : 7,
-				"min" : 4
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "griffin",
-				"max" : 3,
-				"min" : 2
+				"min" : 2,
+				"max" : 3
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "leadership"
+				"skill" : "leadership",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "navigation"
+				"skill" : "navigation",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -52,8 +52,8 @@
 			}
 		},
 		"texts" : {
-			"biography" : "Sylvia spent several years as a Regnan Pirate before realizing that a pirate's life was not for her.  She sought a new life in the Erathian Military, and now serves in the Coastal Patrol, fighting off raids from the same Pirates she once sailed with.",
 			"name" : "Sylvia",
+			"biography" : "Sylvia spent several years as a Regnan Pirate before realizing that a pirate's life was not for her.  She sought a new life in the Erathian Military, and now serves in the Coastal Patrol, fighting off raids from the same Pirates she once sailed with.",
 			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Navigation skill percentage.",
 				"name" : "Navigation",

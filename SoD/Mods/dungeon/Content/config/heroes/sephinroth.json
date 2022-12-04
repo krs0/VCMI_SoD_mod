@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/sephinroth/icons/speciality/UN32_0_94.png",
 			"specialtyLarge" : "heroes/sephinroth/icons/speciality/UN44_0_94.png",
-			"large" : "heroes/sephinroth/icons/portrait/HPL094WL.png",
-			"small" : "heroes/sephinroth/icons/portrait/HPS094WL.png"
+			"small" : "heroes/sephinroth/icons/portrait/HPS094WL.png",
+			"large" : "heroes/sephinroth/icons/portrait/HPL094WL.png"
 		},
 		"army" : [
 			{
 				"creature" : "troglodyte",
-				"max" : 40,
-				"min" : 30
+				"min" : 30,
+				"max" : 40
 			},
 			{
 				"creature" : "harpy",
-				"max" : 6,
-				"min" : 4
+				"min" : 4,
+				"max" : 6
 			},
 			{
 				"creature" : "beholder",
-				"max" : 4,
-				"min" : 3
+				"min" : 3,
+				"max" : 4
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "wisdom"
+				"skill" : "wisdom",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "intelligence"
+				"skill" : "intelligence",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -53,8 +53,8 @@
 			"protectAir"
 		],
 		"texts" : {
-			"biography" : "Sephinroth claims to be the illegitimate child of King Gryphonheart.  His refusal to acknowledge her has served to fuel her hatred against the Throne of Erathia, which she one day hopes to claim for herself.  Having joined the ranks of the Warlocks, she is the only known female ever to bear that title.",
 			"name" : "Sephinroth",
+			"biography" : "Sephinroth claims to be the illegitimate child of King Gryphonheart.  His refusal to acknowledge her has served to fuel her hatred against the Throne of Erathia, which she one day hopes to claim for herself.  Having joined the ranks of the Warlocks, she is the only known female ever to bear that title.",
 			"specialty" : {
 				"description" : "Increases kingdom's crystal production by 1 per day.",
 				"name" : "+1 Crystal",

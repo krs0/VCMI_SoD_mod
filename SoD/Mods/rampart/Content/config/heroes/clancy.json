@@ -10,42 +10,42 @@
 		{
 			"specialtySmall" : "heroes/clancy/icons/speciality/UN32_0_22.png",
 			"specialtyLarge" : "heroes/clancy/icons/speciality/UN44_0_22.png",
-			"large" : "heroes/clancy/icons/portrait/HPL022RN.png",
-			"small" : "heroes/clancy/icons/portrait/HPS022RN.png"
+			"small" : "heroes/clancy/icons/portrait/HPS022RN.png",
+			"large" : "heroes/clancy/icons/portrait/HPL022RN.png"
 		},
 		"army" : [
 			{
 				"creature" : "centaur",
-				"max" : 24,
-				"min" : 12
+				"min" : 12,
+				"max" : 24
 			},
 			{
 				"creature" : "dwarf",
-				"max" : 5,
-				"min" : 3
+				"min" : 3,
+				"max" : 5
 			},
 			{
 				"creature" : "woodElf",
-				"max" : 6,
-				"min" : 3
+				"min" : 3,
+				"max" : 6
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "pathfinding"
+				"skill" : "pathfinding",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "resistance"
+				"skill" : "resistance",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
 			"creature" : "unicorn"
 		},
 		"texts" : {
-			"biography" : "It was by pure accident that Clancy discovered he could communicate with Unicorns, but this unique ability has served him well as he worked his way through the ranks of AvLee's Military Elite.",
 			"name" : "Clancy",
+			"biography" : "It was by pure accident that Clancy discovered he could communicate with Unicorns, but this unique ability has served him well as he worked his way through the ranks of AvLee's Military Elite.",
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Unicorns or War Unicorns for each level attained after 6th level.",
 				"name" : "Unicorns",

@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/halon/icons/speciality/UN32_0_41.png",
 			"specialtyLarge" : "heroes/halon/icons/speciality/UN44_0_41.png",
-			"large" : "heroes/halon/icons/portrait/HPL041WZ.png",
-			"small" : "heroes/halon/icons/portrait/HPS041WZ.png"
+			"small" : "heroes/halon/icons/portrait/HPS041WZ.png",
+			"large" : "heroes/halon/icons/portrait/HPL041WZ.png"
 		},
 		"army" : [
 			{
 				"creature" : "apprenticeGremlin",
-				"max" : 40,
-				"min" : 30
+				"min" : 30,
+				"max" : 40
 			},
 			{
 				"creature" : "stoneGargoyle",
-				"max" : 5,
-				"min" : 3
+				"min" : 3,
+				"max" : 5
 			},
 			{
 				"creature" : "ironGolem",
-				"max" : 3,
-				"min" : 2
+				"min" : 2,
+				"max" : 3
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "wisdom"
+				"skill" : "wisdom",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "mysticism"
+				"skill" : "mysticism",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -55,8 +55,8 @@
 			"stoneSkin"
 		],
 		"texts" : {
-			"biography" : "Halon was a well respected hero in Enroth, but became so bored after the Succession Wars that he left to explore the world.  He recently accepted a command rank in Bracada's military, hoping that it would give him something new to do.",
 			"name" : "Halon",
+			"biography" : "Halon was a well respected hero in Enroth, but became so bored after the Succession Wars that he left to explore the world.  He recently accepted a command rank in Bracada's military, hoping that it would give him something new to do.",
 			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Mysticism skill.",
 				"name" : "Mysticism",

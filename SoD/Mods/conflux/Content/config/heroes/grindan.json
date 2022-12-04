@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/grindan/icons/speciality/UN32_0_143.png",
 			"specialtyLarge" : "heroes/grindan/icons/speciality/UN44_0_143.png",
-			"large" : "heroes/grindan/icons/portrait/HPL007EL.png",
-			"small" : "heroes/grindan/icons/portrait/HPS007EL.png"
+			"small" : "heroes/grindan/icons/portrait/HPS007EL.png",
+			"large" : "heroes/grindan/icons/portrait/HPL007EL.png"
 		},
 		"army" : [
 			{
 				"creature" : "pixies",
-				"max" : 25,
-				"min" : 15
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "airElementals",
-				"max" : 5,
-				"min" : 3
+				"min" : 3,
+				"max" : 5
 			},
 			{
 				"creature" : "waterElementals",
-				"max" : 3,
-				"min" : 2
+				"min" : 2,
+				"max" : 3
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "wisdom"
+				"skill" : "wisdom",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "earthMagic"
+				"skill" : "earthMagic",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -53,8 +53,8 @@
 			"slow"
 		],
 		"texts" : {
-			"biography" : "Dwarves love gold.  Some more than others.  None have the power of earth to find it with such regularity as Grindan.",
 			"name" : "Grindan",
+			"biography" : "Dwarves love gold.  Some more than others.  None have the power of earth to find it with such regularity as Grindan.",
 			"specialty" : {
 				"description" : "Increases kingdom's income by 350 gold per day.",
 				"name" : "+350 Gold",

@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/inteus/icons/speciality/UN32_0_140.png",
 			"specialtyLarge" : "heroes/inteus/icons/speciality/UN44_0_140.png",
-			"large" : "heroes/inteus/icons/portrait/HPL004EL.png",
-			"small" : "heroes/inteus/icons/portrait/HPS004EL.png"
+			"small" : "heroes/inteus/icons/portrait/HPS004EL.png",
+			"large" : "heroes/inteus/icons/portrait/HPL004EL.png"
 		},
 		"army" : [
 			{
 				"creature" : "pixies",
-				"max" : 25,
-				"min" : 15
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "airElementals",
-				"max" : 5,
-				"min" : 3
+				"min" : 3,
+				"max" : 5
 			},
 			{
 				"creature" : "waterElementals",
-				"max" : 3,
-				"min" : 2
+				"min" : 2,
+				"max" : 3
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "wisdom"
+				"skill" : "wisdom",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "fireMagic"
+				"skill" : "fireMagic",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -53,8 +53,8 @@
 			"bloodlust"
 		],
 		"texts" : {
-			"biography" : "At an early age, Inteus' mastery of fire earned him a spot with a troupe of entertainers.  Some believed he wad the son of a Fire Elemental.  One night, he felt a calling and left his profession.  Now he serves the Conflux.",
 			"name" : "Inteus",
+			"biography" : "At an early age, Inteus' mastery of fire earned him a spot with a troupe of entertainers.  Some believed he wad the son of a Fire Elemental.  One night, he felt a calling and left his profession.  Now he serves the Conflux.",
 			"specialty" : {
 				"description" : "Casts Bloodlust with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
 				"name" : "Bloodlust",

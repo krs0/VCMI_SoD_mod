@@ -10,42 +10,42 @@
 		{
 			"specialtySmall" : "heroes/shiva/icons/speciality/UN32_0_99.png",
 			"specialtyLarge" : "heroes/shiva/icons/speciality/UN44_0_99.png",
-			"large" : "heroes/shiva/icons/portrait/HPL099BR.png",
-			"small" : "heroes/shiva/icons/portrait/HPS099BR.png"
+			"small" : "heroes/shiva/icons/portrait/HPS099BR.png",
+			"large" : "heroes/shiva/icons/portrait/HPL099BR.png"
 		},
 		"army" : [
 			{
 				"creature" : "goblin",
-				"max" : 25,
-				"min" : 15
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "goblinWolfRider",
-				"max" : 7,
-				"min" : 5
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "orc",
-				"max" : 6,
-				"min" : 4
+				"min" : 4,
+				"max" : 6
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "offence"
+				"skill" : "offence",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "scouting"
+				"skill" : "scouting",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
 			"creature" : "roc"
 		},
 		"texts" : {
-			"biography" : "Shiva is the youngest of six daughters in a family of circus animal trainers.  Unhappy with the prospect of spending her entire life in the family business, she left the circus to join the Krewlod military as a mercenary, a business that she has excelled at.",
 			"name" : "Shiva",
+			"biography" : "Shiva is the youngest of six daughters in a family of circus animal trainers.  Unhappy with the prospect of spending her entire life in the family business, she left the circus to join the Krewlod military as a mercenary, a business that she has excelled at.",
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Rocs or Thunderbirds for each level attained after 5th level.",
 				"name" : "Rocs",

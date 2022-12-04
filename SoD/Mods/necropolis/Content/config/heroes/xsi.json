@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/xsi/icons/speciality/UN32_0_77.png",
 			"specialtyLarge" : "heroes/xsi/icons/speciality/UN44_0_77.png",
-			"large" : "heroes/xsi/icons/portrait/HPL077NC.png",
-			"small" : "heroes/xsi/icons/portrait/HPS077NC.png"
+			"small" : "heroes/xsi/icons/portrait/HPS077NC.png",
+			"large" : "heroes/xsi/icons/portrait/HPL077NC.png"
 		},
 		"army" : [
 			{
 				"creature" : "skeleton",
-				"max" : 30,
-				"min" : 20
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "zombie",
-				"max" : 6,
-				"min" : 4
+				"min" : 4,
+				"max" : 6
 			},
 			{
 				"creature" : "wight",
-				"max" : 6,
-				"min" : 4
+				"min" : 4,
+				"max" : 6
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "necromancy"
+				"skill" : "necromancy",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "learning"
+				"skill" : "learning",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -53,8 +53,8 @@
 			"stoneSkin"
 		],
 		"texts" : {
-			"biography" : "Xsi was one of but a handful of females deemed worthy to make the transformation into full lich.  Xsi was selected because she possessed a unique ability to resist physical damage - a trick that has saved her more than once.",
 			"name" : "Xsi",
+			"biography" : "Xsi was one of but a handful of females deemed worthy to make the transformation into full lich.  Xsi was selected because she possessed a unique ability to resist physical damage - a trick that has saved her more than once.",
 			"specialty" : {
 				"description" : "Casts Stone Skin with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
 				"name" : "Stone Skin",

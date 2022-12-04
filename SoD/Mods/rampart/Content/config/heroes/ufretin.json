@@ -10,42 +10,42 @@
 		{
 			"specialtySmall" : "heroes/ufretin/icons/speciality/UN32_0_17.png",
 			"specialtyLarge" : "heroes/ufretin/icons/speciality/UN44_0_17.png",
-			"large" : "heroes/ufretin/icons/portrait/HPL017RN.png",
-			"small" : "heroes/ufretin/icons/portrait/HPS017RN.png"
+			"small" : "heroes/ufretin/icons/portrait/HPS017RN.png",
+			"large" : "heroes/ufretin/icons/portrait/HPL017RN.png"
 		},
 		"army" : [
 			{
 				"creature" : "dwarf",
-				"max" : 5,
-				"min" : 3
+				"min" : 3,
+				"max" : 5
 			},
 			{
 				"creature" : "dwarf",
-				"max" : 5,
-				"min" : 3
+				"min" : 3,
+				"max" : 5
 			},
 			{
 				"creature" : "dwarf",
-				"max" : 5,
-				"min" : 3
+				"min" : 3,
+				"max" : 5
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "luck"
+				"skill" : "luck",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "resistance"
+				"skill" : "resistance",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
 			"creature" : "dwarf"
 		},
 		"texts" : {
-			"biography" : "It is unusual to see a Dwarven Ranger, but for Ufretin the skills came naturally.  He has become an icon to the surface-dwelling dwarven population, and a natural born leader among all dwarvenkind.",
 			"name" : "Ufretin",
+			"biography" : "It is unusual to see a Dwarven Ranger, but for Ufretin the skills came naturally.  He has become an icon to the surface-dwelling dwarven population, and a natural born leader among all dwarvenkind.",
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Dwarves of Battle Dwarves for each level attained after 2nd level.",
 				"name" : "Dwarves",

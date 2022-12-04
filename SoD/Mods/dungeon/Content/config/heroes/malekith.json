@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/malekith/icons/speciality/UN32_0_90.png",
 			"specialtyLarge" : "heroes/malekith/icons/speciality/UN44_0_90.png",
-			"large" : "heroes/malekith/icons/portrait/HPL090WL.png",
-			"small" : "heroes/malekith/icons/portrait/HPS090WL.png"
+			"small" : "heroes/malekith/icons/portrait/HPS090WL.png",
+			"large" : "heroes/malekith/icons/portrait/HPL090WL.png"
 		},
 		"army" : [
 			{
 				"creature" : "troglodyte",
-				"max" : 40,
-				"min" : 30
+				"min" : 30,
+				"max" : 40
 			},
 			{
 				"creature" : "harpy",
-				"max" : 6,
-				"min" : 4
+				"min" : 4,
+				"max" : 6
 			},
 			{
 				"creature" : "beholder",
-				"max" : 4,
-				"min" : 3
+				"min" : 3,
+				"max" : 4
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "wisdom"
+				"skill" : "wisdom",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "sorcery"
+				"skill" : "sorcery",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -55,8 +55,8 @@
 			"bloodlust"
 		],
 		"texts" : {
-			"biography" : "One would expect a minotaur to be a fierce warrior, but Malekith wields magic with a fury that rivals the strength of the land's best mages.",
 			"name" : "Malekith",
+			"biography" : "One would expect a minotaur to be a fierce warrior, but Malekith wields magic with a fury that rivals the strength of the land's best mages.",
 			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Sorcery skill percentage.",
 				"name" : "Sorcery",

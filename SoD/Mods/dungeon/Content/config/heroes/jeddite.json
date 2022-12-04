@@ -10,30 +10,30 @@
 		{
 			"specialtySmall" : "heroes/jeddite/icons/speciality/UN32_0_91.png",
 			"specialtyLarge" : "heroes/jeddite/icons/speciality/UN44_0_91.png",
-			"large" : "heroes/jeddite/icons/portrait/HPL091WL.png",
-			"small" : "heroes/jeddite/icons/portrait/HPS091WL.png"
+			"small" : "heroes/jeddite/icons/portrait/HPS091WL.png",
+			"large" : "heroes/jeddite/icons/portrait/HPL091WL.png"
 		},
 		"army" : [
 			{
 				"creature" : "troglodyte",
-				"max" : 40,
-				"min" : 30
+				"min" : 30,
+				"max" : 40
 			},
 			{
 				"creature" : "harpy",
-				"max" : 6,
-				"min" : 4
+				"min" : 4,
+				"max" : 6
 			},
 			{
 				"creature" : "beholder",
-				"max" : 4,
-				"min" : 3
+				"min" : 3,
+				"max" : 4
 			}
 		],
 		"skills" : [
 			{
-				"level" : "advanced",
-				"skill" : "wisdom"
+				"skill" : "wisdom",
+				"level" : "advanced"
 			}
 		],
 		"specialty" : {
@@ -50,8 +50,8 @@
 			"resurrection"
 		],
 		"texts" : {
-			"biography" : "Some say that Jeddite has seen the face of Zenofex, but many contend that since Jeddite is still alive, the rumor of a meeting could not possibly be true.  Jeddite has never confirmed nor denied the rumor.",
 			"name" : "Jeddite",
+			"biography" : "Some say that Jeddite has seen the face of Zenofex, but many contend that since Jeddite is still alive, the rumor of a meeting could not possibly be true.  Jeddite has never confirmed nor denied the rumor.",
 			"specialty" : {
 				"description" : "Casts Resurrection with increased effect, based on his level compared to the level of the target unit (the bonus is greater when used on weaker units).",
 				"name" : "Resurrection",

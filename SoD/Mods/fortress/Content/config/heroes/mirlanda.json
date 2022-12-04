@@ -10,30 +10,30 @@
 		{
 			"specialtySmall" : "heroes/mirlanda/icons/speciality/UN32_0_120.png",
 			"specialtyLarge" : "heroes/mirlanda/icons/speciality/UN44_0_120.png",
-			"large" : "heroes/mirlanda/icons/portrait/HPL120WH.png",
-			"small" : "heroes/mirlanda/icons/portrait/HPS120WH.png"
+			"small" : "heroes/mirlanda/icons/portrait/HPS120WH.png",
+			"large" : "heroes/mirlanda/icons/portrait/HPL120WH.png"
 		},
 		"army" : [
 			{
 				"creature" : "gnoll",
-				"max" : 20,
-				"min" : 10
+				"min" : 10,
+				"max" : 20
 			},
 			{
 				"creature" : "lizardman",
-				"max" : 7,
-				"min" : 4
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "serpentFly",
-				"max" : 4,
-				"min" : 2
+				"min" : 2,
+				"max" : 4
 			}
 		],
 		"skills" : [
 			{
-				"level" : "advanced",
-				"skill" : "wisdom"
+				"skill" : "wisdom",
+				"level" : "advanced"
 			}
 		],
 		"specialty" : {
@@ -49,8 +49,8 @@
 			"weakness"
 		],
 		"texts" : {
-			"biography" : "Mirlanda spent much of her younger days toying with the dark arts, before realizing that such a path usually leads to self destruction.  She has learned to walk a fine line between good and evil, always making sure that one does not grow more powerful than the other.",
 			"name" : "Mirlanda",
+			"biography" : "Mirlanda spent much of her younger days toying with the dark arts, before realizing that such a path usually leads to self destruction.  She has learned to walk a fine line between good and evil, always making sure that one does not grow more powerful than the other.",
 			"specialty" : {
 				"description" : "Casts Weakness with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
 				"name" : "Weakness",

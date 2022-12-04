@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/melodia/icons/speciality/UN32_0_29.png",
 			"specialtyLarge" : "heroes/melodia/icons/speciality/UN44_0_29.png",
-			"large" : "heroes/melodia/icons/portrait/HPL029DR.png",
-			"small" : "heroes/melodia/icons/portrait/HPS029DR.png"
+			"small" : "heroes/melodia/icons/portrait/HPS029DR.png",
+			"large" : "heroes/melodia/icons/portrait/HPL029DR.png"
 		},
 		"army" : [
 			{
 				"creature" : "centaur",
-				"max" : 24,
-				"min" : 12
+				"min" : 12,
+				"max" : 24
 			},
 			{
 				"creature" : "dwarf",
-				"max" : 5,
-				"min" : 3
+				"min" : 3,
+				"max" : 5
 			},
 			{
 				"creature" : "woodElf",
-				"max" : 6,
-				"min" : 3
+				"min" : 3,
+				"max" : 6
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "wisdom"
+				"skill" : "wisdom",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "luck"
+				"skill" : "luck",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -53,8 +53,8 @@
 			"fortune"
 		],
 		"texts" : {
-			"biography" : "Melodia may not be the most highly skilled Druid ever seen in AvLee, but she is certainly the luckiest.  Even in the face of insurmountable odds she has managed to achieve miraculous victories.  Troops gladly volunteer to serve in any army she leads.",
 			"name" : "Melodia",
+			"biography" : "Melodia may not be the most highly skilled Druid ever seen in AvLee, but she is certainly the luckiest.  Even in the face of insurmountable odds she has managed to achieve miraculous victories.  Troops gladly volunteer to serve in any army she leads.",
 			"specialty" : {
 				"description" : "Casts Fortune with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
 				"name" : "Fortune",

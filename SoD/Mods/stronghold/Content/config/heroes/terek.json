@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/terek/icons/speciality/UN32_0_107.png",
 			"specialtyLarge" : "heroes/terek/icons/speciality/UN44_0_107.png",
-			"large" : "heroes/terek/icons/portrait/HPL107BM.png",
-			"small" : "heroes/terek/icons/portrait/HPS107BM.png"
+			"small" : "heroes/terek/icons/portrait/HPS107BM.png",
+			"large" : "heroes/terek/icons/portrait/HPL107BM.png"
 		},
 		"army" : [
 			{
 				"creature" : "goblin",
-				"max" : 25,
-				"min" : 15
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "goblinWolfRider",
-				"max" : 7,
-				"min" : 5
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "orc",
-				"max" : 6,
-				"min" : 4
+				"min" : 4,
+				"max" : 6
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "wisdom"
+				"skill" : "wisdom",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "tactics"
+				"skill" : "tactics",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -53,8 +53,8 @@
 			"haste"
 		],
 		"texts" : {
-			"biography" : "Terek spent several years as a strong-man in the Circus of the Sun, challenging spectators to see who could throw large rocks the furthest.  One day he lost, and was run out of the Circus, but the man who had beaten him recruited him for the Krewlod Army.",
 			"name" : "Terek",
+			"biography" : "Terek spent several years as a strong-man in the Circus of the Sun, challenging spectators to see who could throw large rocks the furthest.  One day he lost, and was run out of the Circus, but the man who had beaten him recruited him for the Krewlod Army.",
 			"specialty" : {
 				"description" : "Casts Haste with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
 				"name" : "Haste",

@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/octavia/icons/speciality/UN32_0_52.png",
 			"specialtyLarge" : "heroes/octavia/icons/speciality/UN44_0_52.png",
-			"large" : "heroes/octavia/icons/portrait/HPL052HR.png",
-			"small" : "heroes/octavia/icons/portrait/HPS052HR.png"
+			"small" : "heroes/octavia/icons/portrait/HPS052HR.png",
+			"large" : "heroes/octavia/icons/portrait/HPL052HR.png"
 		},
 		"army" : [
 			{
 				"creature" : "imp",
-				"max" : 25,
-				"min" : 15
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "gog",
-				"max" : 7,
-				"min" : 4
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "hellHound",
-				"max" : 4,
-				"min" : 3
+				"min" : 3,
+				"max" : 4
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "scholar"
+				"skill" : "scholar",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "offence"
+				"skill" : "offence",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -50,8 +50,8 @@
 			}
 		},
 		"texts" : {
-			"biography" : "It is said that Octavia could sneak gold away from a sleeping dragon, but she would have to, as she is constantly spending her wealth on anything that tickles her fancy.",
 			"name" : "Octavia",
+			"biography" : "It is said that Octavia could sneak gold away from a sleeping dragon, but she would have to, as she is constantly spending her wealth on anything that tickles her fancy.",
 			"specialty" : {
 				"description" : "Increases kingdom's income by 350 gold per day.",
 				"name" : "+350 Gold",

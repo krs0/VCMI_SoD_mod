@@ -10,42 +10,42 @@
 		{
 			"specialtySmall" : "heroes/calh/icons/speciality/UN32_0_53.png",
 			"specialtyLarge" : "heroes/calh/icons/speciality/UN44_0_53.png",
-			"large" : "heroes/calh/icons/portrait/HPL053HR.png",
-			"small" : "heroes/calh/icons/portrait/HPS053HR.png"
+			"small" : "heroes/calh/icons/portrait/HPS053HR.png",
+			"large" : "heroes/calh/icons/portrait/HPL053HR.png"
 		},
 		"army" : [
 			{
 				"creature" : "gog",
-				"max" : 7,
-				"min" : 4
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "gog",
-				"max" : 7,
-				"min" : 4
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "gog",
-				"max" : 7,
-				"min" : 4
+				"min" : 4,
+				"max" : 7
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "archery"
+				"skill" : "archery",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "scouting"
+				"skill" : "scouting",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
 			"creature" : "gog"
 		},
 		"texts" : {
-			"biography" : "Calh was mated to Marius for several years, but it soon became clear that she was obsessed with the total destruction of, of all things, Dendroids.  They split up, and Calh went on to have a glorious military career.",
 			"name" : "Calh",
+			"biography" : "Calh was mated to Marius for several years, but it soon became clear that she was obsessed with the total destruction of, of all things, Dendroids.  They split up, and Calh went on to have a glorious military career.",
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Gogs or Magogs for each level attained after 2nd level.",
 				"name" : "Gogs",

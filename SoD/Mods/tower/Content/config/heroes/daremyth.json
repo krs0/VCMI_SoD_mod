@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/daremyth/icons/speciality/UN32_0_43.png",
 			"specialtyLarge" : "heroes/daremyth/icons/speciality/UN44_0_43.png",
-			"large" : "heroes/daremyth/icons/portrait/HPL043WZ.png",
-			"small" : "heroes/daremyth/icons/portrait/HPS043WZ.png"
+			"small" : "heroes/daremyth/icons/portrait/HPS043WZ.png",
+			"large" : "heroes/daremyth/icons/portrait/HPL043WZ.png"
 		},
 		"army" : [
 			{
 				"creature" : "apprenticeGremlin",
-				"max" : 40,
-				"min" : 30
+				"min" : 30,
+				"max" : 40
 			},
 			{
 				"creature" : "stoneGargoyle",
-				"max" : 5,
-				"min" : 3
+				"min" : 3,
+				"max" : 5
 			},
 			{
 				"creature" : "ironGolem",
-				"max" : 3,
-				"min" : 2
+				"min" : 2,
+				"max" : 3
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "wisdom"
+				"skill" : "wisdom",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "intelligence"
+				"skill" : "intelligence",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -52,8 +52,8 @@
 			"fortune"
 		],
 		"texts" : {
-			"biography" : "Daremyth should have been dead a long time ago.  Her go-anywhere-do-anything attitude has put her in situations that she should have never survived, but somehow she comes through unscathed.",
 			"name" : "Daremyth",
+			"biography" : "Daremyth should have been dead a long time ago.  Her go-anywhere-do-anything attitude has put her in situations that she should have never survived, but somehow she comes through unscathed.",
 			"specialty" : {
 				"description" : "Casts Fortune with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
 				"name" : "Fortune",

@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/gelare/icons/speciality/UN32_0_142.png",
 			"specialtyLarge" : "heroes/gelare/icons/speciality/UN44_0_142.png",
-			"large" : "heroes/gelare/icons/portrait/HPL006EL.png",
-			"small" : "heroes/gelare/icons/portrait/HPS006EL.png"
+			"small" : "heroes/gelare/icons/portrait/HPS006EL.png",
+			"large" : "heroes/gelare/icons/portrait/HPL006EL.png"
 		},
 		"army" : [
 			{
 				"creature" : "pixies",
-				"max" : 25,
-				"min" : 15
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "airElementals",
-				"max" : 5,
-				"min" : 3
+				"min" : 3,
+				"max" : 5
 			},
 			{
 				"creature" : "waterElementals",
-				"max" : 3,
-				"min" : 2
+				"min" : 2,
+				"max" : 3
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "wisdom"
+				"skill" : "wisdom",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "waterMagic"
+				"skill" : "waterMagic",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -53,8 +53,8 @@
 			"dispel"
 		],
 		"texts" : {
-			"biography" : "Gelare was born with a wisdom beyond his years, even for an elf.  Always calm, reflective and serene on the outside, Gelare did not question his calling to the Conflux.",
 			"name" : "Gelare",
+			"biography" : "Gelare was born with a wisdom beyond his years, even for an elf.  Always calm, reflective and serene on the outside, Gelare did not question his calling to the Conflux.",
 			"specialty" : {
 				"description" : "Increases kingdom's income by 350 gold per day.",
 				"name" : "+350 Gold",

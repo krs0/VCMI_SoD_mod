@@ -10,42 +10,42 @@
 		{
 			"specialtySmall" : "heroes/edric/icons/speciality/UN32_0_2.png",
 			"specialtyLarge" : "heroes/edric/icons/speciality/UN44_0_2.png",
-			"large" : "heroes/edric/icons/portrait/HPL002KN.png",
-			"small" : "heroes/edric/icons/portrait/HPS002KN.png"
+			"small" : "heroes/edric/icons/portrait/HPS002KN.png",
+			"large" : "heroes/edric/icons/portrait/HPL002KN.png"
 		},
 		"army" : [
 			{
 				"creature" : "pikeman",
-				"max" : 20,
-				"min" : 10
+				"min" : 10,
+				"max" : 20
 			},
 			{
 				"creature" : "griffin",
-				"max" : 3,
-				"min" : 2
+				"min" : 2,
+				"max" : 3
 			},
 			{
 				"creature" : "griffin",
-				"max" : 3,
-				"min" : 2
+				"min" : 2,
+				"max" : 3
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "leadership"
+				"skill" : "leadership",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "armorer"
+				"skill" : "armorer",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
 			"creature" : "griffin"
 		},
 		"texts" : {
-			"biography" : "Edric's great grandfather was the first man in Erathia to domesticate and train a wild Griffin.  Now, Edric's family maintains Erathia's largest Griffin breeding grounds for use in the King's armies.",
 			"name" : "Edric",
+			"biography" : "Edric's great grandfather was the first man in Erathia to domesticate and train a wild Griffin.  Now, Edric's family maintains Erathia's largest Griffin breeding grounds for use in the King's armies.",
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Griffins or Royal Griffins or each level attained after 3rd level.",
 				"name" : "Griffins",

@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/sandro/icons/speciality/UN32_0_74.png",
 			"specialtyLarge" : "heroes/sandro/icons/speciality/UN44_0_74.png",
-			"large" : "heroes/sandro/icons/portrait/HPL074NC.png",
-			"small" : "heroes/sandro/icons/portrait/HPS074NC.png"
+			"small" : "heroes/sandro/icons/portrait/HPS074NC.png",
+			"large" : "heroes/sandro/icons/portrait/HPL074NC.png"
 		},
 		"army" : [
 			{
 				"creature" : "skeleton",
-				"max" : 30,
-				"min" : 20
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "zombie",
-				"max" : 6,
-				"min" : 4
+				"min" : 4,
+				"max" : 6
 			},
 			{
 				"creature" : "wight",
-				"max" : 6,
-				"min" : 4
+				"min" : 4,
+				"max" : 6
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "necromancy"
+				"skill" : "necromancy",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "sorcery"
+				"skill" : "sorcery",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -55,8 +55,8 @@
 			"slow"
 		],
 		"texts" : {
-			"biography" : "Sandro first studied Necromancy under the tutelage of the wizard, and later the lich, Ethric.  Sandro has seen nearly all of Enroth and Erathia, and now serves Finneas Vilmar, leader of the Necromancers of Deyja.",
 			"name" : "Sandro",
+			"biography" : "Sandro first studied Necromancy under the tutelage of the wizard, and later the lich, Ethric.  Sandro has seen nearly all of Enroth and Erathia, and now serves Finneas Vilmar, leader of the Necromancers of Deyja.",
 			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Sorcery skill percentage.",
 				"name" : "Sorcery",

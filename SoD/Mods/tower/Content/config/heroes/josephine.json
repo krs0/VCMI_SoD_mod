@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/josephine/icons/speciality/UN32_0_34.png",
 			"specialtyLarge" : "heroes/josephine/icons/speciality/UN44_0_34.png",
-			"large" : "heroes/josephine/icons/portrait/HPL034AL.png",
-			"small" : "heroes/josephine/icons/portrait/HPS034AL.png"
+			"small" : "heroes/josephine/icons/portrait/HPS034AL.png",
+			"large" : "heroes/josephine/icons/portrait/HPL034AL.png"
 		},
 		"army" : [
 			{
 				"creature" : "apprenticeGremlin",
-				"max" : 40,
-				"min" : 30
+				"min" : 30,
+				"max" : 40
 			},
 			{
 				"creature" : "ironGolem",
-				"max" : 2,
-				"min" : 2
+				"min" : 2,
+				"max" : 2
 			},
 			{
 				"creature" : "ironGolem",
-				"max" : 3,
-				"min" : 2
+				"min" : 2,
+				"max" : 3
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "mysticism"
+				"skill" : "mysticism",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "sorcery"
+				"skill" : "sorcery",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -47,8 +47,8 @@
 			"haste"
 		],
 		"texts" : {
-			"biography" : "Josephine was the first to successfully animate a stone golem, creating a process that was much more sophisticated than that used for the gargoyle, on which her research was based.",
 			"name" : "Josephine",
+			"biography" : "Josephine was the first to successfully animate a stone golem, creating a process that was much more sophisticated than that used for the gargoyle, on which her research was based.",
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Stone or Iron Golems for each level attained after 3rd level.",
 				"name" : "Golems",

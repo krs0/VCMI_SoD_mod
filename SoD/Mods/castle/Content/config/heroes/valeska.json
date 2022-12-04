@@ -10,42 +10,42 @@
 		{
 			"specialtySmall" : "heroes/valeska/icons/speciality/UN32_0_1.png",
 			"specialtyLarge" : "heroes/valeska/icons/speciality/UN44_0_1.png",
-			"large" : "heroes/valeska/icons/portrait/HPL001KN.png",
-			"small" : "heroes/valeska/icons/portrait/HPS001KN.png"
+			"small" : "heroes/valeska/icons/portrait/HPS001KN.png",
+			"large" : "heroes/valeska/icons/portrait/HPL001KN.png"
 		},
 		"army" : [
 			{
 				"creature" : "archer",
-				"max" : 7,
-				"min" : 4
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "archer",
-				"max" : 7,
-				"min" : 4
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "archer",
-				"max" : 7,
-				"min" : 4
+				"min" : 4,
+				"max" : 7
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "leadership"
+				"skill" : "leadership",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "archery"
+				"skill" : "archery",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
 			"creature" : "archer"
 		},
 		"texts" : {
-			"biography" : "Valeska became known as a master marksman when she first served in the Erathian military.  Now she not only commands her own forces, but spends time personally training her Crossbow troops as well.",
 			"name" : "Valeska",
+			"biography" : "Valeska became known as a master marksman when she first served in the Erathian military.  Now she not only commands her own forces, but spends time personally training her Crossbow troops as well.",
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Archers or Marksmen for each level attained after 2nd level.",
 				"name" : "Archers",

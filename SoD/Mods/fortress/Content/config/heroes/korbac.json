@@ -10,42 +10,42 @@
 		{
 			"specialtySmall" : "heroes/korbac/icons/speciality/UN32_0_117.png",
 			"specialtyLarge" : "heroes/korbac/icons/speciality/UN44_0_117.png",
-			"large" : "heroes/korbac/icons/portrait/HPL117BS.png",
-			"small" : "heroes/korbac/icons/portrait/HPS117BS.png"
+			"small" : "heroes/korbac/icons/portrait/HPS117BS.png",
+			"large" : "heroes/korbac/icons/portrait/HPL117BS.png"
 		},
 		"army" : [
 			{
 				"creature" : "gnoll",
-				"max" : 20,
-				"min" : 10
+				"min" : 10,
+				"max" : 20
 			},
 			{
 				"creature" : "serpentFly",
-				"max" : 4,
-				"min" : 2
+				"min" : 2,
+				"max" : 4
 			},
 			{
 				"creature" : "dragonFly",
-				"max" : 4,
-				"min" : 2
+				"min" : 2,
+				"max" : 4
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "armorer"
+				"skill" : "armorer",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "pathfinding"
+				"skill" : "pathfinding",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
 			"creature" : "serpentFly"
 		},
 		"texts" : {
-			"biography" : "Korbac became known to the humans of Erathia as the 'hero who saved the scholar, Xanthor.'  However true this might be, Korbac has proven his bravery on more than one occasion in the service of Tatalia.",
 			"name" : "Korbac",
+			"biography" : "Korbac became known to the humans of Erathia as the 'hero who saved the scholar, Xanthor.'  However true this might be, Korbac has proven his bravery on more than one occasion in the service of Tatalia.",
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Serpent or Dragon Flies for each level attained after 3rd level.",
 				"name" : "Serpent Flies",

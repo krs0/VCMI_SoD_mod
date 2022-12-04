@@ -10,42 +10,42 @@
 		{
 			"specialtySmall" : "heroes/broghild/icons/speciality/UN32_0_119.png",
 			"specialtyLarge" : "heroes/broghild/icons/speciality/UN44_0_119.png",
-			"large" : "heroes/broghild/icons/portrait/HPL119BS.png",
-			"small" : "heroes/broghild/icons/portrait/HPS119BS.png"
+			"small" : "heroes/broghild/icons/portrait/HPS119BS.png",
+			"large" : "heroes/broghild/icons/portrait/HPL119BS.png"
 		},
 		"army" : [
 			{
 				"creature" : "gnoll",
-				"max" : 20,
-				"min" : 10
+				"min" : 10,
+				"max" : 20
 			},
 			{
 				"creature" : "lizardman",
-				"max" : 7,
-				"min" : 4
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "serpentFly",
-				"max" : 4,
-				"min" : 2
+				"min" : 2,
+				"max" : 4
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "armorer"
+				"skill" : "armorer",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "scouting"
+				"skill" : "scouting",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
 			"creature" : "wyvern"
 		},
 		"texts" : {
-			"biography" : "Broghild's grandfather first tamed wild Wyverns for use as flying scouts above the Tatalian Lowlands.  The secrets of handling these creatures was passed to Broghild's father, and eventually to him.",
 			"name" : "Broghild",
+			"biography" : "Broghild's grandfather first tamed wild Wyverns for use as flying scouts above the Tatalian Lowlands.  The secrets of handling these creatures was passed to Broghild's father, and eventually to him.",
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Wyverns or Wyvern Monarchs for each level attained after 6th level.",
 				"name" : "Wyverns",

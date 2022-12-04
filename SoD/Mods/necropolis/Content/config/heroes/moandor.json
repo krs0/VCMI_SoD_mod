@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/moandor/icons/speciality/UN32_0_66.png",
 			"specialtyLarge" : "heroes/moandor/icons/speciality/UN44_0_66.png",
-			"large" : "heroes/moandor/icons/portrait/HPL066DK.png",
-			"small" : "heroes/moandor/icons/portrait/HPS066DK.png"
+			"small" : "heroes/moandor/icons/portrait/HPS066DK.png",
+			"large" : "heroes/moandor/icons/portrait/HPL066DK.png"
 		},
 		"army" : [
 			{
 				"creature" : "skeleton",
-				"max" : 30,
-				"min" : 20
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "zombie",
-				"max" : 6,
-				"min" : 4
+				"min" : 4,
+				"max" : 6
 			},
 			{
 				"creature" : "wight",
-				"max" : 6,
-				"min" : 4
+				"min" : 4,
+				"max" : 6
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "necromancy"
+				"skill" : "necromancy",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "learning"
+				"skill" : "learning",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -47,8 +47,8 @@
 			"slow"
 		],
 		"texts" : {
-			"biography" : "Moandor's charismatic style somehow stayed with him after he was transformed into a lich.  Strangely enough, this provides him with the ability to lead and recruit new liches more effectively than any other hero.",
 			"name" : "Moandor",
+			"biography" : "Moandor's charismatic style somehow stayed with him after he was transformed into a lich.  Strangely enough, this provides him with the ability to lead and recruit new liches more effectively than any other hero.",
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Liches or Power Liches for each level attained after 5th level.",
 				"name" : "Liches",

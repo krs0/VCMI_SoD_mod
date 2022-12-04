@@ -10,42 +10,42 @@
 		{
 			"specialtySmall" : "heroes/ajit/icons/speciality/UN32_0_83.png",
 			"specialtyLarge" : "heroes/ajit/icons/speciality/UN44_0_83.png",
-			"large" : "heroes/ajit/icons/portrait/HPL083OV.png",
-			"small" : "heroes/ajit/icons/portrait/HPS083OV.png"
+			"small" : "heroes/ajit/icons/portrait/HPS083OV.png",
+			"large" : "heroes/ajit/icons/portrait/HPL083OV.png"
 		},
 		"army" : [
 			{
 				"creature" : "troglodyte",
-				"max" : 40,
-				"min" : 30
+				"min" : 30,
+				"max" : 40
 			},
 			{
 				"creature" : "beholder",
-				"max" : 4,
-				"min" : 3
+				"min" : 3,
+				"max" : 4
 			},
 			{
 				"creature" : "beholder",
-				"max" : 4,
-				"min" : 3
+				"min" : 3,
+				"max" : 4
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "leadership"
+				"skill" : "leadership",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "resistance"
+				"skill" : "resistance",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
 			"creature" : "beholder"
 		},
 		"texts" : {
-			"biography" : "Ajit studied carefully the works of Agar, the foolish wizard/scientist of Enroth who accidentally created the beholders and evil eyes which he now commands, training a 'better breed' to be used in combat.",
 			"name" : "Ajit",
+			"biography" : "Ajit studied carefully the works of Agar, the foolish wizard/scientist of Enroth who accidentally created the beholders and evil eyes which he now commands, training a 'better breed' to be used in combat.",
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Beholders or Evil Eyes for each level attained after 2nd level.",
 				"name" : "Beholders",

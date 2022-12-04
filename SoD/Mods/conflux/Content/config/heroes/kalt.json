@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/kalt/icons/speciality/UN32_0_135.png",
 			"specialtyLarge" : "heroes/kalt/icons/speciality/UN44_0_135.png",
-			"large" : "heroes/kalt/icons/portrait/HPL007PL.png",
-			"small" : "heroes/kalt/icons/portrait/HPS007PL.png"
+			"small" : "heroes/kalt/icons/portrait/HPS007PL.png",
+			"large" : "heroes/kalt/icons/portrait/HPL007PL.png"
 		},
 		"army" : [
 			{
 				"creature" : "pixies",
-				"max" : 25,
-				"min" : 15
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "waterElementals",
-				"max" : 5,
-				"min" : 3
+				"min" : 3,
+				"max" : 5
 			},
 			{
 				"creature" : "waterElementals",
-				"max" : 2,
-				"min" : 1
+				"min" : 1,
+				"max" : 2
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "tactics"
+				"skill" : "tactics",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "learning"
+				"skill" : "learning",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -56,8 +56,8 @@
 			}
 		},
 		"texts" : {
-			"biography" : "Always the quick study, Kalt felt called to the Conflux where he could feed his voracious appitite for learning new and different things.",
 			"name" : "Kalt",
+			"biography" : "Always the quick study, Kalt felt called to the Conflux where he could feed his voracious appitite for learning new and different things.",
 			"specialty" : {
 				"description" : "Water/Ice elementals receive +2 Att.",
 				"name" : "Water Ele.",

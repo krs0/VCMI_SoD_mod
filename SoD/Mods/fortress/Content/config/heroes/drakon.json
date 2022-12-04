@@ -10,42 +10,42 @@
 		{
 			"specialtySmall" : "heroes/drakon/icons/speciality/UN32_0_113.png",
 			"specialtyLarge" : "heroes/drakon/icons/speciality/UN44_0_113.png",
-			"large" : "heroes/drakon/icons/portrait/HPL113BS.png",
-			"small" : "heroes/drakon/icons/portrait/HPS113BS.png"
+			"small" : "heroes/drakon/icons/portrait/HPS113BS.png",
+			"large" : "heroes/drakon/icons/portrait/HPL113BS.png"
 		},
 		"army" : [
 			{
 				"creature" : "gnoll",
-				"max" : 20,
-				"min" : 10
+				"min" : 10,
+				"max" : 20
 			},
 			{
 				"creature" : "gnoll",
-				"max" : 20,
-				"min" : 10
+				"min" : 10,
+				"max" : 20
 			},
 			{
 				"creature" : "gnoll",
-				"max" : 20,
-				"min" : 10
+				"min" : 10,
+				"max" : 20
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "armorer"
+				"skill" : "armorer",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "leadership"
+				"skill" : "leadership",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
 			"creature" : "gnoll"
 		},
 		"texts" : {
-			"biography" : "Drakon was the greatest warrior in his village, and later the region, before choosing to serve King Tralossk.  His charismatic demeanor (at least with other Gnolls) has troops volunteering to join his armies in droves.",
 			"name" : "Drakon",
+			"biography" : "Drakon was the greatest warrior in his village, and later the region, before choosing to serve King Tralossk.  His charismatic demeanor (at least with other Gnolls) has troops volunteering to join his armies in droves.",
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Gnolls or Gnoll Marauders for each level attained after 1st level.",
 				"name" : "Gnolls",

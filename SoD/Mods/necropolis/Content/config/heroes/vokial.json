@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/vokial/icons/speciality/UN32_0_65.png",
 			"specialtyLarge" : "heroes/vokial/icons/speciality/UN44_0_65.png",
-			"large" : "heroes/vokial/icons/portrait/HPL065DK.png",
-			"small" : "heroes/vokial/icons/portrait/HPS065DK.png"
+			"small" : "heroes/vokial/icons/portrait/HPS065DK.png",
+			"large" : "heroes/vokial/icons/portrait/HPL065DK.png"
 		},
 		"army" : [
 			{
 				"creature" : "skeleton",
-				"max" : 30,
-				"min" : 20
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "zombie",
-				"max" : 6,
-				"min" : 4
+				"min" : 4,
+				"max" : 6
 			},
 			{
 				"creature" : "wight",
-				"max" : 6,
-				"min" : 4
+				"min" : 4,
+				"max" : 6
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "necromancy"
+				"skill" : "necromancy",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "artillery"
+				"skill" : "artillery",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -47,8 +47,8 @@
 			"stoneSkin"
 		],
 		"texts" : {
-			"biography" : "Nearly four centuries ago Vokial ruled his own kingdom, but as time passed he grew increasingly bored with day-to-day responsibilities.  He eventually gave up everything to return to the life of adventuring he much preferred.  He is an elder even among other vampires.",
 			"name" : "Vokial",
+			"biography" : "Nearly four centuries ago Vokial ruled his own kingdom, but as time passed he grew increasingly bored with day-to-day responsibilities.  He eventually gave up everything to return to the life of adventuring he much preferred.  He is an elder even among other vampires.",
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Vampires or Vampire Lords for each level attained after 4th level.",
 				"name" : "Vampires",

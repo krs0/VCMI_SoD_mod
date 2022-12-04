@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/calid/icons/speciality/UN32_0_60.png",
 			"specialtyLarge" : "heroes/calid/icons/speciality/UN44_0_60.png",
-			"large" : "heroes/calid/icons/portrait/HPL060DM.png",
-			"small" : "heroes/calid/icons/portrait/HPS060DM.png"
+			"small" : "heroes/calid/icons/portrait/HPS060DM.png",
+			"large" : "heroes/calid/icons/portrait/HPL060DM.png"
 		},
 		"army" : [
 			{
 				"creature" : "imp",
-				"max" : 25,
-				"min" : 15
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "gog",
-				"max" : 7,
-				"min" : 4
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "hellHound",
-				"max" : 4,
-				"min" : 3
+				"min" : 3,
+				"max" : 4
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "wisdom"
+				"skill" : "wisdom",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "learning"
+				"skill" : "learning",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -53,8 +53,8 @@
 			"haste"
 		],
 		"texts" : {
-			"biography" : "Calid possesses an unusual (though useful) ability to sniff out hidden sulfur deposits.  The Dungeon Overlords have used her on several occasions when collecting sulfur for their fearsome dragons.",
 			"name" : "Calid",
+			"biography" : "Calid possesses an unusual (though useful) ability to sniff out hidden sulfur deposits.  The Dungeon Overlords have used her on several occasions when collecting sulfur for their fearsome dragons.",
 			"specialty" : {
 				"description" : "Increases kingdom's sulfur production by 1 per day.",
 				"name" : "+1 Sulfur",

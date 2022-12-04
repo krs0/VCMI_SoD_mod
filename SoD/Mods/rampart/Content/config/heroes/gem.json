@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/gem/icons/speciality/UN32_0_27.png",
 			"specialtyLarge" : "heroes/gem/icons/speciality/UN44_0_27.png",
-			"large" : "heroes/gem/icons/portrait/HPL027DR.png",
-			"small" : "heroes/gem/icons/portrait/HPS027DR.png"
+			"small" : "heroes/gem/icons/portrait/HPS027DR.png",
+			"large" : "heroes/gem/icons/portrait/HPL027DR.png"
 		},
 		"army" : [
 			{
 				"creature" : "centaur",
-				"max" : 24,
-				"min" : 12
+				"min" : 12,
+				"max" : 24
 			},
 			{
 				"creature" : "firstAidTent",
-				"max" : 1,
-				"min" : 1
+				"min" : 1,
+				"max" : 1
 			},
 			{
 				"creature" : "woodElf",
-				"max" : 6,
-				"min" : 3
+				"min" : 3,
+				"max" : 6
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "wisdom"
+				"skill" : "wisdom",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "firstAid"
+				"skill" : "firstAid",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -55,8 +55,8 @@
 			"summonBoat"
 		],
 		"texts" : {
-			"biography" : "Gem was one of the greatest Sorceresses that Enroth had ever seen, serving King Roland Ironfist during the Succession Wars.  Shortly after Roland had secured the throne of Enroth, Gem left for Erathia, finding a new home in AvLee.",
 			"name" : "Gem",
+			"biography" : "Gem was one of the greatest Sorceresses that Enroth had ever seen, serving King Roland Ironfist during the Succession Wars.  Shortly after Roland had secured the throne of Enroth, Gem left for Erathia, finding a new home in AvLee.",
 			"specialty" : {
 				"description" : "Receives a 5% per level bonus to First Aid skill.",
 				"name" : "First Aid",

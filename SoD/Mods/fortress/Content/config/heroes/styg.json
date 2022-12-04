@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/styg/icons/speciality/UN32_0_125.png",
 			"specialtyLarge" : "heroes/styg/icons/speciality/UN44_0_125.png",
-			"large" : "heroes/styg/icons/portrait/HPL125WH.png",
-			"small" : "heroes/styg/icons/portrait/HPS125WH.png"
+			"small" : "heroes/styg/icons/portrait/HPS125WH.png",
+			"large" : "heroes/styg/icons/portrait/HPL125WH.png"
 		},
 		"army" : [
 			{
 				"creature" : "gnoll",
-				"max" : 20,
-				"min" : 10
+				"min" : 10,
+				"max" : 20
 			},
 			{
 				"creature" : "lizardman",
-				"max" : 7,
-				"min" : 4
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "serpentFly",
-				"max" : 4,
-				"min" : 2
+				"min" : 2,
+				"max" : 4
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "wisdom"
+				"skill" : "wisdom",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "sorcery"
+				"skill" : "sorcery",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -55,8 +55,8 @@
 			"shield"
 		],
 		"texts" : {
-			"biography" : "The eleventh daughter of Tralossk, King of Tatalia, Styg turned to witchcraft when it became clear that she would never ascend the Tatalian throne with ten heirs in front of her.",
 			"name" : "Styg",
+			"biography" : "The eleventh daughter of Tralossk, King of Tatalia, Styg turned to witchcraft when it became clear that she would never ascend the Tatalian throne with ten heirs in front of her.",
 			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Sorcery skill percentage.",
 				"name" : "Sorcery",

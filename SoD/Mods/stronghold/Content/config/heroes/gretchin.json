@@ -10,42 +10,42 @@
 		{
 			"specialtySmall" : "heroes/gretchin/icons/speciality/UN32_0_100.png",
 			"specialtyLarge" : "heroes/gretchin/icons/speciality/UN44_0_100.png",
-			"large" : "heroes/gretchin/icons/portrait/HPL100BR.png",
-			"small" : "heroes/gretchin/icons/portrait/HPS100BR.png"
+			"small" : "heroes/gretchin/icons/portrait/HPS100BR.png",
+			"large" : "heroes/gretchin/icons/portrait/HPL100BR.png"
 		},
 		"army" : [
 			{
 				"creature" : "goblin",
-				"max" : 25,
-				"min" : 15
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "goblin",
-				"max" : 25,
-				"min" : 15
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "goblin",
-				"max" : 25,
-				"min" : 15
+				"min" : 15,
+				"max" : 25
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "offence"
+				"skill" : "offence",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "pathfinding"
+				"skill" : "pathfinding",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
 			"creature" : "goblin"
 		},
 		"texts" : {
-			"biography" : "Not only is Gretchin an excellent leader, but all who follow her will tell you the same thing - she's like having another mom who can take care of you.",
 			"name" : "Gretchin",
+			"biography" : "Not only is Gretchin an excellent leader, but all who follow her will tell you the same thing - she's like having another mom who can take care of you.",
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Goblins or Hobgoblins for each level attained after 1st level.",
 				"name" : "Goblins",

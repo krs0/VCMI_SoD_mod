@@ -10,42 +10,42 @@
 		{
 			"specialtySmall" : "heroes/icons/speciality/UN32_0_114.png",
 			"specialtyLarge" : "heroes/icons/speciality/UN44_0_114.png",
-			"large" : "heroes/icons/portrait/HPL114BS.png",
-			"small" : "heroes/icons/portrait/HPS114BS.png"
+			"small" : "heroes/icons/portrait/HPS114BS.png",
+			"large" : "heroes/icons/portrait/HPL114BS.png"
 		},
 		"army" : [
 			{
 				"creature" : "lizardman",
-				"max" : 7,
-				"min" : 4
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "lizardman",
-				"max" : 7,
-				"min" : 4
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "lizardman",
-				"max" : 7,
-				"min" : 4
+				"min" : 4,
+				"max" : 7
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "armorer"
+				"skill" : "armorer",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "archery"
+				"skill" : "archery",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
 			"creature" : "lizardman"
 		},
 		"texts" : {
-			"biography" : "Wedded to the eldest daughter of King Tralossk, Wystan is the next heir to the throne of Tatalia.  Until then, he is content to serve and learn from the King until the time is right for him to kill his mentor and assume the throne.",
 			"name" : "Wystan",
+			"biography" : "Wedded to the eldest daughter of King Tralossk, Wystan is the next heir to the throne of Tatalia.  Until then, he is content to serve and learn from the King until the time is right for him to kill his mentor and assume the throne.",
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Lizardmen or Lizard Warriors for each level attained after 2nd level.",
 				"name" : "Lizardmen",

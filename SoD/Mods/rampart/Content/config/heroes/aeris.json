@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/aeris/icons/speciality/UN32_0_31.png",
 			"specialtyLarge" : "heroes/aeris/icons/speciality/UN44_0_31.png",
-			"large" : "heroes/aeris/icons/portrait/HPL031DR.png",
-			"small" : "heroes/aeris/icons/portrait/HPS031DR.png"
+			"small" : "heroes/aeris/icons/portrait/HPS031DR.png",
+			"large" : "heroes/aeris/icons/portrait/HPL031DR.png"
 		},
 		"army" : [
 			{
 				"creature" : "centaur",
-				"max" : 24,
-				"min" : 12
+				"min" : 12,
+				"max" : 24
 			},
 			{
 				"creature" : "dwarf",
-				"max" : 5,
-				"min" : 3
+				"min" : 3,
+				"max" : 5
 			},
 			{
 				"creature" : "woodElf",
-				"max" : 6,
-				"min" : 3
+				"min" : 3,
+				"max" : 6
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "wisdom"
+				"skill" : "wisdom",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "scouting"
+				"skill" : "scouting",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -47,8 +47,8 @@
 			"protectAir"
 		],
 		"texts" : {
-			"biography" : "Aeris is one of the best animal handlers in all of AvLee.  He can sense ideal pairings between elves and pegasi which have made him one of the most sought out Druids in the land.",
 			"name" : "Aeris",
+			"biography" : "Aeris is one of the best animal handlers in all of AvLee.  He can sense ideal pairings between elves and pegasi which have made him one of the most sought out Druids in the land.",
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Pegasi or Silver Pegasi for each level attained after 4th level.",
 				"name" : "Pegasi",

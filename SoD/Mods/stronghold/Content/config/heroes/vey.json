@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/vey/icons/speciality/UN32_0_105.png",
 			"specialtyLarge" : "heroes/vey/icons/speciality/UN44_0_105.png",
-			"large" : "heroes/vey/icons/portrait/HPL105BM.png",
-			"small" : "heroes/vey/icons/portrait/HPS105BM.png"
+			"small" : "heroes/vey/icons/portrait/HPS105BM.png",
+			"large" : "heroes/vey/icons/portrait/HPL105BM.png"
 		},
 		"army" : [
 			{
 				"creature" : "goblin",
-				"max" : 25,
-				"min" : 15
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "goblinWolfRider",
-				"max" : 7,
-				"min" : 5
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "orc",
-				"max" : 6,
-				"min" : 4
+				"min" : 4,
+				"max" : 6
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "wisdom"
+				"skill" : "wisdom",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "leadership"
+				"skill" : "leadership",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -47,8 +47,8 @@
 			"magicArrow"
 		],
 		"texts" : {
-			"biography" : "An Ogre Mage himself, Vey has proven himself time and again that his command skills are unparalleled.  Should the Duke's son ever falter, Vey would be considered the top candidate to succeed the throne of Krewlod.",
 			"name" : "Vey",
+			"biography" : "An Ogre Mage himself, Vey has proven himself time and again that his command skills are unparalleled.  Should the Duke's son ever falter, Vey would be considered the top candidate to succeed the throne of Krewlod.",
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Ogres or Ogre Magi for each level attained after 4th level.",
 				"name" : "Ogres",

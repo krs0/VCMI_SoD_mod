@@ -10,42 +10,42 @@
 		{
 			"specialtySmall" : "heroes/synca/icons/speciality/UN32_0_86.png",
 			"specialtyLarge" : "heroes/synca/icons/speciality/UN44_0_86.png",
-			"large" : "heroes/synca/icons/portrait/HPL086OV.png",
-			"small" : "heroes/synca/icons/portrait/HPS086OV.png"
+			"small" : "heroes/synca/icons/portrait/HPS086OV.png",
+			"large" : "heroes/synca/icons/portrait/HPL086OV.png"
 		},
 		"army" : [
 			{
 				"creature" : "troglodyte",
-				"max" : 40,
-				"min" : 30
+				"min" : 30,
+				"max" : 40
 			},
 			{
 				"creature" : "harpy",
-				"max" : 6,
-				"min" : 4
+				"min" : 4,
+				"max" : 6
 			},
 			{
 				"creature" : "beholder",
-				"max" : 4,
-				"min" : 3
+				"min" : 3,
+				"max" : 4
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "leadership"
+				"skill" : "leadership",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "scholar"
+				"skill" : "scholar",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
 			"creature" : "manticore"
 		},
 		"texts" : {
-			"biography" : "Synca was originally an aboveworlder, and though she loyally serves the Dungeon Overlords she really prefers the great outdoors to the dank, cramped spaces of the caverns of Nighon.",
 			"name" : "Synca",
+			"biography" : "Synca was originally an aboveworlder, and though she loyally serves the Dungeon Overlords she really prefers the great outdoors to the dank, cramped spaces of the caverns of Nighon.",
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Manticores or Scorpicores for each level attained after 6th level.",
 				"name" : "Manticores",

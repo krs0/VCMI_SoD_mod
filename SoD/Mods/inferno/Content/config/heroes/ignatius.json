@@ -10,42 +10,42 @@
 		{
 			"specialtySmall" : "heroes/ignatius/icons/speciality/UN32_0_51.png",
 			"specialtyLarge" : "heroes/ignatius/icons/speciality/UN44_0_51.png",
-			"large" : "heroes/ignatius/icons/portrait/HPL051HR.png",
-			"small" : "heroes/ignatius/icons/portrait/HPS051HR.png"
+			"small" : "heroes/ignatius/icons/portrait/HPS051HR.png",
+			"large" : "heroes/ignatius/icons/portrait/HPL051HR.png"
 		},
 		"army" : [
 			{
 				"creature" : "imp",
-				"max" : 25,
-				"min" : 15
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "imp",
-				"max" : 25,
-				"min" : 15
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "imp",
-				"max" : 25,
-				"min" : 15
+				"min" : 15,
+				"max" : 25
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "tactics"
+				"skill" : "tactics",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "resistance"
+				"skill" : "resistance",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
 			"creature" : "imp"
 		},
 		"texts" : {
-			"biography" : "When the Devils arrived in Erathia, Ignatius realized that his only hope for survival was to join them.  He has managed to convince them that he always serves some purpose, but fears that one day they will decide that they no longer need the help of a human.",
 			"name" : "Ignatius",
+			"biography" : "When the Devils arrived in Erathia, Ignatius realized that his only hope for survival was to join them.  He has managed to convince them that he always serves some purpose, but fears that one day they will decide that they no longer need the help of a human.",
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Imps or Familiars for each level attained after 1st level.",
 				"name" : "Imps",

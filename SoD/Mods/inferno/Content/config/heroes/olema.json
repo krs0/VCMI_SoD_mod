@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/olema/icons/speciality/UN32_0_59.png",
 			"specialtyLarge" : "heroes/olema/icons/speciality/UN44_0_59.png",
-			"large" : "heroes/olema/icons/portrait/HPL059DM.png",
-			"small" : "heroes/olema/icons/portrait/HPS059DM.png"
+			"small" : "heroes/olema/icons/portrait/HPS059DM.png",
+			"large" : "heroes/olema/icons/portrait/HPL059DM.png"
 		},
 		"army" : [
 			{
 				"creature" : "imp",
-				"max" : 25,
-				"min" : 15
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "gog",
-				"max" : 7,
-				"min" : 4
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "hellHound",
-				"max" : 4,
-				"min" : 3
+				"min" : 3,
+				"max" : 4
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "wisdom"
+				"skill" : "wisdom",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "ballistics"
+				"skill" : "ballistics",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -53,8 +53,8 @@
 			"weakness"
 		],
 		"texts" : {
-			"biography" : "Olema spent her entire life in Eeofol, but when the Kreegans arrived, she talked them into letting her serve as a guide to the land, and has since proven her ability to lead.",
 			"name" : "Olema",
+			"biography" : "Olema spent her entire life in Eeofol, but when the Kreegans arrived, she talked them into letting her serve as a guide to the land, and has since proven her ability to lead.",
 			"specialty" : {
 				"description" : "Casts Weakness with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
 				"name" : "Weakness",

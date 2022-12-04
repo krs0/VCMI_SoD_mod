@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/gird/icons/speciality/UN32_0_104.png",
 			"specialtyLarge" : "heroes/gird/icons/speciality/UN44_0_104.png",
-			"large" : "heroes/gird/icons/portrait/HPL104BM.png",
-			"small" : "heroes/gird/icons/portrait/HPS104BM.png"
+			"small" : "heroes/gird/icons/portrait/HPS104BM.png",
+			"large" : "heroes/gird/icons/portrait/HPL104BM.png"
 		},
 		"army" : [
 			{
 				"creature" : "goblin",
-				"max" : 25,
-				"min" : 15
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "goblinWolfRider",
-				"max" : 7,
-				"min" : 5
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "orc",
-				"max" : 6,
-				"min" : 4
+				"min" : 4,
+				"max" : 6
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "wisdom"
+				"skill" : "wisdom",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "sorcery"
+				"skill" : "sorcery",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -55,8 +55,8 @@
 			"bloodlust"
 		],
 		"texts" : {
-			"biography" : "Gird learned most of what she knows from the Shaman of her home town.  It is assumed she would have taken his place, but she was taken from her villiage when the Magi of Krewlod conducted a search for children who could wield magic.",
 			"name" : "Gird",
+			"biography" : "Gird learned most of what she knows from the Shaman of her home town.  It is assumed she would have taken his place, but she was taken from her villiage when the Magi of Krewlod conducted a search for children who could wield magic.",
 			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Sorcery skill percentage.",
 				"name" : "Sorcery",

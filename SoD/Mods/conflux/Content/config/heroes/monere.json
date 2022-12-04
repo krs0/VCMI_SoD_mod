@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/monere/icons/speciality/UN32_0_132.png",
 			"specialtyLarge" : "heroes/monere/icons/speciality/UN44_0_132.png",
-			"large" : "heroes/monere/icons/portrait/HPL004PL.png",
-			"small" : "heroes/monere/icons/portrait/HPS004PL.png"
+			"small" : "heroes/monere/icons/portrait/HPS004PL.png",
+			"large" : "heroes/monere/icons/portrait/HPL004PL.png"
 		},
 		"army" : [
 			{
 				"creature" : "pixies",
-				"max" : 25,
-				"min" : 15
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "airElementals",
-				"max" : 5,
-				"min" : 3
+				"min" : 3,
+				"max" : 5
 			},
 			{
 				"creature" : "airElementals",
-				"max" : 3,
-				"min" : 2
+				"min" : 2,
+				"max" : 3
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "logistics"
+				"skill" : "logistics",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "offence"
+				"skill" : "offence",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -61,8 +61,8 @@
 			}
 		},
 		"texts" : {
-			"biography" : "As a being of pure energy, Monere enjoyed the freedoms of his natural state.  However, his curiosity for beings of corporeal form drove him to the Conflux.",
 			"name" : "Monere",
+			"biography" : "As a being of pure energy, Monere enjoyed the freedoms of his natural state.  However, his curiosity for beings of corporeal form drove him to the Conflux.",
 			"specialty" : {
 				"description" : "Psychic/Magic elementals receive +3 Att and +3 Def.",
 				"name" : "Psychic Ele.",

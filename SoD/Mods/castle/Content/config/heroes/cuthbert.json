@@ -10,24 +10,24 @@
 		{
 			"specialtySmall" : "heroes/cuthbert/icons/speciality/UN32_0_10.png",
 			"specialtyLarge" : "heroes/cuthbert/icons/speciality/UN44_0_10.png",
-			"large" : "heroes/cuthbert/icons/portrait/HPL010CL.png",
-			"small" : "heroes/cuthbert/icons/portrait/HPS010CL.png"
+			"small" : "heroes/cuthbert/icons/portrait/HPS010CL.png",
+			"large" : "heroes/cuthbert/icons/portrait/HPL010CL.png"
 		},
 		"army" : [
 			{
 				"creature" : "pikeman",
-				"max" : 20,
-				"min" : 10
+				"min" : 10,
+				"max" : 20
 			},
 			{
 				"creature" : "archer",
-				"max" : 7,
-				"min" : 4
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "griffin",
-				"max" : 3,
-				"min" : 2
+				"min" : 2,
+				"max" : 3
 			}
 		],
 		"spellbook" : [
@@ -35,12 +35,12 @@
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "wisdom"
+				"skill" : "wisdom",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "estates"
+				"skill" : "estates",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -53,8 +53,8 @@
 			}
 		},
 		"texts" : {
-			"biography" : "As a young man, Cuthbert toyed with the darker magics, but when his wife died because a spell that he cast had gone awry, he turned to good and has never looked back.  His insights to the workings of dark magic give him an edge possessed by no other.",
 			"name" : "Cuthbert",
+			"biography" : "As a young man, Cuthbert toyed with the darker magics, but when his wife died because a spell that he cast had gone awry, he turned to good and has never looked back.  His insights to the workings of dark magic give him an edge possessed by no other.",
 			"specialty" : {
 				"description" : "Casts Weakness with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
 				"name" : "Weakness",

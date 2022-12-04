@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/voy/icons/speciality/UN32_0_122.png",
 			"specialtyLarge" : "heroes/voy/icons/speciality/UN44_0_122.png",
-			"large" : "heroes/voy/icons/portrait/HPL122WH.png",
-			"small" : "heroes/voy/icons/portrait/HPS122WH.png"
+			"small" : "heroes/voy/icons/portrait/HPS122WH.png",
+			"large" : "heroes/voy/icons/portrait/HPL122WH.png"
 		},
 		"army" : [
 			{
 				"creature" : "gnoll",
-				"max" : 20,
-				"min" : 10
+				"min" : 10,
+				"max" : 20
 			},
 			{
 				"creature" : "lizardman",
-				"max" : 7,
-				"min" : 4
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "serpentFly",
-				"max" : 4,
-				"min" : 2
+				"min" : 2,
+				"max" : 4
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "wisdom"
+				"skill" : "wisdom",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "navigation"
+				"skill" : "navigation",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -55,8 +55,8 @@
 			"slow"
 		],
 		"texts" : {
-			"biography" : "Voy is a 'Wind Witch,' often employed by sea captains to help guide ships and ensure that they always receive favorable winds at sea.  She prefers the salty air of the oceans to that of the swamps where she was born.",
 			"name" : "Voy",
+			"biography" : "Voy is a 'Wind Witch,' often employed by sea captains to help guide ships and ensure that they always receive favorable winds at sea.  She prefers the salty air of the oceans to that of the swamps where she was born.",
 			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Navigation skill percentage.",
 				"name" : "Navigation",

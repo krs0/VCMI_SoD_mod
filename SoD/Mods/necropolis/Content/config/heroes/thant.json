@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/thant/icons/speciality/UN32_0_76.png",
 			"specialtyLarge" : "heroes/thant/icons/speciality/UN44_0_76.png",
-			"large" : "heroes/thant/icons/portrait/HPL076NC.png",
-			"small" : "heroes/thant/icons/portrait/HPS076NC.png"
+			"small" : "heroes/thant/icons/portrait/HPS076NC.png",
+			"large" : "heroes/thant/icons/portrait/HPL076NC.png"
 		},
 		"army" : [
 			{
 				"creature" : "skeleton",
-				"max" : 30,
-				"min" : 20
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "zombie",
-				"max" : 6,
-				"min" : 4
+				"min" : 4,
+				"max" : 6
 			},
 			{
 				"creature" : "wight",
-				"max" : 6,
-				"min" : 4
+				"min" : 4,
+				"max" : 6
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "necromancy"
+				"skill" : "necromancy",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "mysticism"
+				"skill" : "mysticism",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -54,8 +54,8 @@
 			"animateDead"
 		],
 		"texts" : {
-			"biography" : "No one is really sure how long Thant has been alive.  Some say he fought for Erathia during the Timber Wars, but fell prey to a Vampire during an all-night march through Phynaxia.",
 			"name" : "Thant",
+			"biography" : "No one is really sure how long Thant has been alive.  Some say he fought for Erathia during the Timber Wars, but fell prey to a Vampire during an all-night march through Phynaxia.",
 			"specialty" : {
 				"description" : "Casts Animate Dead with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
 				"name" : "Animate Dead",

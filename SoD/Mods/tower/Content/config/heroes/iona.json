@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/iona/icons/speciality/UN32_0_39.png",
 			"specialtyLarge" : "heroes/iona/icons/speciality/UN44_0_39.png",
-			"large" : "heroes/iona/icons/portrait/HPL039AL.png",
-			"small" : "heroes/iona/icons/portrait/HPS039AL.png"
+			"small" : "heroes/iona/icons/portrait/HPS039AL.png",
+			"large" : "heroes/iona/icons/portrait/HPL039AL.png"
 		},
 		"army" : [
 			{
 				"creature" : "apprenticeGremlin",
-				"max" : 40,
-				"min" : 30
+				"min" : 30,
+				"max" : 40
 			},
 			{
 				"creature" : "stoneGargoyle",
-				"max" : 5,
-				"min" : 3
+				"min" : 3,
+				"max" : 5
 			},
 			{
 				"creature" : "ironGolem",
-				"max" : 3,
-				"min" : 2
+				"min" : 2,
+				"max" : 3
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "scholar"
+				"skill" : "scholar",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "intelligence"
+				"skill" : "intelligence",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -47,8 +47,8 @@
 			"magicArrow"
 		],
 		"texts" : {
-			"biography" : "Iona proved long ago that she was more powerful than most of her kind, but her charming personality prevents those who serve her from being intimidated by her strength.",
 			"name" : "Iona",
+			"biography" : "Iona proved long ago that she was more powerful than most of her kind, but her charming personality prevents those who serve her from being intimidated by her strength.",
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Genies or Master Genies for each level attained after 5th level.",
 				"name" : "Genies",

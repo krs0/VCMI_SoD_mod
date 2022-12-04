@@ -10,34 +10,34 @@
 		{
 			"specialtySmall" : "heroes/aislinn/icons/speciality/UN32_0_73.png",
 			"specialtyLarge" : "heroes/aislinn/icons/speciality/UN44_0_73.png",
-			"large" : "heroes/aislinn/icons/portrait/HPL073NC.png",
-			"small" : "heroes/aislinn/icons/portrait/HPS073NC.png"
+			"small" : "heroes/aislinn/icons/portrait/HPS073NC.png",
+			"large" : "heroes/aislinn/icons/portrait/HPL073NC.png"
 		},
 		"army" : [
 			{
 				"creature" : "skeleton",
-				"max" : 30,
-				"min" : 20
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "zombie",
-				"max" : 6,
-				"min" : 4
+				"min" : 4,
+				"max" : 6
 			},
 			{
 				"creature" : "wight",
-				"max" : 6,
-				"min" : 4
+				"min" : 4,
+				"max" : 6
 			}
 		],
 		"skills" : [
 			{
-				"level" : "basic",
-				"skill" : "necromancy"
+				"skill" : "necromancy",
+				"level" : "basic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "wisdom"
+				"skill" : "wisdom",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -54,8 +54,8 @@
 			"meteorShower"
 		],
 		"texts" : {
-			"biography" : "Aislinn has always preferred the feel of the earth over the sky, and many believe she can draw life from the ground merely by being in contact with it.  ",
 			"name" : "Aislinn",
+			"biography" : "Aislinn has always preferred the feel of the earth over the sky, and many believe she can draw life from the ground merely by being in contact with it.  ",
 			"specialty" : {
 				"description" : "Casts Meteor Shower with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
 				"name" : "Meteor Shower",
