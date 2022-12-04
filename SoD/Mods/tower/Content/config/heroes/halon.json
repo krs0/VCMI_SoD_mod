@@ -13,7 +13,6 @@
 			"large" : "heroes/halon/icons/portrait/HPL041WZ.png",
 			"small" : "heroes/halon/icons/portrait/HPS041WZ.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "apprenticeGremlin",
@@ -31,7 +30,6 @@
 				"min" : 2
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,18 +40,20 @@
 				"skill" : "mysticism"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 1,
-				"subtype" : 8,
-				"type" : 2,
-				"val" : 5
+		"specialty" : {
+			"bonuses" : {
+				"mysticism" : {
+					"subtype" : "skill.mysticism",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE"
+				}
 			}
-		],
+		},
 		"spellbook" : [
 			"stoneSkin"
 		],
-		
 		"texts" : {
 			"biography" : "Halon was a well respected hero in Enroth, but became so bored after the Succession Wars that he left to explore the world.  He recently accepted a command rank in Bracada's military, hoping that it would give him something new to do.",
 			"name" : "Halon",

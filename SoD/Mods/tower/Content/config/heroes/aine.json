@@ -13,7 +13,6 @@
 			"large" : "heroes/aine/icons/portrait/HPL047WZ.png",
 			"small" : "heroes/aine/icons/portrait/HPS047WZ.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "apprenticeGremlin",
@@ -31,7 +30,6 @@
 				"min" : 2
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,18 +40,18 @@
 				"skill" : "scholar"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 0,
-				"subtype" : 6,
-				"type" : 10,
-				"val" : 350
+		"specialty" : {
+			"bonuses" : {
+				"gold" : {
+					"subtype" : "resource.gold",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 350
+				}
 			}
-		],
+		},
 		"spellbook" : [
 			"curse"
 		],
-		
 		"texts" : {
 			"biography" : "Aine has lived in Bracada longer than most can remember, and is said to be one of the wealthiest heroes in the land.  She must have wealth hidden somewhere, for her kind hearted nature causes her to regularly contribute large sums of money to whatever cause she chooses to pursue.",
 			"name" : "Aine",

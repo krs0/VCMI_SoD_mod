@@ -1,8 +1,8 @@
 {
 	"masterGremlin": {
 		"name" : {
-			"plural" : "Master Gremlins",
-			"singular" : "Master Gremlin"
+			"singular" : "Master Gremlin",
+			"plural" : "Master Gremlins"
 		},
 		"faction" : "tower",
 		"level" : 1,
@@ -18,7 +18,6 @@
 			"min" : 1
 		},
 		"shots" : 8,
-		"doubleWide" : false,
 		"growth" : 16,
 		"horde" : 0,
 		"aiValue" : 66,

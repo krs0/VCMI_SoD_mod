@@ -1,8 +1,8 @@
 {
 	"obsidianGargoyle": {
 		"name" : {
-			"plural" : "Obsidian Gargoyles",
-			"singular" : "Obsidian Gargoyle"
+			"singular" : "Obsidian Gargoyle",
+			"plural" : "Obsidian Gargoyles"
 		},
 		"faction" : "tower",
 		"level" : 2,
@@ -17,7 +17,6 @@
 			"max" : 3,
 			"min" : 2
 		},
-		"doubleWide" : false,
 		"growth" : 9,
 		"horde" : 4,
 		"aiValue" : 201,
@@ -30,8 +29,8 @@
 			"FLYING_ARMY" : {
 				"type" : "FLYING"
 			},
-			"nonliving" : {
-				"type" : "NON_LIVING"
+			"gargoyle" : {
+				"type" : "GARGOYLE"
 			}
 		},
 		"abilityText" : "",

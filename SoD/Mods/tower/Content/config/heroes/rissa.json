@@ -13,7 +13,6 @@
 			"large" : "heroes/rissa/icons/portrait/HPL038AL.png",
 			"small" : "heroes/rissa/icons/portrait/HPS038AL.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "apprenticeGremlin",
@@ -31,7 +30,6 @@
 				"min" : 2
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,18 +40,18 @@
 				"skill" : "offence"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 0,
-				"subtype" : 1,
-				"type" : 10,
-				"val" : 1
+		"specialty" : {
+			"bonuses" : {
+				"mercury" : {
+					"subtype" : "resource.mercury",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 1
+				}
 			}
-		],
+		},
 		"spellbook" : [
 			"magicArrow"
 		],
-		
 		"texts" : {
 			"biography" : "Rissa was the first Alchemist to perfect the art of converting useless soft metals into mercury.  Though now commanding her own army, she spends much of her idle time experimenting with other materials.",
 			"name" : "Rissa",

@@ -13,7 +13,6 @@
 			"large" : "heroes/iona/icons/portrait/HPL039AL.png",
 			"small" : "heroes/iona/icons/portrait/HPS039AL.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "apprenticeGremlin",
@@ -31,7 +30,6 @@
 				"min" : 2
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,18 +40,12 @@
 				"skill" : "intelligence"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 36,
-				"subtype" : 0,
-				"type" : 1,
-				"val" : 0
-			}
-		],
+		"specialty" : {
+			"creature" : "genie"
+		},
 		"spellbook" : [
 			"magicArrow"
 		],
-		
 		"texts" : {
 			"biography" : "Iona proved long ago that she was more powerful than most of her kind, but her charming personality prevents those who serve her from being intimidated by her strength.",
 			"name" : "Iona",

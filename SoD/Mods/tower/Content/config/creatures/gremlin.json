@@ -1,8 +1,8 @@
 {
 	"gremlin": {
 		"name" : {
-			"plural" : "Gremlins",
 			"singular" : "Gremlin"
+			"plural" : "Gremlins"
 		},
 		"extraNames" : [
 			"apprenticeGremlin"
@@ -21,7 +21,6 @@
 			"max" : 2,
 			"min" : 1
 		},
-		"doubleWide" : false,
 		"growth" : 16,
 		"horde" : 0,
 		"hasDoubleWeek" : true,

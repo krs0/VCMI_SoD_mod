@@ -13,7 +13,6 @@
 			"large" : "heroes/solmyr/icons/portrait/HPL045WZ.png",
 			"small" : "heroes/solmyr/icons/portrait/HPS045WZ.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "apprenticeGremlin",
@@ -31,7 +30,6 @@
 				"min" : 2
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,18 +40,19 @@
 				"skill" : "sorcery"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 0,
-				"subtype" : 19,
-				"type" : 3,
-				"val" : 3
+		"specialty" : {
+			"bonuses" : {
+				"chainLightning" : {
+					"subtype" : "spell.chainLightning",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
 			}
-		],
+		},
 		"spellbook" : [
 			"chainLightning"
 		],
-		
 		"texts" : {
 			"biography" : "Solmyr was trapped in a genie bottle for over a millenium, and was so grateful to the human who finally released him that he accidentally swore to serve the man for eternity.  As fate would have it, that man is Gavin Magnus, the immortal ruler of the Bracada Highlands.",
 			"name" : "Solmyr",

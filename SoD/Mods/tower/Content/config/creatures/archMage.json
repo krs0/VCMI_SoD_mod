@@ -1,8 +1,8 @@
 {
 	"archMage": {
 		"name" : {
-			"plural" : "Arch Magi",
-			"singular" : "Arch Mage"
+			"singular" : "Arch Mage",
+			"plural" : "Arch Magi"
 		},
 		"faction" : "tower",
 		"level" : 4,
@@ -18,7 +18,6 @@
 			"min" : 7
 		},
 		"shots" : 24,
-		"doubleWide" : false,
 		"growth" : 4,
 		"horde" : 0,
 		"aiValue" : 680,
@@ -56,7 +55,7 @@
 			},
 			"missile" : {
 				"projectile" : "creatures/archMage/projectile/PMAGEX.DEF",
-				"attackClimaxFrame" : 9,
+				"attackClimaxFrame" : 8,
 				"frameAngles" : [
 					90,
 					72,
@@ -79,6 +78,78 @@
 					"upperX" : 28,
 					"upperY" : -107
 				},
+				"ray" : [
+					{
+						"end" : [
+							160,
+							192,
+							0,
+							64
+						],
+						"start" : [
+							160,
+							192,
+							0,
+							255
+						]
+					},
+					{
+						"end" : [
+							128,
+							224,
+							128,
+							128
+						],
+						"start" : [
+							128,
+							224,
+							128,
+							255
+						]
+					},
+					{
+						"end" : [
+							32,
+							176,
+							32,
+							255
+						],
+						"start" : [
+							32,
+							176,
+							32,
+							255
+						]
+					},
+					{
+						"end" : [
+							128,
+							224,
+							128,
+							128
+						],
+						"start" : [
+							128,
+							224,
+							128,
+							255
+						]
+					},
+					{
+						"end" : [
+							160,
+							192,
+							0,
+							64
+						],
+						"start" : [
+							160,
+							192,
+							0,
+							255
+						]
+					}
+				]
 			},
 			"timeBetweenFidgets" : 1,
 			"troopCountLocationOffset" : 0

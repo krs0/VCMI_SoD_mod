@@ -13,7 +13,6 @@
 			"large" : "heroes/cyra/icons/portrait/HPL046WZ.png",
 			"small" : "heroes/cyra/icons/portrait/HPS046WZ.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "apprenticeGremlin",
@@ -31,7 +30,6 @@
 				"min" : 2
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,18 +40,18 @@
 				"skill" : "diplomacy"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 0,
-				"subtype" : 53,
-				"type" : 8,
-				"val" : 0
+		"specialty" : {
+			"bonuses" : {
+				"haste" : {
+					"addInfo" : 0,
+					"subtype" : "spell.haste",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
 			}
-		],
+		},
 		"spellbook" : [
 			"haste"
 		],
-		
 		"texts" : {
 			"biography" : "Cyra originally sought to learn magic so that she could cast spells on men to make them love her.  She gave up that dream, however, when she discovered that she had real mystical talents that could be put to better use.",
 			"name" : "Cyra",

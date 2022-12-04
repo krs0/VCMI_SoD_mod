@@ -13,7 +13,6 @@
 			"large" : "heroes/josephine/icons/portrait/HPL034AL.png",
 			"small" : "heroes/josephine/icons/portrait/HPS034AL.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "apprenticeGremlin",
@@ -31,7 +30,6 @@
 				"min" : 2
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,18 +40,12 @@
 				"skill" : "sorcery"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 32,
-				"subtype" : 0,
-				"type" : 1,
-				"val" : 0
-			}
-		],
+		"specialty" : {
+			"creature" : "ironGolem"
+		},
 		"spellbook" : [
 			"haste"
 		],
-		
 		"texts" : {
 			"biography" : "Josephine was the first to successfully animate a stone golem, creating a process that was much more sophisticated than that used for the gargoyle, on which her research was based.",
 			"name" : "Josephine",

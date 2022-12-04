@@ -13,7 +13,6 @@
 			"large" : "heroes/daremyth/icons/portrait/HPL043WZ.png",
 			"small" : "heroes/daremyth/icons/portrait/HPS043WZ.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "apprenticeGremlin",
@@ -31,7 +30,6 @@
 				"min" : 2
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,18 +40,17 @@
 				"skill" : "intelligence"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 0,
-				"subtype" : 51,
-				"type" : 7,
-				"val" : 0
+		"specialty" : {
+			"bonuses" : {
+				"fortune" : {
+					"subtype" : "spell.fortune",
+					"type" : "MAXED_SPELL"
+				}
 			}
-		],
+		},
 		"spellbook" : [
 			"fortune"
 		],
-		
 		"texts" : {
 			"biography" : "Daremyth should have been dead a long time ago.  Her go-anywhere-do-anything attitude has put her in situations that she should have never survived, but somehow she comes through unscathed.",
 			"name" : "Daremyth",

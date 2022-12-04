@@ -1,8 +1,8 @@
 {
 	"nagaQueen": {
 		"name" : {
-			"plural" : "Naga Queens",
-			"singular" : "Naga Queen"
+			"singular" : "Naga Queen",
+			"plural" : "Naga Queens"
 		},
 		"faction" : "tower",
 		"level" : 6,

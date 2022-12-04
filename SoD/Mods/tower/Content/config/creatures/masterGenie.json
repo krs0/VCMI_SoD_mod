@@ -1,8 +1,8 @@
 {
 	"masterGenie": {
 		"name" : {
-			"plural" : "Master Genies",
-			"singular" : "Master Genie"
+			"singular" : "Master Genie",
+			"plural" : "Master Genies"
 		},
 		"faction" : "tower",
 		"level" : 5,
@@ -18,7 +18,6 @@
 			"min" : 13
 		},
 		"spellPoints" : 3,
-		"doubleWide" : false,
 		"growth" : 3,
 		"horde" : 0,
 		"aiValue" : 942,

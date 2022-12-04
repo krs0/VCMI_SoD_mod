@@ -1,8 +1,8 @@
 {
 	"naga": {
 		"name" : {
-			"plural" : "Nagas",
-			"singular" : "Naga"
+			"singular" : "Naga",
+			"plural" : "Nagas"
 		},
 		"faction" : "tower",
 		"level" : 6,

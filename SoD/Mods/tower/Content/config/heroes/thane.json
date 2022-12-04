@@ -13,7 +13,6 @@
 			"large" : "heroes/thane/icons/portrait/HPL033AL.png",
 			"small" : "heroes/thane/icons/portrait/HPS033AL.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "apprenticeGremlin",
@@ -31,25 +30,18 @@
 				"min" : 2
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "advanced",
 				"skill" : "scholar"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 36,
-				"subtype" : 0,
-				"type" : 1,
-				"val" : 0
-			}
-		],
+		"specialty" : {
+			"creature" : "genie"
+		},
 		"spellbook" : [
 			"magicArrow"
 		],
-
 		"texts" : {
 			"biography" : "No one really knows Thane's background, but he has been teaching Alchemy in Bracada for so long that not even the elders remember a time without him.",
 			"name" : "Thane",

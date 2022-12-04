@@ -1,8 +1,8 @@
 {
 	"titan": {
 		"name" : {
-			"plural" : "Titans",
-			"singular" : "Titan"
+			"singular" : "Titan",
+			"plural" : "Titans"
 		},
 		"faction" : "tower",
 		"level" : 7,
@@ -19,7 +19,6 @@
 			"min" : 40
 		},
 		"shots" : 24,
-		"doubleWide" : false,
 		"growth" : 1,
 		"horde" : 0,
 		"aiValue" : 7500,

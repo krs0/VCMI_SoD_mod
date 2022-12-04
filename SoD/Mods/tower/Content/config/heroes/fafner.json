@@ -13,7 +13,6 @@
 			"large" : "heroes/fafner/icons/portrait/HPL037AL.png",
 			"small" : "heroes/fafner/icons/portrait/HPS037AL.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "apprenticeGremlin",
@@ -31,7 +30,6 @@
 				"min" : 2
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,18 +40,12 @@
 				"skill" : "resistance"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 38,
-				"subtype" : 0,
-				"type" : 1,
-				"val" : 0
-			}
-		],
+		"specialty" : {
+			"creature" : "naga"
+		},
 		"spellbook" : [
 			"haste"
 		],
-		
 		"texts" : {
 			"biography" : "It is said that Fafner became a genie over a millenium ago, when upon finding a genie bottle, wished that he become as powerful as the genie granting the wish.  The wish was granted, and Fafner has served the leaders of Bracada ever since.",
 			"name" : "Fafner",

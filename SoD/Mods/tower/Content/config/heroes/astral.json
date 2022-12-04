@@ -13,7 +13,6 @@
 			"large" : "heroes/astral/icons/portrait/HPL040WZ.png",
 			"small" : "heroes/astral/icons/portrait/HPS040WZ.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "apprenticeGremlin",
@@ -31,25 +30,25 @@
 				"min" : 2
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "advanced",
 				"skill" : "wisdom"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 0,
-				"subtype" : 60,
-				"type" : 3,
-				"val" : 3
+		"specialty" : {
+			"bonuses" : {
+				"hypnotize" : {
+					"subtype" : "spell.hypnotize",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
 			}
-		],
+		},
 		"spellbook" : [
 			"hypnotize"
 		],
-		
 		"texts" : {
 			"biography" : "Astral arrived in Erathia nearly ten years ago, and was quickly accepted into the Wizards' Guild in Bracada.  His rise to power within the Guild ranks made some people joke that only magic could have brought him so much success so soon.",
 			"name" : "Astral",

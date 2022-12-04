@@ -1,8 +1,8 @@
 {
 	"giant": {
 		"name" : {
-			"plural" : "Giants",
-			"singular" : "Giant"
+			"singular" : "Giant",
+			"plural" : "Giants"
 		},
 		"faction" : "tower",
 		"level" : 7,
@@ -19,7 +19,6 @@
 			"max" : 60,
 			"min" : 40
 		},
-		"doubleWide" : false,
 		"growth" : 1,
 		"horde" : 0,
 		"aiValue" : 3718,

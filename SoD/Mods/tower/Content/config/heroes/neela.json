@@ -13,7 +13,6 @@
 			"large" : "heroes/neela/icons/portrait/HPL035AL.png",
 			"small" : "heroes/neela/icons/portrait/HPS035AL.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "apprenticeGremlin",
@@ -31,7 +30,6 @@
 				"min" : 2
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,18 +40,20 @@
 				"skill" : "armorer"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 0,
-				"subtype" : 23,
-				"type" : 2,
-				"val" : 5
+		"specialty" : {
+			"bonuses" : {
+				"armorer" : {
+					"subtype" : "skill.armorer",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE"
+				}
 			}
-		],
+		},
 		"spellbook" : [
 			"shield"
 		],
-		
 		"texts" : {
 			"biography" : "Neela is one of the strongest of her kind, being able to resist an incredible amount of punishment.  She somehow is able to instill this resistance in the troops she commands.",
 			"name" : "Neela",

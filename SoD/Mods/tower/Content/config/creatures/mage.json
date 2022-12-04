@@ -1,8 +1,8 @@
 {
 	"mage": {
 		"name" : {
-			"plural" : "Magi",
-			"singular" : "Mage"
+			"singular" : "Mage",
+			"plural" : "Magi"
 		},
 		"faction" : "tower",
 		"level" : 4,
@@ -19,7 +19,6 @@
 			"min" : 7
 		},
 		"shots" : 24,
-		"doubleWide" : false,
 		"growth" : 4,
 		"horde" : 0,
 		"aiValue" : 570,

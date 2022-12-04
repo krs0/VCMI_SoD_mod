@@ -1,8 +1,8 @@
 {
 	"stoneGolem": {
 		"name" : {
-			"plural" : "Iron Golems",
-			"singular" : "Iron Golem"
+			"singular" : "Iron Golem",
+			"plural" : "Iron Golems"
 		},
 		"faction" : "tower",
 		"level" : 3,
@@ -17,7 +17,6 @@
 			"max" : 5,
 			"min" : 4
 		},
-		"doubleWide" : false,
 		"growth" : 6,
 		"horde" : 0,
 		"aiValue" : 412,

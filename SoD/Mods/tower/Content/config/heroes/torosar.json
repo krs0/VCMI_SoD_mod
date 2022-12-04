@@ -13,7 +13,6 @@
 			"large" : "heroes/torosar/icons/portrait/HPL036AL.png",
 			"small" : "heroes/torosar/icons/portrait/HPS036AL.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "apprenticeGremlin",
@@ -31,7 +30,6 @@
 				"min" : 2
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,18 +40,12 @@
 				"skill" : "tactics"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 146,
-				"subtype" : 0,
-				"type" : 1,
-				"val" : 0
-			}
-		],
+		"specialty" : {
+			"creature" : "ballista"
+		},
 		"spellbook" : [
 			"magicArrow"
 		],
-		
 		"texts" : {
 			"biography" : "Though formally trained as an Alchemist, Torosar has always had an interest in battlefield and siege tactics, often studying texts on the subject of war more frequently than on the subject of alchemy.",
 			"name" : "Torosar ",

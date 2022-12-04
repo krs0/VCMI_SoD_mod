@@ -13,7 +13,6 @@
 			"large" : "heroes/piquedram/icons/portrait/HPL032AL.png",
 			"small" : "heroes/piquedram/icons/portrait/HPS032AL.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "stoneGargoyle",
@@ -31,7 +30,6 @@
 				"min" : 3
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,18 +40,12 @@
 				"skill" : "mysticism"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 30,
-				"subtype" : 0,
-				"type" : 1,
-				"val" : 0
-			}
-		],
+		"specialty" : {
+			"creature" : "stoneGargoyle"
+		},
 		"spellbook" : [
 			"shield"
 		],
-
 		"texts" : {
 			"biography" : "Piquedram spent much of his schooling in Alchemy dealing with various types of non-valuable rock.  It is no surprise, then, that in the service of Bracada he was able to improve upon the basic design of the Gargoyle.",
 			"name" : "Piquedram",

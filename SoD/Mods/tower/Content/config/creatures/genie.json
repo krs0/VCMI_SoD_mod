@@ -1,8 +1,8 @@
 {
 	"genie": {
 		"name" : {
-			"plural" : "Genies",
-			"singular" : "Genie"
+			"singular" : "Genie",
+			"plural" : "Genies"
 		},
 		"faction" : "tower",
 		"level" : 5,
@@ -18,7 +18,6 @@
 			"max" : 16,
 			"min" : 13
 		},
-		"doubleWide" : false,
 		"growth" : 3,
 		"horde" : 0,
 		"aiValue" : 884,

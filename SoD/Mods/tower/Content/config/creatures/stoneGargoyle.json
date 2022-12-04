@@ -1,8 +1,8 @@
 {
 	"stoneGargoyle": {
 		"name" : {
-			"plural" : "Stone Gargoyles",
-			"singular" : "Stone Gargoyle"
+			"singular" : "Stone Gargoyle",
+			"plural" : "Stone Gargoyles"
 		},
 		"faction" : "tower",
 		"level" : 2,
@@ -13,12 +13,11 @@
 		"speed" : 6,
 		"hitPoints" : 16,
 		"attack" : 6,
-		"defense" : 3,
+		"defense" : 6,
 		"damage" : {
-			"max" : 2,
-			"min" : 1
+			"max" : 3,
+			"min" : 2
 		},
-		"doubleWide" : false,
 		"growth" : 9,
 		"horde" : 4,
 		"aiValue" : 165,
@@ -31,8 +30,8 @@
 			"FLYING_ARMY" : {
 				"type" : "FLYING"
 			},
-			"nonliving" : {
-				"type" : "NON_LIVING"
+			"gargoyle" : {
+				"type" : "GARGOYLE"
 			}
 		},
 		"abilityText" : "",

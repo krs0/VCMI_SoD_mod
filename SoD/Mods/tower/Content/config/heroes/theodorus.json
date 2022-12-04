@@ -13,7 +13,6 @@
 			"large" : "heroes/theodorus/icons/portrait/HPL044WZ.png",
 			"small" : "heroes/theodorus/icons/portrait/HPS044WZ.png"
 		},
-
 		"army" : [
 			{
 				"creature" : "apprenticeGremlin",
@@ -31,7 +30,6 @@
 				"min" : 2
 			}
 		],
-
 		"skills" : [
 			{
 				"level" : "basic",
@@ -42,18 +40,12 @@
 				"skill" : "ballistics"
 			}
 		],
-		"specialties" : [
-			{
-				"info" : 34,
-				"subtype" : 0,
-				"type" : 1,
-				"val" : 0
-			}
-		],
+		"specialty" : {
+			"creature" : "mage"
+		},
 		"spellbook" : [
 			"shield"
 		],
-		
 		"texts" : {
 			"biography" : "Theodorus is easily one of the best spellcasters ever seen in Bracada.  As a result, journeyman mages often seek to learn from him, embarking on a pilgrimage of sorts in the hopes that they can bask in his wisdom.",
 			"name" : "Theodorus",
