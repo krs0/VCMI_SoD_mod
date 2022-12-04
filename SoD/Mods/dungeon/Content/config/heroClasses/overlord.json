@@ -25,20 +25,20 @@
 		"primarySkills" : {
 			"attack" : 2,
 			"defence" : 2,
-			"knowledge" : 1,
-			"spellpower" : 1
-		},
-		"highLevelChance" : {
-			"attack" : 30,
-			"defence" : 30,
-			"knowledge" : 20,
-			"spellpower" : 20
+			"spellpower" : 1,
+			"knowledge" : 1
 		},
 		"lowLevelChance" : {
 			"attack" : 35,
 			"defence" : 35,
-			"knowledge" : 15,
-			"spellpower" : 15
+			"spellpower" : 15,
+			"knowledge" : 15
+		},
+		"highLevelChance" : {
+			"attack" : 30,
+			"defence" : 30,
+			"spellpower" : 20,
+			"knowledge" : 20
 		},
 		"secondarySkills" : {
 			"airMagic" : 1,

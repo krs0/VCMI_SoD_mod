@@ -25,8 +25,8 @@
 		"primarySkills" : {
 			"attack" : 1,
 			"defence" : 0,
-			"knowledge" : 2,
-			"spellpower" : 2
+			"spellpower" : 2,
+			"knowledge" : 2
 		},
 		"secondarySkills" : {
 			"airMagic" : 4,
@@ -58,17 +58,17 @@
 			"waterMagic" : 4,
 			"wisdom" : 7
 		},
-		"highLevelChance" : {
-			"attack" : 20,
-			"defence" : 20,
-			"knowledge" : 30,
-			"spellpower" : 30
-		},
 		"lowLevelChance" : {
 			"attack" : 20,
 			"defence" : 15,
-			"knowledge" : 35,
-			"spellpower" : 30
+			"spellpower" : 30,
+			"knowledge" : 35
+		},
+		"highLevelChance" : {
+			"attack" : 20,
+			"defence" : 20,
+			"spellpower" : 30,
+			"knowledge" : 30
 		},
 		"tavern" : {
 			"castle" : 6,
