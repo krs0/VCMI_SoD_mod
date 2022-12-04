@@ -43,8 +43,8 @@
 		"specialty" : {
 			"bonuses" : {
 				"chainLightning" : {
-					"subtype" : "spell.chainLightning",
 					"type" : "SPECIAL_SPELL_LEV",
+					"subtype" : "spell.chainLightning",
 					"updater" : "TIMES_HERO_LEVEL",
 					"val" : 3
 				}

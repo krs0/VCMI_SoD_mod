@@ -43,18 +43,15 @@
 		"specialty" : {
 			"bonuses" : {
 				"attack" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primSkill.attack",
+					"val" : 2,
 					"limiters" : [
 						{
-							"parameters" : [
-								"waterElemental",
-								true
-							],
 							"type" : "CREATURE_TYPE_LIMITER"
+							"parameters" : [ "waterElemental", true	],
 						}
-					],
-					"subtype" : "primSkill.attack",
-					"type" : "PRIMARY_SKILL",
-					"val" : 2
+					]
 				}
 			}
 		},

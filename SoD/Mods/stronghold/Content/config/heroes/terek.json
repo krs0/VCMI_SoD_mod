@@ -43,9 +43,9 @@
 		"specialty" : {
 			"bonuses" : {
 				"haste" : {
-					"addInfo" : 0,
+					"type" : "SPECIAL_PECULIAR_ENCHANT",
 					"subtype" : "spell.haste",
-					"type" : "SPECIAL_PECULIAR_ENCHANT"
+					"addInfo" : 0
 				}
 			}
 		},

@@ -39,8 +39,8 @@
 		"specialty" : {
 			"bonuses" : {
 				"hypnotize" : {
-					"subtype" : "spell.hypnotize",
 					"type" : "SPECIAL_SPELL_LEV",
+					"subtype" : "spell.hypnotize",
 					"updater" : "TIMES_HERO_LEVEL",
 					"val" : 3
 				}

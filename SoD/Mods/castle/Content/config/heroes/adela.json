@@ -46,11 +46,11 @@
 		"specialty" : {
 			"bonuses" : {
 				"bless" : {
-					"addInfo" : 0,
-					"subtype" : "spell.bless",
 					"type" : "SPECIAL_BLESS_DAMAGE",
+					"subtype" : "spell.bless",
 					"updater" : "TIMES_HERO_LEVEL",
-					"val" : 3
+					"val" : 3,
+					"addInfo" : 0
 				}
 			}
 		},

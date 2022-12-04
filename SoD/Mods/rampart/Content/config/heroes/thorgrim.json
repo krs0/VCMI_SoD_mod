@@ -39,11 +39,11 @@
 		"specialty" : {
 			"bonuses" : {
 				"resistance" : {
-					"subtype" : "skill.resistance",
 					"type" : "SECONDARY_SKILL_PREMY",
+					"subtype" : "skill.resistance",
 					"updater" : "TIMES_HERO_LEVEL",
-					"val" : 5,
-					"valueType" : "PERCENT_TO_BASE"
+					"valueType" : "PERCENT_TO_BASE",
+					"val" : 5
 				}
 			}
 		},

@@ -44,28 +44,25 @@
 			"base" : {
 				"limiters" : [
 					{
-						"parameters" : [
-							"earthElemental",
-							true
-						],
-						"type" : "CREATURE_TYPE_LIMITER"
+						"type" : "CREATURE_TYPE_LIMITER",
+						"parameters" : [ "earthElemental", true ]
 					}
 				]
 			},
 			"bonuses" : {
 				"attack" : {
-					"subtype" : "primSkill.attack",
 					"type" : "PRIMARY_SKILL",
+					"subtype" : "primSkill.attack",
 					"val" : 2
 				},
 				"damage" : {
-					"subtype" : 0,
 					"type" : "CREATURE_DAMAGE",
+					"subtype" : 0,
 					"val" : 5
 				},
 				"defence" : {
-					"subtype" : "primSkill.defence",
 					"type" : "PRIMARY_SKILL",
+					"subtype" : "primSkill.defence",
 					"val" : 1
 				}
 			}

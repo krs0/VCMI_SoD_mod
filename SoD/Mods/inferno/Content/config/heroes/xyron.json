@@ -43,8 +43,8 @@
 		"specialty" : {
 			"bonuses" : {
 				"inferno" : {
-					"subtype" : "spell.inferno",
 					"type" : "SPECIAL_SPELL_LEV",
+					"subtype" : "spell.inferno",
 					"updater" : "TIMES_HERO_LEVEL",
 					"val" : 3
 				}

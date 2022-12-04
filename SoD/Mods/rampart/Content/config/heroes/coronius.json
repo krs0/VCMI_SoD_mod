@@ -43,9 +43,9 @@
 		"specialty" : {
 			"bonuses" : {
 				"slayer" : {
-					"addInfo" : 1,
+					"type" : "SPECIAL_PECULIAR_ENCHANT",
 					"subtype" : "spell.slayer",
-					"type" : "SPECIAL_PECULIAR_ENCHANT"
+					"addInfo" : 1
 				}
 			}
 		},

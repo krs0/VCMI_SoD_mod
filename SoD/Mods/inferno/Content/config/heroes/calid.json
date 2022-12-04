@@ -43,8 +43,8 @@
 		"specialty" : {
 			"bonuses" : {
 				"sulfur" : {
-					"subtype" : "resource.sulfur",
 					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.sulfur",
 					"val" : 1
 				}
 			}

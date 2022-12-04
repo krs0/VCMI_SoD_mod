@@ -43,9 +43,9 @@
 		"specialty" : {
 			"bonuses" : {
 				"fortune" : {
-					"addInfo" : 3,
+					"type" : "SPECIAL_FIXED_VALUE_ENCHANT",
 					"subtype" : "spell.fortune",
-					"type" : "SPECIAL_FIXED_VALUE_ENCHANT"
+					"addInfo" : 3
 				}
 			}
 		},

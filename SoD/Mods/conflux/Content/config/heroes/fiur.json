@@ -40,28 +40,25 @@
 			"base" : {
 				"limiters" : [
 					{
-						"parameters" : [
-							"fireElemental",
-							true
-						],
-						"type" : "CREATURE_TYPE_LIMITER"
+						"type" : "CREATURE_TYPE_LIMITER",
+						"parameters" : [ "fireElemental", true ]
 					}
 				]
 			},
 			"bonuses" : {
 				"attack" : {
-					"subtype" : "primSkill.attack",
 					"type" : "PRIMARY_SKILL",
+					"subtype" : "primSkill.attack",
 					"val" : 1
 				},
 				"damage" : {
-					"subtype" : 0,
 					"type" : "CREATURE_DAMAGE",
+					"subtype" : 0,
 					"val" : 2
 				},
 				"defence" : {
-					"subtype" : "primSkill.defence",
 					"type" : "PRIMARY_SKILL",
+					"subtype" : "primSkill.defence",
 					"val" : 2
 				}
 			}

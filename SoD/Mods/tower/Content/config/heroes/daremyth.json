@@ -43,8 +43,8 @@
 		"specialty" : {
 			"bonuses" : {
 				"fortune" : {
-					"subtype" : "spell.fortune",
-					"type" : "MAXED_SPELL"
+					"type" : "MAXED_SPELL",
+					"subtype" : "spell.fortune"
 				}
 			}
 		},

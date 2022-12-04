@@ -43,10 +43,10 @@
 		"specialty" : {
 			"bonuses" : {
 				"fireWall" : {
-					"subtype" : "spell.fireWall",
 					"type" : "SPECIFIC_SPELL_DAMAGE",
-					"val" : 100,
-					"valueType" : "BASE_NUMBER"
+					"subtype" : "spell.fireWall",
+					"valueType" : "BASE_NUMBER",
+					"val" : 100
 				}
 			}
 		},

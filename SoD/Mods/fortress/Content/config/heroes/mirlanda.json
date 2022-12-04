@@ -39,9 +39,9 @@
 		"specialty" : {
 			"bonuses" : {
 				"weakness" : {
-					"addInfo" : 0,
+					"type" : "SPECIAL_PECULIAR_ENCHANT",
 					"subtype" : "spell.weakness",
-					"type" : "SPECIAL_PECULIAR_ENCHANT"
+					"addInfo" : 0
 				}
 			}
 		},

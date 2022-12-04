@@ -43,9 +43,9 @@
 		"specialty" : {
 			"bonuses" : {
 				"stoneSkin" : {
-					"addInfo" : 0,
+					"type" : "SPECIAL_PECULIAR_ENCHANT",
 					"subtype" : "spell.stoneSkin",
-					"type" : "SPECIAL_PECULIAR_ENCHANT"
+					"addInfo" : 0
 				}
 			}
 		},

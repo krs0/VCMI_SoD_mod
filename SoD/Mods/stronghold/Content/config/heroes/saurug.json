@@ -43,8 +43,8 @@
 		"specialty" : {
 			"bonuses" : {
 				"gems" : {
-					"subtype" : "resource.gems",
 					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.gems",
 					"val" : 1
 				}
 			}

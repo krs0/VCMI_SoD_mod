@@ -42,17 +42,14 @@
 		],
 		"specialty" : {
 			"base" : {
+				"type" : "PRIMARY_SKILL",
+				"val" : 3,
 				"limiters" : [
 					{
-						"parameters" : [
-							"psychicElemental",
-							true
-						],
-						"type" : "CREATURE_TYPE_LIMITER"
+						"type" : "CREATURE_TYPE_LIMITER",
+						"parameters" : [ "psychicElemental", true ]
 					}
-				],
-				"type" : "PRIMARY_SKILL",
-				"val" : 3
+				]
 			},
 			"bonuses" : {
 				"attack" : {

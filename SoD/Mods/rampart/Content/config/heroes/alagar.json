@@ -43,8 +43,8 @@
 		"specialty" : {
 			"bonuses" : {
 				"iceBolt" : {
-					"subtype" : "spell.iceBolt",
 					"type" : "SPECIAL_SPELL_LEV",
+					"subtype" : "spell.iceBolt",
 					"updater" : "TIMES_HERO_LEVEL",
 					"val" : 3
 				}

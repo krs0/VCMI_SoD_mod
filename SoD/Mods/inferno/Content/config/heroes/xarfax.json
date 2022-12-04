@@ -43,8 +43,8 @@
 		"specialty" : {
 			"bonuses" : {
 				"fireball" : {
-					"subtype" : "spell.fireball",
 					"type" : "SPECIAL_SPELL_LEV",
+					"subtype" : "spell.fireball",
 					"updater" : "TIMES_HERO_LEVEL",
 					"val" : 3
 				}

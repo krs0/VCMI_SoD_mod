@@ -46,8 +46,8 @@
 		"specialty" : {
 			"bonuses" : {
 				"gold" : {
-					"subtype" : "resource.gold",
 					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.gold",
 					"val" : 350
 				}
 			}

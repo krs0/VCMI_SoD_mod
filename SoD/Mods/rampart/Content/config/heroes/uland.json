@@ -43,8 +43,8 @@
 		"specialty" : {
 			"bonuses" : {
 				"cure" : {
-					"subtype" : "spell.cure",
 					"type" : "SPECIAL_SPELL_LEV",
+					"subtype" : "spell.cure",
 					"updater" : "TIMES_HERO_LEVEL",
 					"val" : 3
 				}

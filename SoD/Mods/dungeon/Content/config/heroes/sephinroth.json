@@ -43,8 +43,8 @@
 		"specialty" : {
 			"bonuses" : {
 				"crystal" : {
-					"subtype" : "resource.crystal",
 					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.crystal",
 					"val" : 1
 				}
 			}

@@ -43,11 +43,11 @@
 		"specialty" : {
 			"bonuses" : {
 				"archery" : {
-					"subtype" : "skill.archery",
 					"type" : "SECONDARY_SKILL_PREMY",
+					"subtype" : "skill.archery",
+					"valueType" : "PERCENT_TO_BASE",
 					"updater" : "TIMES_HERO_LEVEL",
-					"val" : 5,
-					"valueType" : "PERCENT_TO_BASE"
+					"val" : 5
 				}
 			}
 		},
