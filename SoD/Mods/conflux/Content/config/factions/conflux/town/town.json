@@ -1,8 +1,6 @@
 {
-	"conflux" : 
-	{
-		"town" :
-		{
+	"conflux" : {
+		"town" : {
 			"musicTheme" : "factions/conflux/ElemTown.mp3",
 			"defaultTavern" : 5,
 
@@ -12,8 +10,7 @@
 			"hallBackground": "factions/conflux/townScreen/TPTHBKFR.png",
 			"tavernVideo" : "SoD/TAVERN.BIK",
 
-			"creatures" :
-			[
+			"creatures" : [
 				["pixie", "sprite"],
 				["airElemental", "stormElemental"],
 				["waterElemental", "iceElemental"],
@@ -23,8 +20,7 @@
 				["firebird", "phoenix"]
 			],
 
-			"hallSlots":
-			[
+			"hallSlots": [
 				[ [ "villageHall", "townHall", "cityHall", "capitol" ], [ "fort", "citadel", "castle" ], [ "tavern" ], [ "blacksmith" ] ],
 				[ [ "marketplace", "resourceSilo" ], [ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4", "mageGuild5" ], [ "shipyard" ] ],
 				[ [ "special2" ], [ "special1" ], [ "horde1", "horde1Upgr" ] ],
@@ -32,36 +28,38 @@
 				[ [ "dwellingLvl5", "dwellingUpLvl5" ], [ "dwellingLvl6", "dwellingUpLvl6" ], [ "dwellingLvl7", "dwellingUpLvl7" ] ]
 			],
 			
-			"buildings" :
-			{
-				"mageGuild1":     { "id" : 0 },
-				"mageGuild2":     { "id" : 1,  "upgrades" : "mageGuild1" },
-				"mageGuild3":     { "id" : 2,  "upgrades" : "mageGuild2" },
-				"mageGuild4":     { "id" : 3,  "upgrades" : "mageGuild3" },
-				"mageGuild5":     { "id" : 4,  "upgrades" : "mageGuild4" },
-				"tavern":         { "id" : 5 },
-				"shipyard":       { "id" : 6 },
-				"fort":           { "id" : 7 },
-				"citadel":        { "id" : 8,  "upgrades" : "fort" },
-				"castle":         { "id" : 9,  "upgrades" : "citadel" },
+			"buildings" : {
 				"villageHall":    { "id" : 10 },
 				"townHall":       { "id" : 11, "upgrades" : "villageHall", "requires" : [ "tavern" ] },
 				"cityHall":       { "id" : 12, "upgrades" : "townHall", "requires" : [ "allOf", [ "mageGuild1" ], [ "marketplace" ], [ "blacksmith" ] ] },
 				"capitol":        { "id" : 13, "upgrades" : "cityHall", "requires" : [ "castle" ] },
+				
+				"fort":           { "id" : 7 },
+				"citadel":        { "id" : 8,  "upgrades" : "fort" },
+				"castle":         { "id" : 9,  "upgrades" : "citadel" },
+				
+				"tavern":         { "id" : 5 },
+				"blacksmith":     { "id" : 16 },
 				"marketplace":    { "id" : 14 },
 				"resourceSilo":   { "id" : 15, "requires" : [ "marketplace" ] },
-				"blacksmith":     { "id" : 16 },
-
+				"shipyard":       { "id" : 6 },
+				"ship":           { "id" : 20, "upgrades" : "shipyard" },
+				
 				"special1":       { "id" : 17, "requires" : [ "marketplace" ] },
+				"special2":       { "id" : 21, "requires" : [ "mageGuild1" ] },
 				"horde1":         { "id" : 18, "upgrades" : "dwellingLvl1" },
 				"horde1Upgr":     { "id" : 19, "upgrades" : "dwellingUpLvl1", "requires" : [ "horde1" ] },
-				"ship":           { "id" : 20, "upgrades" : "shipyard" },
-				"special2":       { "id" : 21, "requires" : [ "mageGuild1" ] },
 				"grail":          { "id" : 26 },
 				"extraTownHall":  { "id" : 27, "requires" : [ "townHall" ] },
 				"extraCityHall":  { "id" : 28, "requires" : [ "cityHall" ] },
 				"extraCapitol":   { "id" : 29, "requires" : [ "capitol" ] },
 
+				"mageGuild1":     { "id" : 0 },
+				"mageGuild2":     { "id" : 1,  "upgrades" : "mageGuild1" },
+				"mageGuild3":     { "id" : 2,  "upgrades" : "mageGuild2" },
+				"mageGuild4":     { "id" : 3,  "upgrades" : "mageGuild3" },
+				"mageGuild5":     { "id" : 4,  "upgrades" : "mageGuild4" },
+				
 				"dwellingLvl1":   { "id" : 30, "requires" : [ "fort" ] },
 				"dwellingLvl2":   { "id" : 31, "requires" : [ "allOf", [ "dwellingLvl1" ], [ "mageGuild1" ] ] },
 				"dwellingLvl3":   { "id" : 32, "requires" : [ "allOf", [ "dwellingLvl1" ], [ "mageGuild1" ] ] },
@@ -76,7 +74,7 @@
 				"dwellingUpLvl4": { "id" : 40, "upgrades" : "dwellingLvl4", "requires" : [ "dwellingLvl2" ] },
 				"dwellingUpLvl5": { "id" : 41, "upgrades" : "dwellingLvl5" },
 				"dwellingUpLvl6": { "id" : 42, "upgrades" : "dwellingLvl6", "requires" : [ "mageGuild2" ] },
-				"dwellingUpLvl7": { "id" : 43, "upgrades" : "dwellingLvl7" },
+				"dwellingUpLvl7": { "id" : 43, "upgrades" : "dwellingLvl7" }
 
 				//"horde2" : null,
 				//"horde2Upgr" : null,
@@ -91,8 +89,7 @@
 			"warMachine" : "ballista",
 			"primaryResource" : "mercury",
 			"buildingsIcons" : "factions/conflux/HALLELEM.DEF",
-			"icons" :
-			{
+			"icons" : {
 				"village" : {
 					"normal" : {
 						"small" : "factions/conflux/icons/ITPA_0_36.png",
@@ -115,19 +112,17 @@
 				}
 			},
 
-			"mapObject" :
-			{
+			"mapObject" : {
 				"templates" : {
-					"castle" :  { "animation" : "factions/conflux/adventureMap/town/avchforx.def" },
-					"citadel" : { "animation" : "factions/conflux/adventureMap/town/avchforx.def" },
 					"fort"    : { "animation" : "factions/conflux/adventureMap/town/avchforx.def" },
+					"citadel" : { "animation" : "factions/conflux/adventureMap/town/avchforx.def" },
+					"castle" :  { "animation" : "factions/conflux/adventureMap/town/avchforx.def" },
 					"village" : { "animation" : "factions/conflux/adventureMap/town/AVCHFOR0.DEF" },
 					"capitol" : { "animation" : "factions/conflux/adventureMap/town/AVCHFORZ.DEF" }
 				}
 			},
 
-			"tavern" :
-			{
+			"tavern" : {
 				"knight"       : 6,
 				"cleric"       : 5,
 				"ranger"       : 5,

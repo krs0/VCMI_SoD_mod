@@ -1,44 +1,27 @@
 {
-	"tower" :
-	{
-		"town" :
-		 {
-			"buildings" : 
-				{
-				"blacksmith" : {
+	"tower" : {
+		"town" : {
+			"buildings" : {
+				"villageHall" : {
 					"cost" : {
-						"gold" : 1000,
-						"wood" : 5
+						"gold" : 1
 					},
-					"description" : "The Blacksmith provides your armies with Ammo Carts.",
-					"name" : "Blacksmith"
-				},
-				"capitol" : {
-					"cost" : {
-						"gold" : 10000
-					},
-					"description" : "The Capitol earns your kingdom 4000 gold per day.",
-					"name" : "Capitol",
+					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
+					"name" : "Village Hall",
+					"mode" : "auto",
 					"produce" : {
-						"gold": 4000
+						"gold": 500
 					}
 				},
-				"castle" : {
+				"townHall" : {
 					"cost" : {
-						"gold" : 5000,
-						"ore" : 10,
-						"wood" : 10
+						"gold" : 2500
 					},
-					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
-					"name" : "Castle"
-				},
-				"citadel" : {
-					"cost" : {
-						"gold" : 2500,
-						"ore" : 5
-					},
-					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
-					"name" : "Citadel"
+					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
+					"name" : "Town Hall",
+					"produce" : {
+						"gold": 1000
+					}
 				},
 				"cityHall" : {
 					"cost" : {
@@ -50,6 +33,213 @@
 						"gold": 2000
 					}
 				},
+				"capitol" : {
+					"cost" : {
+						"gold" : 10000
+					},
+					"description" : "The Capitol earns your kingdom 4000 gold per day.",
+					"name" : "Capitol",
+					"produce" : {
+						"gold": 4000
+					}
+				},
+
+				"fort" : {
+					"cost" : {
+						"gold" : 5000,
+						"ore" : 20,
+						"wood" : 20
+					},
+					"description" : "The Fort provides your town with defensive walls.",
+					"name" : "Fort"
+				},
+				"citadel" : {
+					"cost" : {
+						"gold" : 2500,
+						"ore" : 5
+					},
+					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
+					"name" : "Citadel"
+				},
+				"castle" : {
+					"cost" : {
+						"gold" : 5000,
+						"ore" : 10,
+						"wood" : 10
+					},
+					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
+					"name" : "Castle"
+				},
+
+				"tavern" : {
+					"cost" : {
+						"gold" : 500,
+						"wood" : 5
+					},
+					"description" : "The Tavern increases morale for troops defending the city.",
+					"name" : "Tavern"
+				},
+				"blacksmith" : {
+					"cost" : {
+						"gold" : 1000,
+						"wood" : 5
+					},
+					"description" : "The Blacksmith provides your armies with Ammo Carts.",
+					"name" : "Blacksmith"
+				},
+				"marketplace" : {
+					"cost" : {
+						"gold" : 500,
+						"wood" : 5
+					},
+					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
+					"name" : "Marketplace"
+				},
+				"resourceSilo" : {
+					"cost" : {
+						"gold" : 5000,
+						"ore" : 5
+					},
+					"description" : "The Resource Silo provides you with an additional +1 gems each day.",
+					"name" : "Resource Silo",
+					"produce" : {
+						"gems": 1
+					}
+				},
+
+				"special1" : {
+					"cost" : {
+						"gold" : 10000
+					},
+					"description" : "For a nominal fee, you can purchase artifacts from the Artifact Merchants.",
+					"name" : "Artifact Merchants",
+					"type" : "artifactMerchant"
+				},
+				"special2" : {
+					"cost" : {
+						"gold" : 1000,
+						"wood" : 5
+					},
+					"description" : "The lookout tower extends the visible distance around your city.",
+					"name" : "Lookout Tower",
+					"type" : "lookoutTower"
+				},
+				"special3" : {
+					"cost" : {
+						"crystal" : 5,
+						"gems" : 5,
+						"gold" : 1500,
+						"mercury" : 5,
+						"ore" : 5,
+						"sulfur" : 5,
+						"wood" : 5
+					},
+					"description" : "The library provides your mage guild with additional spells.",
+					"name" : "Library",
+					"type" : "library
+				},
+				"special4" : {
+					"cost" : {
+						"gold" : 1000,
+						"ore" : 5
+					},
+					"description" : "The Wall of Knowledge increases the Knowledge skill of any visiting hero by +1.",
+					"name" : "Wall of Knowledge",
+					"type" : "knowledgeVisitingBonus"
+				},
+				"horde1" : {
+					"cost" : {
+						"gold" : 1000
+					},
+					"description" : "The Sculptor's Wings increase Stone Gargoyle production by 4 per week.",
+					"name" : "Sculptor's Wings"
+				},
+				"horde1Upgr" : {
+					"cost" : {
+						"gold" : 1000
+					},
+					"description" : "The Sculptor's Wings increase Obsidian Gargoyle production by 4 per week.",
+					"name" : "Sculptor's Wings",
+					"mode" : "auto"
+				},
+				"grail" : {
+					"description" : "The presence of the Skyship increases weekly creature generation by 50%, provides your kingdom with an additional 5000 gold each day, reveals the entire world map, and increases the knowledge of any defending hero by +15 (these spell points do not follow a hero who leaves the town).",
+					"name" : "Skyship",
+					"mode" : "grail",
+					"produce" : {
+						"gold": 5000
+					},
+					"bonuses" : [
+						{
+							"subtype" : "primSkill.knowledge",
+							"type" : "PRIMARY_SKILL",
+							"val" : 15
+						}
+					],
+				},
+
+				"mageGuild1" : {
+					"cost" : {
+						"gold" : 2000,
+						"ore" : 5,
+						"wood" : 5
+					},
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 1"
+				},
+				"mageGuild2" : {
+					"cost" : {
+						"crystal" : 4,
+						"gems" : 4,
+						"gold" : 1000,
+						"mercury" : 4,
+						"ore" : 5,
+						"sulfur" : 4,
+						"wood" : 5
+					},
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 2"
+				},
+				"mageGuild3" : {
+					"cost" : {
+						"crystal" : 6,
+						"gems" : 6,
+						"gold" : 1000,
+						"mercury" : 6,
+						"ore" : 5,
+						"sulfur" : 6,
+						"wood" : 5
+					},
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 3"
+				},
+				"mageGuild4" : {
+					"cost" : {
+						"crystal" : 8,
+						"gems" : 8,
+						"gold" : 1000,
+						"mercury" : 8,
+						"ore" : 5,
+						"sulfur" : 8,
+						"wood" : 5
+					},
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 4"
+				},
+				"mageGuild5" : {
+					"cost" : {
+						"crystal" : 10,
+						"gems" : 10,
+						"gold" : 1000,
+						"mercury" : 10,
+						"ore" : 5,
+						"sulfur" : 10,
+						"wood" : 5
+					},
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 5"
+				},
+
 				"dwellingLvl1" : {
 					"cost" : {
 						"gold" : 300,
@@ -123,6 +313,7 @@
 					"description" : "The Cloud Temple allows you to recruit Giants.",
 					"name" : "Cloud Temple"
 				},
+
 				"dwellingUpLvl1" : {
 					"cost" : {
 						"gold" : 1000
@@ -184,194 +375,6 @@
 					},
 					"description" : "The Cloud Temple allows you to recruit Titans.",
 					"name" : "Upg. Cloud Temple"
-				},
-				"fort" : {
-					"cost" : {
-						"gold" : 5000,
-						"ore" : 20,
-						"wood" : 20
-					},
-					"description" : "The Fort provides your town with defensive walls.",
-					"name" : "Fort"
-				},
-				"grail" : {
-					"description" : "The presence of the Skyship increases weekly creature generation by 50%, provides your kingdom with an additional 5000 gold each day, reveals the entire world map, and increases the knowledge of any defending hero by +15 (these spell points do not follow a hero who leaves the town).",
-					"name" : "Skyship",
-					"mode" : "grail",
-					"produce" : {
-						"gold": 5000
-					},
-					"bonuses" : [
-						{
-							"subtype" : "primSkill.knowledge",
-							"type" : "PRIMARY_SKILL",
-							"val" : 15
-						}
-					],
-				},
-				"horde1" : {
-					"cost" : {
-						"gold" : 1000
-					},
-					"description" : "The Sculptor's Wings increase Stone Gargoyle production by 4 per week.",
-					"name" : "Sculptor's Wings"
-				},
-				"horde1Upgr" : {
-					"cost" : {
-						"gold" : 1000
-					},
-					"description" : "The Sculptor's Wings increase Obsidian Gargoyle production by 4 per week.",
-					"name" : "Sculptor's Wings",
-					"mode" : "auto"
-				},
-				"mageGuild1" : {
-					"cost" : {
-						"gold" : 2000,
-						"ore" : 5,
-						"wood" : 5
-					},
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 1"
-				},
-				"mageGuild2" : {
-					"cost" : {
-						"crystal" : 4,
-						"gems" : 4,
-						"gold" : 1000,
-						"mercury" : 4,
-						"ore" : 5,
-						"sulfur" : 4,
-						"wood" : 5
-					},
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 2"
-				},
-				"mageGuild3" : {
-					"cost" : {
-						"crystal" : 6,
-						"gems" : 6,
-						"gold" : 1000,
-						"mercury" : 6,
-						"ore" : 5,
-						"sulfur" : 6,
-						"wood" : 5
-					},
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 3"
-				},
-				"mageGuild4" : {
-					"cost" : {
-						"crystal" : 8,
-						"gems" : 8,
-						"gold" : 1000,
-						"mercury" : 8,
-						"ore" : 5,
-						"sulfur" : 8,
-						"wood" : 5
-					},
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 4"
-				},
-				"mageGuild5" : {
-					"cost" : {
-						"crystal" : 10,
-						"gems" : 10,
-						"gold" : 1000,
-						"mercury" : 10,
-						"ore" : 5,
-						"sulfur" : 10,
-						"wood" : 5
-					},
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 5"
-				},
-				"marketplace" : {
-					"cost" : {
-						"gold" : 500,
-						"wood" : 5
-					},
-					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
-					"name" : "Marketplace"
-				},
-				"resourceSilo" : {
-					"cost" : {
-						"gold" : 5000,
-						"ore" : 5
-					},
-					"description" : "The Resource Silo provides you with an additional +1 gems each day.",
-					"name" : "Resource Silo",
-					"produce" : {
-						"gems": 1
-					}
-				},
-				"special1" : {
-					"cost" : {
-						"gold" : 10000
-					},
-					"description" : "For a nominal fee, you can purchase artifacts from the Artifact Merchants.",
-					"name" : "Artifact Merchants",
-					"type" : "artifactMerchant"
-				},
-				"special2" : {
-					"cost" : {
-						"gold" : 1000,
-						"wood" : 5
-					},
-					"description" : "The lookout tower extends the visible distance around your city.",
-					"name" : "Lookout Tower",
-					"type" : "lookoutTower"
-				},
-				"special3" : {
-					"cost" : {
-						"crystal" : 5,
-						"gems" : 5,
-						"gold" : 1500,
-						"mercury" : 5,
-						"ore" : 5,
-						"sulfur" : 5,
-						"wood" : 5
-					},
-					"description" : "The library provides your mage guild with additional spells.",
-					"name" : "Library",
-					"type" : "library
-				},
-				"special4" : {
-					"cost" : {
-						"gold" : 1000,
-						"ore" : 5
-					},
-					"description" : "The Wall of Knowledge increases the Knowledge skill of any visiting hero by +1.",
-					"name" : "Wall of Knowledge",
-					"type" : "knowledgeVisitingBonus"
-				},
-				"tavern" : {
-					"cost" : {
-						"gold" : 500,
-						"wood" : 5
-					},
-					"description" : "The Tavern increases morale for troops defending the city.",
-					"name" : "Tavern"
-				},
-				"townHall" : {
-					"cost" : {
-						"gold" : 2500
-					},
-					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
-					"name" : "Town Hall",
-					"produce" : {
-						"gold": 1000
-					}
-				},
-				"villageHall" : {
-					"cost" : {
-						"gold" : 1
-					},
-					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
-					"name" : "Village Hall",
-					"mode" : "auto",
-					"produce" : {
-						"gold": 500
-					}
 				}
 			}
 		}

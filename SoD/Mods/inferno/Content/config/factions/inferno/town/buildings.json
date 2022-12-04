@@ -1,44 +1,27 @@
 {
-	"inferno" :
-	{
-		"town" :
-		 {
-			"buildings" : 
-			{
-				"blacksmith" : {
+	"inferno" : {
+		"town" : {
+			"buildings" : {
+				"villageHall" : {
 					"cost" : {
-						"gold" : 1000,
-						"wood" : 5
+						"gold" : 1
 					},
-					"description" : "The Blacksmith provides your armies with Ammo Carts.",
-					"name" : "Blacksmith"
-				},
-				"capitol" : {
-					"cost" : {
-						"gold" : 10000
-					},
-					"description" : "The Capitol earns your kingdom 4000 gold per day.",
-					"name" : "Capitol",
+					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
+					"name" : "Village Hall",
+					"mode" : "auto",
 					"produce": {
-						"gold": 4000
+						"gold": 500
 					}
 				},
-				"castle" : {
+				"townHall" : {
 					"cost" : {
-						"gold" : 5000,
-						"ore" : 10,
-						"wood" : 10
+						"gold" : 2500
 					},
-					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
-					"name" : "Castle"
-				},
-				"citadel" : {
-					"cost" : {
-						"gold" : 2500,
-						"ore" : 5
-					},
-					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
-					"name" : "Citadel"
+					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
+					"name" : "Town Hall",
+					"produce": {
+						"gold": 1000
+					}
 				},
 				"cityHall" : {
 					"cost" : {
@@ -50,6 +33,209 @@
 						"gold": 2000
 					}
 				},
+				"capitol" : {
+					"cost" : {
+						"gold" : 10000
+					},
+					"description" : "The Capitol earns your kingdom 4000 gold per day.",
+					"name" : "Capitol",
+					"produce": {
+						"gold": 4000
+					}
+				},
+
+				"fort" : {
+					"cost" : {
+						"gold" : 5000,
+						"ore" : 20,
+						"wood" : 20
+					},
+					"description" : "The Fort provides your town with defensive walls.",
+					"name" : "Fort"
+				},
+				"citadel" : {
+					"cost" : {
+						"gold" : 2500,
+						"ore" : 5
+					},
+					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
+					"name" : "Citadel"
+				},
+				"castle" : {
+					"cost" : {
+						"gold" : 5000,
+						"ore" : 10,
+						"wood" : 10
+					},
+					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
+					"name" : "Castle"
+				},
+				
+				"tavern" : {
+					"cost" : {
+						"gold" : 500,
+						"wood" : 5
+					},
+					"description" : "The Tavern increases morale for troops defending the city.",
+					"name" : "Tavern"
+				},
+				"blacksmith" : {
+					"cost" : {
+						"gold" : 1000,
+						"wood" : 5
+					},
+					"description" : "The Blacksmith provides your armies with Ammo Carts.",
+					"name" : "Blacksmith"
+				},
+				"marketplace" : {
+					"cost" : {
+						"gold" : 500,
+						"wood" : 5
+					},
+					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
+					"name" : "Marketplace"
+				},
+				"resourceSilo" : {
+					"cost" : {
+						"gold" : 5000,
+						"ore" : 5
+					},
+					"description" : "The Resource Silo provides you with an additional +1 mercury each day.",
+					"name" : "Resource Silo",
+					"produce": {
+						"mercury": 1
+					}
+				},
+
+				"special2" : {
+					"cost" : {
+						"gold" : 1000,
+						"sulfur" : 5
+					},
+					"description" : "The Brimstone Stormclouds boost a garrison hero's power by +2 during any siege defense.",
+					"name" : "Brimstone Stormclouds",
+					"type" : "spellPowerGarrisonBonus"
+				},
+				"special3" : {
+					"cost" : {
+						"gold" : 10000,
+						"ore" : 5,
+						"wood" : 5
+					},
+					"description" : "Allows travel between Inferno towns containing Castle Gates. Destination town must be unoccupied.",
+					"name" : "Castle Gate",
+					"type" : "castleGate"
+				},
+				"special4" : {
+					"cost" : {
+						"gold" : 1000,
+						"wood" : 5
+					},
+					"description" : "The Order of Fire increases the Power skill of any visiting hero by +1.",
+					"name" : "Order of Fire",
+					"type" : "spellPowerVisitingBonus"
+				},
+				"horde1" : {
+					"cost" : {
+						"gold" : 1000
+					},
+					"description" : "The Birthing Pools increase Imp production by 8 per week.",
+					"name" : "Birthing Pools"
+				},
+				"horde1Upgr" : {
+					"cost" : {
+						"gold" : 1000
+					},
+					"description" : "The Birthing Pools increase Familiar production by 8 per week.",
+					"name" : "Birthing Pools",
+					"mode" : "auto"
+				},
+				"horde2" : {
+					"cost" : {
+						"gold" : 1000
+					},
+					"description" : "The Cages increase Hell Hound production by 3 per week.",
+					"name" : "Cages"
+				},
+				"horde2Upgr" : {
+					"cost" : {
+						"gold" : 1000
+					},
+					"description" : "The Cages increase Cerberus production by 3 per week.",
+					"name" : "Cages",
+					"mode" : "auto"
+				},
+				"grail" : {
+					"description" : "The presence of the Deity of Fire increases weekly creature generation by 50% and provides your empire with an additional 5000 gold each day.  Every week hereafter will be a Week of the Imp.",
+					"name" : "Deity of Fire",
+					"mode" : "grail",
+					"produce": {
+						"gold": 5000
+					}
+				},
+
+				"mageGuild1" : {
+					"cost" : {
+						"gold" : 2000,
+						"ore" : 5,
+						"wood" : 5
+					},
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 1"
+				},
+				"mageGuild2" : {
+					"cost" : {
+						"crystal" : 4,
+						"gems" : 4,
+						"gold" : 1000,
+						"mercury" : 4,
+						"ore" : 5,
+						"sulfur" : 4,
+						"wood" : 5
+					},
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 2"
+				},
+				"mageGuild3" : {
+					"cost" : {
+						"crystal" : 6,
+						"gems" : 6,
+						"gold" : 1000,
+						"mercury" : 6,
+						"ore" : 5,
+						"sulfur" : 6,
+						"wood" : 5
+					},
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 3"
+				},
+				"mageGuild4" : {
+					"cost" : {
+						"crystal" : 8,
+						"gems" : 8,
+						"gold" : 1000,
+						"mercury" : 8,
+						"ore" : 5,
+						"sulfur" : 8,
+						"wood" : 5
+					},
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 4"
+				},
+				"mageGuild5" : {
+					"cost" : {
+						"crystal" : 10,
+						"gems" : 10,
+						"gold" : 1000,
+						"mercury" : 10,
+						"ore" : 5,
+						"sulfur" : 10,
+						"wood" : 5
+					},
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 5"
+				},
+				
 				"dwellingLvl1" : {
 					"cost" : {
 						"gold" : 300,
@@ -112,6 +298,7 @@
 					"description" : "The Forsaken Palace allows you to recruit Devils.",
 					"name" : "Forsaken Palace"
 				},
+				
 				"dwellingUpLvl1" : {
 					"cost" : {
 						"gold" : 1000
@@ -173,190 +360,6 @@
 					},
 					"description" : "The Forsaken Palace allows you to recruit Arch Devils.",
 					"name" : "Upg. Forsaken Palace"
-				},
-				"fort" : {
-					"cost" : {
-						"gold" : 5000,
-						"ore" : 20,
-						"wood" : 20
-					},
-					"description" : "The Fort provides your town with defensive walls.",
-					"name" : "Fort"
-				},
-				"grail" : {
-					"description" : "The presence of the Deity of Fire increases weekly creature generation by 50% and provides your empire with an additional 5000 gold each day.  Every week hereafter will be a Week of the Imp.",
-					"name" : "Deity of Fire",
-					"mode" : "grail",
-					"produce": {
-						"gold": 5000
-					}
-				},
-				"horde1" : {
-					"cost" : {
-						"gold" : 1000
-					},
-					"description" : "The Birthing Pools increase Imp production by 8 per week.",
-					"name" : "Birthing Pools"
-				},
-				"horde1Upgr" : {
-					"cost" : {
-						"gold" : 1000
-					},
-					"description" : "The Birthing Pools increase Familiar production by 8 per week.",
-					"name" : "Birthing Pools",
-					"mode" : "auto"
-				},
-				"horde2" : {
-					"cost" : {
-						"gold" : 1000
-					},
-					"description" : "The Cages increase Hell Hound production by 3 per week.",
-					"name" : "Cages"
-				},
-				"horde2Upgr" : {
-					"cost" : {
-						"gold" : 1000
-					},
-					"description" : "The Cages increase Cerberus production by 3 per week.",
-					"name" : "Cages",
-					"mode" : "auto"
-				},
-				"mageGuild1" : {
-					"cost" : {
-						"gold" : 2000,
-						"ore" : 5,
-						"wood" : 5
-					},
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 1"
-				},
-				"mageGuild2" : {
-					"cost" : {
-						"crystal" : 4,
-						"gems" : 4,
-						"gold" : 1000,
-						"mercury" : 4,
-						"ore" : 5,
-						"sulfur" : 4,
-						"wood" : 5
-					},
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 2"
-				},
-				"mageGuild3" : {
-					"cost" : {
-						"crystal" : 6,
-						"gems" : 6,
-						"gold" : 1000,
-						"mercury" : 6,
-						"ore" : 5,
-						"sulfur" : 6,
-						"wood" : 5
-					},
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 3"
-				},
-				"mageGuild4" : {
-					"cost" : {
-						"crystal" : 8,
-						"gems" : 8,
-						"gold" : 1000,
-						"mercury" : 8,
-						"ore" : 5,
-						"sulfur" : 8,
-						"wood" : 5
-					},
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 4"
-				},
-				"mageGuild5" : {
-					"cost" : {
-						"crystal" : 10,
-						"gems" : 10,
-						"gold" : 1000,
-						"mercury" : 10,
-						"ore" : 5,
-						"sulfur" : 10,
-						"wood" : 5
-					},
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 5"
-				},
-				"marketplace" : {
-					"cost" : {
-						"gold" : 500,
-						"wood" : 5
-					},
-					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
-					"name" : "Marketplace"
-				},
-				"resourceSilo" : {
-					"cost" : {
-						"gold" : 5000,
-						"ore" : 5
-					},
-					"description" : "The Resource Silo provides you with an additional +1 mercury each day.",
-					"name" : "Resource Silo",
-					"produce": {
-						"mercury": 1
-					}
-				},
-				"special2" : {
-					"cost" : {
-						"gold" : 1000,
-						"sulfur" : 5
-					},
-					"description" : "The Brimstone Stormclouds boost a garrison hero's power by +2 during any siege defense.",
-					"name" : "Brimstone Stormclouds",
-					"type" : "spellPowerGarrisonBonus"
-				},
-				"special3" : {
-					"cost" : {
-						"gold" : 10000,
-						"ore" : 5,
-						"wood" : 5
-					},
-					"description" : "Allows travel between Inferno towns containing Castle Gates. Destination town must be unoccupied.",
-					"name" : "Castle Gate",
-					"type" : "castleGate"
-				},
-				"special4" : {
-					"cost" : {
-						"gold" : 1000,
-						"wood" : 5
-					},
-					"description" : "The Order of Fire increases the Power skill of any visiting hero by +1.",
-					"name" : "Order of Fire",
-					"type" : "spellPowerVisitingBonus"
-				},
-				"tavern" : {
-					"cost" : {
-						"gold" : 500,
-						"wood" : 5
-					},
-					"description" : "The Tavern increases morale for troops defending the city.",
-					"name" : "Tavern"
-				},
-				"townHall" : {
-					"cost" : {
-						"gold" : 2500
-					},
-					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
-					"name" : "Town Hall",
-					"produce": {
-						"gold": 1000
-					}
-				},
-				"villageHall" : {
-					"cost" : {
-						"gold" : 1
-					},
-					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
-					"name" : "Village Hall",
-					"mode" : "auto",
-					"produce": {
-						"gold": 500
-					}
 				}
 			}
 		}

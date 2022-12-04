@@ -1,46 +1,26 @@
 {
-	"stronghold" :
-	{
-		"town" :
-		 {
-			"buildings" : 
-			{
-				"blacksmith" : {
+	"stronghold" : {
+		"town" : {
+			"buildings" : {
+				"villageHall" : {
 					"cost" : {
-						"gold" : 1000,
-						"wood" : 5
+						"gold" : 1
 					},
-					"description" : "The Blacksmith provides your armies with Ammo Carts.",
-					"name" : "Blacksmith"
-				},
-				"capitol" : {
-					"cost" : {
-						"gold" : 10000
-					},
-					"description" : "The Capitol earns your kingdom 4000 gold per day.",
-					"name" : "Capitol",
+					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
+					"name" : "Village Hall",
+					"mode" : "auto",
 					"produce": {
-						"gold": 4000
+						"gold": 500
 					}
 				},
-				"castle" : {
+				"townHall" : {
 					"cost" : {
-						"gold" : 5000,
-						"ore" : 10,
-						"wood" : 10
+						"gold" : 2500
 					},
-					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
-					"name" : "Castle"
-				},
-				"citadel" : {
-					"cost" : {
-						"gold" : 2500,
-						"ore" : 5
-					},
-					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
-					"name" : "Citadel",
+					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
+					"name" : "Town Hall",
 					"produce": {
-						"gold": 2000
+						"gold": 1000
 					}
 				},
 				"cityHall" : {
@@ -53,6 +33,185 @@
 						"gold" : 2000
 					},
 				},
+				"capitol" : {
+					"cost" : {
+						"gold" : 10000
+					},
+					"description" : "The Capitol earns your kingdom 4000 gold per day.",
+					"name" : "Capitol",
+					"produce": {
+						"gold": 4000
+					}
+				},
+
+				"fort" : {
+					"cost" : {
+						"gold" : 5000,
+						"ore" : 20,
+						"wood" : 20
+					},
+					"description" : "The Fort provides your town with defensive walls.",
+					"name" : "Fort"
+				},
+				"citadel" : {
+					"cost" : {
+						"gold" : 2500,
+						"ore" : 5
+					},
+					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
+					"name" : "Citadel",
+					"produce": {
+						"gold": 2000
+					}
+				},
+				"castle" : {
+					"cost" : {
+						"gold" : 5000,
+						"ore" : 10,
+						"wood" : 10
+					},
+					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
+					"name" : "Castle"
+				},
+
+				"tavern" : {
+					"cost" : {
+						"gold" : 500,
+						"wood" : 5
+					},
+					"description" : "The Tavern increases morale for troops defending the city.",
+					"name" : "Tavern"
+				},				
+				"blacksmith" : {
+					"cost" : {
+						"gold" : 1000,
+						"wood" : 5
+					},
+					"description" : "The Blacksmith provides your armies with Ammo Carts.",
+					"name" : "Blacksmith"
+				},
+				"marketplace" : {
+					"cost" : {
+						"gold" : 500,
+						"wood" : 5
+					},
+					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
+					"name" : "Marketplace"
+				},
+				"resourceSilo" : {
+					"cost" : {
+						"gold" : 5000,
+						"ore" : 5
+					},
+					"description" : "The Resource Silo provides you with an additional +1 wood and +1 ore each day.",
+					"name" : "Resource Silo",
+					"produce": {
+						"ore": 1,
+						"wood": 1
+					}
+				},
+				"special1" : {
+					"cost" : {
+						"gold" : 2000,
+						"ore" : 5,
+						"wood" : 5
+					},
+					"description" : "The Escape Tunnel allows a garrison hero to flee from defending against a siege.",
+					"name" : "Escape Tunnel",
+					"type" : "escapeTunnel"
+				},
+				"special2" : {
+					"cost" : {
+						"gold" : 1000
+					},
+					"description" : "The Freelancer's Guild allows you to trade creatures for resources.",
+					"name" : "Freelancer's Guild",
+					"type" : "freelancersGuild"
+				},
+				"special3" : {
+					"cost" : {
+						"gold" : 1000,
+						"wood" : 5
+					},
+					"description" : "This Blacksmith upgrade provides your armies with ballistas.",
+					"name" : "Ballista Yard",
+					"type" : "ballistaYard"
+				},
+				"special4" : {
+					"cost" : {
+						"gold" : 1000
+					},
+					"description" : "The Hall of Valhalla increases the Attack skill of any visiting hero by +1.",
+					"name" : "Hall of Valhalla",
+					"type" : "attackVisitingBonus"
+				},
+				"horde1" : {
+					"cost" : {
+						"gold" : 1000
+					},
+					"description" : "The Mess Hall increases Goblin production by 8 per week.",
+					"name" : "Mess Hall"
+				},
+				"horde1Upgr" : {
+					"cost" : {
+						"gold" : 1000
+					},
+					"description" : "The Mess Hall increases Hobgoblin production by 8 per week.",
+					"name" : "Mess Hall",
+					"mode" : "auto"
+				},
+				"grail" : {
+					"description" : "The presence of the Warlords' Monument increases weekly creature generation by 50%, provides your kingdom with an additional 5000 gold each day, and increases the Attack strength of a garrison hero by +20 when defending against a siege.",
+					"name" : "Warlords' Monument",
+					"mode" : "grail",
+					"produce": {
+						"gold": 5000
+					},
+					"bonuses" : [
+						{
+							"subtype" : "primSkill.attack",
+							"type" : "PRIMARY_SKILL",
+							"val" : 20
+						}
+					],
+				},
+
+				"mageGuild1" : {
+					"cost" : {
+						"gold" : 2000,
+						"ore" : 5,
+						"wood" : 5
+					},
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 1"
+				},
+				"mageGuild2" : {
+					"cost" : {
+						"crystal" : 4,
+						"gems" : 4,
+						"gold" : 1000,
+						"mercury" : 4,
+						"ore" : 5,
+						"sulfur" : 4,
+						"wood" : 5
+					},
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 2"
+				},
+				"mageGuild3" : {
+					"cost" : {
+						"crystal" : 6,
+						"gems" : 6,
+						"gold" : 1000,
+						"mercury" : 6,
+						"ore" : 5,
+						"sulfur" : 6,
+						"wood" : 5
+					},
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 3"
+				},
+
 				"dwellingLvl1" : {
 					"cost" : {
 						"gold" : 200,
@@ -115,6 +274,7 @@
 					"description" : "The Behemoth Lair allows you to recruit Behemoths.",
 					"name" : "Behemoth Lair"
 				},
+
 				"dwellingUpLvl1" : {
 					"cost" : {
 						"gold" : 1000,
@@ -179,164 +339,6 @@
 					},
 					"description" : "The Behemoth Lair allows you to recruit Ancient Behemoths.",
 					"name" : "Upg. Behemoth Lair"
-				},
-				"fort" : {
-					"cost" : {
-						"gold" : 5000,
-						"ore" : 20,
-						"wood" : 20
-					},
-					"description" : "The Fort provides your town with defensive walls.",
-					"name" : "Fort"
-				},
-				"grail" : {
-					"description" : "The presence of the Warlords' Monument increases weekly creature generation by 50%, provides your kingdom with an additional 5000 gold each day, and increases the Attack strength of a garrison hero by +20 when defending against a siege.",
-					"name" : "Warlords' Monument",
-					"mode" : "grail",
-					"produce": {
-						"gold": 5000
-					},
-					"bonuses" : [
-						{
-							"subtype" : "primSkill.attack",
-							"type" : "PRIMARY_SKILL",
-							"val" : 20
-						}
-					],
-				},
-				"horde1" : {
-					"cost" : {
-						"gold" : 1000
-					},
-					"description" : "The Mess Hall increases Goblin production by 8 per week.",
-					"name" : "Mess Hall"
-				},
-				"horde1Upgr" : {
-					"cost" : {
-						"gold" : 1000
-					},
-					"description" : "The Mess Hall increases Hobgoblin production by 8 per week.",
-					"name" : "Mess Hall",
-					"mode" : "auto"
-				},
-				"mageGuild1" : {
-					"cost" : {
-						"gold" : 2000,
-						"ore" : 5,
-						"wood" : 5
-					},
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 1"
-				},
-				"mageGuild2" : {
-					"cost" : {
-						"crystal" : 4,
-						"gems" : 4,
-						"gold" : 1000,
-						"mercury" : 4,
-						"ore" : 5,
-						"sulfur" : 4,
-						"wood" : 5
-					},
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 2"
-				},
-				"mageGuild3" : {
-					"cost" : {
-						"crystal" : 6,
-						"gems" : 6,
-						"gold" : 1000,
-						"mercury" : 6,
-						"ore" : 5,
-						"sulfur" : 6,
-						"wood" : 5
-					},
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 3"
-				},
-				"marketplace" : {
-					"cost" : {
-						"gold" : 500,
-						"wood" : 5
-					},
-					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
-					"name" : "Marketplace"
-				},
-				"resourceSilo" : {
-					"cost" : {
-						"gold" : 5000,
-						"ore" : 5
-					},
-					"description" : "The Resource Silo provides you with an additional +1 wood and +1 ore each day.",
-					"name" : "Resource Silo",
-					"produce": {
-						"ore": 1,
-						"wood": 1
-					}
-				},
-				"special1" : {
-					"cost" : {
-						"gold" : 2000,
-						"ore" : 5,
-						"wood" : 5
-					},
-					"description" : "The Escape Tunnel allows a garrison hero to flee from defending against a siege.",
-					"name" : "Escape Tunnel",
-					"type" : "escapeTunnel"
-				},
-				"special2" : {
-					"cost" : {
-						"gold" : 1000
-					},
-					"description" : "The Freelancer's Guild allows you to trade creatures for resources.",
-					"name" : "Freelancer's Guild",
-					"type" : "freelancersGuild"
-				},
-				"special3" : {
-					"cost" : {
-						"gold" : 1000,
-						"wood" : 5
-					},
-					"description" : "This Blacksmith upgrade provides your armies with ballistas.",
-					"name" : "Ballista Yard",
-					"type" : "ballistaYard"
-				},
-				"special4" : {
-					"cost" : {
-						"gold" : 1000
-					},
-					"description" : "The Hall of Valhalla increases the Attack skill of any visiting hero by +1.",
-					"name" : "Hall of Valhalla",
-					"type" : "attackVisitingBonus"
-				},
-				"tavern" : {
-					"cost" : {
-						"gold" : 500,
-						"wood" : 5
-					},
-					"description" : "The Tavern increases morale for troops defending the city.",
-					"name" : "Tavern"
-				},
-				"townHall" : {
-					"cost" : {
-						"gold" : 2500
-					},
-					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
-					"name" : "Town Hall",
-					"produce": {
-						"gold": 1000
-					}
-				},
-				"villageHall" : {
-					"cost" : {
-						"gold" : 1
-					},
-					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
-					"name" : "Village Hall",
-					"mode" : "auto",
-					"produce": {
-						"gold": 500
-					}
 				}
 			}
 		}

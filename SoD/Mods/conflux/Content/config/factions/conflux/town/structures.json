@@ -1,290 +1,252 @@
 {
-	"conflux" :
-	{
-		"town" :
-		{
-			"structures" :
-			{
-				"extraAnimation2":
-				{
-					"animation" : "factions/conflux/townScreen/animation/TBELEXT5.def",
-					"x" : 682, "y" : 183, "z" : -1
-				},
-				"extraAnimation": 
-				{
+	"conflux" : {
+		"town" : {
+			"structures" : {
+				"extraAnimation": {
 					"animation" : "factions/conflux/townScreen/animation/TBELEXT1.def",
 					"x" : 23, "y" : 218
 				},
-				"mageGuild1":  
-				{
-					"animation" : "factions/conflux/townScreen/animation/TBELMAGE.def",
-					"x" : 206, "y" : 58, "z" : 4, 
-					"border" : "factions/conflux/townScreen/border/TOELMAGE.png",
-					"area" : "factions/conflux/townScreen/area/TZELMAGE.png"
+				"extraAnimation2": {
+					"animation" : "factions/conflux/townScreen/animation/TBELEXT5.def",
+					"x" : 682, "y" : 183, "z" : -1
 				},
-				"mageGuild2":  
-				{
-					"animation" : "factions/conflux/townScreen/animation/TBELMAG2.def",
-					"x" : 206, "y" : 58, "z" : 4, 
-					"border" : "factions/conflux/townScreen/border/TOELMAG2.png",
-					"area" : "factions/conflux/townScreen/area/TZELMAG2.png"
-				},
-				"mageGuild3":  
-				{
-					"animation" : "factions/conflux/townScreen/animation/TBELMAG3.def",
-					"x" : 206, "y" : 58, "z" : 4, 
-					"border" : "factions/conflux/townScreen/border/TOELMAG3.png",
-					"area" : "factions/conflux/townScreen/area/TZELMAG3.png"
-				},
-				"mageGuild4":  
-				{
-					"animation" : "factions/conflux/townScreen/animation/TBELMAG4.def",
-					"x" : 206, "y" : 58, "z" : 4, 
-					"border" : "factions/conflux/townScreen/border/TOELMAG4.png",
-					"area" : "factions/conflux/townScreen/area/TZELMAG4.png"
-				},
-				"mageGuild5":  
-				{
-					"animation" : "factions/conflux/townScreen/animation/TBELMAG5.def",
-					"x" : 206, "y" : 58, "z" : 4, 
-					"border" : "factions/conflux/townScreen/border/TOELMAG5.png",
-					"area" : "factions/conflux/townScreen/area/TZELMAG5.png"
-				},
-				"tavern":  
-				{
-					"animation" : "factions/conflux/townScreen/animation/TBELTVRN.def",
-					"x" : 553, "y" : 203, "z" : 1, 
-					"border" : "factions/conflux/townScreen/border/TOELTVRN.png",
-					"area" : "factions/conflux/townScreen/area/TZELTVRN.png"
-				},
-				"shipyard":  
-				{
-					"animation" : "factions/conflux/townScreen/animation/TBELDOCK.def",
-					"x" : 239, "y" : 215, "z" : 2, 
-					"border" : "factions/conflux/townScreen/border/TOELDOCK.png",
-					"area" : "factions/conflux/townScreen/area/TZELDOCK.png"
-				},
-				"fort":   
-				{
-					"animation" : "factions/conflux/townScreen/animation/TBELCSTL.def",
-					"x" : 349, "y" : 101, "z" : -1,
-					"border" : "factions/conflux/townScreen/border/TOELCSTL.png",
-					"area" : "factions/conflux/townScreen/area/TZELCSTL.png"
-				},
-				"citadel":  
-				{
-					"animation" : "factions/conflux/townScreen/animation/TBELCAS2.def",
-					"x" : 349, "y" : 101, "z" : -1,
-					"border" : "factions/conflux/townScreen/border/TOELCAS2.png",
-					"area" : "factions/conflux/townScreen/area/TZELCAS2.png"
-				},
-				"castle":  
-				{
-					"animation" : "factions/conflux/townScreen/animation/TBELCAS3.def",
-					"x" : 349, "y" : 101, "z" : -1,
-					"border" : "factions/conflux/townScreen/border/TOELCAS3.png",
-					"area" : "factions/conflux/townScreen/area/TZELCAS3.png"
-				},
-				"villageHall": 
-				{
+
+				"villageHall": {
 					"animation" : "factions/conflux/townScreen/animation/TBELHALL.def",
 					"x" : -1, "y" : 164, "z" : 5, 
 					"border" : "factions/conflux/townScreen/border/TOELHALL.png",
 					"area" : "factions/conflux/townScreen/area/TZELHALL.png"
 				},
-				"townHall":  
-				{
+				"townHall": {
 					"animation" : "factions/conflux/townScreen/animation/TBELHAL2.def",
 					"x" : 0, "y" : 165, "z" : 5, 
 					"border" : "factions/conflux/townScreen/border/TOELHAL2.png",
 					"area" : "factions/conflux/townScreen/area/TZELHAL2.png"
 				},
-				"cityHall":  
-				{
+				"cityHall": {
 					"animation" : "factions/conflux/townScreen/animation/TBELHAL3.def",
 					"x" : 0, "y" : 165, "z" : 5, 
 					"border" : "factions/conflux/townScreen/border/TOELHAL3.png",
 					"area" : "factions/conflux/townScreen/area/TZELHAL3.png"
 				},
-				"capitol":  
-				{
+				"capitol": {
 					"animation" : "factions/conflux/townScreen/animation/TBELHAL4.def",
 					"x" : 0, "y" : 164, "z" : 5, 
 					"border" : "factions/conflux/townScreen/border/TOELHAL4.png",
 					"area" : "factions/conflux/townScreen/area/TZELHAL4.png"
 				},
-				"marketplace": 
-				{
-					"animation" : "factions/conflux/townScreen/animation/TBELMARK.def",
-					"x" : 347, "y" : 216, "z" : 4, 
-					"border" : "factions/conflux/townScreen/border/TOELMARK.png",
-					"area" : "factions/conflux/townScreen/area/TZELMARK.png"
+
+				"fort": {
+					"animation" : "factions/conflux/townScreen/animation/TBELCSTL.def",
+					"x" : 349, "y" : 101, "z" : -1,
+					"border" : "factions/conflux/townScreen/border/TOELCSTL.png",
+					"area" : "factions/conflux/townScreen/area/TZELCSTL.png"
 				},
-				"resourceSilo": 
-				{
-					"animation" : "factions/conflux/townScreen/animation/TBELSILO.def",
-					"x" : 372, "y" : 171, "z" : 2, 
-					"border" : "factions/conflux/townScreen/border/TOELSILO.png",
-					"area" : "factions/conflux/townScreen/area/TZELSILO.png"
+				"citadel": {
+					"animation" : "factions/conflux/townScreen/animation/TBELCAS2.def",
+					"x" : 349, "y" : 101, "z" : -1,
+					"border" : "factions/conflux/townScreen/border/TOELCAS2.png",
+					"area" : "factions/conflux/townScreen/area/TZELCAS2.png"
 				},
-				"blacksmith":  
-				{
+				"castle": {
+					"animation" : "factions/conflux/townScreen/animation/TBELCAS3.def",
+					"x" : 349, "y" : 101, "z" : -1,
+					"border" : "factions/conflux/townScreen/border/TOELCAS3.png",
+					"area" : "factions/conflux/townScreen/area/TZELCAS3.png"
+				},
+				
+				"tavern": {
+					"animation" : "factions/conflux/townScreen/animation/TBELTVRN.def",
+					"x" : 553, "y" : 203, "z" : 1, 
+					"border" : "factions/conflux/townScreen/border/TOELTVRN.png",
+					"area" : "factions/conflux/townScreen/area/TZELTVRN.png"
+				},
+				"blacksmith": {
 					"animation" : "factions/conflux/townScreen/animation/TBELBLAK.def",
 					"x" : 449, "y" : 151, "z" : 1, 
 					"border" : "factions/conflux/townScreen/border/TOELBLAK.png",
 					"area" : "factions/conflux/townScreen/area/TZELBLAK.png"
 				},
-				"special1":  
-				{
-					"animation" : "factions/conflux/townScreen/animation/TBELSPEC.def",
-					"x" : 284, "y" : 246, "z" : 4, 
-					"border" : "factions/conflux/townScreen/border/TOELSPEC.png",
-					"area" : "factions/conflux/townScreen/area/TZELSPEC.png"
+				"marketplace": {
+					"animation" : "factions/conflux/townScreen/animation/TBELMARK.def",
+					"x" : 347, "y" : 216, "z" : 4, 
+					"border" : "factions/conflux/townScreen/border/TOELMARK.png",
+					"area" : "factions/conflux/townScreen/area/TZELMARK.png"
 				},
-				"horde1":  
-				{
-					"animation" : "factions/conflux/townScreen/animation/TBELHRD1.def",
-					"x" : 689, "y" : 250,
-					"border" : "factions/conflux/townScreen/border/TOELHRD1.png",
-					"area" : "factions/conflux/townScreen/area/TZELHRD1.png",
-					"hidden" : true
+				"resourceSilo": {
+					"animation" : "factions/conflux/townScreen/animation/TBELSILO.def",
+					"x" : 372, "y" : 171, "z" : 2, 
+					"border" : "factions/conflux/townScreen/border/TOELSILO.png",
+					"area" : "factions/conflux/townScreen/area/TZELSILO.png"
 				},
-				"horde1Upgr":  
-				{
-					"animation" : "factions/conflux/townScreen/animation/TBELHRD2.def",
-					"x" : 689, "y" : 250,
-					"border" : "factions/conflux/townScreen/border/TOELHRD2.png",
-					"area" : "factions/conflux/townScreen/area/TZELHRD2.png",
-					"hidden" : true, "builds" : "horde1"
+				"shipyard": {
+					"animation" : "factions/conflux/townScreen/animation/TBELDOCK.def",
+					"x" : 239, "y" : 215, "z" : 2, 
+					"border" : "factions/conflux/townScreen/border/TOELDOCK.png",
+					"area" : "factions/conflux/townScreen/area/TZELDOCK.png"
 				},
-				"ship":   
-				{
+				"ship": {
 					"animation" : "factions/conflux/townScreen/animation/TBELBOAT.def",
 					"x" : 239, "y" : 215, "z" : 2,
 					"border" : "factions/conflux/townScreen/border/TOELBOAT.png",
 					"area" : "factions/conflux/townScreen/area/TZELBOAT.png",
 					"hidden" : true
 				},
-				"special2":  
-				{
+
+				"special1": {
+					"animation" : "factions/conflux/townScreen/animation/TBELSPEC.def",
+					"x" : 284, "y" : 246, "z" : 4, 
+					"border" : "factions/conflux/townScreen/border/TOELSPEC.png",
+					"area" : "factions/conflux/townScreen/area/TZELSPEC.png"
+				},
+				"special2": {
 					"animation" : "factions/conflux/townScreen/animation/TBELEXT6.def",
 					"x" : 104, "y" : 170, "z" : 3,
 					"border" : "factions/conflux/townScreen/border/TOELEXT6.png",
 					"area" : "factions/conflux/townScreen/area/TZELEXT6.png"
 				},
-				"grail":  
-				{
+				"horde1": {
+					"animation" : "factions/conflux/townScreen/animation/TBELHRD1.def",
+					"x" : 689, "y" : 250,
+					"border" : "factions/conflux/townScreen/border/TOELHRD1.png",
+					"area" : "factions/conflux/townScreen/area/TZELHRD1.png",
+					"hidden" : true
+				},
+				"horde1Upgr": {
+					"animation" : "factions/conflux/townScreen/animation/TBELHRD2.def",
+					"x" : 689, "y" : 250,
+					"border" : "factions/conflux/townScreen/border/TOELHRD2.png",
+					"area" : "factions/conflux/townScreen/area/TZELHRD2.png",
+					"hidden" : true, "builds" : "horde1"
+				},
+				"grail": {
 					"animation" : "factions/conflux/townScreen/animation/TBELHOLY.def",
 					"x" : 307, "y" : 2, 
 					"border" : "factions/conflux/townScreen/border/TOELHOLY.png",
 					"area" : "factions/conflux/townScreen/area/TZELHOLY.png"
 				},
-				"extraTownHall": 
-				{
+				"extraTownHall": {
 					"animation" : "factions/conflux/townScreen/animation/TBELEXT2.def",
 					"x" : 232, "y" : 205
 				},
-				"extraCityHall": 
-				{
+				"extraCityHall": {
 					"animation" : "factions/conflux/townScreen/animation/TBELEXT3.def",
 					"x" : 516, "y" : 223, "z" : 1
 				},
-				"extraCapitol": 
-				{
+				"extraCapitol": {
 					"animation" : "factions/conflux/townScreen/animation/TBELEXT4.def",
 					"x" : 0, "y" : 252, "z" : 6
 				},
-				"dwellingLvl1": 
-				{
+				
+				"mageGuild1": {
+					"animation" : "factions/conflux/townScreen/animation/TBELMAGE.def",
+					"x" : 206, "y" : 58, "z" : 4, 
+					"border" : "factions/conflux/townScreen/border/TOELMAGE.png",
+					"area" : "factions/conflux/townScreen/area/TZELMAGE.png"
+				},
+				"mageGuild2": {
+					"animation" : "factions/conflux/townScreen/animation/TBELMAG2.def",
+					"x" : 206, "y" : 58, "z" : 4, 
+					"border" : "factions/conflux/townScreen/border/TOELMAG2.png",
+					"area" : "factions/conflux/townScreen/area/TZELMAG2.png"
+				},
+				"mageGuild3": {
+					"animation" : "factions/conflux/townScreen/animation/TBELMAG3.def",
+					"x" : 206, "y" : 58, "z" : 4, 
+					"border" : "factions/conflux/townScreen/border/TOELMAG3.png",
+					"area" : "factions/conflux/townScreen/area/TZELMAG3.png"
+				},
+				"mageGuild4": {
+					"animation" : "factions/conflux/townScreen/animation/TBELMAG4.def",
+					"x" : 206, "y" : 58, "z" : 4, 
+					"border" : "factions/conflux/townScreen/border/TOELMAG4.png",
+					"area" : "factions/conflux/townScreen/area/TZELMAG4.png"
+				},
+				"mageGuild5": {
+					"animation" : "factions/conflux/townScreen/animation/TBELMAG5.def",
+					"x" : 206, "y" : 58, "z" : 4, 
+					"border" : "factions/conflux/townScreen/border/TOELMAG5.png",
+					"area" : "factions/conflux/townScreen/area/TZELMAG5.png"
+				},
+				
+				"dwellingLvl1": {
 					"animation" : "factions/conflux/townScreen/animation/TBELDW_0.def",
 					"x" : 689, "y" : 250,
 					"border" : "factions/conflux/townScreen/border/TOELDW_0.png",
 					"area" : "factions/conflux/townScreen/area/TZELDW_0.png" },
-				"dwellingLvl2": 
-				{
+				"dwellingLvl2": {
 					"animation" : "factions/conflux/townScreen/animation/TBELDW_1.def",
 					"x" : 630, "y" : 50, 
 					"border" : "factions/conflux/townScreen/border/TOELDW_1.png",
 					"area" : "factions/conflux/townScreen/area/TZELDW_1.png" },
-				"dwellingLvl3": 
-				{
+				"dwellingLvl3": {
 					"animation" : "factions/conflux/townScreen/animation/TBELDW_2.def",
 					"x" : 709, "y" : 210, "z" : -1,
 					"border" : "factions/conflux/townScreen/border/TOELDW_2.png",
 					"area" : "factions/conflux/townScreen/area/TZELDW_2.png"
 				},
-				"dwellingLvl4": 
-				{
+				"dwellingLvl4": {
 					"animation" : "factions/conflux/townScreen/animation/TBELDW_3.def",
 					"x" : 108, "y" : 131, "z" : -1,
 					"border" : "factions/conflux/townScreen/border/TOELDW_3.png",
 					"area" : "factions/conflux/townScreen/area/TZELDW_3.png"
 				},
-				"dwellingLvl5": 
-				{
+				"dwellingLvl5": {
 					"animation" : "factions/conflux/townScreen/animation/TBELDW_4.def",
 					"x" : 264, "y" : 168, "z" : -1,
 					"border" : "factions/conflux/townScreen/border/TOELDW_4.png",
 					"area" : "factions/conflux/townScreen/area/TZELDW_4.png"
 				},
-				"dwellingLvl6": 
-				{
+				"dwellingLvl6": {
 					"animation" : "factions/conflux/townScreen/animation/TBELDW_5.def",
 					"x" : 394, "y" : 283, "z" : 2, 
 					"border" : "factions/conflux/townScreen/border/TOELDW_5.png",
 					"area" : "factions/conflux/townScreen/area/TZELDW_5.png"
 				},
-				"dwellingLvl7": 
-				{
+				"dwellingLvl7": {
 					"animation" : "factions/conflux/townScreen/animation/TBELDW_6.def",
 					"x" : 43, "y" : 16, "z" : -2,
 					"border" : "factions/conflux/townScreen/border/TOELDW_6.png",
 					"area" : "factions/conflux/townScreen/area/TZELDW_6.png"
 				},
-				"dwellingUpLvl1": 
-				{
+				
+				"dwellingUpLvl1": {
 					"animation" : "factions/conflux/townScreen/animation/TBELUP_0.def",
 					"x" : 689, "y" : 250,
 					"border" : "factions/conflux/townScreen/border/TOELUP_0.png",
 					"area" : "factions/conflux/townScreen/area/TZELUP_0.png"
 				},
-				"dwellingUpLvl2": 
-				{
+				"dwellingUpLvl2": {
 					"animation" : "factions/conflux/townScreen/animation/TBELUP_1.def",
 					"x" : 630, "y" : 50, 
 					"border" : "factions/conflux/townScreen/border/TOELUP_1.png",
 					"area" : "factions/conflux/townScreen/area/TZELUP_1.png"
 				},
-				"dwellingUpLvl3": 
-				{
+				"dwellingUpLvl3": {
 					"animation" : "factions/conflux/townScreen/animation/TBELUP_2.def",
 					"x" : 709, "y" : 210, "z" : -1,
 					"border" : "factions/conflux/townScreen/border/TOELUP_2.png",
 					"area" : "factions/conflux/townScreen/area/TZELUP_2.png"
 				},
-				"dwellingUpLvl4": 
-				{
+				"dwellingUpLvl4": {
 					"animation" : "factions/conflux/townScreen/animation/TBELUP_3.def",
 					"x" : 108, "y" : 131, "z" : -1,
 					"border" : "factions/conflux/townScreen/border/TOELUP_3.png",
 					"area" : "factions/conflux/townScreen/area/TZELUP_3.png"
 				},
-				"dwellingUpLvl5": 
-				{
+				"dwellingUpLvl5": {
 					"animation" : "factions/conflux/townScreen/animation/TBELUP_4.def",
 					"x" : 264, "y" : 168, "z" : -1,
 					"border" : "factions/conflux/townScreen/border/TOELUP_4.png",
 					"area" : "factions/conflux/townScreen/area/TZELUP_4.png"
 				},
-				"dwellingUpLvl6": 
-				{
+				"dwellingUpLvl6": {
 					"animation" : "factions/conflux/townScreen/animation/TBELUP_5.def",
 					"x" : 394, "y" : 283, "z" : 2, 
 					"border" : "factions/conflux/townScreen/border/TOELUP_5.png",
 					"area" : "factions/conflux/townScreen/area/TZELUP_5.png"
 				},
-				"dwellingUpLvl7": 
-				{
+				"dwellingUpLvl7": {
 					"animation" : "factions/conflux/townScreen/animation/TBELUP_6.def",
 					"x" : 43, "y" : 0, "z" : -2,
 					"border" : "factions/conflux/townScreen/border/TOELUP_6.png",

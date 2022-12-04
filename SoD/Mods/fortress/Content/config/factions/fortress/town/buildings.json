@@ -1,44 +1,27 @@
 {
-	"fortress" :
-	{
-		"town" :
-		 {
-			"buildings" : 
-			{
-				"blacksmith" : {
+	"fortress" : {
+		"town" : {
+			"buildings" : {
+				"villageHall" : {
 					"cost" : {
-						"gold" : 1000,
-						"wood" : 5
+						"gold" : 1
 					},
-					"description" : "The Blacksmith provides your armies with First Aid Tents.",
-					"name" : "Blacksmith"
-				},
-				"capitol" : {
-					"cost" : {
-						"gold" : 10000
-					},
-					"description" : "The Capitol earns your kingdom 4000 gold per day.",
-					"name" : "Capitol",
-					"produce": {
-						"gold": 4000
+					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
+					"name" : "Village Hall",
+					"mode" : "auto",
+					"produce": { 
+						"gold": 500
 					}
-				},
-				"castle" : {
+				}
+				"townHall" : {
 					"cost" : {
-						"gold" : 5000,
-						"ore" : 10,
-						"wood" : 10
+						"gold" : 2500
 					},
-					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
-					"name" : "Castle"
-				},
-				"citadel" : {
-					"cost" : {
-						"gold" : 2500,
-						"ore" : 5
-					},
-					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
-					"name" : "Citadel"
+					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
+					"name" : "Town Hall",
+					"produce": {
+						"gold": 1000
+					}
 				},
 				"cityHall" : {
 					"cost" : {
@@ -50,6 +33,196 @@
 						"gold": 2000
 					}
 				},
+				"capitol" : {
+					"cost" : {
+						"gold" : 10000
+					},
+					"description" : "The Capitol earns your kingdom 4000 gold per day.",
+					"name" : "Capitol",
+					"produce": {
+						"gold": 4000
+					}
+				},
+				
+				"fort" : {
+					"cost" : {
+						"gold" : 5000,
+						"ore" : 20,
+						"wood" : 20
+					},
+					"description" : "The Fort provides your town with defensive walls.",
+					"name" : "Fort"
+				},
+				"citadel" : {
+					"cost" : {
+						"gold" : 2500,
+						"ore" : 5
+					},
+					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
+					"name" : "Citadel"
+				},
+				"castle" : {
+					"cost" : {
+						"gold" : 5000,
+						"ore" : 10,
+						"wood" : 10
+					},
+					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
+					"name" : "Castle"
+				},
+
+				"tavern" : {
+					"cost" : {
+						"gold" : 500,
+						"wood" : 5
+					},
+					"description" : "The Tavern increases morale for troops defending the city.",
+					"name" : "Tavern"
+				},		
+				"blacksmith" : {
+					"cost" : {
+						"gold" : 1000,
+						"wood" : 5
+					},
+					"description" : "The Blacksmith provides your armies with First Aid Tents.",
+					"name" : "Blacksmith"
+				},
+				"marketplace" : {
+					"cost" : {
+						"gold" : 500,
+						"wood" : 5
+					},
+					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
+					"name" : "Marketplace"
+				},
+				"resourceSilo" : {
+					"cost" : {
+						"gold" : 5000,
+						"ore" : 5
+					},
+					"description" : "The Resource Silo provides you with an additional +1 wood and +1 ore each day.",
+					"name" : "Resource Silo",
+					"produce": {
+						"wood": 1,
+						"ore": 1
+					}
+				},
+				"shipyard" : {
+					"cost" : {
+						"gold" : 2000,
+						"wood" : 20
+					},
+					"description" : "The Shipyard allows you to purchase ships.",
+					"name" : "Shipyard"
+				},
+				"ship" : {
+					"cost" : {
+						"gold" : 0
+					},
+					"description" : "The Shipyard allows you to purchase ships.",
+					"name" : "Shipyard"
+				},
+
+				"special1" : {
+					"cost" : {
+						"gold" : 1000
+					},
+					"description" : "The Cage of Warlords increases the Defense strength of any visiting hero by +1.",
+					"name" : "Cage of Warlords",
+					"type" : "defenceVisitingBonus"
+				},
+				"special2" : {
+					"cost" : {
+						"gold" : 1000
+					},
+					"description" : "The Glyphs of Fear add +2 to a garrison hero's defense skill when defending against a siege.",
+					"name" : "Glyphs of Fear",
+					"type" : "defenseGarrisonBonus"
+				},
+				"special3" : {
+					"cost" : {
+						"gold" : 1000
+					},
+					"description" : "The presence of a Blood Obelisk adds +2 to a garrison hero's attack skill when defending against a siege.",
+					"name" : "Blood Obelisk",
+					"type" : "attackGarrisonBonus"
+				},			
+				"horde1" : {
+					"cost" : {
+						"gold" : 1000
+					},
+					"description" : "The Captain's Quarters increase Gnoll production by 6 per week.",
+					"name" : "Captain's Quarters"
+				},
+				"horde1Upgr" : {
+					"cost" : {
+						"gold" : 1000
+					},
+					"description" : "The Captain's Quarters increase Gnoll Marauder production by 6 per week.",
+					"name" : "Captain's Quarters",
+					"mode" : "auto"
+				},
+				"grail" : {
+					"description" : "The presence of the Carnivorous Plant increases weekly creature generation by 50%, provides your kingdom with an additional 5000 gold each day, and increases the Attack and Defense strength of a garrison hero by +10 each when defending against a siege.",
+					"name" : "Carnivorous Plant",
+					"mode" : "grail",
+					"produce": {
+						"gold": 5000
+					},
+					"bonuses" : [
+						{
+							"subtype" : "primSkill.attack",
+							"type" : "PRIMARY_SKILL",
+							"val" : 10
+						},
+						{
+							"subtype" : "primSkill.defence",
+							"type" : "PRIMARY_SKILL",
+							"val" : 10
+						}
+					]
+				},
+				"extraCapitol" : {
+					"id" : 29,
+					"mode" : "auto"
+				},
+				
+				"mageGuild1" : {
+					"cost" : {
+						"gold" : 2000,
+						"ore" : 5,
+						"wood" : 5
+					},
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 1"
+				},
+				"mageGuild2" : {
+					"cost" : {
+						"crystal" : 4,
+						"gems" : 4,
+						"gold" : 1000,
+						"mercury" : 4,
+						"ore" : 5,
+						"sulfur" : 4,
+						"wood" : 5
+					},
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 2"
+				},
+				"mageGuild3" : {
+					"cost" : {
+						"crystal" : 6,
+						"gems" : 6,
+						"gold" : 1000,
+						"mercury" : 6,
+						"ore" : 5,
+						"sulfur" : 6,
+						"wood" : 5
+					},
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 3"
+				},
+
 				"dwellingLvl1" : {
 					"cost" : {
 						"gold" : 400,
@@ -114,6 +287,7 @@
 					"description" : "The Hydra Pond allows you to recruit Hydras.",
 					"name" : "Hydra Pond"
 				},
+
 				"dwellingUpLvl1" : {
 					"cost" : {
 						"gold" : 1000,
@@ -175,177 +349,6 @@
 					},
 					"description" : "The Hydra Pond allows you to recruit Chaos Hydras.",
 					"name" : "Upg. Hydra Pond"
-				},
-				"extraCapitol" : {
-					"id" : 29,
-					"mode" : "auto"
-				},
-				"fort" : {
-					"cost" : {
-						"gold" : 5000,
-						"ore" : 20,
-						"wood" : 20
-					},
-					"description" : "The Fort provides your town with defensive walls.",
-					"name" : "Fort"
-				},
-				"grail" : {
-					"description" : "The presence of the Carnivorous Plant increases weekly creature generation by 50%, provides your kingdom with an additional 5000 gold each day, and increases the Attack and Defense strength of a garrison hero by +10 each when defending against a siege.",
-					"name" : "Carnivorous Plant",
-					"mode" : "grail",
-					"produce": {
-						"gold": 5000
-					},
-					"bonuses" : [
-						{
-							"subtype" : "primSkill.attack",
-							"type" : "PRIMARY_SKILL",
-							"val" : 10
-						},
-						{
-							"subtype" : "primSkill.defence",
-							"type" : "PRIMARY_SKILL",
-							"val" : 10
-						}
-					]
-				},
-				"horde1" : {
-					"cost" : {
-						"gold" : 1000
-					},
-					"description" : "The Captain's Quarters increase Gnoll production by 6 per week.",
-					"name" : "Captain's Quarters"
-				},
-				"horde1Upgr" : {
-					"cost" : {
-						"gold" : 1000
-					},
-					"description" : "The Captain's Quarters increase Gnoll Marauder production by 6 per week.",
-					"name" : "Captain's Quarters",
-					"mode" : "auto"
-				},
-				"mageGuild1" : {
-					"cost" : {
-						"gold" : 2000,
-						"ore" : 5,
-						"wood" : 5
-					},
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 1"
-				},
-				"mageGuild2" : {
-					"cost" : {
-						"crystal" : 4,
-						"gems" : 4,
-						"gold" : 1000,
-						"mercury" : 4,
-						"ore" : 5,
-						"sulfur" : 4,
-						"wood" : 5
-					},
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 2"
-				},
-				"mageGuild3" : {
-					"cost" : {
-						"crystal" : 6,
-						"gems" : 6,
-						"gold" : 1000,
-						"mercury" : 6,
-						"ore" : 5,
-						"sulfur" : 6,
-						"wood" : 5
-					},
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 3"
-				},
-				"marketplace" : {
-					"cost" : {
-						"gold" : 500,
-						"wood" : 5
-					},
-					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
-					"name" : "Marketplace"
-				},
-				"resourceSilo" : {
-					"cost" : {
-						"gold" : 5000,
-						"ore" : 5
-					},
-					"description" : "The Resource Silo provides you with an additional +1 wood and +1 ore each day.",
-					"name" : "Resource Silo",
-					"produce": {
-						"wood": 1,
-						"ore": 1
-					}
-				},
-				"ship" : {
-					"cost" : {
-						"gold" : 0
-					},
-					"description" : "The Shipyard allows you to purchase ships.",
-					"name" : "Shipyard"
-				},
-				"shipyard" : {
-					"cost" : {
-						"gold" : 2000,
-						"wood" : 20
-					},
-					"description" : "The Shipyard allows you to purchase ships.",
-					"name" : "Shipyard"
-				},
-				"special1" : {
-					"cost" : {
-						"gold" : 1000
-					},
-					"description" : "The Cage of Warlords increases the Defense strength of any visiting hero by +1.",
-					"name" : "Cage of Warlords",
-					"type" : "defenceVisitingBonus"
-				},
-				"special2" : {
-					"cost" : {
-						"gold" : 1000
-					},
-					"description" : "The Glyphs of Fear add +2 to a garrison hero's defense skill when defending against a siege.",
-					"name" : "Glyphs of Fear",
-					"type" : "defenseGarrisonBonus"
-				},
-				"special3" : {
-					"cost" : {
-						"gold" : 1000
-					},
-					"description" : "The presence of a Blood Obelisk adds +2 to a garrison hero's attack skill when defending against a siege.",
-					"name" : "Blood Obelisk",
-					"type" : "attackGarrisonBonus"
-				},
-				"tavern" : {
-					"cost" : {
-						"gold" : 500,
-						"wood" : 5
-					},
-					"description" : "The Tavern increases morale for troops defending the city.",
-					"name" : "Tavern"
-				},
-				"townHall" : {
-					"cost" : {
-						"gold" : 2500
-					},
-					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
-					"name" : "Town Hall",
-					"produce": {
-						"gold": 1000
-					}
-				},
-				"villageHall" : {
-					"cost" : {
-						"gold" : 1
-					},
-					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
-					"name" : "Village Hall",
-					"mode" : "auto",
-					"produce": { 
-						"gold": 500
-					}
 				}
 			}
 		}

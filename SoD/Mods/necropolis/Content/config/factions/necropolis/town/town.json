@@ -1,8 +1,6 @@
 {
-	"necropolis" :
-	{
-		"town" :
-		{
+	"necropolis" : {
+		"town" : {
 			"musicTheme" : "factions/necropolis/NecroTown.mp3",
 			"defaultTavern" : 5,
 
@@ -12,8 +10,7 @@
 			"hallBackground": "factions/necropolis/townScreen/TPTHBKNC.png",
 			"tavernVideo" : "SoD/TAVERN.BIK",
 
-			"creatures" :
-			[
+			"creatures" : [
 				["skeleton", "skeletonWarrior"],
 				["walkingDead", "zombieLord"],
 				["wight", "wraith"],
@@ -23,8 +20,7 @@
 				["boneDragon", "ghostDragon"]
 			],
 
-			"hallSlots":
-			[
+			"hallSlots": [
 				[ [ "villageHall", "townHall", "cityHall", "capitol" ], [ "fort", "citadel", "castle" ], [ "tavern" ], [ "blacksmith" ] ],
 				[ [ "marketplace", "resourceSilo" ], [ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4", "mageGuild5" ], [ "special2" ], [ "shipyard" ] ],
 				[ [ "special1" ], [ "special3" ], [ "horde1", "horde1Upgr" ] ],
@@ -32,36 +28,38 @@
 				[ [ "dwellingLvl5", "dwellingUpLvl5" ], [ "dwellingLvl6", "dwellingUpLvl6" ], [ "dwellingLvl7", "dwellingUpLvl7" ] ]
 			],
 			
-			"buildings" :
-			{
+			"buildings" : {
+				"villageHall":    { "id" : 10 },
+				"townHall":       { "id" : 11, "upgrades" : "villageHall", "requires" : [ "tavern" ] },
+				"cityHall":       { "id" : 12, "upgrades" : "townHall", "requires" : [ "allOf", [ "mageGuild1" ], [ "marketplace" ], [ "blacksmith" ] ] },
+				"capitol":        { "id" : 13, "upgrades" : "cityHall", "requires" : [ "castle" ] },
+				
+				"fort":           { "id" : 7 },
+				"citadel":        { "id" : 8,  "upgrades" : "fort" },
+				"castle":         { "id" : 9,  "upgrades" : "citadel" },
+				
+				"tavern":         { "id" : 5 },
+				"blacksmith":     { "id" : 16 },
+				"marketplace":    { "id" : 14 },
+				"resourceSilo":   { "id" : 15, "requires" : [ "marketplace" ] },
+				"shipyard":       { "id" : 6 },
+				"ship":           { "id" : 20, "upgrades" : "shipyard" },
+
+				"special1":       { "id" : 17, "requires" : [ "fort" ] },
+				"special2":       { "id" : 21, "requires" : [ "mageGuild1" ] },
+				"special3":       { "id" : 22, "requires" : [ "dwellingLvl1" ] },
+				"horde1":         { "id" : 18, "upgrades" : "dwellingLvl1", "requires" : [ "special3" ] },
+				"horde1Upgr":     { "id" : 19, "upgrades" : "dwellingUpLvl1", "requires" : [ "horde1" ] },
+				"grail":          { "id" : 26 },
+				"extraTownHall":  { "id" : 27, "requires" : [ "townHall" ] },
+				"extraCityHall":  { "id" : 28, "requires" : [ "cityHall" ] },
+				"extraCapitol":   { "id" : 29, "requires" : [ "capitol" ] },
+				
 				"mageGuild1":     { "id" : 0 },
 				"mageGuild2":     { "id" : 1,  "upgrades" : "mageGuild1" },
 				"mageGuild3":     { "id" : 2,  "upgrades" : "mageGuild2" },
 				"mageGuild4":     { "id" : 3,  "upgrades" : "mageGuild3" },
 				"mageGuild5":     { "id" : 4,  "upgrades" : "mageGuild4" },
-				"tavern":         { "id" : 5 },
-				"shipyard":       { "id" : 6 },
-				"fort":           { "id" : 7 },
-				"citadel":        { "id" : 8,  "upgrades" : "fort" },
-				"castle":         { "id" : 9,  "upgrades" : "citadel" },
-				"villageHall":    { "id" : 10 },
-				"townHall":       { "id" : 11, "upgrades" : "villageHall", "requires" : [ "tavern" ] },
-				"cityHall":       { "id" : 12, "upgrades" : "townHall", "requires" : [ "allOf", [ "mageGuild1" ], [ "marketplace" ], [ "blacksmith" ] ] },
-				"capitol":        { "id" : 13, "upgrades" : "cityHall", "requires" : [ "castle" ] },
-				"marketplace":    { "id" : 14 },
-				"resourceSilo":   { "id" : 15, "requires" : [ "marketplace" ] },
-				"blacksmith":     { "id" : 16 },
-
-				"special1":       { "id" : 17, "requires" : [ "fort" ] },
-				"horde1":         { "id" : 18, "upgrades" : "dwellingLvl1", "requires" : [ "special3" ] },
-				"horde1Upgr":     { "id" : 19, "upgrades" : "dwellingUpLvl1", "requires" : [ "horde1" ] },
-				"ship":           { "id" : 20, "upgrades" : "shipyard" },
-				"special2":       { "id" : 21, "requires" : [ "mageGuild1" ] },
-				"special3":       { "id" : 22, "requires" : [ "dwellingLvl1" ] },
-				"grail":          { "id" : 26 },
-				"extraTownHall":  { "id" : 27, "requires" : [ "townHall" ] },
-				"extraCityHall":  { "id" : 28, "requires" : [ "cityHall" ] },
-				"extraCapitol":   { "id" : 29, "requires" : [ "capitol" ] },
 
 				"dwellingLvl1":   { "id" : 30, "requires" : [ "fort" ] },
 				"dwellingLvl2":   { "id" : 31, "requires" : [ "dwellingLvl1" ] },
@@ -92,8 +90,7 @@
 			"mageGuild" : 5,
 			"warMachine" : "firstAidTent",
 			"buildingsIcons" : "factions/necropolis/HALLNECR.DEF",
-			"icons" :
-			{
+			"icons" : {
 				"village" : {
 					"normal" : {
 						"small" : "factions/necropolis/icons/ITPA_0_10.png",
@@ -116,19 +113,17 @@
 				}
 			},
 
-			"mapObject" :
-			{
+			"mapObject" : {
 				"templates" : {
-					"castle" :  { "animation" : "factions/necropolis/adventureMap/town/AVCnecx0.def" },
-					"citadel" : { "animation" : "factions/necropolis/adventureMap/town/AVCnecx0.def" },
 					"fort"    : { "animation" : "factions/necropolis/adventureMap/town/AVCnecx0.def" },
+					"citadel" : { "animation" : "factions/necropolis/adventureMap/town/AVCnecx0.def" },
+					"castle" :  { "animation" : "factions/necropolis/adventureMap/town/AVCnecx0.def" },
 					"village" : { "animation" : "factions/necropolis/adventureMap/town/AVCNECR0.DEF" },
 					"capitol" : { "animation" : "factions/necropolis/adventureMap/town/AVCNECZ0.DEF" }
 				}
 			},
 
-			"tavern" :
-			{
+			"tavern" : {
 				"knight"       : 5,
 				"cleric"       : 5,
 				"ranger"       : 5,

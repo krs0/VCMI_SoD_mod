@@ -1,8 +1,6 @@
 {
-	"inferno" : 
-	{
-		"town" :
-		{
+	"inferno" : {
+		"town" : {
 			"musicTheme" : "factions/inferno/InfernoTown.mp3",
 			"defaultTavern" : 5,
 
@@ -12,8 +10,7 @@
 			"hallBackground": "factions/inferno/townScreen/TPTHBKIN.png",
 			"tavernVideo" : "SoD/TAVERN.BIK",
 
-			"creatures" :
-			[
+			"creatures" : [
 				["imp", "familiar"],
 				["gog", "magog"],
 				["hellHound", "cerberus"],
@@ -23,8 +20,7 @@
 				["devil", "archDevil"]
 			],
 
-			"hallSlots":
-			[
+			"hallSlots": [
 				[ [ "villageHall", "townHall", "cityHall", "capitol" ], [ "fort", "citadel", "castle" ], [ "tavern" ], [ "blacksmith" ] ],
 				[ [ "marketplace", "resourceSilo" ], [ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4", "mageGuild5" ], [ "special4" ], [ "special2" ] ],
 				[ [ "special3" ], [ "horde1", "horde1Upgr" ], [ "horde2", "horde2Upgr" ] ],
@@ -32,33 +28,35 @@
 				[ [ "dwellingLvl5", "dwellingUpLvl5" ], [ "dwellingLvl6", "dwellingUpLvl6" ], [ "dwellingLvl7", "dwellingUpLvl7" ] ]
 			],
 			
-			"buildings" :
-			{
+			"buildings" : {
+				"villageHall":    { "id" : 10 },
+				"townHall":       { "id" : 11, "upgrades" : "villageHall", "requires" : [ "tavern" ] },
+				"cityHall":       { "id" : 12, "upgrades" : "townHall", "requires" : [ "allOf", [ "mageGuild1" ], [ "marketplace" ], [ "blacksmith" ] ] },
+				"capitol":        { "id" : 13, "upgrades" : "cityHall", "requires" : [ "castle" ] },
+				
+				"fort":           { "id" : 7 },
+				"citadel":        { "id" : 8,  "upgrades" : "fort" },
+				"castle":         { "id" : 9,  "upgrades" : "citadel" },
+				
+				"tavern":         { "id" : 5 },
+				"blacksmith":     { "id" : 16 },
+				"marketplace":    { "id" : 14 },
+				"resourceSilo":   { "id" : 15, "requires" : [ "marketplace" ] },
+
+				"special2":       { "id" : 21, "requires" : [ "fort" ] },
+				"special3":       { "id" : 22, "requires" : [ "citadel" ] },
+				"special4":       { "id" : 23, "requires" : [ "mageGuild1" ] },
+				"horde1":         { "id" : 18, "upgrades" : "dwellingLvl1" },
+				"horde1Upgr":     { "id" : 19, "upgrades" : "dwellingUpLvl1", "requires" : [ "horde1" ] },
+				"horde2":         { "id" : 24, "upgrades" : "dwellingLvl3" },
+				"horde2Upgr":     { "id" : 25, "upgrades" : "dwellingUpLvl3", "requires" : [ "horde2" ] },
+				"grail":          { "id" : 26 },
+				
 				"mageGuild1":     { "id" : 0 },
 				"mageGuild2":     { "id" : 1,  "upgrades" : "mageGuild1" },
 				"mageGuild3":     { "id" : 2,  "upgrades" : "mageGuild2" },
 				"mageGuild4":     { "id" : 3,  "upgrades" : "mageGuild3" },
 				"mageGuild5":     { "id" : 4,  "upgrades" : "mageGuild4" },
-				"tavern":         { "id" : 5 },
-				"fort":           { "id" : 7 },
-				"citadel":        { "id" : 8,  "upgrades" : "fort" },
-				"castle":         { "id" : 9,  "upgrades" : "citadel" },
-				"villageHall":    { "id" : 10 },
-				"townHall":       { "id" : 11, "upgrades" : "villageHall", "requires" : [ "tavern" ] },
-				"cityHall":       { "id" : 12, "upgrades" : "townHall", "requires" : [ "allOf", [ "mageGuild1" ], [ "marketplace" ], [ "blacksmith" ] ] },
-				"capitol":        { "id" : 13, "upgrades" : "cityHall", "requires" : [ "castle" ] },
-				"marketplace":    { "id" : 14 },
-				"resourceSilo":   { "id" : 15, "requires" : [ "marketplace" ] },
-				"blacksmith":     { "id" : 16 },
-
-				"horde1":         { "id" : 18, "upgrades" : "dwellingLvl1" },
-				"horde1Upgr":     { "id" : 19, "upgrades" : "dwellingUpLvl1", "requires" : [ "horde1" ] },
-				"special2":       { "id" : 21, "requires" : [ "fort" ] },
-				"special3":       { "id" : 22, "requires" : [ "citadel" ] },
-				"special4":       { "id" : 23, "requires" : [ "mageGuild1" ] },
-				"horde2":         { "id" : 24, "upgrades" : "dwellingLvl3" },
-				"horde2Upgr":     { "id" : 25, "upgrades" : "dwellingUpLvl3", "requires" : [ "horde2" ] },
-				"grail":          { "id" : 26 },
 
 				"dwellingLvl1":   { "id" : 30, "requires" : [ "fort" ] },
 				"dwellingLvl2":   { "id" : 31, "requires" : [ "dwellingLvl1" ] },
@@ -89,8 +87,7 @@
 			"warMachine" : "ammoCart",
 			"primaryResource" : "mercury",
 			"buildingsIcons" : "factions/inferno/HALLINFR.DEF",
-			"icons" :
-			{
+			"icons" : {
 				"village" : {
 					"normal" : {
 						"small" : "factions/inferno/icons/ITPA_0_26.png",
@@ -113,19 +110,17 @@
 				}
 			},
 
-			"mapObject" :
-			{
+			"mapObject" : {
 				"templates" : {
-					"castle" :  { "animation" : "factions/inferno/adventureMap/town/AVCinfx0.def" },
-					"citadel" : { "animation" : "factions/inferno/adventureMap/town/AVCinfx0.def" },
 					"fort"    : { "animation" : "factions/inferno/adventureMap/town/AVCinfx0.def" },
+					"citadel" : { "animation" : "factions/inferno/adventureMap/town/AVCinfx0.def" },
+					"castle" :  { "animation" : "factions/inferno/adventureMap/town/AVCinfx0.def" },
 					"village" : { "animation" : "factions/inferno/adventureMap/town/AVCINFT0.DEF" },
 					"capitol" : { "animation" : "factions/inferno/adventureMap/town/AVCINFZ0.DEF" }
 				}
 			},
 
-			"tavern" :
-			{
+			"tavern" : {
 				"knight"       : 5,
 				"cleric"       : 5,
 				"ranger"       : 5,

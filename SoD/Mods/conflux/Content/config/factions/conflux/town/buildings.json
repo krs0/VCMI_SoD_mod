@@ -1,43 +1,25 @@
 {
-	"conflux" :
-	{
-		"town" : 
-		{
-			"buildings" : 
-			{
-				"blacksmith" : {
-					"name" : "Blacksmith",
-					"description" : "The Blacksmith provides your armies with Ballistas.",
+	"conflux" : {
+		"town" : {
+			"buildings" : {
+				"villageHall" : {
+					"name" : "Village Hall",
+					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
 					"cost" : {
-						"gold" : 1000,
-						"wood" : 5
-					}
-				},
-				"capitol" : {
-					"name" : "Capitol",
-					"description" : "The Capitol earns your kingdom 4000 gold per day.",
-					"cost" : {
-						"gold" : 10000
+						"gold" : 1
 					},
 					"produce" : {
-						"gold" : 4000
+						"gold" : 500
 					}
 				},
-				"castle" : {
-					"name" : "Castle",
-					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
+				"townHall" : {
+					"name" : "Town Hall",
+					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
 					"cost" : {
-						"gold" : 5000,
-						"ore" : 10,
-						"wood" : 10
-					}
-				},
-				"citadel" : {
-					"name" : "Citadel",
-					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
-					"cost" : {
-						"gold" : 2500,
-						"ore" : 5
+						"gold" : 2500
+					},
+					"produce" : {
+						"gold" : 1000
 					}
 				},
 				"cityHall" : {
@@ -50,6 +32,210 @@
 						"gold" : 2000
 					}
 				},
+				"capitol" : {
+					"name" : "Capitol",
+					"description" : "The Capitol earns your kingdom 4000 gold per day.",
+					"cost" : {
+						"gold" : 10000
+					},
+					"produce" : {
+						"gold" : 4000
+					}
+				},
+				
+				"fort" : {
+					"name" : "Fort"
+					"description" : "The Fort provides your town with defensive walls.",
+					"cost" : {
+						"gold" : 5000,
+						"ore" : 20,
+						"wood" : 20
+					}
+				},
+				"citadel" : {
+					"name" : "Citadel",
+					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
+					"cost" : {
+						"gold" : 2500,
+						"ore" : 5
+					}
+				},
+				"castle" : {
+					"name" : "Castle",
+					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
+					"cost" : {
+						"gold" : 5000,
+						"ore" : 10,
+						"wood" : 10
+					}
+				},
+				
+				"tavern" : {
+					"name" : "Tavern",
+					"description" : "The Tavern increases morale for troops defending the city.",
+					"cost" : {
+						"gold" : 500,
+						"wood" : 5
+					}
+				},
+				"blacksmith" : {
+					"name" : "Blacksmith",
+					"description" : "The Blacksmith provides your armies with Ballistas.",
+					"cost" : {
+						"gold" : 1000,
+						"wood" : 5
+					}
+				},
+				"marketplace" : {
+					"name" : "Marketplace",
+					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
+					"cost" : {
+						"gold" : 500,
+						"wood" : 5
+					}
+				},
+				"resourceSilo" : {
+					"name" : "Resource Silo",
+					"description" : "The Resource Silo provides you with an additional 1 Mercury each day.",
+					"cost" : {
+						"gold" : 5000,
+						"ore" : 5
+					},
+					"produce" : {
+						"mercury" : 1
+					}
+				},
+				"shipyard" : {
+					"name" : "Shipyard",
+					"description" : "The Shipyard allows you to purchase ships.",
+					"cost" : {
+						"gold" : 2000,
+						"wood" : 20
+					}
+				},
+				"ship" : {
+					"name" : "Shipyard",
+					"description" : "The Shipyard allows you to purchase ships.",
+					"cost" : {
+						"gold" : 0
+					}
+				},
+
+				"special1" : {
+					"name" : "Artifact Merchants",
+					"description" : "For a nominal fee, you can purchase artifacts from the Artifact Merchants.",
+					"cost" : {
+						"gold" : 10000
+					},
+					"type" : "artifactMerchant"
+				},
+				"special2" : {
+					"name" : "Magic University",
+					"description" : "At the Magic University, you can pay to learn any, or all, of the four schools of magic.",
+					"cost" : {
+						"gold" : 5000,
+						"ore" : 10,
+						"wood" : 10
+					}
+					"type" : "magicUniversity"
+				},
+				"horde1" : {
+					"name" : "Garden of Life",
+					"description" : "This structure increases weekly production of Pixies by 10 per week.",
+					"cost" : {
+						"gold" : 1000
+					}
+				},
+				"horde1Upgr" : {
+					"name" : "Garden of Life",
+					"description" : "This structure increases weekly production of Sprites 10 per week.",
+					"cost" : {
+						"gold" : 1000
+					}
+				},
+				"grail" : {
+					"name" : "Aurora Borealias",
+					"description" : "The presence of the Aurora Borealias increases weekly creature generation by 50%, provides your kingdom with an additional 5000 gold each day, and places all spells in your mage guild.",
+					"produce" : {
+						"gold" : 5000
+					}
+					"mode" : "grail"
+				},
+				"extraCapitol" : {
+					"id" : 29,
+					"mode" : "auto"
+				},
+				"extraCityHall" : {
+					"id" : 28,
+					"mode" : "auto"
+				},
+				"extraTownHall" : {
+					"id" : 27,
+					"mode" : "auto"
+				},
+				
+				"mageGuild1" : {
+					"name" : "Mage Guild Level 1"
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"cost" : {
+						"gold" : 2000,
+						"ore" : 5,
+						"wood" : 5
+					}
+				},
+				"mageGuild2" : {
+					"name" : "Mage Guild Level 2",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"cost" : {
+						"crystal" : 4,
+						"gems" : 4,
+						"gold" : 1000,
+						"mercury" : 4,
+						"ore" : 5,
+						"sulfur" : 4,
+						"wood" : 5
+					}
+				},
+				"mageGuild3" : {
+					"name" : "Mage Guild Level 3",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"cost" : {
+						"crystal" : 6,
+						"gems" : 6,
+						"gold" : 1000,
+						"mercury" : 6,
+						"ore" : 5,
+						"sulfur" : 6,
+						"wood" : 5
+					}
+				},
+				"mageGuild4" : {
+					"name" : "Mage Guild Level 4",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"cost" : {
+						"crystal" : 8,
+						"gems" : 8,
+						"gold" : 1000,
+						"mercury" : 8,
+						"ore" : 5,
+						"sulfur" : 8,
+						"wood" : 5
+					}
+				},
+				"mageGuild5" : {
+					"name" : "Mage Guild Level 5",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"cost" : {
+						"crystal" : 10,
+						"gems" : 10,
+						"gold" : 1000,
+						"mercury" : 10,
+						"ore" : 5,
+						"sulfur" : 10,
+						"wood" : 5
+					}
+				},
+				
 				"dwellingLvl1" : {
 					"name" : "Magic Lantern",
 					"description" : "The Magic Lantern allows you to recruit Pixies.",
@@ -115,6 +301,7 @@
 						"wood" : 10
 					}
 				},
+				
 				"dwellingUpLvl1" : {
 					"name" : "Upg. Magic Lantern",
 					"description" : "The Magic Pool allows you to recruit Sprites.",
@@ -177,190 +364,6 @@
 						"mercury" : 20,
 						"ore" : 10,
 						"wood" : 10
-					}
-				},
-				"extraCapitol" : {
-					"id" : 29,
-					"mode" : "auto"
-				},
-				"extraCityHall" : {
-					"id" : 28,
-					"mode" : "auto"
-				},
-				"extraTownHall" : {
-					"id" : 27,
-					"mode" : "auto"
-				},
-				"fort" : {
-					"name" : "Fort"
-					"description" : "The Fort provides your town with defensive walls.",
-					"cost" : {
-						"gold" : 5000,
-						"ore" : 20,
-						"wood" : 20
-					}
-				},
-				"grail" : {
-					"name" : "Aurora Borealias",
-					"description" : "The presence of the Aurora Borealias increases weekly creature generation by 50%, provides your kingdom with an additional 5000 gold each day, and places all spells in your mage guild.",
-					"produce" : {
-						"gold" : 5000
-					}
-					"mode" : "grail"
-				},
-				"horde1" : {
-					"name" : "Garden of Life",
-					"description" : "This structure increases weekly production of Pixies by 10 per week.",
-					"cost" : {
-						"gold" : 1000
-					}
-				},
-				"horde1Upgr" : {
-					"name" : "Garden of Life",
-					"description" : "This structure increases weekly production of Sprites 10 per week.",
-					"cost" : {
-						"gold" : 1000
-					}
-				},
-				"mageGuild1" : {
-					"name" : "Mage Guild Level 1"
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"cost" : {
-						"gold" : 2000,
-						"ore" : 5,
-						"wood" : 5
-					}
-				},
-				"mageGuild2" : {
-					"name" : "Mage Guild Level 2",
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"cost" : {
-						"crystal" : 4,
-						"gems" : 4,
-						"gold" : 1000,
-						"mercury" : 4,
-						"ore" : 5,
-						"sulfur" : 4,
-						"wood" : 5
-					}
-				},
-				"mageGuild3" : {
-					"name" : "Mage Guild Level 3",
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"cost" : {
-						"crystal" : 6,
-						"gems" : 6,
-						"gold" : 1000,
-						"mercury" : 6,
-						"ore" : 5,
-						"sulfur" : 6,
-						"wood" : 5
-					}
-				},
-				"mageGuild4" : {
-					"name" : "Mage Guild Level 4",
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"cost" : {
-						"crystal" : 8,
-						"gems" : 8,
-						"gold" : 1000,
-						"mercury" : 8,
-						"ore" : 5,
-						"sulfur" : 8,
-						"wood" : 5
-					}
-				},
-				"mageGuild5" : {
-					"name" : "Mage Guild Level 5",
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"cost" : {
-						"crystal" : 10,
-						"gems" : 10,
-						"gold" : 1000,
-						"mercury" : 10,
-						"ore" : 5,
-						"sulfur" : 10,
-						"wood" : 5
-					}
-				},
-				"marketplace" : {
-					"name" : "Marketplace",
-					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
-					"cost" : {
-						"gold" : 500,
-						"wood" : 5
-					}
-				},
-				"resourceSilo" : {
-					"name" : "Resource Silo",
-					"description" : "The Resource Silo provides you with an additional 1 Mercury each day.",
-					"cost" : {
-						"gold" : 5000,
-						"ore" : 5
-					},
-					"produce" : {
-						"mercury" : 1
-					}
-				},
-				"ship" : {
-					"name" : "Shipyard",
-					"description" : "The Shipyard allows you to purchase ships.",
-					"cost" : {
-						"gold" : 0
-					}
-				},
-				"shipyard" : {
-					"name" : "Shipyard",
-					"description" : "The Shipyard allows you to purchase ships.",
-					"cost" : {
-						"gold" : 2000,
-						"wood" : 20
-					}
-				},
-				"special1" : {
-					"name" : "Artifact Merchants",
-					"description" : "For a nominal fee, you can purchase artifacts from the Artifact Merchants.",
-					"cost" : {
-						"gold" : 10000
-					},
-					"type" : "artifactMerchant"
-				},
-				"special2" : {
-					"name" : "Magic University",
-					"description" : "At the Magic University, you can pay to learn any, or all, of the four schools of magic.",
-					"cost" : {
-						"gold" : 5000,
-						"ore" : 10,
-						"wood" : 10
-					}
-					"type" : "magicUniversity"
-				},
-				"tavern" : {
-					"name" : "Tavern",
-					"description" : "The Tavern increases morale for troops defending the city.",
-					"cost" : {
-						"gold" : 500,
-						"wood" : 5
-					}
-				},
-				"townHall" : {
-					"name" : "Town Hall",
-					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
-					"cost" : {
-						"gold" : 2500
-					},
-					"produce" : {
-						"gold" : 1000
-					}
-				},
-				"villageHall" : {
-					"name" : "Village Hall",
-					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
-					"cost" : {
-						"gold" : 1
-					},
-					"produce" : {
-						"gold" : 500
 					}
 				}
 			}

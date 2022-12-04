@@ -1,137 +1,120 @@
-
 {
-	"fortress" :
-	{
-		"town" :
-		{
-			"structures" :
-			{
-				"extraAnimation": 
-				{
+	"fortress" : {
+		"town" : {
+			"structures" : {
+				"extraAnimation": {
 					"animation" : "factions/fortress/townScreen/animation/TBFREXT2.def",
-					"x" : 372, "y" : 227 },
-				"mageGuild1":  
-				{
-					"animation" : "factions/fortress/townScreen/animation/TBFRMAGE.def",
-					"x" : 0, "y" : 200, "z" : -1,
-					"border" : "factions/fortress/townScreen/border/TOFMAG1A.png",
-					"area" : "factions/fortress/townScreen/area/TZFMAG1A.png"
+					"x" : 372, "y" : 227
 				},
-				"mageGuild2":  
-				{
-					"animation" : "factions/fortress/townScreen/animation/TBFRMAG2.def",
-					"x" : 0, "y" : 177, "z" : -1,
-					"border" : "factions/fortress/townScreen/border/TOFMAG2A.png",
-					"area" : "factions/fortress/townScreen/area/TZFMAG2A.png"
-				},
-				"mageGuild3":  
-				{
-					"animation" : "factions/fortress/townScreen/animation/TBFRMAG3.def",
-					"x" : 0, "y" : 135, "z" : -1,
-					"border" : "factions/fortress/townScreen/border/TOFMAG3A.png",
-					"area" : "factions/fortress/townScreen/area/TZFMAG3A.png"
-				},
-				"tavern":  
-				{
-					"animation" : "factions/fortress/townScreen/animation/TBFRTVRN.def",
-					"x" : 634, "y" : 219, "z" : 3, 
-					"border" : "factions/fortress/townScreen/border/TOFTAVA.png", 
-					"area" : "factions/fortress/townScreen/area/TZFTAVA.png" 
-				},
-				"shipyard":  
-				{
-					"animation" : "factions/fortress/townScreen/animation/TBFRDOCK.def",
-					"x" : 197, "y" : 294,
-					"border" : "factions/fortress/townScreen/border/TOFDCK2.png",
-					"area" : "factions/fortress/townScreen/area/TZFDCK2.png"
-				},
-				"fort":   
-				{
-					"animation" : "factions/fortress/townScreen/animation/TBFRCSTL.def",
-					"x" : 368, "y" : 118, "z" : -1, 
-					"border" : "factions/fortress/townScreen/border/TOFCAS1.png",
-					"area" : "factions/fortress/townScreen/area/TZFCAS1.png"
-				},
-				"citadel":  
-				{
-					"animation" : "factions/fortress/townScreen/animation/TBFRCAS2.def",
-					"x" : 368, "y" : 98, "z" : -1, 
-					"border" : "factions/fortress/townScreen/border/TOFCAS2.png",
-					"area" : "factions/fortress/townScreen/area/TZFCAS2.png"
-				},
-				"castle":  
-				{
-					"animation" : "factions/fortress/townScreen/animation/TBFRCAS3.def",
-					"x" : 368, "y" : 55, "z" : -1, 
-					"border" : "factions/fortress/townScreen/border/TOFCAS3.png",
-					"area" : "factions/fortress/townScreen/area/TZFCAS3.png"
-				},
-				"villageHall": 
-				{
+					
+				"villageHall": {
 					"animation" : "factions/fortress/townScreen/animation/TBFRHALL.def",
 					"x" : 166, "y" : 128, "z" : 1, 
 					"border" : "factions/fortress/townScreen/border/TOFHAL1.png",
 					"area" : "factions/fortress/townScreen/area/TZFHAL1.png"
 				},
-				"townHall":  
-				{
+				"townHall": {
 					"animation" : "factions/fortress/townScreen/animation/TBFRHAL2.def",
 					"x" : 166, "y" : 97, "z" : 1, 
 					"border" : "factions/fortress/townScreen/border/TOFHAL2.png",
 					"area" : "factions/fortress/townScreen/area/TZFHAL2.png"
 				},
-				"cityHall":  
-				{
+				"cityHall": {
 					"animation" : "factions/fortress/townScreen/animation/TBFRHAL3.def",
 					"x" : 166, "y" : 51, "z" : 1, 
 					"border" : "factions/fortress/townScreen/border/TOFHAL3.png",
 					"area" : "factions/fortress/townScreen/area/TZFHAL3.png"
 				},
-				"capitol":  
-				{
+				"capitol": {
 					"animation" : "factions/fortress/townScreen/animation/TBFRHAL4.def",
 					"x" : 166, "y" : 2, "z" : 1, 
 					"border" : "factions/fortress/townScreen/border/TOFHAL4.png",
 					"area" : "factions/fortress/townScreen/area/TZFHAL4.png"
 				},
-				"marketplace": 
-				{
-					"animation" : "factions/fortress/townScreen/animation/TBFRMARK.def",
-					"x" : 382, "y" : 219, "z" : 4, 
-					"border" : "factions/fortress/townScreen/border/TOFMRKAA.png",
-					"area" : "factions/fortress/townScreen/area/TZFMRKAA.png"
+				
+				"fort": {
+					"animation" : "factions/fortress/townScreen/animation/TBFRCSTL.def",
+					"x" : 368, "y" : 118, "z" : -1, 
+					"border" : "factions/fortress/townScreen/border/TOFCAS1.png",
+					"area" : "factions/fortress/townScreen/area/TZFCAS1.png"
 				},
-				"resourceSilo": 
-				{
-					"animation" : "factions/fortress/townScreen/animation/TBFRSILO.def",
-					"x" : 448, "y" : 210, "z" : 2,
-					"border" : "factions/fortress/townScreen/border/TOFMRK2A.png",
-					"area" : "factions/fortress/townScreen/area/TZFMRK2A.png"
+				"citadel": {
+					"animation" : "factions/fortress/townScreen/animation/TBFRCAS2.def",
+					"x" : 368, "y" : 98, "z" : -1, 
+					"border" : "factions/fortress/townScreen/border/TOFCAS2.png",
+					"area" : "factions/fortress/townScreen/area/TZFCAS2.png"
 				},
-				"blacksmith":  
-				{
+				"castle": {
+					"animation" : "factions/fortress/townScreen/animation/TBFRCAS3.def",
+					"x" : 368, "y" : 55, "z" : -1, 
+					"border" : "factions/fortress/townScreen/border/TOFCAS3.png",
+					"area" : "factions/fortress/townScreen/area/TZFCAS3.png"
+				},
+				
+				"tavern": {
+					"animation" : "factions/fortress/townScreen/animation/TBFRTVRN.def",
+					"x" : 634, "y" : 219, "z" : 3, 
+					"border" : "factions/fortress/townScreen/border/TOFTAVA.png", 
+					"area" : "factions/fortress/townScreen/area/TZFTAVA.png" 
+				},
+				"blacksmith": {
 					"animation" : "factions/fortress/townScreen/animation/TBFRBLAK.def",
 					"x" : 360, "y" : 160, 
 					"border" : "factions/fortress/townScreen/border/TOFAIDA.png",
 					"area" : "factions/fortress/townScreen/area/TZFAIDA.png"
 				},
-				"special1":  
-				{
+				"marketplace": {
+					"animation" : "factions/fortress/townScreen/animation/TBFRMARK.def",
+					"x" : 382, "y" : 219, "z" : 4, 
+					"border" : "factions/fortress/townScreen/border/TOFMRKAA.png",
+					"area" : "factions/fortress/townScreen/area/TZFMRKAA.png"
+				},
+				"resourceSilo": {
+					"animation" : "factions/fortress/townScreen/animation/TBFRSILO.def",
+					"x" : 448, "y" : 210, "z" : 2,
+					"border" : "factions/fortress/townScreen/border/TOFMRK2A.png",
+					"area" : "factions/fortress/townScreen/area/TZFMRK2A.png"
+				},
+				"shipyard": {
+					"animation" : "factions/fortress/townScreen/animation/TBFRDOCK.def",
+					"x" : 197, "y" : 294,
+					"border" : "factions/fortress/townScreen/border/TOFDCK2.png",
+					"area" : "factions/fortress/townScreen/area/TZFDCK2.png"
+				},
+				"ship": {
+					"animation" : "factions/fortress/townScreen/animation/TBFRBOAT.def",
+					"x" : 197, "y" : 294, "z" : 1, 
+					"border" : "factions/fortress/townScreen/border/TOFDCK1.png", 
+					"area" : "factions/fortress/townScreen/area/TZFDCK1.png",
+					"hidden" : true
+				},
+
+				"special1": {
 					"animation" : "factions/fortress/townScreen/animation/TBFRSPEC.def",
 					"x" : 703, "y" : 36, 
 					"border" : "factions/fortress/townScreen/border/TOFCAGE.png",
 					"area" : "factions/fortress/townScreen/area/TZFCAGE.png"
 				},
-				"horde1":  
-				{
+				"special2": {
+					"animation" : "factions/fortress/townScreen/animation/TBFREXT0.def",
+					"x" : 341, "y" : 174, 
+					"border" : "factions/fortress/townScreen/border/TOFCASD.png",
+					"area" : "factions/fortress/townScreen/area/TZFCASD.png"
+				},
+				"special3": {
+					"animation" : "factions/fortress/townScreen/animation/TBFREXT1.def",
+					"x" : 349, "y" : 79, "z" : -2, 
+					"border" : "factions/fortress/townScreen/border/TOFCASA.png", 
+					"area" : "factions/fortress/townScreen/area/TZFCASA.png"
+				},
+				"horde1": {
 					"animation" : "factions/fortress/townScreen/animation/TBFRHRD1.def",
 					"x" : 641, "y" : 121, "z" : 1, 
 					"border" : "factions/fortress/townScreen/border/TOFGNL1H.png",
 					"area" : "factions/fortress/townScreen/area/TZFGNL1H.png",
 					"hidden" : true
 				},
-				"horde1Upgr":  
-				{
+				"horde1Upgr": {
 					"animation" : "factions/fortress/townScreen/animation/TBFRHRD2.def",
 					"x" : 641, "y" : 68, "z" : 1, 
 					"border" : "factions/fortress/townScreen/border/TOFGNL2H.png",
@@ -139,133 +122,116 @@
 					"hidden" : true,
 					"builds" : "horde1"
 				},
-				"ship":   
-				{
-					"animation" : "factions/fortress/townScreen/animation/TBFRBOAT.def",
-					"x" : 197, "y" : 294, "z" : 1, 
-					"border" : "factions/fortress/townScreen/border/TOFDCK1.png", 
-					"area" : "factions/fortress/townScreen/area/TZFDCK1.png",
-					"hidden" : true
-				},
-				"special2":  
-				{
-					"animation" : "factions/fortress/townScreen/animation/TBFREXT0.def",
-					"x" : 341, "y" : 174, 
-					"border" : "factions/fortress/townScreen/border/TOFCASD.png",
-					"area" : "factions/fortress/townScreen/area/TZFCASD.png"
-				},
-				"special3":  
-				{
-					"animation" : "factions/fortress/townScreen/animation/TBFREXT1.def",
-					"x" : 349, "y" : 79, "z" : -2, 
-					"border" : "factions/fortress/townScreen/border/TOFCASA.png", 
-					"area" : "factions/fortress/townScreen/area/TZFCASA.png"
-				},
-				"grail":  
-				{
+				"grail": {
 					"animation" : "factions/fortress/townScreen/animation/TBFRHOLY.def",
 					"x" : 468, "y" : 260, "z" : 5, 
 					"border" : "factions/fortress/townScreen/border/TOFHLYAA.png",
 					"area" : "factions/fortress/townScreen/area/TZFHLYAA.png"
 				},
-				"extraCapitol": 
-				{
+				"extraCapitol": {
 					"animation" : "factions/fortress/townScreen/animation/TBFRWTRW.def",
 					"x" : 320, "y" : 141
 				},
-				"dwellingLvl1": 
-				{
+				
+				"mageGuild1": {
+					"animation" : "factions/fortress/townScreen/animation/TBFRMAGE.def",
+					"x" : 0, "y" : 200, "z" : -1,
+					"border" : "factions/fortress/townScreen/border/TOFMAG1A.png",
+					"area" : "factions/fortress/townScreen/area/TZFMAG1A.png"
+				},
+				"mageGuild2": {
+					"animation" : "factions/fortress/townScreen/animation/TBFRMAG2.def",
+					"x" : 0, "y" : 177, "z" : -1,
+					"border" : "factions/fortress/townScreen/border/TOFMAG2A.png",
+					"area" : "factions/fortress/townScreen/area/TZFMAG2A.png"
+				},
+				"mageGuild3": {
+					"animation" : "factions/fortress/townScreen/animation/TBFRMAG3.def",
+					"x" : 0, "y" : 135, "z" : -1,
+					"border" : "factions/fortress/townScreen/border/TOFMAG3A.png",
+					"area" : "factions/fortress/townScreen/area/TZFMAG3A.png"
+				},
+				
+				"dwellingLvl1": {
 					"animation" : "factions/fortress/townScreen/animation/TBFRDW_0.def",
 					"x" : 641, "y" : 168, "z" : 1,
 					"border" : "factions/fortress/townScreen/border/TOFGNL1.png",
 					"area" : "factions/fortress/townScreen/area/TZFGNL1.png"
 				},
-				"dwellingLvl2": 
-				{
+				"dwellingLvl2": {
 					"animation" : "factions/fortress/townScreen/animation/TBFRDW_1.def",
 					"x" : 141, "y" : 178,
 					"border" : "factions/fortress/townScreen/border/TOFLIZ1.png",
 					"area" : "factions/fortress/townScreen/area/TZFLIZ1.png"
 				},
-				"dwellingLvl3": 
-				{
+				"dwellingLvl3": {
 					"animation" : "factions/fortress/townScreen/animation/TBFRDW_3.def",
 					"x" : 192, "y" : 85,
 					"border" : "factions/fortress/townScreen/border/TOFFLY1A.png",
 					"area" : "factions/fortress/townScreen/area/TZFFLY1A.png"
 				},
-				"dwellingLvl4": 
-				{
+				"dwellingLvl4": {
 					"animation" : "factions/fortress/townScreen/animation/TBFRDW_4.def",
 					"x" : 0, "y" : 292, 
 					"border" : "factions/fortress/townScreen/border/TOFBAS1.png", 
 					"area" : "factions/fortress/townScreen/area/TZFBAS1.png"
 				},
-				"dwellingLvl5": 
-				{
+				"dwellingLvl5": {
 					"animation" : "factions/fortress/townScreen/animation/TBFRDW_2.def",
 					"x" : 15, "y" : 127, "z" : -2,
 					"border" : "factions/fortress/townScreen/border/TOFGOR1.png",
 					"area" : "factions/fortress/townScreen/area/TZFGOR1.png"
 				},
-				"dwellingLvl6": 
-				{
+				"dwellingLvl6": {
 					"animation" : "factions/fortress/townScreen/animation/TBFRDW_5.def",
 					"x" : 0, "y" : 4, 
 					"border" : "factions/fortress/townScreen/border/TOFWYV1.png", 
 					"area" : "factions/fortress/townScreen/area/TZFWYV1.png"
 				},
-				"dwellingLvl7": 
-				{
+				"dwellingLvl7": {
 					"animation" : "factions/fortress/townScreen/animation/TBFRDW_6.def",
 					"x" : 612, "y" : 291, "z" : 5,
 					"border" : "factions/fortress/townScreen/border/TOFHYD1A.png",
 					"area" : "factions/fortress/townScreen/area/TZFHYD1A.png"
 				},
-				"dwellingUpLvl1": 
-				{
+				
+				"dwellingUpLvl1": {
 					"animation" : "factions/fortress/townScreen/animation/TBFRUP_0.def",
 					"x" : 641, "y" : 107, "z" : 1,
 					"border" : "factions/fortress/townScreen/border/TOFGNL2.png",
 					"area" : "factions/fortress/townScreen/area/TZFGNL2.png"
 				},
-				"dwellingUpLvl2": 
-				{
+				"dwellingUpLvl2": {
 					"animation" : "factions/fortress/townScreen/animation/TBFRUP_1.def",
 					"x" : 125, "y" : 163, 
 					"border" : "factions/fortress/townScreen/border/TOFLIZ2.png", 
 					"area" : "factions/fortress/townScreen/area/TZFLIZ2.png"
 				},
-				"dwellingUpLvl3": 
-				{
+				"dwellingUpLvl3": {
 					"animation" : "factions/fortress/townScreen/animation/TBFRUP_3.def",
 					"x" : 159, "y" : 19,
 					"border" : "factions/fortress/townScreen/border/TOFFLY2A.png",
 					"area" : "factions/fortress/townScreen/area/TZFFLY2A.png"
 				},
-				"dwellingUpLvl4": 
-				{
+				"dwellingUpLvl4": {
 					"animation" : "factions/fortress/townScreen/animation/TBFRUP_4.def",
 					"x" : 0, "y" : 257, 
 					"border" : "factions/fortress/townScreen/border/TOFBAS2.png", 
 					"area" : "factions/fortress/townScreen/area/TZFBAS2.png"
 				},
-				"dwellingUpLvl5": 
-				{
+				"dwellingUpLvl5": {
 					"animation" : "factions/fortress/townScreen/animation/TBFRUP_2.def",
 					"x" : 15, "y" : 69, "z" : -2,
 					"border" : "factions/fortress/townScreen/border/TOFGOR2.png", 
 					"area" : "factions/fortress/townScreen/area/TZFGOR2.png"
 				},
-				"dwellingUpLvl6": 
-				{
+				"dwellingUpLvl6": {
 					"animation" : "factions/fortress/townScreen/animation/TBFRUP_5.def",
 					"x" : 0, "y" : 4,
 					"border" : "factions/fortress/townScreen/border/TOFWYV2.png",
 					"area" : "factions/fortress/townScreen/area/TZFWYV2.png"
 				},
-				"dwellingUpLvl7": 
-				{
+				"dwellingUpLvl7": {
 					"animation" : "factions/fortress/townScreen/animation/TBFRUP_6.def",
 					"x" : 587, "y" : 263, "z" : 5, 
 					"border" : "factions/fortress/townScreen/border/TOFHYD2A.png",

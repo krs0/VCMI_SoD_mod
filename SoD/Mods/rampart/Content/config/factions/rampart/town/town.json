@@ -1,8 +1,6 @@
 {
-	"rampart" : 
-	{
-		"town" :
-		{
+	"rampart" : {
+		"town" : {
 			"musicTheme" : "factions/rampart/Rampart.mp3",
 			"defaultTavern" : 5,
 
@@ -12,8 +10,7 @@
 			"hallBackground": "factions/rampart/townScreen/TPTHBKRM.png",
 			"tavernVideo" : "SoD/TAVERN.BIK",
 
-			"creatures" :
-			[
+			"creatures" : [
 				["centaur", "centaurCaptain"],
 				["dwarf", "battleDwarf"],
 				["woodElf", "grandElf"],
@@ -23,8 +20,7 @@
 				["greenDragon", "goldDragon"]
 			],
 
-			"hallSlots":
-			[
+			"hallSlots": [
 				[ [ "villageHall", "townHall", "cityHall", "capitol" ], [ "fort", "citadel", "castle" ], [ "tavern" ], [ "blacksmith" ] ],
 				[ [ "marketplace", "resourceSilo" ], [ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4", "mageGuild5" ], [ "special1", "special2" ] ],
 				[ [ "special3" ], [ "horde2", "horde2Upgr" ], [ "horde1", "horde1Upgr" ] ],
@@ -32,36 +28,38 @@
 				[ [ "dwellingLvl5", "dwellingUpLvl5" ], [ "dwellingLvl6", "dwellingUpLvl6" ], [ "dwellingLvl7", "dwellingUpLvl7" ] ]
 			],
 			
-			"buildings" :
-			{
-				"mageGuild1":     { "id" : 0 },
-				"mageGuild2":     { "id" : 1,  "upgrades" : "mageGuild1" },
-				"mageGuild3":     { "id" : 2,  "upgrades" : "mageGuild2" },
-				"mageGuild4":     { "id" : 3,  "upgrades" : "mageGuild3" },
-				"mageGuild5":     { "id" : 4,  "upgrades" : "mageGuild4" },
-				"tavern":         { "id" : 5 },
-				"fort":           { "id" : 7 },
-				"citadel":        { "id" : 8,  "upgrades" : "fort" },
-				"castle":         { "id" : 9,  "upgrades" : "citadel" },
+			"buildings" : {
 				"villageHall":    { "id" : 10 },
 				"townHall":       { "id" : 11, "upgrades" : "villageHall", "requires" : [ "tavern" ] },
 				"cityHall":       { "id" : 12, "upgrades" : "townHall", "requires" : [ "allOf", [ "mageGuild1" ], [ "marketplace" ], [ "blacksmith" ] ] },
 				"capitol":        { "id" : 13, "upgrades" : "cityHall", "requires" : [ "castle" ] },
+				
+				"fort":           { "id" : 7 },
+				"citadel":        { "id" : 8,  "upgrades" : "fort" },
+				"castle":         { "id" : 9,  "upgrades" : "citadel" },
+				
+				"tavern":         { "id" : 5 },
+				"blacksmith":     { "id" : 16 },
 				"marketplace":    { "id" : 14 },
 				"resourceSilo":   { "id" : 15, "requires" : [ "marketplace" ] },
-				"blacksmith":     { "id" : 16 },
 
 				"special1":       { "id" : 17 },
-				"horde1":         { "id" : 18, "upgrades" : "dwellingLvl2" },
-				"horde1Upgr":     { "id" : 19, "upgrades" : "dwellingUpLvl2", "requires" : [ "horde1" ] },
 				"special2":       { "id" : 21, "requires" : [ "special1" ] },
 				"special3":       { "id" : 22, "requires" : [ "horde1" ] },
+				"horde1":         { "id" : 18, "upgrades" : "dwellingLvl2" },
+				"horde1Upgr":     { "id" : 19, "upgrades" : "dwellingUpLvl2", "requires" : [ "horde1" ] },
 				"horde2":         { "id" : 24, "upgrades" : "dwellingLvl5" },
 				"horde2Upgr":     { "id" : 25, "upgrades" : "dwellingUpLvl5", "requires" : [ "horde2" ] },
 				"grail":          { "id" : 26 },
 				"extraTownHall":  { "id" : 27, "requires" : [ "townHall" ] },
 				"extraCityHall":  { "id" : 28, "requires" : [ "cityHall" ] },
 				"extraCapitol":   { "id" : 29, "requires" : [ "capitol" ] },
+				
+				"mageGuild1":     { "id" : 0 },
+				"mageGuild2":     { "id" : 1,  "upgrades" : "mageGuild1" },
+				"mageGuild3":     { "id" : 2,  "upgrades" : "mageGuild2" },
+				"mageGuild4":     { "id" : 3,  "upgrades" : "mageGuild3" },
+				"mageGuild5":     { "id" : 4,  "upgrades" : "mageGuild4" },
 
 				"dwellingLvl1":   { "id" : 30, "requires" : [ "fort" ] },
 				"dwellingLvl2":   { "id" : 31, "requires" : [ "dwellingLvl1" ] },
@@ -91,8 +89,7 @@
 			"primaryResource" : "crystal",
 			"warMachine" : "firstAidTent",
 			"buildingsIcons" : "factions/rampart/HALLRAMP.DEF",
-			"icons" :
-			{
+			"icons" : {
 				"village" : {
 					"normal" : {
 						"small" : "factions/rampart/icons/ITPA_0_22.png",
@@ -115,19 +112,17 @@
 				}
 			},
 
-			"mapObject" :
-			{
+			"mapObject" : {
 				"templates" : {
-					"castle" :  { "animation" : "factions/rampart/adventureMap/town/AVCramx0.def" },
-					"citadel" : { "animation" : "factions/rampart/adventureMap/town/AVCramx0.def" },
 					"fort"    : { "animation" : "factions/rampart/adventureMap/town/AVCramx0.def" },
+					"citadel" : { "animation" : "factions/rampart/adventureMap/town/AVCramx0.def" },
+					"castle" :  { "animation" : "factions/rampart/adventureMap/town/AVCramx0.def" },
 					"village" : { "animation" : "factions/rampart/adventureMap/town/AVCRAMP0.DEF" },
 					"capitol" : { "animation" : "factions/rampart/adventureMap/town/AVCRAMZ0.DEF" }
 				}
 			},
 	
-			"tavern" :
-			{
+			"tavern" : {
 				"knight"       : 6,
 				"cleric"       : 6,
 				"ranger"       : 6,
