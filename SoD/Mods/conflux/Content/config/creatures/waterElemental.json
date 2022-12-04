@@ -18,8 +18,8 @@
 		"attack" : 8,
 		"defense" : 10,
 		"damage" : {
-			"max" : 7,
-			"min" : 3
+			"min" : 3,
+			"max" : 7
 		},
 		"doubleWide" : true,
 		"growth" : 6,
@@ -27,44 +27,44 @@
 		"aiValue" : 315,
 		"fightValue" : 315,
 		"advMapAmount" : {
-			"max" : 25,
-			"min" : 12
+			"min" : 12,
+			"max" : 25
 		},
 		"abilities" : {
-			"armageddonVulnerablity" : {
-				"subtype" : "spell.armageddon",
-				"type" : "MORE_DAMAGE_FROM_SPELL",
-				"val" : 100
-			},
-			"fireShieldVulnerablity" : {
-				"subtype" : "spell.fireShield",
-				"type" : "MORE_DAMAGE_FROM_SPELL",
-				"val" : 100
-			},
-			"fireWallVulnerablity" : {
-				"subtype" : "spell.fireWall",
-				"type" : "MORE_DAMAGE_FROM_SPELL",
-				"val" : 100
-			},
-			"fireballVulnerablity" : {
-				"subtype" : "spell.fireball",
-				"type" : "MORE_DAMAGE_FROM_SPELL",
-				"val" : 100
+			"nonLiving" : {
+				"type" : "NON_LIVING"
 			},
 			"immuneToMind" : {
 				"type" : "MIND_IMMUNITY"
 			},
 			"immuneToWater" : {
-				"subtype" : 2,
-				"type" : "WATER_IMMUNITY"
+				"type" : "WATER_IMMUNITY",
+				"subtype" : 2
 			},
-			"infernoVulnerablity" : {
-				"subtype" : "spell.inferno",
+			"fireShieldVulnerablity" : {
 				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.fireShield",
 				"val" : 100
 			},
-			"nonLiving" : {
-				"type" : "NON_LIVING"
+			"fireWallVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.fireWall",
+				"val" : 100
+			},
+			"fireballVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.fireball",
+				"val" : 100
+			},
+			"infernoVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.inferno",
+				"val" : 100
+			},
+			"armageddonVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.armageddon",
+				"val" : 100
 			}
 		},
 		"abilityText" : "Immune to ice.\nVulnerable to fire.",

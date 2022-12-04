@@ -15,8 +15,8 @@
 		"attack" : 25,
 		"defense" : 25,
 		"damage" : {
-			"max" : 50,
-			"min" : 40
+			"min" : 40,
+			"max" : 50
 		},
 		"doubleWide" : true,
 		"growth" : 1,
@@ -24,15 +24,15 @@
 		"aiValue" : 8721,
 		"fightValue" : 6783,
 		"advMapAmount" : {
-			"max" : 8,
-			"min" : 3
+			"min" : 3,
+			"max" : 8
 		},
 		"abilities" : {
-			"FLYING_ARMY" : {
-				"type" : "FLYING"
-			},
 			"KING_1" : {
 				"type" : "KING1"
+			},
+			"FLYING_ARMY" : {
+				"type" : "FLYING"
 			},
 			"dragon" : {
 				"type" : "DRAGON_NATURE"
@@ -40,19 +40,19 @@
 			"fireBreath" : {
 				"type" : "TWO_HEX_ATTACK_BREATH"
 			},
-			"hateGiants" : {
-				"subtype" : "creature.giant",
-				"type" : "HATE",
-				"val" : 50
-			},
-			"hateTitans" : {
-				"subtype" : "creature.titan",
-				"type" : "HATE",
-				"val" : 50
-			},
 			"spellImmunity" : {
 				"type" : "LEVEL_SPELL_IMMUNITY",
 				"val" : 5
+			}
+			"hateGiants" : {
+				"type" : "HATE",
+				"subtype" : "creature.giant",
+				"val" : 50
+			},
+			"hateTitans" : {
+				"type" : "HATE",
+				"subtype" : "creature.titan",
+				"val" : 50
 			}
 		},
 		"abilityText" : "Immune to all spells.",

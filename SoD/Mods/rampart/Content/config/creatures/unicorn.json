@@ -15,8 +15,8 @@
 		"attack" : 15,
 		"defense" : 14,
 		"damage" : {
-			"max" : 22,
-			"min" : 18
+			"min" : 18,
+			"max" : 22
 		},
 		"doubleWide" : true,
 		"growth" : 2,
@@ -24,13 +24,13 @@
 		"aiValue" : 1806,
 		"fightValue" : 1548,
 		"advMapAmount" : {
-			"max" : 12,
-			"min" : 5
+			"min" : 5,
+			"max" : 12
 		},
 		"abilities" : {
 			"blinds" : {
-				"subtype" : "spell.blind",
 				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.blind",
 				"val" : 20
 			},
 			"spellResistAura" : {

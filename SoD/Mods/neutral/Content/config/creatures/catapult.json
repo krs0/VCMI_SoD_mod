@@ -15,8 +15,8 @@
 		"attack" : 10,
 		"defense" : 10,
 		"damage" : {
-			"max" : 0,
-			"min" : 0
+			"min" : 0,
+			"max" : 0
 		},
 		"shots" : 24,
 		"growth" : 0,
@@ -24,8 +24,8 @@
 		"aiValue" : 500,
 		"fightValue" : 10,
 		"advMapAmount" : {
-			"max" : 0,
-			"min" : 0
+			"min" : 0,
+			"max" : 0
 		},
 		"abilities" : {
 			"CATAPULT" : {

@@ -15,8 +15,8 @@
 		"attack" : 16,
 		"defense" : 16,
 		"damage" : {
-			"max" : 30,
-			"min" : 15
+			"min" : 15,
+			"max" : 30
 		},
 		"doubleWide" : true,
 		"growth" : 2,
@@ -24,16 +24,16 @@
 		"aiValue" : 2087,
 		"fightValue" : 1753,
 		"advMapAmount" : {
-			"max" : 12,
-			"min" : 5
+			"min" : 5,
+			"max" : 12
 		},
 		"abilities" : {
 			"IS_UNDEAD" : {
 				"type" : "UNDEAD"
 			},
 			"curses" : {
-				"subtype" : "spell.curse",
 				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.curse",
 				"val" : 20
 			}
 		},

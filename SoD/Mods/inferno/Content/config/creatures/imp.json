@@ -15,16 +15,16 @@
 		"attack" : 2,
 		"defense" : 3,
 		"damage" : {
-			"max" : 2,
-			"min" : 1
+			"min" : 1,
+			"max" : 2
 		},
 		"growth" : 15,
 		"horde" : 8,
 		"aiValue" : 50,
 		"fightValue" : 50,
 		"advMapAmount" : {
-			"max" : 50,
-			"min" : 20
+			"min" : 20,
+			"max" : 50
 		},
 		"abilityText" : "",
 		"graphics" : {

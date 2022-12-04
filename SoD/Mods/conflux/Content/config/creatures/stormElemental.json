@@ -14,8 +14,8 @@
 		"attack" : 9,
 		"defense" : 9,
 		"damage" : {
-			"max" : 8,
-			"min" : 2
+			"min" : 2,
+			"max" : 8
 		},
 		"shots" : 24,
 		"spellPoints" : 3,
@@ -25,50 +25,50 @@
 		"aiValue" : 486,
 		"fightValue" : 324,
 		"advMapAmount" : {
-			"max" : 12,
-			"min" : 6
+			"min" : 6,
+			"max" : 12
 		},
 		"abilities" : {
-			"IMMUNE_TO_MIND_SPELLS" : {
-				"type" : "MIND_IMMUNITY"
+			"nonLiving" : {
+				"type" : "NON_LIVING"
 			},
 			"SHOOTING_ARMY" : {
 				"type" : "SHOOTER"
 			},
-			"armageddonVulnerablity" : {
-				"subtype" : "spell.armageddon",
-				"type" : "MORE_DAMAGE_FROM_SPELL",
-				"val" : 100
-			},
-			"chainLightingVulnerablity" : {
-				"subtype" : "spell.chainLightning",
-				"type" : "MORE_DAMAGE_FROM_SPELL",
-				"val" : 100
-			},
-			"lightingVulnerablity" : {
-				"subtype" : "spell.lightningBolt",
-				"type" : "MORE_DAMAGE_FROM_SPELL",
-				"val" : 100
-			},
-			"meteorShowerImmunity" : {
-				"subtype" : "spell.meteorShower",
-				"type" : "SPELL_IMMUNITY"
-			},
-			"nonLiving" : {
-				"type" : "NON_LIVING"
+			"spellcaster" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.protectAir",
+				"val" : 2
+			}
+			"spellPower" : {
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 6
 			},
 			"spellPoints" : {
 				"type" : "CASTS",
 				"val" : 3
 			},
-			"spellPower" : {
-				"type" : "CREATURE_ENCHANT_POWER",
-				"val" : 6
+			"IMMUNE_TO_MIND_SPELLS" : {
+				"type" : "MIND_IMMUNITY"
 			},
-			"spellcaster" : {
-				"subtype" : "spell.protectAir",
-				"type" : "SPELLCASTER",
-				"val" : 2
+			"meteorShowerImmunity" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.meteorShower"
+			},
+			"lightingVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.lightningBolt",
+				"val" : 100
+			},
+			"chainLightingVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.chainLightning",
+				"val" : 100
+			},
+			"armageddonVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.armageddon",
+				"val" : 100
 			}
 		},
 		"abilityText" : "No melee penalty.  Lightning and firestorm vulnerability.",

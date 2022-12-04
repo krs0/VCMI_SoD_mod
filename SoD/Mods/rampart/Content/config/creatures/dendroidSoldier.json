@@ -14,21 +14,21 @@
 		"attack" : 9,
 		"defense" : 12,
 		"damage" : {
-			"max" : 14,
-			"min" : 10
+			"min" : 10,
+			"max" : 14
 		},
 		"growth" : 3,
 		"horde" : 2,
 		"aiValue" : 803,
 		"fightValue" : 765,
 		"advMapAmount" : {
-			"max" : 12,
-			"min" : 8
+			"min" : 8,
+			"max" : 12
 		},
 		"abilities" : {
 			"binds" : {
-				"subtype" : "spell.bind",
 				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.bind",
 				"val" : 100
 			}
 		},

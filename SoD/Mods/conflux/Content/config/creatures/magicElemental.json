@@ -14,20 +14,20 @@
 		"attack" : 15,
 		"defense" : 13,
 		"damage" : {
-			"max" : 25,
-			"min" : 15
+			"min" : 15,
+			"max" : 25
 		},
 		"growth" : 2,
 		"horde" : 0,
 		"aiValue" : 2012,
 		"fightValue" : 1724,
 		"advMapAmount" : {
-			"max" : 12,
-			"min" : 8
+			"min" : 8,
+			"max" : 12
 		},
 		"abilities" : {
-			"IMMUNE_TO_MIND_SPELLS" : {
-				"type" : "MIND_IMMUNITY"
+			"nonLiving" : {
+				"type" : "NON_LIVING"
 			},
 			"MULTI_HEADED" : {
 				"type" : "ATTACKS_ALL_ADJACENT"
@@ -35,13 +35,13 @@
 			"const_free_attack" : {
 				"type" : "BLOCKS_RETALIATION"
 			},
+			"IMMUNE_TO_MIND_SPELLS" : {
+				"type" : "MIND_IMMUNITY"
+			},
 			"magicImmunity" : {
 				"type" : "LEVEL_SPELL_IMMUNITY",
 				"val" : 5
 			},
-			"nonLiving" : {
-				"type" : "NON_LIVING"
-			}
 		},
 		"abilityText" : "Attacks all adjacent enemies w/o retaliation. Spell immunity.",
 		"graphics" : {

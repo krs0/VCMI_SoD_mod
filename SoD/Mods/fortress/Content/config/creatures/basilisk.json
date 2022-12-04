@@ -15,8 +15,8 @@
 		"attack" : 11,
 		"defense" : 11,
 		"damage" : {
-			"max" : 10,
-			"min" : 6
+			"min" : 6,
+			"max" : 10
 		},
 		"doubleWide" : true,
 		"growth" : 4,
@@ -24,13 +24,13 @@
 		"aiValue" : 552,
 		"fightValue" : 506,
 		"advMapAmount" : {
-			"max" : 16,
-			"min" : 8
+			"min" : 8,
+			"max" : 16
 		},
 		"abilities" : {
 			"petrify" : {
-				"subtype" : "spell.stoneGaze",
 				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.stoneGaze",
 				"val" : 20
 			}
 		},

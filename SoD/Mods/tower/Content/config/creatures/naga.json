@@ -15,8 +15,8 @@
 		"attack" : 16,
 		"defense" : 13,
 		"damage" : {
-			"max" : 20,
-			"min" : 20
+			"min" : 20,
+			"max" : 20
 		},
 		"doubleWide" : true,
 		"growth" : 2,
@@ -24,8 +24,8 @@
 		"aiValue" : 2016,
 		"fightValue" : 2016,
 		"advMapAmount" : {
-			"max" : 12,
-			"min" : 5
+			"min" : 5,
+			"max" : 12
 		},
 		"abilities" : {
 			"noRetaliation" : {

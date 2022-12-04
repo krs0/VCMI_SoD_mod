@@ -16,16 +16,16 @@
 		"attack" : 19,
 		"defense" : 16,
 		"damage" : {
-			"max" : 60,
-			"min" : 40
+			"min" : 40,
+			"max" : 60
 		},
 		"growth" : 1,
 		"horde" : 0,
 		"aiValue" : 3718,
 		"fightValue" : 3146,
 		"advMapAmount" : {
-			"max" : 10,
-			"min" : 4
+			"min" : 4,
+			"max" : 10
 		},
 		"abilities" : {
 			"KING_3" : {

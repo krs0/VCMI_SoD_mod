@@ -14,16 +14,16 @@
 		"attack" : 16,
 		"defense" : 14,
 		"damage" : {
-			"max" : 24,
-			"min" : 16
+			"min" : 16,
+			"max" : 24
 		},
 		"growth" : 2,
 		"horde" : 0,
 		"aiValue" : 1848,
 		"fightValue" : 1584,
 		"advMapAmount" : {
-			"max" : 10,
-			"min" : 5
+			"min" : 5,
+			"max" : 10
 		},
 		"abilities" : {
 			"canFly" : {
@@ -33,19 +33,19 @@
 				"type" : "FIRE_SHIELD",
 				"val" : 20
 			},
+			"immuneToFire" : {
+				"type" : "FIRE_IMMUNITY",
+				"subtype" : 0
+			},
 			"hateGenies" : {
-				"subtype" : "creature.genie",
 				"type" : "HATE",
+				"subtype" : "creature.genie",
 				"val" : 50
 			},
 			"hateMasterGenies" : {
-				"subtype" : "creature.masterGenie",
 				"type" : "HATE",
+				"subtype" : "creature.masterGenie",
 				"val" : 50
-			},
-			"immuneToFire" : {
-				"subtype" : 0,
-				"type" : "FIRE_IMMUNITY"
 			}
 		},
 		"abilityText" : "Fire shield.  Immune to fire.  Hates Genies.",

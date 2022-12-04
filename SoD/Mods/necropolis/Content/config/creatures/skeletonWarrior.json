@@ -14,16 +14,16 @@
 		"attack" : 6,
 		"defense" : 6,
 		"damage" : {
-			"max" : 3,
-			"min" : 1
+			"min" : 1,
+			"max" : 3
 		},
 		"growth" : 12,
 		"horde" : 6,
 		"aiValue" : 85,
 		"fightValue" : 85,
 		"advMapAmount" : {
-			"max" : 30,
-			"min" : 20
+			"min" : 20,
+			"max" : 30
 		},
 		"abilities" : {
 			"IS_UNDEAD" : {

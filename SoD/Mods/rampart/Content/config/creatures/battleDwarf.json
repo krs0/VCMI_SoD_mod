@@ -14,16 +14,16 @@
 		"attack" : 7,
 		"defense" : 7,
 		"damage" : {
-			"max" : 4,
-			"min" : 2
+			"min" : 2,
+			"max" : 4
 		},
 		"growth" : 8,
 		"horde" : 4,
 		"aiValue" : 209,
 		"fightValue" : 209,
 		"advMapAmount" : {
-			"max" : 25,
-			"min" : 16
+			"min" : 16,
+			"max" : 25
 		},
 		"abilities" : {
 			"magicResistance" : {

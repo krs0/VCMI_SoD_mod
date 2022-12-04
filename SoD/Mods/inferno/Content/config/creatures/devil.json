@@ -16,43 +16,43 @@
 		"attack" : 19,
 		"defense" : 21,
 		"damage" : {
-			"max" : 40,
-			"min" : 30
+			"min" : 30,
+			"max" : 40
 		},
 		"growth" : 1,
 		"horde" : 0,
 		"aiValue" : 5101,
 		"fightValue" : 3759,
 		"advMapAmount" : {
-			"max" : 10,
-			"min" : 4
+			"min" : 4,
+			"max" : 10
 		},
 		"abilities" : {
-			"FLYING_ARMY" : {
-				"subtype" : 1,
-				"type" : "FLYING"
-			},
 			"KING_2" : {
 				"type" : "KING2"
+			},
+			"FLYING_ARMY" : {
+				"type" : "FLYING",
+				"subtype" : 1
 			},
 			"blockRetaliation" : {
 				"type" : "BLOCKS_RETALIATION"
 			},
 			"descreaseLuck" : {
-				"effectRange" : "ONLY_ENEMY_ARMY",
-				"stacking" : "Devils",
 				"type" : "LUCK",
-				"val" : -1
+				"val" : -1,
+				"effectRange" : "ONLY_ENEMY_ARMY",
+				"stacking" : "Devils"
 			},
 			"hateAngels" : {
-				"subtype" : "creature.angel",
 				"type" : "HATE",
+				"subtype" : "creature.angel",
 				"val" : 50
 			},
 			"hateArchAngels" : {
-				"description" : "Devil -1",
-				"subtype" : "creature.archangel",
 				"type" : "HATE",
+				"subtype" : "creature.archangel",
+				"description" : "Devil -1",
 				"val" : 50
 			}
 		},

@@ -16,38 +16,38 @@
 		"attack" : 20,
 		"defense" : 20,
 		"damage" : {
-			"max" : 50,
-			"min" : 50
+			"min" : 50,
+			"max" : 50
 		},
 		"growth" : 1,
 		"horde" : 0,
 		"aiValue" : 5019,
 		"fightValue" : 3585,
 		"advMapAmount" : {
-			"max" : 10,
-			"min" : 4
+			"min" : 4,
+			"max" : 10
 		},
 		"abilities" : {
-			"FLYING_ARMY" : {
-				"type" : "FLYING"
-			},
 			"KING_2" : {
 				"type" : "KING2"
 			},
+			"FLYING_ARMY" : {
+				"type" : "FLYING"
+			},
 			"const_raises_morale" : {
-				"propagator" : "HERO",
-				"stacking" : "Angels",
 				"type" : "MORALE",
 				"val" : 1
+				"propagator" : "HERO",
+				"stacking" : "Angels",
 			},
 			"hateDevils" : {
-				"subtype" : "creature.devil",
 				"type" : "HATE",
+				"subtype" : "creature.devil",
 				"val" : 50
 			},
 			"hateArchDevils" : {
-				"subtype" : "creature.archDevil",
 				"type" : "HATE",
+				"subtype" : "creature.archDevil",
 				"val" : 50
 			}
 		},

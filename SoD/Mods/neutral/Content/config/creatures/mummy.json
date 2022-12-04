@@ -14,25 +14,25 @@
 		"attack" : 7,
 		"defense" : 7,
 		"damage" : {
-			"max" : 5,
-			"min" : 3
+			"min" : 3,
+			"max" : 5
 		},
 		"growth" : 7,
 		"horde" : 0,
 		"aiValue" : 270,
 		"fightValue" : 270,
 		"advMapAmount" : {
-			"max" : 25,
-			"min" : 12
+			"min" : 12,
+			"max" : 25
 		},
 		"abilities" : {
-			"castCurse" : {
-				"subtype" : "spell.curse",
-				"type" : "SPELL_AFTER_ATTACK",
-				"val" : 50
-			},
 			"undead" : {
 				"type" : "UNDEAD"
+			},
+			"castCurse" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.curse",
+				"val" : 50
 			}
 		},
 		"abilityText" : "Curse.",

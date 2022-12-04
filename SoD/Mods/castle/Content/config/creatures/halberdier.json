@@ -14,16 +14,16 @@
 		"attack" : 6,
 		"defense" : 5,
 		"damage" : {
-			"max" : 3,
-			"min" : 2
+			"min" : 2,
+			"max" : 3
 		},
 		"growth" : 14,
 		"horde" : 0,
 		"aiValue" : 115,
 		"fightValue" : 115,
 		"advMapAmount" : {
-			"max" : 30,
-			"min" : 20
+			"min" : 20,
+			"max" : 30
 		},
 		"abilities" : {
 			"cavalryChargeImmunity" : {

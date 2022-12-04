@@ -14,16 +14,16 @@
 		"attack" : 14,
 		"defense" : 7,
 		"damage" : {
-			"max" : 15,
-			"min" : 10
+			"min" : 10,
+			"max" : 15
 		},
 		"growth" : 3,
 		"horde" : 0,
 		"aiValue" : 1024,
 		"fightValue" : 1024,
 		"advMapAmount" : {
-			"max" : 12,
-			"min" : 8
+			"min" : 8,
+			"max" : 12
 		},
 		"abilities" : {
 			"regenerates" : {

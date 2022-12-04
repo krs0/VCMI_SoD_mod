@@ -15,8 +15,8 @@
 		"attack" : 20,
 		"defense" : 20,
 		"damage" : {
-			"max" : 30,
-			"min" : 20
+			"min" : 20,
+			"max" : 30
 		},
 		"spellPoints" : 5,
 		"doubleWide" : true,
@@ -25,78 +25,78 @@
 		"aiValue" : 19580,
 		"fightValue" : 16317,
 		"advMapAmount" : {
-			"max" : 3,
-			"min" : 1
+			"min" : 1,
+			"max" : 3
 		},
 		"abilities" : {
-			"FLYING_ARMY" : {
-				"type" : "FLYING"
-			},
 			"KING_1" : {
 				"type" : "KING1"
+			},
+			"dragon" : {
+				"type" : "DRAGON_NATURE"
+			},
+			"FLYING_ARMY" : {
+				"type" : "FLYING"
 			},
 			"casts" : {
 				"type" : "CASTS",
 				"val" : 5
 			},
+			"spellpower" : {
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 500
+			}
 			"castsChainLightning" : {
-				"addInfo" : 5,
-				"subtype" : "spell.chainLightning",
 				"type" : "SPELLCASTER",
-				"val" : 2
+				"subtype" : "spell.chainLightning",
+				"val" : 2,
+				"addInfo" : 5
 			},
 			"castsFireball" : {
-				"addInfo" : 21,
-				"subtype" : "spell.fireball",
 				"type" : "SPELLCASTER",
-				"val" : 2
+				"subtype" : "spell.fireball",
+				"val" : 2,
+				"addInfo" : 21
 			},
 			"castsFrostRing" : {
-				"addInfo" : 10,
-				"subtype" : "spell.frostRing",
 				"type" : "SPELLCASTER",
-				"val" : 2
+				"subtype" : "spell.frostRing",
+				"val" : 2,
+				"addInfo" : 10
 			},
 			"castsIceBolt" : {
-				"addInfo" : 22,
-				"subtype" : "spell.iceBolt",
 				"type" : "SPELLCASTER",
-				"val" : 2
+				"subtype" : "spell.iceBolt",
+				"val" : 2,
+				"addInfo" : 22
 			},
 			"castsInferno" : {
-				"addInfo" : 5,
-				"subtype" : "spell.inferno",
 				"type" : "SPELLCASTER",
-				"val" : 2
+				"subtype" : "spell.inferno",
+				"val" : 2,
+				"addInfo" : 5
 			},
 			"castsLightningBolt" : {
-				"addInfo" : 22,
-				"subtype" : "spell.lightningBolt",
 				"type" : "SPELLCASTER",
-				"val" : 2
+				"subtype" : "spell.lightningBolt",
+				"val" : 2,
+				"addInfo" : 22
 			},
 			"castsMagicArrow" : {
-				"addInfo" : 22,
-				"subtype" : "spell.magicArrow",
 				"type" : "SPELLCASTER",
-				"val" : 2
+				"subtype" : "spell.magicArrow",
+				"val" : 2,
+				"addInfo" : 22
 			},
 			"castsMeteorShower" : {
-				"addInfo" : 5,
-				"subtype" : "spell.meteorShower",
 				"type" : "SPELLCASTER",
-				"val" : 2
-			},
-			"dragon" : {
-				"type" : "DRAGON_NATURE"
+				"subtype" : "spell.meteorShower",
+				"val" : 2,
+				"addInfo" : 5
 			},
 			"mirror" : {
 				"type" : "MAGIC_MIRROR",
 				"val" : 20
-			},
-			"spellpower" : {
-				"type" : "CREATURE_SPELL_POWER",
-				"val" : 500
 			}
 		},
 		"abilityText" : "Offensive spell caster.",

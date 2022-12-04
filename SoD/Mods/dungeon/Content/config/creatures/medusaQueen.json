@@ -14,8 +14,8 @@
 		"attack" : 10,
 		"defense" : 10,
 		"damage" : {
-			"max" : 8,
-			"min" : 6
+			"min" : 6,
+			"max" : 8
 		},
 		"shots" : 8,
 		"doubleWide" : true,
@@ -24,8 +24,8 @@
 		"aiValue" : 577,
 		"fightValue" : 423,
 		"advMapAmount" : {
-			"max" : 16,
-			"min" : 10
+			"min" : 10,
+			"max" : 16
 		},
 		"abilities" : {
 			"SHOOTING_ARMY" : {
@@ -35,13 +35,13 @@
 				"type" : "NO_MELEE_PENALTY"
 			},
 			"petrification" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.stoneGaze",
+				"val" : 20,
 				"addInfo" : [
 					0,
 					2
-				],
-				"subtype" : "spell.stoneGaze",
-				"type" : "SPELL_AFTER_ATTACK",
-				"val" : 20
+				]
 			}
 		},
 		"abilityText" : "No melee penalty.\nStone gaze.",

@@ -14,8 +14,8 @@
 		"attack" : 16,
 		"defense" : 14,
 		"damage" : {
-			"max" : 20,
-			"min" : 14
+			"min" : 14,
+			"max" : 20
 		},
 		"doubleWide" : true,
 		"growth" : 2,
@@ -23,16 +23,16 @@
 		"aiValue" : 1589,
 		"fightValue" : 1248,
 		"advMapAmount" : {
-			"max" : 10,
-			"min" : 5
+			"min" : 5,
+			"max" : 10
 		},
 		"abilities" : {
 			"FLYING_ARMY" : {
 				"type" : "FLYING"
 			},
 			"paralize" : {
-				"subtype" : "spell.paralyze",
 				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.paralyze",
 				"val" : 20
 			}
 		},

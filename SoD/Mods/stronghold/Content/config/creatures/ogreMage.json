@@ -14,8 +14,8 @@
 		"attack" : 13,
 		"defense" : 7,
 		"damage" : {
-			"max" : 12,
-			"min" : 6
+			"min" : 6,
+			"max" : 12
 		},
 		"spellPoints" : 3,
 		"growth" : 4,
@@ -23,18 +23,18 @@
 		"aiValue" : 672,
 		"fightValue" : 672,
 		"advMapAmount" : {
-			"max" : 16,
-			"min" : 10
+			"min" : 10,
+			"max" : 16
 		},
 		"abilities" : {
+			"castsBloodlust" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.bloodlust",
+				"val" : 2
+			},
 			"castLength" : {
 				"type" : "CREATURE_ENCHANT_POWER",
 				"val" : 3
-			},
-			"castsBloodlust" : {
-				"subtype" : "spell.bloodlust",
-				"type" : "SPELLCASTER",
-				"val" : 2
 			},
 			"castsCount" : {
 				"type" : "CASTS",

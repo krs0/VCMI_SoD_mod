@@ -14,16 +14,16 @@
 		"attack" : 15,
 		"defense" : 15,
 		"damage" : {
-			"max" : 20,
-			"min" : 12
+			"min" : 12,
+			"max" : 20
 		},
 		"growth" : 3,
 		"horde" : 0,
 		"aiValue" : 1068,
 		"fightValue" : 890,
 		"advMapAmount" : {
-			"max" : 12,
-			"min" : 8
+			"min" : 8,
+			"max" : 12
 		},
 		"abilities" : {
 			"fearless" : {

@@ -15,8 +15,8 @@
 		"attack" : 30,
 		"defense" : 30,
 		"damage" : {
-			"max" : 50,
-			"min" : 50
+			"min" : 50,
+			"max" : 50
 		},
 		"doubleWide" : true,
 		"growth" : 1,
@@ -24,30 +24,30 @@
 		"aiValue" : 26433,
 		"fightValue" : 24030,
 		"advMapAmount" : {
-			"max" : 3,
-			"min" : 1
+			"min" : 1,
+			"max" : 3
 		},
 		"abilities" : {
-			"FLYING_ARMY" : {
-				"type" : "FLYING"
-			},
 			"KING_1" : {
 				"type" : "KING1"
 			},
-			"acidBreath" : {
-				"addInfo" : 30,
-				"type" : "ACID_BREATH",
-				"val" : 25
-			},
 			"dragon" : {
 				"type" : "DRAGON_NATURE"
+			},
+			"FLYING_ARMY" : {
+				"type" : "FLYING"
+			},
+			"acidBreath" : {
+				"type" : "ACID_BREATH",
+				"val" : 25,
+				"addInfo" : 30
 			},
 			"fireBreath" : {
 				"type" : "TWO_HEX_ATTACK_BREATH"
 			},
 			"reduceDefence" : {
-				"subtype" : "spell.acidBreath",
 				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.acidBreath",
 				"val" : 100
 			}
 		},

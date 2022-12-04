@@ -14,8 +14,8 @@
 		"attack" : 13,
 		"defense" : 13,
 		"damage" : {
-			"max" : 17,
-			"min" : 13
+			"min" : 13,
+			"max" : 17
 		},
 		"spellPoints" : 1,
 		"growth" : 3,
@@ -23,8 +23,8 @@
 		"aiValue" : 1224,
 		"fightValue" : 1071,
 		"advMapAmount" : {
-			"max" : 12,
-			"min" : 8
+			"min" : 8,
+			"max" : 12
 		},
 		"abilities" : {
 			"castsAmount" : {
@@ -32,8 +32,8 @@
 				"val" : 1
 			},
 			"demonSummon" : {
-				"subtype" : "creature.demon",
 				"type" : "DAEMON_SUMMONING",
+				"subtype" : "creature.demon",
 				"val" : 50
 			}
 		},

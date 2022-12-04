@@ -15,37 +15,37 @@
 		"attack" : 10,
 		"defense" : 8,
 		"damage" : {
-			"max" : 6,
-			"min" : 4
+			"min" : 4,
+			"max" : 6
 		},
 		"growth" : 5,
 		"horde" : 0,
 		"aiValue" : 345,
 		"fightValue" : 345,
 		"advMapAmount" : {
-			"max" : 25,
-			"min" : 16
+			"min" : 16,
+			"max" : 25
 		},
 		"abilities" : {
-			"frostRingVulnerablity" : {
-				"subtype" : "spell.frostRing",
-				"type" : "MORE_DAMAGE_FROM_SPELL",
-				"val" : 100
-			},
-			"iceBoltVulnerablity" : {
-				"subtype" : "spell.iceBolt",
-				"type" : "MORE_DAMAGE_FROM_SPELL",
-				"val" : 100
-			},
-			"immuneToFire" : {
-				"subtype" : 0,
-				"type" : "FIRE_IMMUNITY"
+			"nonLiving" : {
+				"type" : "NON_LIVING"
 			},
 			"immuneToMind" : {
 				"type" : "MIND_IMMUNITY"
 			},
-			"nonLiving" : {
-				"type" : "NON_LIVING"
+			"immuneToFire" : {
+				"type" : "FIRE_IMMUNITY",
+				"subtype" : 0
+			},
+			"iceBoltVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.iceBolt",
+				"val" : 100
+			},
+			"frostRingVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.frostRing",
+				"val" : 100
 			}
 		},
 		"abilityText" : "Immune to fire.\nVulnerable to ice.",

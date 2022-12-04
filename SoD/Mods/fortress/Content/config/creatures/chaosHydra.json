@@ -15,8 +15,8 @@
 		"attack" : 18,
 		"defense" : 20,
 		"damage" : {
-			"max" : 45,
-			"min" : 25
+			"min" : 25,
+			"max" : 45
 		},
 		"doubleWide" : true,
 		"growth" : 1,
@@ -24,8 +24,8 @@
 		"aiValue" : 5931,
 		"fightValue" : 5272,
 		"advMapAmount" : {
-			"max" : 8,
-			"min" : 3
+			"min" : 3,
+			"max" : 8
 		},
 		"abilities" : {
 			"KING_1" : {

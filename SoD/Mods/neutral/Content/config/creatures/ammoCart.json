@@ -14,16 +14,16 @@
 		"attack" : 0,
 		"defense" : 5,
 		"damage" : {
-			"max" : 0,
-			"min" : 0
+			"min" : 0,
+			"max" : 0
 		},
 		"growth" : 0,
 		"horde" : 0,
 		"aiValue" : 400,
 		"fightValue" : 5,
 		"advMapAmount" : {
-			"max" : 0,
-			"min" : 0
+			"min" : 0,
+			"max" : 0
 		},
 		"abilities" : {
 			"SIEGE_WEAPON" : {

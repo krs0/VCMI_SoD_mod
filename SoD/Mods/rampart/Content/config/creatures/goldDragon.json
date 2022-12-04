@@ -15,8 +15,8 @@
 		"attack" : 27,
 		"defense" : 27,
 		"damage" : {
-			"max" : 50,
-			"min" : 40
+			"min" : 40,
+			"max" : 50
 		},
 		"doubleWide" : true,
 		"growth" : 1,
@@ -24,18 +24,18 @@
 		"aiValue" : 8613,
 		"fightValue" : 6220,
 		"advMapAmount" : {
-			"max" : 8,
-			"min" : 3
+			"min" : 3,
+			"max" : 8
 		},
 		"abilities" : {
-			"FLYING_ARMY" : {
-				"type" : "FLYING"
-			},
 			"KING_1" : {
 				"type" : "KING1"
 			},
 			"dragon" : {
 				"type" : "DRAGON_NATURE"
+			},
+			"FLYING_ARMY" : {
+				"type" : "FLYING"
 			},
 			"fireBreath" : {
 				"type" : "TWO_HEX_ATTACK_BREATH"

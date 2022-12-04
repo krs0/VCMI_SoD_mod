@@ -15,8 +15,8 @@
 		"attack" : 19,
 		"defense" : 17,
 		"damage" : {
-			"max" : 50,
-			"min" : 25
+			"min" : 25,
+			"max" : 50
 		},
 		"doubleWide" : true,
 		"growth" : 1,
@@ -24,32 +24,32 @@
 		"aiValue" : 4696,
 		"fightValue" : 3228,
 		"advMapAmount" : {
-			"max" : 8,
-			"min" : 3
+			"min" : 3,
+			"max" : 8
 		},
 		"abilities" : {
-			"FLYING_ARMY" : {
-				"type" : "FLYING"
+			"KING_1" : {
+				"type" : "KING1"
 			},
 			"IS_UNDEAD" : {
 				"type" : "UNDEAD"
 			},
-			"KING_1" : {
-				"type" : "KING1"
+			"dragon" : {
+				"type" : "DRAGON_NATURE"
+			},
+			"FLYING_ARMY" : {
+				"type" : "FLYING"
 			},
 			"age" : {
-				"subtype" : "spell.age",
 				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.age",
 				"val" : 20
 			},
 			"decreaseMorale" : {
-				"effectRange" : "ONLY_ENEMY_ARMY",
-				"stacking" : "Undead Dragons",
 				"type" : "MORALE",
-				"val" : -1
-			},
-			"dragon" : {
-				"type" : "DRAGON_NATURE"
+				"val" : -1,
+				"effectRange" : "ONLY_ENEMY_ARMY",
+				"stacking" : "Undead Dragons"
 			}
 		},
 		"abilityText" : "Undead.  -1 to enemy morale.  Attack ages enemies.",

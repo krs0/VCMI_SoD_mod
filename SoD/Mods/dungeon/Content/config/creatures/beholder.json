@@ -15,8 +15,8 @@
 		"attack" : 9,
 		"defense" : 7,
 		"damage" : {
-			"max" : 5,
-			"min" : 3
+			"min" : 3,
+			"max" : 5
 		},
 		"shots" : 12,
 		"growth" : 7,
@@ -24,8 +24,8 @@
 		"aiValue" : 336,
 		"fightValue" : 240,
 		"advMapAmount" : {
-			"max" : 25,
-			"min" : 12
+			"min" : 12,
+			"max" : 25
 		},
 		"abilities" : {
 			"SHOOTING_ARMY" : {

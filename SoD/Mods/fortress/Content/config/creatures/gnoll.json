@@ -15,8 +15,8 @@
 		"attack" : 3,
 		"defense" : 5,
 		"damage" : {
-			"max" : 3,
-			"min" : 2
+			"min" : 2,
+			"max" : 3
 		},
 		"doubleWide" : false,
 		"growth" : 12,
@@ -24,8 +24,8 @@
 		"aiValue" : 56,
 		"fightValue" : 70,
 		"advMapAmount" : {
-			"max" : 50,
-			"min" : 20
+			"min" : 20,
+			"max" : 50
 		},
 		"abilityText" : "",
 		"hasDoubleWeek" : true,

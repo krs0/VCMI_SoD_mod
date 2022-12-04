@@ -15,29 +15,29 @@
 		"attack" : 12,
 		"defense" : 12,
 		"damage" : {
-			"max" : 16,
-			"min" : 13
+			"min" : 13,
+			"max" : 16
 		},
 		"growth" : 3,
 		"horde" : 0,
 		"aiValue" : 884,
 		"fightValue" : 680,
 		"advMapAmount" : {
-			"max" : 16,
-			"min" : 8
+			"min" : 8,
+			"max" : 16
 		},
 		"abilities" : {
 			"FLYING_ARMY" : {
 				"type" : "FLYING"
 			},
 			"hateAngels" : {
-				"subtype" : "creature.efreet",
 				"type" : "HATE",
+				"subtype" : "creature.efreet",
 				"val" : 50
 			},
 			"hateArchAngels" : {
-				"subtype" : "creature.efreetSultan",
 				"type" : "HATE",
+				"subtype" : "creature.efreetSultan",
 				"val" : 50
 			}
 		},

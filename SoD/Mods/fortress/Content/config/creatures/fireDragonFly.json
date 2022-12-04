@@ -14,29 +14,29 @@
 		"attack" : 8,
 		"defense" : 10,
 		"damage" : {
-			"max" : 5,
-			"min" : 2
+			"min" : 2,
+			"max" : 5
 		},
 		"growth" : 8,
 		"horde" : 0,
 		"aiValue" : 312,
 		"fightValue" : 250,
 		"advMapAmount" : {
-			"max" : 16,
-			"min" : 10
+			"min" : 10,
+			"max" : 16
 		},
 		"abilities" : {
 			"FLYING_ARMY" : {
 				"type" : "FLYING"
 			},
 			"castWeakness" : {
-				"subtype" : "spell.weakness",
 				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.weakness",
 				"val" : 100
 			},
 			"dispellHelpful" : {
-				"subtype" : "spell.dispelHelpful",
 				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.dispelHelpful",
 				"val" : 100
 			}
 		},

@@ -18,8 +18,8 @@
 		"attack" : 7,
 		"defense" : 9,
 		"damage" : {
-			"max" : 5,
-			"min" : 2
+			"min" : 2,
+			"max" : 5
 		},
 		"growth" : 8,
 		"horde" : 0,
@@ -27,16 +27,16 @@
 		"aiValue" : 268,
 		"fightValue" : 215,
 		"advMapAmount" : {
-			"max" : 20,
-			"min" : 10
+			"min" : 10,
+			"max" : 20
 		},
 		"abilities" : {
 			"FLYING_ARMY" : {
 				"type" : "FLYING"
 			},
 			"dispellHelpful" : {
-				"subtype" : "spell.dispelHelpful",
 				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.dispelHelpful",
 				"val" : 100
 			}
 		},

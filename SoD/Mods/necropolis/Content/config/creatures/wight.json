@@ -15,8 +15,8 @@
 		"attack" : 7,
 		"defense" : 7,
 		"damage" : {
-			"max" : 5,
-			"min" : 3
+			"min" : 3,
+			"max" : 5
 		},
 		"growth" : 7,
 		"horde" : 0,
@@ -24,19 +24,19 @@
 		"aiValue" : 252,
 		"fightValue" : 231,
 		"advMapAmount" : {
-			"max" : 25,
-			"min" : 12
+			"min" : 12,
+			"max" : 25
 		},
 		"abilities" : {
-			"FLYING_ARMY" : {
-				"type" : "FLYING"
-			},
 			"IS_UNDEAD" : {
 				"type" : "UNDEAD"
 			},
+			"FLYING_ARMY" : {
+				"type" : "FLYING"
+			},
 			"regenerate" : {
-				"subtype" : 1,
-				"type" : "FULL_HP_REGENERATION"
+				"type" : "FULL_HP_REGENERATION",
+				"subtype" : 1
 			}
 		},
 		"abilityText" : "Undead.  Regenerating.",

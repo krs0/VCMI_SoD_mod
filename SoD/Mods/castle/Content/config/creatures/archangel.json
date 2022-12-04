@@ -15,8 +15,8 @@
 		"attack" : 30,
 		"defense" : 30,
 		"damage" : {
-			"max" : 50,
-			"min" : 50
+			"min" : 50,
+			"max" : 50
 		},
 		"spellPoints" : 1,
 		"doubleWide" : true,
@@ -25,45 +25,45 @@
 		"aiValue" : 8776,
 		"fightValue" : 6033,
 		"advMapAmount" : {
-			"max" : 8,
-			"min" : 3
+			"min" : 3,
+			"max" : 8
 		},
 		"abilities" : {
-			"FLYING_ARMY" : {
-				"type" : "FLYING"
-			},
 			"KING_2" : {
 				"type" : "KING2"
 			},
-			"const_raises_morale" : {
-				"propagator" : "HERO",
-				"stacking" : "Angels",
-				"type" : "MORALE",
-				"val" : 1
-			},
-			"hateDevils" : {
-				"subtype" : "creature.devil",
-				"type" : "HATE",
-				"val" : 50
-			},
-			"hateArchDevils" : {
-				"subtype" : "creature.archDevil",
-				"type" : "HATE",
-				"val" : 50
-			},
-			"resurrection100hp" : {
-				"subtype" : "spell.resurrection",
-				"type" : "SPECIFIC_SPELL_POWER",
-				"val" : 100
+			"FLYING_ARMY" : {
+				"type" : "FLYING"
 			},
 			"resurrects" : {
-				"subtype" : "spell.resurrection",
 				"type" : "SPELLCASTER",
+				"subtype" : "spell.resurrection",
 				"val" : 3
+			},
+			"resurrection100hp" : {
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.resurrection",
+				"val" : 100
 			},
 			"spellpoints" : {
 				"type" : "CASTS",
 				"val" : 1
+			},
+			"const_raises_morale" : {
+				"type" : "MORALE",
+				"val" : 1
+				"propagator" : "HERO",
+				"stacking" : "Angels",
+			},
+			"hateDevils" : {
+				"type" : "HATE",
+				"subtype" : "creature.devil",
+				"val" : 50
+			},
+			"hateArchDevils" : {
+				"type" : "HATE",
+				"subtype" : "creature.archDevil",
+				"val" : 50
 			}
 		},
 		"abilityText" : "+1 morale.  Hates Devils.\nResurrects allies.",

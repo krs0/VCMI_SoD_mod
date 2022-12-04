@@ -14,8 +14,8 @@
 		"attack" : 0,
 		"defense" : 0,
 		"damage" : {
-			"max" : 0,
-			"min" : 0
+			"min" : 0,
+			"max" : 0
 		},
 		"doubleWide" : true,
 		"growth" : 0,
@@ -23,8 +23,8 @@
 		"aiValue" : 300,
 		"fightValue" : 10,
 		"advMapAmount" : {
-			"max" : 0,
-			"min" : 0
+			"min" : 0,
+			"max" : 0
 		},
 		"abilities" : {
 			"SIEGE_WEAPON" : {

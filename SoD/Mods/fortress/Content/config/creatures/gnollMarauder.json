@@ -14,16 +14,16 @@
 		"attack" : 4,
 		"defense" : 6,
 		"damage" : {
-			"max" : 3,
-			"min" : 2
+			"min" : 2,
+			"max" : 3
 		},
 		"growth" : 12,
 		"horde" : 6,
 		"aiValue" : 90,
 		"fightValue" : 90,
 		"advMapAmount" : {
-			"max" : 30,
-			"min" : 20
+			"min" : 20,
+			"max" : 30
 		},
 		"abilityText" : "",
 		"hasDoubleWeek" : true,

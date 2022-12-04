@@ -14,8 +14,8 @@
 		"attack" : 12,
 		"defense" : 12,
 		"damage" : {
-			"max" : 16,
-			"min" : 13
+			"min" : 13,
+			"max" : 16
 		},
 		"spellPoints" : 3,
 		"growth" : 3,
@@ -23,8 +23,8 @@
 		"aiValue" : 942,
 		"fightValue" : 748,
 		"advMapAmount" : {
-			"max" : 12,
-			"min" : 8
+			"min" : 8,
+			"max" : 12
 		},
 		"abilities" : {
 			"FLYING_ARMY" : {
@@ -34,16 +34,6 @@
 				"type" : "CASTS",
 				"val" : 3
 			},
-			"hateAngels" : {
-				"subtype" : "creature.efreet",
-				"type" : "HATE",
-				"val" : 50
-			},
-			"hateArchAngels" : {
-				"subtype" : "creature.efreetSultan",
-				"type" : "HATE",
-				"val" : 50
-			},
 			"randomSpellcaster" : {
 				"type" : "RANDOM_SPELLCASTER",
 				"val" : 2
@@ -51,6 +41,16 @@
 			"spellsLength" : {
 				"type" : "CREATURE_ENCHANT_POWER",
 				"val" : 5
+			},
+			"hateAngels" : {
+				"type" : "HATE",
+				"subtype" : "creature.efreet",
+				"val" : 50
+			},
+			"hateArchAngels" : {
+				"type" : "HATE",
+				"subtype" : "creature.efreetSultan",
+				"val" : 50
 			}
 		},
 		"abilityText" : "Spellcaster: Random benefit.\nHates Efreet.",

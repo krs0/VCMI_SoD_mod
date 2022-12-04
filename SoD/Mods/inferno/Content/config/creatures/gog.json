@@ -16,8 +16,8 @@
 		"attack" : 6,
 		"defense" : 4,
 		"damage" : {
-			"max" : 4,
-			"min" : 2
+			"min" : 2,
+			"max" : 4
 		},
 		"growth" : 8,
 		"horde" : 0,
@@ -25,8 +25,8 @@
 		"aiValue" : 159,
 		"fightValue" : 145,
 		"advMapAmount" : {
-			"max" : 30,
-			"min" : 16
+			"min" : 16,
+			"max" : 30
 		},
 		"abilities" : {
 			"SHOOTING_ARMY" : {

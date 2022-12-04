@@ -15,8 +15,8 @@
 		"attack" : 15,
 		"defense" : 13,
 		"damage" : {
-			"max" : 20,
-			"min" : 14
+			"min" : 14,
+			"max" : 20
 		},
 		"doubleWide" : true,
 		"growth" : 2,
@@ -24,8 +24,8 @@
 		"aiValue" : 1547,
 		"fightValue" : 1215,
 		"advMapAmount" : {
-			"max" : 12,
-			"min" : 5
+			"min" : 5,
+			"max" : 12
 		},
 		"abilities" : {
 			"FLYING_ARMY" : {

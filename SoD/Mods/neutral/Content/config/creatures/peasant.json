@@ -22,8 +22,8 @@
 		"aiValue" : 15,
 		"fightValue" : 15,
 		"advMapAmount" : {
-			"max" : 50,
-			"min" : 20
+			"min" : 20,
+			"max" : 50
 		},
 		"abilityText" : "",
 		"graphics" : {

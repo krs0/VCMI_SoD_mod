@@ -14,26 +14,26 @@
 		"attack" : 11,
 		"defense" : 12,
 		"damage" : {
-			"max" : 10,
-			"min" : 8
+			"min" : 8,
+			"max" : 10
 		},
 		"growth" : 3,
 		"horde" : 0,
 		"aiValue" : 600,
 		"fightValue" : 600,
 		"advMapAmount" : {
-			"max" : 16,
-			"min" : 10
+			"min" : 10,
+			"max" : 16
 		},
 		"abilities" : {
-			"magicResistance" : {
-				"subtype" : -1,
-				"type" : "SPELL_DAMAGE_REDUCTION",
-				"val" : 85
-			},
 			"nonliving" : {
 				"type" : "NON_LIVING"
-			}
+			},
+			"magicResistance" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : -1,
+				"val" : 85
+			},
 		},
 		"abilityText" : "Damage from spells reduced 85%.",
 		"graphics" : {

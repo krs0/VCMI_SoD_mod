@@ -15,27 +15,27 @@
 		"attack" : 10,
 		"defense" : 9,
 		"damage" : {
-			"max" : 8,
-			"min" : 5
+			"min" : 5,
+			"max" : 8
 		},
 		"growth" : 4,
 		"horde" : 0,
 		"aiValue" : 555,
 		"fightValue" : 518,
 		"advMapAmount" : {
-			"max" : 20,
-			"min" : 10
+			"min" : 10,
+			"max" : 20
 		},
 		"abilities" : {
-			"FLYING_ARMY" : {
-				"type" : "FLYING"
-			},
 			"IS_UNDEAD" : {
 				"type" : "UNDEAD"
 			},
+			"FLYING_ARMY" : {
+				"type" : "FLYING"
+			},
 			"noRetalitation" : {
-				"subtype" : 1,
-				"type" : "BLOCKS_RETALIATION"
+				"type" : "BLOCKS_RETALIATION",
+				"subtype" : 1
 			}
 		},
 		"abilityText" : "Undead.\nNo enemy retaliation.",

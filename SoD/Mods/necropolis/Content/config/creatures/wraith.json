@@ -26,19 +26,19 @@
 			"min" : 12
 		},
 		"abilities" : {
-			"FLYING_ARMY" : {
-				"type" : "FLYING"
-			},
 			"IS_UNDEAD" : {
 				"type" : "UNDEAD"
+			},
+			"FLYING_ARMY" : {
+				"type" : "FLYING"
 			},
 			"drainsMana" : {
 				"type" : "MANA_DRAIN",
 				"val" : 2
 			},
 			"regenerate" : {
-				"subtype" : 1,
-				"type" : "FULL_HP_REGENERATION"
+				"type" : "FULL_HP_REGENERATION",
+				"subtype" : 1
 			}
 		},
 		"abilityText" : "Undead.  Regenerating.\nDrains enemy mana.",

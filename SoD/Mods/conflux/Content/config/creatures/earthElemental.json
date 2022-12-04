@@ -15,40 +15,40 @@
 		"attack" : 10,
 		"defense" : 10,
 		"damage" : {
-			"max" : 8,
-			"min" : 4
+			"min" : 4,
+			"max" : 8
 		},
 		"growth" : 4,
 		"horde" : 0,
 		"aiValue" : 330,
 		"fightValue" : 415,
 		"advMapAmount" : {
-			"max" : 30,
-			"min" : 16
+			"min" : 16,
+			"max" : 30
 		},
 		"abilities" : {
-			"armageddonImmunity" : {
-				"subtype" : "spell.armageddon",
-				"type" : "SPELL_IMMUNITY"
-			},
-			"chainLightingImmunity" : {
-				"subtype" : "spell.chainLightning",
-				"type" : "SPELL_IMMUNITY"
+			"nonLiving" : {
+				"type" : "NON_LIVING"
 			},
 			"immuneToMind" : {
 				"type" : "MIND_IMMUNITY"
 			},
 			"lightingImmunity" : {
-				"subtype" : "spell.lightningBolt",
-				"type" : "SPELL_IMMUNITY"
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.lightningBolt"
+			},
+			"chainLightingImmunity" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.chainLightning"
+			},
+			"armageddonImmunity" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.armageddon"
 			},
 			"meteorShowerVulnerability" : {
-				"subtype" : "spell.meteorShower",
 				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.meteorShower",
 				"val" : 100
-			},
-			"nonLiving" : {
-				"type" : "NON_LIVING"
 			}
 		},
 		"abilityText" : "Meteor shower vulnerability.",

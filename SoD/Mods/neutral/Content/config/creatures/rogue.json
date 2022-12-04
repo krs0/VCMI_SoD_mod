@@ -14,37 +14,37 @@
 		"attack" : 8,
 		"defense" : 3,
 		"damage" : {
-			"max" : 4,
-			"min" : 2
+			"min" : 2,
+			"max" : 4
 		},
 		"growth" : 8,
 		"horde" : 0,
 		"aiValue" : 135,
 		"fightValue" : 135,
 		"advMapAmount" : {
-			"max" : 30,
-			"min" : 16
+			"min" : 16,
+			"max" : 30
 		},
 		"abilities" : {
 			"visionsHeroes" : {
-				"propagator" : "HERO",
-				"subtype" : 1,
 				"type" : "VISIONS",
+				"subtype" : 1,
 				"val" : 3,
+				"propagator" : "HERO",
 				"valueType" : "INDEPENDENT_MAX"
 			},
 			"visionsMonsters" : {
-				"propagator" : "HERO",
-				"subtype" : 0,
 				"type" : "VISIONS",
+				"subtype" : 0,
 				"val" : 3,
+				"propagator" : "HERO",
 				"valueType" : "INDEPENDENT_MAX"
 			},
 			"visionsTowns" : {
-				"propagator" : "HERO",
-				"subtype" : 2,
 				"type" : "VISIONS",
+				"subtype" : 2,
 				"val" : 3,
+				"propagator" : "HERO",
 				"valueType" : "INDEPENDENT_MAX"
 			}
 		},

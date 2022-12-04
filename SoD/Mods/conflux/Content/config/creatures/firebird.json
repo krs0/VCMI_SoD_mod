@@ -15,8 +15,8 @@
 		"attack" : 18,
 		"defense" : 18,
 		"damage" : {
-			"max" : 40,
-			"min" : 30
+			"min" : 30,
+			"max" : 40
 		},
 		"doubleWide" : true,
 		"growth" : 2,
@@ -24,22 +24,22 @@
 		"aiValue" : 4547,
 		"fightValue" : 3248,
 		"advMapAmount" : {
-			"max" : 10,
-			"min" : 4
+			"min" : 4,
+			"max" : 10
 		},
 		"abilities" : {
+			"KING_1" : {
+				"type" : "KING1"
+			},
 			"FLYING_ARMY" : {
 				"type" : "FLYING"
 			},
 			"HAS_EXTENDED_ATTACK" : {
 				"type" : "TWO_HEX_ATTACK_BREATH"
 			},
-			"KING_1" : {
-				"type" : "KING1"
-			},
 			"immuneToFire" : {
-				"subtype" : 0,
-				"type" : "FIRE_IMMUNITY"
+				"type" : "FIRE_IMMUNITY",
+				"subtype" : 0
 			}
 		},
 		"abilityText" : "Breath attack.  Fire spell immunity.",

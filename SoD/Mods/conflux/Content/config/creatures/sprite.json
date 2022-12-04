@@ -14,16 +14,16 @@
 		"attack" : 2,
 		"defense" : 2,
 		"damage" : {
-			"max" : 3,
-			"min" : 1
+			"min" : 1,
+			"max" : 3
 		},
 		"growth" : 20,
 		"horde" : 10,
 		"aiValue" : 95,
 		"fightValue" : 70,
 		"advMapAmount" : {
-			"max" : 30,
-			"min" : 20
+			"min" : 20,
+			"max" : 30
 		},
 		"abilities" : {
 			"FLYING_ARMY" : {

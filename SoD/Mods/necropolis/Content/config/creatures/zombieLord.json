@@ -14,24 +14,24 @@
 		"attack" : 5,
 		"defense" : 5,
 		"damage" : {
-			"max" : 3,
-			"min" : 2
+			"min" : 2,
+			"max" : 3
 		},
 		"growth" : 8,
 		"horde" : 0,
 		"aiValue" : 128,
 		"fightValue" : 160,
 		"advMapAmount" : {
-			"max" : 25,
-			"min" : 16
+			"min" : 16,
+			"max" : 25
 		},
 		"abilities" : {
 			"IS_UNDEAD" : {
 				"type" : "UNDEAD"
 			},
 			"castDisease" : {
-				"subtype" : "spell.disease",
 				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.disease",
 				"val" : 20
 			}
 		},

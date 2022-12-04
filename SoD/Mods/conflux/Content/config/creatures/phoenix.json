@@ -15,8 +15,8 @@
 		"attack" : 21,
 		"defense" : 18,
 		"damage" : {
-			"max" : 40,
-			"min" : 30
+			"min" : 30,
+			"max" : 40
 		},
 		"spellPoints" : 1,
 		"doubleWide" : true,
@@ -25,22 +25,18 @@
 		"aiValue" : 6721,
 		"fightValue" : 4929,
 		"advMapAmount" : {
-			"max" : 10,
-			"min" : 4
+			"min" : 4,
+			"max" : 10
 		},
 		"abilities" : {
+			"KING_1" : {
+				"type" : "KING1"
+			},
 			"FLYING_ARMY" : {
 				"type" : "FLYING"
 			},
 			"HAS_EXTENDED_ATTACK" : {
 				"type" : "TWO_HEX_ATTACK_BREATH"
-			},
-			"KING_1" : {
-				"type" : "KING1"
-			},
-			"immuneToFire" : {
-				"subtype" : 0,
-				"type" : "FIRE_IMMUNITY"
 			},
 			"rebirth" : {
 				"type" : "REBIRTH",
@@ -50,6 +46,10 @@
 				"type" : "CASTS",
 				"val" : 1
 			}
+			"immuneToFire" : {
+				"type" : "FIRE_IMMUNITY",
+				"subtype" : 0
+			},
 		},
 		"abilityText" : "Breath attack.  Fire spell immunity.  Rebirth.",
 		"graphics" : {

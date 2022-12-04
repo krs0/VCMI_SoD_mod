@@ -15,8 +15,8 @@
 		"attack" : 24,
 		"defense" : 24,
 		"damage" : {
-			"max" : 60,
-			"min" : 40
+			"min" : 40,
+			"max" : 60
 		},
 		"shots" : 24,
 		"growth" : 1,
@@ -24,8 +24,8 @@
 		"aiValue" : 7500,
 		"fightValue" : 5000,
 		"advMapAmount" : {
-			"max" : 8,
-			"min" : 3
+			"min" : 3,
+			"max" : 8
 		},
 		"abilities" : {
 			"KING_3" : {
@@ -37,13 +37,13 @@
 			"const_no_melee_penalty" : {
 				"type" : "NO_MELEE_PENALTY"
 			},
-			"hateArchAngels" : {
-				"subtype" : "creature.blackDragon",
-				"type" : "HATE",
-				"val" : 50
-			},
 			"immuneToMind" : {
 				"type" : "MIND_IMMUNITY"
+			},
+			"hateArchAngels" : {
+				"type" : "HATE",
+				"subtype" : "creature.blackDragon",
+				"val" : 50
 			}
 		},
 		"abilityText" : "No melee penalty. Mind spell immunity.  Hates Black Dragons.",

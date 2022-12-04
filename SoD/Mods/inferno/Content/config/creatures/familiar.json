@@ -14,16 +14,16 @@
 		"attack" : 4,
 		"defense" : 4,
 		"damage" : {
-			"max" : 2,
-			"min" : 1
+			"min" : 1,
+			"max" : 2
 		},
 		"growth" : 15,
 		"horde" : 8,
 		"aiValue" : 60,
 		"fightValue" : 60,
 		"advMapAmount" : {
-			"max" : 30,
-			"min" : 20
+			"min" : 20,
+			"max" : 30
 		},
 		"abilities" : {
 			"manaChannel" : {
