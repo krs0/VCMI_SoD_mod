@@ -1,10 +1,7 @@
 {
-	"castle" :
-	{
-		"town" :
-		{
-			"siege" :
-			{
+	"castle" : {
+		"town" : {
+			"siege" : {
 				"shooter" : "archer",
 				"imagePrefix" : "SGCS",
 				"gate" :

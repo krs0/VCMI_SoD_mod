@@ -1,10 +1,7 @@
 {
-	"inferno" :
-	{
-		"town" :
-		{
-			"siege" :
-			{
+	"inferno" : {
+		"town" : {
+			"siege" : {
 				"shooter" : "gog",
 				"imagePrefix" : "SGIN",
 				"gate" :

@@ -1,10 +1,7 @@
 {
-	"conflux" :
-	{
-		"town" :
-		{
-			"siege" :
-			{
+	"conflux" : {
+		"town" : {
+			"siege" : {
 				"shooter" : "stormElemental",
 				"imagePrefix" : "SGEL",
 				"gate" :

@@ -1,10 +1,7 @@
 {
-	"tower" :
-	{
-		"town" :
-		{
-			"siege" :
-			{
+	"tower" : {
+		"town" : {
+			"siege" : {
 				"shooter" : "mage",
 				"imagePrefix" : "SGTW",
 				"gate" :

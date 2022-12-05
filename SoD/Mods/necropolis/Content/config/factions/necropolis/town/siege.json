@@ -1,10 +1,7 @@
 {
-	"necropolis" :
-	{
-		"town" :
-		{
-			"siege" :
-			{
+	"necropolis" : {
+		"town" : {
+			"siege" : {
 				"shooter" : "lich",
 				"imagePrefix" : "SGNC",
 				"gate" :

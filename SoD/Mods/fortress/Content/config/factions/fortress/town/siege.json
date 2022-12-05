@@ -1,10 +1,7 @@
 {
-	"fortress" :
-	{
-		"town" :
-		{
-			"siege" :
-			{
+	"fortress" : {
+		"town" : {
+			"siege" : {
 				"shooter" : "lizardman",
 				"imagePrefix" : "SGFR",
 				"gate" :

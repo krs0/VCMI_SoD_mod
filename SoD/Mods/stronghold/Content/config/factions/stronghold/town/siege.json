@@ -1,10 +1,7 @@
 {
-	"stronghold" :
-	{
-		"town" :
-		{
-			"siege" :
-			{
+	"stronghold" : {
+		"town" : {
+			"siege" : {
 				"shooter" : "orc",
 				"imagePrefix" : "SGST",
 				"gate" :

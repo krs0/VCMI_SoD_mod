@@ -1,10 +1,7 @@
 {
-	"rampart" :
-	{
-		"town" :
-		{
-			"siege" :
-			{
+	"rampart" : {
+		"town" : {
+			"siege" : {
 				"shooter" : "woodElf",
 				"imagePrefix" : "SGRM",
 				"gate" :

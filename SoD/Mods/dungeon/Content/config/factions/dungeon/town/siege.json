@@ -1,10 +1,7 @@
 {
-	"dungeon" :
-	{
-		"town" :
-		{
-			"siege" :
-			{
+	"dungeon" : {
+		"town" : {
+			"siege" : {
 				"shooter" : "medusa",
 				"imagePrefix" : "SGDN",
 				"gate" :
