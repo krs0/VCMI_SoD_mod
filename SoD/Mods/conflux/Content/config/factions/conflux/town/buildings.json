@@ -48,8 +48,8 @@
 					"description" : "The Fort provides your town with defensive walls.",
 					"cost" : {
 						"gold" : 5000,
-						"ore" : 20,
-						"wood" : 20
+						"wood" : 20,
+						"ore" : 20
 					}
 				},
 				"citadel" : {
@@ -65,8 +65,8 @@
 					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
 					"cost" : {
 						"gold" : 5000,
-						"ore" : 10,
-						"wood" : 10
+						"wood" : 10,
+						"ore" : 10
 					}
 				},
 				
@@ -134,8 +134,8 @@
 					"description" : "At the Magic University, you can pay to learn any, or all, of the four schools of magic.",
 					"cost" : {
 						"gold" : 5000,
-						"ore" : 10,
-						"wood" : 10
+						"wood" : 10,
+						"ore" : 10
 					}
 					"type" : "magicUniversity"
 				},
@@ -179,60 +179,60 @@
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"cost" : {
 						"gold" : 2000,
-						"ore" : 5,
-						"wood" : 5
+						"wood" : 5,
+						"ore" : 5
 					}
 				},
 				"mageGuild2" : {
 					"name" : "Mage Guild Level 2",
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"cost" : {
-						"crystal" : 4,
-						"gems" : 4,
 						"gold" : 1000,
-						"mercury" : 4,
+						"wood" : 5,
 						"ore" : 5,
+						"mercury" : 4,
 						"sulfur" : 4,
-						"wood" : 5
+						"crystal" : 4,
+						"gems" : 4
 					}
 				},
 				"mageGuild3" : {
 					"name" : "Mage Guild Level 3",
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"cost" : {
-						"crystal" : 6,
-						"gems" : 6,
 						"gold" : 1000,
-						"mercury" : 6,
+						"wood" : 5,
 						"ore" : 5,
+						"mercury" : 6,
 						"sulfur" : 6,
-						"wood" : 5
+						"crystal" : 6,
+						"gems" : 6
 					}
 				},
 				"mageGuild4" : {
 					"name" : "Mage Guild Level 4",
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"cost" : {
-						"crystal" : 8,
-						"gems" : 8,
 						"gold" : 1000,
-						"mercury" : 8,
+						"wood" : 5,
 						"ore" : 5,
+						"mercury" : 8,
 						"sulfur" : 8,
-						"wood" : 5
+						"crystal" : 8,
+						"gems" : 8
 					}
 				},
 				"mageGuild5" : {
 					"name" : "Mage Guild Level 5",
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"cost" : {
-						"crystal" : 10,
-						"gems" : 10,
 						"gold" : 1000,
-						"mercury" : 10,
+						"wood" : 5,
 						"ore" : 5,
+						"mercury" : 10,
 						"sulfur" : 10,
-						"wood" : 5
+						"crystal" : 10,
+						"gems" : 10
 					}
 				},
 				
@@ -241,8 +241,8 @@
 					"description" : "The Magic Lantern allows you to recruit Pixies.",
 					"cost" : {
 						"gold" : 300,
-						"ore" : 5,
-						"wood" : 5
+						"wood" : 5,
+						"ore" : 5
 					}
 				},
 				"dwellingLvl2" : {
@@ -266,8 +266,8 @@
 					"description" : "The Altar of Fire allows you to recruit Fire Elementals.",
 					"cost" : {
 						"gold" : 2000,
-						"ore" : 5,
-						"wood" : 5
+						"wood" : 5,
+						"ore" : 5
 					}
 				},
 				"dwellingLvl5" : {
@@ -282,13 +282,13 @@
 					"name" : "Altar of Thought",
 					"description" : "The Altar of Thought allows you to recruit Psychic Elementals.",
 					"cost" : {
-						"crystal" : 2,
-						"gems" : 2,
 						"gold" : 3000,
-						"mercury" : 2,
+						"wood" : 5,
 						"ore" : 5,
+						"mercury" : 2,
 						"sulfur" : 2,
-						"wood" : 5
+						"crystal" : 2,
+						"gems" : 2
 					}
 				},
 				"dwellingLvl7" : {
@@ -296,9 +296,9 @@
 					"description" : "The Pyre allows you to recruit Fire Birds.",
 					"cost" : {
 						"gold" : 10000,
-						"mercury" : 10,
+						"wood" : 10,
 						"ore" : 10,
-						"wood" : 10
+						"mercury" : 10
 					}
 				},
 				
@@ -313,10 +313,10 @@
 					"name" : "Upg. Altar of Air",
 					"description" : "The Temple of Thunder allows you to recruit Storm Elementals.",
 					"cost" : {
-						"gems" : 2,
 						"gold" : 1500,
+						"wood" : 2,
 						"mercury" : 2,
-						"wood" : 2
+						"gems" : 2
 					}
 				},
 				"dwellingUpLvl3" : {
@@ -324,8 +324,8 @@
 					"description" : "The Temple of Ice allows you to recruit Ice Elementals.",
 					"cost" : {
 						"gold" : 2000,
-						"mercury" : 5,
-						"ore" : 5
+						"ore" : 5,
+						"mercury" : 5
 					}
 				},
 				"dwellingUpLvl4" : {
@@ -333,8 +333,8 @@
 					"description" : "The Temple of Energy allows you to recruit Energy Elementals.",
 					"cost" : {
 						"gold" : 2000,
-						"mercury" : 5,
-						"ore" : 5
+						"ore" : 5,
+						"mercury" : 5
 					}
 				},
 				"dwellingUpLvl5" : {
@@ -349,11 +349,11 @@
 					"name" : "Upg. Altar of Thought",
 					"description" : "The Temple of Magic allows you to recruit Magic Elementals.",
 					"cost" : {
-						"crystal" : 3,
-						"gems" : 3,
 						"gold" : 3000,
 						"mercury" : 3,
-						"sulfur" : 3
+						"sulfur" : 3,
+						"crystal" : 3,
+						"gems" : 3
 					}
 				},
 				"dwellingUpLvl7" : {
@@ -361,9 +361,9 @@
 					"description" : "The Funeral Pyre allows you to recruit Pheonixes .",
 					"cost" : {
 						"gold" : 15000,
-						"mercury" : 20,
+						"wood" : 10,
 						"ore" : 10,
-						"wood" : 10
+						"mercury" : 20
 					}
 				}
 			}

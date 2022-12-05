@@ -47,8 +47,8 @@
 				"fort" : {
 					"cost" : {
 						"gold" : 5000,
-						"ore" : 20,
-						"wood" : 20
+						"wood" : 20,
+						"ore" : 20
 					},
 					"description" : "The Fort provides your town with defensive walls.",
 					"name" : "Fort"
@@ -64,8 +64,8 @@
 				"castle" : {
 					"cost" : {
 						"gold" : 5000,
-						"ore" : 10,
-						"wood" : 10
+						"wood" : 10,
+						"ore" : 10
 					},
 					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
 					"name" : "Castle"
@@ -103,8 +103,8 @@
 					"description" : "The Resource Silo provides you with an additional +1 wood and +1 ore each day.",
 					"name" : "Resource Silo",
 					"produce" : {
-						"ore" : 1,
-						"wood" : 1
+						"wood" : 1,
+						"ore" : 1
 					}
 				},
 				"shipyard" : {
@@ -185,47 +185,47 @@
 				"mageGuild1" : {
 					"cost" : {
 						"gold" : 2000,
-						"ore" : 5,
-						"wood" : 5
+						"wood" : 5,
+						"ore" : 5
 					},
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 1"
 				},
 				"mageGuild2" : {
 					"cost" : {
-						"crystal" : 4,
-						"gems" : 4,
 						"gold" : 1000,
-						"mercury" : 4,
+						"wood" : 5,
 						"ore" : 5,
+						"mercury" : 4,
 						"sulfur" : 4,
-						"wood" : 5
+						"crystal" : 4,
+						"gems" : 4
 					},
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 2"
 				},
 				"mageGuild3" : {
 					"cost" : {
-						"crystal" : 6,
-						"gems" : 6,
 						"gold" : 1000,
-						"mercury" : 6,
+						"wood" : 5,
 						"ore" : 5,
+						"mercury" : 6,
 						"sulfur" : 6,
-						"wood" : 5
+						"crystal" : 6,
+						"gems" : 6
 					},
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 3"
 				},
 				"mageGuild4" : {
 					"cost" : {
-						"crystal" : 8,
-						"gems" : 8,
 						"gold" : 1000,
-						"mercury" : 8,
+						"wood" : 5,
 						"ore" : 5,
+						"mercury" : 8,
 						"sulfur" : 8,
-						"wood" : 5
+						"crystal" : 8,
+						"gems" : 8
 					},
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 4"
@@ -242,8 +242,8 @@
 				"dwellingLvl2" : {
 					"cost" : {
 						"gold" : 1000,
-						"ore" : 5,
-						"wood" : 5
+						"wood" : 5,
+						"ore" : 5
 					},
 					"description" : "The Archers' Tower allows you to recruit Archers.",
 					"name" : "Archers' Tower"
@@ -266,13 +266,13 @@
 				},
 				"dwellingLvl5" : {
 					"cost" : {
-						"crystal" : 2,
-						"gems" : 2,
 						"gold" : 3000,
-						"mercury" : 2,
+						"wood" : 5,
 						"ore" : 5,
+						"mercury" : 2,
 						"sulfur" : 2,
-						"wood" : 5
+						"crystal" : 2,
+						"gems" : 2
 					},
 					"description" : "The Monastery allows you to recruit Monks.",
 					"name" : "Monastery"
@@ -287,11 +287,11 @@
 				},
 				"dwellingLvl7" : {
 					"cost" : {
-						"crystal" : 10,
-						"gems" : 10,
 						"gold" : 20000,
 						"mercury" : 10,
 						"sulfur" : 10
+						"crystal" : 10,
+						"gems" : 10
 					},
 					"description" : "The Portal of Glory allows you to recruit Angels.",
 					"name" : "Portal of Glory"
@@ -308,8 +308,8 @@
 				"dwellingUpLvl2" : {
 					"cost" : {
 						"gold" : 1000,
-						"ore" : 5,
-						"wood" : 5
+						"wood" : 5,
+						"ore" : 5
 					},
 					"description" : "The Archers' Tower allows you to recruit Marksmen.",
 					"name" : "Upg. Archers' Tower"
@@ -324,22 +324,22 @@
 				},
 				"dwellingUpLvl4" : {
 					"cost" : {
-						"crystal" : 5,
 						"gold" : 2000,
-						"ore" : 5
+						"ore" : 5,
+						"crystal" : 5
 					},
 					"description" : "The Barracks allow you to recruit Crusaders.",
 					"name" : "Upg. Barracks"
 				},
 				"dwellingUpLvl5" : {
 					"cost" : {
-						"crystal" : 2,
-						"gems" : 2,
 						"gold" : 1000,
-						"mercury" : 2,
+						"wood" : 2,
 						"ore" : 2,
+						"mercury" : 2,
 						"sulfur" : 2,
-						"wood" : 2
+						"crystal" : 2,
+						"gems" : 2
 					},
 					"description" : "The Monastery allows you to recruit Zealots.",
 					"name" : "Upg. Monastery"
@@ -354,11 +354,11 @@
 				},
 				"dwellingUpLvl7" : {
 					"cost" : {
-						"crystal" : 10,
-						"gems" : 10,
 						"gold" : 20000,
 						"mercury" : 10,
-						"sulfur" : 10
+						"sulfur" : 10,
+						"crystal" : 10,
+						"gems" : 10
 					},
 					"description" : "The Portal of Glory allows you to recruit Arch Angels.",
 					"name" : "Upg. Portal of Glory"

@@ -47,8 +47,8 @@
 				"fort" : {
 					"cost" : {
 						"gold" : 5000,
-						"ore" : 20,
-						"wood" : 20
+						"wood" : 20,
+						"ore" : 20
 					},
 					"description" : "The Fort provides your town with defensive walls.",
 					"name" : "Fort"
@@ -64,8 +64,8 @@
 				"castle" : {
 					"cost" : {
 						"gold" : 5000,
-						"ore" : 10,
-						"wood" : 10
+						"wood" : 10,
+						"ore" : 10
 					},
 					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
 					"name" : "Castle"
@@ -171,13 +171,13 @@
 					},
 					"bonuses" : [
 						{
-							"subtype" : "primSkill.attack",
 							"type" : "PRIMARY_SKILL",
+							"subtype" : "primSkill.attack",
 							"val" : 10
 						},
 						{
-							"subtype" : "primSkill.defence",
 							"type" : "PRIMARY_SKILL",
+							"subtype" : "primSkill.defence",
 							"val" : 10
 						}
 					]
@@ -190,34 +190,34 @@
 				"mageGuild1" : {
 					"cost" : {
 						"gold" : 2000,
-						"ore" : 5,
-						"wood" : 5
+						"wood" : 5,
+						"ore" : 5
 					},
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 1"
 				},
 				"mageGuild2" : {
 					"cost" : {
-						"crystal" : 4,
-						"gems" : 4,
 						"gold" : 1000,
-						"mercury" : 4,
+						"wood" : 5,
 						"ore" : 5,
+						"mercury" : 4,
 						"sulfur" : 4,
-						"wood" : 5
+						"crystal" : 4,
+						"gems" : 4
 					},
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 2"
 				},
 				"mageGuild3" : {
 					"cost" : {
-						"crystal" : 6,
-						"gems" : 6,
 						"gold" : 1000,
-						"mercury" : 6,
+						"wood" : 5,
 						"ore" : 5,
+						"mercury" : 6,
 						"sulfur" : 6,
-						"wood" : 5
+						"crystal" : 6,
+						"gems" : 6
 					},
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 3"
@@ -242,9 +242,9 @@
 				"dwellingLvl3" : {
 					"cost" : {
 						"gold" : 1000,
+						"wood" : 5,
 						"mercury" : 2,
-						"sulfur" : 2,
-						"wood" : 5
+						"sulfur" : 2
 					},
 					"description" : "The Serpent Fly Hive allows you to recruit Serpent Flies.",
 					"name" : "Serpent Fly Hive"
@@ -252,8 +252,8 @@
 				"dwellingLvl4" : {
 					"cost" : {
 						"gold" : 2000,
-						"ore" : 10,
-						"wood" : 5
+						"wood" : 5,
+						"ore" : 10
 					},
 					"description" : "The Basilisk Pit allows you to recruit Basilisks.",
 					"name" : "Basilisk Pit"
@@ -261,10 +261,10 @@
 				"dwellingLvl5" : {
 					"cost" : {
 						"gold" : 2500,
-						"mercury" : 5,
+						"wood" : 10,
 						"ore" : 10,
-						"sulfur" : 5,
-						"wood" : 10
+						"mercury" : 5,
+						"sulfur" : 5
 					},
 					"description" : "The Gorgon Lair allows you to recruit Gorgons.",
 					"name" : "Gorgon Lair"
@@ -280,9 +280,9 @@
 				"dwellingLvl7" : {
 					"cost" : {
 						"gold" : 10000,
+						"wood" : 10,
 						"ore" : 10,
-						"sulfur" : 10,
-						"wood" : 10
+						"sulfur" : 10
 					},
 					"description" : "The Hydra Pond allows you to recruit Hydras.",
 					"name" : "Hydra Pond"
@@ -316,8 +316,8 @@
 				"dwellingUpLvl4" : {
 					"cost" : {
 						"gold" : 2000,
-						"ore" : 5,
-						"wood" : 5
+						"wood" : 5,
+						"ore" : 5
 					},
 					"description" : "The Basilisk Pit allows you to recruit Greater Basilisks.",
 					"name" : "Upg. Basilisk Pit"
@@ -325,8 +325,8 @@
 				"dwellingUpLvl5" : {
 					"cost" : {
 						"gold" : 2000,
-						"ore" : 5,
-						"wood" : 5
+						"wood" : 5,
+						"ore" : 5
 					},
 					"description" : "The Gorgon Lair allows you to recruit Mighty Gorgons.",
 					"name" : "Upg. Gorgon Lair"
@@ -334,8 +334,8 @@
 				"dwellingUpLvl6" : {
 					"cost" : {
 						"gold" : 3000,
-						"mercury" : 10,
-						"wood" : 10
+						"wood" : 10,
+						"mercury" : 10
 					},
 					"description" : "The Wyvern Nest allows you to recruit Wyvern Monarchs.",
 					"name" : "Upg. Wyvern Nest"
@@ -343,9 +343,9 @@
 				"dwellingUpLvl7" : {
 					"cost" : {
 						"gold" : 15000,
+						"wood" : 10,
 						"ore" : 10,
-						"sulfur" : 20,
-						"wood" : 10
+						"sulfur" : 20
 					},
 					"description" : "The Hydra Pond allows you to recruit Chaos Hydras.",
 					"name" : "Upg. Hydra Pond"

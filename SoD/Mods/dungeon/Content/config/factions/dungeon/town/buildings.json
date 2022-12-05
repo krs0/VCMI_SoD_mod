@@ -48,8 +48,8 @@
 				"fort" : {
 					"cost" : {
 						"gold" : 5000,
-						"ore" : 20,
-						"wood" : 20
+						"wood" : 20,
+						"ore" : 20
 					},
 					"description" : "The Fort provides your town with defensive walls.",
 					"name" : "Fort"
@@ -65,8 +65,8 @@
 				"castle" : {
 					"cost" : {
 						"gold" : 5000,
-						"ore" : 10,
-						"wood" : 10
+						"wood" : 10,
+						"ore" : 10
 					},
 					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
 					"name" : "Castle"
@@ -136,8 +136,8 @@
 				"special4" : {
 					"cost" : {
 						"gold" : 1000,
-						"ore" : 5,
-						"wood" : 5
+						"wood" : 5,
+						"ore" : 5
 					},
 					"description" : "The Academy of Battle Scholars teaches new skills to any hero (+1000 experience) once.",
 					"name" : "Battle Scholar Academy",
@@ -164,8 +164,8 @@
 					"mode" : "grail",
 					"bonuses" : [
 						{
-							"subtype" : "primSkill.spellpower",
 							"type" : "PRIMARY_SKILL",
+							"subtype" : "primSkill.spellpower",
 							"val" : 12
 						}
 					],
@@ -177,60 +177,60 @@
 				"mageGuild1" : {
 					"cost" : {
 						"gold" : 2000,
-						"ore" : 5,
-						"wood" : 5
+						"wood" : 5,
+						"ore" : 5
 					},
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 1"
 				},
 				"mageGuild2" : {
 					"cost" : {
-						"crystal" : 4,
-						"gems" : 4,
 						"gold" : 1000,
-						"mercury" : 4,
+						"wood" : 5,
 						"ore" : 5,
+						"mercury" : 4,
 						"sulfur" : 4,
-						"wood" : 5
+						"crystal" : 4,
+						"gems" : 4
 					},
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 2"
 				},
 				"mageGuild3" : {
 					"cost" : {
-						"crystal" : 6,
-						"gems" : 6,
 						"gold" : 1000,
-						"mercury" : 6,
+						"wood" : 5,
 						"ore" : 5,
+						"mercury" : 6,
 						"sulfur" : 6,
-						"wood" : 5
+						"crystal" : 6,
+						"gems" : 6
 					},
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 3"
 				},
 				"mageGuild4" : {
 					"cost" : {
-						"crystal" : 8,
-						"gems" : 8,
 						"gold" : 1000,
-						"mercury" : 8,
+						"wood" : 5,
 						"ore" : 5,
+						"mercury" : 8,
 						"sulfur" : 8,
-						"wood" : 5
+						"crystal" : 8,
+						"gems" : 8
 					},
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 4"
 				},
 				"mageGuild5" : {
 					"cost" : {
-						"crystal" : 10,
-						"gems" : 10,
 						"gold" : 1000,
-						"mercury" : 10,
+						"wood" : 5,
 						"ore" : 5,
+						"mercury" : 10,
 						"sulfur" : 10,
-						"wood" : 5
+						"crystal" : 10,
+						"gems" : 10
 					},
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 5"
@@ -253,13 +253,13 @@
 				},
 				"dwellingLvl3" : {
 					"cost" : {
-						"crystal" : 1,
-						"gems" : 1,
 						"gold" : 1000,
-						"mercury" : 1,
+						"wood" : 1,
 						"ore" : 1,
+						"mercury" : 1,
 						"sulfur" : 1,
-						"wood" : 1
+						"crystal" : 1,
+						"gems" : 1
 					},
 					"description" : "The Pillar of Eyes allows you to recruit Beholders.",
 					"name" : "Pillar of Eyes"
@@ -267,17 +267,17 @@
 				"dwellingLvl4" : {
 					"cost" : {
 						"gold" : 2000,
-						"ore" : 10,
-						"wood" : 5
+						"wood" : 5,
+						"ore" : 10
 					},
 					"description" : "The Chapel of Stilled Voices allows you to recruit Medusas.",
 					"name" : "Chapel of Stilled Voices"
 				},
 				"dwellingLvl5" : {
 					"cost" : {
-						"gems" : 10,
 						"gold" : 4000,
-						"ore" : 10
+						"ore" : 10,
+						"gems" : 10
 					},
 					"description" : "The Labyrinth allows you to recruit Minotaurs.",
 					"name" : "Labyrinth"
@@ -285,10 +285,10 @@
 				"dwellingLvl6" : {
 					"cost" : {
 						"gold" : 5000,
-						"mercury" : 5,
+						"wood" : 5,
 						"ore" : 5,
-						"sulfur" : 5,
-						"wood" : 5
+						"mercury" : 5,
+						"sulfur" : 5
 					},
 					"description" : "The Manticore Lair allows you to recruit Manticores.",
 					"name" : "Manticore Lair"
@@ -296,9 +296,9 @@
 				"dwellingLvl7" : {
 					"cost" : {
 						"gold" : 15000,
+						"wood" : 15,
 						"ore" : 15,
-						"sulfur" : 20,
-						"wood" : 15
+						"sulfur" : 20
 					},
 					"description" : "The Dragon Cave allows you to recruit Red Dragons.",
 					"name" : "Dragon Cave"
@@ -314,22 +314,22 @@
 				},
 				"dwellingUpLvl2" : {
 					"cost" : {
-						"crystal" : 2,
 						"gold" : 1000,
-						"sulfur" : 2
+						"sulfur" : 2,
+						"crystal" : 2
 					},
 					"description" : "The Harpy Loft allows you to recruit Harpy Hags.",
 					"name" : "Upg. Harpy Loft"
 				},
 				"dwellingUpLvl3" : {
 					"cost" : {
-						"crystal" : 1,
-						"gems" : 1,
 						"gold" : 1000,
-						"mercury" : 1,
+						"wood" : 1,
 						"ore" : 1,
+						"mercury" : 1,
 						"sulfur" : 1,
-						"wood" : 1
+						"crystal" : 1,
+						"gems" : 1
 					},
 					"description" : "The Pillar of Eyes allows you to recruit Evil Eyes.",
 					"name" : "Upg. Pillar of Eyes"
@@ -344,9 +344,9 @@
 				},
 				"dwellingUpLvl5" : {
 					"cost" : {
-						"gems" : 5,
 						"gold" : 3000,
-						"ore" : 5
+						"ore" : 5,
+						"gems" : 5
 					},
 					"description" : "The Labyrinth allows you to recruit Minotaur Kings.",
 					"name" : "Upg. Labyrinth"
@@ -354,10 +354,10 @@
 				"dwellingUpLvl6" : {
 					"cost" : {
 						"gold" : 3000,
-						"mercury" : 5,
+						"wood" : 5,
 						"ore" : 5,
-						"sulfur" : 5,
-						"wood" : 5
+						"mercury" : 5,
+						"sulfur" : 5
 					},
 					"description" : "The Manticore Lair allows you to recruit Scorpicores.",
 					"name" : "Upg. Manticore Lair"
@@ -365,9 +365,9 @@
 				"dwellingUpLvl7" : {
 					"cost" : {
 						"gold" : 15000,
+						"wood" : 15,
 						"ore" : 15,
-						"sulfur" : 20,
-						"wood" : 15
+						"sulfur" : 20
 					},
 					"description" : "The Dragon Cave allows you to recruit Black Dragons.",
 					"name" : "Upg. Dragon Cave"
