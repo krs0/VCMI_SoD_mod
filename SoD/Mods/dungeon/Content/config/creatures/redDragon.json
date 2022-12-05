@@ -8,8 +8,8 @@
 		"level" : 7,
 		"upgrades": ["blackDragon"],
 		"cost" : {
-			"sulfur" : 1,
-			"gold" : 2500
+			"gold" : 2500,
+			"sulfur" : 1
 		},
 		"speed" : 11,
 		"hitPoints" : 180,

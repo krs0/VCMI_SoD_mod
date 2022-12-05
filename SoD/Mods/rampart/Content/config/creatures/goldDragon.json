@@ -7,8 +7,8 @@
 		"faction" : "rampart",
 		"level" : 7,
 		"cost" : {
-			"crystal" : 2,
-			"gold" : 4000
+			"gold" : 4000,
+			"crystal" : 2
 		},
 		"speed" : 16,
 		"hitPoints" : 250,

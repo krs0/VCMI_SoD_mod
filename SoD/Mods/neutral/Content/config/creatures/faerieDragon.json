@@ -7,8 +7,8 @@
 		"faction" : "neutral",
 		"level" : 8,
 		"cost" : {
-			"gems" : 8,
-			"gold" : 10000
+			"gold" : 10000,
+			"gems" : 8
 		},
 		"speed" : 15,
 		"hitPoints" : 500,

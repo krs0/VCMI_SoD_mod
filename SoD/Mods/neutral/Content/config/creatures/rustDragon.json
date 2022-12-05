@@ -7,8 +7,8 @@
 		"faction" : "neutral",
 		"level" : 10,
 		"cost" : {
-			"sulfur" : 14,
-			"gold" : 15000
+			"gold" : 15000,
+			"sulfur" : 14
 		},
 		"speed" : 17,
 		"hitPoints" : 750,

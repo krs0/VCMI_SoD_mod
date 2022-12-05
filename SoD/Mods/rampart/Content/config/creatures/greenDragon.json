@@ -8,8 +8,8 @@
 		"level" : 7,
 		"upgrades": ["goldDragon"],
 		"cost" : {
-			"crystal" : 1,
-			"gold" : 2400
+			"gold" : 2400,
+			"crystal" : 1
 		},
 		"speed" : 10,
 		"hitPoints" : 180,

@@ -8,8 +8,8 @@
 		"level" : 7,
 		"upgrades": ["archangel"],
 		"cost" : {
-			"gems" : 1,
-			"gold" : 3000
+			"gold" : 3000,
+			"gems" : 1
 		},
 		"speed" : 12,
 		"hitPoints" : 200,

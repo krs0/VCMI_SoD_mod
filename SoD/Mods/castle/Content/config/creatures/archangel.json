@@ -7,8 +7,8 @@
 		"faction" : "castle",
 		"level" : 7,
 		"cost" : {
-			"gems" : 3,
-			"gold" : 5000
+			"gold" : 5000,
+			"gems" : 3
 		},
 		"speed" : 18,
 		"hitPoints" : 250,

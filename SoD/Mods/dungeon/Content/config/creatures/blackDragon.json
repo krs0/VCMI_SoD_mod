@@ -7,8 +7,8 @@
 		"faction" : "dungeon",
 		"level" : 7,
 		"cost" : {
-			"sulfur" : 2,
-			"gold" : 4000
+			"gold" : 4000,
+			"sulfur" : 2
 		},
 		"speed" : 15,
 		"hitPoints" : 300,

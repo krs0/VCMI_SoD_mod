@@ -7,8 +7,8 @@
 		"faction" : "neutral",
 		"level" : 10,
 		"cost" : {
-			"mercury" : 20,
-			"gold" : 30000
+			"gold" : 30000,
+			"mercury" : 20
 		},
 		"speed" : 19,
 		"hitPoints" : 1000,

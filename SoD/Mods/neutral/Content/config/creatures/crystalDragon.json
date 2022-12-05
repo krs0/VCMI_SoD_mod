@@ -7,8 +7,8 @@
 		"faction" : "neutral",
 		"level" : 10,
 		"cost" : {
-			"crystal" : 10,
-			"gold" : 20000
+			"gold" : 20000,
+			"crystal" : 10
 		},
 		"speed" : 16,
 		"hitPoints" : 800,
