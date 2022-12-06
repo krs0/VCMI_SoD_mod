@@ -10,7 +10,7 @@
 		{
 			"specialtySmall" : "heroes/erdamon/icons/speciality/UN32_0_133.png",
 			"specialtyLarge" : "heroes/erdamon/icons/speciality/UN44_0_133.png",
-			"small" : "heroes/erdamon/icons/portrait/HPS005PL.png"
+			"small" : "heroes/erdamon/icons/portrait/HPS005PL.png",
 			"large" : "heroes/erdamon/icons/portrait/HPL005PL.png"
 		},
 		"army" : [

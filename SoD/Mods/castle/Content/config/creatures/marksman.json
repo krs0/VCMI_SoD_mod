@@ -32,8 +32,8 @@
 			},
 			"extraAttack" : {
 				"type" : "ADDITIONAL_ATTACK",
-				"val" : 1
-				"effectRange" : "ONLY_DISTANCE_FIGHT",
+				"val" : 1,
+				"effectRange" : "ONLY_DISTANCE_FIGHT"
 			}
 		},
 		"abilityText" : "Shoots twice.",

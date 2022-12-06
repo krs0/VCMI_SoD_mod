@@ -48,8 +48,8 @@
 					"val" : 2,
 					"limiters" : [
 						{
-							"type" : "CREATURE_TYPE_LIMITER"
-							"parameters" : [ "waterElemental", true	],
+							"type" : "CREATURE_TYPE_LIMITER",
+							"parameters" : [ "waterElemental", true	]
 						}
 					]
 				}

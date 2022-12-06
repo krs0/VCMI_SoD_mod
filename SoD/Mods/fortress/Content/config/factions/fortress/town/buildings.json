@@ -12,7 +12,7 @@
 					"produce": { 
 						"gold": 500
 					}
-				}
+				},
 				"townHall" : {
 					"cost" : {
 						"gold" : 2500

@@ -15,7 +15,7 @@
 		"attack" : 13,
 		"defense" : 13,
 		"damage" : {
-			",min" : 13
+			"min" : 13,
 			"max" : 17
 		},
 		"growth" : 3,

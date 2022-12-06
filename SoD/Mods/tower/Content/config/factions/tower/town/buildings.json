@@ -136,7 +136,7 @@
 					},
 					"description" : "The library provides your mage guild with additional spells.",
 					"name" : "Library",
-					"type" : "library
+					"type" : "library"
 				},
 				"special4" : {
 					"cost" : {

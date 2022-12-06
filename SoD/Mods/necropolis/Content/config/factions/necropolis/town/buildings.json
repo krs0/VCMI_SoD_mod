@@ -22,7 +22,7 @@
 					"produce": {
 						"gold": 500
 					}
-				}
+				},
 				"cityHall" : {
 					"cost" : {
 						"gold" : 5000
@@ -195,7 +195,7 @@
 				},
 				"extraCityHall" : {
 					"mode" : "auto"
-				}
+				},
 				"extraCapitol" : {
 					"mode" : "auto"
 				},

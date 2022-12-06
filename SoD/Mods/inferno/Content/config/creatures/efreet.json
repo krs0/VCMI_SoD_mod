@@ -33,7 +33,7 @@
 			"immuneToFire" : {
 				"type" : "FIRE_IMMUNITY",
 				"subtype" : 0
-			}
+			},
 			"hateGenies" : {
 				"type" : "HATE",
 				"subtype" : "creature.genie",
@@ -43,8 +43,7 @@
 				"type" : "HATE",
 				"subtype" : "creature.masterGenie",
 				"val" : 50
-			},
-
+			}
 		},
 		"abilityText" : "Immune to fire.  Hates Genies.",
 		"graphics" : {

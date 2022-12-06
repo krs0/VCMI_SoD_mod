@@ -39,7 +39,7 @@
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.protectAir",
 				"val" : 2
-			}
+			},
 			"spellPower" : {
 				"type" : "CREATURE_ENCHANT_POWER",
 				"val" : 6

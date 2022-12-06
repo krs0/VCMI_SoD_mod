@@ -45,11 +45,11 @@
 			"rebirthOnce" : {
 				"type" : "CASTS",
 				"val" : 1
-			}
+			},
 			"immuneToFire" : {
 				"type" : "FIRE_IMMUNITY",
 				"subtype" : 0
-			},
+			}
 		},
 		"abilityText" : "Breath attack.  Fire spell immunity.  Rebirth.",
 		"graphics" : {

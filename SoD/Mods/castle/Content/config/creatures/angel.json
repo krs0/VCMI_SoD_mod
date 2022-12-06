@@ -36,9 +36,9 @@
 			},
 			"const_raises_morale" : {
 				"type" : "MORALE",
-				"val" : 1
+				"val" : 1,
 				"propagator" : "HERO",
-				"stacking" : "Angels",
+				"stacking" : "Angels"
 			},
 			"hateDevils" : {
 				"type" : "HATE",

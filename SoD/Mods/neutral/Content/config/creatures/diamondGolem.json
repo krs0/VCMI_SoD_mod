@@ -1,7 +1,7 @@
 {
 	"diamondGolem": {
 		"name" : {
-			"singular" : "Diamond Golem"
+			"singular" : "Diamond Golem",
 			"plural" : "Diamond Golems"
 		},
 		"faction" : "neutral",

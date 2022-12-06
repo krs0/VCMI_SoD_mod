@@ -45,7 +45,7 @@
 			"spellpower" : {
 				"type" : "CREATURE_SPELL_POWER",
 				"val" : 500
-			}
+			},
 			"castsChainLightning" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.chainLightning",

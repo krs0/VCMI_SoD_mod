@@ -39,7 +39,7 @@
 						"gold" : 10000
 					},
 					"description" : "The Capitol earns your kingdom 4000 gold per day.",
-					"name" : "Capitol"
+					"name" : "Capitol",
 					"produce": { 
 						"gold": 4000 
 					}
@@ -155,7 +155,7 @@
 						"gold" : 1000
 					},
 					"description" : "The Mushroom Rings increase Infernal Troglodyte production by 7 per week.",
-					"name" : "Mushroom Rings"
+					"name" : "Mushroom Rings",
 					"mode" : "auto"
 				},
 				"grail" : {

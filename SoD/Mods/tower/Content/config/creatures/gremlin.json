@@ -1,7 +1,7 @@
 {
 	"gremlin": {
 		"name" : {
-			"singular" : "Gremlin"
+			"singular" : "Gremlin",
 			"plural" : "Gremlins"
 		},
 		"extraNames" : [
