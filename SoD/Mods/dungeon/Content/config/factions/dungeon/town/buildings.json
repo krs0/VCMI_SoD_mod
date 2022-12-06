@@ -3,164 +3,164 @@
 		"town" : {
 			"buildings" : {
 				"villageHall" : {
+					"name" : "Village Hall",
+					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
+					"mode" : "auto",
 					"cost" : {
 						"gold" : 1
 					},
-					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
-					"name" : "Village Hall",
-					"mode" : "auto",
 					"produce": {
 						"gold": 500
 					}
 				},
 				"townHall" : {
+					"name" : "Town Hall",
+					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
 					"cost" : {
 						"gold" : 2500
 					},
-					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
-					"name" : "Town Hall",
 					"produce": {
 						"gold": 1000
 					}
 				},
 				"cityHall" : {
+					"name" : "City Hall",
+					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
 					"cost" : {
 						"gold" : 5000
 					},
-					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
-					"name" : "City Hall",
 					"produce": { 
 						"gold": 2000
 
 					}
 				},
 				"capitol" : {
+					"name" : "Capitol",
+					"description" : "The Capitol earns your kingdom 4000 gold per day.",
 					"cost" : {
 						"gold" : 10000
 					},
-					"description" : "The Capitol earns your kingdom 4000 gold per day.",
-					"name" : "Capitol",
 					"produce": { 
 						"gold": 4000 
 					}
 				},
 				
 				"fort" : {
+					"name" : "Fort",
+					"description" : "The Fort provides your town with defensive walls.",
 					"cost" : {
 						"gold" : 5000,
 						"wood" : 20,
 						"ore" : 20
-					},
-					"description" : "The Fort provides your town with defensive walls.",
-					"name" : "Fort"
+					}
 				},
 				"citadel" : {
+					"name" : "Citadel",
+					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
 					"cost" : {
 						"gold" : 2500,
 						"ore" : 5
-					},
-					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
-					"name" : "Citadel"
+					}
 				},
 				"castle" : {
+					"name" : "Castle",
+					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
 					"cost" : {
 						"gold" : 5000,
 						"wood" : 10,
 						"ore" : 10
-					},
-					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
-					"name" : "Castle"
+					}
 				},
 				
 				"tavern" : {
+					"name" : "Tavern",
+					"description" : "The Tavern increases morale for troops defending the city.",
 					"cost" : {
 						"gold" : 500,
 						"wood" : 5
-					},
-					"description" : "The Tavern increases morale for troops defending the city.",
-					"name" : "Tavern"
+					}
 				},
 				"blacksmith" : {
+					"name" : "Blacksmith",
+					"description" : "The Blacksmith provides your armies with Ballistas.",
 					"cost" : {
 						"gold" : 1000,
 						"wood" : 5
-					},
-					"description" : "The Blacksmith provides your armies with Ballistas.",
-					"name" : "Blacksmith"
+					}
 				},
 				"marketplace" : {
+					"name" : "Marketplace",
+					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
 					"cost" : {
 						"gold" : 500,
 						"wood" : 5
-					},
-					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
-					"name" : "Marketplace"
+					}
 				},
 				"resourceSilo" : {
+					"name" : "Resource Silo",
+					"description" : "The Resource Silo provides you with an additional +1 sulfur each day.",
 					"cost" : {
 						"gold" : 5000,
 						"ore" : 5
 					},
-					"description" : "The Resource Silo provides you with an additional +1 sulfur each day.",
-					"name" : "Resource Silo",
 					"produce" : {
 						"sulfur" : 1
 					}
 				},
 
 				"special1" : {
+					"name" : "Artifact Merchants",
+					"description" : "For a nominal fee, you can purchase artifacts from the Artifact Merchants.",
+					"type" : "artifactMerchant",
 					"cost" : {
 						"gold" : 10000
-					},
-					"description" : "For a nominal fee, you can purchase artifacts from the Artifact Merchants.",
-					"name" : "Artifact Merchants",
-					"type" : "artifactMerchant"
+					}
 				},
 				"special2" : {
+					"name" : "Mana Vortex",
+					"description" : "The Mana Vortex temporarily doubles spell points for any garrison or visiting hero.",
+					"type" : "manaVortex",
 					"cost" : {
 						"gold" : 1000
-					},
-					"description" : "The Mana Vortex temporarily doubles spell points for any garrison or visiting hero.",
-					"name" : "Mana Vortex",
-					"type" : "manaVortex"
+					}
 				},
 				"special3" : {
+					"name" : "Portal of Summoning",
+					"description" : "With the Portal of Summoning, you can recruit creatures from an externally flagged dwelling.",
+					"type" : "portalOfSummoning",
 					"cost" : {
 						"gold" : 2500,
 						"ore" : 5
-					},
-					"description" : "With the Portal of Summoning, you can recruit creatures from an externally flagged dwelling.",
-					"name" : "Portal of Summoning",
-					"type" : "portalOfSummoning"
+					}
 				},
 				"special4" : {
+					"name" : "Battle Scholar Academy",
+					"description" : "The Academy of Battle Scholars teaches new skills to any hero (+1000 experience) once.",
+					"type" : "experienceVisitingBonus",
 					"cost" : {
 						"gold" : 1000,
 						"wood" : 5,
 						"ore" : 5
-					},
-					"description" : "The Academy of Battle Scholars teaches new skills to any hero (+1000 experience) once.",
-					"name" : "Battle Scholar Academy",
-					"type" : "experienceVisitingBonus"
+					}
 				},
 				"horde1" : {
+					"name" : "Mushroom Rings",
+					"description" : "The Mushroom Rings increase Troglodyte production by 7 per week.",
 					"cost" : {
 						"gold" : 1000
-					},
-					"description" : "The Mushroom Rings increase Troglodyte production by 7 per week.",
-					"name" : "Mushroom Rings"
+					}
 				},
 				"horde1Upgr" : {
+					"name" : "Mushroom Rings",
+					"description" : "The Mushroom Rings increase Infernal Troglodyte production by 7 per week.",
+					"mode" : "auto",
 					"cost" : {
 						"gold" : 1000
-					},
-					"description" : "The Mushroom Rings increase Infernal Troglodyte production by 7 per week.",
-					"name" : "Mushroom Rings",
-					"mode" : "auto"
+					}
 				},
 				"grail" : {
-					"description" : "The presence of the Guardian of Earth increases weekly creature generation by 50%, provides your empire with an additional 5000 gold each day, and increases the Power of a garrison hero by +12 when defending against a siege.",
 					"name" : "Guardian of Earth",
+					"description" : "The presence of the Guardian of Earth increases weekly creature generation by 50%, provides your empire with an additional 5000 gold each day, and increases the Power of a garrison hero by +12 when defending against a siege.",
 					"mode" : "grail",
 					"bonuses" : [
 						{
@@ -175,15 +175,17 @@
 				},
 
 				"mageGuild1" : {
+					"name" : "Mage Guild Level 1",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"cost" : {
 						"gold" : 2000,
 						"wood" : 5,
 						"ore" : 5
-					},
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 1"
+					}
 				},
 				"mageGuild2" : {
+					"name" : "Mage Guild Level 2",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"cost" : {
 						"gold" : 1000,
 						"wood" : 5,
@@ -192,11 +194,11 @@
 						"sulfur" : 4,
 						"crystal" : 4,
 						"gems" : 4
-					},
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 2"
+					}
 				},
 				"mageGuild3" : {
+					"name" : "Mage Guild Level 3",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"cost" : {
 						"gold" : 1000,
 						"wood" : 5,
@@ -205,11 +207,11 @@
 						"sulfur" : 6,
 						"crystal" : 6,
 						"gems" : 6
-					},
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 3"
+					}
 				},
 				"mageGuild4" : {
+					"name" : "Mage Guild Level 4",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"cost" : {
 						"gold" : 1000,
 						"wood" : 5,
@@ -218,11 +220,11 @@
 						"sulfur" : 8,
 						"crystal" : 8,
 						"gems" : 8
-					},
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 4"
+					}
 				},
 				"mageGuild5" : {
+					"name" : "Mage Guild Level 5",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"cost" : {
 						"gold" : 1000,
 						"wood" : 5,
@@ -231,27 +233,27 @@
 						"sulfur" : 10,
 						"crystal" : 10,
 						"gems" : 10
-					},
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 5"
+					}
 				},
 				
 				"dwellingLvl1" : {
+					"name" : "Warren",
+					"description" : "The Warren allows you to recruit Troglodytes.",
 					"cost" : {
 						"gold" : 400,
 						"wood" : 10
-					},
-					"description" : "The Warren allows you to recruit Troglodytes.",
-					"name" : "Warren"
+					}
 				},
 				"dwellingLvl2" : {
+					"name" : "Harpy Loft",
+					"description" : "The Harpy Loft allows you to recruit Harpies.",
 					"cost" : {
 						"gold" : 1000
-					},
-					"description" : "The Harpy Loft allows you to recruit Harpies.",
-					"name" : "Harpy Loft"
+					}
 				},
 				"dwellingLvl3" : {
+					"name" : "Pillar of Eyes",
+					"description" : "The Pillar of Eyes allows you to recruit Beholders.",
 					"cost" : {
 						"gold" : 1000,
 						"wood" : 1,
@@ -260,68 +262,68 @@
 						"sulfur" : 1,
 						"crystal" : 1,
 						"gems" : 1
-					},
-					"description" : "The Pillar of Eyes allows you to recruit Beholders.",
-					"name" : "Pillar of Eyes"
+					}
 				},
 				"dwellingLvl4" : {
+					"name" : "Chapel of Stilled Voices",
+					"description" : "The Chapel of Stilled Voices allows you to recruit Medusas.",
 					"cost" : {
 						"gold" : 2000,
 						"wood" : 5,
 						"ore" : 10
-					},
-					"description" : "The Chapel of Stilled Voices allows you to recruit Medusas.",
-					"name" : "Chapel of Stilled Voices"
+					}
 				},
 				"dwellingLvl5" : {
+					"name" : "Labyrinth",
+					"description" : "The Labyrinth allows you to recruit Minotaurs.",
 					"cost" : {
 						"gold" : 4000,
 						"ore" : 10,
 						"gems" : 10
-					},
-					"description" : "The Labyrinth allows you to recruit Minotaurs.",
-					"name" : "Labyrinth"
+					}
 				},
 				"dwellingLvl6" : {
+					"name" : "Manticore Lair",
+					"description" : "The Manticore Lair allows you to recruit Manticores.",
 					"cost" : {
 						"gold" : 5000,
 						"wood" : 5,
 						"ore" : 5,
 						"mercury" : 5,
 						"sulfur" : 5
-					},
-					"description" : "The Manticore Lair allows you to recruit Manticores.",
-					"name" : "Manticore Lair"
+					}
 				},
 				"dwellingLvl7" : {
+					"name" : "Dragon Cave",
+					"description" : "The Dragon Cave allows you to recruit Red Dragons.",
 					"cost" : {
 						"gold" : 15000,
 						"wood" : 15,
 						"ore" : 15,
 						"sulfur" : 20
-					},
-					"description" : "The Dragon Cave allows you to recruit Red Dragons.",
-					"name" : "Dragon Cave"
+					}
 				},
 				
 				"dwellingUpLvl1" : {
+					"name" : "Upg. Warren",
+					"description" : "The Warren allows you to recruit Infernal Troglodytes.",
 					"cost" : {
 						"gold" : 1000,
 						"wood" : 5
-					},
-					"description" : "The Warren allows you to recruit Infernal Troglodytes.",
-					"name" : "Upg. Warren"
+					}
 				},
 				"dwellingUpLvl2" : {
+					"name" : "Upg. Harpy Loft",
+					"description" : "The Harpy Loft allows you to recruit Harpy Hags.",
 					"cost" : {
 						"gold" : 1000,
 						"sulfur" : 2,
 						"crystal" : 2
-					},
-					"description" : "The Harpy Loft allows you to recruit Harpy Hags.",
-					"name" : "Upg. Harpy Loft"
+					}
 				},
 				"dwellingUpLvl3" : {
+					"name" : "Upg. Pillar of Eyes",
+					"description" : "The Pillar of Eyes allows you to recruit Evil Eyes.",
 					"cost" : {
 						"gold" : 1000,
 						"wood" : 1,
@@ -330,48 +332,46 @@
 						"sulfur" : 1,
 						"crystal" : 1,
 						"gems" : 1
-					},
-					"description" : "The Pillar of Eyes allows you to recruit Evil Eyes.",
-					"name" : "Upg. Pillar of Eyes"
+					}
 				},
 				"dwellingUpLvl4" : {
+					"name" : "Upg. Stilled Voices",
+					"description" : "The Chapel of Stilled Voices allows you to recruit Medusa Queens.",
 					"cost" : {
 						"gold" : 1500,
 						"wood" : 5
-					},
-					"description" : "The Chapel of Stilled Voices allows you to recruit Medusa Queens.",
-					"name" : "Upg. Stilled Voices"
+					}
 				},
 				"dwellingUpLvl5" : {
+					"name" : "Upg. Labyrinth",
+					"description" : "The Labyrinth allows you to recruit Minotaur Kings.",
 					"cost" : {
 						"gold" : 3000,
 						"ore" : 5,
 						"gems" : 5
-					},
-					"description" : "The Labyrinth allows you to recruit Minotaur Kings.",
-					"name" : "Upg. Labyrinth"
+					}
 				},
 				"dwellingUpLvl6" : {
+					"name" : "Upg. Manticore Lair",
+					"description" : "The Manticore Lair allows you to recruit Scorpicores.",
 					"cost" : {
 						"gold" : 3000,
 						"wood" : 5,
 						"ore" : 5,
 						"mercury" : 5,
 						"sulfur" : 5
-					},
-					"description" : "The Manticore Lair allows you to recruit Scorpicores.",
-					"name" : "Upg. Manticore Lair"
+					}
 				},
 				"dwellingUpLvl7" : {
+					"name" : "Upg. Dragon Cave",
+					"description" : "The Dragon Cave allows you to recruit Black Dragons.",
 					"cost" : {
 						"gold" : 15000,
 						"wood" : 15,
 						"ore" : 15,
 						"sulfur" : 20
-					},
-					"description" : "The Dragon Cave allows you to recruit Black Dragons.",
-					"name" : "Upg. Dragon Cave"
-				},
+					}
+				}
 			}
 		}
 	}

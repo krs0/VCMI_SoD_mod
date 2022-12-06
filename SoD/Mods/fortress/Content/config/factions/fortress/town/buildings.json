@@ -3,168 +3,168 @@
 		"town" : {
 			"buildings" : {
 				"villageHall" : {
+					"name" : "Village Hall",
+					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
+					"mode" : "auto",
 					"cost" : {
 						"gold" : 1
 					},
-					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
-					"name" : "Village Hall",
-					"mode" : "auto",
 					"produce": { 
 						"gold": 500
 					}
 				},
 				"townHall" : {
+					"name" : "Town Hall",
+					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
 					"cost" : {
 						"gold" : 2500
 					},
-					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
-					"name" : "Town Hall",
 					"produce": {
 						"gold": 1000
 					}
 				},
 				"cityHall" : {
+					"name" : "City Hall",
+					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
 					"cost" : {
 						"gold" : 5000
 					},
-					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
-					"name" : "City Hall",
 					"produce": { 
 						"gold": 2000
 					}
 				},
 				"capitol" : {
+					"name" : "Capitol",
+					"description" : "The Capitol earns your kingdom 4000 gold per day.",
 					"cost" : {
 						"gold" : 10000
 					},
-					"description" : "The Capitol earns your kingdom 4000 gold per day.",
-					"name" : "Capitol",
 					"produce": {
 						"gold": 4000
 					}
 				},
 				
 				"fort" : {
+					"name" : "Fort",
+					"description" : "The Fort provides your town with defensive walls.",
 					"cost" : {
 						"gold" : 5000,
 						"wood" : 20,
 						"ore" : 20
-					},
-					"description" : "The Fort provides your town with defensive walls.",
-					"name" : "Fort"
+					}
 				},
 				"citadel" : {
+					"name" : "Citadel",
+					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
 					"cost" : {
 						"gold" : 2500,
 						"ore" : 5
-					},
-					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
-					"name" : "Citadel"
+					}
 				},
 				"castle" : {
+					"name" : "Castle",
+					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
 					"cost" : {
 						"gold" : 5000,
 						"wood" : 10,
 						"ore" : 10
-					},
-					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
-					"name" : "Castle"
+					}
 				},
 
 				"tavern" : {
+					"name" : "Tavern",
+					"description" : "The Tavern increases morale for troops defending the city.",
 					"cost" : {
 						"gold" : 500,
 						"wood" : 5
-					},
-					"description" : "The Tavern increases morale for troops defending the city.",
-					"name" : "Tavern"
+					}
 				},		
 				"blacksmith" : {
+					"name" : "Blacksmith",
+					"description" : "The Blacksmith provides your armies with First Aid Tents.",
 					"cost" : {
 						"gold" : 1000,
 						"wood" : 5
-					},
-					"description" : "The Blacksmith provides your armies with First Aid Tents.",
-					"name" : "Blacksmith"
+					}
 				},
 				"marketplace" : {
+					"name" : "Marketplace",
+					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
 					"cost" : {
 						"gold" : 500,
 						"wood" : 5
-					},
-					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
-					"name" : "Marketplace"
+					}
 				},
 				"resourceSilo" : {
+					"name" : "Resource Silo",
+					"description" : "The Resource Silo provides you with an additional +1 wood and +1 ore each day.",
 					"cost" : {
 						"gold" : 5000,
 						"ore" : 5
 					},
-					"description" : "The Resource Silo provides you with an additional +1 wood and +1 ore each day.",
-					"name" : "Resource Silo",
 					"produce": {
 						"wood": 1,
 						"ore": 1
 					}
 				},
 				"shipyard" : {
+					"name" : "Shipyard",
+					"description" : "The Shipyard allows you to purchase ships.",
 					"cost" : {
 						"gold" : 2000,
 						"wood" : 20
-					},
-					"description" : "The Shipyard allows you to purchase ships.",
-					"name" : "Shipyard"
+					}
 				},
 				"ship" : {
+					"name" : "Shipyard",
+					"description" : "The Shipyard allows you to purchase ships.",
 					"cost" : {
 						"gold" : 0
-					},
-					"description" : "The Shipyard allows you to purchase ships.",
-					"name" : "Shipyard"
+					}
 				},
 
 				"special1" : {
+					"name" : "Cage of Warlords",
+					"description" : "The Cage of Warlords increases the Defense strength of any visiting hero by +1.",
+					"type" : "defenceVisitingBonus",
 					"cost" : {
 						"gold" : 1000
-					},
-					"description" : "The Cage of Warlords increases the Defense strength of any visiting hero by +1.",
-					"name" : "Cage of Warlords",
-					"type" : "defenceVisitingBonus"
+					}
 				},
 				"special2" : {
+					"name" : "Glyphs of Fear",
+					"description" : "The Glyphs of Fear add +2 to a garrison hero's defense skill when defending against a siege.",
+					"type" : "defenseGarrisonBonus",
 					"cost" : {
 						"gold" : 1000
-					},
-					"description" : "The Glyphs of Fear add +2 to a garrison hero's defense skill when defending against a siege.",
-					"name" : "Glyphs of Fear",
-					"type" : "defenseGarrisonBonus"
+					}
 				},
 				"special3" : {
+					"name" : "Blood Obelisk",
+					"description" : "The presence of a Blood Obelisk adds +2 to a garrison hero's attack skill when defending against a siege.",
+					"type" : "attackGarrisonBonus",
 					"cost" : {
 						"gold" : 1000
-					},
-					"description" : "The presence of a Blood Obelisk adds +2 to a garrison hero's attack skill when defending against a siege.",
-					"name" : "Blood Obelisk",
-					"type" : "attackGarrisonBonus"
+					}
 				},			
 				"horde1" : {
+					"name" : "Captain's Quarters",
+					"description" : "The Captain's Quarters increase Gnoll production by 6 per week.",
 					"cost" : {
 						"gold" : 1000
-					},
-					"description" : "The Captain's Quarters increase Gnoll production by 6 per week.",
-					"name" : "Captain's Quarters"
+					}
 				},
 				"horde1Upgr" : {
+					"name" : "Captain's Quarters",
+					"description" : "The Captain's Quarters increase Gnoll Marauder production by 6 per week.",
+					"mode" : "auto",
 					"cost" : {
 						"gold" : 1000
-					},
-					"description" : "The Captain's Quarters increase Gnoll Marauder production by 6 per week.",
-					"name" : "Captain's Quarters",
-					"mode" : "auto"
+					}
 				},
 				"grail" : {
-					"description" : "The presence of the Carnivorous Plant increases weekly creature generation by 50%, provides your kingdom with an additional 5000 gold each day, and increases the Attack and Defense strength of a garrison hero by +10 each when defending against a siege.",
 					"name" : "Carnivorous Plant",
+					"description" : "The presence of the Carnivorous Plant increases weekly creature generation by 50%, provides your kingdom with an additional 5000 gold each day, and increases the Attack and Defense strength of a garrison hero by +10 each when defending against a siege.",
 					"mode" : "grail",
 					"produce": {
 						"gold": 5000
@@ -183,20 +183,21 @@
 					]
 				},
 				"extraCapitol" : {
-					"id" : 29,
 					"mode" : "auto"
 				},
 				
 				"mageGuild1" : {
+					"name" : "Mage Guild Level 1",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"cost" : {
 						"gold" : 2000,
 						"wood" : 5,
 						"ore" : 5
-					},
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 1"
+					}
 				},
 				"mageGuild2" : {
+					"name" : "Mage Guild Level 2",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"cost" : {
 						"gold" : 1000,
 						"wood" : 5,
@@ -205,11 +206,11 @@
 						"sulfur" : 4,
 						"crystal" : 4,
 						"gems" : 4
-					},
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 2"
+					}
 				},
 				"mageGuild3" : {
+					"name" : "Mage Guild Level 3",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"cost" : {
 						"gold" : 1000,
 						"wood" : 5,
@@ -218,137 +219,135 @@
 						"sulfur" : 6,
 						"crystal" : 6,
 						"gems" : 6
-					},
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 3"
+					}
 				},
 
 				"dwellingLvl1" : {
+					"name" : "Gnoll Hut",
+					"description" : "The Gnoll Hut allows you to recruit Gnolls.",
 					"cost" : {
 						"gold" : 400,
 						"wood" : 10
-					},
-					"description" : "The Gnoll Hut allows you to recruit Gnolls.",
-					"name" : "Gnoll Hut"
+					}
 				},
 				"dwellingLvl2" : {
+					"name" : "Lizard Den",
+					"description" : "The Lizard Den allows you to recruit Lizardmen.",
 					"cost" : {
 						"gold" : 1000,
 						"wood" : 5
-					},
-					"description" : "The Lizard Den allows you to recruit Lizardmen.",
-					"name" : "Lizard Den"
+					}
 				},
 				"dwellingLvl3" : {
+					"name" : "Serpent Fly Hive",
+					"description" : "The Serpent Fly Hive allows you to recruit Serpent Flies.",
 					"cost" : {
 						"gold" : 1000,
 						"wood" : 5,
 						"mercury" : 2,
 						"sulfur" : 2
-					},
-					"description" : "The Serpent Fly Hive allows you to recruit Serpent Flies.",
-					"name" : "Serpent Fly Hive"
+					}
 				},
 				"dwellingLvl4" : {
+					"name" : "Basilisk Pit",
+					"description" : "The Basilisk Pit allows you to recruit Basilisks.",
 					"cost" : {
 						"gold" : 2000,
 						"wood" : 5,
 						"ore" : 10
-					},
-					"description" : "The Basilisk Pit allows you to recruit Basilisks.",
-					"name" : "Basilisk Pit"
+					}
 				},
 				"dwellingLvl5" : {
+					"name" : "Gorgon Lair",
+					"description" : "The Gorgon Lair allows you to recruit Gorgons.",
 					"cost" : {
 						"gold" : 2500,
 						"wood" : 10,
 						"ore" : 10,
 						"mercury" : 5,
 						"sulfur" : 5
-					},
-					"description" : "The Gorgon Lair allows you to recruit Gorgons.",
-					"name" : "Gorgon Lair"
+					}
 				},
 				"dwellingLvl6" : {
+					"name" : "Wyvern Nest",
+					"description" : "The Wyvern Nest allows you to recruit Wyverns.",
 					"cost" : {
 						"gold" : 3500,
 						"wood" : 15
-					},
-					"description" : "The Wyvern Nest allows you to recruit Wyverns.",
-					"name" : "Wyvern Nest"
+					}
 				},
 				"dwellingLvl7" : {
+					"name" : "Hydra Pond",
+					"description" : "The Hydra Pond allows you to recruit Hydras.",
 					"cost" : {
 						"gold" : 10000,
 						"wood" : 10,
 						"ore" : 10,
 						"sulfur" : 10
-					},
-					"description" : "The Hydra Pond allows you to recruit Hydras.",
-					"name" : "Hydra Pond"
+					}
 				},
 
 				"dwellingUpLvl1" : {
+					"name" : "Upg. Gnoll Hut",
+					"description" : "The Gnoll Hut allows you to recruit Gnoll Marauders.",
 					"cost" : {
 						"gold" : 1000,
 						"wood" : 10
-					},
-					"description" : "The Gnoll Hut allows you to recruit Gnoll Marauders.",
-					"name" : "Upg. Gnoll Hut"
+					}
 				},
 				"dwellingUpLvl2" : {
+					"name" : "Upg. Lizard Den",
+					"description" : "The Lizard Den allows you to recruit Lizard Warriors.",
 					"cost" : {
 						"gold" : 1000,
 						"wood" : 5
-					},
-					"description" : "The Lizard Den allows you to recruit Lizard Warriors.",
-					"name" : "Upg. Lizard Den"
+					}
 				},
 				"dwellingUpLvl3" : {
+					"name" : "Upg. Serpent Fly Hive",
+					"description" : "The Serpent Fly Hive allows you to recruit Dragon Flies.",
 					"cost" : {
 						"gold" : 1000,
 						"mercury" : 2,
 						"sulfur" : 2
-					},
-					"description" : "The Serpent Fly Hive allows you to recruit Dragon Flies.",
-					"name" : "Upg. Serpent Fly Hive"
+					}
 				},
 				"dwellingUpLvl4" : {
+					"name" : "Upg. Basilisk Pit",
+					"description" : "The Basilisk Pit allows you to recruit Greater Basilisks.",
 					"cost" : {
 						"gold" : 2000,
 						"wood" : 5,
 						"ore" : 5
-					},
-					"description" : "The Basilisk Pit allows you to recruit Greater Basilisks.",
-					"name" : "Upg. Basilisk Pit"
+					}
 				},
 				"dwellingUpLvl5" : {
+					"name" : "Upg. Gorgon Lair",
+					"description" : "The Gorgon Lair allows you to recruit Mighty Gorgons.",
 					"cost" : {
 						"gold" : 2000,
 						"wood" : 5,
 						"ore" : 5
-					},
-					"description" : "The Gorgon Lair allows you to recruit Mighty Gorgons.",
-					"name" : "Upg. Gorgon Lair"
+					}
 				},
 				"dwellingUpLvl6" : {
+					"name" : "Upg. Wyvern Nest",
+					"description" : "The Wyvern Nest allows you to recruit Wyvern Monarchs.",
 					"cost" : {
 						"gold" : 3000,
 						"wood" : 10,
 						"mercury" : 10
-					},
-					"description" : "The Wyvern Nest allows you to recruit Wyvern Monarchs.",
-					"name" : "Upg. Wyvern Nest"
+					}
 				},
 				"dwellingUpLvl7" : {
+					"name" : "Upg. Hydra Pond",
+					"description" : "The Hydra Pond allows you to recruit Chaos Hydras.",
 					"cost" : {
 						"gold" : 15000,
 						"wood" : 10,
 						"ore" : 10,
 						"sulfur" : 20
-					},
-					"description" : "The Hydra Pond allows you to recruit Chaos Hydras.",
-					"name" : "Upg. Hydra Pond"
+					}
 				}
 			}
 		}

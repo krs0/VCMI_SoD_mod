@@ -3,166 +3,166 @@
 		"town" : {
 			"buildings" : {
 				"villageHall" : {
+					"name" : "Village Hall",
+					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
+					"mode" : "auto",
 					"cost" : {
 						"gold" : 1
 					},
-					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
-					"name" : "Village Hall",
-					"mode" : "auto",
 					"produce": {
 						"gold": 500
 					}
 				},
 				"townHall" : {
+					"name" : "Town Hall",
+					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
 					"cost" : {
 						"gold" : 2500
 					},
-					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
-					"name" : "Town Hall",
 					"produce": {
 						"gold": 1000
 					}
 				},
 				"cityHall" : {
+					"name" : "City Hall",
+					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
 					"cost" : {
 						"gold" : 5000
 					},
-					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
-					"name" : "City Hall",
 					"produce" : {
 						"gold" : 2000
 					},
 				},
 				"capitol" : {
+					"name" : "Capitol",
+					"description" : "The Capitol earns your kingdom 4000 gold per day.",
 					"cost" : {
 						"gold" : 10000
 					},
-					"description" : "The Capitol earns your kingdom 4000 gold per day.",
-					"name" : "Capitol",
 					"produce": {
 						"gold": 4000
 					}
 				},
 
 				"fort" : {
+					"name" : "Fort",
+					"description" : "The Fort provides your town with defensive walls.",
 					"cost" : {
 						"gold" : 5000,
 						"wood" : 20,
 						"ore" : 20
-					},
-					"description" : "The Fort provides your town with defensive walls.",
-					"name" : "Fort"
+					}
 				},
 				"citadel" : {
+					"name" : "Citadel",
+					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
 					"cost" : {
 						"gold" : 2500,
 						"ore" : 5
 					},
-					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
-					"name" : "Citadel",
 					"produce": {
 						"gold": 2000
 					}
 				},
 				"castle" : {
+					"name" : "Castle",
+					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
 					"cost" : {
 						"gold" : 5000,
 						"wood" : 10,
 						"ore" : 10
-					},
-					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
-					"name" : "Castle"
+					}
 				},
 
 				"tavern" : {
+					"name" : "Tavern",
+					"description" : "The Tavern increases morale for troops defending the city.",
 					"cost" : {
 						"gold" : 500,
 						"wood" : 5
-					},
-					"description" : "The Tavern increases morale for troops defending the city.",
-					"name" : "Tavern"
+					}
 				},				
 				"blacksmith" : {
+					"name" : "Blacksmith",
+					"description" : "The Blacksmith provides your armies with Ammo Carts.",
 					"cost" : {
 						"gold" : 1000,
 						"wood" : 5
-					},
-					"description" : "The Blacksmith provides your armies with Ammo Carts.",
-					"name" : "Blacksmith"
+					}
 				},
 				"marketplace" : {
+					"name" : "Marketplace",
+					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
 					"cost" : {
 						"gold" : 500,
 						"wood" : 5
-					},
-					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
-					"name" : "Marketplace"
+					}
 				},
 				"resourceSilo" : {
+					"name" : "Resource Silo",
+					"description" : "The Resource Silo provides you with an additional +1 wood and +1 ore each day.",
 					"cost" : {
 						"gold" : 5000,
 						"ore" : 5
 					},
-					"description" : "The Resource Silo provides you with an additional +1 wood and +1 ore each day.",
-					"name" : "Resource Silo",
 					"produce": {
 						"wood": 1,
 						"ore": 1
 					}
 				},
 				"special1" : {
+					"name" : "Escape Tunnel",
+					"description" : "The Escape Tunnel allows a garrison hero to flee from defending against a siege.",
+					"type" : "escapeTunnel",
 					"cost" : {
 						"gold" : 2000,
 						"wood" : 5,
 						"ore" : 5
-					},
-					"description" : "The Escape Tunnel allows a garrison hero to flee from defending against a siege.",
-					"name" : "Escape Tunnel",
-					"type" : "escapeTunnel"
+					}
 				},
 				"special2" : {
+					"name" : "Freelancer's Guild",
+					"description" : "The Freelancer's Guild allows you to trade creatures for resources.",
+					"type" : "freelancersGuild",
 					"cost" : {
 						"gold" : 1000
-					},
-					"description" : "The Freelancer's Guild allows you to trade creatures for resources.",
-					"name" : "Freelancer's Guild",
-					"type" : "freelancersGuild"
+					}
 				},
 				"special3" : {
+					"name" : "Ballista Yard",
+					"description" : "This Blacksmith upgrade provides your armies with ballistas.",
+					"type" : "ballistaYard",
 					"cost" : {
 						"gold" : 1000,
 						"wood" : 5
-					},
-					"description" : "This Blacksmith upgrade provides your armies with ballistas.",
-					"name" : "Ballista Yard",
-					"type" : "ballistaYard"
+					}
 				},
 				"special4" : {
+					"name" : "Hall of Valhalla",
+					"description" : "The Hall of Valhalla increases the Attack skill of any visiting hero by +1.",
+					"type" : "attackVisitingBonus",
 					"cost" : {
 						"gold" : 1000
-					},
-					"description" : "The Hall of Valhalla increases the Attack skill of any visiting hero by +1.",
-					"name" : "Hall of Valhalla",
-					"type" : "attackVisitingBonus"
+					}
 				},
 				"horde1" : {
+					"name" : "Mess Hall",
+					"description" : "The Mess Hall increases Goblin production by 8 per week.",
 					"cost" : {
 						"gold" : 1000
-					},
-					"description" : "The Mess Hall increases Goblin production by 8 per week.",
-					"name" : "Mess Hall"
+					}
 				},
 				"horde1Upgr" : {
+					"name" : "Mess Hall",
+					"description" : "The Mess Hall increases Hobgoblin production by 8 per week.",
+					"mode" : "auto",
 					"cost" : {
 						"gold" : 1000
-					},
-					"description" : "The Mess Hall increases Hobgoblin production by 8 per week.",
-					"name" : "Mess Hall",
-					"mode" : "auto"
+					}
 				},
 				"grail" : {
-					"description" : "The presence of the Warlords' Monument increases weekly creature generation by 50%, provides your kingdom with an additional 5000 gold each day, and increases the Attack strength of a garrison hero by +20 when defending against a siege.",
 					"name" : "Warlords' Monument",
+					"description" : "The presence of the Warlords' Monument increases weekly creature generation by 50%, provides your kingdom with an additional 5000 gold each day, and increases the Attack strength of a garrison hero by +20 when defending against a siege.",
 					"mode" : "grail",
 					"produce": {
 						"gold": 5000
@@ -173,19 +173,21 @@
 							"subtype" : "primSkill.attack",
 							"val" : 20
 						}
-					],
+					]
 				},
 
 				"mageGuild1" : {
+					"name" : "Mage Guild Level 1",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"cost" : {
 						"gold" : 2000,
 						"wood" : 5,
 						"ore" : 5
-					},
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 1"
+					}
 				},
 				"mageGuild2" : {
+					"name" : "Mage Guild Level 2",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"cost" : {
 						"gold" : 1000,
 						"wood" : 5,
@@ -194,11 +196,11 @@
 						"sulfur" : 4,
 						"crystal" : 4,
 						"gems" : 4
-					},
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 2"
+					}
 				},
 				"mageGuild3" : {
+					"name" : "Mage Guild Level 3",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"cost" : {
 						"gold" : 1000,
 						"wood" : 5,
@@ -207,138 +209,136 @@
 						"sulfur" : 6,
 						"crystal" : 6,
 						"gems" : 6
-					},
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 3"
+					}
 				},
 
 				"dwellingLvl1" : {
+					"name" : "Goblin Barracks",
+					"description" : "The Goblin Barracks allow you to recruit Goblins.",
 					"cost" : {
 						"gold" : 200,
 						"wood" : 5,
 						"ore" : 5
-					},
-					"description" : "The Goblin Barracks allow you to recruit Goblins.",
-					"name" : "Goblin Barracks"
+					}
 				},
 				"dwellingLvl2" : {
+					"name" : "Wolf Pen",
+					"description" : "The Wolf Pen allows you to recruit Wolf Riders.",
 					"cost" : {
 						"gold" : 1000,
 						"wood" : 10,
 						"ore" : 5
-					},
-					"description" : "The Wolf Pen allows you to recruit Wolf Riders.",
-					"name" : "Wolf Pen"
+					}
 				},
 				"dwellingLvl3" : {
+					"name" : "Orc Tower",
+					"description" : "The Orc Tower allows you to recruit Orcs.",
 					"cost" : {
 						"gold" : 1000,
 						"wood" : 5,
 						"ore" : 5
-					},
-					"description" : "The Orc Tower allows you to recruit Orcs.",
-					"name" : "Orc Tower"
+					}
 				},
 				"dwellingLvl4" : {
+					"name" : "Ogre Fort",
+					"description" : "The Ogre Fort allows you to recruit Ogres.",
 					"cost" : {
 						"gold" : 2000,
 						"wood" : 20
-					},
-					"description" : "The Ogre Fort allows you to recruit Ogres.",
-					"name" : "Ogre Fort"
+					}
 				},
 				"dwellingLvl5" : {
+					"name" : "Cliff Nest",
+					"description" : "The Cliff Nest allows you to recruit Rocs.",
 					"cost" : {
 						"gold" : 2500,
 						"ore" : 10
-					},
-					"description" : "The Cliff Nest allows you to recruit Rocs.",
-					"name" : "Cliff Nest"
+					}
 				},
 				"dwellingLvl6" : {
+					"name" : "Cyclops Cave",
+					"description" : "The Cyclops Cave allows you to recruit Cyclopses.",
 					"cost" : {
 						"gold" : 3500,
 						"ore" : 20,
 						"crystal" : 20
-					},
-					"description" : "The Cyclops Cave allows you to recruit Cyclopses.",
-					"name" : "Cyclops Cave"
+					}
 				},
 				"dwellingLvl7" : {
+					"name" : "Behemoth Lair",
+					"description" : "The Behemoth Lair allows you to recruit Behemoths.",
 					"cost" : {
 						"gold" : 10000,
 						"wood" : 10,
 						"ore" : 10,
 						"crystal" : 10
-					},
-					"description" : "The Behemoth Lair allows you to recruit Behemoths.",
-					"name" : "Behemoth Lair"
+					}
 				},
 
 				"dwellingUpLvl1" : {
+					"name" : "Upg. Goblin Barracks",
+					"description" : "The Goblin Barracks allow you to recruit Hobgoblins.",
 					"cost" : {
 						"gold" : 1000,
 						"wood" : 5,
 						"ore" : 5
-					},
-					"description" : "The Goblin Barracks allow you to recruit Hobgoblins.",
-					"name" : "Upg. Goblin Barracks"
+					}
 				},
 				"dwellingUpLvl2" : {
+					"name" : "Upg. Wolf Pen",
+					"description" : "The Wolf Pen allows you to recruit Wolf Raiders.",
 					"cost" : {
 						"gold" : 1000,
 						"wood" : 5,
 						"ore" : 5
-					},
-					"description" : "The Wolf Pen allows you to recruit Wolf Raiders.",
-					"name" : "Upg. Wolf Pen"
+					}
 				},
 				"dwellingUpLvl3" : {
+					"name" : "Upg. Orc Tower",
+					"description" : "The Orc Tower allows you to recruit Orc Chieftains.",
 					"cost" : {
 						"gold" : 1000,
 						"wood" : 2,
 						"ore" : 2
-					},
-					"description" : "The Orc Tower allows you to recruit Orc Chieftains.",
-					"name" : "Upg. Orc Tower"
+					}
 				},
 				"dwellingUpLvl4" : {
+					"name" : "Upg. Ogre Fort",
+					"description" : "The Ogre Fort allows you to recruit Ogre Magi.",
 					"cost" : {
 						"gold" : 2000,
 						"wood" : 5,
 						"ore" : 5,
 						"gems" : 5
-					},
-					"description" : "The Ogre Fort allows you to recruit Ogre Magi.",
-					"name" : "Upg. Ogre Fort"
+					}
 				},
 				"dwellingUpLvl5" : {
+					"name" : "Upg. Cliff Nest",
+					"description" : "The Cliff Nest allows you to recruit Thunderbirds.",
 					"cost" : {
 						"gold" : 2000,
 						"wood" : 5,
 						"ore" : 5
-					},
-					"description" : "The Cliff Nest allows you to recruit Thunderbirds.",
-					"name" : "Upg. Cliff Nest"
+					}
 				},
 				"dwellingUpLvl6" : {
+					"name" : "Upg. Cyclops Cave",
+					"description" : "The Cyclops Cave allows you to recruit Cyclops Kings.",
 					"cost" : {
 						"gold" : 3000,
 						"wood" : 5,
 						"ore" : 5
-					},
-					"description" : "The Cyclops Cave allows you to recruit Cyclops Kings.",
-					"name" : "Upg. Cyclops Cave"
+					}
 				},
 				"dwellingUpLvl7" : {
+					"name" : "Upg. Behemoth Lair",
+					"description" : "The Behemoth Lair allows you to recruit Ancient Behemoths.",
 					"cost" : {
 						"gold" : 15000,
 						"wood" : 10,
 						"ore" : 10,
 						"crystal" : 20
-					},
-					"description" : "The Behemoth Lair allows you to recruit Ancient Behemoths.",
-					"name" : "Upg. Behemoth Lair"
+					}
 				}
 			}
 		}

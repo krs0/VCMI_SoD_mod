@@ -3,171 +3,171 @@
 		"town" : {
 			"buildings" : {
 				"villageHall" : {
+					"name" : "Village Hall",
+					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
+					"mode" : "auto",
 					"cost" : {
 						"gold" : 1
 					},
-					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
-					"name" : "Village Hall",
-					"mode" : "auto",
 					"produce": {
 						"gold": 500
 					}
 				},
 				"townHall" : {
+					"name" : "Town Hall",
+					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
 					"cost" : {
 						"gold" : 2500
 					},
-					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
-					"name" : "Town Hall",
 					"produce": {
 						"gold": 1000
 					}
 				},
 				"cityHall" : {
+					"name" : "City Hall",
+					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
 					"cost" : {
 						"gold" : 5000
 					},
-					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
-					"name" : "City Hall",
 					"produce": {
 						"gold": 2000
 					}
 				},
 				"capitol" : {
+					"name" : "Capitol",
+					"description" : "The Capitol earns your kingdom 4000 gold per day.",
 					"cost" : {
 						"gold" : 10000
 					},
-					"description" : "The Capitol earns your kingdom 4000 gold per day.",
-					"name" : "Capitol",
 					"produce": {
 						"gold": 4000
 					}
 				},
 
 				"fort" : {
+					"name" : "Fort",
+					"description" : "The Fort provides your town with defensive walls.",
 					"cost" : {
 						"gold" : 5000,
 						"wood" : 20,
 						"ore" : 20
-					},
-					"description" : "The Fort provides your town with defensive walls.",
-					"name" : "Fort"
+					}
 				},
 				"citadel" : {
+					"name" : "Citadel",
+					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
 					"cost" : {
 						"gold" : 2500,
 						"ore" : 5
-					},
-					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
-					"name" : "Citadel"
+					}
 				},
 				"castle" : {
+					"name" : "Castle",
+					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
 					"cost" : {
 						"gold" : 5000,
 						"wood" : 10,
 						"ore" : 10
-					},
-					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
-					"name" : "Castle"
+					}
 				},
 				
 				"tavern" : {
+					"name" : "Tavern",
+					"description" : "The Tavern increases morale for troops defending the city.",
 					"cost" : {
 						"gold" : 500,
 						"wood" : 5
-					},
-					"description" : "The Tavern increases morale for troops defending the city.",
-					"name" : "Tavern"
+					}
 				},
 				"blacksmith" : {
+					"name" : "Blacksmith",
+					"description" : "The Blacksmith provides your armies with Ammo Carts.",
 					"cost" : {
 						"gold" : 1000,
 						"wood" : 5
-					},
-					"description" : "The Blacksmith provides your armies with Ammo Carts.",
-					"name" : "Blacksmith"
+					}
 				},
 				"marketplace" : {
+					"name" : "Marketplace",
+					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
 					"cost" : {
 						"gold" : 500,
 						"wood" : 5
-					},
-					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
-					"name" : "Marketplace"
+					}
 				},
 				"resourceSilo" : {
+					"name" : "Resource Silo",
+					"description" : "The Resource Silo provides you with an additional +1 mercury each day.",
 					"cost" : {
 						"gold" : 5000,
 						"ore" : 5
 					},
-					"description" : "The Resource Silo provides you with an additional +1 mercury each day.",
-					"name" : "Resource Silo",
 					"produce": {
 						"mercury": 1
 					}
 				},
 
 				"special2" : {
+					"name" : "Brimstone Stormclouds",
+					"description" : "The Brimstone Stormclouds boost a garrison hero's power by +2 during any siege defense.",
+					"type" : "spellPowerGarrisonBonus",
 					"cost" : {
 						"gold" : 1000,
 						"sulfur" : 5
-					},
-					"description" : "The Brimstone Stormclouds boost a garrison hero's power by +2 during any siege defense.",
-					"name" : "Brimstone Stormclouds",
-					"type" : "spellPowerGarrisonBonus"
+					}
 				},
 				"special3" : {
+					"name" : "Castle Gate",
+					"description" : "Allows travel between Inferno towns containing Castle Gates. Destination town must be unoccupied.",
+					"type" : "castleGate",
 					"cost" : {
 						"gold" : 10000,
 						"wood" : 5,
 						"ore" : 5
-					},
-					"description" : "Allows travel between Inferno towns containing Castle Gates. Destination town must be unoccupied.",
-					"name" : "Castle Gate",
-					"type" : "castleGate"
+					}
 				},
 				"special4" : {
+					"name" : "Order of Fire",
+					"description" : "The Order of Fire increases the Power skill of any visiting hero by +1.",
+					"type" : "spellPowerVisitingBonus",
 					"cost" : {
 						"gold" : 1000,
 						"wood" : 5
-					},
-					"description" : "The Order of Fire increases the Power skill of any visiting hero by +1.",
-					"name" : "Order of Fire",
-					"type" : "spellPowerVisitingBonus"
+					}
 				},
 				"horde1" : {
+					"name" : "Birthing Pools",
+					"description" : "The Birthing Pools increase Imp production by 8 per week.",
 					"cost" : {
 						"gold" : 1000
-					},
-					"description" : "The Birthing Pools increase Imp production by 8 per week.",
-					"name" : "Birthing Pools"
+					}
 				},
 				"horde1Upgr" : {
+					"name" : "Birthing Pools",
+					"description" : "The Birthing Pools increase Familiar production by 8 per week.",
+					"mode" : "auto",
 					"cost" : {
 						"gold" : 1000
-					},
-					"description" : "The Birthing Pools increase Familiar production by 8 per week.",
-					"name" : "Birthing Pools",
-					"mode" : "auto"
+					}
 				},
 				"horde2" : {
+					"name" : "Cages",
+					"description" : "The Cages increase Hell Hound production by 3 per week.",
 					"cost" : {
 						"gold" : 1000
-					},
-					"description" : "The Cages increase Hell Hound production by 3 per week.",
-					"name" : "Cages"
+					}
 				},
 				"horde2Upgr" : {
+					"name" : "Cages",
+					"description" : "The Cages increase Cerberus production by 3 per week.",
+					"mode" : "auto",
 					"cost" : {
 						"gold" : 1000
-					},
-					"description" : "The Cages increase Cerberus production by 3 per week.",
-					"name" : "Cages",
-					"mode" : "auto"
+					}
 				},
 				"grail" : {
-					"description" : "The presence of the Deity of Fire increases weekly creature generation by 50% and provides your empire with an additional 5000 gold each day.  Every week hereafter will be a Week of the Imp.",
 					"name" : "Deity of Fire",
+					"description" : "The presence of the Deity of Fire increases weekly creature generation by 50% and provides your empire with an additional 5000 gold each day.  Every week hereafter will be a Week of the Imp.",
 					"mode" : "grail",
 					"produce": {
 						"gold": 5000
@@ -175,15 +175,17 @@
 				},
 
 				"mageGuild1" : {
+					"name" : "Mage Guild Level 1",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"cost" : {
 						"gold" : 2000,
 						"wood" : 5,
 						"ore" : 5
-					},
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 1"
+					}
 				},
 				"mageGuild2" : {
+					"name" : "Mage Guild Level 2",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"cost" : {
 						"gold" : 1000,
 						"wood" : 5,
@@ -192,11 +194,11 @@
 						"sulfur" : 4,
 						"crystal" : 4,
 						"gems" : 4
-					},
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 2"
+					}
 				},
 				"mageGuild3" : {
+					"name" : "Mage Guild Level 3",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"cost" : {
 						"gold" : 1000,
 						"wood" : 5,
@@ -205,11 +207,11 @@
 						"sulfur" : 6,
 						"crystal" : 6,
 						"gems" : 6
-					},
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 3"
+					}
 				},
 				"mageGuild4" : {
+					"name" : "Mage Guild Level 4",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"cost" : {
 						"gold" : 1000,
 						"wood" : 5,
@@ -218,11 +220,11 @@
 						"sulfur" : 8,
 						"crystal" : 8,
 						"gems" : 8
-					},
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 4"
+					}
 				},
 				"mageGuild5" : {
+					"name" : "Mage Guild Level 5",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"cost" : {
 						"gold" : 1000,
 						"wood" : 5,
@@ -231,135 +233,133 @@
 						"sulfur" : 10,
 						"crystal" : 10,
 						"gems" : 10
-					},
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 5"
+					}
 				},
 				
 				"dwellingLvl1" : {
+					"name" : "Imp Crucible",
+					"description" : "The Imp Crucible allows you to recruit Imps.",
 					"cost" : {
 						"gold" : 300,
 						"wood" : 5,
 						"ore" : 5
-					},
-					"description" : "The Imp Crucible allows you to recruit Imps.",
-					"name" : "Imp Crucible"
+					}
 				},
 				"dwellingLvl2" : {
+					"name" : "Hall of Sins",
+					"description" : "The Hall of Sins allows you to recruit Gogs.",
 					"cost" : {
 						"gold" : 1000,
 						"ore" : 5
-					},
-					"description" : "The Hall of Sins allows you to recruit Gogs.",
-					"name" : "Hall of Sins"
+					}
 				},
 				"dwellingLvl3" : {
+					"name" : "Kennels",
+					"description" : "The Kennels allow you to recruit Hell Hounds.",
 					"cost" : {
 						"gold" : 1500,
 						"wood" : 10
-					},
-					"description" : "The Kennels allow you to recruit Hell Hounds.",
-					"name" : "Kennels"
+					}
 				},
 				"dwellingLvl4" : {
+					"name" : "Demon Gate",
+					"description" : "The Demon Gate allows you to recruit Demons.",
 					"cost" : {
 						"gold" : 2000,
 						"wood" : 5,
 						"ore" : 5
-					},
-					"description" : "The Demon Gate allows you to recruit Demons.",
-					"name" : "Demon Gate"
+					}
 				},
 				"dwellingLvl5" : {
+					"name" : "Hell Hole",
+					"description" : "The Hell Hole allows you to recruit Pit Fiends.",
 					"cost" : {
 						"gold" : 3000
-					},
-					"description" : "The Hell Hole allows you to recruit Pit Fiends.",
-					"name" : "Hell Hole"
+					}
 				},
 				"dwellingLvl6" : {
+					"name" : "Fire Lake",
+					"description" : "The Fire Lake allows you to recruit Efreet.",
 					"cost" : {
 						"gold" : 4000,
 						"ore" : 10,
 						"mercury" : 3,
 						"sulfur" : 3,
 						"gems" : 3
-					},
-					"description" : "The Fire Lake allows you to recruit Efreet.",
-					"name" : "Fire Lake"
+					}
 				},
 				"dwellingLvl7" : {
+					"name" : "Forsaken Palace",
+					"description" : "The Forsaken Palace allows you to recruit Devils.",
 					"cost" : {
 						"gold" : 15000,
 						"wood" : 10,
 						"ore" : 10,
 						"mercury" : 20
-					},
-					"description" : "The Forsaken Palace allows you to recruit Devils.",
-					"name" : "Forsaken Palace"
+					}
 				},
 				
 				"dwellingUpLvl1" : {
+					"name" : "Upg. Imp Crucible",
+					"description" : "The Imp Crucible allows you to recruit Familiars.",
 					"cost" : {
 						"gold" : 1000
-					},
-					"description" : "The Imp Crucible allows you to recruit Familiars.",
-					"name" : "Upg. Imp Crucible"
+					}
 				},
 				"dwellingUpLvl2" : {
+					"name" : "Upg. Hall of Sins",
+					"description" : "The Hall of Sins allows you to recruit Magogs.",
 					"cost" : {
 						"gold" : 1000,
 						"mercury" : 5
-					},
-					"description" : "The Hall of Sins allows you to recruit Magogs.",
-					"name" : "Upg. Hall of Sins"
+					}
 				},
 				"dwellingUpLvl3" : {
+					"name" : "Upg. Kennels",
+					"description" : "The Kennels allow you to recruit Cerberi.",
 					"cost" : {
 						"gold" : 1500,
 						"sulfur" : 5
-					},
-					"description" : "The Kennels allow you to recruit Cerberi.",
-					"name" : "Upg. Kennels"
+					}
 				},
 				"dwellingUpLvl4" : {
+					"name" : "Upg. Demon Gate",
+					"description" : "The Demon Gate allows you to recruit Horned Demons.",
 					"cost" : {
 						"gold" : 2000,
 						"wood" : 5,
 						"ore" : 5
-					},
-					"description" : "The Demon Gate allows you to recruit Horned Demons.",
-					"name" : "Upg. Demon Gate"
+					}
 				},
 				"dwellingUpLvl5" : {
+					"name" : "Upg. Hell Hole",
+					"description" : "The Hell Hole allows you to recruit Pit Lords.",
 					"cost" : {
 						"gold" : 3000,
 						"mercury" : 5,
 						"sulfur" : 5
-					},
-					"description" : "The Hell Hole allows you to recruit Pit Lords.",
-					"name" : "Upg. Hell Hole"
+					}
 				},
 				"dwellingUpLvl6" : {
+					"name" : "Upg. Fire Lake",
+					"description" : "The Fire Lake allows you to recruit Efreet Sultans.",
 					"cost" : {
 						"gold" : 3000,
 						"ore" : 5,
 						"mercury" : 5,
 						"sulfur" : 5,
 						"gems" : 5
-					},
-					"description" : "The Fire Lake allows you to recruit Efreet Sultans.",
-					"name" : "Upg. Fire Lake"
+					}
 				},
 				"dwellingUpLvl7" : {
+					"name" : "Upg. Forsaken Palace",
+					"description" : "The Forsaken Palace allows you to recruit Arch Devils.",
 					"cost" : {
 						"gold" : 20000,
 						"wood" : 5,
 						"ore" : 5,
 						"mercury" : 20
-					},
-					"description" : "The Forsaken Palace allows you to recruit Arch Devils.",
-					"name" : "Upg. Forsaken Palace"
+					}
 				}
 			}
 		}
