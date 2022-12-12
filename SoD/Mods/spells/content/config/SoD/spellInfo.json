@@ -34,7 +34,7 @@
 		{
 			"id": 0,
 			"name" : "Summon boat",
-			"soundfile" : "sound/SoD/SUMMBOAT.wav",
+			"soundfile" : "sounds/SoD/SUMMBOAT.wav",
 			"effect": 0,
 			"anim": -1,
 			"ranges": [ "X", "X", "X", "X" ]
@@ -43,7 +43,7 @@
 		{
 			"id": 1,
 			"name" : "Scuttle boat",
-			"soundfile" : "sound/SoD/SCUTBOAT.wav",
+			"soundfile" : "sounds/SoD/SCUTBOAT.wav",
 			"effect": 0,
 			"anim": -1,
 			"ranges": [ "X", "X", "X", "X" ]
@@ -52,7 +52,7 @@
 		{
 			"id": 2,
 			"name" : "Visions",
-			"soundfile" : "sound/SoD/VISIONS.wav",
+			"soundfile" : "sounds/SoD/VISIONS.wav",
 			"effect": 0,
 			"anim": -1,
 			"ranges": [ "X", "X", "X", "X" ]
@@ -61,7 +61,7 @@
 		{
 			"id": 3,
 			"name" : "View Earth",
-			"soundfile" : "sound/SoD/VIEW.wav",
+			"soundfile" : "sounds/SoD/VIEW.wav",
 			"effect": 0,
 			"anim": -1,
 			"ranges": [ "X", "X", "X", "X" ]
@@ -70,7 +70,7 @@
 		{
 			"id": 4,
 			"name" : "Disguise",
-			"soundfile" : "sound/SoD/DISGUISE.wav",
+			"soundfile" : "sounds/SoD/DISGUISE.wav",
 			"effect": 0,
 			"anim": -1,
 			"ranges": [ "X", "X", "X", "X" ]
@@ -79,7 +79,7 @@
 		{
 			"id": 5,
 			"name" : "View Air",
-			"soundfile" : "sound/SoD/VIEW.wav",
+			"soundfile" : "sounds/SoD/VIEW.wav",
 			"effect": 0,
 			"anim": -1,
 			"ranges": [ "X", "X", "X", "X" ]
@@ -88,7 +88,7 @@
 		{
 			"id": 6,
 			"name" : "Fly",
-			"soundfile" : "sound/SoD/FLYSPELL.wav",
+			"soundfile" : "sounds/SoD/FLYSPELL.wav",
 			"effect": 0,
 			"anim": -1,
 			"ranges": [ "X", "X", "X", "X" ]
@@ -97,7 +97,7 @@
 		{
 			"id": 7,
 			"name" : "Water walking",
-			"soundfile" : "sound/SoD/WATRWALK.wav",
+			"soundfile" : "sounds/SoD/WATRWALK.wav",
 			"effect": 0,
 			"anim": -1,
 			"ranges": [ "X", "X", "X", "X" ]
@@ -106,7 +106,7 @@
 		{
 			"id": 8,
 			"name" : "Dimension doors",
-			"soundfile" : "sound/SoD/TELPTOUT.wav",
+			"soundfile" : "sounds/SoD/TELPTOUT.wav",
 			"effect": 0,
 			"anim": -1,
 			"ranges": [ "X", "X", "X", "X" ]
@@ -115,7 +115,7 @@
 		{
 			"id": 9,
 			"name" : "Town Portal",
-			"soundfile" : "sound/SoD/TELPTOUT.wav",
+			"soundfile" : "sounds/SoD/TELPTOUT.wav",
 			"effect": 0,
 			"anim": -1,
 			"ranges": [ "X", "X", "X", "X" ]
@@ -124,7 +124,7 @@
 		{
 			"id": 10,
 			"name" : "Quick sands",
-			"soundfile" : "sound/SoD/QUIKSAND.wav",
+			"soundfile" : "sounds/SoD/QUIKSAND.wav",
 			"effect": 0,
 			"anim": -1,
 			"ranges": [ "X", "X", "X", "X" ]
@@ -143,7 +143,7 @@
 		{
 			"id": 12,
 			"name" : "Force field",
-			"soundfile" : "sound/SoD/FORCEFLD.wav",
+			"soundfile" : "sounds/SoD/FORCEFLD.wav",
 			"effect": 0,
 			"anim": -1,
 			"ranges": [ "0", "0", "0", "0" ]
@@ -152,7 +152,7 @@
 		{
 			"id": 13,
 			"name" : "Fire wall",
-			"soundfile" : "sound/SoD/FIREWALL.wav",
+			"soundfile" : "sounds/SoD/FIREWALL.wav",
 			"effect": 0,
 			"anim": -1,
 			"ranges": [ "0", "0", "0", "0" ],
@@ -163,7 +163,7 @@
 		{
 			"id": 14,
 			"name" : "Earthquake",
-			"soundfile" : "sound/SoD/ERTHQUAK.wav",
+			"soundfile" : "sounds/SoD/ERTHQUAK.wav",
 			"effect": 0,
 			"anim": -1,
 			"ranges": [ "X", "X", "X", "X" ]
@@ -172,7 +172,7 @@
 		{
 			"id": 15,
 			"name" :  "magic arrow",
-			"soundfile" :  "sound/SoD/MAGICBLT.wav",
+			"soundfile" :  "sounds/SoD/MAGICBLT.wav",
 			"effect": -1,
 			"anim": 64,
 			"graphics" : {
@@ -186,7 +186,7 @@
 		{
 			"id": 16,
 			"name" :  "ice bolt",
-			"soundfile" :  "sound/SoD/ICERAY.wav",
+			"soundfile" :  "sounds/SoD/ICERAY.wav",
 			"effect": -1,
 			"anim": 46,
 			"graphics" : {
@@ -200,7 +200,7 @@
 		{
 			"id": 17,
 			"name" :  "lightning bolt",
-			"soundfile" :  "sound/SoD/LIGHTBLT.wav",
+			"soundfile" :  "sounds/SoD/LIGHTBLT.wav",
 			"effect": -1,
 			"anim": 38,
 			"graphics" : {
@@ -214,7 +214,7 @@
 		{
 			"id": 18,
 			"name" : "Implosion",
-			"soundfile" : "sound/SoD/DECAY.wav",
+			"soundfile" : "sounds/SoD/DECAY.wav",
 			"effect": -1,
 			"anim": 10,
 			"graphics" : {
@@ -229,7 +229,7 @@
 		{
 			"id": 19,
 			"name" : "Chaon lighting",
-			"soundfile" : "sound/SoD/CHAINLTE.wav",
+			"soundfile" : "sounds/SoD/CHAINLTE.wav",
 			"effect": -1,
 			"anim": 38,
 			"graphics" : {
@@ -242,7 +242,7 @@
 		{
 			"id": 20,
 			"name" : "frost ring",
-			"soundfile" : "sound/SoD/FROSTING.wav",
+			"soundfile" : "sounds/SoD/FROSTING.wav",
 			"effect": -1,
 			"anim": 45,
 			"graphics" : {
@@ -256,7 +256,7 @@
 		{
 			"id": 21,
 			"name" :  "fireball",
-			"soundfile" :  "sound/SoD/FIREBALL.wav",
+			"soundfile" :  "sounds/SoD/FIREBALL.wav",
 			"effect": -1,
 			"anim": 53,
 			"graphics" : {
@@ -270,7 +270,7 @@
 		{
 			"id": 22,
 			"name" : "Inferno",
-			"soundfile" : "sound/SoD/FIREBLST.wav",
+			"soundfile" : "sounds/SoD/FIREBLST.wav",
 			"effect": -1,
 			"anim": 9,
 			"graphics" : {
@@ -284,7 +284,7 @@
 		{
 			"id": 23,
 			"name" :  "meteor shower",
-			"soundfile" :  "sound/SoD/METEOR.wav",
+			"soundfile" :  "sounds/SoD/METEOR.wav",
 			"effect": -1,
 			"anim": 16,
 			"graphics" : {
@@ -299,7 +299,7 @@
 		{
 			"id": 24,
 			"name" :  "death ripple",
-			"soundfile" :  "sound/SoD/DEATHRIP.wav",
+			"soundfile" :  "sounds/SoD/DEATHRIP.wav",
 			"effect": -1,
 			"anim": 8,
 			"graphics" : {
@@ -314,7 +314,7 @@
 		{
 			"id": 25,
 			"name" : "Destroy undead",
-			"soundfile" : "sound/SoD/COLDRING.wav",
+			"soundfile" : "sounds/SoD/COLDRING.wav",
 			"effect": -1,
 			"anim": 29,
 			"graphics" : {
@@ -330,7 +330,7 @@
 		{
 			"id": 26,
 			"name" :  "armageddon",
-			"soundfile" :  "sound/SoD/ARMGEDN.wav",
+			"soundfile" :  "sounds/SoD/ARMGEDN.wav",
 			"effect": -1,
 			"anim": 12,
 			"graphics" : {
@@ -345,7 +345,7 @@
 		{
 			"id": 27,
 			"name" :  "shield ",
-			"soundfile" :  "sound/SoD/SHIELD.wav",
+			"soundfile" :  "sounds/SoD/SHIELD.wav",
 			"effect": 1,
 			"anim": 27,
 			"graphics" : {
@@ -366,7 +366,7 @@
 		{
 			"id": 28,
 			"name" :  "air shield",
-			"soundfile" :  "sound/SoD/AIRSHELD.wav",
+			"soundfile" :  "sounds/SoD/AIRSHELD.wav",
 			"effect": 1,
 			"anim": 2,
 			"graphics" : {
@@ -386,7 +386,7 @@
 		{
 			"id": 29,
 			"name" : "fireshield cast",
-			"soundfile" : "sound/SoD/FIRESHIE.wav",
+			"soundfile" : "sounds/SoD/FIRESHIE.wav",
 			"effect": 1,
 			"anim": 11,
 			"graphics" : {
@@ -405,7 +405,7 @@
 		{
 			"id": 30,
 			"name" :  "protection from air",
-			"soundfile" :  "sound/SoD/PROTECTA.wav",
+			"soundfile" :  "sounds/SoD/PROTECTA.wav",
 			"effect": 1,
 			"anim": 22,
 			"graphics" : {
@@ -428,7 +428,7 @@
 		{
 			"id": 31,
 			"name" :  "protection from fire",
-			"soundfile" :  "sound/SoD/PROTECTF.wav",
+			"soundfile" :  "sounds/SoD/PROTECTF.wav",
 			"effect": 1,
 			"anim": 24,
 			"graphics" : {
@@ -448,7 +448,7 @@
 		{
 			"id": 32,
 			"name" :  "protection from water",
-			"soundfile" :  "sound/SoD/PROTECTW.wav",
+			"soundfile" :  "sounds/SoD/PROTECTW.wav",
 			"effect": 1,
 			"anim": 23,
 			"graphics" : {
@@ -468,7 +468,7 @@
 		{
 			"id": 33,
 			"name" :  "protection from earth",
-			"soundfile" :  "sound/SoD/PROTECTE.wav",
+			"soundfile" :  "sounds/SoD/PROTECTE.wav",
 			"effect": 1,
 			"anim": 26,
 			"graphics" : {
@@ -488,7 +488,7 @@
 		{
 			"id": 34,
 			"name" :  "Anti Magic",
-			"soundfile" :  "sound/SoD/ANTIMAGK.wav",
+			"soundfile" :  "sounds/SoD/ANTIMAGK.wav",
 			"effect": 1,
 			"anim": 5,
 			"graphics" : {
@@ -509,7 +509,7 @@
 		{
 			"id": 35,
 			"name" :  "dispell",
-			"soundfile" : "sound/SoD/DISPELL.wav",
+			"soundfile" : "sounds/SoD/DISPELL.wav",
 			"effect": 0,
 			"anim": 41,
 			"graphics" : {
@@ -522,7 +522,7 @@
 		{
 			"id": 36,
 			"name" : "Magic mirror",
-			"soundfile" : "sound/SoD/BACKLASH.wav",
+			"soundfile" : "sounds/SoD/BACKLASH.wav",
 			"effect": 1,
 			"anim": 3,
 			"graphics" : {
@@ -542,7 +542,7 @@
 		{
 			"id": 37,
 			"name" : "Cure",
-			"soundfile" : "sound/SoD/CURE.wav",
+			"soundfile" : "sounds/SoD/CURE.wav",
 			"effect": 1,
 			"anim": 39,
 			"graphics" : {
@@ -554,7 +554,7 @@
 		{
 			"id": 38,
 			"name" : "Resurrect",
-			"soundfile" : "sound/SoD/RESURECT.wav",
+			"soundfile" : "sounds/SoD/RESURECT.wav",
 			"effect": 1,
 			"anim": 79,
 			"graphics" : {
@@ -568,7 +568,7 @@
 		{
 			"id": 39,
 			"name" : "Animate Dead",
-			"soundfile" : "sound/SoD/ANIMDEAD.wav",
+			"soundfile" : "sounds/SoD/ANIMDEAD.wav",
 			"effect": 1,
 			"anim": 79,
 			"graphics" : {
@@ -582,7 +582,7 @@
 		{
 			"id": 40,
 			"name" : "Sacrifice",
-			"soundfile" : "sound/SoD/SACRIF1.wav",
+			"soundfile" : "sounds/SoD/SACRIF1.wav",
 			"effect": 1,
 			"anim": 79,
 			"graphics" : {
@@ -596,7 +596,7 @@
 		{
 			"id": 41,
 			"name" :  "bless",
-			"soundfile" :  "sound/SoD/BLESS.wav",
+			"soundfile" :  "sounds/SoD/BLESS.wav",
 			"effect": 1,
 			"anim": 36,
 			"graphics" : {
@@ -620,7 +620,7 @@
 		{
 			"id": 42,
 			"name" :  "curse",
-			"soundfile" :  "sound/SoD/CURSE.wav",
+			"soundfile" :  "sounds/SoD/CURSE.wav",
 			"effect": -1,
 			"anim": 40,
 			"graphics" : {
@@ -645,7 +645,7 @@
 		{
 			"id": 43,
 			"name" :  "bloodlust",
-			"soundfile" :  "sound/SoD/BLOODLUS.wav",
+			"soundfile" :  "sounds/SoD/BLOODLUS.wav",
 			"effect": 1,
 			"anim": 4,
 			"graphics" : {
@@ -668,7 +668,7 @@
 		{
 			"id": 44,
 			"name" :  "precision",
-			"soundfile" :  "sound/SoD/PRECISON.wav",
+			"soundfile" :  "sounds/SoD/PRECISON.wav",
 			"effect": 1,
 			"anim": 25,
 			"graphics" : {
@@ -691,7 +691,7 @@
 		{
 			"id": 45,
 			"name" :  "weakness",
-			"soundfile" :  "sound/SoD/WEAKNESS.wav",
+			"soundfile" :  "sounds/SoD/WEAKNESS.wav",
 			"effect": -1,
 			"anim": 56,
 			"graphics" : {
@@ -713,7 +713,7 @@
 		{
 			"id": 46,
 			"name" :  "stone skin",
-			"soundfile" :  "sound/SoD/TUFFSKIN.wav",
+			"soundfile" :  "sounds/SoD/TUFFSKIN.wav",
 			"effect": 1,
 			"anim": 54,
 			"graphics" : {
@@ -734,7 +734,7 @@
 		{
 			"id": 47,
 			"name" :  "disrupting ray",
-			"soundfile" :  "sound/SoD/DISRUPTR.wav",
+			"soundfile" :  "sounds/SoD/DISRUPTR.wav",
 			"effect": -1,
 			"anim": 14,
 			"graphics" : {
@@ -756,7 +756,7 @@
 		{
 			"id": 48,
 			"name" :  "prayer",
-			"soundfile" :  "sound/SoD/PRAYER.wav",
+			"soundfile" :  "sounds/SoD/PRAYER.wav",
 			"effect": 1,
 			"anim": 0,
 			"graphics" : {
@@ -789,7 +789,7 @@
 		{
 			"id": 49,
 			"name" :  "mirth",
-			"soundfile" :  "sound/SoD/MIRTH.wav",
+			"soundfile" :  "sounds/SoD/MIRTH.wav",
 			"effect": 1,
 			"anim": 20,
 			"graphics" : {
@@ -810,7 +810,7 @@
 		{
 			"id": 50,
 			"name" :  "sorrow",
-			"soundfile" :  "sound/SoD/SORROW.wav",
+			"soundfile" :  "sounds/SoD/SORROW.wav",
 			"effect": -1,
 			"anim": 30,
 			"graphics" : {
@@ -832,7 +832,7 @@
 		{
 			"id": 51,
 			"name" :  "fortune",
-			"soundfile" :  "sound/SoD/FORTUNE.wav",
+			"soundfile" :  "sounds/SoD/FORTUNE.wav",
 			"effect": 1,
 			"anim": 18,
 			"graphics" : {
@@ -853,7 +853,7 @@
 		{
 			"id": 52,
 			"name" :  "misfortune",
-			"soundfile" :  "sound/SoD/MISFORT.wav",
+			"soundfile" :  "sounds/SoD/MISFORT.wav",
 			"effect": -1,
 			"anim": 48,
 			"graphics" : {
@@ -874,7 +874,7 @@
 		{
 			"id": 53,
 			"name" :  "haste",
-			"soundfile" :  "sound/SoD/HASTE.wav",
+			"soundfile" :  "sounds/SoD/HASTE.wav",
 			"effect": 1,
 			"anim": 31,
 			"graphics" : {
@@ -897,7 +897,7 @@
 		{
 			"id": 54,
 			"name" :  "slow",
-			"soundfile" :  "sound/SoD/MUCKMIRE.wav",
+			"soundfile" :  "sounds/SoD/MUCKMIRE.wav",
 			"effect": -1,
 			"anim": 19,
 			"graphics" : {
@@ -922,7 +922,7 @@
 		{
 			"id": 55,
 			"name" :  "slayer",
-			"soundfile" :  "sound/SoD/SLAYER.wav",
+			"soundfile" :  "sounds/SoD/SLAYER.wav",
 			"effect": 1,
 			"anim": 28,
 			"graphics" : {
@@ -942,7 +942,7 @@
 		{
 			"id": 56,
 			"name" :  "frenzy",
-			"soundfile" :  "sound/SoD/FRENZY.wav",
+			"soundfile" :  "sounds/SoD/FRENZY.wav",
 			"effect": 1,
 			"anim": 17,
 			"graphics" : {
@@ -962,7 +962,7 @@
 		{
 			"id": 57,
 			"name" : "Titan Bolt",
-			"soundfile" : "sound/SoD/LIGHTBLT.wav",
+			"soundfile" : "sounds/SoD/LIGHTBLT.wav",
 			"effect": -1,
 			"anim": 38,
 			"graphics" : {
@@ -975,7 +975,7 @@
 		{
 			"id": 58,
 			"name" : "Counterstrike",
-			"soundfile" : "sound/SoD/CNTRSTRK.wav",
+			"soundfile" : "sounds/SoD/CNTRSTRK.wav",
 			"effect": 1,
 			"anim": 7,
 			"graphics" : {
@@ -995,7 +995,7 @@
 		{
 			"id": 59,
 			"name" : "Berserk",
-			"soundfile" : "sound/SoD/BERSERK.wav",
+			"soundfile" : "sounds/SoD/BERSERK.wav",
 			"effect": -1,
 			"anim": 35,
 			"graphics" : {
@@ -1017,7 +1017,7 @@
 		{
 			"id": 60,
 			"name" :  "Hypnotize",
-			"soundfile" :  "sound/SoD/HYPNOTIZ.wav",
+			"soundfile" :  "sounds/SoD/HYPNOTIZ.wav",
 			"effect": -1,
 			"anim": 21,
 			"graphics" : {
@@ -1039,7 +1039,7 @@
 		{
 			"id": 61,
 			"name" :  "forgetfulness",
-			"soundfile" :  "sound/SoD/FORGET.wav",
+			"soundfile" :  "sounds/SoD/FORGET.wav",
 			"effect": -1,
 			"anim": 42,
 			"graphics" : {
@@ -1061,7 +1061,7 @@
 		{
 			"id": 62,
 			"name" :  "Blind",
-			"soundfile" :  "sound/SoD/BLIND.wav",
+			"soundfile" :  "sounds/SoD/BLIND.wav",
 			"effect": -1,
 			"anim": 6,
 			"graphics" : {
@@ -1093,7 +1093,7 @@
 		{
 			"id": 63,
 			"name" : "Teleport",
-			"soundfile" : "sound/SoD/TELPTOUT.wav",
+			"soundfile" : "sounds/SoD/TELPTOUT.wav",
 			"effect": 1,
 			"anim": -1,
 			"ranges": [ "0", "0", "0", "0" ],
@@ -1103,7 +1103,7 @@
 		{
 			"id": 64,
 			"name" : "Remove obstacle",
-			"soundfile" : "sound/SoD/REMOVEOB.wav",
+			"soundfile" : "sounds/SoD/REMOVEOB.wav",
 			"effect": 0,
 			"anim": -1,
 			"ranges": [ "X", "X", "X", "X" ]
@@ -1112,7 +1112,7 @@
 		{
 			"id": 65,
 			"name" : "Clone",
-			"soundfile" : "sound/SoD/CLONE.wav",
+			"soundfile" : "sounds/SoD/CLONE.wav",
 			"effect": 1,
 			"anim": -1,
 			"ranges": [ "0", "0", "0", "0" ],
@@ -1122,7 +1122,7 @@
 		{
 			"id": 66,
 			"name" : "Summon elementals",
-			"soundfile" : "sound/SoD/SUMNELM.wav",
+			"soundfile" : "sounds/SoD/SUMNELM.wav",
 			"effect": 0,
 			"anim": -1,
 			"ranges": [ "X", "X", "X", "X" ]
@@ -1131,7 +1131,7 @@
 		{
 			"id": 67,
 			"name" : "Summon elementals",
-			"soundfile" : "sound/SoD/SUMNELM.wav",
+			"soundfile" : "sounds/SoD/SUMNELM.wav",
 			"effect": 0,
 			"anim": -1,
 			"ranges": [ "X", "X", "X", "X" ]
@@ -1140,7 +1140,7 @@
 		{
 			"id": 68,
 			"name" : "Summon elementals",
-			"soundfile" : "sound/SoD/SUMNELM.wav",
+			"soundfile" : "sounds/SoD/SUMNELM.wav",
 			"effect": 0,
 			"anim": -1,
 			"ranges": [ "X", "X", "X", "X" ]
@@ -1149,7 +1149,7 @@
 		{
 			"id": 69,
 			"name" : "Summon elementals",
-			"soundfile" : "sound/SoD/SUMNELM.wav",
+			"soundfile" : "sounds/SoD/SUMNELM.wav",
 			"effect": 0,
 			"anim": -1,
 			"ranges": [ "X", "X", "X", "X" ]
@@ -1158,7 +1158,7 @@
 		{
 			"id": 70,
 			"name" :  "stone gaze and paralyze",
-			"soundfile" :  "sound/SoD/PARALYZE.wav",
+			"soundfile" :  "sounds/SoD/PARALYZE.wav",
 			"effect": 0,
 			"anim": -1, // TODO: crashes the game if -1.
 			"ranges": [ "0", "0", "0", "0" ],
@@ -1181,7 +1181,7 @@
 		{
 			"id": 71,
 			"name" :  "poison",
-			"soundfile" :  "sound/SoD/POISON.wav",
+			"soundfile" :  "sounds/SoD/POISON.wav",
 			"effect": -1,
 			"anim": 67,
 			"graphics" : {
@@ -1210,7 +1210,7 @@
 		{
 			"id": 72,
 			"name" :  " bind",
-			"soundfile" :  "sound/SoD/BIND.wav",
+			"soundfile" :  "sounds/SoD/BIND.wav",
 			"effect": 0,
 			"anim": 68,
 			"graphics" : {
@@ -1231,7 +1231,7 @@
 		{
 			"id": 73,
 			"name" :  "",
-			"soundfile" :  "sound/SoD/DISEASE.wav",
+			"soundfile" :  "sounds/SoD/DISEASE.wav",
 			"effect": -1,
 			"anim": 69,
 			"graphics" : {
@@ -1259,7 +1259,7 @@
 		{
 			"id": 74,
 			"name" :  "",
-			"soundfile" :  "sound/SoD/PARALYZE.wav",
+			"soundfile" :  "sounds/SoD/PARALYZE.wav",
 			"effect": -1,
 			"anim": 70,
 			"graphics" : {
@@ -1285,7 +1285,7 @@
 		{
 			"id": 75,
 			"name" :  "aging",
-			"soundfile" :  "sound/SoD/AGE.wav",
+			"soundfile" :  "sounds/SoD/AGE.wav",
 			"effect": -1,
 			"anim": 71,
 			"graphics" : {
@@ -1307,7 +1307,7 @@
 		{
 			"id": 76,
 			"name" :  "death cloud",
-			"soundfile" :  "sound/SoD/DEATHCLD.wav",
+			"soundfile" :  "sounds/SoD/DEATHCLD.wav",
 			"effect": 0,
 			"anim": 72,
 			"graphics" : {
@@ -1320,7 +1320,7 @@
 		{
 			"id": 77,
 			"name" :  "thunder",
-			"soundfile" :  "sound/SoD/LIGHTBLT.wav",
+			"soundfile" :  "sounds/SoD/LIGHTBLT.wav",
 			"effect": -1,
 			"anim": 38,
 			"graphics" : {
@@ -1333,7 +1333,7 @@
 		{
 			"id": 78,
 			"name" :  "dispell helpful spells",
-			"soundfile" :  "sound/SoD/DISPELL.wav",
+			"soundfile" :  "sounds/SoD/DISPELL.wav",
 			"effect": -1,
 			"anim": 41,
 			"graphics" : {
@@ -1346,7 +1346,7 @@
 		{
 			"id": 79,
 			"name" :  "Death Stare",
-			"soundfile" :  "sound/SoD/DEATHSTR.wav",
+			"soundfile" :  "sounds/SoD/DEATHSTR.wav",
 			"effect": 0,
 			"anim": 80,
 			"graphics" : {
@@ -1359,7 +1359,7 @@
 		{
 			"id": 80,
 			"name" :  " Acid breath / defence piercing",
-			"soundfile" :  "sound/SoD/ACID.wav",
+			"soundfile" :  "sounds/SoD/ACID.wav",
 			"effect": 0,
 			"anim": 81,
 			"graphics" : {
