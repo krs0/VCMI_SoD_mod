@@ -1,7 +1,7 @@
 {
 	"name" : "SoD Creature Banks",
 	"description" : "SoD original Creature Banks",
-	"modType" : "?",
+	"modType" : "CreatureBanks",
 	"version" : "0.1.0",
 	"author" : "Original SoD creature banks - mod by VCMI Team",
 	"contact" : "https://forum.vcmi.eu/t/sod-files-mod-like/675",

@@ -1,7 +1,7 @@
 {
 	"name" : "SoD Spells",
 	"description" : "SoD original Spells",
-	"modType" : "?",
+	"modType" : "Spells",
 	"version" : "0.1.0",
 	"author" : "Original SoD spells - mod by VCMI Team",
 	"contact" : "https://forum.vcmi.eu/t/sod-files-mod-like/675",
