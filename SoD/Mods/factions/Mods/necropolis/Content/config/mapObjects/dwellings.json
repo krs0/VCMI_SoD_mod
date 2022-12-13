@@ -1,115 +1,120 @@
 {
 	"creatureGeneratorCommon" :
 	{
-		"cursedTemple" : 
+		"handler": "dwelling",
+		"base" : 
 		{
-			"name" : "Cursed Temple",
-			"creatures" : [
-				[
-					"skeleton"
-				]
-			],
-			"templates" : 
+			"base" : 
 			{
-				"default" : 
-				{
-					"animation" : "factions/necropolis/adventureMap/dwellings/AVGskel0.def",
-				}
+				"visitableFrom" : [ "---", "+++", "+++" ],
+				"mask" : [ "VVV", "VBB", "VAA" ]
 			}
 		},
-		"graveyard" : 
+		"types" : 
 		{
-			"name" : "Graveyard",
-			"creatures" : [
-				[
-					"walkingDead"
-				]
-			],
-			"templates" : 
+			"cursedTemple" : 
 			{
-				"default" : 
+				"name" : "Cursed Temple",
+				"creatures" : [ [ "skeleton" ] ],
+				"templates" : 
 				{
-					"animation" : "factions/necropolis/adventureMap/dwellings/AVGzomb0.def",
+					"default" : 
+					{
+						"animation" : "factions/necropolis/adventureMap/dwellings/AVGskel0.def",
+					}
+				},
+				"sounds": {
+					"ambient": ["dwellings/LOOPSKEL.wav"]
 				}
-			}
-		},
-		"tombOfSouls" : 
-		{
-			"name" : "Tomb of Souls",
-			"creatures" : [
-				[
-					"wight"
-				]
-			],
-			"templates" : 
+			},
+			"graveyard" : 
 			{
-				"default" : 
+				"name" : "Graveyard",
+				"creatures" : [ [ "walkingDead" ] ],
+				"templates" : 
 				{
-					"animation" : "factions/necropolis/adventureMap/dwellings/AVGwght0.def",
+					"default" : 
+					{
+						"animation" : "factions/necropolis/adventureMap/dwellings/AVGzomb0.def",
+					}
+				},
+				"sounds": {
+					"ambient": ["dwellings/LOOPDEAD.wav"]
 				}
-			}
-		},
-		"estate" : 
-		{
-			"name" : "Estate",
-			"creatures" : [
-				[
-					"vampire"
-				]
-			],
-			"templates" : 
+			},
+			"tombOfSouls" : 
 			{
-				"default" : 
+				"name" : "Tomb of Souls",
+				"creatures" : [ [ "wight" ] ],
+				"templates" : 
 				{
-					"animation" : "factions/necropolis/adventureMap/dwellings/AVGvamp0.def",
+					"default" : 
+					{
+						"animation" : "factions/necropolis/adventureMap/dwellings/AVGwght0.def",
+					}
+				},
+				"sounds": {
+					"ambient": ["dwellings/LOOPDEAD.wav"]
 				}
-			}
-		},
-		"mausoleum" : 
-		{
-			"name" : "Mausoleum",
-			"creatures" : [
-				[
-					"lich"
-				]
-			],
-			"templates" : 
+			},
+			"estate" : 
 			{
-				"default" : 
+				"name" : "Estate",
+				"creatures" : [ [ "vampire" ] ],
+				"templates" : 
 				{
-					"animation" : "factions/necropolis/adventureMap/dwellings/AVGlich0.def",
+					"default" : 
+					{
+						"animation" : "factions/necropolis/adventureMap/dwellings/AVGvamp0.def",
+					}
+				},
+				"sounds": {
+					"ambient": ["dwellings/LOOPDEAD.wav"]
 				}
-			}
-		},
-		"hallOfDarkness" : 
-		{
-			"name" : "Hall of Darkness",
-			"creatures" : [
-				[
-					"blackKnight"
-				]
-			],
-			"templates" : 
+			},
+			"mausoleum" : 
 			{
-				"default" : 
+				"name" : "Mausoleum",
+				"creatures" : [ [ "lich" ] ],
+				"templates" : 
 				{
-					"animation" : "factions/necropolis/adventureMap/dwellings/AVGBKNI0.def",
+					"default" : 
+					{
+						"animation" : "factions/necropolis/adventureMap/dwellings/AVGlich0.def",
+					}
+				},
+				"sounds": {
+					"ambient": ["dwellings/LOOPDEAD.wav"]
 				}
-			}
-		},
-		"dragonVault" : 
-		{
-			"name" : "Dragon Vault",
-			"creatures" : [
-				[
-					"boneDragon"
-				]
-			],
-			"templates" : 
+			},
+			"hallOfDarkness" : 
 			{
-				"default" : 
+				"name" : "Hall of Darkness",
+				"creatures" : [ [ "blackKnight" ] ],
+				"templates" : 
 				{
-					"animation" : "factions/necropolis/adventureMap/dwellings/AVGbone0.def",
+					"default" : 
+					{
+						"animation" : "factions/necropolis/adventureMap/dwellings/AVGBKNI0.def",
+					}
+				},
+				"sounds": {
+					"ambient": ["dwellings/LOOPDEAD.wav"]
+				}
+			},
+			"dragonVault" : 
+			{
+				"name" : "Dragon Vault",
+				"creatures" : [ [ "boneDragon" ] ],
+				"templates" : 
+				{
+					"default" : 
+					{
+						"animation" : "factions/necropolis/adventureMap/dwellings/AVGbone0.def",
+					}
+				},
+				"sounds": {
+					"ambient": ["dwellings/LOOPDRAG.wav"]
 				}
 			}
 		}

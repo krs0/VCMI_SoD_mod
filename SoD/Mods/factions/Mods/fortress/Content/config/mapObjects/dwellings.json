@@ -1,115 +1,121 @@
 {
 	"creatureGeneratorCommon" :
 	{
-		"gnollHut" : 
+		"handler": "dwelling",
+		"base" : 
 		{
-			"name" : "Gnoll Hut",
-			"creatures" : [
-				[
-					"gnoll"
-				]
-			],
-			"templates" : 
+			"base" : 
 			{
-				"default" : 
-				{
-					"animation" : "factions/fortress/adventureMap/dwellings/AVGGNLL0.def",
-				}
+				"visitableFrom" : [ "---", "+++", "+++" ],
+				"mask" : [ "VVV", "VBB", "VAA" ]
 			}
 		},
-		"lizardDen" : 
+		"types" : 
 		{
-			"name" : "Lizard Den",
-			"creatures" : [
-				[
-					"lizardman"
-				]
-			],
-			"templates" : 
+			"gnollHut" : 
 			{
-				"default" : 
+				"name" : "Gnoll Hut",
+				"creatures" : [ [ "gnoll" ] ],
+				"templates" : 
 				{
-					"animation" : "factions/fortress/adventureMap/dwellings/AVGlzrd0.def",
+					"default" : 
+					{
+						"animation" : "factions/fortress/adventureMap/dwellings/AVGGNLL0.def",
+					}
+				},
+				"sounds": {
+					"ambient": ["dwellings/LOOPORC.wav"]
 				}
-			}
-		},
-		"serpentFlyHive" : 
-		{
-			"name" : "Serpent Fly Hive",
-			"creatures" : [
-				[
-					"serpentFly"
-				]
-			],
-			"templates" : 
+			},
+			"lizardDen" : 
 			{
-				"default" : 
+				"name" : "Lizard Den",
+				"creatures" : [ [ "lizardman" ] ],
+				"templates" : 
 				{
-					"animation" : "factions/fortress/adventureMap/dwellings/AVGdfly0.def",
+					"default" : 
+					{
+						"animation" : "factions/fortress/adventureMap/dwellings/AVGlzrd0.def",
+					}
+				},
+				"sounds": {
+					"ambient": ["dwellings/LOOPARCH.wav"]
 				}
-			}
-		},
-		"basiliskPit" : 
-		{
-			"name" : "Basilisk Pit",
-			"creatures" : [
-				[
-					"basilisk"
-				]
-			],
-			"templates" : 
+			},
+			"serpentFlyHive" : 
 			{
-				"default" : 
+				"name" : "Serpent Fly Hive",
+				"creatures" : [ [ "serpentFly" ] ],
+				"templates" : 
 				{
-					"animation" : "factions/fortress/adventureMap/dwellings/AVGbasl0.def",
+					"default" : 
+					{
+						"animation" : "factions/fortress/adventureMap/dwellings/AVGdfly0.def",
+					}
+				},
+				"sounds": {
+					"ambient": ["dwellings/LOOPLEAR.wav"]
 				}
-			}
-		},
-		"gorgonLair" : 
-		{
-			"name" : "Gorgon Lair",
-			"creatures" : [
-				[
-					"gorgon"
-				]
-			],
-			"templates" : 
+			},
+			"basiliskPit" : 
 			{
-				"default" : 
+				"name" : "Basilisk Pit",
+				"creatures" : [ [ "basilisk" ] ],
+				"templates" : 
 				{
-					"animation" : "factions/fortress/adventureMap/dwellings/AVGgorg0.def",
+					"default" : 
+					{
+						"animation" : "factions/fortress/adventureMap/dwellings/AVGbasl0.def",
+					}
+				},
+				"sounds": {
+					"ambient": ["dwellings/LOOPMONS.wav"]
 				}
-			}
-		},
-		"wyvernNest" : 
-		{
-			"name" : "Wyvern Nest",
-			"creatures" : [
-				[
-					"wyvern"
-				]
-			],
-			"templates" : 
+			},
+			"gorgonLair" : 
 			{
-				"default" : 
+				"name" : "Gorgon Lair",
+				"creatures" : [ [ "gorgon" ] ],
+				"templates" : 
 				{
-					"animation" : "factions/fortress/adventureMap/dwellings/AVGwyvn0.def",
+					"default" : 
+					{
+						"animation" : "factions/fortress/adventureMap/dwellings/AVGgorg0.def",
+					}
+				},
+				"sounds": {
+					"ambient": ["dwellings/LOOPBEHE.wav"]
 				}
-			}
-		},
-		"hydraPond" : 
-		{
-			"name" : "Hydra Pond",
-			"creatures" : [
-				[
-					"hydra"
-				]
-			],
-			"templates" : 
+			},
+			"wyvernNest" : 
 			{
-				"default" : 
+				"name" : "Wyvern Nest",
+				"creatures" : [ [ "wyvern" ] ],
+				"templates" : 
 				{
-					"animation" : "factions/fortress/adventureMap/dwellings/AVGhydr0.def",
+					"default" : 
+					
+					{
+						"animation" : "factions/fortress/adventureMap/dwellings/AVGwyvn0.def",
+					}
+				},
+				"sounds": {
+					"ambient": ["dwellings/LOOPMONS.wav"]
+				}
+			},
+			"hydraPond" : 
+			{
+				"name" : "Hydra Pond",
+				"creatures" : [ [ "hydra" ] ],
+				"templates" : 
+				{
+					"default" : 
+					{
+						"animation" : "factions/fortress/adventureMap/dwellings/AVGhydr0.def",
+					}
+				},
+				"sounds": {
+					"ambient": ["dwellings/LOOPHYDR.wav"]
 				}
 			}
 		}

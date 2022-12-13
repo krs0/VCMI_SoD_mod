@@ -1,115 +1,120 @@
 {
 	"creatureGeneratorCommon" :
 	{
-		"impCrucible" : 
+		"handler": "dwelling",
+		"base" : 
 		{
-			"name" : "Imp Crucible",
-			"creatures" : [
-				[
-					"imp"
-				]
-			],
-			"templates" : 
+			"base" : 
 			{
-				"default" : 
-				{
-					"animation" : "factions/inferno/adventureMap/dwellings/AVGimp0.def",
-				}
+				"visitableFrom" : [ "---", "+++", "+++" ],
+				"mask" : [ "VVV", "VBB", "VAA" ]
 			}
 		},
-		"hallOfSins" : 
+		"types" : 
 		{
-			"name" : "Hall of Sins",
-			"creatures" : [
-				[
-					"gog"
-				]
-			],
-			"templates" : 
+			"impCrucible" : 
 			{
-				"default" : 
+				"name" : "Imp Crucible",
+				"creatures" : [ [ "imp" ] ],
+				"templates" : 
 				{
-					"animation" : "factions/inferno/adventureMap/dwellings/AVGgogs0.def",
+					"default" : 
+					{
+						"animation" : "factions/inferno/adventureMap/dwellings/AVGimp0.def",
+					}
+				},
+				"sounds": {
+					"ambient": ["dwellings/LOOPFIRE.wav"]
 				}
-			}
-		},
-		"kennels" : 
-		{
-			"name" : "Kennels",
-			"creatures" : [
-				[
-					"hellHound"
-				]
-			],
-			"templates" : 
+			},
+			"hallOfSins" : 
 			{
-				"default" : 
+				"name" : "Hall of Sins",
+				"creatures" : [ [ "gog" ] ],
+				"templates" : 
 				{
-					"animation" : "factions/inferno/adventureMap/dwellings/AVGhell0.def",
+					"default" : 
+					{
+						"animation" : "factions/inferno/adventureMap/dwellings/AVGgogs0.def",
+					}
+				},
+				"sounds": {
+					"ambient": ["dwellings/LOOPVENT.wav"]
 				}
-			}
-		},
-		"demonGate" : 
-		{
-			"name" : "Demon Gate",
-			"creatures" : [
-				[
-					"demon"
-				]
-			],
-			"templates" : 
+			},
+			"kennels" : 
 			{
-				"default" : 
+				"name" : "Kennels",
+				"creatures" : [ [ "hellHound" ] ],
+				"templates" : 
 				{
-					"animation" : "factions/inferno/adventureMap/dwellings/AVGDEMN0.def",
+					"default" : 
+					{
+						"animation" : "factions/inferno/adventureMap/dwellings/AVGhell0.def",
+					}
+				},
+				"sounds": {
+					"ambient": ["dwellings/LOOPDOG.wav"]
 				}
-			}
-		},
-		"hellHole" : 
-		{
-			"name" : "Hell Hole",
-			"creatures" : [
-				[
-					"pitFiend"
-				]
-			],
-			"templates" : 
+			},
+			"demonGate" : 
 			{
-				"default" : 
+				"name" : "Demon Gate",
+				"creatures" : [ [ "demon" ] ],
+				"templates" : 
 				{
-					"animation" : "factions/inferno/adventureMap/dwellings/AVGpit0.def",
+					"default" : 
+					{
+						"animation" : "factions/inferno/adventureMap/dwellings/AVGDEMN0.def",
+					}
+				},
+				"sounds": {
+					"ambient": ["dwellings/LOOPCAVE.wav"]
 				}
-			}
-		},
-		"fireLake" : 
-		{
-			"name" : "Fire Lake",
-			"creatures" : [
-				[
-					"efreet"
-				]
-			],
-			"templates" : 
+			},
+			"hellHole" : 
 			{
-				"default" : 
+				"name" : "Hell Hole",
+				"creatures" : [ [ "pitFiend" ] ],
+				"templates" : 
 				{
-					"animation" : "factions/inferno/adventureMap/dwellings/AVGefre0.def",
+					"default" : 
+					{
+						"animation" : "factions/inferno/adventureMap/dwellings/AVGpit0.def",
+					}
+				},
+				"sounds": {
+					"ambient": ["dwellings/LOOPFIRE.wav"]
 				}
-			}
-		},
-		"forsakenPalace" : 
-		{
-			"name" : "Forsaken Palace",
-			"creatures" : [
-				[
-					"devil"
-				]
-			],
-			"templates" : 
+			},
+			"fireLake" : 
 			{
-				"default" : 
+				"name" : "Fire Lake",
+				"creatures" : [ [ "efreet" ] ],
+				"templates" : 
 				{
-					"animation" : "factions/inferno/adventureMap/dwellings/AVGdevl0.def",
+					"default" : 
+					{
+						"animation" : "factions/inferno/adventureMap/dwellings/AVGefre0.def",
+					}
+				},
+				"sounds": {
+					"ambient": ["dwellings/LOOPVENT.wav"]
+				}
+			},
+			"forsakenPalace" : 
+			{
+				"name" : "Forsaken Palace",
+				"creatures" : [ [ "devil" ] ],
+				"templates" : 
+				{
+					"default" : 
+					{
+						"animation" : "factions/inferno/adventureMap/dwellings/AVGdevl0.def",
+					}
+				},
+				"sounds": {
+					"ambient": ["dwellings/LOOPDEVL.wav"]
 				}
 			}
 		}

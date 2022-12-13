@@ -1,115 +1,120 @@
 {
 	"creatureGeneratorCommon" :
 	{
-		"warren" : 
+		"handler": "dwelling",
+		"base" : 
 		{
-			"name" : "Warren",
-			"creatures" : [
-				[
-					"troglodyte"
-				]
-			],
-			"templates" : 
+			"base" : 
 			{
-				"default" : 
-				{
-					"animation" : "factions/dungeon/adventureMap/dwellings/AVGtrog0.def",
-				}
+				"visitableFrom" : [ "---", "+++", "+++" ],
+				"mask" : [ "VVV", "VBB", "VAA" ]
 			}
 		},
-		"harpyLoft" : 
+		"types" : 
 		{
-			"name" : "Harpy Loft",
-			"creatures" : [
-				[
-					"harpy"
-				]
-			],
-			"templates" : 
+			"warren" : 
 			{
-				"default" : 
+				"name" : "Warren",
+				"creatures" : [ [ "troglodyte" ] ],
+				"templates" : 
 				{
-					"animation" : "factions/dungeon/adventureMap/dwellings/AVGharp0.def",
+					"default" : 
+					{
+						"animation" : "factions/dungeon/adventureMap/dwellings/AVGtrog0.def",
+					}
+				},
+				"sounds": {
+					"ambient": ["dwellings/LOOPCAVE.wav"]
 				}
-			}
-		},
-		"pillarOfEyes" : 
-		{
-			"name" : "Pillar of Eyes",
-			"creatures" : [
-				[
-					"beholder"
-				]
-			],
-			"templates" : 
+			},
+			"harpyLoft" : 
 			{
-				"default" : 
+				"name" : "Harpy Loft",
+				"creatures" : [ [ "harpy" ] ],
+				"templates" : 
 				{
-					"animation" : "factions/dungeon/adventureMap/dwellings/AVGbhld0.def",
+					"default" : 
+					{
+						"animation" : "factions/dungeon/adventureMap/dwellings/AVGharp0.def",
+					}
+				},
+				"sounds": {
+					"ambient": ["dwellings/LOOPHARP.wav"]
 				}
-			}
-		},
-		"chappelOfStilledVoices" : 
-		{
-			"name" : "Chapel of Stilled Voices",
-			"creatures" : [
-				[
-					"medusa"
-				]
-			],
-			"templates" : 
+			},
+			"pillarOfEyes" : 
 			{
-				"default" : 
+				"name" : "Pillar of Eyes",
+				"creatures" : [ [ "beholder" ] ],
+				"templates" : 
 				{
-					"animation" : "factions/dungeon/adventureMap/dwellings/AVGmdsa0.def",
+					"default" : 
+					{
+						"animation" : "factions/dungeon/adventureMap/dwellings/AVGbhld0.def",
+					}
+				},
+				"sounds": {
+					"ambient": ["dwellings/LOOPCAVE.wav"]
 				}
-			}
-		},
-		"labyrinth" : 
-		{
-			"name" : "Labyrinth",
-			"creatures" : [
-				[
-					"minotaur"
-				]
-			],
-			"templates" : 
+			},
+			"chappelOfStilledVoices" : 
 			{
-				"default" : 
+				"name" : "Chapel of Stilled Voices",
+				"creatures" : [ [ "medusa" ] ],
+				"templates" : 
 				{
-					"animation" : "factions/dungeon/adventureMap/dwellings/AVGmino0.def",
+					"default" : 
+					{
+						"animation" : "factions/dungeon/adventureMap/dwellings/AVGmdsa0.def",
+					}
+				},
+				"sounds": {
+					"ambient": ["dwellings/LOOPMEDU.wav"]
 				}
-			}
-		},
-		"manticoreLair" : 
-		{
-			"name" : "Manticore Lair",
-			"creatures" : [
-				[
-					"manticore"
-				]
-			],
-			"templates" : 
+			},
+			"labyrinth" : 
 			{
-				"default" : 
+				"name" : "Labyrinth",
+				"creatures" : [ [ "minotaur" ] ],
+				"templates" : 
 				{
-					"animation" : "factions/dungeon/adventureMap/dwellings/AVGmant0.def",
+					"default" : 
+					{
+						"animation" : "factions/dungeon/adventureMap/dwellings/AVGmino0.def",
+					}
+				},
+				"sounds": {
+					"ambient": ["dwellings/LOOPANIM.wav"]
 				}
-			}
-		},
-		"dragonCave" : 
-		{
-			"name" : "Dragon Cave",
-			"creatures" : [
-				[
-					"redDragon"
-				]
-			],
-			"templates" : 
+			},
+			"manticoreLair" : 
 			{
-				"default" : 
+				"name" : "Manticore Lair",
+				"creatures" : [ [ "manticore" ] ],
+				"templates" : 
 				{
-					"animation" : "factions/dungeon/adventureMap/dwellings/AVGrdrg0.def",
+					"default" : 
+					{
+						"animation" : "factions/dungeon/adventureMap/dwellings/AVGmant0.def",
+					}
+				},
+				"sounds": {
+					"ambient": ["dwellings/LOOPMANT.wav"]
+				}
+			},
+			"dragonCave" : 
+			{
+				"name" : "Dragon Cave",
+				"creatures" : [ [ "redDragon" ] ],
+				"templates" : 
+				{
+					"default" : 
+					{
+						"animation" : "factions/dungeon/adventureMap/dwellings/AVGrdrg0.def",
+					}
+				},
+				"sounds": {
+					"ambient": ["dwellings/LOOPDRAG.wav"]
 				}
 			}
 		}

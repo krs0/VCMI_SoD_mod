@@ -1,115 +1,120 @@
 {
 	"creatureGeneratorCommon" :
 	{
-		"goblinBarracks" : 
+		"handler": "dwelling",
+		"base" : 
 		{
-			"name" : "Goblin Barracks",
-			"creatures" : [
-				[
-					"goblin"
-				]
-			],
-			"templates" : 
+			"base" : 
 			{
-				"default" : 
-				{
-					"animation" : "factions/stronghold/adventureMap/dwellings/AVGgobl0.def",
-				}
+				"visitableFrom" : [ "---", "+++", "+++" ],
+				"mask" : [ "VVV", "VBB", "VAA" ]
 			}
 		},
-		"wolfPen" : 
+		"types" : 
 		{
-			"name" : "Wolf Pen",
-			"creatures" : [
-				[
-					"goblinWolfRider"
-				]
-			],
-			"templates" : 
+			"goblinBarracks" : 
 			{
-				"default" : 
+				"name" : "Goblin Barracks",
+				"creatures" : [ [ "goblin" ] ],
+				"templates" : 
 				{
-					"animation" : "factions/stronghold/adventureMap/dwellings/AVGWOLF0.def",
+					"default" : 
+					{
+						"animation" : "factions/stronghold/adventureMap/dwellings/AVGgobl0.def",
+					}
+				},
+				"sounds": {
+					"ambient": ["dwellings/LOOPGOBL.wav"]
 				}
-			}
-		},
-		"orcTower" : 
-		{
-			"name" : "Orc Tower",
-			"creatures" : [
-				[
-					"orc"
-				]
-			],
-			"templates" : 
+			},
+			"wolfPen" : 
 			{
-				"default" : 
+				"name" : "Wolf Pen",
+				"creatures" : [ [ "goblinWolfRider" ] ],
+				"templates" : 
 				{
-					"animation" : "factions/stronghold/adventureMap/dwellings/AVGorcg0.def",
+					"default" : 
+					{
+						"animation" : "factions/stronghold/adventureMap/dwellings/AVGWOLF0.def",
+					}
+				},
+				"sounds": {
+					"ambient": ["dwellings/LOOPWOLF.wav"]
 				}
-			}
-		},
-		"ogreFort" : 
-		{
-			"name" : "Ogre Fort",
-			"creatures" : [
-				[
-					"ogre"
-				]
-			],
-			"templates" : 
+			},
+			"orcTower" : 
 			{
-				"default" : 
+				"name" : "Orc Tower",
+				"creatures" : [ [ "orc" ] ],
+				"templates" : 
 				{
-					"animation" : "factions/stronghold/adventureMap/dwellings/AVGogre0.def",
+					"default" : 
+					{
+						"animation" : "factions/stronghold/adventureMap/dwellings/AVGorcg0.def",
+					}
+				},
+				"sounds": {
+					"ambient": ["dwellings/LOOPORC.wav"]
 				}
-			}
-		},
-		"cliffNest" : 
-		{
-			"name" : "Cliff Nest",
-			"creatures" : [
-				[
-					"roc"
-				]
-			],
-			"templates" : 
+			},
+			"ogreFort" : 
 			{
-				"default" : 
+				"name" : "Ogre Fort",
+				"creatures" : [ [ "ogre" ] ],
+				"templates" : 
 				{
-					"animation" : "factions/stronghold/adventureMap/dwellings/AVGrocs0.def",
+					"default" : 
+					{
+						"animation" : "factions/stronghold/adventureMap/dwellings/AVGogre0.def",
+					}
+				},
+				"sounds": {
+					"ambient": ["dwellings/LOOPOGRE.wav"]
 				}
-			}
-		},
-		"cyclopsCave" : 
-		{
-			"name" : "Cyclops Cave",
-			"creatures" : [
-				[
-					"cyclop"
-				]
-			],
-			"templates" : 
+			},
+			"cliffNest" : 
 			{
-				"default" : 
+				"name" : "Cliff Nest",
+				"creatures" : [ [ "roc" ] ],
+				"templates" : 
 				{
-					"animation" : "factions/stronghold/adventureMap/dwellings/AVGcycl0.def",
+					"default" : 
+					{
+						"animation" : "factions/stronghold/adventureMap/dwellings/AVGrocs0.def",
+					}
+				},
+				"sounds": {
+					"ambient": ["dwellings/LOOPBIRD.wav"]
 				}
-			}
-		},
-		"behemothLair" : 
-		{
-			"name" : "Behemoth Lair",
-			"creatures" : [
-				[
-					"behemoth"
-				]
-			],
-			"templates" : 
+			},
+			"cyclopsCave" : 
 			{
-				"default" : 
+				"name" : "Cyclops Cave",
+				"creatures" : [ [ "cyclop" ] ],
+				"templates" : 
 				{
-					"animation" : "factions/stronghold/adventureMap/dwellings/AVGbhmt0.def",
+					"default" : 
+					{
+						"animation" : "factions/stronghold/adventureMap/dwellings/AVGcycl0.def",
+					}
+				},
+				"sounds": {
+					"ambient": ["dwellings/LOOPCAVE.wav"]
+				}
+			},
+			"behemothCrag" : 
+			{
+				"name" : "Behemoth Crag",
+				"creatures" : [ [ "behemoth" ] ],
+				"templates" : 
+				{
+					"default" : 
+					{
+						"animation" : "factions/stronghold/adventureMap/dwellings/AVGbhmt0.def",
+					}
+				},
+				"sounds": {
+					"ambient": ["dwellings/LOOPBEHE.wav"]
 				}
 			}
 		}

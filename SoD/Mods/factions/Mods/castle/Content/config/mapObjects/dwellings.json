@@ -15,11 +15,7 @@
 			"guardhouse" : 
 			{
 				"name" : "Guardhouse",
-				"creatures" : [
-					[
-						"pikeman"
-					]
-				],
+				"creatures" : [ [ "pikeman"	] ],
 				"templates" : 
 				{
 					"default" : 
@@ -27,16 +23,15 @@
 						"animation" : "factions/castle/adventureMap/dwellings/AVGPIKE0.def",
 						"mask" : [ "VVV", "VBB", "VAA" ]
 					}
+				},
+				"sounds": {
+					"ambient": ["dwellings/LOOPPIKE.wav"]
 				}
 			},
 			"archersTower" : 
 			{
 				"name" : "Archers' Tower",
-				"creatures" : [
-					[
-						"archer"
-					]
-				],
+				"creatures" : [ [ "archer" ] ],
 				"templates" : 
 				{
 					"default" : 
@@ -53,16 +48,15 @@
 							"+++"
 						]
 					}
+				},
+				"sounds": {
+					"ambient": ["dwellings/LOOPARCH.wav"]
 				}
 			},
 			"griffinTower" : 
 			{
 				"name" : "Griffin Tower",
-				"creatures" : [
-					[
-						"griffin"
-					]
-				],
+				"creatures" : [ [ "griffin" ] ],
 				"templates" : 
 				{
 					"default" : 
@@ -79,16 +73,15 @@
 							"+++"
 						]
 					}
+				},
+				"sounds": {
+					"ambient": ["dwellings/LOOPGRIF.wav"]
 				}
 			},
 			"barracks" : 
 			{
 				"name" : "Barracks",
-				"creatures" : [
-					[
-						"swordsman"
-					]
-				],
+				"creatures" : [ [ "swordsman" ] ],
 				"templates" : 
 				{
 					"default" : 
@@ -110,11 +103,7 @@
 			"monastery" : 
 			{
 				"name" : "Monastery",
-				"creatures" : [
-					[
-						"monk"
-					]
-				],
+				"creatures" : [ [ "monk" ] ],
 				"templates" : 
 				{
 					"default" : 
@@ -131,16 +120,15 @@
 							"+++"
 						]
 					}
+				},
+				"sounds": {
+					"ambient": ["dwellings/LOOPMONK.wav"]
 				}
 			},
 			"trainingGrounds" : 
 			{
 				"name" : "Training Grounds",
-				"creatures" : [
-					[
-						"cavalier"
-					]
-				],
+				"creatures" : [ [ "cavalier" ] ],
 				"templates" : 
 				{
 					"default" : 
@@ -157,16 +145,15 @@
 							"+++"
 						]
 					}
+				},
+				"sounds": {
+					"ambient": ["dwellings/LOOPHORS.wav"]
 				}
 			},
 			"portalOfGlory" : 
 			{
 				"name" : "Portal of Glory",
-				"creatures" : [
-					[
-						"angel"
-					]
-				],
+				"creatures" : [ [ "angel" ] ],
 				"templates" : 
 				{
 					"default" : 
@@ -183,6 +170,9 @@
 							"+++"
 						]
 					}
+				},
+				"sounds": {
+					"ambient": ["dwellings/LOOPSANC.wav"]
 				}
 			}
 		}

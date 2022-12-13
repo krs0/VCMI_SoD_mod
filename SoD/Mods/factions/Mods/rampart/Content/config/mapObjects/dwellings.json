@@ -1,115 +1,120 @@
 {
 	"creatureGeneratorCommon" :
 	{
-		"centaurStables" : 
+		"handler": "dwelling",
+		"base" : 
 		{
-			"name" : "Centaur Stables",
-			"creatures" : [
-				[
-					"centaur"
-				]
-			],
-			"templates" : 
+			"base" : 
 			{
-				"default" : 
-				{
-					"animation" : "factions/rampart/adventureMap/dwellings/AVGCENT0.def",
-				}
+				"visitableFrom" : [ "---", "+++", "+++" ],
+				"mask" : [ "VVV", "VBB", "VAA" ]
 			}
 		},
-		"dwarfCottage" : 
+		"types" : 
 		{
-			"name" : "Dwarf Cottage",
-			"creatures" : [
-				[
-					"dwarf"
-				]
-			],
-			"templates" : 
+			"centaurStables" : 
 			{
-				"default" : 
+				"name" : "Centaur Stables",
+				"creatures" : [ [ "centaur" ] ],
+				"templates" : 
 				{
-					"animation" : "factions/rampart/adventureMap/dwellings/AVGdwrf0.def",
+					"default" : 
+					{
+						"animation" : "factions/rampart/adventureMap/dwellings/AVGCENT0.def",
+					}
+				},
+				"sounds": {
+					"ambient": ["dwellings/LOOPHORS.wav"]
 				}
-			}
-		},
-		"homestead" : 
-		{
-			"name" : "Homestead",
-			"creatures" : [
-				[
-					"woodElf"
-				]
-			],
-			"templates" : 
+			},
+			"dwarfCottage" : 
 			{
-				"default" : 
+				"name" : "Dwarf Cottage",
+				"creatures" : [ [ "dwarf" ] ],
+				"templates" : 
 				{
-					"animation" : "factions/rampart/adventureMap/dwellings/AVGelf0.def",
+					"default" : 
+					{
+						"animation" : "factions/rampart/adventureMap/dwellings/AVGdwrf0.def",
+					}
+				},
+				"sounds": {
+					"ambient": ["dwellings/LOOPDWAR.wav"]
 				}
-			}
-		},
-		"enchantedSpring" : 
-		{
-			"name" : "Enchanted Spring",
-			"creatures" : [
-				[
-					"pegasus"
-				]
-			],
-			"templates" : 
+			},
+			"homestead" : 
 			{
-				"default" : 
+				"name" : "Homestead",
+				"creatures" : [ [ "woodElf" ] ],
+				"templates" : 
 				{
-					"animation" : "factions/rampart/adventureMap/dwellings/AVGpega0.def",
+					"default" : 
+					{
+						"animation" : "factions/rampart/adventureMap/dwellings/AVGelf0.def",
+					}
+				},
+				"sounds": {
+					"ambient": ["dwellings/LOOPELF.wav"]
 				}
-			}
-		},
-		"dendroidArches" : 
-		{
-			"name" : "Dendroid Arches",
-			"creatures" : [
-				[
-					"dendroidGuard"
-				]
-			],
-			"templates" : 
+			},
+			"enchantedSpring" : 
 			{
-				"default" : 
+				"name" : "Enchanted Spring",
+				"creatures" : [ [ "pegasus" ] ],
+				"templates" : 
 				{
-					"animation" : "factions/rampart/adventureMap/dwellings/AVGtree0.def",
+					"default" : 
+					{
+						"animation" : "factions/rampart/adventureMap/dwellings/AVGpega0.def",
+					}
+				},
+				"sounds": {
+					"ambient": ["dwellings/LOOPPEGA.wav"]
 				}
-			}
-		},
-		"unicornGlade" : 
-		{
-			"name" : "Unicorn Glade",
-			"creatures" : [
-				[
-					"unicorn"
-				]
-			],
-			"templates" : 
+			},
+			"dendroidArches" : 
 			{
-				"default" : 
+				"name" : "Dendroid Arches",
+				"creatures" : [ [ "dendroidGuard" ] ],
+				"templates" : 
 				{
-					"animation" : "factions/rampart/adventureMap/dwellings/AVGUNIC0.def",
+					"default" : 
+					{
+						"animation" : "factions/rampart/adventureMap/dwellings/AVGtree0.def",
+					}
+				},
+				"sounds": {
+					"ambient": ["dwellings/LOOPGARD.wav"]
 				}
-			}
-		},
-		"dragonCliffs" : 
-		{
-			"name" : "Dragon Cliffs",
-			"creatures" : [
-				[
-					"greenDragon"
-				]
-			],
-			"templates" : 
+			},
+			"unicornGlade" : 
 			{
-				"default" : 
+				"name" : "Unicorn Glade",
+				"creatures" : [ [ "unicorn" ] ],
+				"templates" : 
 				{
-					"animation" : "factions/rampart/adventureMap/dwellings/AVGgdrg0.def",
+					"default" : 
+					{
+						"animation" : "factions/rampart/adventureMap/dwellings/AVGUNIC0.def",
+					}
+				},
+				"sounds": {
+					"ambient": ["dwellings/LOOPUNIC.wav"]
+				}
+			},
+			"dragonCliffs" : 
+			{
+				"name" : "Dragon Cliffs",
+				"creatures" : [ [ "greenDragon" ] ],
+				"templates" : 
+				{
+					"default" : 
+					{
+						"animation" : "factions/rampart/adventureMap/dwellings/AVGgdrg0.def",
+					}
+				},
+				"sounds": {
+					"ambient": ["dwellings/LOOPDRAG.wav"]
 				}
 			}
 		}
