@@ -92,22 +92,22 @@
 			"icons" : {
 				"village" : {
 					"normal" : {
-						"small" : "factions/conflux/icons/ITPA_0_36.png",
-					 	"large" : "factions/conflux/icons/ITPT_0_34.png"
+						"small" : "factions/conflux/town/icons/ITPA_0_36.png",
+					 	"large" : "factions/conflux/town/icons/ITPT_0_34.png"
 					 },
 					"built"  : {
-						"small" : "factions/conflux/icons/ITPA_0_37.png",
-						"large" : "factions/conflux/icons/ITPT_0_35.png" 
+						"small" : "factions/conflux/town/icons/ITPA_0_37.png",
+						"large" : "factions/conflux/town/icons/ITPT_0_35.png" 
 					}
 				},
 				"fort" : {
 					"normal" : {
-						"small" : "factions/conflux/icons/ITPA_0_18.png",
-					 	"large" : "factions/conflux/icons/ITPT_0_16.png" 
+						"small" : "factions/conflux/town/icons/ITPA_0_18.png",
+					 	"large" : "factions/conflux/town/icons/ITPT_0_16.png" 
 					 },
 					"built"  : {
-						"small" : "factions/conflux/icons/ITPA_0_19.png",
-						 "large" : "factions/conflux/icons/ITPT_0_17.png"
+						"small" : "factions/conflux/town/icons/ITPA_0_19.png",
+						"large" : "factions/conflux/town/icons/ITPT_0_17.png"
 					}
 				}
 			},
