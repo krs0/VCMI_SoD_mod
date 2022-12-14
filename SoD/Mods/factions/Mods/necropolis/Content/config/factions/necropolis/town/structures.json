@@ -11,81 +11,81 @@
 					"animation" : "factions/necropolis/townScreen/animation/TBNCHALL.def",
 					"x" : 468, "y" : 76, "z" : -1,
 					"border" : "factions/necropolis/townScreen/border/TONHAL1.png", 
-					"area" : "TZNHAL1.png"
+					"area" : "factions/necropolis/townScreen/area/TZNHAL1.png"
 				},
 				"townHall": {
 					"animation" : "factions/necropolis/townScreen/animation/TBNCHAL2.def",
 					"x" : 482, "y" : 56, "z" : -1,
 					"border" : "factions/necropolis/townScreen/border/TONHAL2.png", 
-					"area" : "TZNHAL2.png"
+					"area" : "factions/necropolis/townScreen/area/TZNHAL2.png"
 				},
 				"cityHall": {
 					"animation" : "factions/necropolis/townScreen/animation/TBNCHAL3.def",
 					"x" : 478, "y" : 26, "z" : -1,
 					"border" : "factions/necropolis/townScreen/border/TONHAL3.png", 
-					"area" : "TZNHAL3.png"
+					"area" : "factions/necropolis/townScreen/area/TZNHAL3.png"
 				},
 				"capitol": {
 					"animation" : "factions/necropolis/townScreen/animation/TBNCHAL4.def",
 					"x" : 481, "y" : 26, "z" : -1,
 					"border" : "factions/necropolis/townScreen/border/TONHAL4.png", 
-					"area" : "TZNHAL4.png"
+					"area" : "factions/necropolis/townScreen/area/TZNHAL4.png"
 				},
 
 				"fort": {
 					"animation" : "factions/necropolis/townScreen/animation/TBNCCSTL.def",
 					"x" : 138, "y" : 66,
 					"border" : "factions/necropolis/townScreen/border/TONCAS1.png",
-					"area" : "TZNCAS1.png"
+					"area" : "factions/necropolis/townScreen/area/TZNCAS1.png"
 				},
 				"citadel": {
 					"animation" : "factions/necropolis/townScreen/animation/TBNCCAS2.def",
 					"x" : 139, "y" : 66,
 					"border" : "factions/necropolis/townScreen/border/TONCAS2.png",
-					"area" : "TZNCAS2.png"
+					"area" : "factions/necropolis/townScreen/area/TZNCAS2.png"
 				},
 				"castle": {
 					"animation" : "factions/necropolis/townScreen/animation/TBNCCAS3.def",
 					"x" : 34, "y" : 18,
 					"border" : "factions/necropolis/townScreen/border/TONCAS3.png",
-					"area" : "TZNCAS3.png"
+					"area" : "factions/necropolis/townScreen/area/TZNCAS3.png"
 				},
 
 				"tavern": {
 					"animation" : "factions/necropolis/townScreen/animation/TBNCTVRN.def",
 					"x" : 508, "y" : 189,
 					"border" : "factions/necropolis/townScreen/border/TONTAV.png",
-					"area" : "TZNTAV.png"
+					"area" : "factions/necropolis/townScreen/area/TZNTAV.png"
 				},
 				"blacksmith": {
 					"animation" : "factions/necropolis/townScreen/animation/TBNCBLAK.def",
 					"x" : 382, "y" : 252, "z" : 4, 
 					"border" : "factions/necropolis/townScreen/border/TONSMITA.png",
-					"area" : "TZNSMITA.png"
+					"area" : "factions/necropolis/townScreen/area/TZNSMITA.png"
 				},
 				"marketplace": {
 					"animation" : "factions/necropolis/townScreen/animation/TBNCMARK.def",
 					"x" : 347, "y" : 215, "z" : 2, 
 					"border" : "factions/necropolis/townScreen/border/TONMRK1.png", 
-					"area" : "TZNMRK1.png"
+					"area" : "factions/necropolis/townScreen/area/TZNMRK1.png"
 				},
 				"resourceSilo": {
 					"animation" : "factions/necropolis/townScreen/animation/TBNCSILO.def",
 					"x" : 276, "y" : 185, "z" : 1, 
 					"border" : "factions/necropolis/townScreen/border/TONMRK2.png", 
-					"area" : "TZNMRK2.png"
+					"area" : "factions/necropolis/townScreen/area/TZNMRK2.png"
 				},
 				"shipyard": {
 					"animation" : "factions/necropolis/townScreen/animation/TBNCDOCK.def",
 					"x" : 617, "y" : 265, "z" : -2,
 					"border" : "factions/necropolis/townScreen/border/TONSHPBA.png",
-					"area" : "TZNSHPBA.png"
+					"area" : "factions/necropolis/townScreen/area/TZNSHPBA.png"
 				},
 				"ship": {
 					"animation" : "factions/necropolis/townScreen/animation/TBNCBOAT.def",
 					"x" : 617, "y" : 265, "z" : -2,
 					"border" : "factions/necropolis/townScreen/border/TONSHPNA.png",
-					"area" : "TZNSHPNA.png",
+					"area" : "factions/necropolis/townScreen/area/TZNSHPNA.png",
 					"hidden" : true
 				},
 				
@@ -93,32 +93,32 @@
 					"animation" : "factions/necropolis/townScreen/animation/TBNCSPEC.def",
 					"x" : 18, "y" : 0, "z" : -1,
 					"border" : "factions/necropolis/townScreen/border/TONSHRDA.png",
-					"area" : "TZNSHRDA.png"
+					"area" : "factions/necropolis/townScreen/area/TZNSHRDA.png"
 				},
 				"special2": {
 					"animation" : "factions/necropolis/townScreen/animation/TBNCEXT0.def",
 					"x" : 307, "y" : 61, "z" : -2,
 					"border" : "factions/necropolis/townScreen/border/TONNECRA.png",
-					"area" : "TZNNECRA.png"
+					"area" : "factions/necropolis/townScreen/area/TZNNECRA.png"
 				},
 				"special3": {
 					"animation" : "factions/necropolis/townScreen/animation/TBNCEXT1.def",
 					"x" : 247, "y" : 275, "z" : 4, 
 					"border" : "factions/necropolis/townScreen/border/TONSKELT.png",
-					"area" : "TZNSKELT.png"
+					"area" : "factions/necropolis/townScreen/area/TZNSKELT.png"
 				},
 				"horde1": {
 					"animation" : "factions/necropolis/townScreen/animation/TBNCHRD1.def",
 					"x" : 80, "y" : 222, "z" : 4,
 					"border" : "factions/necropolis/townScreen/border/TONSKE1H.png",
-					"area" : "TZNSKE1H.png",
+					"area" : "factions/necropolis/townScreen/area/TZNSKE1H.png",
 					"hidden" : true
 				},
 				"horde1Upgr": {
 					"animation" : "factions/necropolis/townScreen/animation/TBNCHRD2.def",
 					"x" : 64, "y" : 222, "z" : 4,
 					"border" : "factions/necropolis/townScreen/border/TONSKE2H.png",
-					"area" : "TZNSKE2H.png",
+					"area" : "factions/necropolis/townScreen/area/TZNSKE2H.png",
 					"hidden" : true,
 					"builds" : "horde1"
 				},
@@ -126,7 +126,7 @@
 					"animation" : "factions/necropolis/townScreen/animation/TBNCHOLY.def",
 					"x" : 410, "y" : 88, 
 					"border" : "factions/necropolis/townScreen/border/TONHOLYA.png",
-					"area" : "TZNHOLYA.png"
+					"area" : "factions/necropolis/townScreen/area/TZNHOLYA.png"
 				},
 				"extraTownHall": {
 					"animation" : "factions/necropolis/townScreen/animation/TBNCEXT3.def",
@@ -142,31 +142,31 @@
 					"animation" : "factions/necropolis/townScreen/animation/TBNCMAGE.def",
 					"x" : 341, "y" : 116, "z" : -1,
 					"border" : "factions/necropolis/townScreen/border/TONMAG1.png",
-					"area" : "TZNMAG1.png"
+					"area" : "factions/necropolis/townScreen/area/TZNMAG1.png"
 				},
 				"mageGuild2": {
 					"animation" : "factions/necropolis/townScreen/animation/TBNCMAG2.def",
 					"x" : 341, "y" : 97, "z" : -1,
 					"border" : "factions/necropolis/townScreen/border/TONMAG2.png",
-					"area" : "TZNMAG2.png"
+					"area" : "factions/necropolis/townScreen/area/TZNMAG2.png"
 				},
 				"mageGuild3": {
 					"animation" : "factions/necropolis/townScreen/animation/TBNCMAG3.def",
 					"x" : 341, "y" : 78, "z" : -1,
 					"border" : "factions/necropolis/townScreen/border/TONMAG3.png",
-					"area" : "TZNMAG3.png"
+					"area" : "factions/necropolis/townScreen/area/TZNMAG3.png"
 				},
 				"mageGuild4": {
 					"animation" : "factions/necropolis/townScreen/animation/TBNCMAG4.def",
 					"x" : 340, "y" : 62, "z" : -1,
 					"border" : "factions/necropolis/townScreen/border/TONMAG4.png",
-					"area" : "TZNMAG4.png"
+					"area" : "factions/necropolis/townScreen/area/TZNMAG4.png"
 				},
 				"mageGuild5": {
 					"animation" : "factions/necropolis/townScreen/animation/TBNCMAG5.def",
 					"x" : 343, "y" : 35, "z" : -1,
 					"border" : "factions/necropolis/townScreen/border/TONMAG5.png",
-					"area" : "TZNMAG5.png"
+					"area" : "factions/necropolis/townScreen/area/TZNMAG5.png"
 				},
 
 
@@ -174,86 +174,86 @@
 					"animation" : "factions/necropolis/townScreen/animation/TBNCDW_0.def",
 					"x" : 80, "y" : 222, "z" : 4,
 					"border" : "factions/necropolis/townScreen/border/TONSKEL1.png",
-					"area" : "TZNSKEL1.png"
+					"area" : "factions/necropolis/townScreen/area/TZNSKEL1.png"
 				},
 				"dwellingLvl2": {
 					"animation" : "factions/necropolis/townScreen/animation/TBNCDW_1.def",
 					"x" : 502, "y" : 223,
 					"border" : "factions/necropolis/townScreen/border/TONZOMB1.png",
-					"area" : "TZNZOMB1.png"
+					"area" : "factions/necropolis/townScreen/area/TZNZOMB1.png"
 				},
 				"dwellingLvl3": {
 					"animation" : "factions/necropolis/townScreen/animation/TBNCDW_2.def",
 					"x" : 0, "y" : 187, "z" : 2,
 					"border" : "factions/necropolis/townScreen/border/TONWIGH1.png",
-					"area" : "TZNWIGH1.png"
+					"area" : "factions/necropolis/townScreen/area/TZNWIGH1.png"
 				},
 				"dwellingLvl4": {
 					"animation" : "factions/necropolis/townScreen/animation/TBNCDW_3.def",
 					"x" : 607, "y" : 212, "z" : 2,
 					"border" : "factions/necropolis/townScreen/border/TONVAM1.png",
-					"area" : "TZNVAM1.png"
+					"area" : "factions/necropolis/townScreen/area/TZNVAM1.png"
 				},
 				"dwellingLvl5": {
 					"animation" : "factions/necropolis/townScreen/animation/TBNCDW_4.def",
 					"x" : 206, "y" : 207, "z" : 3,
 					"border" : "factions/necropolis/townScreen/border/TONLICH1.png",
-					"area" : "TZNLICH1.png"
+					"area" : "factions/necropolis/townScreen/area/TZNLICH1.png"
 				},
 				"dwellingLvl6": {
 					"animation" : "factions/necropolis/townScreen/animation/TBNCDW_5.def",
 					"x" : 0, "y" : 31,
 					"border" : "factions/necropolis/townScreen/border/TONBKN1.png",
-					"area" : "TZNBKN1.png"
+					"area" : "factions/necropolis/townScreen/area/TZNBKN1.png"
 				},
 				"dwellingLvl7": {
 					"animation" : "factions/necropolis/townScreen/animation/TBNCDW_6.def",
 					"x" : 663, "y" : 25,
 					"border" : "factions/necropolis/townScreen/border/TONBON1.png",
-					"area" : "TZNBON1.png"
+					"area" : "factions/necropolis/townScreen/area/TZNBON1.png"
 				},
 
 				"dwellingUpLvl1": {
 					"animation" : "factions/necropolis/townScreen/animation/TBNCUP_0.def",
 					"x" : 64, "y" : 222, "z" : 4,
 					"border" : "factions/necropolis/townScreen/border/TONSKEL2.png",
-					"area" : "TZNSKEL2.png"
+					"area" : "factions/necropolis/townScreen/area/TZNSKEL2.png"
 				},
 				"dwellingUpLvl2": {
 					"animation" : "factions/necropolis/townScreen/animation/TBNCUP_1.def",
 					"x" : 498, "y" : 224,
 					"border" : "factions/necropolis/townScreen/border/TONZOMB2.png",
-					"area" : "TZNZOMB2.png"
+					"area" : "factions/necropolis/townScreen/area/TZNZOMB2.png"
 				},
 				"dwellingUpLvl3": {
 					"animation" : "factions/necropolis/townScreen/animation/TBNCUP_2.def",
 					"x" : 0, "y" : 179, "z" : 2,
 					"border" : "factions/necropolis/townScreen/border/TONWIGH2.png",
-					"area" : "TZNWIGH2.png"
+					"area" : "factions/necropolis/townScreen/area/TZNWIGH2.png"
 				},
 				"dwellingUpLvl4": {
 					"animation" : "factions/necropolis/townScreen/animation/TBNCUP_3.def",
 					"x" : 615, "y" : 193, "z" : 2,
 					"border" : "factions/necropolis/townScreen/border/TONVAM2.png",
-					"area" : "TZNVAM2.png"
+					"area" : "factions/necropolis/townScreen/area/TZNVAM2.png"
 				},
 				"dwellingUpLvl5": {
 					"animation" : "factions/necropolis/townScreen/animation/TBNCUP_4.def",
 					"x" : 222, "y" : 171, "z" : 3,
 					"border" : "factions/necropolis/townScreen/border/TONLICH2.png",
-					"area" : "TZNLICH2.png"
+					"area" : "factions/necropolis/townScreen/area/TZNLICH2.png"
 				},
 				"dwellingUpLvl6": {
 					"animation" : "factions/necropolis/townScreen/animation/TBNCUP_5.def",
 					"x" : 0, "y" : 30,
 					"border" : "factions/necropolis/townScreen/border/TONBKN2.png",
-					"area" : "TZNBKN2.png"
+					"area" : "factions/necropolis/townScreen/area/TZNBKN2.png"
 				},
 				"dwellingUpLvl7": {
 					"animation" : "factions/necropolis/townScreen/animation/TBNCUP_6.def",
 					"x" : 662, "y" : 23,
 					"border" : "factions/necropolis/townScreen/border/TONBON2.png",
-					"area" : "TZNBON2.png"
+					"area" : "factions/necropolis/townScreen/area/TZNBON2.png"
 				}
 			}
 		}
