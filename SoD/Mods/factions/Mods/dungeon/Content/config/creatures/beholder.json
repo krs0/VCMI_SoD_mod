@@ -156,7 +156,8 @@
 			"killed": "creatures/beholder/BHDRKILL.wav",
 			"move": "creatures/beholder/BHDRMOVE.wav",
 			"shoot": "creatures/beholder/BHDRSHOT.wav",
-			"wince": "creatures/beholder/BHDRWNCE.wav"
+			"wince": "creatures/beholder/BHDRWNCE.wav",
+			"death": "creatures/beholder/BHDRDETH.wav"
 		}
 	}
 }

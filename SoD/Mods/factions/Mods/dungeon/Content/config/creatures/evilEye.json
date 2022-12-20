@@ -153,7 +153,8 @@
 			"killed" : "creatures/evilEye/EVLIKILL.wav",
 			"move" : "creatures/evilEye/EVLIMOVE.wav",
 			"shoot" : "creatures/evilEye/EVLISHOT.wav",
-			"wince" : "creatures/evilEye/EVLIWNCE.wav"
+			"wince" : "creatures/evilEye/EVLIWNCE.wav",
+			"death": "creatures/evilEye/EVILDETH.wav"
 		}
 	}
 }
