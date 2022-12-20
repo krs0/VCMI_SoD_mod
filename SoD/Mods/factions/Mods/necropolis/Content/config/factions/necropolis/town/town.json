@@ -93,21 +93,21 @@
 			"icons" : {
 				"village" : {
 					"normal" : {
-						"small" : "factions/necropolis/town/icons/ITPA_0_10.png",
-					 	"large" : "factions/necropolis/town/icons/ITPT_0_24.png"
+						"small" : "factions/necropolis/town/icons/ITPA_0_28.png",
+					 	"large" : "factions/necropolis/town/icons/ITPT_0_26.png"
 					 },
 					"built"  : {
-						"small" : "factions/necropolis/town/icons/ITPA_0_11.png",
-						"large" : "factions/necropolis/town/icons/ITPT_0_25.png" 
+						"small" : "factions/necropolis/town/icons/ITPA_0_29.png",
+						"large" : "factions/necropolis/town/icons/ITPT_0_27.png" 
 					}
 				},
 				"fort" : {
 					"normal" : {
-						"small" : "factions/necropolis/town/icons/ITPA_0_26.png",
+						"small" : "factions/necropolis/town/icons/ITPA_0_10.png",
 					 	"large" : "factions/necropolis/town/icons/ITPT_0_8.png" 
 					 },
 					"built"  : {
-						"small" : "factions/necropolis/town/icons/ITPA_0_27.png",
+						"small" : "factions/necropolis/town/icons/ITPA_0_11.png",
 						"large" : "factions/necropolis/town/icons/ITPT_0_9.png"
 					}
 				}
