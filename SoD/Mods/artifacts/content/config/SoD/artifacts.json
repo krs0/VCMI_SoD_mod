@@ -8,11 +8,7 @@
 			"SPELLBOOK"
 		],
 		"text" : {
-			"description" : "{Spell Book}\
-
-	\
-
-	Left-click on the spell book to view your spells.",
+			"description" : "{Spell Book}\n\nLeft-click on the spell book to view your spells.",
 			"event" : "You trip over the Spell Book, dust it off, and stick it in your pack.",
 			"name" : "Spell Book"
 		},
@@ -32,11 +28,7 @@
 			"MISC1"
 		],
 		"text" : {
-			"description" : "{Spell Scroll}\
-
-	\
-
-	This scroll contains the [spell name] spell which is added into your spell book for as long as you carry the scroll.",
+			"description" : "{Spell Scroll}\n\nThis scroll contains the [spell name] spell which is added into your spell book for as long as you carry the scroll.",
 			"event" : "You find an elaborate container which houses an old vellum scroll. The runes on the container are very old, and the artistry with which it was put together is stunning. As you pull the scroll out, you feel imbued with magical power.",
 			"name" : "Spell Scroll"
 		},
@@ -49,11 +41,7 @@
 		"type" : ["HERO"],
 		"class" : "SPECIAL",
 		"text" : {
-		"description" : "{The Grail}\
-
-\
-
-	Carry the Grail to the city of your choice and the populace there will build a fantastic structure which will provide a tremendous advantage to the city's owner.",
+		"description" : "{The Grail}\n\nCarry the Grail to the city of your choice and the populace there will build a fantastic structure which will provide a tremendous advantage to the city's owner.",
 			"event" : "You trip over the Grail, dust it off, and stick it in your pack.",
 			"name" : "The Grail"
 		},
@@ -69,11 +57,7 @@
 			"MACH4"
 		],
 		"text" : {
-			"description" : "{Catapult}\
-
-	\
-
-	Use this war machine to target your enemy's fortifications in combat.",
+			"description" : "{Catapult}\n\nUse this war machine to target your enemy's fortifications in combat.",
 			"event" : "You trip over the Catapult, dust it off, and stick it in your pack.",
 			"name" : "Catapult"
 		},
@@ -89,11 +73,7 @@
 			"MACH1"
 		],
 		"text" : {
-			"description" : "{Ballista}\
-
-	\
-
-	Use this war machine to target your enemy's troops in combat.",
+			"description" : "{Ballista}\n\nUse this war machine to target your enemy's troops in combat.",
 			"event" : "You trip over the Ballista, dust it off, and stick it in your pack.",
 			"name" : "Ballista"
 		},
@@ -109,11 +89,7 @@
 			"MACH2"
 		],
 		"text" : {
-			"description" : "{Ammo Cart}\
-
-	\
-
-	The Ammo Cart ensures that your missile troops will never run out of ammunition in combat.",
+			"description" : "{Ammo Cart}\n\nThe Ammo Cart ensures that your missile troops will never run out of ammunition in combat.",
 			"event" : "You trip over the Ammo Cart, dust it off, and stick it in your pack.",
 			"name" : "Ammo Cart"
 		},
@@ -129,11 +105,7 @@
 			"MACH3"
 		],
 		"text" : {
-			"description" : "{First Aid Tent}\
-
-	\
-
-	The First Aid Tent provides healing to your troops during each round of combat.",
+			"description" : "{First Aid Tent}\n\nThe First Aid Tent provides healing to your troops during each round of combat.",
 			"event" : "You trip over the First Aid Tent, dust it off, and stick it in your pack.",
 			"name" : "First Aid Tent"
 		},
@@ -157,11 +129,7 @@
 			"RIGHT_HAND"
 		],
 		"text" : {
-			"description" : "{Centaur's Axe}\
-
-	\
-
-	This right handed weapon increases your Attack skill by +2.",
+			"description" : "{Centaur's Axe}\n\nThis right handed weapon increases your Attack skill by +2.",
 			"event" : "You see a heavy axe embedded deeply in the ground.  After several unsuccessful attempts by your army to remove it, you tightly grip the handle of the axe and effortlessly pull it free.",
 			"name" : "Centaurs Axe"
 		},
@@ -185,11 +153,7 @@
 			"RIGHT_HAND"
 		],
 		"text" : {
-			"description" : "{Blackshard of the Dead Knight}\
-
-	\
-
-	This right handed weapon increases your Attack skill by +3.",
+			"description" : "{Blackshard of the Dead Knight}\n\nThis right handed weapon increases your Attack skill by +3.",
 			"event" : "The widow of a former Captain of the Guard admires your quest and gives you the enchanted Sword that her husband relied on during his tour of duty.",
 			"name" : "Blackshard of the Dead Knight"
 		},
@@ -213,11 +177,7 @@
 			"RIGHT_HAND"
 		],
 		"text" : {
-			"description" : "{Greater Gnoll's Flail}\
-
-	\
-
-	This right handed weapon increases your Attack skill by +4.",
+			"description" : "{Greater Gnoll's Flail}\n\nThis right handed weapon increases your Attack skill by +4.",
 			"event" : "A clumsy Gnoll has killed himself with his own flail.  Knowing your superior skill with this weapon, you confidently remove the spectacular flail from the fallen creature.",
 			"name" : "Greater Gnoll's Flail"
 		},
@@ -241,11 +201,7 @@
 			"RIGHT_HAND"
 		],
 		"text" : {
-			"description" : "{Ogre's Club of Havoc}\
-
-	\
-
-	This right handed weapon increases your Attack skill by +5.",
+			"description" : "{Ogre's Club of Havoc}\n\nThis right handed weapon increases your Attack skill by +5.",
 			"event" : "At a roadside tavern, a drunken Ogre challenges you to a fight.  Not wanting to hurt the creature, you subdue him instead, and take his massive club from him to prevent him from getting into any more trouble.",
 			"name" : "Ogre's Club of Havoc"
 		},
@@ -269,11 +225,7 @@
 			"RIGHT_HAND"
 		],
 		"text" : {
-			"description" : "{Sword of Hellfire}\
-
-	\
-
-	This right handed weapon increases your Attack skill by +6.",
+			"description" : "{Sword of Hellfire}\n\nThis right handed weapon increases your Attack skill by +6.",
 			"event" : "During a sudden storm, a bolt of lightning strikes a tree, splitting it.  Inside the tree you find a mysterious sword.",
 			"name" : "Sword of Hellfire"
 		},
@@ -303,11 +255,7 @@
 			"RIGHT_HAND"
 		],
 		"text" : {
-			"description" : "{Titan's Gladius}\
-
-	\
-
-	Held with the right hand, this massive relic increases your Attack skill by +12, but reduces your Defense skill by -3.",
+			"description" : "{Titan's Gladius}\n\nHeld with the right hand, this massive relic increases your Attack skill by +12, but reduces your Defense skill by -3.",
 			"event" : "A Titan stops you and says, \"Pay me 5,000 gold, or I shall slay you where you stand.\"  You refuse.  The Titan grabs the sword hanging from its belt, but you duck between its legs.  He is so surprised by this maneuver that he trips... falling on his sword and killing himself instantly.",
 			"name" : "Titan's Gladius"
 		},
@@ -331,11 +279,7 @@
 			"LEFT_HAND"
 		],
 		"text" : {
-			"description" : "{Shield of the Dwarven Lords}\
-
-	\
-
-	This left handed item increases your Defense skill by +2.",
+			"description" : "{Shield of the Dwarven Lords}\n\nThis left handed item increases your Defense skill by +2.",
 			"event" : "While searching through the rubble of a caved-in mine, you free a group of trapped Dwarves.  Grateful, the leader gives you a finely crafted shield.",
 			"name" : "Shield of the Dwarven Lords"
 		},
@@ -359,11 +303,7 @@
 			"LEFT_HAND"
 		],
 		"text" : {
-			"description" : "{Shield of the Yawning Dead}\
-
-	\
-
-	This left handed item increases your Defense skill by +3.",
+			"description" : "{Shield of the Yawning Dead}\n\nThis left handed item increases your Defense skill by +3.",
 			"event" : "Your troops discover an eerie shrine dedicated to the Undead.  You bless the shrine, causing the stone shield emblem above the altar to crack.  Underneath it is a real shield, which you decide to separate from this unholy place.",
 			"name" : "Shield of the Yawning Dead"
 		},
@@ -387,11 +327,7 @@
 			"LEFT_HAND"
 		],
 		"text" : {
-			"description" : "{Buckler of the Gnoll King}\
-
-	\
-
-	This left handed item increases your Defense skill by +4.",
+			"description" : "{Buckler of the Gnoll King}\n\nThis left handed item increases your Defense skill by +4.",
 			"event" : "A stone statue of a warrior holds a silver shield.  As you remove the shield, the statue crumbles into dust.",
 			"name" : "Buckler of the Gnoll King"
 		},
@@ -415,11 +351,7 @@
 			"LEFT_HAND"
 		],
 		"text" : {
-			"description" : "{Targ of the Rampaging Ogre}\
-
-	\
-
-	This left handed item increases your Defense skill by +5.",
+			"description" : "{Targ of the Rampaging Ogre}\n\nThis left handed item increases your Defense skill by +5.",
 			"event" : "You come upon a bridge spanning a dry gully.  As you begin to cross, a gigantic, maddened Ogre appears from the other side and charges, forcing you to slay it.  You decide to take its shield as a trophy.",
 			"name" : "Targ of the Rampaging Ogre"
 		},
@@ -443,11 +375,7 @@
 			"LEFT_HAND"
 		],
 		"text" : {
-			"description" : "{Shield of the Damned}\
-
-	\
-
-	This left handed item increases your Defense skill by +6.",
+			"description" : "{Shield of the Damned}\n\nThis left handed item increases your Defense skill by +6.",
 			"event" : "Upon cresting a small hill, you come upon a ridiculous looking sight.  A Sprite is attempting to carry a Shield that is almost as big as it is.  Trying not to laugh, you ask, \"Need help?\"  The Sprite glares at you and answers, \"You think this is funny?  Fine.  You can carry it.  I much prefer flying anyway.\"",
 			"name" : "Shield of the Damned"
 		},
@@ -477,11 +405,7 @@
 			"LEFT_HAND"
 		],
 		"text" : {
-			"description" : "{Sentinel's Shield}\
-
-	\
-
-	Held with the left hand, this relic increases your Defense skill by +12, but reduces your Attack skill by -3.",
+			"description" : "{Sentinel's Shield}\n\nHeld with the left hand, this relic increases your Defense skill by +12, but reduces your Attack skill by -3.",
 			"event" : "You find a large box that seems to be made from some unknown metal.  When you touch it, the box opens with a loud hiss, revealing a gleaming shield within.",
 			"name" : "Sentinel's Shield"
 		},
@@ -505,11 +429,7 @@
 			"HEAD"
 		],
 		"text" : {
-			"description" : "{Helm of the Alabaster Unicorn}\
-
-	\
-
-	Worn on the head, this item increases your Knowledge skill by +1.",
+			"description" : "{Helm of the Alabaster Unicorn}\n\nWorn on the head, this item increases your Knowledge skill by +1.",
 			"event" : "A traveling tinker in need of supplies offers you a helm with a unicorn's horn on its top in exchange for food and water.  Curious, you accept, and later find out that the helm is magical.",
 			"name" : "Helm of the Alabaster Unicorn"
 		},
@@ -533,11 +453,7 @@
 			"HEAD"
 		],
 		"text" : {
-			"description" : "{Skull Helmet}\
-
-	\
-
-	Worn on the head, this item increases your Knowledge skill by +2.",
+			"description" : "{Skull Helmet}\n\nWorn on the head, this item increases your Knowledge skill by +2.",
 			"event" : "A brief stop at an improbable rural inn yields an exchange of money, tales, and accidentally, luggage.  You find a magical helm in your new backpack.",
 			"name" : "Skull Helmet"
 		},
@@ -561,11 +477,7 @@
 			"HEAD"
 		],
 		"text" : {
-			"description" : "{Helm of Chaos}\
-
-	\
-
-	Worn on the head, this item increases your Knowledge skill by +3.",
+			"description" : "{Helm of Chaos}\n\nWorn on the head, this item increases your Knowledge skill by +3.",
 			"event" : "Your army is ambushed by a small tribe of wild (and none too bright) Orcs.  You fend them off easily and the survivors flee in all directions.  One of the Orcs was wearing a polished horned helm.  Figuring it will make a good souvenir, you take it.",
 			"name" : "Helm of Chaos"
 		},
@@ -589,11 +501,7 @@
 			"HEAD"
 		],
 		"text" : {
-			"description" : "{Crown of the Supreme Magi}\
-
-	\
-
-	Worn on the head, this item increases your Knowledge skill by +4.",
+			"description" : "{Crown of the Supreme Magi}\n\nWorn on the head, this item increases your Knowledge skill by +4.",
 			"event" : "A mad wizard who has been terrorizing the region has foolishly chosen you as his target today.  Realizing that his power comes from his crown, you take aim with your bow, knocking the crown from his head and releasing him from his crazed madness.  Grateful to be free, he lets you keep the crown.",
 			"name" : "Crown of the Supreme Magi"
 		},
@@ -617,11 +525,7 @@
 			"HEAD"
 		],
 		"text" : {
-			"description" : "{Hellstorm Helmet}\
-
-	\
-
-	Worn on the head, this item increases your Knowledge skill by +5.",
+			"description" : "{Hellstorm Helmet}\n\nWorn on the head, this item increases your Knowledge skill by +5.",
 			"event" : "Your army is ambushed by a small tribe of wild (and none too bright) Orcs.  You fend them off easily and the survivors flee in all directions.  One of the Orcs was wearing a polished horned helm.  Figuring it will make a good souvenir, you take it.",
 			"name" : "Hellstorm Helmet"
 		},
@@ -651,11 +555,7 @@
 			"HEAD"
 		],
 		"text" : {
-			"description" : "{Thunder Helmet}\
-
-	\
-
-	When worn, this relic increases your Knowledge skill by +10, but reduces your Power skill by -2.",
+			"description" : "{Thunder Helmet}\n\nWhen worn, this relic increases your Knowledge skill by +10, but reduces your Power skill by -2.",
 			"event" : "A glint of golden light catches your eye.  Upon further investigation, you find a golden helm hidden under a bush.",
 			"name" : "Thunder Helmet"
 		},
@@ -679,11 +579,7 @@
 			"TORSO"
 		],
 		"text" : {
-			"description" : "{Breastplate of Petrified Wood}\
-
-	\
-
-	Worn on the torso, this item increases your Power skill by +1.",
+			"description" : "{Breastplate of Petrified Wood}\n\nWorn on the torso, this item increases your Power skill by +1.",
 			"event" : "A gang of Rogues is sifting through the possessions of dead warriors.  Scaring off the scavengers, you note the Rogues had overlooked a strange breastplate.",
 			"name" : "Breastplate of Petrified Wood"
 		},
@@ -707,11 +603,7 @@
 			"TORSO"
 		],
 		"text" : {
-			"description" : "{Rib Cage}\
-
-	\
-
-	Worn on the torso, this item increases your Power skill by +2.",
+			"description" : "{Rib Cage}\n\nWorn on the torso, this item increases your Power skill by +2.",
 			"event" : "You trip over what was the rib cage of a large creature.  Upon further examination, you discover the rib cage to be a piece of armor.",
 			"name" : "Rib Cage"
 		},
@@ -735,11 +627,7 @@
 			"TORSO"
 		],
 		"text" : {
-			"description" : "{Scales of the Greater Basilisk}\
-
-	\
-
-	Worn on the torso, this item increases your Power skill by +3.",
+			"description" : "{Scales of the Greater Basilisk}\n\nWorn on the torso, this item increases your Power skill by +3.",
 			"event" : "You meet an old Armorer who claims he owes you a favor.  Taking him up on it, he pieces together some Basilisk scales, forming a well-fashioned breastplate.",
 			"name" : "Scales of the Greater Basilisk"
 		},
@@ -763,11 +651,7 @@
 			"TORSO"
 		],
 		"text" : {
-			"description" : "{Tunic of the Cyclops King}\
-
-	\
-
-	Worn on the torso, this item increases your Power skill by +4.",
+			"description" : "{Tunic of the Cyclops King}\n\nWorn on the torso, this item increases your Power skill by +4.",
 			"event" : "You catch a Cyclops skinny dipping, and as a prank you make off with his clothes.  Later, you realize the tunic is magical.",
 			"name" : "Tunic of the Cyclops King"
 		},
@@ -791,11 +675,7 @@
 			"TORSO"
 		],
 		"text" : {
-			"description" : "{Breastplate of Brimstone}\
-
-	\
-
-	Worn on the torso, this item increases your Power skill by +5.",
+			"description" : "{Breastplate of Brimstone}\n\nWorn on the torso, this item increases your Power skill by +5.",
 			"event" : "You meet a blacksmith who is in the process of melting down old pieces of armor and weapons to reclaim the metal.  When he learns of your quest, he gives you a breastplate that he claims refused to melt, and is therefore of no value to him.",
 			"name" : "Breastplate of Brimstone"
 		},
@@ -825,11 +705,7 @@
 			"TORSO"
 		],
 		"text" : {
-			"description" : "{Titan's Cuirass}\
-
-	\
-
-	When worn, this massive relic increases your Power skill by +10, but reduces your Knowledge skill by -2.",
+			"description" : "{Titan's Cuirass}\n\nWhen worn, this massive relic increases your Power skill by +10, but reduces your Knowledge skill by -2.",
 			"event" : "A Titan stops you and says, \"Pay me 5,000 gold, or I shall slay you where you stand.\"  You refuse.  The Titan grabs the sword hanging from its belt, but you duck between its legs.  He is so surprised by this maneuver that he trips... falling on his sword and killing himself instantly.  You relieve him of his belongings.",
 			"name" : "Titan's Cuirass"
 		},
@@ -871,11 +747,7 @@
 			"TORSO"
 		],
 		"text" : {
-			"description" : "{Armor of Wonder}\
-
-	\
-
-	Worn on the torso, the Armor of Wonder increases all four primary skills by +1.",
+			"description" : "{Armor of Wonder}\n\nWorn on the torso, the Armor of Wonder increases all four primary skills by +1.",
 			"event" : "A gang of Rogues is sifting through the possessions of dead warriors.  Scaring off the scavengers, you note the Rogues had overlooked a dirty, but serviceable, breastplate.",
 			"name" : "Armor of Wonder"
 		},
@@ -917,11 +789,7 @@
 			"FEET"
 		],
 		"text" : {
-			"description" : "{Sandals of the Saint}\
-
-	\
-
-	Worn on the feet, the Sandals of the Saint increase all four primary skills by +2.",
+			"description" : "{Sandals of the Saint}\n\nWorn on the feet, the Sandals of the Saint increase all four primary skills by +2.",
 			"event" : "A Nomad trader seeks protection from a tribe of Goblins.  For your assistance, he gives you a finely crafted pair of sandals made from the softest leather.  Looking closely, you see fascinating ancient carvings engraved on the leather.",
 			"name" : "Sandals of the Saint"
 		},
@@ -963,11 +831,7 @@
 			"NECK"
 		],
 		"text" : {
-			"description" : "{Celestial Necklace of Bliss}\
-
-	\
-
-	Worn about the neck, the Celestial Necklace of Bliss increases all four primary skills by +3.",
+			"description" : "{Celestial Necklace of Bliss}\n\nWorn about the neck, the Celestial Necklace of Bliss increases all four primary skills by +3.",
 			"event" : "After rescuing a Sorceress from a cursed tomb, she rewards your heroism with an exquisite jeweled necklace.",
 			"name" : "Celestial Necklace of Bliss"
 		},
@@ -1009,11 +873,7 @@
 			"LEFT_HAND"
 		],
 		"text" : {
-			"description" : "{Lion's Shield of Courage}\
-
-	\
-
-	Held with the left hand, the Lion's Shield of Courage increases all four primary skills by +4.",
+			"description" : "{Lion's Shield of Courage}\n\nHeld with the left hand, the Lion's Shield of Courage increases all four primary skills by +4.",
 			"event" : "You've come upon a fight between a Necromancer and a Paladin.  The Necromancer blasts the Paladin with a fire bolt, bringing him to his knees.  Acting quickly, you slay the evil one before the final blow.  The grateful Paladin gives you the shield that saved him.",
 			"name" : "Lion's Shield of Courage"
 		},
@@ -1054,11 +914,7 @@
 			"RIGHT_HAND"
 		],
 		"text" : {
-			"description" : "{Sword of Judgement}\
-
-	\
-
-	Held with the right hand, the Sword of Judgement increases all four primary skills by +5.",
+			"description" : "{Sword of Judgement}\n\nHeld with the right hand, the Sword of Judgement increases all four primary skills by +5.",
 			"event" : "You come upon a battle where a Paladin has been mortally wounded by a group of Zombies.  He asks you to take his sword and finish what he started.  As you pick it up, it begins to hum, and then everything becomes a blur.  The Zombies lie dead, the sword dripping with blood.  You strap it to your belt.",
 			"name" : "Sword of Judgement"
 		},
@@ -1100,11 +956,7 @@
 			"HEAD"
 		],
 		"text" : {
-			"description" : "{Helm of Heavenly Enlightenment}\
-
-	\
-
-	Worn on the head, the Helm of Heavenly Enlightenment increases all four primary skills by +6.",
+			"description" : "{Helm of Heavenly Enlightenment}\n\nWorn on the head, the Helm of Heavenly Enlightenment increases all four primary skills by +6.",
 			"event" : "You spy a gleaming object poking up out of the ground.   You send a member of your party over to investigate.  He comes back with a golden helmet in his hands.  You realize that it must be the Helm of Heavenly Enlightenment, the only helm ever rumored to be made from solid gold.",
 			"name" : "Helm of Heavenly Enlightenment"
 		},
@@ -1135,11 +987,7 @@
 			"RIGHT_RING"
 		],
 		"text" : {
-			"description" : "{Quiet Eye of the Dragon}\
-
-	\
-
-	Worn on a finger, this item increases your Attack and Defense skills by +1.",
+			"description" : "{Quiet Eye of the Dragon}\n\nWorn on a finger, this item increases your Attack and Defense skills by +1.",
 			"event" : "While venturing into a decrepit hut you find the skeleton of a long dead witch.  Investigation of the remains reveals a ring with a Dragon's eye set into it.",
 			"name" : "Quiet Eye of the Dragon"
 		},
@@ -1169,11 +1017,7 @@
 			"RIGHT_HAND"
 		],
 		"text" : {
-			"description" : "{Red Dragon Flame Tongue}\
-
-	\
-
-	Held with the right hand, this item increases your Attack and Defense skills by +2.",
+			"description" : "{Red Dragon Flame Tongue}\n\nHeld with the right hand, this item increases your Attack and Defense skills by +2.",
 			"event" : "As you are walking along a narrow path, a nearby bush suddenly bursts into flames.  Before your eyes the flames become the image of a beautiful woman.  She holds out a magnificent sword to you.",
 			"name" : "Red Dragon Flame Tongue"
 		},
@@ -1203,11 +1047,7 @@
 			"LEFT_HAND"
 		],
 		"text" : {
-			"description" : "{Dragon Scale Shield}\
-
-	\
-
-	Held with the left hand, this item increases your Attack and Defense skills by +3.",
+			"description" : "{Dragon Scale Shield}\n\nHeld with the left hand, this item increases your Attack and Defense skills by +3.",
 			"event" : "You meet an old Armorer who claims he owes you a favor.  Taking him up on it, he pieces together some Dragon scales, forming a well-fashioned shield.",
 			"name" : "Dragon Scale Shield"
 		},
@@ -1237,11 +1077,7 @@
 			"TORSO"
 		],
 		"text" : {
-			"description" : "{Dragon Scale Armor}\
-
-	\
-
-	Worn on a torso, this item increases your Attack and Defense skills by +4.",
+			"description" : "{Dragon Scale Armor}\n\nWorn on a torso, this item increases your Attack and Defense skills by +4.",
 			"event" : "You meet an old Armorer who claims he owes you a favor.  Taking him up on it, he pieces together some Dragon scales, forming a well-fashioned breastplate.",
 			"name" : "Dragon Scale Armor"
 		},
@@ -1271,11 +1107,7 @@
 			"FEET"
 		],
 		"text" : {
-			"description" : "{Dragonbone Greaves}\
-
-	\
-
-	Worn on the feet, this item increases your Knowledge and Power skills by +1.",
+			"description" : "{Dragonbone Greaves}\n\nWorn on the feet, this item increases your Knowledge and Power skills by +1.",
 			"event" : "You trip over what seem to be the bones of a large Dragon.  Upon further examination, you discover the bones to be a pair of greaves.",
 			"name" : "Dragonbone Greaves"
 		},
@@ -1305,11 +1137,7 @@
 			"SHOULDERS"
 		],
 		"text" : {
-			"description" : "{Dragon Wing Tabard}\
-
-	\
-
-	Worn on the shoulders, this item increases your Knowledge and Power skills by +2.",
+			"description" : "{Dragon Wing Tabard}\n\nWorn on the shoulders, this item increases your Knowledge and Power skills by +2.",
 			"event" : "Ridding the countryside of the hideous Dragon who made a sport of eating noblemen's Knights, you are honored with a Dragon Wing Tabard.",
 			"name" : "Dragon Wing Tabard"
 		},
@@ -1339,11 +1167,7 @@
 			"NECK"
 		],
 		"text" : {
-			"description" : "{Necklace of Dragonteeth}\
-
-	\
-
-	Worn about the neck, this item increases your Knowledge and Power skills by +3.",
+			"description" : "{Necklace of Dragonteeth}\n\nWorn about the neck, this item increases your Knowledge and Power skills by +3.",
 			"event" : "An old shaman stands in the road before you, screaming something in a language you can't understand.  He suddenly vanishes in a cloud of smoke.  When the smoke clears, there is a long string of Dragon teeth in the spot where he was standing.",
 			"name" : "Necklace of Dragonteeth"
 		},
@@ -1373,11 +1197,7 @@
 			"HEAD"
 		],
 		"text" : {
-			"description" : "{Crown of Dragontooth}\
-
-	\
-
-	Worn on the head, this item increases your Knowledge and Power skills by +4.",
+			"description" : "{Crown of Dragontooth}\n\nWorn on the head, this item increases your Knowledge and Power skills by +4.",
 			"event" : "While out scaring up game, your troops find a mysterious crown levitating about three feet off of the ground.  They hand it to you, and you notice an inscription.  It reads: \"Brains best brawn and magic beats might.  Heed my words, and you'll win every fight.\"",
 			"name" : "Crown of Dragontooth"
 		},
@@ -1406,11 +1226,7 @@
 			"RIGHT_RING"
 		],
 		"text" : {
-			"description" : "{Still Eye of the Dragon}\
-
-	\
-
-	Worn on the finger, this item increases your Luck and Morale by +1.",
+			"description" : "{Still Eye of the Dragon}\n\nWorn on the finger, this item increases your Luck and Morale by +1.",
 			"event" : "While venturing into a decrepit hut you find the skeleton of a long dead witch.  Investigation of the remains reveals a ring with a Dragon's eye set into it.",
 			"name" : "Still Eye of the Dragon"
 		},
@@ -1437,11 +1253,7 @@
 			"MISC1"
 		],
 		"text" : {
-			"description" : "{Clover of Fortune}\
-
-	\
-
-	The Clover of Fortune increases your Luck by +1.",
+			"description" : "{Clover of Fortune}\n\nThe Clover of Fortune increases your Luck by +1.",
 			"event" : "While walking across a patch of dried vegetation, you are surprised to find a healthy, green four-leaf clover.",
 			"name" : "Clover of Fortune"
 		},
@@ -1468,11 +1280,7 @@
 			"MISC1"
 		],
 		"text" : {
-			"description" : "{Cards of Prophecy}\
-
-	\
-
-	The Cards of Prophecy increase your Luck by +1.",
+			"description" : "{Cards of Prophecy}\n\nThe Cards of Prophecy increase your Luck by +1.",
 			"event" : "You meet a traveler who offers to let you draw a card from the strange deck that he carries.  When you refuse, he draws one himself.  He has a momentary look of surprise on his face, then vanishes with a pop, dropping the cards to the floor.  You gather them, and leave.",
 			"name" : "Cards of Prophecy"
 		},
@@ -1499,11 +1307,7 @@
 			"MISC1"
 		],
 		"text" : {
-			"description" : "{Ladybird of Luck}\
-
-	\
-
-	The Ladybird of Luck increases your Luck by +1.",
+			"description" : "{Ladybird of Luck}\n\nThe Ladybird of Luck increases your Luck by +1.",
 			"event" : "An old witch who seems to have been expecting you, hands you a small statue and departs, never having said a word.",
 			"name" : "Ladybird of Luck"
 		},
@@ -1535,11 +1339,7 @@
 			"MISC1"
 		],
 		"text" : {
-			"description" : "{Badge of Courage}\
-
-	\
-
-	The Badge of Courage increases your Morale by +1.",
+			"description" : "{Badge of Courage}\n\nThe Badge of Courage increases your Morale by +1.",
 			"event" : "After saving a young boy from a vicious pack of Wolves, you return him to his father's manor.  The grateful nobleman awards you with a Badge of Courage.",
 			"name" : "Badge of Courage"
 		},
@@ -1566,11 +1366,7 @@
 			"MISC1"
 		],
 		"text" : {
-			"description" : "{Crest of Valor}\
-
-	\
-
-	The Crest of Valor increases your Morale by +1.",
+			"description" : "{Crest of Valor}\n\nThe Crest of Valor increases your Morale by +1.",
 			"event" : "After freeing a princess of a neighboring kingdom from the evil clutches of despicable slavers, she awards you with a Crest of Valor.",
 			"name" : "Crest of Valor"
 		},
@@ -1597,11 +1393,7 @@
 			"MISC1"
 		],
 		"text" : {
-			"description" : "{Glyph of Gallantry}\
-
-	\
-
-	The Glyph of Gallantry increases your Morale by +1.",
+			"description" : "{Glyph of Gallantry}\n\nThe Glyph of Gallantry increases your Morale by +1.",
 			"event" : "Ridding the countryside of the hideous Minotaur who made a sport of eating noblemen's Knights, you are honored with the Glyph of Gallantry.",
 			"name" : "Glyph of Gallantry"
 		},
@@ -1628,11 +1420,7 @@
 			"MISC1"
 		],
 		"text" : {
-			"description" : "{Speculum}\
-
-	\
-
-	The Speculum increases your Scouting radius by +1.",
+			"description" : "{Speculum}\n\nThe Speculum increases your Scouting radius by +1.",
 			"event" : "A merchant from far away lands trades you a new invention of his people for traveling supplies.  It makes distant objects appear closer, and he calls it... a Speculum.",
 			"name" : "Speculum"
 		},
@@ -1659,11 +1447,7 @@
 			"MISC1"
 		],
 		"text" : {
-			"description" : "{Spyglass}\
-
-	\
-
-	The Spyglass increases your Scouting radius by +1.",
+			"description" : "{Spyglass}\n\nThe Spyglass increases your Scouting radius by +1.",
 			"event" : "An old man claiming to be an inventor asks you to try his latest invention.  He calls it... a Spyglass.",
 			"name" : "Spyglass"
 		},
@@ -1687,11 +1471,7 @@
 			"NECK"
 		],
 		"text" : {
-			"description" : "{Amulet of the Undertaker}\
-
-	\
-
-	Worn about the neck, this amulet increases your Necromancy skill by 5%.",
+			"description" : "{Amulet of the Undertaker}\n\nWorn about the neck, this amulet increases your Necromancy skill by 5%.",
 			"event" : "A dirty amulet lies next to a freshly dug grave. Upon investigation, you discover it to be the enchanted Amulet of the Undertaker, long thought lost by mortals.",
 			"name" : "Amulet of the Undertaker"
 		},
@@ -1715,11 +1495,7 @@
 			"SHOULDERS"
 		],
 		"text" : {
-			"description" : "{Vampire's Cowl}\
-
-	\
-
-	Worn about the shoulders, this cowl increases your Necromancy skill by 10%.",
+			"description" : "{Vampire's Cowl}\n\nWorn about the shoulders, this cowl increases your Necromancy skill by 10%.",
 			"event" : "You manage to find a Vampire's resting place during the day, and are able to slay him easily.  Just for good measure, you take his cowl.",
 			"name" : "Vampire's Cowl"
 		},
@@ -1743,11 +1519,7 @@
 			"FEET"
 		],
 		"text" : {
-			"description" : "{Dead Man's Boots}\
-
-	\
-
-	Worn on the feet, these boots increase your Necromancy skill by 15%.",
+			"description" : "{Dead Man's Boots}\n\nWorn on the feet, these boots increase your Necromancy skill by 15%.",
 			"event" : "Discovering a pair of beautifully beaded boots made from the finest and softest leather, you thank the anonymous donor and add the boots to your inventory.",
 			"name" : "Dead Man's Boots"
 		},
@@ -1771,11 +1543,7 @@
 			"NECK"
 		],
 		"text" : {
-			"description" : "{Garniture of Interference}\
-
-	\
-
-	Worn about the neck, this item increases your Magic Resistance by 5%.",
+			"description" : "{Garniture of Interference}\n\nWorn about the neck, this item increases your Magic Resistance by 5%.",
 			"event" : "You've come upon a fight between a Necromancer and a Paladin.  The Necromancer blasts the Paladin with a fire bolt, bringing him to his knees.  Acting quickly, you slay the evil one before the final blow.  The grateful Paladin gives you the armor that saved him.",
 			"name" : "Garniture of Interference"
 		},
@@ -1799,11 +1567,7 @@
 			"SHOULDERS"
 		],
 		"text" : {
-			"description" : "{Surcoat of Counterpoise}\
-
-	\
-
-	Worn about the shoulders, this item increases your Magic Resistance by 10%.",
+			"description" : "{Surcoat of Counterpoise}\n\nWorn about the shoulders, this item increases your Magic Resistance by 10%.",
 			"event" : "You've come upon a fight between a Necromancer and a Paladin.  The Necromancer blasts the Paladin with a fire bolt, bringing him to his knees.  Acting quickly, you slay the evil one before the final blow.  The grateful Paladin gives you the cloak that saved him.",
 			"name" : "Surcoat of Counterpoise"
 		},
@@ -1827,11 +1591,7 @@
 			"FEET"
 		],
 		"text" : {
-			"description" : "{Boots of Polarity}\
-
-	\
-
-	Worn on the feet, these boots increase your Magic Resistance by 15%.",
+			"description" : "{Boots of Polarity}\n\nWorn on the feet, these boots increase your Magic Resistance by 15%.",
 			"event" : "A Nomad trader seeks protection from a tribe of Goblins.  For your assistance, he gives you a finely crafted pair of boots made from the softest leather.  Looking closely, you see fascinating ancient carvings engraved on the leather.",
 			"name" : "Boots of Polarity"
 		},
@@ -1859,11 +1619,7 @@
 			"MISC1"
 		],
 		"text" : {
-			"description" : "{Bow of Elven Cherrywood}\
-
-	\
-
-	This bow increases your Archery skill by 5%.",
+			"description" : "{Bow of Elven Cherrywood}\n\nThis bow increases your Archery skill by 5%.",
 			"event" : "A chance meeting with a famous Archer finds you in a game of knucklebones pitting his bow against your horse.  You win.",
 			"name" : "Bow of Elven Cherrywood"
 		},
@@ -1891,11 +1647,7 @@
 			"MISC1"
 		],
 		"text" : {
-			"description" : "{Bowstring of the Unicorn's Mane}\
-
-	\
-
-	This bowstring increases your Archery skill by 10%.",
+			"description" : "{Bowstring of the Unicorn's Mane}\n\nThis bowstring increases your Archery skill by 10%.",
 			"event" : "An ensnared Unicorn whinnies in fright.  Murmuring soothing words, you set her free.  Snorting and stamping her front hoof once, she gallops off.  Looking down you see that she dropped what appears to be a finely crafted bowstring.",
 			"name" : "Bowstring of the Unicorn's Mane"
 		},
@@ -1923,11 +1675,7 @@
 			"MISC1"
 		],
 		"text" : {
-			"description" : "{Angel Feather Arrows}\
-
-	\
-
-	These arrows increase your Archery skill by 15%.",
+			"description" : "{Angel Feather Arrows}\n\nThese arrows increase your Archery skill by 15%.",
 			"event" : "Not really wanting to know where the Angel is whose feathers were used for these arrows, you take them and quickly depart.",
 			"name" : "Angel Feather Arrows"
 		},
@@ -1955,11 +1703,7 @@
 			"MISC1"
 		],
 		"text" : {
-			"description" : "{Bird of Perception}\
-
-	\
-
-	This figurine increases your Eagle Eye skill by 5%.",
+			"description" : "{Bird of Perception}\n\nThis figurine increases your Eagle Eye skill by 5%.",
 			"event" : "An old witch who seems to have been expecting you, hands you a small statue and departs, never having said a word.",
 			"name" : "Bird of Perception"
 		},
@@ -1987,11 +1731,7 @@
 			"MISC1"
 		],
 		"text" : {
-			"description" : "{Stoic Watchman}\
-
-	\
-
-	This figurine increases your Eagle Eye skill by 10%.",
+			"description" : "{Stoic Watchman}\n\nThis figurine increases your Eagle Eye skill by 10%.",
 			"event" : "An old witch who seems to have been expecting you, hands you a small statue and departs, never having said a word.",
 			"name" : "Stoic Watchman"
 		},
@@ -2019,11 +1759,7 @@
 			"MISC1"
 		],
 		"text" : {
-			"description" : "{Emblem of Cognizance}\
-
-	\
-
-	This item increases your Eagle Eye skill by 15%.",
+			"description" : "{Emblem of Cognizance}\n\nThis item increases your Eagle Eye skill by 15%.",
 			"event" : "An old witch who seems to have been expecting you, hands you a small talisman and departs, never having said a word.",
 			"name" : "Emblem of Cognizance"
 		},
@@ -2046,11 +1782,7 @@
 			"NECK"
 		],
 		"text" : {
-			"description" : "{Statesman's Medal}\
-
-	\
-
-	Worn about the neck, the Statesman's Medal reduces the cost of surrendering.",
+			"description" : "{Statesman's Medal}\n\nWorn about the neck, the Statesman's Medal reduces the cost of surrendering.",
 			"event" : "You pause to help a diplomat with a broken axle fix his problem.  In gratitude, he gives you a medal with magical properties which he says will, \"help people see things your way.\"",
 			"name" : "Statesman's Medal"
 		},
@@ -2074,11 +1806,7 @@
 			"RIGHT_RING"
 		],
 		"text" : {
-			"description" : "{Diplomat's Ring}\
-
-	\
-
-	Worn on the finger, the Diplomat's Ring reduces the cost of surrendering.",
+			"description" : "{Diplomat's Ring}\n\nWorn on the finger, the Diplomat's Ring reduces the cost of surrendering.",
 			"event" : "You pause to help a diplomat with a broken axle fix his problem.  In gratitude, he gives you a ring with magical properties which he says will, \"help people see things your way.\"",
 			"name" : "Diplomat's Ring"
 		},
@@ -2101,11 +1829,7 @@
 			"SHOULDERS"
 		],
 		"text" : {
-			"description" : "{Ambassador's Sash}\
-
-	\
-
-	Worn about the shoulders, the Ambassador's Sash reduces the cost of surrendering.",
+			"description" : "{Ambassador's Sash}\n\nWorn about the shoulders, the Ambassador's Sash reduces the cost of surrendering.",
 			"event" : "You pause to help a diplomat with a broken axle fix his problem.  In gratitude, he gives you a sash with magical properties which he says will, \"help people see things your way.\"",
 			"name" : "Ambassador's Sash"
 		},
@@ -2129,11 +1853,7 @@
 			"RIGHT_RING"
 		],
 		"text" : {
-			"description" : "{Ring of the Wayfarer}\
-
-	\
-
-	When placed on the finger, this ring increases the combat speed of all your units by +1.",
+			"description" : "{Ring of the Wayfarer}\n\nWhen placed on the finger, this ring increases the combat speed of all your units by +1.",
 			"event" : "Visiting a local wise man, you explain the intent of your journey.  He reaches into a sack and withdraws a strange ring which he hands to you.",
 			"name" : "Ring of the Wayfarer"
 		},
@@ -2157,11 +1877,7 @@
 			"RIGHT_RING"
 		],
 		"text" : {
-			"description" : "{Equestrian's Gloves}\
-
-	\
-
-	Worn on the hands, these gloves increase your hero's movement rate over land.",
+			"description" : "{Equestrian's Gloves}\n\nWorn on the hands, these gloves increase your hero's movement rate over land.",
 			"event" : "A brief stop at an improbable rural inn yields an exchange of money, tales, and accidentally, luggage.  You find a magical pair of gloves in your new backpack.",
 			"name" : "Equestrian's Gloves"
 		},
@@ -2184,11 +1900,7 @@
 			"NECK"
 		],
 		"text" : {
-			"description" : "{Necklace of Ocean Guidance}\
-
-	\
-
-	Worn about the neck, this necklace increases your hero's movement rate at sea.",
+			"description" : "{Necklace of Ocean Guidance}\n\nWorn about the neck, this necklace increases your hero's movement rate at sea.",
 			"event" : "An old sea captain is being tortured by Ogres.  You save him, and in return he rewards you with a wondrous necklace that will guide you at sea.",
 			"name" : "Necklace of Ocean Guidance"
 		},
@@ -2212,11 +1924,7 @@
 			"SHOULDERS"
 		],
 		"text" : {
-			"description" : "{Angel Wings}\
-
-	\
-
-	Worn about the shoulders, these wings allow you to fly.",
+			"description" : "{Angel Wings}\n\nWorn about the shoulders, these wings allow you to fly.",
 			"event" : "Not really wanting to know where the Angel is who belongs to these wings, you take them and quickly depart.",
 			"name" : "Angel Wings"
 		},
@@ -2243,11 +1951,7 @@
 			"MISC1"
 		],
 		"text" : {
-			"description" : "{Charm of Mana}\
-
-	\
-
-	This charm helps you recover 1 extra spell point per day.",
+			"description" : "{Charm of Mana}\n\nThis charm helps you recover 1 extra spell point per day.",
 			"event" : "You come upon a caravan of gypsies who are feasting and fortifying their bodies with mead.  They call you forward and say, \"If you prove that you can dance the Rama-Buta, we will reward you.\"  You don't know it, but try anyway.  They laugh hysterically, but admire your bravery, giving you a strange charm.",
 			"name" : "Charm of Mana"
 		},
@@ -2274,11 +1978,7 @@
 			"MISC1"
 		],
 		"text" : {
-			"description" : "{Talisman of Mana}\
-
-	\
-
-	This talisman helps you recover 2 extra spell points per day.",
+			"description" : "{Talisman of Mana}\n\nThis talisman helps you recover 2 extra spell points per day.",
 			"event" : "You come upon a caravan of gypsies who are feasting and fortifying their bodies with mead.  They call you forward and say, \"If you prove that you can dance the Rama-Buta, we will reward you.\"  You don't know it, but try anyway.  They laugh hysterically, but admire your bravery, giving you a strange talisman.",
 			"name" : "Talisman of Mana"
 		},
@@ -2305,11 +2005,7 @@
 			"MISC1"
 		],
 		"text" : {
-			"description" : "{Mystic Orb of Mana}\
-
-	\
-
-	This orb helps you recover 3 extra spell points per day.",
+			"description" : "{Mystic Orb of Mana}\n\nThis orb helps you recover 3 extra spell points per day.",
 			"event" : "You come upon a caravan of gypsies who are feasting and fortifying their bodies with mead.  They call you forward and say, \"If you prove that you can dance the Rama-Buta, we will reward you.\"  You don't know it, but try anyway.  They laugh hysterically, but admire your bravery, giving you a strange orb.",
 			"name" : "Mystic Orb of Mana"
 		},
@@ -2332,11 +2028,7 @@
 			"NECK"
 		],
 		"text" : {
-			"description" : "{Collar of Conjuring}\
-
-	\
-
-	Worn about the neck, this item increases the duration of all your spells by 1.",
+			"description" : "{Collar of Conjuring}\n\nWorn about the neck, this item increases the duration of all your spells by 1.",
 			"event" : "Before you appears a levitating glass case with a golden choker perched upon a bed of crimson velvet.  At your touch, the lid opens and the choker floats into your awaiting hands.",
 			"name" : "Collar of Conjuring"
 		},
@@ -2360,11 +2052,7 @@
 			"RIGHT_RING"
 		],
 		"text" : {
-			"description" : "{Ring of Conjuring}\
-
-	\
-
-	Worn on a finger, this item increases the duration of all your spells by 2.",
+			"description" : "{Ring of Conjuring}\n\nWorn on a finger, this item increases the duration of all your spells by 2.",
 			"event" : "You find a small tree that closely resembles the great Warlock, Brimstone, with a ring around one of its twigs.  Scraps of clothing and rotting leather lead you to suspect that it IS Brimstone, transformed.  Since you can't help him, you take the magic ring.",
 			"name" : "Ring of Conjuring"
 		},
@@ -2387,11 +2075,7 @@
 			"SHOULDERS"
 		],
 		"text" : {
-			"description" : "{Cape of Conjuring}\
-
-	\
-
-	Worn about the shoulders, this item increases the duration of all your spells by 3.",
+			"description" : "{Cape of Conjuring}\n\nWorn about the shoulders, this item increases the duration of all your spells by 3.",
 			"event" : "Before you appears a levitating glass case with a folded cloak perched upon a bed of crimson velvet.  At your touch, the lid opens and the cloak floats into your awaiting hands.",
 			"name" : "Cape of Conjuring"
 		},
@@ -2418,11 +2102,7 @@
 			"MISC1"
 		],
 		"text" : {
-			"description" : "{Orb of the Firmament}\
-
-	\
-
-	This powerful orb causes your Air spells to inflict an additional 50% damage.",
+			"description" : "{Orb of the Firmament}\n\nThis powerful orb causes your Air spells to inflict an additional 50% damage.",
 			"event" : "You come across a conjurer who begs to accompany you and your army awhile for safety.  You agree, and he offers as payment a strange orb of the elements.",
 			"name" : "Orb of the Firmament"
 		},
@@ -2449,11 +2129,7 @@
 			"MISC1"
 		],
 		"text" : {
-			"description" : "{Orb of Silt}\
-
-	\
-
-	This powerful orb causes your Earth spells to inflict an additional 50% damage.",
+			"description" : "{Orb of Silt}\n\nThis powerful orb causes your Earth spells to inflict an additional 50% damage.",
 			"event" : "You come across a conjurer who begs to accompany you and your army awhile for safety.  You agree, and he offers as payment a strange orb of the elements.",
 			"name" : "Orb of Silt"
 		},
@@ -2480,11 +2156,7 @@
 			"MISC1"
 		],
 		"text" : {
-			"description" : "{Orb of Tempestuous Fire}\
-
-	\
-
-	This powerful orb causes your Fire spells to inflict an additional 50% damage.",
+			"description" : "{Orb of Tempestuous Fire}\n\nThis powerful orb causes your Fire spells to inflict an additional 50% damage.",
 			"event" : "You come across a conjurer who begs to accompany you and your army awhile for safety.  You agree, and he offers as payment a strange orb of the elements.",
 			"name" : "Orb of Tempestuous Fire"
 		},
@@ -2511,11 +2183,7 @@
 			"MISC1"
 		],
 		"text" : {
-			"description" : "{Orb of Driving Rain}\
-
-	\
-
-	This powerful orb causes your Water spells to inflict an additional 50% damage.",
+			"description" : "{Orb of Driving Rain}\n\nThis powerful orb causes your Water spells to inflict an additional 50% damage.",
 			"event" : "You come across a conjurer who begs to accompany you and your army awhile for safety.  You agree, and he offers as payment a strange orb of the elements.",
 			"name" : "Orb of Driving Rain"
 		},
@@ -2539,11 +2207,7 @@
 			"SHOULDERS"
 		],
 		"text" : {
-			"description" : "{Recanter's Cloak}\
-
-	\
-
-	While wearing this cloak, neither you nor your opponent will be able to cast level 3 or higher spells during combat.",
+			"description" : "{Recanter's Cloak}\n\nWhile wearing this cloak, neither you nor your opponent will be able to cast level 3 or higher spells during combat.",
 			"event" : "Responding to the panicked cries of a damsel in distress, you discover a young woman fleeing from a hungry bear.  You slay the beast in the nick of time, and the grateful Sorceress weaves a magic cloak from the bear's hide.",
 			"name" : "Recanter's Cloak"
 		},
@@ -2571,11 +2235,7 @@
 			"MISC1"
 		],
 		"text" : {
-			"description" : "{Spirit of Oppression}\
-
-	\
-
-	This item negates all Morale bonuses during combat for both you and your opponent.",
+			"description" : "{Spirit of Oppression}\n\nThis item negates all Morale bonuses during combat for both you and your opponent.",
 			"event" : "Walking through the ruins of an ancient walled city, you find the instrument of the city's destruction, the Spirit of Oppression.",
 			"name" : "Spirit of Oppression"
 		},
@@ -2602,11 +2262,7 @@
 			"MISC1"
 		],
 		"text" : {
-			"description" : "{Hourglass of the Evil Hour}\
-
-	\
-
-	This item negates all Luck bonuses during combat for both you and your opponent.",
+			"description" : "{Hourglass of the Evil Hour}\n\nThis item negates all Luck bonuses during combat for both you and your opponent.",
 			"event" : "A surprise turn in the landscape finds you in the midst of a grisly scene - vultures picking at the aftermath of a terrible battle.  Your cursory search of the remains turns up an enchanted hourglass.",
 			"name" : "Hourglass of the Evil Hour"
 		},
@@ -2633,11 +2289,7 @@
 			"MISC1"
 		],
 		"text" : {
-			"description" : "{Tome of Fire Magic}\
-
-	\
-
-	This heavy book contains all spells in the school of Fire Magic.  It must be equipped for the spells to be available.",
+			"description" : "{Tome of Fire Magic}\n\nThis heavy book contains all spells in the school of Fire Magic.  It must be equipped for the spells to be available.",
 			"event" : "You come across a conjurer who begs to accompany you and your army awhile for safety.  You agree, and he offers as payment a copy of a book of the elements.",
 			"name" : "Tome of Fire Magic"
 		},
@@ -2664,11 +2316,7 @@
 			"MISC1"
 		],
 		"text" : {
-			"description" : "{Tome of Air Magic}\
-
-	\
-
-	This heavy book contains all spells in the school of Air Magic.  It must be equipped for the spells to be available.",
+			"description" : "{Tome of Air Magic}\n\nThis heavy book contains all spells in the school of Air Magic.  It must be equipped for the spells to be available.",
 			"event" : "You come across a conjurer who begs to accompany you and your army awhile for safety.  You agree, and he offers as payment a copy of a book of the elements.",
 			"name" : "Tome of Air Magic"
 		},
@@ -2695,11 +2343,7 @@
 			"MISC1"
 		],
 		"text" : {
-			"description" : "{Tome of Water Magic}\
-
-	\
-
-	This heavy book contains all spells in the school of Water Magic.  It must be equipped for the spells to be available.",
+			"description" : "{Tome of Water Magic}\n\nThis heavy book contains all spells in the school of Water Magic.  It must be equipped for the spells to be available.",
 			"event" : "You come across a conjurer who begs to accompany you and your army awhile for safety.  You agree, and he offers as payment a copy of a book of the elements.",
 			"name" : "Tome of Water Magic"
 		},
@@ -2726,11 +2370,7 @@
 			"MISC1"
 		],
 		"text" : {
-			"description" : "{Tome of Earth Magic}\
-
-	\
-
-	This heavy book contains all spells in the school of Earth Magic.  It must be equipped for the spells to be available.",
+			"description" : "{Tome of Earth Magic}\n\nThis heavy book contains all spells in the school of Earth Magic.  It must be equipped for the spells to be available.",
 			"event" : "You come across a conjurer who begs to accompany you and your army awhile for safety.  You agree, and he offers as payment a copy of a book of the elements.",
 			"name" : "Tome of Earth Magic"
 		},
@@ -2754,11 +2394,7 @@
 			"FEET"
 		],
 		"text" : {
-			"description" : "{Boots of Levitation}\
-
-	\
-
-	When worn, these boots allow you to walk across water.",
+			"description" : "{Boots of Levitation}\n\nWhen worn, these boots allow you to walk across water.",
 			"event" : "Visiting a local wise man, you explain the intent of your journey.  He reaches into a chest and withdraws a strange pair of boots which he hands to you.",
 			"name" : "Boots of Levitation"
 		},
@@ -2794,11 +2430,7 @@
 			"MISC1"
 		],
 		"text" : {
-			"description" : "{Golden Bow}\
-
-	\
-
-	When wielded, the Golden Bow allows your troops to shoot through any obstacle or at any range without penalty.",
+			"description" : "{Golden Bow}\n\nWhen wielded, the Golden Bow allows your troops to shoot through any obstacle or at any range without penalty.",
 			"event" : "A chance meeting with a famous Archer finds you in a game of knucklebones pitting his bow against your horse.  You win.",
 			"name" : "Golden Bow"
 		},
@@ -2826,11 +2458,7 @@
 			"MISC1"
 		],
 		"text" : {
-			"description" : "{Sphere of Permanence}\
-
-	\
-
-	Wielding this sphere renders your units immune to the Dispel Magic spell.",
+			"description" : "{Sphere of Permanence}\n\nWielding this sphere renders your units immune to the Dispel Magic spell.",
 			"event" : "You meet an old Wizard friend of yours traveling in the opposite direction.  He presents  you with a gift:  An orb that prevents the use of the dispel magic spell on your allies.",
 			"name" : "Sphere of Permanence"
 		},
@@ -2858,11 +2486,7 @@
 			"MISC1"
 		],
 		"text" : {
-			"description" : "{Orb of Vulnerability}\
-
-	\
-
-	During combat, this orb negates the natural magic resistance of all creatures on the battlefield.",
+			"description" : "{Orb of Vulnerability}\n\nDuring combat, this orb negates the natural magic resistance of all creatures on the battlefield.",
 			"event" : "You meet an old Wizard friend of yours traveling in the opposite direction.  He presents  you with a gift:  An orb that allows nearby magic resistant creatures to be harmed by magic.",
 			"name" : "Orb of Vulnerability"
 		},
@@ -2886,11 +2510,7 @@
 			"RIGHT_RING"
 		],
 		"text" : {
-			"description" : "{Ring of Vitality}\
-
-	\
-
-	This item increases the health of all your units by +1.",
+			"description" : "{Ring of Vitality}\n\nThis item increases the health of all your units by +1.",
 			"event" : "While pausing to rest, you notice a bobcat climbing a short tree to get at a crow's nest.  On impulse, you climb the tree yourself and scare off the cat.  When you look in the nest, you find a collection of shiny stones and a ring.",
 			"name" : "Ring of Vitality"
 		},
@@ -2914,11 +2534,7 @@
 			"RIGHT_RING"
 		],
 		"text" : {
-			"description" : "{Ring of Life}\
-
-	\
-
-	This item increases the health of all your units by +1.",
+			"description" : "{Ring of Life}\n\nThis item increases the health of all your units by +1.",
 			"event" : "While pausing to rest, you notice a bobcat climbing a short tree to get at a crow's nest.  On impulse, you climb the tree yourself and scare off the cat.  When you look in the nest, you find a collection of shiny stones and a ring.",
 			"name" : "Ring of Life"
 		},
@@ -2945,11 +2561,7 @@
 			"MISC1"
 		],
 		"text" : {
-			"description" : "{Vial of Lifeblood}\
-
-	\
-
-	This item increases the health of all your units by +2.",
+			"description" : "{Vial of Lifeblood}\n\nThis item increases the health of all your units by +2.",
 			"event" : "You find a mystical shrine hidden among the trees.  Floating above the altar is a Vial said to contain the blood of life.  You very carefully remove it, taking care not to disturb anything else.",
 			"name" : "Vial of Lifeblood"
 		},
@@ -2972,11 +2584,7 @@
 			"NECK"
 		],
 		"text" : {
-			"description" : "{Necklace of Swiftness}\
-
-	\
-
-	Worn about the neck, this necklace increases the combat speed of all your units by +1.",
+			"description" : "{Necklace of Swiftness}\n\nWorn about the neck, this necklace increases the combat speed of all your units by +1.",
 			"event" : "Visiting a local wise man, you explain the intent of your journey.  He reaches into a sack and withdraws a strange necklace which he hands to you.",
 			"name" : "Necklace of Swiftness"
 		},
@@ -2999,11 +2607,7 @@
 			"FEET"
 		],
 		"text" : {
-			"description" : "{Boots of Speed}\
-
-	\
-
-	Worn on the feet, these boots increase your hero's movement rate over land.",
+			"description" : "{Boots of Speed}\n\nWorn on the feet, these boots increase your hero's movement rate over land.",
 			"event" : "Visiting a local wise man, you explain the intent of your journey.  He reaches into a chest and withdraws a strange pair of boots which he hands to you.",
 			"name" : "Boots of Speed"
 		},
@@ -3026,11 +2630,7 @@
 			"SHOULDERS"
 		],
 		"text" : {
-			"description" : "{Cape of Velocity}\
-
-	\
-
-	Worn about the shoulders, this cape increases the combat speed of all your units by +2.",
+			"description" : "{Cape of Velocity}\n\nWorn about the shoulders, this cape increases the combat speed of all your units by +2.",
 			"event" : "A brief stop at an improbable rural inn yields an exchange of money, tales, and accidentally, luggage.  You find a magical cloak in your new backpack.",
 			"name" : "Cape of Velocity"
 		},
@@ -3054,11 +2654,7 @@
 			"NECK"
 		],
 		"text" : {
-			"description" : "{Pendant of Dispassion}\
-
-	\
-
-	Wearing this item renders your units immune to the Berserk spell.",
+			"description" : "{Pendant of Dispassion}\n\nWearing this item renders your units immune to the Berserk spell.",
 			"event" : "The sound of combat draws you to the scene of a fight between an old Barbarian and an eight-headed Hydra.  Your timely intervention swings the battle in favor of the man, and he rewards you with a pendant he used to use to calm his mind for battle.",
 			"name" : "Pendant of Dispassion"
 		},
@@ -3082,11 +2678,7 @@
 			"NECK"
 		],
 		"text" : {
-			"description" : "{Pendant of Second Sight}\
-
-	\
-
-	Wearing this item renders your units immune to the Blind spell.",
+			"description" : "{Pendant of Second Sight}\n\nWearing this item renders your units immune to the Blind spell.",
 			"event" : "You come upon a very old woman, long blind from cataracts and dying alone.  You tend to her final needs and promise a proper burial.  Grateful, she gives you a magic pendant emblazoned with a stylized eye.  It lets you see with your eyes closed.",
 			"name" : "Pendant of Second Sight"
 		},
@@ -3110,11 +2702,7 @@
 			"NECK"
 		],
 		"text" : {
-			"description" : "{Pendant of Holiness}\
-
-	\
-
-	Wearing this item renders your units immune to the Curse spell.",
+			"description" : "{Pendant of Holiness}\n\nWearing this item renders your units immune to the Curse spell.",
 			"event" : "In your wanderings you come across a hermit living in a small, tidy hut.  Impressed with your mission, he takes time out from his meditations to bless and give you a charm against curses.",
 			"name" : "Pendant of Holiness"
 		},
@@ -3138,11 +2726,7 @@
 			"NECK"
 		],
 		"text" : {
-			"description" : "{Pendant of Life}\
-
-	\
-
-	Wearing this item renders your units immune to the Death Ripple spell.",
+			"description" : "{Pendant of Life}\n\nWearing this item renders your units immune to the Death Ripple spell.",
 			"event" : "A fierce windstorm reveals the entrance to a buried tomb.  Your investigation reveals that the tomb has already been looted, but the thieves overlooked an ankh on a gold chain in the dark.",
 			"name" : "Pendant of Life"
 		},
@@ -3167,11 +2751,7 @@
 			"NECK"
 		],
 		"text" : {
-			"description" : "{Pendant of Death}\
-
-	\
-
-	Wearing this item renders your units immune to the Destroy Undead spell.",
+			"description" : "{Pendant of Death}\n\nWearing this item renders your units immune to the Destroy Undead spell.",
 			"event" : "A quick and deadly battle with a Necromancer wins you his magical pendant.  Later, a Wizard tells you that the pendant protects undead under your control from spells meant to destroy them.",
 			"name" : "Pendant of Death"
 		},
@@ -3195,11 +2775,7 @@
 			"NECK"
 		],
 		"text" : {
-			"description" : "{Pendant of Free Will}\
-
-	\
-
-	Wearing this item renders your units immune to the Hypnotize spell.",
+			"description" : "{Pendant of Free Will}\n\nWearing this item renders your units immune to the Hypnotize spell.",
 			"event" : "A brief roadside encounter with a small caravan and a game of knucklebones wins a magic pendant.  Its former owner says that it protects against hypnosis.",
 			"name" : "Pendant of Free Will"
 		},
@@ -3229,11 +2805,7 @@
 			"NECK"
 		],
 		"text" : {
-			"description" : "{Pendant of Negativity}\
-
-	\
-
-	Wearing this item renders your units immune to the Lightning Bolt and Chain Lightning spells.",
+			"description" : "{Pendant of Negativity}\n\nWearing this item renders your units immune to the Lightning Bolt and Chain Lightning spells.",
 			"event" : "You come upon the remains of a small hut which was clearly destroyed by a very large bolt of lightning.  Sifting through the debris, you find an undamaged pendant that seems to tingle in your hand.",
 			"name" : "Pendant of Negativity"
 		},
@@ -3257,11 +2829,7 @@
 			"NECK"
 		],
 		"text" : {
-			"description" : "{Pendant of Total Recall}\
-
-	\
-
-	Wearing this item renders your units immune to the Forgetfulness spell.",
+			"description" : "{Pendant of Total Recall}\n\nWearing this item renders your units immune to the Forgetfulness spell.",
 			"event" : "Alongside the remains of a burnt witch lies a beautiful pendant, intricately designed.  Approaching the corpse with caution, you add the item to your inventory.",
 			"name" : "Pendant of Total Recall"
 		},
@@ -3289,11 +2857,7 @@
 			"NECK"
 		],
 		"text" : {
-			"description" : "{Pendant of Courage}\
-
-	\
-
-	When worn, this item bestows +3 Luck and Morale to your hero's troops.",
+			"description" : "{Pendant of Courage}\n\nWhen worn, this item bestows +3 Luck and Morale to your hero's troops.",
 			"event" : "Responding to cries for help, you find river Sprites making a sport of dunking an old man.  Feeling vengeful, you rescue the man and drag a Sprite onto dry land for awhile.  The Sprite, uncomfortable in the air, gives you a magic pendant to let him go.",
 			"name" : "Pendant of Courage"
 		},
@@ -3317,11 +2881,7 @@
 			"SHOULDERS"
 		],
 		"text" : {
-			"description" : "{Everflowing Crystal Cloak}\
-
-	\
-
-	When worn, this cloak increases your Crystal production by +1 per day.",
+			"description" : "{Everflowing Crystal Cloak}\n\nWhen worn, this cloak increases your Crystal production by +1 per day.",
 			"event" : "Taking shelter from a storm in a small cave,  you notice a small patch of crystal in one corner.  Curious, you discover that the patch is really a cloak, and when you break a piece off it mysteriously grows back.  You decide to take the cloak with you.",
 			"name" : "Everflowing Crystal Cloak"
 		},
@@ -3346,11 +2906,7 @@
 			"RIGHT_RING"
 		],
 		"text" : {
-			"description" : "{Ring of Infinite Gems}\
-
-	\
-
-	When worn, this ring increases your Gem production by +1 per day.",
+			"description" : "{Ring of Infinite Gems}\n\nWhen worn, this ring increases your Gem production by +1 per day.",
 			"event" : "A cry of pain leads you to a Centaur, caught in a trap.  Upon setting the creature free, he hands you a small pouch.  Emptying the contents, you find a dazzling jeweled ring.",
 			"name" : "Ring of Infinite Gems"
 		},
@@ -3378,11 +2934,7 @@
 			"MISC1"
 		],
 		"text" : {
-			"description" : "{Everpouring Vial of Mercury}\
-
-	\
-
-	When equipped, this vial increases your Mercury production by +1 per day.",
+			"description" : "{Everpouring Vial of Mercury}\n\nWhen equipped, this vial increases your Mercury production by +1 per day.",
 			"event" : "A brief stop at a hastily abandoned Wizard's tower turns up a magical vial of mercury that always has a little left on the bottom.  Recognizing a treasure when you see one, you cap it and slip it in your pocket.",
 			"name" : "Everpouring Vial of Mercury"
 		},
@@ -3410,11 +2962,7 @@
 			"MISC1"
 		],
 		"text" : {
-			"description" : "{Inexhaustible Cart of Ore}\
-
-	\
-
-	When equipped, this cart provides you with an additional +1 Ore per day.",
+			"description" : "{Inexhaustible Cart of Ore}\n\nWhen equipped, this cart provides you with an additional +1 Ore per day.",
 			"event" : "You've found a Goblin weapon smithy making weapons for use against humans.  With a tremendous yell you and your army descend upon their camp and drive them away.  A search finds a magic cart that never runs out of ore.",
 			"name" : "Inexhaustible Cart of Ore"
 		},
@@ -3439,11 +2987,7 @@
 			"RIGHT_RING"
 		],
 		"text" : {
-			"description" : "{Eversmoking Ring of Sulfur}\
-
-	\
-
-	When worn, this ring increases your Sulfur production by +1 per day.",
+			"description" : "{Eversmoking Ring of Sulfur}\n\nWhen worn, this ring increases your Sulfur production by +1 per day.",
 			"event" : "You visit an alchemist who, upon seeing your army, is swayed by the righteousness of your cause.  The newly loyal subject gives you his eversmoking ring of sulfur to help with the war effort.",
 			"name" : "Eversmoking Ring of Sulfur"
 		},
@@ -3471,11 +3015,7 @@
 			"MISC1"
 		],
 		"text" : {
-			"description" : "{Inexhaustible Cart of Lumber}\
-
-	\
-
-	When equipped, this cart provides you with an additional +1 Wood per day.",
+			"description" : "{Inexhaustible Cart of Lumber}\n\nWhen equipped, this cart provides you with an additional +1 Wood per day.",
 			"event" : "Pausing to rest and light a cook fire, you pull wood out of a nearby lumber cart.  As you keep pulling wood from the cart, you notice that its cargo doesn't shrink.  You realize to your delight that the cart is enchanted, so you take it along.",
 			"name" : "Inexhaustible Cart of Lumber"
 		},
@@ -3503,11 +3043,7 @@
 			"MISC1"
 		],
 		"text" : {
-			"description" : "{Endless Sack of Gold}\
-
-	\
-
-	When equipped, the Endless Sack of Gold increases your income by 1000 gold per day.",
+			"description" : "{Endless Sack of Gold}\n\nWhen equipped, the Endless Sack of Gold increases your income by 1000 gold per day.",
 			"event" : "A little leprechaun dances gleefully around a magic sack.  Seeing you approach, he stops in mid-stride.  The little man screams and stamps his foot ferociously, vanishing into thin air.  Remembering the old leprechaun saying 'Finders Keepers', you grab the sack and leave.",
 			"name" : "Endless Sack of Gold"
 		},
@@ -3535,11 +3071,7 @@
 			"MISC1"
 		],
 		"text" : {
-			"description" : "{Endless Bag of Gold}\
-
-	\
-
-	When equipped, the Endless Bag of Gold increases your income by 750 gold per day.",
+			"description" : "{Endless Bag of Gold}\n\nWhen equipped, the Endless Bag of Gold increases your income by 750 gold per day.",
 			"event" : "A noblewoman, separated from her traveling companions, asks for your help.  After escorting her home, she rewards you with a bag filled with gold.",
 			"name" : "Endless Bag of Gold"
 		},
@@ -3567,11 +3099,7 @@
 			"MISC1"
 		],
 		"text" : {
-			"description" : "{Endless Purse of Gold}\
-
-	\
-
-	When equipped, the Endless Purse of Gold increases your income by 500 gold per day.",
+			"description" : "{Endless Purse of Gold}\n\nWhen equipped, the Endless Purse of Gold increases your income by 500 gold per day.",
 			"event" : "In your travels, you find a leather purse filled with gold that once belonged to a great warrior king who had the ability to transform any inanimate object into gold.",
 			"name" : "Endless Purse of Gold"
 		},
@@ -3599,11 +3127,7 @@
 			"MISC1"
 		],
 		"text" : {
-			"description" : "{Legs of Legion}\
-
-	\
-
-	This item, when equipped by a hero in a town, increases the growth of your 2nd level units (in that town) by 5 per week.",
+			"description" : "{Legs of Legion}\n\nThis item, when equipped by a hero in a town, increases the growth of your 2nd level units (in that town) by 5 per week.",
 			"event" : "Searching a ruin, you are amazed to find a piece of the Statue of Legion.  You carefully dust it off before placing it in your pack.",
 			"name" : "Legs of Legion"
 		},
@@ -3632,11 +3156,7 @@
 			"MISC1"
 		],
 		"text" : {
-			"description" : "{Loins of Legion}\
-
-	\
-
-	This item, when equipped by a hero in a town, increases the growth of your 3rd level units (in that town) by 4 per week.",
+			"description" : "{Loins of Legion}\n\nThis item, when equipped by a hero in a town, increases the growth of your 3rd level units (in that town) by 4 per week.",
 			"event" : "Searching a ruin, you are amazed to find a piece of the Statue of Legion.  You carefully dust it off before placing it in your pack.",
 			"name" : "Loins of Legion"
 		},
@@ -3664,11 +3184,7 @@
 			"MISC1"
 		],
 		"text" : {
-			"description" : "{Torso of Legion}\
-
-	\
-
-	This item, when equipped by a hero in a town, increases the growth of your 4th level units (in that town) by 3 per week.",
+			"description" : "{Torso of Legion}\n\nThis item, when equipped by a hero in a town, increases the growth of your 4th level units (in that town) by 3 per week.",
 			"event" : "Searching a ruin, you are amazed to find a piece of the Statue of Legion.  You carefully dust it off before placing it in your pack.",
 			"name" : "Torso of Legion"
 		},
@@ -3696,11 +3212,7 @@
 			"MISC1"
 		],
 		"text" : {
-			"description" : "{Arms of Legion}\
-
-	\
-
-	This item, when equipped by a hero in a town, increases the growth of your 5th level units (in that town) by 2 per week.",
+			"description" : "{Arms of Legion}\n\nThis item, when equipped by a hero in a town, increases the growth of your 5th level units (in that town) by 2 per week.",
 			"event" : "Searching a ruin, you are amazed to find a piece of the Statue of Legion.  You carefully dust it off before placing it in your pack.",
 			"name" : "Arms of Legion"
 		},
@@ -3728,11 +3240,7 @@
 			"MISC1"
 		],
 		"text" : {
-			"description" : "{Head of Legion}\
-
-	\
-
-	This item, when equipped by a hero in a town, increases the growth of your 6th level units (in that town) by 1 per week.",
+			"description" : "{Head of Legion}\n\nThis item, when equipped by a hero in a town, increases the growth of your 6th level units (in that town) by 1 per week.",
 			"event" : "Searching a ruin, you are amazed to find a piece of the Statue of Legion.  You carefully dust it off before placing it in your pack.",
 			"name" : "Head of Legion"
 		},
@@ -3773,11 +3281,7 @@
 			"HEAD"
 		],
 		"text" : {
-			"description" : "{Sea Captain's Hat}\
-
-	\
-
-	When worn, this hat increases your movement at sea, allows you to summon and destroy boats, and protects you from whirlpools.",
+			"description" : "{Sea Captain's Hat}\n\nWhen worn, this hat increases your movement at sea, allows you to summon and destroy boats, and protects you from whirlpools.",
 			"event" : "An old seaman tells you a tale of an enchanted hat that he used in his youth to rally his crew into fits of efficiency.  He then hands you a faded map that shows where he hid it.  After much exploring, you find it stashed underneath a nearby rock.",
 			"name" : "Sea Captain's Hat"
 		},
@@ -3801,11 +3305,7 @@
 			"HEAD"
 		],
 		"text" : {
-			"description" : "{Spellbinder's Hat}\
-
-	\
-
-	When worn, this hat allows you to cast all 5th level spells.",
+			"description" : "{Spellbinder's Hat}\n\nWhen worn, this hat allows you to cast all 5th level spells.",
 			"event" : "You see a Wizard fleeing from a Dragon and riding like the wind.  The Wizard opens a portal and rides through, getting his hat knocked off by the edge of the gate.  The Dragon follows, and the gate closes.  You pick the hat up, dust it off, and put it on.",
 			"name" : "Spellbinder's Hat"
 		},
@@ -3831,11 +3331,7 @@
 			"MISC1"
 		],
 		"text" : {
-			"description" : "{Shackles of War}\
-
-	\
-
-	When these shackles are wielded in combat, neither you nor your opponent may retreat or surrender.",
+			"description" : "{Shackles of War}\n\nWhen these shackles are wielded in combat, neither you nor your opponent may retreat or surrender.",
 			"event" : "Walking through the ruins of an ancient walled city, you find the instrument of the city's destruction, the elaborately crafted Shackles of War.",
 			"name" : "Shackles of War"
 		},
@@ -3862,11 +3358,7 @@
 			"MISC1"
 		],
 		"text" : {
-			"description" : "{Orb of Inhibition}\
-
-	\
-
-	This powerful orb prevents all spell casting in combat.",
+			"description" : "{Orb of Inhibition}\n\nThis powerful orb prevents all spell casting in combat.",
 			"event" : "You stop to help a Peasant catch a runaway mare.  To show his gratitude, he hands you a tiny sphere.  As soon as you grasp it, you feel the magical energy drain from your limbs...",
 			"name" : "Orb of Inhibition"
 		},
@@ -3902,11 +3394,7 @@
 			"MISC1"
 		],
 		"text" : {
-			"description" : "{Vial of Dragon Blood}\
-
-	\
-
-	All dragons under your command receive +5 to their attack and +5 to defense.",
+			"description" : "{Vial of Dragon Blood}\n\nAll dragons under your command receive +5 to their attack and +5 to defense.",
 			"event" : "You find a cave guarded by an ancient dragon.  After a fierce battle, you slay him.  Dragon blood supposedly has magical properties, so you carefully gather some in a vial.",
 			"name" : "Vial of Dragon Blood"
 		},
@@ -3960,11 +3448,7 @@
 			"RIGHT_HAND"
 		],
 		"text" : {
-			"description" : "{Armageddon's Blade}\
-
-	\
-
-	+ 3 Attack. + 3 Defense. + 6 Knowledge. + 3 Power. Places Expert Armageddon Spell in your hero's spell book. All allied creatures become immune to Armageddon.",
+			"description" : "{Armageddon's Blade}\n\n+ 3 Attack. + 3 Defense. + 6 Knowledge. + 3 Power. Places Expert Armageddon Spell in your hero's spell book. All allied creatures become immune to Armageddon.",
 			"event" : "Deep beneath the earth, you find a vault of the Ancients from before the Silence.  Inside, you find a sealed casket, deeply etched with dire warnings.  Ignoring them, you break the seal.  Inside, you find Armageddon's Blade.",
 			"name" : "Armageddon's Blade"
 		},
@@ -3993,11 +3477,7 @@
 			"RIGHT_HAND"
 		],
 		"text" : {
-			"description" : "{Angelic Alliance}\
-
-	\
-
-	Allows Rampart, Tower, Fortress, Stronghold and Castle creatures to be mixed without a morale penalty, for the player.  Casts Expert Prayer at the start of combat.",
+			"description" : "{Angelic Alliance}\n\nAllows Rampart, Tower, Fortress, Stronghold and Castle creatures to be mixed without a morale penalty, for the player.  Casts Expert Prayer at the start of combat.",
 			"event" : "You trip over the Angelic Alliance, dust it off, and stick it in your pack.",
 			"name" : "Angelic Alliance"
 		},
@@ -4029,15 +3509,7 @@
 			"SHOULDERS"
 		],
 		"text" : {
-			"description" : "{Cloak of the Undead King}\
-
-	\
-
-	30% of battlefield dead are resurrected as Skeletons.  If hero already has the Necromancy skill then the percentages are added to the skill and the level of skill determines what type is resurrected.  Basic: Zombies\
-
-	Advanced: Wights\
-
-	Expert:  Liches",
+			"description" : "{Cloak of the Undead King}\n\n30% of battlefield dead are resurrected as Skeletons.  If hero already has the Necromancy skill then the percentages are added to the skill and the level of skill determines what type is resurrected.  Basic: Zombies\nAdvanced: Wights\nExpert:  Liches",
 			"event" : "You trip over the Cloak of the Undead King, dust it off, and stick it in your pack.",
 			"name" : "Cloak of the Undead King"
 		},
@@ -4075,11 +3547,7 @@
 			"MISC1"
 		],
 		"text" : {
-			"description" : "{Elixir of Life}\
-
-	\
-
-	All creatures get a 25% health bonus and gain the regeneration ability.  Does not work on Undead or unliving creatures",
+			"description" : "{Elixir of Life}\n\nAll creatures get a 25% health bonus and gain the regeneration ability.  Does not work on Undead or unliving creatures",
 			"event" : "You trip over the Elixir of Life, dust it off, and stick it in your pack.",
 			"name" : "Elixir of Life"
 		},
@@ -4127,11 +3595,7 @@
 			"TORSO"
 		],
 		"text" : {
-			"description" : "{Armor of the Damned}\
-
-	\
-
-	All opponents have these spells effective on them for fifty turns: Slow, Curse, Weakness, and Misfortune.",
+			"description" : "{Armor of the Damned}\n\nAll opponents have these spells effective on them for fifty turns: Slow, Curse, Weakness, and Misfortune.",
 			"event" : "You trip over the Armor of the Damned, dust it off, and stick it in your pack.",
 			"name" : "Armor of the Damned"
 		},
@@ -4165,11 +3629,7 @@
 			"MISC1"
 		],
 		"text" : {
-			"description" : "{Statue of Legion}\
-
-	\
-
-	All creature production increases by 50%, in all towns based off of the castle creature generation level, does not include flagged structures or other like bonuses.",
+			"description" : "{Statue of Legion}\n\nAll creature production increases by 50%, in all towns based off of the castle creature generation level, does not include flagged structures or other like bonuses.",
 			"event" : "You trip over the Statue of Legion, dust it off, and stick it in your pack.",
 			"name" : "Statue of Legion"
 		},
@@ -4224,11 +3684,7 @@
 			"TORSO"
 		],
 		"text" : {
-			"description" : "{Power of the Dragon Father}\
-
-	\
-
-	+6 to all primary skills, all troops are immune to 1-4th level spells.",
+			"description" : "{Power of the Dragon Father}\n\n+6 to all primary skills, all troops are immune to 1-4th level spells.",
 			"event" : "You trip over the Power of the Dragon Father, dust it off, and stick it in your pack.",
 			"name" : "Power of the Dragon Father"
 		},
@@ -4264,11 +3720,7 @@
 			"RIGHT_HAND"
 		],
 		"text" : {
-			"description" : "{Titan's Thunder}\
-
-	\
-
-	Hero gains the ability to cast Lightning Bolt for 600 points of damage, does not cost any spell points, adds a spell book into their inventory (permanently).",
+			"description" : "{Titan's Thunder}\n\nHero gains the ability to cast Lightning Bolt for 600 points of damage, does not cost any spell points, adds a spell book into their inventory (permanently).",
 			"event" : "You trip over the Titan's Thunder, dust it off, and stick it in your pack.",
 			"name" : "Titan's Thunder"
 		},
@@ -4298,11 +3750,7 @@
 			"HEAD"
 		],
 		"text" : {
-			"description" : "{Admiral's Hat}\
-
-	\
-
-	No boarding or unboarding ship penalty.  Converts movement points between the Hero's Land and Water movement.",
+			"description" : "{Admiral's Hat}\n\nNo boarding or unboarding ship penalty.  Converts movement points between the Hero's Land and Water movement.",
 			"event" : "You trip over the Admiral's Hat, dust it off, and stick it in your pack.",
 			"name" : "Admiral's Hat"
 		},
@@ -4350,11 +3798,7 @@
 			"MISC1"
 		],
 		"text" : {
-			"description" : "{Bow of the Sharpshooter}\
-
-	\
-
-	Ranged shooters may fire projectiles while adjacent to an enemy creature.  No archery penalty for range or obstacle",
+			"description" : "{Bow of the Sharpshooter}\n\nRanged shooters may fire projectiles while adjacent to an enemy creature.  No archery penalty for range or obstacle",
 			"event" : "You trip over the Bow of the Sharpshooter, dust it off, and stick it in your pack.",
 			"name" : "Bow of the Sharpshooter"
 		},
@@ -4387,11 +3831,7 @@
 			"MISC1"
 		],
 		"text" : {
-			"description" : "{Wizard's Well}\
-
-	\
-
-	Regenerates all spell points each day",
+			"description" : "{Wizard's Well}\n\nRegenerates all spell points each day",
 			"event" : "You trip over the Wizard's Well, dust it off, and stick it in your pack.",
 			"name" : "Wizard's Well"
 		},
@@ -4421,11 +3861,7 @@
 			"RIGHT_RING"
 		],
 		"text" : {
-			"description" : "{Ring of the Magi}\
-
-	\
-
-	Add 50 rounds to spell duration.",
+			"description" : "{Ring of the Magi}\n\nAdd 50 rounds to spell duration.",
 			"event" : "You trip over the Ring of the Magi, dust it off, and stick it in your pack.",
 			"name" : "Ring of the Magi"
 		},
@@ -4476,11 +3912,7 @@
 			"MISC1"
 		],
 		"text" : {
-			"description" : "{Cornucopia}\
-
-	\
-
-	Generates 4 of each precious resource, each day.",
+			"description" : "{Cornucopia}\n\nGenerates 4 of each precious resource, each day.",
 			"event" : "You trip over the Town of Plenty, dust it off, and stick it in your pack.",
 			"name" : "Cornucopia"
 		},
