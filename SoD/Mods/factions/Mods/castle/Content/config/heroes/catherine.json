@@ -1,0 +1,58 @@
+{
+	"catherine" :
+	{
+		"class" : "knight",
+		"female" : true,
+		"special" : true,
+
+		//"index" : 146,
+				
+		"images" :
+		{
+			"specialtySmall" : "heroes/catherine/icons/speciality/UN32_0_146.png",
+			"specialtyLarge" : "heroes/catherine/icons/speciality/UN44_0_146.png",
+			"small" : "heroes/catherine/icons/portrait/HPS128QC.png",
+			"large" : "heroes/catherine/icons/portrait/HPL128QC.png"
+		},
+		"army" : [
+			{
+				"creature" : "pikeman",
+				"min" : 10,
+				"max" : 20
+			},
+			{
+				"creature" : "archer",
+				"min" : 4,
+				"max" : 7
+			},
+			{
+				"creature" : "griffin",
+				"min" : 2,
+				"max" : 3
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "leadership",
+				"level" : "basic"
+			},
+			{
+				"skill" : "offence",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"creature" : "swordsman"
+		},
+		"texts" : {
+			"biography" : "As the reigning queen of Erathia, Catherine continues to wage war to secure her homeland's borders and restablished the peace built by her father.  However, support for her position is faltering as the country grows weary of war.",
+			"name" : "Catherine",
+			"specialty" : {
+				"description" : "Increases the Attack and Defense skills of any Swordsmen or Crusaders for each level attained after 4th level.",
+				"name" : "Swordsmen",
+				"tooltip" : "Creature Bonus: Swordsmen"
+			}
+		}
+	}
+}
+

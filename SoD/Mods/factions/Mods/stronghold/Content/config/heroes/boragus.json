@@ -1,0 +1,58 @@
+{
+	"boragus" :
+	{
+		"class" : "barbarian",
+		"female" : false,
+		"special" : true,
+
+		//"index" : 154,
+				
+		"images" :
+		{
+			"specialtySmall" : "heroes/boragus/icons/speciality/UN32_0_154.png",
+			"specialtyLarge" : "heroes/boragus/icons/speciality/UN44_0_154.png",
+			"small" : "heroes/boragus/icons/portrait/HPS001SH.png",
+			"large" : "heroes/boragus/icons/portrait/HPL001SH.png"
+		},
+		"army" : [
+			{
+				"creature" : "goblin",
+				"min" : 10,
+				"max" : 20
+			},
+			{
+				"creature" : "goblinWolfRider",
+				"min" : 4,
+				"max" : 7
+			},
+			{
+				"creature" : "orc",
+				"min" : 2,
+				"max" : 3
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "tactics",
+				"level" : "basic"
+			},
+			{
+				"skill" : "offence",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"creature" : "ogre"
+		},
+		"texts" : {
+			"biography" : "Winston Boragus' special kinship with the Ogres he commands in battle has taken him far in his quest for power.",
+			"name" : "Boragus",
+			"specialty" : {
+				"description" : "Increases the Attack and Defense skills of any Ogre or Ogre Mage for each level attained after 4th level.",
+				"name" : "Ogres",
+				"tooltip" : "Creature Bonus: Ogres"
+			}
+		}
+	}
+}
+

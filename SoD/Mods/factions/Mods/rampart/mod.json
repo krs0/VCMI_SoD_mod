@@ -77,6 +77,8 @@
 		"config/heroes/malcom.json",
 		"config/heroes/melodia.json",
 		"config/heroes/alagar.json",
-		"config/heroes/aeris.json"
+		"config/heroes/aeris.json",
+		// special
+		"config/heroes/gelu.json"
 	]
 }

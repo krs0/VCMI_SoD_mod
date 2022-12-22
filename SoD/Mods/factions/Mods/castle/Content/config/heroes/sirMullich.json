@@ -1,0 +1,59 @@
+{
+	"sirMullich" :
+	{
+		"class" : "knight",
+		"female" : false,
+		"special" : true,
+
+		//"index" : 144,
+				
+		"images" :
+		{
+			"specialtySmall" : "heroes/sirMullich/icons/speciality/UN32_0_144.png",
+			"specialtyLarge" : "heroes/sirMullich/icons/speciality/UN44_0_144.png",
+			"small" : "heroes/sirMullich/icons/portrait/HPS130Kn.png",
+			"large" : "heroes/sirMullich/icons/portrait/HPL130Kn.png"
+		},
+		"army" : [
+			{
+				"creature" : "pikeman",
+				"min" : 10,
+				"max" : 20
+			},
+			{
+				"creature" : "archer",
+				"min" : 4,
+				"max" : 7
+			},
+			{
+				"creature" : "griffin",
+				"min" : 2,
+				"max" : 3
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "leadership",
+				"level" : "advanced"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"speed" : {
+					"type" : "STACKS_SPEED",
+					"val" : 2
+				}
+			}
+		},
+		"texts" : {
+			"biography" : "Generally stoic, Sir Mullich is prone to spasmodic fits of uncoordinated excitement believed to intimidate his troops into working faster. ",
+			"name" : "Sir Mullich",
+			"specialty" : {
+				"description" : "All creatures receive +2 speed.",
+				"name" : "Speed",
+				"tooltip" : "Creature Bonus: Speed"
+			}
+		}
+	}
+}
+

@@ -1,0 +1,78 @@
+{
+	"mutareDrake" :
+	{
+		"class" : "warlock",
+		"female" : true,
+		"special" : true,
+
+		//"index" : 153,
+				
+		"images" :
+		{
+			"specialtySmall" : "heroes/mutareDrake/icons/speciality/UN32_0_153.png",
+			"specialtyLarge" : "heroes/mutareDrake/icons/speciality/UN44_0_153.png",
+			"small" : "heroes/mutareDrake/icons/portrait/HPS008SH.png",
+			"large" : "heroes/mutareDrake/icons/portrait/HPL008SH.png"
+		},
+		"army" : [
+			{
+				"creature" : "troglodyte",
+				"min" : 10,
+				"max" : 20
+			},
+			{
+				"creature" : "harpy",
+				"min" : 4,
+				"max" : 7
+			},
+			{
+				"creature" : "evilEye",
+				"min" : 2,
+				"max" : 3
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "estates",
+				"level" : "basic"
+			},
+			{
+				"skill" : "tactics",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"base" : {
+				"limiters" : [
+					{
+						"parameters" : [ "DRAGON_NATURE" ],
+						"type" : "HAS_ANOTHER_BONUS_LIMITER"
+					}
+				],
+				"type" : "PRIMARY_SKILL",
+				"val" : 5
+			},
+			"bonuses" : {
+				"attack" : {
+					"subtype" : "primSkill.attack"
+				},
+				"defence" : {
+					"subtype" : "primSkill.defence"
+				}
+			}
+		},
+		"spellbook" : [
+			"magicArrow"
+		],
+		"texts" : {
+			"biography" : "Drinking the Vial of Dragon's Blood, Mutare became a sentient dragon.  Some wonder if her transformation foretells the coming of the Dragon Father.",
+			"name" : "Mutare Drake",
+			"specialty" : {
+				"description" : "All dragons receive +5 Att, +5 Def.",
+				"name" : "Dragons",
+				"tooltip" : "Creature Bonus: Dragons"
+			}
+		}
+	}
+}
+

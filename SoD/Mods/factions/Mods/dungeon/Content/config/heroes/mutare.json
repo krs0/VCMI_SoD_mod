@@ -1,0 +1,78 @@
+{
+	"mutare" :
+	{
+		"class" : "warlock",
+		"female" : true,
+		"special" : true,
+
+		//"index" : 151,
+				
+		"images" :
+		{
+			"specialtySmall" : "heroes/mutare/icons/speciality/UN32_0_151.png",
+			"specialtyLarge" : "heroes/mutare/icons/speciality/UN44_0_151.png",
+			"small" : "heroes/mutare/icons/portrait/HPS007SH.png",
+			"large" : "heroes/mutare/icons/portrait/HPL007SH.png"
+		},
+		"army" : [
+			{
+				"creature" : "troglodyte",
+				"min" : 30,
+				"max" : 40
+			},
+			{
+				"creature" : "harpy",
+				"min" : 4,
+				"max" : 6
+			},
+			{
+				"creature" : "beholder",
+				"min" : 3,
+				"max" : 4
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "estates",
+				"level" : "basic"
+			},
+			{
+				"skill" : "tactics",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"base" : {
+				"limiters" : [
+					{
+						"parameters" : [ "DRAGON_NATURE" ],
+						"type" : "HAS_ANOTHER_BONUS_LIMITER"
+					}
+				],
+				"type" : "PRIMARY_SKILL",
+				"val" : 5
+			},
+			"bonuses" : {
+				"attack" : {
+					"subtype" : "primSkill.attack"
+				},
+				"defence" : {
+					"subtype" : "primSkill.defence"
+				}
+			}
+		},
+		"spellbook" : [
+			"magicArrow"
+		],
+		"texts" : {
+			"biography" : "With her uncanny talent for commanding dragons on the field of combat, many have noticed Mutare's quick rise among the current overlords of Nighon.",
+			"name" : "Mutare",
+			"specialty" : {
+				"description" : "All dragons receive +5 Att, +5 Def.",
+				"name" : "Dragons",
+				"tooltip" : "Creature Bonus: Dragons"
+			}
+		}
+	}
+}
+

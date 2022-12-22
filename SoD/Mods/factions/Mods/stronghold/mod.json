@@ -77,6 +77,9 @@
 		"config/heroes/zubin.json",
 		"config/heroes/gundula.json",
 		"config/heroes/oris.json",
-		"config/heroes/saurug.json"
+		"config/heroes/saurug.json",
+		// special
+		"config/heroes/boragus.json",
+		"config/heroes/kilgor.json"
 	]
 }

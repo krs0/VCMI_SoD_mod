@@ -77,6 +77,8 @@
 		"config/heroes/thant.json",
 		"config/heroes/xsi.json",
 		"config/heroes/vidomina.json",
-		"config/heroes/nagash.json"
+		"config/heroes/nagash.json",
+		// special
+		"config/heroes/undeadHaart.json"
 	]
 }

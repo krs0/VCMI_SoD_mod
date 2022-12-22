@@ -1,0 +1,78 @@
+{
+	"kilgor" :
+	{
+		"class" : "barbarian",
+		"female" : false,
+		"special" : true,
+
+		//"index" : 149,
+				
+		"images" :
+		{
+			"specialtySmall" : "heroes/kilgor/icons/speciality/UN32_0_149.png",
+			"specialtyLarge" : "heroes/kilgor/icons/speciality/UN44_0_149.png",
+			"small" : "heroes/kilgor/icons/portrait/HPS005SH.png",
+			"large" : "heroes/kilgor/icons/portrait/HPL005SH.png"
+		},
+		"army" : [
+			{
+				"creature" : "goblin",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "goblinWolfRider",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "orc",
+				"min" : 4,
+				"max" : 6
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "offence",
+				"level" : "advanced"
+			}
+		],
+		"specialty" : {
+			"base" : {
+				"limiters" : [
+					{
+						"parameters" : [ "behemoth", true ],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"bonuses" : {
+				"attack" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primSkill.attack",
+					"val" : 5
+				},
+				"damage" : {
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : 0,
+					"val" : 10
+				},
+				"defence" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primSkill.defence",
+					"val" : 5
+				}
+			}
+		},
+		"texts" : {
+			"biography" : "Since defeating his father for rulership of his clan, Kilgor has earned much fame throughout Krewlod.  Many consider him the only man capable of winning the generational Festival of Life.",
+			"name" : "Kilgor",
+			"specialty" : {
+				"description" : "Behemoths or Ancient Behemoths receive +5 Att, +5 Def, +10 Dmg.",
+				"name" : "Behemoths",
+				"tooltip" : "Creature Bonus: Behemoths"
+			}
+		}
+	}
+}
+

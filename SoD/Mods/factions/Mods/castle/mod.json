@@ -77,6 +77,10 @@
 		"config/heroes/sorsha.json",
 		"config/heroes/sylvia.json",
 		"config/heroes/tyris.json",
-		"config/heroes/valeska.json"
+		"config/heroes/valeska.json",
+		// special
+		"config/heroes/sirMullich.json",
+		"config/heroes/roland.json",
+		"config/heroes/catherine.json"
 	]
 }

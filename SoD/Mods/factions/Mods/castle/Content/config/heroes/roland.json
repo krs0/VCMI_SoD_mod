@@ -1,0 +1,58 @@
+{
+	"roland" :
+	{
+		"class" : "knight",
+		"female" : false,
+		"special" : true,
+
+		//"index" : 152,
+				
+		"images" :
+		{
+			"specialtySmall" : "heroes/roland/icons/speciality/UN32_0_152.png",
+			"specialtyLarge" : "heroes/roland/icons/speciality/UN44_0_152.png",
+			"small" : "heroes/roland/icons/portrait/HPS009SH.png",
+			"large" : "heroes/roland/icons/portrait/HPL009SH.png"
+		},
+		"army" : [
+			{
+				"creature" : "pikeman",
+				"min" : 10,
+				"max" : 20
+			},
+			{
+				"creature" : "archer",
+				"min" : 4,
+				"max" : 7
+			},
+			{
+				"creature" : "griffin",
+				"min" : 2,
+				"max" : 3
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "leadership",
+				"level" : "basic"
+			},
+			{
+				"skill" : "armorer",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"creature" : "swordsmen"
+		},
+		"texts" : {
+			"biography" : "Recently freed from the Kreegans, Roland respectfully serves as a general in Erathia's military under his wife Catherine.  Someday soon these conflicts will end, and he and Catherine will return to Enroth.  However, both must decide what will happen to the Erathian throne.",
+			"name" : "Roland",
+			"specialty" : {
+				"description" : "Increases the Attack and Defense skills of any Swordsmen or Crusaders for each level attained after 4th level.",
+				"name" : "Swordsmen",
+				"tooltip" : "Creature Bonus: Swordsmen"
+			}
+		}
+	}
+}
+

@@ -1,0 +1,81 @@
+{
+	"xeron" :
+	{
+		"class" : "demoniac",
+		"female" : false,
+		"special" : true,
+
+		//"index" : 155,
+				
+		"images" :
+		{
+			"specialtySmall" : "heroes/xeron/icons/speciality/UN32_0_155.png",
+			"specialtyLarge" : "heroes/xeron/icons/speciality/UN44_0_155.png",
+			"small" : "heroes/xeron/icons/portrait/HPS131Dm.png",
+			"large" : "heroes/xeron/icons/portrait/HPL131Dm.png"
+		},
+		"army" : [
+			{
+				"creature" : "imp",
+				"min" : 10,
+				"max" : 20
+			},
+			{
+				"creature" : "hellHound",
+				"min" : 4,
+				"max" : 7
+			},
+			{
+				"creature" : "hellHound",
+				"min" : 2,
+				"max" : 3
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "leadership",
+				"level" : "basic"
+			},
+			{
+				"skill" : "tactics",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"base" : {
+				"limiters" : [
+					{
+						"parameters" : [ "devil", true ],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"bonuses" : {
+				"attack" : {
+					"subtype" : "primSkill.attack",
+					"type" : "PRIMARY_SKILL",
+					"val" : 4
+				},
+				"defence" : {
+					"subtype" : "primSkill.defence",
+					"type" : "PRIMARY_SKILL",
+					"val" : 2
+				},
+				"speed" : {
+					"type" : "STACKS_SPEED",
+					"val" : 1
+				}
+			}
+		},
+		"texts" : {
+			"biography" : "When Xenofex was slain and Lucifer Kreegan seized the seat of power, Xeron was the first to declare fealty to this usurper.  Highly decorated and respected, when Xeron chose to support this new king, other heroes quickly followed suit.",
+			"name" : "Xeron",
+			"specialty" : {
+				"description" : "Devils and Arch Devils receive +4 Attack, +2 Defense, and +1 Speed.",
+				"name" : "Devils",
+				"tooltip" : "Creature Bonus: Devils"
+			}
+		}
+	}
+}
+

@@ -1,0 +1,75 @@
+{
+	"gelu" :
+	{
+		"class" : "ranger",
+		"female" : false,
+		"special" : true,
+
+		//"index" : 148,
+				
+		"images" :
+		{
+			"specialtySmall" : "heroes/gelu/icons/speciality/UN32_0_148.png",
+			"specialtyLarge" : "heroes/gelu/icons/speciality/UN44_0_148.png",
+			"small" : "heroes/gelu/icons/portrait/HPS004SH.png",
+			"large" : "heroes/gelu/icons/portrait/HPL004SH.png"
+		},
+		"army" : [
+			{
+				"creature" : "sharpshooters",
+				"min" : 6,
+				"max" : 6
+			},
+			{
+				"creature" : "sharpshooters",
+				"min" : 3,
+				"max" : 3
+			},
+			{
+				"creature" : "sharpshooters",
+				"min" : 1,
+				"max" : 1
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "archery",
+				"level" : "basic"
+			},
+			{
+				"skill" : "leadership",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"base" : {
+				"addInfo" : "creature.sharpshooter",
+				"type" : "SPECIAL_UPGRADE"
+			},
+			"bonuses" : {
+				"archer2sharpshooter" : {
+					"subtype" : "creature.archer"
+				},
+				"grandElf2sharpshooter" : {
+					"subtype" : "creature.grandElf"
+				},
+				"marksman2sharpshooter" : {
+					"subtype" : "creature.marksman"
+				},
+				"woodElf2sharpshooter" : {
+					"subtype" : "creature.woodElf"
+				}
+			}
+		},
+		"texts" : {
+			"biography" : "Little is known about Gelu.  Gelu was found and raised by General Morgan Kendal when he was serving under Catherine Ironfist.  Gelu now command's Erathia's guerilla forces known as the Forest Guard.  He is believed to be half human, half Vori elf.",
+			"name" : "Gelu",
+			"specialty" : {
+				"description" : "Can upgrade Archers or Marksmen and Wood Elves or Grand Elves to Sharpshooters.",
+				"name" : "Sharpshooters",
+				"tooltip" : "Creature Bonus: Sharpshooters"
+			}
+		}
+	}
+}
+

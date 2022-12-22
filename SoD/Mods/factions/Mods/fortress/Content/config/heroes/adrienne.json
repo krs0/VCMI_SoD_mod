@@ -1,0 +1,62 @@
+{
+	"adrienne" :
+	{
+		"class" : "witch",
+		"female" : true,
+		"special" : true,
+
+		//"index" : 145,
+				
+		"images" :
+		{
+			"specialtySmall" : "heroes/adrienne/icons/speciality/UN32_0_145.png",
+			"specialtyLarge" : "heroes/adrienne/icons/speciality/UN44_0_145.png",
+			"small" : "heroes/adrienne/icons/portrait/HPS000SH.png",
+			"large" : "heroes/adrienne/icons/portrait/HPL000SH.png"
+		},
+		"army" : [
+			{
+				"creature" : "gnoll",
+				"min" : 10,
+				"max" : 20
+			},
+			{
+				"creature" : "lizardman",
+				"min" : 4,
+				"max" : 7
+			},
+			{
+				"creature" : "serpentFly",
+				"min" : 2,
+				"max" : 4
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "fireMagic",
+				"level" : "expert"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+			}
+		},
+		"spellbook" : [
+			"inferno"
+		],
+		"texts" : {
+			"biography" : "With a burning desire to gain in power and to protect her homeland, Adrienne risked being a social outcast and hated by her own people to follow her passion.",
+			"name" : "Adrienne",
+			"specialty" : {
+				"description" : "Starts with Expert Fire Magic.",
+				"name" : "Fire Magic",
+				"tooltip" : "Secondary Skill Bonus: Exp. Fire Magic"
+			}
+		}
+	}
+}
+

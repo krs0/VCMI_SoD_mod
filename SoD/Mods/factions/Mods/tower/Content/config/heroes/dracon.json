@@ -1,0 +1,74 @@
+{
+	"dracon" :
+	{
+		"class" : "warlock",
+		"female" : false,
+		"special" : true,
+
+		//"index" : 147,
+				
+		"images" :
+		{
+			"specialtySmall" : "heroes/dracon/icons/speciality/UN32_0_147.png",
+			"specialtyLarge" : "heroes/dracon/icons/speciality/UN44_0_147.png",
+			"small" : "heroes/dracon/icons/portrait/HPS003SH.png",
+			"large" : "heroes/dracon/icons/portrait/HPL003SH.png"
+		},
+		"army" : [
+			{
+				"creature" : "enchanters",
+				"min" : 6,
+				"max" : 6
+			},
+			{
+				"creature" : "enchanters",
+				"min" : 3,
+				"max" : 3
+			},
+			{
+				"creature" : "enchanters",
+				"min" : 1,
+				"max" : 1
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "advanced"
+			}
+		],
+		"specialty" : {
+			"base" : {
+				"addInfo" : "creature.enchanter",
+				"type" : "SPECIAL_UPGRADE"
+			},
+			"bonuses" : {
+				"archMage2enchanter" : {
+					"subtype" : "creature.archMage"
+				},
+				"mage2enchanter" : {
+					"subtype" : "creature.mage"
+				},
+				"monk2enchanter" : {
+					"subtype" : "creature.monk"
+				},
+				"zealot2enchanter" : {
+					"subtype" : "creature.zealot"
+				}
+			}
+		},
+		"spellbook" : [
+			"haste"
+		],
+		"texts" : {
+			"biography" : "Considered by many to be a magical genius, Dracon seeks to become history's greatest Dragon Slayer.  Unlike his fellow wizards, Dracon echews decorative attire for more practical battle gear.",
+			"name" : "Dracon",
+			"specialty" : {
+				"description" : "Can upgrade Monks or Zealots and Magi or Arch Magi to Enchanters.",
+				"name" : "Enchanters",
+				"tooltip" : "Creature Bonus: Enchanters"
+			}
+		}
+	}
+}
+

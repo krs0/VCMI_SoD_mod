@@ -77,6 +77,9 @@
 		"config/heroes/geon.json",
 		"config/heroes/deemer.json",
 		"config/heroes/sephinroth.json",
-		"config/heroes/darkstorn.json"
+		"config/heroes/darkstorn.json",
+		// special
+		"config/heroes/mutare.json",
+		"config/heroes/mutareDrake.json"
 	]
 }

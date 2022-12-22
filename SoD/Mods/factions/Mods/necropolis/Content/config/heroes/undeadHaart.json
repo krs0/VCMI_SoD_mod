@@ -1,0 +1,81 @@
+{
+	"undeadHaart" :
+	{
+		"class" : "deathknight",
+		"female" : false,
+		"special" : true,
+
+		//"index" : 150,
+				
+		"images" :
+		{
+			"specialtySmall" : "heroes/undeadHaart/icons/speciality/UN32_0_150.png",
+			"specialtyLarge" : "heroes/undeadHaart/icons/speciality/UN44_0_150.png",
+			"small" : "heroes/undeadHaart/icons/portrait/HPS006SH.png",
+			"large" : "heroes/undeadHaart/icons/portrait/HPL006SH.png"
+		},
+		"army" : [
+			{
+				"creature" : "skeleton",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "zombie",
+				"min" : 4,
+				"max" : 6
+			},
+			{
+				"creature" : "wight",
+				"min" : 4,
+				"max" : 6
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "necromancy",
+				"level" : "advanced"
+			}
+		],
+		"specialty" : {
+			"base" : {
+				"limiters" : [
+					{
+						"parameters" : [ "blackKnight", true ],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"bonuses" : {
+				"attack" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primSkill.attack",
+					"val" : 5
+				},
+				"damage" : {
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : 0,
+					"val" : 10
+				},
+				"defence" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primSkill.defence",
+					"val" : 5
+				}
+			}
+		},
+		"spellbook" : [
+			"slow"
+		],
+		"texts" : {
+			"biography" : "Resurrected by his cult of necromantic followers, Lord Haart has emerged a more powerful foe than before.",
+			"name" : "Lord Haart",
+			"specialty" : {
+				"description" : "Black Knights or Dread Knights receive +5 Att, +5 Def, and +10 Dmg.",
+				"name" : "Black Knights",
+				"tooltip" : "Creature Bonus: Black Knights"
+			}
+		}
+	}
+}
+
