@@ -114,19 +114,19 @@
 
 	"centaurAxe":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "primSkill.attack",
-				"type" : "PRIMARY_SKILL",
-				"val" : 2,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 7,
 		"type" : ["HERO"],
 		"class" : "TREASURE",
 		"slot" : [
 			"RIGHT_HAND"
+		],
+		"bonuses" : [
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.attack",
+				"val" : 2,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Centaur's Axe}\n\nThis right handed weapon increases your Attack skill by +2.",
@@ -138,19 +138,19 @@
 
 	"blackshardOfTheDeadKnight":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "primSkill.attack",
-				"type" : "PRIMARY_SKILL",
-				"val" : 3,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 8,
 		"type" : ["HERO"],
 		"class" : "MINOR",
 		"slot" : [
 			"RIGHT_HAND"
+		],
+		"bonuses" : [
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.attack",
+				"val" : 3,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Blackshard of the Dead Knight}\n\nThis right handed weapon increases your Attack skill by +3.",
@@ -162,19 +162,19 @@
 
 	"greaterGnollsFlail":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "primSkill.attack",
-				"type" : "PRIMARY_SKILL",
-				"val" : 4,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 9,
 		"type" : ["HERO"],
 		"class" : "MINOR",
 		"slot" : [
 			"RIGHT_HAND"
+		],
+		"bonuses" : [
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.attack",
+				"val" : 4,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Greater Gnoll's Flail}\n\nThis right handed weapon increases your Attack skill by +4.",
@@ -186,19 +186,19 @@
 
 	"ogresClubOfHavoc":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "primSkill.attack",
-				"type" : "PRIMARY_SKILL",
-				"val" : 5,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 10,
 		"type" : ["HERO"],
 		"class" : "MAJOR",
 		"slot" : [
 			"RIGHT_HAND"
+		],
+		"bonuses" : [
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.attack",
+				"val" : 5,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Ogre's Club of Havoc}\n\nThis right handed weapon increases your Attack skill by +5.",
@@ -210,6 +210,12 @@
 
 	"swordOfHellfire":
 	{
+		"index" : 11,
+		"type" : ["HERO"],
+		"class" : "MAJOR",
+		"slot" : [
+			"RIGHT_HAND"
+		],
 		"bonuses" : [
 			{
 				"subtype" : "primSkill.attack",
@@ -217,12 +223,6 @@
 				"val" : 6,
 				"valueType" : "BASE_NUMBER"
 			}
-		],
-		"index" : 11,
-		"type" : ["HERO"],
-		"class" : "MAJOR",
-		"slot" : [
-			"RIGHT_HAND"
 		],
 		"text" : {
 			"description" : "{Sword of Hellfire}\n\nThis right handed weapon increases your Attack skill by +6.",
@@ -234,25 +234,25 @@
 
 	"titansGladius":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "primSkill.attack",
-				"type" : "PRIMARY_SKILL",
-				"val" : 12,
-				"valueType" : "BASE_NUMBER"
-			},
-			{
-				"subtype" : "primSkill.defence",
-				"type" : "PRIMARY_SKILL",
-				"val" : -3,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 12,
 		"type" : ["HERO"],
 		"class" : "RELIC",
 		"slot" : [
 			"RIGHT_HAND"
+		],
+		"bonuses" : [
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.attack",
+				"val" : 12,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.defence",
+				"val" : -3,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Titan's Gladius}\n\nHeld with the right hand, this massive relic increases your Attack skill by +12, but reduces your Defense skill by -3.",
@@ -264,19 +264,19 @@
 
 	"shieldOfTheDwarvenLords":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "primSkill.defence",
-				"type" : "PRIMARY_SKILL",
-				"val" : 2,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 13,
 		"type" : ["HERO"],
 		"class" : "TREASURE",
 		"slot" : [
 			"LEFT_HAND"
+		],
+		"bonuses" : [
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.defence",
+				"val" : 2,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Shield of the Dwarven Lords}\n\nThis left handed item increases your Defense skill by +2.",
@@ -288,19 +288,19 @@
 
 	"shieldOfTheYawningDead":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "primSkill.defence",
-				"type" : "PRIMARY_SKILL",
-				"val" : 3,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 14,
 		"type" : ["HERO"],
 		"class" : "MINOR",
 		"slot" : [
 			"LEFT_HAND"
+		],
+		"bonuses" : [
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.defence",
+				"val" : 3,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Shield of the Yawning Dead}\n\nThis left handed item increases your Defense skill by +3.",
@@ -312,19 +312,19 @@
 
 	"bucklerOfTheGnollKing":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "primSkill.defence",
-				"type" : "PRIMARY_SKILL",
-				"val" : 4,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 15,
 		"type" : ["HERO"],
 		"class" : "MINOR",
 		"slot" : [
 			"LEFT_HAND"
+		],
+		"bonuses" : [
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.defence",
+				"val" : 4,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Buckler of the Gnoll King}\n\nThis left handed item increases your Defense skill by +4.",
@@ -336,19 +336,19 @@
 
 	"targOfTheRampagingOgre":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "primSkill.defence",
-				"type" : "PRIMARY_SKILL",
-				"val" : 5,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 16,
 		"type" : ["HERO"],
 		"class" : "MAJOR",
 		"slot" : [
 			"LEFT_HAND"
+		],
+		"bonuses" : [
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.defence",
+				"val" : 5,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Targ of the Rampaging Ogre}\n\nThis left handed item increases your Defense skill by +5.",
@@ -360,19 +360,19 @@
 
 	"shieldOfTheDamned":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "primSkill.defence",
-				"type" : "PRIMARY_SKILL",
-				"val" : 6,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 17,
 		"type" : ["HERO"],
 		"class" : "MAJOR",
 		"slot" : [
 			"LEFT_HAND"
+		],
+		"bonuses" : [
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.defence",
+				"val" : 6,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Shield of the Damned}\n\nThis left handed item increases your Defense skill by +6.",
@@ -384,25 +384,25 @@
 
 	"sentinelsShield":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "primSkill.defence",
-				"type" : "PRIMARY_SKILL",
-				"val" : 12,
-				"valueType" : "BASE_NUMBER"
-			},
-			{
-				"subtype" : 0,
-				"type" : "PRIMARY_SKILL",
-				"val" : -3,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 18,
 		"type" : ["HERO"],
 		"class" : "RELIC",
 		"slot" : [
 			"LEFT_HAND"
+		],
+		"bonuses" : [
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.defence",
+				"val" : 12,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : 0,
+				"val" : -3,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Sentinel's Shield}\n\nHeld with the left hand, this relic increases your Defense skill by +12, but reduces your Attack skill by -3.",
@@ -414,19 +414,19 @@
 
 	"helmOfTheAlabasterUnicorn":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "primSkill.knowledge",
-				"type" : "PRIMARY_SKILL",
-				"val" : 1,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 19,
 		"type" : ["HERO"],
 		"class" : "TREASURE",
 		"slot" : [
 			"HEAD"
+		],
+		"bonuses" : [
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.knowledge",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Helm of the Alabaster Unicorn}\n\nWorn on the head, this item increases your Knowledge skill by +1.",
@@ -438,19 +438,19 @@
 
 	"skullHelmet":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "primSkill.knowledge",
-				"type" : "PRIMARY_SKILL",
-				"val" : 2,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 20,
 		"type" : ["HERO"],
 		"class" : "TREASURE",
 		"slot" : [
 			"HEAD"
+		],
+		"bonuses" : [
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.knowledge",
+				"val" : 2,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Skull Helmet}\n\nWorn on the head, this item increases your Knowledge skill by +2.",
@@ -462,19 +462,19 @@
 
 	"helmOfChaos":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "primSkill.knowledge",
-				"type" : "PRIMARY_SKILL",
-				"val" : 3,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 21,
 		"type" : ["HERO"],
 		"class" : "MINOR",
 		"slot" : [
 			"HEAD"
+		],
+		"bonuses" : [
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.knowledge",
+				"val" : 3,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Helm of Chaos}\n\nWorn on the head, this item increases your Knowledge skill by +3.",
@@ -486,19 +486,19 @@
 
 	"crownOfTheSupremeMagi":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "primSkill.knowledge",
-				"type" : "PRIMARY_SKILL",
-				"val" : 4,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 22,
 		"type" : ["HERO"],
 		"class" : "MINOR",
 		"slot" : [
 			"HEAD"
+		],
+		"bonuses" : [
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.knowledge",
+				"val" : 4,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Crown of the Supreme Magi}\n\nWorn on the head, this item increases your Knowledge skill by +4.",
@@ -510,19 +510,19 @@
 
 	"hellstormHelmet":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "primSkill.knowledge",
-				"type" : "PRIMARY_SKILL",
-				"val" : 5,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 23,
 		"type" : ["HERO"],
 		"class" : "MAJOR",
 		"slot" : [
 			"HEAD"
+		],
+		"bonuses" : [
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.knowledge",
+				"val" : 5,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Hellstorm Helmet}\n\nWorn on the head, this item increases your Knowledge skill by +5.",
@@ -534,25 +534,25 @@
 
 	"thunderHelmet":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "primSkill.knowledge",
-				"type" : "PRIMARY_SKILL",
-				"val" : 10,
-				"valueType" : "BASE_NUMBER"
-			},
-			{
-				"subtype" : "primSkill.spellpower",
-				"type" : "PRIMARY_SKILL",
-				"val" : -2,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 24,
 		"type" : ["HERO"],
 		"class" : "RELIC",
 		"slot" : [
 			"HEAD"
+		],
+		"bonuses" : [
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.knowledge",
+				"val" : 10,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.spellpower",
+				"val" : -2,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Thunder Helmet}\n\nWhen worn, this relic increases your Knowledge skill by +10, but reduces your Power skill by -2.",
@@ -564,19 +564,19 @@
 
 	"breastplateOfPetrifiedWood":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "primSkill.spellpower",
-				"type" : "PRIMARY_SKILL",
-				"val" : 1,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 25,
 		"type" : ["HERO"],
 		"class" : "TREASURE",
 		"slot" : [
 			"TORSO"
+		],
+		"bonuses" : [
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.spellpower",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Breastplate of Petrified Wood}\n\nWorn on the torso, this item increases your Power skill by +1.",
@@ -588,19 +588,19 @@
 
 	"ribCage":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "primSkill.spellpower",
-				"type" : "PRIMARY_SKILL",
-				"val" : 2,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 26,
 		"type" : ["HERO"],
 		"class" : "MINOR",
 		"slot" : [
 			"TORSO"
+		],
+		"bonuses" : [
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.spellpower",
+				"val" : 2,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Rib Cage}\n\nWorn on the torso, this item increases your Power skill by +2.",
@@ -612,19 +612,19 @@
 
 	"scalesOfTheGreaterBasilisk":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "primSkill.spellpower",
-				"type" : "PRIMARY_SKILL",
-				"val" : 3,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 27,
 		"type" : ["HERO"],
 		"class" : "MINOR",
 		"slot" : [
 			"TORSO"
+		],
+		"bonuses" : [
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.spellpower",
+				"val" : 3,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Scales of the Greater Basilisk}\n\nWorn on the torso, this item increases your Power skill by +3.",
@@ -636,19 +636,19 @@
 
 	"tunicOfTheCyclopsKing":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "primSkill.spellpower",
-				"type" : "PRIMARY_SKILL",
-				"val" : 4,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 28,
 		"type" : ["HERO"],
 		"class" : "MAJOR",
 		"slot" : [
 			"TORSO"
+		],
+		"bonuses" : [
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.spellpower",
+				"val" : 4,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Tunic of the Cyclops King}\n\nWorn on the torso, this item increases your Power skill by +4.",
@@ -660,19 +660,19 @@
 
 	"breastplateOfBrimstone":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "primSkill.spellpower",
-				"type" : "PRIMARY_SKILL",
-				"val" : 5,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 29,
 		"type" : ["HERO"],
 		"class" : "MAJOR",
 		"slot" : [
 			"TORSO"
+		],
+		"bonuses" : [
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.spellpower",
+				"val" : 5,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Breastplate of Brimstone}\n\nWorn on the torso, this item increases your Power skill by +5.",
@@ -684,25 +684,25 @@
 
 	"titansCuirass":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "primSkill.spellpower",
-				"type" : "PRIMARY_SKILL",
-				"val" : 10,
-				"valueType" : "BASE_NUMBER"
-			},
-			{
-				"subtype" : "primSkill.knowledge",
-				"type" : "PRIMARY_SKILL",
-				"val" : -2,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 30,
 		"type" : ["HERO"],
 		"class" : "RELIC",
 		"slot" : [
 			"TORSO"
+		],
+		"bonuses" : [
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.spellpower",
+				"val" : 10,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.knowledge",
+				"val" : -2,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Titan's Cuirass}\n\nWhen worn, this massive relic increases your Power skill by +10, but reduces your Knowledge skill by -2.",
@@ -714,37 +714,37 @@
 
 	"armorOfWonder":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "primSkill.attack",
-				"type" : "PRIMARY_SKILL",
-				"val" : 1,
-				"valueType" : "BASE_NUMBER"
-			},
-			{
-				"subtype" : "primSkill.defence",
-				"type" : "PRIMARY_SKILL",
-				"val" : 1,
-				"valueType" : "BASE_NUMBER"
-			},
-			{
-				"subtype" : "primSkill.spellpower",
-				"type" : "PRIMARY_SKILL",
-				"val" : 1,
-				"valueType" : "BASE_NUMBER"
-			},
-			{
-				"subtype" : "primSkill.knowledge",
-				"type" : "PRIMARY_SKILL",
-				"val" : 1,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 31,
 		"type" : ["HERO"],
 		"class" : "MINOR",
 		"slot" : [
 			"TORSO"
+		],
+		"bonuses" : [
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.attack",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.defence",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.spellpower",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.knowledge",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Armor of Wonder}\n\nWorn on the torso, the Armor of Wonder increases all four primary skills by +1.",
@@ -756,37 +756,37 @@
 
 	"sandalsOfTheSaint":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "primSkill.attack",
-				"type" : "PRIMARY_SKILL",
-				"val" : 2,
-				"valueType" : "BASE_NUMBER"
-			},
-			{
-				"subtype" : "primSkill.defence",
-				"type" : "PRIMARY_SKILL",
-				"val" : 2,
-				"valueType" : "BASE_NUMBER"
-			},
-			{
-				"subtype" : "primSkill.spellpower",
-				"type" : "PRIMARY_SKILL",
-				"val" : 2,
-				"valueType" : "BASE_NUMBER"
-			},
-			{
-				"subtype" : "primSkill.knowledge",
-				"type" : "PRIMARY_SKILL",
-				"val" : 2,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 32,
 		"type" : ["HERO"],
 		"class" : "RELIC",
 		"slot" : [
 			"FEET"
+		],
+		"bonuses" : [
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.attack",
+				"val" : 2,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.defence",
+				"val" : 2,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.spellpower",
+				"val" : 2,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.knowledge",
+				"val" : 2,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Sandals of the Saint}\n\nWorn on the feet, the Sandals of the Saint increase all four primary skills by +2.",
@@ -798,37 +798,37 @@
 
 	"celestialNecklaceOfBliss":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "primSkill.attack",
-				"type" : "PRIMARY_SKILL",
-				"val" : 3,
-				"valueType" : "BASE_NUMBER"
-			},
-			{
-				"subtype" : "primSkill.defence",
-				"type" : "PRIMARY_SKILL",
-				"val" : 3,
-				"valueType" : "BASE_NUMBER"
-			},
-			{
-				"subtype" : "primSkill.spellpower",
-				"type" : "PRIMARY_SKILL",
-				"val" : 3,
-				"valueType" : "BASE_NUMBER"
-			},
-			{
-				"subtype" : "primSkill.knowledge",
-				"type" : "PRIMARY_SKILL",
-				"val" : 3,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 33,
 		"type" : ["HERO"],
 		"class" : "RELIC",
 		"slot" : [
 			"NECK"
+		],
+		"bonuses" : [
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.attack",
+				"val" : 3,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.defence",
+				"val" : 3,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.spellpower",
+				"val" : 3,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.knowledge",
+				"val" : 3,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Celestial Necklace of Bliss}\n\nWorn about the neck, the Celestial Necklace of Bliss increases all four primary skills by +3.",
@@ -840,37 +840,37 @@
 
 	"lionsShieldOfCourage":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "primSkill.attack",
-				"type" : "PRIMARY_SKILL",
-				"val" : 4,
-				"valueType" : "BASE_NUMBER"
-			},
-			{
-				"subtype" : "primSkill.defence",
-				"type" : "PRIMARY_SKILL",
-				"val" : 4,
-				"valueType" : "BASE_NUMBER"
-			},
-			{
-				"subtype" : "primSkill.spellpower",
-				"type" : "PRIMARY_SKILL",
-				"val" : 4,
-				"valueType" : "BASE_NUMBER"
-			},
-			{
-				"subtype" : "primSkill.knowledge",
-				"type" : "PRIMARY_SKILL",
-				"val" : 4,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 34,
 		"type" : ["HERO"],
 		"class" : "RELIC",
 		"slot" : [
 			"LEFT_HAND"
+		],
+		"bonuses" : [
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.attack",
+				"val" : 4,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.defence",
+				"val" : 4,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.spellpower",
+				"val" : 4,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.knowledge",
+				"val" : 4,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Lion's Shield of Courage}\n\nHeld with the left hand, the Lion's Shield of Courage increases all four primary skills by +4.",
@@ -881,37 +881,37 @@
 	},
 	"swordOfJudgement":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "primSkill.attack",
-				"type" : "PRIMARY_SKILL",
-				"val" : 5,
-				"valueType" : "BASE_NUMBER"
-			},
-			{
-				"subtype" : "primSkill.defence",
-				"type" : "PRIMARY_SKILL",
-				"val" : 5,
-				"valueType" : "BASE_NUMBER"
-			},
-			{
-				"subtype" : "primSkill.spellpower",
-				"type" : "PRIMARY_SKILL",
-				"val" : 5,
-				"valueType" : "BASE_NUMBER"
-			},
-			{
-				"subtype" : "primSkill.knowledge",
-				"type" : "PRIMARY_SKILL",
-				"val" : 5,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 35,
 		"type" : ["HERO"],
 		"class" : "RELIC",
 		"slot" : [
 			"RIGHT_HAND"
+		],
+		"bonuses" : [
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.attack",
+				"val" : 5,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.defence",
+				"val" : 5,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.spellpower",
+				"val" : 5,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.knowledge",
+				"val" : 5,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Sword of Judgement}\n\nHeld with the right hand, the Sword of Judgement increases all four primary skills by +5.",
@@ -923,37 +923,37 @@
 
 	"helmOfHeavenlyEnlightenment":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "primSkill.attack",
-				"type" : "PRIMARY_SKILL",
-				"val" : 6,
-				"valueType" : "BASE_NUMBER"
-			},
-			{
-				"subtype" : "primSkill.defence",
-				"type" : "PRIMARY_SKILL",
-				"val" : 6,
-				"valueType" : "BASE_NUMBER"
-			},
-			{
-				"subtype" : "primSkill.spellpower",
-				"type" : "PRIMARY_SKILL",
-				"val" : 6,
-				"valueType" : "BASE_NUMBER"
-			},
-			{
-				"subtype" : "primSkill.knowledge",
-				"type" : "PRIMARY_SKILL",
-				"val" : 6,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 36,
 		"type" : ["HERO"],
 		"class" : "RELIC",
 		"slot" : [
 			"HEAD"
+		],
+		"bonuses" : [
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.attack",
+				"val" : 6,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.defence",
+				"val" : 6,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.spellpower",
+				"val" : 6,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.knowledge",
+				"val" : 6,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Helm of Heavenly Enlightenment}\n\nWorn on the head, the Helm of Heavenly Enlightenment increases all four primary skills by +6.",
@@ -965,26 +965,26 @@
 
 	"quietEyeOfTheDragon":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "primSkill.attack",
-				"type" : "PRIMARY_SKILL",
-				"val" : 1,
-				"valueType" : "BASE_NUMBER"
-			},
-			{
-				"subtype" : "primSkill.defence",
-				"type" : "PRIMARY_SKILL",
-				"val" : 1,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 37,
 		"type" : ["HERO"],
 		"class" : "TREASURE",
 		"slot" : [
 			"LEFT_RING",
 			"RIGHT_RING"
+		],
+		"bonuses" : [
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.attack",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.defence",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Quiet Eye of the Dragon}\n\nWorn on a finger, this item increases your Attack and Defense skills by +1.",
@@ -996,25 +996,25 @@
 
 	"redDragonFlameTongue":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "primSkill.attack",
-				"type" : "PRIMARY_SKILL",
-				"val" : 2,
-				"valueType" : "BASE_NUMBER"
-			},
-			{
-				"subtype" : "primSkill.defence",
-				"type" : "PRIMARY_SKILL",
-				"val" : 2,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 38,
 		"type" : ["HERO"],
 		"class" : "MINOR",
 		"slot" : [
 			"RIGHT_HAND"
+		],
+		"bonuses" : [
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.attack",
+				"val" : 2,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.defence",
+				"val" : 2,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Red Dragon Flame Tongue}\n\nHeld with the right hand, this item increases your Attack and Defense skills by +2.",
@@ -1026,25 +1026,25 @@
 
 	"dragonScaleShield":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "primSkill.attack",
-				"type" : "PRIMARY_SKILL",
-				"val" : 3,
-				"valueType" : "BASE_NUMBER"
-			},
-			{
-				"subtype" : "primSkill.defence",
-				"type" : "PRIMARY_SKILL",
-				"val" : 3,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 39,
 		"type" : ["HERO"],
 		"class" : "MAJOR",
 		"slot" : [
 			"LEFT_HAND"
+		],
+		"bonuses" : [
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.attack",
+				"val" : 3,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.defence",
+				"val" : 3,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Dragon Scale Shield}\n\nHeld with the left hand, this item increases your Attack and Defense skills by +3.",
@@ -1056,25 +1056,25 @@
 
 	"dragonScaleArmor":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "primSkill.attack",
-				"type" : "PRIMARY_SKILL",
-				"val" : 4,
-				"valueType" : "BASE_NUMBER"
-			},
-			{
-				"subtype" : "primSkill.defence",
-				"type" : "PRIMARY_SKILL",
-				"val" : 4,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 40,
 		"type" : ["HERO"],
 		"class" : "RELIC",
 		"slot" : [
 			"TORSO"
+		],
+		"bonuses" : [
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.attack",
+				"val" : 4,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.defence",
+				"val" : 4,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Dragon Scale Armor}\n\nWorn on a torso, this item increases your Attack and Defense skills by +4.",
@@ -1086,25 +1086,25 @@
 
 	"dragonboneGreaves":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "primSkill.spellpower",
-				"type" : "PRIMARY_SKILL",
-				"val" : 1,
-				"valueType" : "BASE_NUMBER"
-			},
-			{
-				"subtype" : "primSkill.knowledge",
-				"type" : "PRIMARY_SKILL",
-				"val" : 1,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 41,
 		"type" : ["HERO"],
 		"class" : "TREASURE",
 		"slot" : [
 			"FEET"
+		],
+		"bonuses" : [
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.spellpower",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.knowledge",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Dragonbone Greaves}\n\nWorn on the feet, this item increases your Knowledge and Power skills by +1.",
@@ -1116,25 +1116,25 @@
 
 	"dragonWingTabard":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "primSkill.spellpower",
-				"type" : "PRIMARY_SKILL",
-				"val" : 2,
-				"valueType" : "BASE_NUMBER"
-			},
-			{
-				"subtype" : "primSkill.knowledge",
-				"type" : "PRIMARY_SKILL",
-				"val" : 2,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 42,
 		"type" : ["HERO"],
 		"class" : "MINOR",
 		"slot" : [
 			"SHOULDERS"
+		],
+		"bonuses" : [
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.spellpower",
+				"val" : 2,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.knowledge",
+				"val" : 2,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Dragon Wing Tabard}\n\nWorn on the shoulders, this item increases your Knowledge and Power skills by +2.",
@@ -1146,25 +1146,25 @@
 
 	"necklaceOfDragonteeth":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "primSkill.spellpower",
-				"type" : "PRIMARY_SKILL",
-				"val" : 3,
-				"valueType" : "BASE_NUMBER"
-			},
-			{
-				"subtype" : "primSkill.knowledge",
-				"type" : "PRIMARY_SKILL",
-				"val" : 3,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 43,
 		"type" : ["HERO"],
 		"class" : "MAJOR",
 		"slot" : [
 			"NECK"
+		],
+		"bonuses" : [
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.spellpower",
+				"val" : 3,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.knowledge",
+				"val" : 3,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Necklace of Dragonteeth}\n\nWorn about the neck, this item increases your Knowledge and Power skills by +3.",
@@ -1176,25 +1176,25 @@
 
 	"crownOfDragontooth":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "primSkill.spellpower",
-				"type" : "PRIMARY_SKILL",
-				"val" : 4,
-				"valueType" : "BASE_NUMBER"
-			},
-			{
-				"subtype" : "primSkill.knowledge",
-				"type" : "PRIMARY_SKILL",
-				"val" : 4,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 44,
 		"type" : ["HERO"],
 		"class" : "RELIC",
 		"slot" : [
 			"HEAD"
+		],
+		"bonuses" : [
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.spellpower",
+				"val" : 4,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.knowledge",
+				"val" : 4,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Crown of Dragontooth}\n\nWorn on the head, this item increases your Knowledge and Power skills by +4.",
@@ -1206,6 +1206,13 @@
 
 	"stillEyeOfTheDragon":
 	{
+		"index" : 45,
+		"type" : ["HERO"],
+		"class" : "TREASURE",
+		"slot" : [
+			"LEFT_RING",
+			"RIGHT_RING"
+		],
 		"bonuses" : [
 			{
 				"type" : "MORALE",
@@ -1218,13 +1225,6 @@
 				"valueType" : "BASE_NUMBER"
 			}
 		],
-		"index" : 45,
-		"type" : ["HERO"],
-		"class" : "TREASURE",
-		"slot" : [
-			"LEFT_RING",
-			"RIGHT_RING"
-		],
 		"text" : {
 			"description" : "{Still Eye of the Dragon}\n\nWorn on the finger, this item increases your Luck and Morale by +1.",
 			"event" : "While venturing into a decrepit hut you find the skeleton of a long dead witch.  Investigation of the remains reveals a ring with a Dragon's eye set into it.",
@@ -1235,13 +1235,6 @@
 
 	"cloverOfFortune":
 	{
-		"bonuses" : [
-			{
-				"type" : "LUCK",
-				"val" : 1,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 46,
 		"type" : ["HERO"],
 		"class" : "TREASURE",
@@ -1251,6 +1244,13 @@
 			"MISC3",
 			"MISC2",
 			"MISC1"
+		],
+		"bonuses" : [
+			{
+				"type" : "LUCK",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Clover of Fortune}\n\nThe Clover of Fortune increases your Luck by +1.",
@@ -1262,13 +1262,6 @@
 
 	"cardsOfProphecy":
 	{
-		"bonuses" : [
-			{
-				"type" : "LUCK",
-				"val" : 1,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 47,
 		"type" : ["HERO"],
 		"class" : "TREASURE",
@@ -1278,6 +1271,13 @@
 			"MISC3",
 			"MISC2",
 			"MISC1"
+		],
+		"bonuses" : [
+			{
+				"type" : "LUCK",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Cards of Prophecy}\n\nThe Cards of Prophecy increase your Luck by +1.",
@@ -1289,13 +1289,6 @@
 
 	"ladybirdOfLuck":
 	{
-		"bonuses" : [
-			{
-				"type" : "LUCK",
-				"val" : 1,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 48,
 		"type" : ["HERO"],
 		"class" : "TREASURE",
@@ -1305,6 +1298,13 @@
 			"MISC3",
 			"MISC2",
 			"MISC1"
+		],
+		"bonuses" : [
+			{
+				"type" : "LUCK",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Ladybird of Luck}\n\nThe Ladybird of Luck increases your Luck by +1.",
@@ -1316,6 +1316,16 @@
 
 	"badgeOfCourage":
 	{
+		"index" : 49,
+		"type" : ["HERO"],
+		"class" : "TREASURE",
+		"slot" : [
+			"MISC5",
+			"MISC4",
+			"MISC3",
+			"MISC2",
+			"MISC1"
+		],
 		"bonuses" : [
 			{
 				"type" : "MORALE",
@@ -1328,16 +1338,6 @@
 				"valueType" : "BASE_NUMBER"
 			}
 		],
-		"index" : 49,
-		"type" : ["HERO"],
-		"class" : "TREASURE",
-		"slot" : [
-			"MISC5",
-			"MISC4",
-			"MISC3",
-			"MISC2",
-			"MISC1"
-		],
 		"text" : {
 			"description" : "{Badge of Courage}\n\nThe Badge of Courage increases your Morale by +1.",
 			"event" : "After saving a young boy from a vicious pack of Wolves, you return him to his father's manor.  The grateful nobleman awards you with a Badge of Courage.",
@@ -1348,13 +1348,6 @@
 
 	"crestOfValor":
 	{
-		"bonuses" : [
-			{
-				"type" : "MORALE",
-				"val" : 1,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 50,
 		"type" : ["HERO"],
 		"class" : "TREASURE",
@@ -1364,6 +1357,13 @@
 			"MISC3",
 			"MISC2",
 			"MISC1"
+		],
+		"bonuses" : [
+			{
+				"type" : "MORALE",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Crest of Valor}\n\nThe Crest of Valor increases your Morale by +1.",
@@ -1375,13 +1375,6 @@
 
 	"glyphOfGallantry":
 	{
-		"bonuses" : [
-			{
-				"type" : "MORALE",
-				"val" : 1,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 51,
 		"type" : ["HERO"],
 		"class" : "TREASURE",
@@ -1391,6 +1384,13 @@
 			"MISC3",
 			"MISC2",
 			"MISC1"
+		],
+		"bonuses" : [
+			{
+				"type" : "MORALE",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Glyph of Gallantry}\n\nThe Glyph of Gallantry increases your Morale by +1.",
@@ -1402,13 +1402,6 @@
 	
 	"speculum":
 	{
-		"bonuses" : [
-			{
-				"type" : "SIGHT_RADIOUS",
-				"val" : 1,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 52,
 		"type" : ["HERO"],
 		"class" : "TREASURE",
@@ -1418,6 +1411,13 @@
 			"MISC3",
 			"MISC2",
 			"MISC1"
+		],
+		"bonuses" : [
+			{
+				"type" : "SIGHT_RADIOUS",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Speculum}\n\nThe Speculum increases your Scouting radius by +1.",
@@ -1429,13 +1429,6 @@
 
 	"spyglass":
 	{
-		"bonuses" : [
-			{
-				"type" : "SIGHT_RADIOUS",
-				"val" : 1,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 53,
 		"type" : ["HERO"],
 		"class" : "TREASURE",
@@ -1445,6 +1438,13 @@
 			"MISC3",
 			"MISC2",
 			"MISC1"
+		],
+		"bonuses" : [
+			{
+				"type" : "SIGHT_RADIOUS",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Spyglass}\n\nThe Spyglass increases your Scouting radius by +1.",
@@ -1456,19 +1456,19 @@
 
 	"amuletOfTheUndertaker":
 	{
-		"bonuses" : [
-			{
-				"subtype" : 12,
-				"type" : "SECONDARY_SKILL_PREMY",
-				"val" : 5,
-				"valueType" : "ADDITIVE_VALUE"
-			}
-		],
 		"index" : 54,
 		"type" : ["HERO"],
 		"class" : "TREASURE",
 		"slot" : [
 			"NECK"
+		],
+		"bonuses" : [
+			{
+				"type" : "SECONDARY_SKILL_PREMY",
+				"subtype" : 12,
+				"val" : 5,
+				"valueType" : "ADDITIVE_VALUE"
+			}
 		],
 		"text" : {
 			"description" : "{Amulet of the Undertaker}\n\nWorn about the neck, this amulet increases your Necromancy skill by 5%.",
@@ -1480,19 +1480,19 @@
 
 	"vampiresCowl":
 	{
-		"bonuses" : [
-			{
-				"subtype" : 12,
-				"type" : "SECONDARY_SKILL_PREMY",
-				"val" : 10,
-				"valueType" : "ADDITIVE_VALUE"
-			}
-		],
 		"index" : 55,
 		"type" : ["HERO"],
 		"class" : "MINOR",
 		"slot" : [
 			"SHOULDERS"
+		],
+		"bonuses" : [
+			{
+				"type" : "SECONDARY_SKILL_PREMY",
+				"subtype" : 12,
+				"val" : 10,
+				"valueType" : "ADDITIVE_VALUE"
+			}
 		],
 		"text" : {
 			"description" : "{Vampire's Cowl}\n\nWorn about the shoulders, this cowl increases your Necromancy skill by 10%.",
@@ -1504,19 +1504,19 @@
 
 	"deadMansBoots":
 	{
-		"bonuses" : [
-			{
-				"subtype" : 12,
-				"type" : "SECONDARY_SKILL_PREMY",
-				"val" : 15,
-				"valueType" : "ADDITIVE_VALUE"
-			}
-		],
 		"index" : 56,
 		"type" : ["HERO"],
 		"class" : "MAJOR",
 		"slot" : [
 			"FEET"
+		],
+		"bonuses" : [
+			{
+				"type" : "SECONDARY_SKILL_PREMY",
+				"subtype" : 12,
+				"val" : 15,
+				"valueType" : "ADDITIVE_VALUE"
+			}
 		],
 		"text" : {
 			"description" : "{Dead Man's Boots}\n\nWorn on the feet, these boots increase your Necromancy skill by 15%.",
@@ -1528,19 +1528,19 @@
 
 	"garnitureOfInterference":
 	{
-		"bonuses" : [
-			{
-				"subtype" : 0,
-				"type" : "MAGIC_RESISTANCE",
-				"val" : 5,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 57,
 		"type" : ["HERO"],
 		"class" : "MAJOR",
 		"slot" : [
 			"NECK"
+		],
+		"bonuses" : [
+			{
+				"type" : "MAGIC_RESISTANCE",
+				"subtype" : 0,
+				"val" : 5,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Garniture of Interference}\n\nWorn about the neck, this item increases your Magic Resistance by 5%.",
@@ -1552,19 +1552,19 @@
 
 	"surcoatOfCounterpoise":
 	{
-		"bonuses" : [
-			{
-				"subtype" : 0,
-				"type" : "MAGIC_RESISTANCE",
-				"val" : 10,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 58,
 		"type" : ["HERO"],
 		"class" : "MAJOR",
 		"slot" : [
 			"SHOULDERS"
+		],
+		"bonuses" : [
+			{
+				"type" : "MAGIC_RESISTANCE",
+				"subtype" : 0,
+				"val" : 10,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Surcoat of Counterpoise}\n\nWorn about the shoulders, this item increases your Magic Resistance by 10%.",
@@ -1576,19 +1576,19 @@
 
 	"bootsOfPolarity":
 	{
-		"bonuses" : [
-			{
-				"subtype" : 0,
-				"type" : "MAGIC_RESISTANCE",
-				"val" : 15,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 59,
 		"type" : ["HERO"],
 		"class" : "RELIC",
 		"slot" : [
 			"FEET"
+		],
+		"bonuses" : [
+			{
+				"type" : "MAGIC_RESISTANCE",
+				"subtype" : 0,
+				"val" : 15,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Boots of Polarity}\n\nWorn on the feet, these boots increase your Magic Resistance by 15%.",
@@ -1600,14 +1600,6 @@
 
 	"bowOfElvenCherrywood":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "skill.archery",
-				"type" : "SECONDARY_SKILL_PREMY",
-				"val" : 5,
-				"valueType" : "ADDITIVE_VALUE"
-			}
-		],
 		"index" : 60,
 		"type" : ["HERO"],
 		"class" : "TREASURE",
@@ -1617,6 +1609,14 @@
 			"MISC3",
 			"MISC2",
 			"MISC1"
+		],
+		"bonuses" : [
+			{
+				"type" : "SECONDARY_SKILL_PREMY",
+				"subtype" : "skill.archery",
+				"val" : 5,
+				"valueType" : "ADDITIVE_VALUE"
+			}
 		],
 		"text" : {
 			"description" : "{Bow of Elven Cherrywood}\n\nThis bow increases your Archery skill by 5%.",
@@ -1628,14 +1628,6 @@
 
 	"bowstringOfTheUnicornsMane":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "skill.archery",
-				"type" : "SECONDARY_SKILL_PREMY",
-				"val" : 10,
-				"valueType" : "ADDITIVE_VALUE"
-			}
-		],
 		"index" : 61,
 		"type" : ["HERO"],
 		"class" : "MINOR",
@@ -1645,6 +1637,14 @@
 			"MISC3",
 			"MISC2",
 			"MISC1"
+		],
+		"bonuses" : [
+			{
+				"type" : "SECONDARY_SKILL_PREMY",
+				"subtype" : "skill.archery",
+				"val" : 10,
+				"valueType" : "ADDITIVE_VALUE"
+			}
 		],
 		"text" : {
 			"description" : "{Bowstring of the Unicorn's Mane}\n\nThis bowstring increases your Archery skill by 10%.",
@@ -1656,14 +1656,6 @@
 
 	"angelFeatherArrows":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "skill.archery",
-				"type" : "SECONDARY_SKILL_PREMY",
-				"val" : 15,
-				"valueType" : "ADDITIVE_VALUE"
-			}
-		],
 		"index" : 62,
 		"type" : ["HERO"],
 		"class" : "MAJOR",
@@ -1673,6 +1665,14 @@
 			"MISC3",
 			"MISC2",
 			"MISC1"
+		],
+		"bonuses" : [
+			{
+				"type" : "SECONDARY_SKILL_PREMY",
+				"subtype" : "skill.archery",
+				"val" : 15,
+				"valueType" : "ADDITIVE_VALUE"
+			}
 		],
 		"text" : {
 			"description" : "{Angel Feather Arrows}\n\nThese arrows increase your Archery skill by 15%.",
@@ -1684,14 +1684,6 @@
 
 	"birdOfPerception":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "skill.eagleEye",
-				"type" : "SECONDARY_SKILL_PREMY",
-				"val" : 5,
-				"valueType" : "ADDITIVE_VALUE"
-			}
-		],
 		"index" : 63,
 		"type" : ["HERO"],
 		"class" : "TREASURE",
@@ -1701,6 +1693,14 @@
 			"MISC3",
 			"MISC2",
 			"MISC1"
+		],
+		"bonuses" : [
+			{
+				"type" : "SECONDARY_SKILL_PREMY",
+				"subtype" : "skill.eagleEye",
+				"val" : 5,
+				"valueType" : "ADDITIVE_VALUE"
+			}
 		],
 		"text" : {
 			"description" : "{Bird of Perception}\n\nThis figurine increases your Eagle Eye skill by 5%.",
@@ -1712,14 +1712,6 @@
 
 	"stoicWatchman":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "skill.eagleEye",
-				"type" : "SECONDARY_SKILL_PREMY",
-				"val" : 10,
-				"valueType" : "ADDITIVE_VALUE"
-			}
-		],
 		"index" : 64,
 		"type" : ["HERO"],
 		"class" : "TREASURE",
@@ -1729,6 +1721,14 @@
 			"MISC3",
 			"MISC2",
 			"MISC1"
+		],
+		"bonuses" : [
+			{
+				"type" : "SECONDARY_SKILL_PREMY",
+				"subtype" : "skill.eagleEye",
+				"val" : 10,
+				"valueType" : "ADDITIVE_VALUE"
+			}
 		],
 		"text" : {
 			"description" : "{Stoic Watchman}\n\nThis figurine increases your Eagle Eye skill by 10%.",
@@ -1740,14 +1740,6 @@
 
 	"emblemOfCognizance":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "skill.eagleEye",
-				"type" : "SECONDARY_SKILL_PREMY",
-				"val" : 15,
-				"valueType" : "ADDITIVE_VALUE"
-			}
-		],
 		"index" : 65,
 		"type" : ["HERO"],
 		"class" : "MINOR",
@@ -1757,6 +1749,14 @@
 			"MISC3",
 			"MISC2",
 			"MISC1"
+		],
+		"bonuses" : [
+			{
+				"type" : "SECONDARY_SKILL_PREMY",
+				"subtype" : "skill.eagleEye",
+				"val" : 15,
+				"valueType" : "ADDITIVE_VALUE"
+			}
 		],
 		"text" : {
 			"description" : "{Emblem of Cognizance}\n\nThis item increases your Eagle Eye skill by 15%.",
@@ -1768,18 +1768,18 @@
 
 	"statesmansMedal":
 	{
+		"index" : 66,
+		"type" : ["HERO"],
+		"class" : "MAJOR",
+		"slot" : [
+			"NECK"
+		],
 		"bonuses" : [
 			{
 				"type" : "SURRENDER_DISCOUNT",
 				"val" : 10,
 				"valueType" : "BASE_NUMBER"
 			}
-		],
-		"index" : 66,
-		"type" : ["HERO"],
-		"class" : "MAJOR",
-		"slot" : [
-			"NECK"
 		],
 		"text" : {
 			"description" : "{Statesman's Medal}\n\nWorn about the neck, the Statesman's Medal reduces the cost of surrendering.",
@@ -1791,19 +1791,19 @@
 
 	"diplomatsRing":
 	{
-		"bonuses" : [
-			{
-				"type" : "SURRENDER_DISCOUNT",
-				"val" : 10,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 67,
 		"type" : ["HERO"],
 		"class" : "MAJOR",
 		"slot" : [
 			"LEFT_RING",
 			"RIGHT_RING"
+		],
+		"bonuses" : [
+			{
+				"type" : "SURRENDER_DISCOUNT",
+				"val" : 10,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Diplomat's Ring}\n\nWorn on the finger, the Diplomat's Ring reduces the cost of surrendering.",
@@ -1815,18 +1815,18 @@
 
 	"ambassadorsSash":
 	{
+		"index" : 68,
+		"type" : ["HERO"],
+		"class" : "MAJOR",
+		"slot" : [
+			"SHOULDERS"
+		],
 		"bonuses" : [
 			{
 				"type" : "SURRENDER_DISCOUNT",
 				"val" : 10,
 				"valueType" : "BASE_NUMBER"
 			}
-		],
-		"index" : 68,
-		"type" : ["HERO"],
-		"class" : "MAJOR",
-		"slot" : [
-			"SHOULDERS"
 		],
 		"text" : {
 			"description" : "{Ambassador's Sash}\n\nWorn about the shoulders, the Ambassador's Sash reduces the cost of surrendering.",
@@ -1838,19 +1838,19 @@
 
 	"ringOfTheWayfarer":
 	{
-		"bonuses" : [
-			{
-				"type" : "STACKS_SPEED",
-				"val" : 1,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 69,
 		"type" : ["HERO"],
 		"class" : "MAJOR",
 		"slot" : [
 			"LEFT_RING",
 			"RIGHT_RING"
+		],
+		"bonuses" : [
+			{
+				"type" : "STACKS_SPEED",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Ring of the Wayfarer}\n\nWhen placed on the finger, this ring increases the combat speed of all your units by +1.",
@@ -1862,19 +1862,19 @@
 
 	"equestriansGloves":
 	{
-		"bonuses" : [
-			{
-				"type" : "LAND_MOVEMENT",
-				"val" : 300,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 70,
 		"type" : ["HERO"],
 		"class" : "MINOR",
 		"slot" : [
 			"LEFT_RING",
 			"RIGHT_RING"
+		],
+		"bonuses" : [
+			{
+				"type" : "LAND_MOVEMENT",
+				"val" : 300,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Equestrian's Gloves}\n\nWorn on the hands, these gloves increase your hero's movement rate over land.",
@@ -1886,18 +1886,18 @@
 
 	"necklaceOfOceanGuidance":
 	{
+		"index" : 71,
+		"type" : ["HERO"],
+		"class" : "MAJOR",
+		"slot" : [
+			"NECK"
+		],
 		"bonuses" : [
 			{
 				"type" : "SEA_MOVEMENT",
 				"val" : 1000,
 				"valueType" : "BASE_NUMBER"
 			}
-		],
-		"index" : 71,
-		"type" : ["HERO"],
-		"class" : "MAJOR",
-		"slot" : [
-			"NECK"
 		],
 		"text" : {
 			"description" : "{Necklace of Ocean Guidance}\n\nWorn about the neck, this necklace increases your hero's movement rate at sea.",
@@ -1909,19 +1909,19 @@
 
 	"angelWings":
 	{
-		"bonuses" : [
-			{
-				"subtype" : 1,
-				"type" : "FLYING_MOVEMENT",
-				"val" : 0,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 72,
 		"type" : ["HERO"],
 		"class" : "RELIC",
 		"slot" : [
 			"SHOULDERS"
+		],
+		"bonuses" : [
+			{
+				"type" : "FLYING_MOVEMENT",
+				"subtype" : 1,
+				"val" : 0,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Angel Wings}\n\nWorn about the shoulders, these wings allow you to fly.",
@@ -1933,13 +1933,6 @@
 
 	"charmOfMana":
 	{
-		"bonuses" : [
-			{
-				"type" : "MANA_REGENERATION",
-				"val" : 1,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 73,
 		"type" : ["HERO"],
 		"class" : "TREASURE",
@@ -1949,6 +1942,13 @@
 			"MISC3",
 			"MISC2",
 			"MISC1"
+		],
+		"bonuses" : [
+			{
+				"type" : "MANA_REGENERATION",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Charm of Mana}\n\nThis charm helps you recover 1 extra spell point per day.",
@@ -1960,13 +1960,6 @@
 
 	"talismanOfMana":
 	{
-		"bonuses" : [
-			{
-				"type" : "MANA_REGENERATION",
-				"val" : 2,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 74,
 		"type" : ["HERO"],
 		"class" : "TREASURE",
@@ -1976,6 +1969,13 @@
 			"MISC3",
 			"MISC2",
 			"MISC1"
+		],
+		"bonuses" : [
+			{
+				"type" : "MANA_REGENERATION",
+				"val" : 2,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Talisman of Mana}\n\nThis talisman helps you recover 2 extra spell points per day.",
@@ -1987,13 +1987,6 @@
 
 	"mysticOrbOfMana":
 	{
-		"bonuses" : [
-			{
-				"type" : "MANA_REGENERATION",
-				"val" : 3,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 75,
 		"type" : ["HERO"],
 		"class" : "TREASURE",
@@ -2003,6 +1996,13 @@
 			"MISC3",
 			"MISC2",
 			"MISC1"
+		],
+		"bonuses" : [
+			{
+				"type" : "MANA_REGENERATION",
+				"val" : 3,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Mystic Orb of Mana}\n\nThis orb helps you recover 3 extra spell points per day.",
@@ -2014,18 +2014,18 @@
 
 	"collarOfConjuring":
 	{
+		"index" : 76,
+		"type" : ["HERO"],
+		"class" : "TREASURE",
+		"slot" : [
+			"NECK"
+		],
 		"bonuses" : [
 			{
 				"type" : "SPELL_DURATION",
 				"val" : 1,
 				"valueType" : "BASE_NUMBER"
 			}
-		],
-		"index" : 76,
-		"type" : ["HERO"],
-		"class" : "TREASURE",
-		"slot" : [
-			"NECK"
 		],
 		"text" : {
 			"description" : "{Collar of Conjuring}\n\nWorn about the neck, this item increases the duration of all your spells by 1.",
@@ -2037,19 +2037,19 @@
 
 	"ringOfConjuring":
 	{
-		"bonuses" : [
-			{
-				"type" : "SPELL_DURATION",
-				"val" : 2,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 77,
 		"type" : ["HERO"],
 		"class" : "TREASURE",
 		"slot" : [
 			"LEFT_RING",
 			"RIGHT_RING"
+		],
+		"bonuses" : [
+			{
+				"type" : "SPELL_DURATION",
+				"val" : 2,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Ring of Conjuring}\n\nWorn on a finger, this item increases the duration of all your spells by 2.",
@@ -2061,18 +2061,18 @@
 
 	"capeOfConjuring":
 	{
+		"index" : 78,
+		"type" : ["HERO"],
+		"class" : "TREASURE",
+		"slot" : [
+			"SHOULDERS"
+		],
 		"bonuses" : [
 			{
 				"type" : "SPELL_DURATION",
 				"val" : 3,
 				"valueType" : "BASE_NUMBER"
 			}
-		],
-		"index" : 78,
-		"type" : ["HERO"],
-		"class" : "TREASURE",
-		"slot" : [
-			"SHOULDERS"
 		],
 		"text" : {
 			"description" : "{Cape of Conjuring}\n\nWorn about the shoulders, this item increases the duration of all your spells by 3.",
@@ -2084,13 +2084,6 @@
 
 	"orbOfTheFirmament":
 	{
-		"bonuses" : [
-			{
-				"type" : "AIR_SPELL_DMG_PREMY",
-				"val" : 50,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 79,
 		"type" : ["HERO"],
 		"class" : "MAJOR",
@@ -2100,6 +2093,13 @@
 			"MISC3",
 			"MISC2",
 			"MISC1"
+		],
+		"bonuses" : [
+			{
+				"type" : "AIR_SPELL_DMG_PREMY",
+				"val" : 50,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Orb of the Firmament}\n\nThis powerful orb causes your Air spells to inflict an additional 50% damage.",
@@ -2111,13 +2111,6 @@
 
 	"orbOfSilt":
 	{
-		"bonuses" : [
-			{
-				"type" : "EARTH_SPELL_DMG_PREMY",
-				"val" : 50,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 80,
 		"type" : ["HERO"],
 		"class" : "MAJOR",
@@ -2127,6 +2120,13 @@
 			"MISC3",
 			"MISC2",
 			"MISC1"
+		],
+		"bonuses" : [
+			{
+				"type" : "EARTH_SPELL_DMG_PREMY",
+				"val" : 50,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Orb of Silt}\n\nThis powerful orb causes your Earth spells to inflict an additional 50% damage.",
@@ -2138,13 +2138,6 @@
 
 	"orbOfTempestuousFire":
 	{
-		"bonuses" : [
-			{
-				"type" : "FIRE_SPELL_DMG_PREMY",
-				"val" : 50,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 81,
 		"type" : ["HERO"],
 		"class" : "MAJOR",
@@ -2154,6 +2147,13 @@
 			"MISC3",
 			"MISC2",
 			"MISC1"
+		],
+		"bonuses" : [
+			{
+				"type" : "FIRE_SPELL_DMG_PREMY",
+				"val" : 50,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Orb of Tempestuous Fire}\n\nThis powerful orb causes your Fire spells to inflict an additional 50% damage.",
@@ -2165,13 +2165,6 @@
 
 	"orbOfDrivingRain":
 	{
-		"bonuses" : [
-			{
-				"type" : "WATER_SPELL_DMG_PREMY",
-				"val" : 50,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 82,
 		"type" : ["HERO"],
 		"class" : "MAJOR",
@@ -2181,6 +2174,13 @@
 			"MISC3",
 			"MISC2",
 			"MISC1"
+		],
+		"bonuses" : [
+			{
+				"type" : "WATER_SPELL_DMG_PREMY",
+				"val" : 50,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Orb of Driving Rain}\n\nThis powerful orb causes your Water spells to inflict an additional 50% damage.",
@@ -2192,6 +2192,12 @@
 
 	"recantersCloak":
 	{
+		"index" : 83,
+		"type" : ["HERO"],
+		"class" : "MAJOR",
+		"slot" : [
+			"SHOULDERS"
+		],
 		"bonuses": [
 			{
 				"type" : "BLOCK_MAGIC_ABOVE",
@@ -2199,12 +2205,6 @@
 				"valueType" : "INDEPENDENT_MIN",
 				"propagator": "BATTLE_WIDE"
 			}
-		],
-		"index" : 83,
-		"type" : ["HERO"],
-		"class" : "MAJOR",
-		"slot" : [
-			"SHOULDERS"
 		],
 		"text" : {
 			"description" : "{Recanter's Cloak}\n\nWhile wearing this cloak, neither you nor your opponent will be able to cast level 3 or higher spells during combat.",
@@ -2217,13 +2217,6 @@
 
 	"spiritOfOppression":
 	{
-		"bonuses" : [
-			{
-				"type" : "BLOCK_MORALE",
-				"val" : 0,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 84,
 		"type" : ["HERO"],
 		"class" : "TREASURE",
@@ -2233,6 +2226,13 @@
 			"MISC3",
 			"MISC2",
 			"MISC1"
+		],
+		"bonuses" : [
+			{
+				"type" : "BLOCK_MORALE",
+				"val" : 0,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Spirit of Oppression}\n\nThis item negates all Morale bonuses during combat for both you and your opponent.",
@@ -2244,13 +2244,6 @@
 
 	"hourglassOfTheEvilHour":
 	{
-		"bonuses" : [
-			{
-				"type" : "BLOCK_LUCK",
-				"val" : 0,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 85,
 		"type" : ["HERO"],
 		"class" : "TREASURE",
@@ -2260,6 +2253,13 @@
 			"MISC3",
 			"MISC2",
 			"MISC1"
+		],
+		"bonuses" : [
+			{
+				"type" : "BLOCK_LUCK",
+				"val" : 0,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Hourglass of the Evil Hour}\n\nThis item negates all Luck bonuses during combat for both you and your opponent.",
@@ -2271,13 +2271,6 @@
 
 	"tomeOfFireMagic":
 	{
-		"bonuses" : [
-			{
-				"type" : "FIRE_SPELLS",
-				"val" : 0,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 86,
 		"type" : ["HERO"],
 		"class" : "RELIC",
@@ -2287,6 +2280,13 @@
 			"MISC3",
 			"MISC2",
 			"MISC1"
+		],
+		"bonuses" : [
+			{
+				"type" : "FIRE_SPELLS",
+				"val" : 0,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Tome of Fire Magic}\n\nThis heavy book contains all spells in the school of Fire Magic.  It must be equipped for the spells to be available.",
@@ -2298,13 +2298,6 @@
 
 	"tomeOfAirMagic":
 	{
-		"bonuses" : [
-			{
-				"type" : "AIR_SPELLS",
-				"val" : 0,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 87,
 		"type" : ["HERO"],
 		"class" : "RELIC",
@@ -2314,6 +2307,13 @@
 			"MISC3",
 			"MISC2",
 			"MISC1"
+		],
+		"bonuses" : [
+			{
+				"type" : "AIR_SPELLS",
+				"val" : 0,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Tome of Air Magic}\n\nThis heavy book contains all spells in the school of Air Magic.  It must be equipped for the spells to be available.",
@@ -2325,13 +2325,6 @@
 
 	"tomeOfWaterMagic":
 	{
-		"bonuses" : [
-			{
-				"type" : "WATER_SPELLS",
-				"val" : 0,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 88,
 		"type" : ["HERO"],
 		"class" : "RELIC",
@@ -2341,6 +2334,13 @@
 			"MISC3",
 			"MISC2",
 			"MISC1"
+		],
+		"bonuses" : [
+			{
+				"type" : "WATER_SPELLS",
+				"val" : 0,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Tome of Water Magic}\n\nThis heavy book contains all spells in the school of Water Magic.  It must be equipped for the spells to be available.",
@@ -2352,13 +2352,6 @@
 
 	"tomeOfEarthMagic":
 	{
-		"bonuses" : [
-			{
-				"type" : "EARTH_SPELLS",
-				"val" : 0,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 89,
 		"type" : ["HERO"],
 		"class" : "RELIC",
@@ -2368,6 +2361,13 @@
 			"MISC3",
 			"MISC2",
 			"MISC1"
+		],
+		"bonuses" : [
+			{
+				"type" : "EARTH_SPELLS",
+				"val" : 0,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Tome of Earth Magic}\n\nThis heavy book contains all spells in the school of Earth Magic.  It must be equipped for the spells to be available.",
@@ -2379,19 +2379,19 @@
 
 	"bootsOfLevitation":
 	{
-		"bonuses" : [
-			{
-				"subtype" : 1,
-				"type" : "WATER_WALKING",
-				"val" : 0,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 90,
 		"type" : ["HERO"],
 		"class" : "RELIC",
 		"slot" : [
 			"FEET"
+		],
+		"bonuses" : [
+			{
+				"type" : "WATER_WALKING",
+				"subtype" : 1,
+				"val" : 0,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Boots of Levitation}\n\nWhen worn, these boots allow you to walk across water.",
@@ -2403,22 +2403,6 @@
 
 	"goldenBow":
 	{
-		"bonuses" : [
-			{
-				"limiters" : ["SHOOTER_ONLY"],
-				"subtype" : 0,
-				"type" : "NO_DISTANCE_PENALTY",
-				"val" : 0,
-				"valueType" : "ADDITIVE_VALUE"
-			},
-			{
-				"limiters" : ["SHOOTER_ONLY"],
-				"subtype" : 0,
-				"type" : "NO_WALL_PENALTY",
-				"val" : 0,
-				"valueType" : "ADDITIVE_VALUE"
-			}
-		],
 		"index" : 91,
 		"type" : ["HERO"],
 		"class" : "MAJOR",
@@ -2428,6 +2412,22 @@
 			"MISC3",
 			"MISC2",
 			"MISC1"
+		],
+		"bonuses" : [
+			{
+				"type" : "NO_DISTANCE_PENALTY",
+				"subtype" : 0,
+				"val" : 0,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters" : ["SHOOTER_ONLY"]
+			},
+			{
+				"type" : "NO_WALL_PENALTY",
+				"subtype" : 0,
+				"val" : 0,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters" : ["SHOOTER_ONLY"]
+			}
 		],
 		"text" : {
 			"description" : "{Golden Bow}\n\nWhen wielded, the Golden Bow allows your troops to shoot through any obstacle or at any range without penalty.",
@@ -2439,14 +2439,6 @@
 
 	"sphereOfPermanence":
 	{
-		"bonuses" : [
-			{
-				"subtype" : 35,
-				"type" : "SPELL_IMMUNITY",
-				"val" : 0,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 92,
 		"type" : ["HERO"],
 		"class" : "MAJOR",
@@ -2456,6 +2448,14 @@
 			"MISC3",
 			"MISC2",
 			"MISC1"
+		],
+		"bonuses" : [
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : 35,
+				"val" : 0,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Sphere of Permanence}\n\nWielding this sphere renders your units immune to the Dispel Magic spell.",
@@ -2467,14 +2467,6 @@
 
 	"orbOfVulnerability":
 	{
-		"bonuses" : [
-			{
-				"type" : "NEGATE_ALL_NATURAL_IMMUNITIES",
-				"val" : 0,
-				"valueType" : "BASE_NUMBER",
-				"propagator": "BATTLE_WIDE"
-			}
-		],
 		"index" : 93,
 		"type" : ["HERO"],
 		"class" : "RELIC",
@@ -2484,6 +2476,14 @@
 			"MISC3",
 			"MISC2",
 			"MISC1"
+		],
+		"bonuses" : [
+			{
+				"type" : "NEGATE_ALL_NATURAL_IMMUNITIES",
+				"val" : 0,
+				"valueType" : "BASE_NUMBER",
+				"propagator": "BATTLE_WIDE"
+			}
 		],
 		"text" : {
 			"description" : "{Orb of Vulnerability}\n\nDuring combat, this orb negates the natural magic resistance of all creatures on the battlefield.",
@@ -2495,19 +2495,19 @@
 
 	"ringOfVitality":
 	{
-		"bonuses" : [
-			{
-				"type" : "STACK_HEALTH",
-				"val" : 1,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 94,
 		"type" : ["HERO"],
 		"class" : "TREASURE",
 		"slot" : [
 			"LEFT_RING",
 			"RIGHT_RING"
+		],
+		"bonuses" : [
+			{
+				"type" : "STACK_HEALTH",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Ring of Vitality}\n\nThis item increases the health of all your units by +1.",
@@ -2519,19 +2519,19 @@
 
 	"ringOfLife":
 	{
-		"bonuses" : [
-			{
-				"type" : "STACK_HEALTH",
-				"val" : 1,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 95,
 		"type" : ["HERO"],
 		"class" : "MINOR",
 		"slot" : [
 			"LEFT_RING",
 			"RIGHT_RING"
+		],
+		"bonuses" : [
+			{
+				"type" : "STACK_HEALTH",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Ring of Life}\n\nThis item increases the health of all your units by +1.",
@@ -2543,13 +2543,6 @@
 
 	"vialOfLifeblood":
 	{
-		"bonuses" : [
-			{
-				"type" : "STACK_HEALTH",
-				"val" : 2,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 96,
 		"type" : ["HERO"],
 		"class" : "MAJOR",
@@ -2559,6 +2552,13 @@
 			"MISC3",
 			"MISC2",
 			"MISC1"
+		],
+		"bonuses" : [
+			{
+				"type" : "STACK_HEALTH",
+				"val" : 2,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Vial of Lifeblood}\n\nThis item increases the health of all your units by +2.",
@@ -2570,18 +2570,18 @@
 
 	"necklaceOfSwiftness":
 	{
+		"index" : 97,
+		"type" : ["HERO"],
+		"class" : "TREASURE",
+		"slot" : [
+			"NECK"
+		],
 		"bonuses" : [
 			{
 				"type" : "STACKS_SPEED",
 				"val" : 1,
 				"valueType" : "BASE_NUMBER"
 			}
-		],
-		"index" : 97,
-		"type" : ["HERO"],
-		"class" : "TREASURE",
-		"slot" : [
-			"NECK"
 		],
 		"text" : {
 			"description" : "{Necklace of Swiftness}\n\nWorn about the neck, this necklace increases the combat speed of all your units by +1.",
@@ -2593,18 +2593,18 @@
 
 	"bootsOfSpeed":
 	{
+		"index" : 98,
+		"type" : ["HERO"],
+		"class" : "MINOR",
+		"slot" : [
+			"FEET"
+		],
 		"bonuses" : [
 			{
 				"type" : "LAND_MOVEMENT",
 				"val" : 600,
 				"valueType" : "BASE_NUMBER"
 			}
-		],
-		"index" : 98,
-		"type" : ["HERO"],
-		"class" : "MINOR",
-		"slot" : [
-			"FEET"
 		],
 		"text" : {
 			"description" : "{Boots of Speed}\n\nWorn on the feet, these boots increase your hero's movement rate over land.",
@@ -2616,18 +2616,18 @@
 
 	"capeOfVelocity":
 	{
+		"index" : 99,
+		"type" : ["HERO"],
+		"class" : "MAJOR",
+		"slot" : [
+			"SHOULDERS"
+		],
 		"bonuses" : [
 			{
 				"type" : "STACKS_SPEED",
 				"val" : 2,
 				"valueType" : "BASE_NUMBER"
 			}
-		],
-		"index" : 99,
-		"type" : ["HERO"],
-		"class" : "MAJOR",
-		"slot" : [
-			"SHOULDERS"
 		],
 		"text" : {
 			"description" : "{Cape of Velocity}\n\nWorn about the shoulders, this cape increases the combat speed of all your units by +2.",
@@ -2639,19 +2639,19 @@
 
 	"pendantOfDispassion":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "spell.berserk",
-				"type" : "SPELL_IMMUNITY",
-				"val" : 0,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 100,
 		"type" : ["HERO"],
 		"class" : "TREASURE",
 		"slot" : [
 			"NECK"
+		],
+		"bonuses" : [
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.berserk",
+				"val" : 0,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Pendant of Dispassion}\n\nWearing this item renders your units immune to the Berserk spell.",
@@ -2663,19 +2663,19 @@
 
 	"pendantOfSecondSight":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "spell.blind",
-				"type" : "SPELL_IMMUNITY",
-				"val" : 0,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 101,
 		"type" : ["HERO"],
 		"class" : "MAJOR",
 		"slot" : [
 			"NECK"
+		],
+		"bonuses" : [
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.blind",
+				"val" : 0,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Pendant of Second Sight}\n\nWearing this item renders your units immune to the Blind spell.",
@@ -2687,19 +2687,19 @@
 
 	"pendantOfHoliness":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "spell.curse",
-				"type" : "SPELL_IMMUNITY",
-				"val" : 0,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 102,
 		"type" : ["HERO"],
 		"class" : "TREASURE",
 		"slot" : [
 			"NECK"
+		],
+		"bonuses" : [
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.curse",
+				"val" : 0,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Pendant of Holiness}\n\nWearing this item renders your units immune to the Curse spell.",
@@ -2711,19 +2711,19 @@
 
 	"pendantOfLife":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "spell.deathRipple",
-				"type" : "SPELL_IMMUNITY",
-				"val" : 0,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 103,
 		"type" : ["HERO"],
 		"class" : "TREASURE",
 		"slot" : [
 			"NECK"
+		],
+		"bonuses" : [
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.deathRipple",
+				"val" : 0,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Pendant of Life}\n\nWearing this item renders your units immune to the Death Ripple spell.",
@@ -2735,20 +2735,20 @@
 
 	"pendantOfDeath":
 	{
-		"bonuses" : [
-			{
-				"limiters" : ["IS_UNDEAD"],
-				"subtype" : "spell.destroyUndead",
-				"type" : "SPELL_IMMUNITY",
-				"val" : 0,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 104,
 		"type" : ["HERO"],
 		"class" : "TREASURE",
 		"slot" : [
 			"NECK"
+		],
+		"bonuses" : [
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.destroyUndead",
+				"val" : 0,
+				"valueType" : "BASE_NUMBER",
+				"limiters" : ["IS_UNDEAD"]
+			}
 		],
 		"text" : {
 			"description" : "{Pendant of Death}\n\nWearing this item renders your units immune to the Destroy Undead spell.",
@@ -2760,19 +2760,19 @@
 
 	"pendantOfFreeWill":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "spell.hypnotize",
-				"type" : "SPELL_IMMUNITY",
-				"val" : 0,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 105,
 		"type" : ["HERO"],
 		"class" : "TREASURE",
 		"slot" : [
 			"NECK"
+		],
+		"bonuses" : [
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.hypnotize",
+				"val" : 0,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Pendant of Free Will}\n\nWearing this item renders your units immune to the Hypnotize spell.",
@@ -2784,25 +2784,25 @@
 
 	"pendantOfNegativity":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "spell.lightningBolt",
-				"type" : "SPELL_IMMUNITY",
-				"val" : 0,
-				"valueType" : "BASE_NUMBER"
-			},
-			{
-				"subtype" : "spell.chainLightning",
-				"type" : "SPELL_IMMUNITY",
-				"val" : 0,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 106,
 		"type" : ["HERO"],
 		"class" : "MAJOR",
 		"slot" : [
 			"NECK"
+		],
+		"bonuses" : [
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.lightningBolt",
+				"val" : 0,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.chainLightning",
+				"val" : 0,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Pendant of Negativity}\n\nWearing this item renders your units immune to the Lightning Bolt and Chain Lightning spells.",
@@ -2814,19 +2814,19 @@
 
 	"pendantOfTotalRecall":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "spell.forgetfulness",
-				"type" : "SPELL_IMMUNITY",
-				"val" : 0,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 107,
 		"type" : ["HERO"],
 		"class" : "TREASURE",
 		"slot" : [
 			"NECK"
+		],
+		"bonuses" : [
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.forgetfulness",
+				"val" : 0,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Pendant of Total Recall}\n\nWearing this item renders your units immune to the Forgetfulness spell.",
@@ -2838,6 +2838,12 @@
 
 	"pendantOfCourage":
 	{
+		"index" : 108,
+		"type" : ["HERO"],
+		"class" : "MAJOR",
+		"slot" : [
+			"NECK"
+		],
 		"bonuses" : [
 			{
 				"type" : "MORALE",
@@ -2850,12 +2856,6 @@
 				"valueType" : "BASE_NUMBER"
 			}
 		],
-		"index" : 108,
-		"type" : ["HERO"],
-		"class" : "MAJOR",
-		"slot" : [
-			"NECK"
-		],
 		"text" : {
 			"description" : "{Pendant of Courage}\n\nWhen worn, this item bestows +3 Luck and Morale to your hero's troops.",
 			"event" : "Responding to cries for help, you find river Sprites making a sport of dunking an old man.  Feeling vengeful, you rescue the man and drag a Sprite onto dry land for awhile.  The Sprite, uncomfortable in the air, gives you a magic pendant to let him go.",
@@ -2866,19 +2866,19 @@
 
 	"everflowingCrystalCloak":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "resource.crystal",
-				"type" : "GENERATE_RESOURCE",
-				"val" : 1,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 109,
 		"type" : ["HERO"],
 		"class" : "MAJOR",
 		"slot" : [
 			"SHOULDERS"
+		],
+		"bonuses" : [
+			{
+				"type" : "GENERATE_RESOURCE",
+				"subtype" : "resource.crystal",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Everflowing Crystal Cloak}\n\nWhen worn, this cloak increases your Crystal production by +1 per day.",
@@ -2890,20 +2890,20 @@
 
 	"ringOfInfiniteGems":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "resource.gems",
-				"type" : "GENERATE_RESOURCE",
-				"val" : 1,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 110,
 		"type" : ["HERO"],
 		"class" : "MAJOR",
 		"slot" : [
 			"LEFT_RING",
 			"RIGHT_RING"
+		],
+		"bonuses" : [
+			{
+				"type" : "GENERATE_RESOURCE",
+				"subtype" : "resource.gems",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Ring of Infinite Gems}\n\nWhen worn, this ring increases your Gem production by +1 per day.",
@@ -2915,14 +2915,6 @@
 
 	"everpouringVialOfMercury":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "resource.mercury",
-				"type" : "GENERATE_RESOURCE",
-				"val" : 1,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 111,
 		"type" : ["HERO"],
 		"class" : "MAJOR",
@@ -2932,6 +2924,14 @@
 			"MISC3",
 			"MISC2",
 			"MISC1"
+		],
+		"bonuses" : [
+			{
+				"type" : "GENERATE_RESOURCE",
+				"subtype" : "resource.mercury",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Everpouring Vial of Mercury}\n\nWhen equipped, this vial increases your Mercury production by +1 per day.",
@@ -2943,14 +2943,6 @@
 
 	"inexhaustibleCartOfOre":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "resource.ore",
-				"type" : "GENERATE_RESOURCE",
-				"val" : 1,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 112,
 		"type" : ["HERO"],
 		"class" : "MINOR",
@@ -2960,6 +2952,14 @@
 			"MISC3",
 			"MISC2",
 			"MISC1"
+		],
+		"bonuses" : [
+			{
+				"type" : "GENERATE_RESOURCE",
+				"subtype" : "resource.ore",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Inexhaustible Cart of Ore}\n\nWhen equipped, this cart provides you with an additional +1 Ore per day.",
@@ -2971,20 +2971,20 @@
 
 	"eversmokingRingOfSulfur":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "resource.sulfur",
-				"type" : "GENERATE_RESOURCE",
-				"val" : 1,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 113,
 		"type" : ["HERO"],
 		"class" : "MAJOR",
 		"slot" : [
 			"LEFT_RING",
 			"RIGHT_RING"
+		],
+		"bonuses" : [
+			{
+				"type" : "GENERATE_RESOURCE",
+				"subtype" : "resource.sulfur",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Eversmoking Ring of Sulfur}\n\nWhen worn, this ring increases your Sulfur production by +1 per day.",
@@ -2996,14 +2996,6 @@
 
 	"inexhaustibleCartOfLumber":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "resource.wood",
-				"type" : "GENERATE_RESOURCE",
-				"val" : 1,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 114,
 		"type" : ["HERO"],
 		"class" : "MINOR",
@@ -3013,6 +3005,14 @@
 			"MISC3",
 			"MISC2",
 			"MISC1"
+		],
+		"bonuses" : [
+			{
+				"type" : "GENERATE_RESOURCE",
+				"subtype" : "resource.wood",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Inexhaustible Cart of Lumber}\n\nWhen equipped, this cart provides you with an additional +1 Wood per day.",
@@ -3024,14 +3024,6 @@
 
 	"endlessSackOfGold":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "resource.gold",
-				"type" : "GENERATE_RESOURCE",
-				"val" : 1000,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 115,
 		"type" : ["HERO"],
 		"class" : "RELIC",
@@ -3041,6 +3033,14 @@
 			"MISC3",
 			"MISC2",
 			"MISC1"
+		],
+		"bonuses" : [
+			{
+				"type" : "GENERATE_RESOURCE",
+				"subtype" : "resource.gold",
+				"val" : 1000,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Endless Sack of Gold}\n\nWhen equipped, the Endless Sack of Gold increases your income by 1000 gold per day.",
@@ -3052,14 +3052,6 @@
 
 	"endlessBagOfGold":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "resource.gold",
-				"type" : "GENERATE_RESOURCE",
-				"val" : 750,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 116,
 		"type" : ["HERO"],
 		"class" : "MAJOR",
@@ -3069,6 +3061,14 @@
 			"MISC3",
 			"MISC2",
 			"MISC1"
+		],
+		"bonuses" : [
+			{
+				"type" : "GENERATE_RESOURCE",
+				"subtype" : "resource.gold",
+				"val" : 750,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Endless Bag of Gold}\n\nWhen equipped, the Endless Bag of Gold increases your income by 750 gold per day.",
@@ -3080,14 +3080,6 @@
 
 	"endlessPurseOfGold":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "resource.gold",
-				"type" : "GENERATE_RESOURCE",
-				"val" : 500,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 117,
 		"type" : ["HERO"],
 		"class" : "MAJOR",
@@ -3097,6 +3089,14 @@
 			"MISC3",
 			"MISC2",
 			"MISC1"
+		],
+		"bonuses" : [
+			{
+				"type" : "GENERATE_RESOURCE",
+				"subtype" : "resource.gold",
+				"val" : 500,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Endless Purse of Gold}\n\nWhen equipped, the Endless Purse of Gold increases your income by 500 gold per day.",
@@ -3108,14 +3108,6 @@
 
 	"legsOfLegion":
 	{
-		"bonuses" : [
-			{
-				"type" : "CREATURE_GROWTH",
-				"subtype" : 2,
-				"val" : 5,
-				"propagator": "VISITED_TOWN_AND_VISITOR"
-			}
-		],
 		"index" : 118,
 		"type" : ["HERO"],
 		"class" : "TREASURE",
@@ -3125,6 +3117,14 @@
 			"MISC3",
 			"MISC2",
 			"MISC1"
+		],
+		"bonuses" : [
+			{
+				"type" : "CREATURE_GROWTH",
+				"subtype" : 2,
+				"val" : 5,
+				"propagator": "VISITED_TOWN_AND_VISITOR"
+			}
 		],
 		"text" : {
 			"description" : "{Legs of Legion}\n\nThis item, when equipped by a hero in a town, increases the growth of your 2nd level units (in that town) by 5 per week.",
@@ -3136,17 +3136,8 @@
 
 	"loinsOfLegion":
 	{
-		"bonuses" : [
-			{
-				"type" : "CREATURE_GROWTH",
-				"subtype" : 3,
-				"val" : 4,
-				"propagator": "VISITED_TOWN_AND_VISITOR"
-			}
-		],
 		"index" : 119,
 		"type" : ["HERO"],
-
 		"class" : "MINOR",
 		"slot" : [
 			"MISC5",
@@ -3154,6 +3145,14 @@
 			"MISC3",
 			"MISC2",
 			"MISC1"
+		],
+		"bonuses" : [
+			{
+				"type" : "CREATURE_GROWTH",
+				"subtype" : 3,
+				"val" : 4,
+				"propagator": "VISITED_TOWN_AND_VISITOR"
+			}
 		],
 		"text" : {
 			"description" : "{Loins of Legion}\n\nThis item, when equipped by a hero in a town, increases the growth of your 3rd level units (in that town) by 4 per week.",
@@ -3165,14 +3164,6 @@
 
 	"torsoOfLegion":
 	{
-		"bonuses" : [
-			{
-				"type" : "CREATURE_GROWTH",
-				"subtype" : 4,
-				"val" : 3,
-				"propagator": "VISITED_TOWN_AND_VISITOR"
-			}
-		],
 		"index" : 120,
 		"type" : ["HERO"],
 		"class" : "MINOR",
@@ -3182,6 +3173,14 @@
 			"MISC3",
 			"MISC2",
 			"MISC1"
+		],
+		"bonuses" : [
+			{
+				"type" : "CREATURE_GROWTH",
+				"subtype" : 4,
+				"val" : 3,
+				"propagator": "VISITED_TOWN_AND_VISITOR"
+			}
 		],
 		"text" : {
 			"description" : "{Torso of Legion}\n\nThis item, when equipped by a hero in a town, increases the growth of your 4th level units (in that town) by 3 per week.",
@@ -3193,14 +3192,6 @@
 
 	"armsOfLegion":
 	{
-		"bonuses" : [
-			{
-				"type" : "CREATURE_GROWTH",
-				"subtype" : 5,
-				"val" : 2,
-				"propagator": "VISITED_TOWN_AND_VISITOR"
-			}
-		],
 		"index" : 121,
 		"type" : ["HERO"],
 		"class" : "MAJOR",
@@ -3210,6 +3201,14 @@
 			"MISC3",
 			"MISC2",
 			"MISC1"
+		],
+		"bonuses" : [
+			{
+				"type" : "CREATURE_GROWTH",
+				"subtype" : 5,
+				"val" : 2,
+				"propagator": "VISITED_TOWN_AND_VISITOR"
+			}
 		],
 		"text" : {
 			"description" : "{Arms of Legion}\n\nThis item, when equipped by a hero in a town, increases the growth of your 5th level units (in that town) by 2 per week.",
@@ -3221,14 +3220,6 @@
 
 	"headOfLegion":
 	{
-		"bonuses" : [
-			{
-				"type" : "CREATURE_GROWTH",
-				"subtype" : 6,
-				"val" : 1,
-				"propagator": "VISITED_TOWN_AND_VISITOR"
-			}
-		],
 		"index" : 122,
 		"type" : ["HERO"],
 		"class" : "MAJOR",
@@ -3238,6 +3229,14 @@
 			"MISC3",
 			"MISC2",
 			"MISC1"
+		],
+		"bonuses" : [
+			{
+				"type" : "CREATURE_GROWTH",
+				"subtype" : 6,
+				"val" : 1,
+				"propagator": "VISITED_TOWN_AND_VISITOR"
+			}
 		],
 		"text" : {
 			"description" : "{Head of Legion}\n\nThis item, when equipped by a hero in a town, increases the growth of your 6th level units (in that town) by 1 per week.",
@@ -3250,6 +3249,12 @@
 
 	"seaCaptainsHat":
 	{
+		"index" : 123,
+		"type" : ["HERO"],
+		"class" : "RELIC",
+		"slot" : [
+			"HEAD"
+		],
 		"bonuses" : [
 			{
 				"type" : "WHIRLPOOL_PROTECTION",
@@ -3262,23 +3267,17 @@
 				"valueType" : "BASE_NUMBER"
 			},
 			{
-				"subtype" : "spell.summonBoat",
 				"type" : "SPELL",
+				"subtype" : "spell.summonBoat",
 				"val" : 3,
 				"valueType" : "INDEPENDENT_MAX"
 			},
 			{
-				"subtype" : "spell.scuttleBoat",
 				"type" : "SPELL",
+				"subtype" : "spell.scuttleBoat",
 				"val" : 3,
 				"valueType" : "INDEPENDENT_MAX"
 			}
-		],
-		"index" : 123,
-		"type" : ["HERO"],
-		"class" : "RELIC",
-		"slot" : [
-			"HEAD"
 		],
 		"text" : {
 			"description" : "{Sea Captain's Hat}\n\nWhen worn, this hat increases your movement at sea, allows you to summon and destroy boats, and protects you from whirlpools.",
@@ -3290,19 +3289,19 @@
 
 	"spellbindersHat":
 	{
-		"bonuses" : [
-			{
-				"subtype" : 5,
-				"type" : "SPELLS_OF_LEVEL",
-				"val" : 3,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 124,
 		"type" : ["HERO"],
 		"class" : "RELIC",
 		"slot" : [
 			"HEAD"
+		],
+		"bonuses" : [
+			{
+				"type" : "SPELLS_OF_LEVEL",
+				"subtype" : 5,
+				"val" : 3,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Spellbinder's Hat}\n\nWhen worn, this hat allows you to cast all 5th level spells.",
@@ -3314,12 +3313,6 @@
 
 	"shacklesOfWar":
 	{
-		"bonuses" : [
-			{
-				"type" : "BATTLE_NO_FLEEING",
-				"propagator": "BATTLE_WIDE"
-			}
-		],
 		"index" : 125,
 		"type" : ["HERO"],
 		"class" : "MAJOR",
@@ -3329,6 +3322,12 @@
 			"MISC3",
 			"MISC2",
 			"MISC1"
+		],
+		"bonuses" : [
+			{
+				"type" : "BATTLE_NO_FLEEING",
+				"propagator": "BATTLE_WIDE"
+			}
 		],
 		"text" : {
 			"description" : "{Shackles of War}\n\nWhen these shackles are wielded in combat, neither you nor your opponent may retreat or surrender.",
@@ -3340,12 +3339,6 @@
 
 	"orbOfInhibition":
 	{
-		"bonuses" : [
-			{
-				"type" : "BLOCK_ALL_MAGIC",
-				"propagator": "BATTLE_WIDE"
-			}
-		],
 		"index" : 126,
 		"type" : ["HERO"],
 
@@ -3357,6 +3350,12 @@
 			"MISC2",
 			"MISC1"
 		],
+		"bonuses" : [
+			{
+				"type" : "BLOCK_ALL_MAGIC",
+				"propagator": "BATTLE_WIDE"
+			}
+		],
 		"text" : {
 			"description" : "{Orb of Inhibition}\n\nThis powerful orb prevents all spell casting in combat.",
 			"event" : "You stop to help a Peasant catch a runaway mare.  To show his gratitude, he hands you a tiny sphere.  As soon as you grasp it, you feel the magical energy drain from your limbs...",
@@ -3367,22 +3366,6 @@
 
 	"vialOfDragonBlood":
 	{
-		"bonuses" : [
-			{
-				"limiters" : ["DRAGON_NATURE"],
-				"subtype" : "primSkill.attack",
-				"type" : "PRIMARY_SKILL",
-				"val" : 5,
-				"valueType" : "BASE_NUMBER"
-			},
-			{
-				"limiters" : ["DRAGON_NATURE"],
-				"subtype" : "primSkill.defence",
-				"type" : "PRIMARY_SKILL",
-				"val" : 5,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 127,
 		"type" : ["HERO"],
 		"class" : "RELIC",
@@ -3392,6 +3375,22 @@
 			"MISC3",
 			"MISC2",
 			"MISC1"
+		],
+		"bonuses" : [
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.attack",
+				"val" : 5,
+				"valueType" : "BASE_NUMBER",
+				"limiters" : ["DRAGON_NATURE"]
+			},
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.defence",
+				"val" : 5,
+				"valueType" : "BASE_NUMBER",
+				"limiters" : ["DRAGON_NATURE"]
+			}
 		],
 		"text" : {
 			"description" : "{Vial of Dragon Blood}\n\nAll dragons under your command receive +5 to their attack and +5 to defense.",
@@ -3403,49 +3402,49 @@
 
 	"armageddonsBlade":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "spell.armageddon",
-				"type" : "SPELL",
-				"val" : 3,
-				"valueType" : "INDEPENDENT_MAX"
-			},
-			{
-				"subtype" : "spell.armageddon",
-				"type" : "SPELL_IMMUNITY",
-				"val" : 0,
-				"valueType" : "BASE_NUMBER"
-			},
-			{
-				"subtype" : "primSkill.attack",
-				"type" : "PRIMARY_SKILL",
-				"val" : 3,
-				"valueType" : "BASE_NUMBER"
-			},
-			{
-				"subtype" : "primSkill.defence",
-				"type" : "PRIMARY_SKILL",
-				"val" : 3,
-				"valueType" : "BASE_NUMBER"
-			},
-			{
-				"subtype" : "primSkill.spellpower",
-				"type" : "PRIMARY_SKILL",
-				"val" : 3,
-				"valueType" : "BASE_NUMBER"
-			},
-			{
-				"subtype" : "primSkill.knowledge",
-				"type" : "PRIMARY_SKILL",
-				"val" : 6,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 128,
 		"type" : ["HERO"],
 		"class" : "RELIC",
 		"slot" : [
 			"RIGHT_HAND"
+		],
+		"bonuses" : [
+			{
+				"type" : "SPELL",
+				"subtype" : "spell.armageddon",
+				"val" : 3,
+				"valueType" : "INDEPENDENT_MAX"
+			},
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.armageddon",
+				"val" : 0,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.attack",
+				"val" : 3,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.defence",
+				"val" : 3,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.spellpower",
+				"val" : 3,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.knowledge",
+				"val" : 6,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Armageddon's Blade}\n\n+ 3 Attack. + 3 Defense. + 6 Knowledge. + 3 Power. Places Expert Armageddon Spell in your hero's spell book. All allied creatures become immune to Armageddon.",
@@ -3457,6 +3456,12 @@
 
 	"angelicAlliance":
 	{
+		"index" : 129,
+		"type" : ["HERO"],
+		"class" : "RELIC",
+		"slot" : [
+			"RIGHT_HAND"
+		],
 		"bonuses" : [
 			{
 				"type" : "NONEVIL_ALIGNMENT_MIX",
@@ -3464,17 +3469,11 @@
 				"valueType" : "BASE_NUMBER"
 			},
 			{
-				"subtype" : "spell.prayer",
 				"type" : "OPENING_BATTLE_SPELL",
+				"subtype" : "spell.prayer",
 				"val" : 10,
 				"valueType" : "BASE_NUMBER"
 			}
-		],
-		"index" : 129,
-		"type" : ["HERO"],
-		"class" : "RELIC",
-		"slot" : [
-			"RIGHT_HAND"
 		],
 		"text" : {
 			"description" : "{Angelic Alliance}\n\nAllows Rampart, Tower, Fortress, Stronghold and Castle creatures to be mixed without a morale penalty, for the player.  Casts Expert Prayer at the start of combat.",
@@ -3495,18 +3494,18 @@
 
 	"cloakOfTheUndeadKing":
 	{
+		"index" : 130,
+		"type" : ["HERO"],
+		"class" : "RELIC",
+		"slot" : [
+			"SHOULDERS"
+		],
 		"bonuses" : [
 			{
 				"type" : "IMPROVED_NECROMANCY", //TODO: more flexible?
 				"val" : 0,
 				"valueType" : "BASE_NUMBER"
 			}
-		],
-		"index" : 130,
-		"type" : ["HERO"],
-		"class" : "RELIC",
-		"slot" : [
-			"SHOULDERS"
 		],
 		"text" : {
 			"description" : "{Cloak of the Undead King}\n\n30% of battlefield dead are resurrected as Skeletons.  If hero already has the Necromancy skill then the percentages are added to the skill and the level of skill determines what type is resurrected.  Basic: Zombies\nAdvanced: Wights\nExpert:  Liches",
@@ -3524,6 +3523,16 @@
 
 	"elixirOfLife":
 	{
+		"index" : 131,
+		"type" : ["HERO"],
+		"class" : "RELIC",
+		"slot" : [
+			"MISC5",
+			"MISC4",
+			"MISC3",
+			"MISC2",
+			"MISC1"
+		],
 		"bonuses" : [
 			{
 				"type" : "STACK_HEALTH",
@@ -3535,16 +3544,6 @@
 				"val" : 50,
 				"valueType" : "BASE_NUMBER"
 			}
-		],
-		"index" : 131,
-		"type" : ["HERO"],
-		"class" : "RELIC",
-		"slot" : [
-			"MISC5",
-			"MISC4",
-			"MISC3",
-			"MISC2",
-			"MISC1"
 		],
 		"text" : {
 			"description" : "{Elixir of Life}\n\nAll creatures get a 25% health bonus and gain the regeneration ability.  Does not work on Undead or unliving creatures",
@@ -3562,37 +3561,37 @@
 
 	"armorOfTheDamned":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "spell.slow",
-				"type" : "OPENING_BATTLE_SPELL",
-				"val" : 50,
-				"valueType" : "BASE_NUMBER"
-			},
-			{
-				"subtype" : "spell.curse",
-				"type" : "OPENING_BATTLE_SPELL",
-				"val" : 50,
-				"valueType" : "BASE_NUMBER"
-			},
-			{
-				"subtype" : "spell.weakness",
-				"type" : "OPENING_BATTLE_SPELL",
-				"val" : 50,
-				"valueType" : "BASE_NUMBER"
-			},
-			{
-				"subtype" : "spell.misfortune",
-				"type" : "OPENING_BATTLE_SPELL",
-				"val" : 50,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 132,
 		"type" : ["HERO"],
 		"class" : "RELIC",
 		"slot" : [
 			"TORSO"
+		],
+		"bonuses" : [
+			{
+				"type" : "OPENING_BATTLE_SPELL",
+				"subtype" : "spell.slow",
+				"val" : 50,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "OPENING_BATTLE_SPELL",
+				"subtype" : "spell.curse",
+				"val" : 50,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "OPENING_BATTLE_SPELL",
+				"subtype" : "spell.weakness",
+				"val" : 50,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "OPENING_BATTLE_SPELL",
+				"subtype" : "spell.misfortune",
+				"val" : 50,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Armor of the Damned}\n\nAll opponents have these spells effective on them for fifty turns: Slow, Curse, Weakness, and Misfortune.",
@@ -3611,13 +3610,6 @@
 
 	"statueOfLegion":
 	{
-		"bonuses" : [
-			{
-				"type" : "CREATURE_GROWTH_PERCENT",
-				"val" : 50,
-				"propagator": "PLAYER_PROPAGATOR"
-			}
-		],
 		"index" : 133,
 		"type" : ["HERO"],
 		"class" : "RELIC",
@@ -3627,6 +3619,13 @@
 			"MISC3",
 			"MISC2",
 			"MISC1"
+		],
+		"bonuses" : [
+			{
+				"type" : "CREATURE_GROWTH_PERCENT",
+				"val" : 50,
+				"propagator": "PLAYER_PROPAGATOR"
+			}
 		],
 		"text" : {
 			"description" : "{Statue of Legion}\n\nAll creature production increases by 50%, in all towns based off of the castle creature generation level, does not include flagged structures or other like bonuses.",
@@ -3646,6 +3645,12 @@
 
 	"powerOfTheDragonFather":
 	{
+		"index" : 134,
+		"type" : ["HERO"],
+		"class" : "RELIC",
+		"slot" : [
+			"TORSO"
+		],
 		"bonuses" : [
 			{
 				"type" : "LEVEL_SPELL_IMMUNITY",
@@ -3653,35 +3658,29 @@
 				"valueType" : "INDEPENDENT_MAX"
 			},
 			{
+				"type" : "PRIMARY_SKILL",
 				"subtype" : "primSkill.attack",
-				"type" : "PRIMARY_SKILL",
 				"val" : 6,
 				"valueType" : "BASE_NUMBER"
 			},
 			{
+				"type" : "PRIMARY_SKILL",
 				"subtype" : "primSkill.defence",
-				"type" : "PRIMARY_SKILL",
 				"val" : 6,
 				"valueType" : "BASE_NUMBER"
 			},
 			{
+				"type" : "PRIMARY_SKILL",
 				"subtype" : "primSkill.spellpower",
-				"type" : "PRIMARY_SKILL",
 				"val" : 6,
 				"valueType" : "BASE_NUMBER"
 			},
 			{
-				"subtype" : "primSkill.knowledge",
 				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.knowledge",
 				"val" : 6,
 				"valueType" : "BASE_NUMBER"
 			}
-		],
-		"index" : 134,
-		"type" : ["HERO"],
-		"class" : "RELIC",
-		"slot" : [
-			"TORSO"
 		],
 		"text" : {
 			"description" : "{Power of the Dragon Father}\n\n+6 to all primary skills, all troops are immune to 1-4th level spells.",
@@ -3705,19 +3704,19 @@
 
 	"titansThunder":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "spell.titanBolt",
-				"type" : "SPELL",
-				"val" : 3,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 135,
 		"type" : ["HERO"],
 		"class" : "RELIC",
 		"slot" : [
 			"RIGHT_HAND"
+		],
+		"bonuses" : [
+			{
+				"type" : "SPELL",
+				"subtype" : "spell.titanBolt",
+				"val" : 3,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Titan's Thunder}\n\nHero gains the ability to cast Lightning Bolt for 600 points of damage, does not cost any spell points, adds a spell book into their inventory (permanently).",
@@ -3736,18 +3735,18 @@
 
 	"admiralsHat":
 	{
+		"index" : 136,
+		"type" : ["HERO"],
+		"class" : "RELIC",
+		"slot" : [
+			"HEAD"
+		],
 		"bonuses" : [
 			{
 				"type" : "FREE_SHIP_BOARDING",
 				"val" : 0,
 				"valueType" : "BASE_NUMBER"
 			}
-		],
-		"index" : 136,
-		"type" : ["HERO"],
-		"class" : "RELIC",
-		"slot" : [
-			"HEAD"
 		],
 		"text" : {
 			"description" : "{Admiral's Hat}\n\nNo boarding or unboarding ship penalty.  Converts movement points between the Hero's Land and Water movement.",
@@ -3764,29 +3763,6 @@
 
 	"bowOfTheSharpshooter":
 	{
-		"bonuses" : [
-			{
-				"limiters" : ["SHOOTER_ONLY"],
-				"subtype" : 0,
-				"type" : "NO_DISTANCE_PENALTY",
-				"val" : 0,
-				"valueType" : "ADDITIVE_VALUE"
-			},
-			{
-				"limiters" : ["SHOOTER_ONLY"],
-				"subtype" : 0,
-				"type" : "NO_WALL_PENALTY",
-				"val" : 0,
-				"valueType" : "ADDITIVE_VALUE"
-			},
-			{
-				"limiters" : ["SHOOTER_ONLY"],
-				"subtype" : 0,
-				"type" : "FREE_SHOOTING",
-				"val" : 0,
-				"valueType" : "ADDITIVE_VALUE"
-			}
-		],
 		"index" : 137,
 		"type" : ["HERO"],
 		"class" : "RELIC",
@@ -3796,6 +3772,29 @@
 			"MISC3",
 			"MISC2",
 			"MISC1"
+		],
+		"bonuses" : [
+			{
+				"type" : "NO_DISTANCE_PENALTY",
+				"subtype" : 0,
+				"val" : 0,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters" : ["SHOOTER_ONLY"]
+			},
+			{
+				"type" : "NO_WALL_PENALTY",
+				"subtype" : 0,
+				"val" : 0,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters" : ["SHOOTER_ONLY"]
+			},
+			{
+				"type" : "FREE_SHOOTING",
+				"subtype" : 0,
+				"val" : 0,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters" : ["SHOOTER_ONLY"]
+			}
 		],
 		"text" : {
 			"description" : "{Bow of the Sharpshooter}\n\nRanged shooters may fire projectiles while adjacent to an enemy creature.  No archery penalty for range or obstacle",
@@ -3813,13 +3812,6 @@
 
 	"wizardsWell":
 	{
-		"bonuses" : [
-			{
-				"type" : "FULL_MANA_REGENERATION",
-				"val" : 0,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 138,
 		"type" : ["HERO"],
 		"class" : "RELIC",
@@ -3829,6 +3821,13 @@
 			"MISC3",
 			"MISC2",
 			"MISC1"
+		],
+		"bonuses" : [
+			{
+				"type" : "FULL_MANA_REGENERATION",
+				"val" : 0,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Wizard's Well}\n\nRegenerates all spell points each day",
@@ -3846,19 +3845,19 @@
 
 	"ringOfTheMagi":
 	{
-		"bonuses" : [
-			{
-				"type" : "SPELL_DURATION",
-				"val" : 50,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 139,
 		"type" : ["HERO"],
 		"class" : "RELIC",
 		"slot" : [
 			"LEFT_RING",
 			"RIGHT_RING"
+		],
+		"bonuses" : [
+			{
+				"type" : "SPELL_DURATION",
+				"val" : 50,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Ring of the Magi}\n\nAdd 50 rounds to spell duration.",
@@ -3875,32 +3874,6 @@
 	},
 	"cornucopia":
 	{
-		"bonuses" : [
-			{
-				"subtype" : "resource.crystal",
-				"type" : "GENERATE_RESOURCE",
-				"val" : 4,
-				"valueType" : "BASE_NUMBER"
-			},
-			{
-				"subtype" : "resource.gems",
-				"type" : "GENERATE_RESOURCE",
-				"val" : 4,
-				"valueType" : "BASE_NUMBER"
-			},
-			{
-				"subtype" : "resource.mercury",
-				"type" : "GENERATE_RESOURCE",
-				"val" : 4,
-				"valueType" : "BASE_NUMBER"
-			},
-			{
-				"subtype" : "resource.sulfur",
-				"type" : "GENERATE_RESOURCE",
-				"val" : 4,
-				"valueType" : "BASE_NUMBER"
-			}
-		],
 		"index" : 140,
 		"type" : ["HERO"],
 		"class" : "RELIC",
@@ -3910,6 +3883,32 @@
 			"MISC3",
 			"MISC2",
 			"MISC1"
+		],
+		"bonuses" : [
+			{
+				"type" : "GENERATE_RESOURCE",
+				"subtype" : "resource.crystal",
+				"val" : 4,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "GENERATE_RESOURCE",
+				"subtype" : "resource.gems",
+				"val" : 4,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "GENERATE_RESOURCE",
+				"subtype" : "resource.mercury",
+				"val" : 4,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "GENERATE_RESOURCE",
+				"subtype" : "resource.sulfur",
+				"val" : 4,
+				"valueType" : "BASE_NUMBER"
+			}
 		],
 		"text" : {
 			"description" : "{Cornucopia}\n\nGenerates 4 of each precious resource, each day.",
@@ -3932,13 +3931,6 @@
 		"type" : [ "CREATURE" ],
 		"class" : "RELIC",
 		"slot" : [ "SHOULDERS" ],
-		"text" : {
-			"description" : "{Diplomat's Suit}\n\nThis is a kick-ass artifact.",
-			"event" : "You trip over the Diplomat's Suit, dust it off, and stick it in your pack.",
-			"name" : "Diplomat's Suit"
-		},
-
-		"value" : 0,
 		"bonuses" : [
 			{
 				"type" : "CASTS",
@@ -3946,14 +3938,14 @@
 				"valueType" : "BASE_NUMBER"
 			},
 			{
-				"subtype" : "spell.implosion",
 				"type" : "SPELLCASTER",
+				"subtype" : "spell.implosion",
 				"val" : 0,
 				"valueType" : "BASE_NUMBER"
 			},
 			{
-				"subtype" : "spell.fireball",
 				"type" : "SPELLCASTER",
+				"subtype" : "spell.fireball",
 				"val" : 0,
 				"valueType" : "BASE_NUMBER"
 			},
@@ -3963,21 +3955,21 @@
 				"valueType" : "BASE_NUMBER"
 			},
 			{
-				"subtype" : "creature.vampireLord",
 				"type" : "DAEMON_SUMMONING",
+				"subtype" : "creature.vampireLord",
 				"val" : 10,
 				"valueType" : "BASE_NUMBER"
 			},
 			{
-				"addInfo" : 2,
-				"subtype" : "spell.lightningBolt",
 				"type" : "ENCHANTER",
+				"subtype" : "spell.lightningBolt",
 				"val" : 0,
-				"valueType" : "BASE_NUMBER"
+				"valueType" : "BASE_NUMBER",
+				"addInfo" : 2
 			},
 			{
-				"subtype" : 1,
 				"type" : "REBIRTH",
+				"subtype" : 1,
 				"val" : 1,
 				"valueType" : "BASE_NUMBER"
 			},
@@ -3991,7 +3983,14 @@
 				"val" : 25,
 				"valueType" : "BASE_NUMBER"
 			}
-		]
+		],
+		"text" : {
+			"description" : "{Diplomat's Suit}\n\nThis is a kick-ass artifact.",
+			"event" : "You trip over the Diplomat's Suit, dust it off, and stick it in your pack.",
+			"name" : "Diplomat's Suit"
+		},
+
+		"value" : 0,
 	},
 	
 	"goldTowerArrow":
@@ -4000,12 +3999,6 @@
 		"type" : [ "CREATURE" ],
 		"class" : "RELIC",
 		"slot" : [ "TORSO" ],
-		"text" : {
-			"description" : "{Mired in Neutrality}\n\nThis is a kick-ass artifact.",
-			"event" : "You trip over the Mired in Neutrality, dust it off, and stick it in your pack.",
-			"name" : "Mired in Neutrality"
-		},
-		"value" : 0,
 		"bonuses" : [
 			{
 				"type" : "NO_DISTANCE_PENALTY",
@@ -4018,8 +4011,8 @@
 				"valueType" : "BASE_NUMBER"
 			},
 			{
-				"subtype" : 22,
 				"type" : "SPELL_LIKE_ATTACK",
+				"subtype" : 22,
 				"val" : 1,
 				"valueType" : "BASE_NUMBER"
 			},
@@ -4034,40 +4027,46 @@
 				"valueType" : "BASE_NUMBER"
 			},
 			{
-				"subtype" : 0,
 				"type" : "SHOTS",
+				"subtype" : 0,
 				"val" : 200,
 				"valueType" : "PERCENT_TO_BASE"
 			},
 			{
-				"addInfo" : 1,
-				"subtype" : "spell.age",
 				"type" : "SPELL_BEFORE_ATTACK",
+				"subtype" : "spell.age",
 				"val" : 50,
-				"valueType" : "BASE_NUMBER"
+				"valueType" : "BASE_NUMBER",
+				"addInfo" : 1
 			},
 			{
-				"addInfo" : 1,
+				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.berserk",
-				"type" : "SPELL_AFTER_ATTACK",
 				"val" : 50,
-				"valueType" : "BASE_NUMBER"
+				"valueType" : "BASE_NUMBER",
+				"addInfo" : 1
 			},
 			{
-				"addInfo" : 1,
+				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.poison",
-				"type" : "SPELL_AFTER_ATTACK",
 				"val" : 50,
-				"valueType" : "BASE_NUMBER"
+				"valueType" : "BASE_NUMBER",
+				"addInfo" : 1
 			},
 			{
-				"addInfo" : 1,
-				"subtype" : "spell.disruptingRay",
 				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.disruptingRay",
 				"val" : 50,
-				"valueType" : "BASE_NUMBER"
+				"valueType" : "BASE_NUMBER",
+				"addInfo" : 1
 			}
-		]
+		],
+		"text" : {
+			"description" : "{Mired in Neutrality}\n\nThis is a kick-ass artifact.",
+			"event" : "You trip over the Mired in Neutrality, dust it off, and stick it in your pack.",
+			"name" : "Mired in Neutrality"
+		},
+		"value" : 0,
 	},
 
 	"monstersPower":
@@ -4076,12 +4075,6 @@
 		"type" : [ "CREATURE" ],
 		"class" : "RELIC",
 		"slot" : [ "RIGHT_HAND" ],
-		"text" : {
-			"description" : "{Ironfist of the Ogre}\n\nThis is a kick-ass artifact.",
-			"event" : "You trip over the Ironfist of the Ogre, dust it off, and stick it in your pack.",
-			"name" : "Ironfist of the Ogre"
-		},
-		"value" : 0,
 		"bonuses" : [
 			{
 				"type" : "STACK_HEALTH",
@@ -4089,8 +4082,8 @@
 				"valueType" : "PERCENT_TO_BASE"
 			},
 			{
-				"subtype" : 2,
 				"type" : "CREATURE_DAMAGE",
+				"subtype" : 2,
 				"val" : 100,
 				"valueType" : "PERCENT_TO_ALL"
 			},
@@ -4124,6 +4117,12 @@
 				"val" : 0,
 				"valueType" : "BASE_NUMBER"
 			}
-		]
+		],
+		"text" : {
+			"description" : "{Ironfist of the Ogre}\n\nThis is a kick-ass artifact.",
+			"event" : "You trip over the Ironfist of the Ogre, dust it off, and stick it in your pack.",
+			"name" : "Ironfist of the Ogre"
+		},
+		"value" : 0,
 	}
 }
