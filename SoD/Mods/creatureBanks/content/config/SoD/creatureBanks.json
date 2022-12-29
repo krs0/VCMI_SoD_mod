@@ -1,777 +1,1788 @@
-//Resources:  Wood, Mercury, Ore, Sulfur, Crystal, Gems, Gold
-//Artifacts:  Treasure, Minor, Major, Relic
-
 {
-	"banks": [
-		{
-			"name" : "Cyclops Stockpile",
-			"graphics" : [ 
-				{
-					"adventureMap" : "AVXbnk10.def",
-					"terrain" : "any"
-				},
-			],
-			"levels": [
-				{
-					"chance": 30,
-					"guards": [ { "number": 20, "id": 94 } ],
-					"upgrade_chance": 50,
-					"combat_value": 506,
-					"reward_resources": 
-					{
-						"wood" : 4,
-						"mercury" : 4,
-						"ore" : 4,
-						"sulfur" : 4,
-						"crystal" : 4,
-						"gems" : 4,
-						"gold" : 0
-					},
-					"value": 10000,
-					"profitability": 20,
-					"easiest": 100
-				},
-
-				{
-					"chance": 30,
-					"guards": [ { "number": 30, "id": 94 } ],
-					"upgrade_chance": 50,
-					"combat_value": 760,
-					"reward_resources":
-					{
-						"wood" : 6,
-						"mercury" : 6,
-						"ore" : 6,
-						"sulfur" : 6,
-						"crystal" : 6,
-						"gems" : 6
-					},
-					"value": 15000,
-					"profitability": 20,
-					"easiest": 150
-				},
-				{
-					"chance": 30,
-					"guards": [ { "number": 40, "id": 94 } ],
-					"upgrade_chance": 50,
-					"combat_value": 1013,
-					"reward_resources":
-					{
-						"wood" : 8,
-						"mercury" : 8,
-						"ore" : 8,
-						"sulfur" : 8,
-						"crystal" : 8,
-						"gems" : 8
-					},
-					"value": 20000,
-					"profitability": 20,
-					"easiest": 200
-				},
-				{
-					"chance": 10,
-					"guards": [ { "number": 50, "id": 94 } ],
-					"upgrade_chance": 50,
-					"combat_value": 1266,
-					"reward_resources":
-					{
-						"wood" : 10,
-						"mercury" : 10,
-						"ore" : 10,
-						"sulfur" : 10,
-						"crystal" : 10,
-						"gems" : 10
-					},
-					"value": 25000,
-					"profitability": 20,
-					"easiest": 250
-				}
-			]
+	"creatureBank" : {
+		"name" : "Creature Bank",
+		"handler" : "bank",
+		"base" : {
+			"sounds" : {
+				"visit" : [ "creatureBanks/ROGUE.wav" ]
+			}
 		},
-
-		{
-			"name" : "Dwarven Treasury",
+		"types": {
+			"cyclopsStockpile" : {
+				"name" : "Cyclops Stockpile",
+				//"index" : 0,
+				"aiValue" : 3000,
+				"rmg" : {
+					"rarity" : 100,
+					"value" : 3000
+				},
+				"sounds" : {
+					"ambient" : [ "creatureBanks/LOOPCAVE.wav" ]
+				}
 				"graphics" : [ 
-				{
-					"adventureMap" : "AVXbnk20.def",
-					"terrain" : "grass"
-				},
-			],
-			"levels": [
-				{
-					"chance": 30,
-					"guards": [ { "number": 50, "id": 16 } ],
-					"upgrade_chance": 50,
-					"combat_value": 194,
-					"reward_resources":
 					{
-						"crystal" : 2,
-						"gold" : 2500
+						"adventureMap" : "creatureBanks/AVXbnk10.def",
+						"terrain" : "any"
 					},
-					"value": 3500,
-					"profitability": 18,
-					"easiest": 100
-				},
-				{
-					"chance": 30,
-					"guards": [ { "number": 75, "id": 16 } ],
-					"upgrade_chance": 50,
-					"combat_value": 291,
-					"reward_resources":
+				],
+				"levels" : [
 					{
-						"crystal" : 3,
-						"gold" : 4000
+						"chance" : 30,
+						"combat_value" : 506,
+						"guards" : [
+							{
+								"type" : "cyclop",
+								"amount" : 4
+							},
+							{
+								"type" : "cyclop",
+								"amount" : 4
+							},
+							{
+								"type" : "cyclop",
+								"amount" : 4,
+								"upgradeChance" : 50
+							},
+							{
+								"type" : "cyclop",
+								"amount" : 4
+							},
+							{
+								"type" : "cyclop",
+								"amount" : 4
+							}
+						],
+						"reward" : {
+							"resources" : {
+								"wood" : 4,
+								"ore" : 4,
+								"mercury" : 4,
+								"sulfur" : 4,
+								"crystal" : 4,
+								"gems" : 4
+							},
+							"value" : 10000
+						}
 					},
-					"value": 5500,
-					"profitability": 19,
-					"easiest": 150
-				},
-				{
-					"chance": 30,
-					"guards": [ { "number": 100, "id": 16 } ],
-					"upgrade_chance": 50,
-					"combat_value": 388,
-					"reward_resources":
 					{
-						"crystal" : 5,
-						"gold" : 5000
+						"chance" : 30,
+						"combat_value" : 760,
+						"guards" : [
+							{
+								"type" : "cyclop",
+								"amount" : 6
+							},
+							{
+								"type" : "cyclop",
+								"amount" : 6
+							},
+							{
+								"type" : "cyclop",
+								"amount" : 6,
+								"upgradeChance" : 50
+							},
+							{
+								"type" : "cyclop",
+								"amount" : 6
+							},
+							{
+								"type" : "cyclop",
+								"amount" : 6
+							}
+						],
+						"reward" : {
+							"resources" : {
+								"wood" : 6,
+								"ore" : 6,
+								"mercury" : 6,
+								"sulfur" : 6,
+								"crystal" : 6,
+								"gems" : 6
+							},
+							"value" : 15000
+						}
 					},
-					"value": 7500,
-					"profitability": 19,
-					"easiest": 200
-				},
-				{
-					"chance": 10,
-					"guards": [ { "number": 150, "id": 16 } ],
-					"upgrade_chance": 50,
-					"combat_value": 582,
-					"reward_resources":
 					{
-						"crystal" : 10,
-						"gold" : 7500
+						"chance" : 30,
+						"combat_value" : 1013,
+						"guards" : [
+							{
+								"type" : "cyclop",
+								"amount" : 8
+							},
+							{
+								"type" : "cyclop",
+								"amount" : 8
+							},
+							{
+								"type" : "cyclop",
+								"amount" : 8,
+								"upgradeChance" : 50
+							},
+							{
+								"type" : "cyclop",
+								"amount" : 8
+							},
+							{
+								"type" : "cyclop",
+								"amount" : 8
+							}
+						],
+						"reward" : {
+							"resources" : {
+								"wood" : 8,
+								"ore" : 8,
+								"mercury" : 8,
+								"sulfur" : 8,
+								"crystal" : 8,
+								"gems" : 8
+							},
+							"value" : 20000
+						}
 					},
-					"value": 12500,
-					"profitability": 21,
-					"easiest": 300
-				}
-			]
-		},
+					{
+						"chance" : 10,
+						"combat_value" : 1266,
+						"guards" : [
+							{
+								"type" : "cyclop",
+								"amount" : 10
+							},
+							{
+								"type" : "cyclop",
+								"amount" : 10
+							},
+							{
+								"type" : "cyclop",
+								"amount" : 10,
+								"upgradeChance" : 50
+							},
+							{
+								"type" : "cyclop",
+								"amount" : 10
+							},
+							{
+								"type" : "cyclop",
+								"amount" : 10
+							}
+						],
+						"reward" : {
+							"resources" : {
+								"wood" : 10,
+								"ore" : 10,
+								"mercury" : 10,
+								"sulfur" : 10,
+								"crystal" : 10,
+								"gems" : 10
+							},
+							"value" : 25000
+						}
+					}
+				]
+			},
+			
+			"dragonFlyHive" : {
+				"name" : "Dragon Fly Hive",
+				"index" : 6,
+				"resetDuration" : 0,
+				"aiValue" : 9000,
+				"rmg" : {
+					"rarity" : 100,
+					"value" : 9000
+				},
+				"sounds" : {
+					"ambient" : [ "creatureBanks/LOOPLEAR.wav" ]
+				},
+				"levels" : [
+					{
+						"chance" : 30,
+						"combat_value" : 154,
+						"guards" : [
+							{
+								"type" : "fireDragonFly",
+								"amount" : 6
+							},
+							{
+								"type" : "fireDragonFly",
+								"amount" : 6
+							},
+							{
+								"type" : "fireDragonFly",
+								"amount" : 6
+							},
+							{
+								"type" : "fireDragonFly",
+								"amount" : 6
+							},
+							{
+								"type" : "fireDragonFly",
+								"amount" : 6
+							}
+						],
+						"reward" : {
+							"creatures" : [
+								{
+									"type" : "wyvern",
+									"amount" : 4
+								}
+							],
+							"value" : 3200
+						}
+					},
+					{
+						"chance" : 30,
+						"combat_value" : 230,
+						"guards" : [
+							{
+								"type" : "fireDragonFly",
+								"amount" : 9
+							},
+							{
+								"type" : "fireDragonFly",
+								"amount" : 9
+							},
+							{
+								"type" : "fireDragonFly",
+								"amount" : 9
+							},
+							{
+								"type" : "fireDragonFly",
+								"amount" : 9
+							},
+							{
+								"type" : "fireDragonFly",
+								"amount" : 9
+							}
+						],
+						"reward" : {
+							"creatures" : [
+								{
+									"type" : "wyvern",
+									"amount" : 6
+								}
+							],
+							"value" : 4800
+						}
+					},
+					{
+						"chance" : 30,
+						"combat_value" : 307,
+						"guards" : [
+							{
+								"type" : "fireDragonFly",
+								"amount" : 12
+							},
+							{
+								"type" : "fireDragonFly",
+								"amount" : 12
+							},
+							{
+								"type" : "fireDragonFly",
+								"amount" : 12
+							},
+							{
+								"type" : "fireDragonFly",
+								"amount" : 12
+							},
+							{
+								"type" : "fireDragonFly",
+								"amount" : 12
+							}
+						],
+						"reward" : {
+							"creatures" : [
+								{
+									"type" : "wyvern",
+									"amount" : 8
+								}
+							],
+							"value" : 6400
+						}
+					},
+					{
+						"chance" : 10,
+						"combat_value" : 461,
+						"guards" : [
+							{
+								"type" : "fireDragonFly",
+								"amount" : 18
+							},
+							{
+								"type" : "fireDragonFly",
+								"amount" : 18
+							},
+							{
+								"type" : "fireDragonFly",
+								"amount" : 18
+							},
+							{
+								"type" : "fireDragonFly",
+								"amount" : 18
+							},
+							{
+								"type" : "fireDragonFly",
+								"amount" : 18
+							}
+						],
+						"reward" : {
+							"creatures" : [
+								{
+									"type" : "wyvern",
+									"amount" : 12
+								}
+							],
+							"value" : 9600
+						}
+					}
+				]
+			},
+			
+			"dwarvenTreasury" : {
+				"name" : "Dwarven Treasury",
+				"index" : 1,
+				"aiValue" : 2000,
+				"resetDuration" : 0,
+				"rmg" : {
+					"rarity" : 100,
+					"value" : 2000
+				},
+				"sounds" : {
+					"ambient" : [ "creatureBanks/LOOPDWAR.wav" ]
+				},
+				"levels" : [
+					{
+						"chance" : 30,
+						"combat_value" : 194,
+						"guards" : [
+							{
+								"type" : "dwarf",
+								"amount" : 10
+							},
+							{
+								"type" : "dwarf",
+								"amount" : 10
+							},
+							{
+								"type" : "dwarf",
+								"amount" : 10,
+								"upgradeChance" : 50
+							},
+							{
+								"type" : "dwarf",
+								"amount" : 10
+							},
+							{
+								"type" : "dwarf",
+								"amount" : 10
+							}
+						],
+						"reward" : {
+							"resources" : {
+								"gold" : 2500,
+								"crystal" : 2
+							},
+							"value" : 3500
+						}
+					},
+					{
+						"chance" : 30,
+						"combat_value" : 291,
+						"guards" : [
+							{
+								"type" : "dwarf",
+								"amount" : 15
+							},
+							{
+								"type" : "dwarf",
+								"amount" : 15
+							},
+							{
+								"type" : "dwarf",
+								"amount" : 15,
+								"upgradeChance" : 50
+							},
+							{
+								"type" : "dwarf",
+								"amount" : 15
+							},
+							{
+								"type" : "dwarf",
+								"amount" : 15
+							}
+						],
+						"reward" : {
+							"resources" : {
+								"gold" : 4000,
+								"crystal" : 3
+							},
+							"value" : 5500
+						}
+					},
+					{
+						"chance" : 30,
+						"combat_value" : 388,
+						"guards" : [
+							{
+								"type" : "dwarf",
+								"amount" : 20
+							},
+							{
+								"type" : "dwarf",
+								"amount" : 20
+							},
+							{
+								"type" : "dwarf",
+								"amount" : 20,
+								"upgradeChance" : 50
+							},
+							{
+								"type" : "dwarf",
+								"amount" : 20
+							},
+							{
+								"type" : "dwarf",
+								"amount" : 20
+							}
+						],
+						"reward" : {
+							"resources" : {
+								"gold" : 5000,
+								"crystal" : 5
+							},
+							"value" : 7500
+						}
+					},
+					{
+						"chance" : 10,
+						"combat_value" : 582,
+						"guards" : [
+							{
+								"type" : "dwarf",
+								"amount" : 30
+							},
+							{
+								"type" : "dwarf",
+								"amount" : 30
+							},
+							{
+								"type" : "dwarf",
+								"amount" : 30,
+								"upgradeChance" : 50
+							},
+							{
+								"type" : "dwarf",
+								"amount" : 30
+							},
+							{
+								"type" : "dwarf",
+								"amount" : 30
+							}
+						],
+						"reward" : {
+							"resources" : {
+								"gold" : 7500,
+								"crystal" : 10
+							},
+							"value" : 12500
+						}
+					}
+				]
+			},
 
-		{
-			"name" : "Griffin Conservatory",
-			"graphics" : [ 
-				{
-					"adventureMap" : "AVXbnk30.def",
-					"terrain" : "any"
+			"griffinConservatory" : {
+				"name" : "Griffin Conservatory",
+				"index" : 2,
+				"resetDuration" : 0,
+				"aiValue" : 9000,
+				"rmg" : {
+					"rarity" : 100,
+					"value" : 2000
 				},
-			],
-			"levels": [
-				{
-					"chance": 30,
-					"guards": [ { "number": 50, "id": 4 } ],
-					"upgrade_chance": 50,
-					"combat_value": 351,
-					"reward_creatures": [ { "number": 1, "id": 12 } ],
-					"value": 3000,
-					"profitability": 9,
-					"easiest": 100
+				"sounds" : {
+					"ambient" : [ "creatureBanks/LOOPGRIF.wav" ]
 				},
-				{
-					"chance": 30,
-					"guards": [ { "number": 100, "id": 4 } ],
-					"upgrade_chance": 50,
-					"combat_value": 702,
-					"reward_creatures": [ { "number": 2, "id": 12 } ],
-					"value": 6000,
-					"profitability": 9,
-					"easiest": 200
-				},
-				{
-					"chance": 30,
-					"guards": [ { "number": 150, "id": 4 } ],
-					"upgrade_chance": 50,
-					"combat_value": 1053,
-					"reward_creatures": [ { "number": 3, "id": 12 } ],
-					"value": 9000,
-					"profitability": 9,
-					"easiest": 300
-				},
-				{
-					"chance": 10,
-					"guards": [ { "number": 200, "id": 4 } ],
-					"upgrade_chance": 50,
-					"combat_value": 1404,
-					"reward_creatures": [ { "number": 4, "id": 12 } ],
-					"value": 12000,
-					"profitability": 9,
-					"easiest": 400
-				}
-			]
-		},
+				"levels" : [
+					{
+						"chance" : 30,
+						"combat_value" : 351,
+						"guards" : [
+							{
+								"type" : "griffin",
+								"amount" : 10
+							},
+							{
+								"type" : "griffin",
+								"amount" : 10
+							},
+							{
+								"type" : "griffin",
+								"amount" : 10,
+								"upgradeChance" : 50
+							},
+							{
+								"type" : "griffin",
+								"amount" : 10
+							},
+							{
+								"type" : "griffin",
+								"amount" : 10
+							}
+						],
+						"reward" : {
+							"creatures" : [
+								{
+									"type" : "angel",
+									"amount" : 1
+								}
+							],
+							"value" : 3000
+						}
+					},
+					{
+						"chance" : 30,
+						"combat_value" : 702,
+						"guards" : [
+							{
+								"type" : "griffin",
+								"amount" : 20
+							},
+							{
+								"type" : "griffin",
+								"amount" : 20
+							},
+							{
+								"type" : "griffin",
+								"amount" : 20,
+								"upgradeChance" : 50
+							},
+							{
+								"type" : "griffin",
+								"amount" : 20
+							},
+							{
+								"type" : "griffin",
+								"amount" : 20
+							}
+						],
+						"reward" : {
+							"creatures" : [
+								{
+									"type" : "angel",
+									"amount" : 2
+								}
+							],
+							"value" : 6000
+						}
+					},
+					{
+						"chance" : 30,
+						"combat_value" : 1053,
+						"guards" : [
+							{
+								"type" : "griffin",
+								"amount" : 30
+							},
+							{
+								"type" : "griffin",
+								"amount" : 30
+							},
+							{
+								"type" : "griffin",
+								"amount" : 30,
+								"upgradeChance" : 50
+							},
+							{
+								"type" : "griffin",
+								"amount" : 30
+							},
+							{
+								"type" : "griffin",
+								"amount" : 30
+							}
+						],
+						"reward" : {
+							"creatures" : [
+								{
+									"type" : "angel",
+									"amount" : 3
+								}
+							],
+							"value" : 9000
+						}
+					},
+					{
+						"chance" : 10,
+						"combat_value" : 1404,
+						"guards" : [
+							{
+								"type" : "griffin",
+								"amount" : 40
+							},
+							{
+								"type" : "griffin",
+								"amount" : 40
+							},
+							{
+								"type" : "griffin",
+								"amount" : 40,
+								"upgradeChance" : 50
+							},
+							{
+								"type" : "griffin",
+								"amount" : 40
+							},
+							{
+								"type" : "griffin",
+								"amount" : 40
+							}
+						],
+						"reward" : {
+							"creatures" : [
+								{
+									"type" : "angel",
+									"amount" : 4
+								}
+							],
+							"value" : 12000
+						}
+					}
+				]
+			},	
 
-		{
-			"name" : "Imp Cache",
-				"graphics" : [ 
-				{
-					"adventureMap" : "AVXbnk40.def",
-					"terrain" : "any"
+			"impCache" : {
+				"name" : "Imp Cache",
+				"index" : 3,
+				"resetDuration" : 0,
+				"aiValue" : 1500,
+				"rmg" : {
+					"rarity" : 100,
+					"value" : 5000
 				},
-			],
-			"levels": [
-				{
-					"chance": 30,
-					"guards": [ { "number": 100, "id": 42 } ],
-					"upgrade_chance": 50,
-					"combat_value": 100,
-					"reward_resources":
-					{
-						"wood" : 0,
-						"mercury" : 2,
-						"ore" : 0,
-						"sulfur" : 0,
-						"crystal" : 0,
-						"gems" : 0,
-						"gold" : 1000
-					},
-					"value": 2000,
-					"profitability": 20,
-					"easiest": 100
+				"sounds" : {
+					"ambient" : [ "creatureBanks/LOOPFIRE.wav" ]
 				},
-				{
-					"chance": 30,
-					"guards": [ { "number": 150, "id": 42 } ],
-					"upgrade_chance": 50,
-					"combat_value": 150,
-					"reward_resources":
+				"levels" : [
 					{
-						"mercury" : 3,
-						"gold" : 1500
+						"chance" : 30,
+						"combat_value" : 100,
+						"guards" : [
+							{
+								"type" : "imp",
+								"amount" : 20
+							},
+							{
+								"type" : "imp",
+								"amount" : 20
+							},
+							{
+								"type" : "imp",
+								"amount" : 20,
+								"upgradeChance" : 50
+							},
+							{
+								"type" : "imp",
+								"amount" : 20
+							},
+							{
+								"type" : "imp",
+								"amount" : 20
+							}
+						],
+						"reward" : {
+							"resources" : {
+								"gold" : 1000
+							},
+							"value" : 2000
+						}
 					},
-					"value": 3000,
-					"profitability": 20,
-					"easiest": 150
-				},
-				{
-					"chance": 30,
-					"guards": [ { "number": 200, "id": 42 } ],
-					"upgrade_chance": 50,
-					"combat_value": 200,
-					"reward_resources":
 					{
-						"mercury" : 4,
-						"gold" : 2000
+						"chance" : 30,
+						"combat_value" : 150,
+						"guards" : [
+							{
+								"type" : "imp",
+								"amount" : 30
+							},
+							{
+								"type" : "imp",
+								"amount" : 30
+							},
+							{
+								"type" : "imp",
+								"amount" : 30,
+								"upgradeChance" : 50
+							},
+							{
+								"type" : "imp",
+								"amount" : 30
+							},
+							{
+								"type" : "imp",
+								"amount" : 30
+							}
+						],
+						"reward" : {
+							"resources" : {
+								"gold" : 1500,
+								"mercury" : 3
+							},
+							"value" : 3000
+						}
 					},
-					"value": 4000,
-					"profitability": 20,
-					"easiest": 200
-				},
-				{
-					"chance": 10,
-					"guards": [ { "number": 300, "id": 42 } ],
-					"upgrade_chance": 50,
-					"combat_value": 300,
-					"reward_resources":
 					{
-						"mercury" : 6,
-						"gold" : 3000
+						"chance" : 30,
+						"combat_value" : 200,
+						"guards" : [
+							{
+								"type" : "imp",
+								"amount" : 40
+							},
+							{
+								"type" : "imp",
+								"amount" : 40
+							},
+							{
+								"type" : "imp",
+								"amount" : 40,
+								"upgradeChance" : 50
+							},
+							{
+								"type" : "imp",
+								"amount" : 40
+							},
+							{
+								"type" : "imp",
+								"amount" : 40
+							}
+						],
+						"reward" : {
+							"resources" : {
+								"gold" : 2000,
+								"mercury" : 4
+							},
+							"value" : 4000
+						}
 					},
-					"value": 6000,
-					"profitability": 20,
-					"easiest": 300
-				}
-			]
-		},
+					{
+						"chance" : 10,
+						"combat_value" : 300,
+						"guards" : [
+							{
+								"type" : "imp",
+								"amount" : 60
+							},
+							{
+								"type" : "imp",
+								"amount" : 60
+							},
+							{
+								"type" : "imp",
+								"amount" : 60,
+								"upgradeChance" : 50
+							},
+							{
+								"type" : "imp",
+								"amount" : 60
+							},
+							{
+								"type" : "imp"
+								"amount" : 60
+							}
+						],
+						"reward" : {
+							"resources" : {
+								"gold" : 3000,
+								"mercury" : 6
+							},
+							"value" : 6000
+						}
+					}
+				]
+			},
 
-		{
-			"name" : "Medusa Stores",
-			"graphics" : [ 
-				{
-					"adventureMap" : "AVXbnk50.def",
-					"terrain" : "any"
+			"medusaStore" : {
+				"name" : "Medusa Stores",
+				"index" : 4,
+				"resetDuration" : 0,
+				"aiValue" : 1500,
+				"rmg" : {
+					"rarity" : 100,
+					"value" : 1500
 				},
-			],
-			"levels": [
-				{
-					"chance": 30,
-					"guards": [ { "number": 20, "id": 76 } ],
-					"upgrade_chance": 50,
-					"combat_value": 207,
-					"reward_resources":
-					{
-						"sulfur" : 5,
-						"gold" : 2000
-					},
-					"value": 4500,
-					"profitability": 22,
-					"easiest": 100
+				"sounds" : {
+					"ambient" : [ "creatureBanks/LOOPMEDU.wav" ]
 				},
-				{
-					"chance": 30,
-					"guards": [ { "number": 30, "id": 76 } ],
-					"upgrade_chance": 50,
-					"combat_value": 310,
-					"reward_resources":
+				"levels" : [
 					{
-						"sulfur" : 6,
-						"gold" : 3000
+						"chance" : 30,
+						"combat_value" : 207,
+						"guards" : [
+							{
+								"type" : "medusa",
+								"amount" : 4
+							},
+							{
+								"type" : "medusa",
+								"amount" : 4
+							},
+							{
+								"type" : "medusa",
+								"amount" : 4,
+								"upgradeChance" : 50
+							},
+							{
+								"type" : "medusa",
+								"amount" : 4
+							},
+							{
+								"type" : "medusa",
+								"amount" : 4
+							}
+						],
+						"reward" : {
+							"resources" : {
+								"gold" : 2000,
+								"sulfur" : 5
+							},
+							"value" : 4500
+						}
 					},
-					"value": 6000,
-					"profitability": 19,
-					"easiest": 150
-				},
-				{
-					"chance": 30,
-					"guards": [ { "number": 40, "id": 76 } ],
-					"upgrade_chance": 50,
-					"combat_value": 414,
-					"reward_resources":
 					{
-						"sulfur" : 8,
-						"gold" : 4000
+						"chance" : 30,
+						"combat_value" : 310,
+						"guards" : [
+							{
+								"type" : "medusa",
+								"amount" : 6
+							},
+							{
+								"type" : "medusa",
+								"amount" : 6
+							},
+							{
+								"type" : "medusa",
+								"amount" : 6,
+								"upgradeChance" : 50
+							},
+							{
+								"type" : "medusa",
+								"amount" : 6
+							},
+							{
+								"type" : "medusa",
+								"amount" : 6
+							}
+						],
+						"reward" : {
+							"resources" : {
+								"gold" : 3000,
+								"sulfur" : 6
+							},
+							"value" : 6000
+						}
 					},
-					"value": 8000,
-					"profitability": 19,
-					"easiest": 200
-				},
-				{
-					"chance": 10,
-					"guards": [ { "number": 50, "id": 76 } ],
-					"upgrade_chance": 50,
-					"combat_value": 517,
-					"reward_resources":
 					{
-						"sulfur" : 10,
-						"gold" : 5000
+						"chance" : 30,
+						"combat_value" : 414,
+						"guards" : [
+							{
+								"type" : "medusa",
+								"amount" : 8
+							},
+							{
+								"type" : "medusa",
+								"amount" : 8
+							},
+							{
+								"type" : "medusa",
+								"amount" : 8,
+								"upgradeChance" : 50
+							},
+							{
+								"type" : "medusa",
+								"amount" : 8
+							},
+							{
+								"type" : "medusa",
+								"amount" : 8
+							}
+						],
+						"reward" : {
+							"resources" : {
+								"gold" : 4000,
+								"sulfur" : 8
+							},
+							"value" : 8000
+						}
 					},
-					"value": 10000,
-					"profitability": 19,
-					"easiest": 250
-				}
-			]
-		},
+					{
+						"chance" : 10,
+						"combat_value" : 517,
+						"guards" : [
+							{
+								"type" : "medusa",
+								"amount" : 10
+							},
+							{
+								"type" : "medusa",
+								"amount" : 10
+							},
+							{
+								"type" : "medusa",
+								"amount" : 10,
+								"upgradeChance" : 50
+							},
+							{
+								"type" : "medusa",
+								"amount" : 10
+							},
+							{
+								"type" : "medusa",
+								"amount" : 10
+							}
+						],
+						"reward" : {
+							"resources" : {
+								"gold" : 5000,
+								"sulfur" : 10
+							},
+							"value" : 10000
+						}
+					}
+				]
+			},
 
-		{
-			"name" : "Naga Bank",
-			"graphics" : [ 
-				{
-					"adventureMap" : "AVXbnk60.def",
-					"terrain" : "any"
+			"nagaBank" : {
+				"name" : "Naga Bank",
+				"index" : 5,
+				"resetDuration" : 0,
+				"aiValue" : 3000,
+				"rmg" : {
+					"rarity" : 100,
+					"value" : 3000
 				},
-			],
-			"levels": [
-				{
-					"chance": 30,
-					"guards": [ { "number": 10, "id": 38 } ],
-					"upgrade_chance": 50,
-					"combat_value": 403,
-					"reward_resources":
+				"sounds" : {
+					"ambient" : [ "creatureBanks/LOOPNAGA.wav" ]
+				},
+				"levels" : [
 					{
-						"gems" : 8,
-						"gold" : 4000
+						"chance" : 30,
+						"combat_value" : 403,
+						"guards" : [
+							{
+								"type" : "naga",
+								"amount" : 2
+							},
+							{
+								"type" : "naga",
+								"amount" : 2
+							},
+							{
+								"type" : "naga",
+								"amount" : 2,
+								"upgradeChance" : 50
+							},
+							{
+								"type" : "naga",
+								"amount" : 2
+							},
+							{
+								"type" : "naga",
+								"amount" : 2
+							}
+						],
+						"reward" : {
+							"resources" : {
+								"gold" : 4000,
+								"gems" : 8
+							},
+							"value" : 8000
+						}
 					},
-					"value": 8000,
-					"profitability": 20,
-					"easiest": 100
-				},
-				{
-					"chance": 30,
-					"guards": [ { "number": 15, "id": 38 } ],
-					"upgrade_chance": 50,
-					"combat_value": 605,
-					"reward_resources":
 					{
-						"gems" : 12,
-						"gold" : 6000
+						"chance" : 30,
+						"combat_value" : 605,
+						"guards" : [
+							{
+								"type" : "naga",
+								"amount" : 3
+							},
+							{
+								"type" : "naga",
+								"amount" : 3
+							},
+							{
+								"type" : "naga",
+								"amount" : 3,
+								"upgradeChance" : 50
+							},
+							{
+								"type" : "naga",
+								"amount" : 3
+							},
+							{
+								"type" : "naga",
+								"amount" : 3
+							}
+						],
+						"reward" : {
+							"resources" : {
+								"gold" : 6000,
+								"gems" : 12
+							},
+							"value" : 12000
+						}
 					},
-					"value": 12000,
-					"profitability": 20,
-					"easiest": 150
-				},
-				{
-					"chance": 30,
-					"guards": [ { "number": 20, "id": 38 } ],
-					"upgrade_chance": 50,
-					"combat_value": 806,
-					"reward_resources":
 					{
-						"gems" : 16,
-						"gold" : 8000
+						"chance" : 30,
+						"combat_value" : 806,
+						"guards" : [
+							{
+								"type" : "naga",
+								"amount" : 4
+							},
+							{
+								"type" : "naga",
+								"amount" : 4
+							},
+							{
+								"type" : "naga",
+								"amount" : 4,
+								"upgradeChance" : 50
+							},
+							{
+								"type" : "naga",
+								"amount" : 4
+							},
+							{
+								"type" : "naga",
+								"amount" : 4
+							}
+						],
+						"reward" : {
+							"resources" : {
+								"gold" : 8000,
+								"gems" : 16
+							},
+							"value" : 16000
+						}
 					},
-					"value": 16000,
-					"profitability": 20,
-					"easiest": 200
-				},
-				{
-					"chance": 10,
-					"guards": [ { "number": 30, "id": 38 } ],
-					"upgrade_chance": 50,
-					"combat_value": 1210,
-					"reward_resources":
 					{
-						"gems" : 24,
-						"gold" : 12000
-					},
-					"value": 24000,
-					"profitability": 20,
-					"easiest": 300
-				}
-			]
-		},
-
-		{
-			"name" : "Dragon Fly Hive",
-				"graphics" : [ 
-				{
-					"adventureMap" : "AVXbnk70.def",
-					"terrain" : "any"
-				},
-			],
-			"levels": [
-				{
-					"chance": 30,
-					"guards": [ { "number": 30, "id": 105} ],
-					"upgrade_chance": 0,
-					"combat_value": 154,
-					"reward_creatures": [ { "number": 4, "id": 108 } ],
-					"value": 3200,
-					"profitability": 21,
-					"easiest": 100
-				},
-				{
-					"chance": 30,
-					"guards": [ { "number": 45, "id": 105 } ],
-					"upgrade_chance": 0,
-					"combat_value": 230,
-					"reward_creatures": [ { "number": 6, "id": 108 } ],
-					"value": 4800,
-					"profitability": 21,
-					"easiest": 150
-				},
-				{
-					"chance": 30,
-					"guards": [ { "number": 60, "id": 105 } ],
-					"upgrade_chance": 0,
-					"combat_value": 307,
-					"reward_creatures": [ { "number": 8, "id": 108 } ],
-					"value": 6400,
-					"profitability": 21,
-					"easiest": 200
-				},
-				{
-					"chance": 10,
-					"guards": [ { "number": 90, "id": 105 } ],
-					"upgrade_chance": 0,
-					"combat_value": 461,
-					"reward_creatures": [ { "number": 12, "id": 108 } ],
-					"value": 9600,
-					"profitability": 21,
-					"easiest": 300
-				}
-			]
-		},
-
-		{
-			"name" : "Shipwreck",
-			"graphics" : [ 
-				{
-					"adventureMap" : "AVAwre20.def",
-					"terrain" : "any"
-				},
-				{
-					"adventureMap" : "AVAwrek0.def",
-					"terrain" : "any"
-				},
-			],
-			"levels": [
-				{
-					"chance": 30,
-					"guards": [ { "number": 10, "id": 60 } ],
-					"upgrade_chance": 0,
-					"combat_value": 31,
-					"reward_resources":
-					{
-						"gold" : 2000
-					},
-					"value": 2000,
-					"profitability": 65,
-					"easiest": 100
-				},
-				{
-					"chance": 30,
-					"guards": [ { "number": 15, "id": 60 } ],
-					"upgrade_chance": 0,
-					"combat_value": 46,
-					"reward_resources":
-					{
-						"gold" : 3000
-					},
-					"value": 3000,
-					"profitability": 65,
-					"easiest": 150
-				},
-				{
-					"chance": 30,
-					"guards": [ { "number": 25, "id": 60 } ],
-					"upgrade_chance": 0,
-					"combat_value": 77,
-					"reward_resources":
-					{
-						"gold" : 4000
-					},
-					"reward_artifacts": [ 1, 0, 0, 0 ],
-					"value": 5000,
-					"profitability": 65,
-					"easiest": 250
-				},
-				{
-					"chance": 10,
-					"guards": [ { "number": 50, "id": 60 } ],
-					"upgrade_chance": 0,
-					"combat_value": 154,
-					"reward_resources":
-					{
-						"gold" : 5000
-					},
-					"reward_artifacts": [ 0, 1, 0, 0 ],
-					"value": 7000,
-					"profitability": 45,
-					"easiest": 500
-				}
-			]
-		},
-
-		{
-			"name" : "Derelict Ship",
-			"graphics" : [ 
-				{
-					"adventureMap" : "AVAdlic0.def",
-					"terrain" : "any"
-				},
-			],
-			"levels": [
-				{
-					"chance": 30,
-					"guards": [ { "number": 20, "id": 115 } ],
-					"upgrade_chance": 0,
-					"combat_value": 138,
-					"reward_resources":
-					{
-						"gold" : 3000
-					},
-					"value": 3000,
-					"profitability": 22,
-					"easiest": 100
-				},
-				{
-					"chance": 30,
-					"guards": [ { "number": 30, "id": 115 } ],
-					"upgrade_chance": 0,
-					"combat_value": 207,
-					"reward_resources":
-					{
-						"gold" : 3000
-					},
-					"reward_artifacts": [ 1, 0, 0, 0 ],
-					"value": 4000,
-					"profitability": 19,
-					"easiest": 150
-				},
-				{
-					"chance": 30,
-					"guards": [ { "number": 40, "id": 115 } ],
-					"upgrade_chance": 0,
-					"combat_value": 276,
-					"reward_resources":
-					{
-						"gold" : 4000
-					},
-					"reward_artifacts": [ 1, 0, 0, 0 ],
-					"value": 5000,
-					"profitability": 18,
-					"easiest": 200
-				},
-				{
-					"chance": 10,
-					"guards": [ { "number": 60, "id": 115 } ],
-					"upgrade_chance": 0,
-					"combat_value": 414,
-					"reward_resources":
-					{
-						"gold" : 6000
-					},
-					"reward_artifacts": [ 0, 1, 0, 0 ],
-					"value": 8000,
-					"profitability": 19,
-					"easiest": 300
-				}
-			]
-		},
-
-		{
-			"name" : "Crypt",
-			"graphics" : [ 
-				{
-					"adventureMap" : "AVXgyds0.def",
-					"terrain" : "any"
-				},
-				{
-					"adventureMap" : "AVXgyne0.def",
-					"terrain" : "any"
-				},
-				{
-					"adventureMap" : "AVXgysn0.def",
-					"terrain" : "any"
-				},
-			],
-			"levels": [
-				{
-					"chance": 30,
-					"guards": [ { "number": 30, "id": 56 }, { "number": 20, "id": 58 }, { "number": 0, "id": 60 } , { "number": 0, "id": 62 } ],
-					"upgrade_chance": 0,
-					"combat_value": 75,
-					"reward_resources":
-					{
-						"gold" : 1500
-					},
-					"value": 1500,
-					"profitability": 20,
-					"easiest": 100
-				},
-				{
-					"chance": 30,
-					"guards": [ { "number": 25, "id": 56 }, { "number": 20, "id": 58 }, { "number": 5, "id": 60 }, { "number": 0, "id": 62 } ],
-					"upgrade_chance": 0,
-					"combat_value": 94,
-					"reward_resources":
-					{
-						"gold" : 2000
-					},
-					"value": 2000,
-					"profitability": 21,
-					"easiest": 126
-				},
-				{
-					"chance": 30,
-					"guards": [ { "number": 20, "id": 56 }, { "number": 20, "id": 58 }, { "number": 10, "id": 60 }, { "number": 5, "id": 62 } ],
-					"upgrade_chance": 0,
-					"combat_value": 169,
-					"reward_resources":
-					{
-						"gold" : 2500
-					},
-					"reward_artifacts": [ 1, 0, 0, 0 ],
-					"value": 3500,
-					"profitability": 21,
-					"easiest": 225
-				},
-				{
-					"chance": 10,
-					"guards": [ { "number": 20, "id": 56 }, { "number": 20, "id": 58 }, { "number": 10, "id": 60 }, { "number": 10, "id": 62 } ],
-					"upgrade_chance": 0,
-					"combat_value": 225,
-					"reward_resources":
-					{
-						"gold" : 5000
-					},
-					"reward_artifacts": [ 1, 0, 0, 0 ],
-					"value": 6000,
-					"profitability": 27,
-					"easiest": 299
-				}
-			]
-		},
-
-		{
-			"name" : "Dragon Utopia",
-				"graphics" : [ 
-				{
-					"adventureMap" : "AVXthrn.def", // used ??????
-					"terrain" : "any"
-				},
-				{
-					"adventureMap" : "AVSutop0.def",
-					"terrain" : "any"
-				},
-			],
-			"levels": [
-				{
-					"chance": 30,
-					"guards": [ { "number": 8, "id": 26 }, { "number": 5, "id": 82 }, { "number": 2, "id": 27 }, { "number": 1, "id": 83 }	],
-					"upgrade_chance": 0,
-					"combat_value": 769,
-					"reward_resources":
-					{
-						"gold" : 20000
-					},
-					"reward_artifacts": [ 1, 1, 1, 1 ],
-					"value": 38000,
-					"profitability": 21,
-					"easiest": 100
-				},
-				{
-					"chance": 30,
-					"guards": [ { "number": 8, "id": 26 }, { "number": 6, "id": 82 }, { "number": 3, "id": 27 }, { "number": 2, "id": 83 }	],
-					"upgrade_chance": 0,
-					"combat_value": 209,
-					"reward_resources":
-					{
-						"gold" : 30000
-					},
-					"reward_artifacts": [ 0, 1, 1, 2 ],
-					"value": 57000,
-					"profitability": 26,
-					"easiest": 125
-				},
-				{
-					"chance": 30,
-					"guards": [ { "number": 8, "id": 26 }, { "number": 6, "id": 82 }, { "number": 4, "id": 27 }, { "number": 3, "id": 83 }	],
-					"upgrade_chance": 0,
-					"combat_value": 556,
-					"reward_resources":
-					{
-						"gold" : 40000
-					},
-					"reward_artifacts": [ 0, 0, 1, 3 ],
-					"value": 75000,
-					"profitability": 29,
-					"easiest": 145
-				},
-				{
-					"chance": 10,
-					"guards": [ { "number": 8, "id": 26 }, { "number": 7, "id": 82 }, { "number": 6, "id": 27 }, { "number": 5, "id": 83 } ],
-					"upgrade_chance": 0,
-					"combat_value": 343,
-					"reward_resources":
-					{
-						"gold" : 50000
-					},
-					"reward_artifacts": [ 0, 0, 0, 4 ],
-					"value": 90000,
-					"profitability": 27,
-					"easiest": 189
-				}
-			]
-		},
-
-		{
-			"name" : "Pyramid",
-			"graphics" : [ 
-				{
-					"adventureMap" : "avxprmd0.def",
-					"terrain" : "any"
-				},
-			],
-			"levels": [
-				{
-					"chance": 100,
-					"guards": [	{ "number": 20, "id": 116 }, { "number": 10, "id": 117 }, { "number": 20, "id": 116 }, { "number": 10, "id": 117 } ],
-					"upgrade_chance": 0,
-					"combat_value": 786,
-					"value": 15000,
-					"profitability": 19,
-					"easiest": 100
-				}
-			]
+						"chance" : 10,
+						"combat_value" : 1210,
+						"guards" : [
+							{
+								"type" : "naga",
+								"amount" : 6
+							},
+							{
+								"type" : "naga",
+								"amount" : 6
+							},
+							{
+								"type" : "naga",
+								"amount" : 6,
+								"upgradeChance" : 50
+							},
+							{
+								"type" : "naga",
+								"amount" : 6
+							},
+							{
+								"type" : "naga",
+								"amount" : 6
+							}
+						],
+						"reward" : {
+							"resources" : {
+								"gold" : 12000
+								"gems" : 24
+							},
+							"value" : 24000
+						}
+					}
+				]
+			}
 		}
-	]
+	},
+	
+	"shipwreck" : {
+		"name" : "Shipwreck",
+		//"index" :85,
+		"handler": "bank",
+		"types" : {
+			"shipwreck" : {
+				"name" : "Shipwreck",
+				"index" : 85,
+				"resetDuration" : 0,
+				"aiValue" : 2000,
+				"rmg" : {
+					"rarity" : 100,
+					"value" : 2000
+				},
+				"levels" : [
+					{
+						"chance" : 30,
+						"combat_value" : 31,
+						"guards" : [
+							{
+								"type" : "wight",
+								"amount" : 2
+							},
+							{
+								"type" : "wight",
+								"amount" : 2
+							},
+							{
+								"type" : "wight",
+								"amount" : 2
+							},
+							{
+								"type" : "wight",
+								"amount" : 2
+							},
+							{
+								"type" : "wight",
+								"amount" : 2
+							}
+						],
+						"reward" : {
+							"resources" : {
+								"gold" : 2000
+							},
+							"value" : 2000
+						}
+					},
+					{
+						"chance" : 30,
+						"combat_value" : 46,
+						"guards" : [
+							{
+								"type" : "wight",
+								"amount" : 3
+							},
+							{
+								"type" : "wight",
+								"amount" : 3
+							},
+							{
+								"type" : "wight",
+								"amount" : 3
+							},
+							{
+								"type" : "wight",
+								"amount" : 3
+							},
+							{
+								"type" : "wight",
+								"amount" : 3
+							}
+						],
+						"reward" : {
+							"resources" : {
+								"gold" : 3000
+							},
+							"value" : 3000
+						}
+					},
+					{
+						"chance" : 30,
+						"combat_value" : 77,
+						"guards" : [
+							{
+								"type" : "wight",
+								"amount" : 5
+							},
+							{
+								"type" : "wight",
+								"amount" : 5
+							},
+							{
+								"type" : "wight",
+								"amount" : 5
+							},
+							{
+								"type" : "wight",
+								"amount" : 5
+							},
+							{
+								"type" : "wight",
+								"amount" : 5
+							}
+						],
+						"reward" : {
+							"artifacts" : [
+								{ "class" : "TREASURE" }
+							],
+							"resources" : {
+								"gold" : 4000
+							},
+							"value" : 5000
+						}
+					},
+					{
+						"chance" : 10,
+						"combat_value" : 154,
+						"guards" : [
+							{
+								"type" : "wight",
+								"amount" : 10
+							},
+							{
+								"type" : "wight",
+								"amount" : 10
+							},
+							{
+								"type" : "wight",
+								"amount" : 10
+							},
+							{
+								"type" : "wight",
+								"amount" : 10
+							},
+							{
+								"type" : "wight",
+								"amount" : 10
+							}
+						],
+						"reward" : {
+							"artifacts" : [
+								{ "class" : "MINOR" }
+							],
+							"resources" : {
+								"gold" : 5000
+							},
+							"value" : 7000
+						}
+					}
+				]
+			}
+		}
+	},
+		
+	"derelictShip" : {
+		"name" : "Derelict Ship",
+		//"index" :24,
+		"handler": "bank",
+		"types" : {
+			"derelictShip" : {
+				"name" : "Derelict Ship",
+				"index" : 0,
+				"resetDuration" : 0,
+				"aiValue" : 4000,
+				"rmg" : {
+					"rarity" : 20,
+					"value" : 4000
+				}
+				"levels" : [
+					{
+						"chance" : 30,
+						"combat_value" : 138,
+						"guards" : [
+							{
+								"type" : "waterElemental",
+								"amount" : 4
+							},
+							{
+								"type" : "waterElemental",
+								"amount" : 4
+							},
+							{
+								"type" : "waterElemental",
+								"amount" : 4
+							},
+							{
+								"type" : "waterElemental",
+								"amount" : 4
+							},
+							{
+								"type" : "waterElemental",
+								"amount" : 4
+							}
+						],
+						"reward" : {
+							"resources" : {
+								"gold" : 3000
+							},
+							"value" : 3000
+						}
+					},
+					{
+						"chance" : 30,
+						"combat_value" : 207,
+						"guards" : [
+							{
+								"type" : "waterElemental",
+								"amount" : 6
+							},
+							{
+								"type" : "waterElemental",
+								"amount" : 6
+							},
+							{
+								"type" : "waterElemental",
+								"amount" : 6
+							},
+							{
+								"type" : "waterElemental",
+								"amount" : 6
+							},
+							{
+								"type" : "waterElemental",
+								"amount" : 6
+							}
+						],
+						"reward" : {
+							"artifacts" : [
+								{ "class" : "TREASURE" }
+							],
+							"resources" : {
+								"gold" : 3000
+							},
+							"value" : 4000
+						}
+					},
+					{
+						"chance" : 30,
+						"combat_value" : 276,
+						"guards" : [
+							{
+								"type" : "waterElemental",
+								"amount" : 8
+							},
+							{
+								"type" : "waterElemental",
+								"amount" : 8
+							},
+							{
+								"type" : "waterElemental",
+								"amount" : 8
+							},
+							{
+								"type" : "waterElemental",
+								"amount" : 8
+							},
+							{
+								"type" : "waterElemental",
+								"amount" : 8
+							}
+						],
+						"reward" : {
+							"artifacts" : [
+								{ "class" : "TREASURE" }
+							],
+							"resources" : {
+								"gold" : 4000
+							},
+							"value" : 5000
+						}
+					},
+					{
+						"chance" : 10,
+						"combat_value" : 414,
+						"guards" : [
+							{
+								"type" : "waterElemental",
+								"amount" : 12
+							},
+							{
+								"type" : "waterElemental",
+								"amount" : 12
+							},
+							{
+								"type" : "waterElemental",
+								"amount" : 12
+							},
+							{
+								"type" : "waterElemental",
+								"amount" : 12
+							},
+							{
+								"type" : "waterElemental",
+								"amount" : 12
+							}
+						],
+						"reward" : {
+							"artifacts" : [
+								{ "class" : "MINOR" }
+							],
+							"resources" : {
+								"gold" : 6000
+							},
+							"value" : 8000
+						}
+					}
+				]
+			}
+		}
+	},
+
+	"crypt" : {
+		"name" : "Crypt",
+		//"index" :84,
+		"handler": "bank",
+		"types" : {
+			"crypt" : {
+				"name" : "Crypt",
+				"index" : 0,
+				"resetDuration" : 0,
+				"aiValue" : 1500,
+				"rmg" : {
+					"rarity" : 100,
+					"value" : 1000
+				},
+				"sounds" : {
+					"ambient" : [
+						"creatureBanks/LOOPDEAD.wav"
+					],
+					"visit" : [
+						"creatureBanks/GRAVEYARD.wav"
+					]
+				},
+				"levels" : [
+					{
+						"chance" : 30,
+						"combat_value" : 75,
+						"guards" : [
+							{
+								"type" : "skeleton",
+								"amount" : 10
+							},
+							{
+								"type" : "walkingDead",
+								"amount" : 10
+							},
+							{
+								"type" : "walkingDead",
+								"amount" : 10
+							},
+							{
+								"type" : "skeleton",
+								"amount" : 10
+							},
+							{
+								"type" : "skeleton",
+								"amount" : 10
+							}
+						],
+						"reward" : {
+							"resources" : {
+								"gold" : 1500
+							},
+							"value" : 1500
+						}
+					},
+					{
+						"chance" : 30,
+						"combat_value" : 94,
+						"guards" : [
+							{
+								"type" : "skeleton",
+								"amount" : 13
+							},
+							{
+								"type" : "walkingDead",
+								"amount" : 10
+							},
+							{
+								"type" : "wight",
+								"amount" : 5
+							},
+							{
+								"type" : "walkingDead",
+								"amount" : 10
+							},
+							{
+								"type" : "skeleton",
+								"amount" : 12
+							}
+						],
+						"reward" : {
+							"resources" : {
+								"gold" : 2000
+							},
+							"value" : 2000
+						}
+					},
+					{
+						"chance" : 30,
+						"combat_value" : 169,
+						"guards" : [
+							{
+								"type" : "skeleton",
+								"amount" : 20
+							},
+							{
+								"type" : "walkingDead",
+								"amount" : 20
+							},
+							{
+								"type" : "wight",
+								"amount" : 10
+							},
+							{
+								"type" : "vampire",
+								"amount" : 5
+							}
+						],
+						"reward" : {
+							"artifacts" : [
+								{ "class" : "TREASURE" }
+							],
+							"resources" : {
+								"gold" : 2500
+							},
+							"value" : 3500
+						}
+					},
+					{
+						"chance" : 10,
+						"combat_value" : 225,
+						"guards" : [
+							{
+								"type" : "skeleton",
+								"amount" : 20
+							},
+							{
+								"type" : "walkingDead",
+								"amount" : 20
+							},
+							{
+								"type" : "wight",
+								"amount" : 10
+							},
+							{
+								"type" : "vampire",
+								"amount" : 10
+							}
+						],
+						"reward" : {
+							"artifacts" : [
+								{ "class" : "TREASURE" }
+							],
+							"resources" : {
+								"gold" : 5000
+							},
+							"value" : 6000
+						}
+					}
+				]
+			}
+		}
+	},
+
+	"dragonUtopia" : {
+		"name" : "Dragon Utopia",
+		//"index" :25,
+		"handler": "bank",
+		"types" : {
+			"dragonUtopia" : {
+				"name" : "Dragon Utopia",
+				"index" : 0,
+				"resetDuration" : 0,
+				"aiValue" : 11000,
+				"rmg" : {
+					"rarity" : 100,
+					"value" : 10000
+				},
+				"sounds" : {
+					"ambient" : [
+						"creatureBanks/LOOPDRAG.wav"
+					],
+					"visit" : [
+						"creatureBanks/DRAGON.wav"
+					]
+				},
+				"levels" : [
+					{
+						"chance" : 30,
+						"combat_value" : 769,
+						"guards" : [
+							{
+								"type" : "greenDragon",
+								"amount" : 8
+							},
+							{
+								"type" : "redDragon",
+								"amount" : 5
+							},
+							{
+								"type" : "goldDragon",
+								"amount" : 2
+							},
+							{
+								"type" : "blackDragon",
+								"amount" : 1
+							}
+						],
+						"reward" : {
+							"artifacts" : [	
+								{ "class" : "TREASURE" },
+								{ "class" : "MINOR" },
+								{ "class" : "MAJOR" },
+								{ "class" : "RELIC" }
+							],
+							"resources" : {
+								"gold" : 20000
+							},
+							"value" : 38000
+						}
+					},
+					{
+						"chance" : 30,
+						"combat_value" : 209,
+						"guards" : [
+							{
+								"type" : "greenDragon",
+								"amount" : 8
+							},
+							{
+								"type" : "redDragon",
+								"amount" : 6
+							},
+							{
+								"type" : "goldDragon",
+								"amount" : 3
+							},
+							{
+								"type" : "blackDragon",
+								"amount" : 2
+							}
+						],
+						"reward" : {
+							"artifacts" : [	
+								{ "class" : "MINOR" },
+								{ "class" : "MAJOR" },
+								{ "class" : "RELIC" },
+								{ "class" : "RELIC" }
+							],
+							"resources" : {
+								"gold" : 30000
+							},
+							"value" : 57000
+						}
+					},
+					{
+						"chance" : 30,
+						"combat_value" : 556,
+						"guards" : [
+							{
+								"type" : "greenDragon",
+								"amount" : 8
+							},
+							{
+								"type" : "redDragon",
+								"amount" : 6
+							},
+							{
+								"type" : "goldDragon",
+								"amount" : 4
+							},
+							{
+								"type" : "blackDragon",
+								"amount" : 3
+							}
+						],
+						"reward" : {
+							"artifacts" : [	
+								{ "class" : "MAJOR" },
+								{ "class" : "RELIC" },
+								{ "class" : "RELIC" },
+								{ "class" : "RELIC" }
+							],
+							"resources" : {
+								"gold" : 40000
+							},
+							"value" : 75000
+						}
+					},
+					{
+						"chance" : 10,
+						"combat_value" : 343,
+						"guards" : [
+							{
+								"type" : "greenDragon",
+								"amount" : 8
+							},
+							{
+								"type" : "redDragon",
+								"amount" : 7
+							},
+							{
+								"type" : "goldDragon",
+								"amount" : 6
+							},
+							{
+								"type" : "blackDragon",
+								"amount" : 5
+							}
+						],
+						"reward" : {
+							"artifacts" : [	
+								{ "class" : "RELIC" },
+								{ "class" : "RELIC" },
+								{ "class" : "RELIC" },
+								{ "class" : "RELIC" }
+							],
+							"resources" : {
+								"gold" : 50000
+							},
+							"value" : 90000
+						}
+					}
+				]
+			}
+		}
+	},
+
+	"pyramid" : {
+		"name" : "Pyramid",
+		//"index" :63,
+		"handler": "bank",
+		"types" : {
+			"pyramid" : {
+				
+				"index" : 0,
+				"resetDuration" : 0,
+				"aiValue" : 8000,
+				"rmg" : {
+					"rarity" : 20,
+					"value" : 5000
+				}
+				"sounds" : {
+					"visit" : [ "creatureBanks/MYSTERY.wav" ]
+				}
+				"levels" : [
+					{
+						"chance" : 100,
+						"combat_value" : 786,
+						"guards" : [
+							{
+								"type" : "goldGolem",
+								"amount" : 20
+							},
+							{
+								"type" : "diamondGolem",
+								"amount" : 10
+							},
+							{
+								"type" : "goldGolem",
+								"amount" : 20
+							},
+							{
+								"type" : "diamondGolem",
+								"amount" : 10
+							}
+						],
+						"reward" : {
+							"spells" : [
+								{ "level" : 5 }
+							],
+							"value" : 15000
+						}
+					}
+				]
+			}
+		}
+	}
 }
