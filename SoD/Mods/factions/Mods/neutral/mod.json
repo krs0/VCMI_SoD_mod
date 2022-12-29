@@ -48,6 +48,8 @@
 		"config/creatures/firstAidTent.json",
 		"config/creatures/ballista.json",
 		"config/creatures/ammoCart.json",
-		"config/creatures/catapult.json"
+		"config/creatures/catapult.json",
+		
+		"config/creatures/arrowTower.json"
 	]
 }

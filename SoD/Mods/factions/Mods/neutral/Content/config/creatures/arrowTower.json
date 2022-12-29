@@ -1,0 +1,66 @@
+{
+	"arrowTower": {
+		"name" : {
+			"singular" : "Arrow Tower",
+			"plural" : "Arrow Towers"
+		},
+		"faction" : "neutral",
+		"level" : 0,
+		"cost" : {
+			"gold" : 1000
+		},
+		"speed" : 0,
+		"hitPoints" : 100,
+		"attack" : 10,
+		"defense" : 5,
+		"damage" : {
+			"min" : 2,
+			"max" : 4
+		},
+		"shots" : 99,
+		"growth" : 0,
+		"horde" : 0,
+		"aiValue" : 400,
+		"fightValue" : 5,
+		"advMapAmount" : {
+			"min" : 0,
+			"max" : 0
+		},
+		"abilities":
+		{
+			"shooter" : {
+				"type" : "SHOOTER"
+			},
+			"ignoreDefence" : {
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 100
+			},
+			"noWallPenalty" : {
+				"type" : "NO_WALL_PENALTY"
+			},
+			"noDistancePenalty" : {
+				"type" : "NO_DISTANCE_PENALTY"
+			},
+			"noRetalitation" : {
+				"type" : "BLOCKS_RANGED_RETALIATION"
+			},
+			"noLuck" : { 
+				"type" : "NO_LUCK"
+			}
+		},
+		"abilityText" : "Unlimited ammunition.",
+		"sound" : { },
+		"graphics" : {
+			"animation" : "CLCBOW.DEF",
+			"animationTime" : {
+				"attack" : 0,
+				"flight" : 0,
+				"idle" : 10,
+				"walk" : 0
+			},
+			"timeBetweenFidgets" : 0,
+			"troopCountLocationOffset" : 0
+		},
+		"special" : true
+	}
+}
