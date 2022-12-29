@@ -23,7 +23,7 @@
 					{
 						"adventureMap" : "creatureBanks/AVXbnk10.def",
 						"terrain" : "any"
-					},
+					}
 				],
 				"levels" : [
 					{

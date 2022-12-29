@@ -13,6 +13,10 @@
 	},
 	"spells" : 
 	[
-		"config/SoD/spellInfo.json"
+		"config/SoD/ability.json",
+		"config/SoD/adventure.json",
+		"config/SoD/offensive.json",
+		"config/SoD/other.json",
+		"config/SoD/timed.json"
 	]
 }

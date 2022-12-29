@@ -1,0 +1,641 @@
+{
+	"stoneGaze" : {
+		"index" : 70,
+		"name" : "Stone Gaze",
+		"type" : "ability",
+		"level" : 3,
+		"power" : 0,
+		"school" : { },
+		"targetType" : "NO_TARGET",
+		"targetCondition" : {
+			"noneOf" : {
+				"bonus.SIEGE_WEAPON" : "absolute"
+			}
+		},
+		"levels" : {
+			"base" : {
+				"effects" : {
+					"defenceBoost" : {
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primSkill.defence",
+						"val" : 50,
+						"valueType" : "PERCENT_TO_ALL",
+						"duration" : [
+							"UNTIL_BEING_ATTACKED",
+							"N_TURNS"
+						]
+					},
+					"noRetaliation" : {
+						"type" : "NO_RETALIATION",
+						"val" : 0,
+						"duration" : [
+							"UNTIL_BEING_ATTACKED",
+							"N_TURNS"
+						]
+					},
+					"notActive" : {
+						"type" : "NOT_ACTIVE",
+						"subtype" : "spell.stoneGaze",
+						"val" : 0,
+						"duration" : [
+							"UNTIL_BEING_ATTACKED",
+							"N_TURNS"
+						]
+					}
+				},
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
+				}
+			}
+		},
+		"flags" : {
+			"indifferent" : true
+		},
+		"animation" : {
+			//need special animation
+		},
+		"sounds" : {
+			"cast": "sounds/SoD/abilities/PARALYZE"
+		},
+		"gainChance" : {
+			"castle" : 12,
+			"conflux" : 13,
+			"dungeon" : 13,
+			"fortress" : 13,
+			"inferno" : 13,
+			"necropolis" : 12,
+			"rampart" : 13,
+			"stronghold" : 12,
+			"tower" : 12
+		}
+	},
+	
+	"poison" : {
+		"index" : 71,
+		"name" : "Poison",
+		"type" : "ability",
+		"level" : 0,
+		"power" : 0,
+		"school" : { },
+		"targetType": "NO_TARGET",
+		"targetCondition" : {
+			"noneOf" : {
+				"bonus.NON_LIVING" : "absolute",
+				"bonus.UNDEAD" : "absolute",
+				"bonus.SIEGE_WEAPON" : "absolute",
+				"bonus.GARGOYLE" : "absolute"
+			}
+		},
+		"levels" : {
+			"base" : {
+				"effects" : {
+					"poison" : {
+						"type" : "POISON",
+						"val" : 30,
+						"valueType" : "INDEPENDENT_MAX"
+						"duration" : "N_TURNS"
+					},
+					"stackHealth" : {
+						"type" : "STACK_HEALTH",
+						"val" : -10,
+						"valueType" : "PERCENT_TO_ALL",
+						"duration" : "N_TURNS"
+					}
+				},
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
+				}
+			}
+		},
+		"flags" : {
+			"negative" : true
+		},
+		"animation" : {
+			"affect" : ["sprites/SoD/abilities/SP11_"]
+		},
+		"sounds" : {
+			"cast" : "sounds/SoD/abilities/POISON"
+		},
+		"gainChance" : {
+			"castle" : 12,
+			"conflux" : 13,
+			"dungeon" : 13,
+			"fortress" : 13,
+			"inferno" : 13,
+			"necropolis" : 12,
+			"rampart" : 13,
+			"stronghold" : 12,
+			"tower" : 12
+		},
+	},
+	
+	"bind" : {
+		"index" : 72,
+		"name" : "Bind",
+		"type" : "ability",
+		"level" : 0,
+		"power" : 0,
+		"school" : { },
+		"targetType": "NO_TARGET",
+		"levels" : {
+			"base" : {
+				"effects" : {
+					"bindEffect" : {
+						"type" : "BIND_EFFECT",
+						"val" : 0,
+						"duration" : "PERMANENT",
+						"addInfo" : -1
+					}
+				},
+				"range" : "0"
+			}
+		},
+		"flags" : {
+			"indifferent" : true
+		},
+		"animation" : {
+			"affect" : ["sprites/SoD/abilities/SP02_"]
+		},
+		"sounds" : {
+			"cast" : "sounds/SoD/abilities/BIND"
+		},
+		"gainChance" : {
+			"castle" : 12,
+			"conflux" : 13,
+			"dungeon" : 13,
+			"fortress" : 13,
+			"inferno" : 13,
+			"necropolis" : 12,
+			"rampart" : 13,
+			"stronghold" : 12,
+			"tower" : 12
+		}
+	},
+	
+	"disease" : {
+		"index" : 73,
+		"type" : "ability",
+		"name" : "Disease",
+		"level" : 2,
+		"power" : 0,
+		"school" : { },
+		"targetType": "NO_TARGET",
+		"targetCondition" : {
+			"noneOf" : {
+				"bonus.NON_LIVING" : "normal",
+				"bonus.UNDEAD" : "normal",
+				"bonus.SIEGE_WEAPON" : "absolute"
+			}
+		},
+		"levels" : {
+			"base" : {
+				"effects" : {
+					"attack" : {
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primSkill.attack",
+						"val" : -2,
+						"duration" : "N_TURNS"
+					},
+					"defence" : {
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primSkill.defence",
+						"val" : -2,
+						"duration" : "N_TURNS"
+					}
+				},
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
+				}
+			}
+		},
+		"flags" : {
+			"negative" : true
+		},
+		"animation" : {
+			"affect" : ["sprites/SoD/abilities/SP05_"]
+		},
+		"sounds": {
+			"cast": "sounds/SoD/abilities/DISEASE"
+		},
+		"gainChance" : {
+			"castle" : 12,
+			"conflux" : 13,
+			"dungeon" : 13,
+			"fortress" : 13,
+			"inferno" : 13,
+			"necropolis" : 12,
+			"rampart" : 13,
+			"stronghold" : 12,
+			"tower" : 12
+		}
+	},
+	
+	"paralyze" : {
+		"index" : 74,
+		"name" : "Paralyze",
+		"level" : 4,
+		"power" : 0,
+		"school" : { },
+		"type" : "ability",
+		"targetType": "NO_TARGET",
+		"targetCondition" : {
+			"noneOf" : {
+				"bonus.SIEGE_WEAPON" : "absolute"
+			}
+		},
+		"levels" : {
+			"base" : {
+				"effects" : {
+					"noRetaliation" : {
+						"type" : "NO_RETALIATION",
+						"val" : 0,
+						"duration" : [
+							"UNTIL_BEING_ATTACKED",
+							"N_TURNS"
+						]
+					},
+					"notActive" : {
+						"type" : "NOT_ACTIVE",
+						"subtype" : "spell.paralyze",
+						"val" : 0,
+						"duration" : [
+							"UNTIL_BEING_ATTACKED",
+							"N_TURNS"
+						]
+					}
+				},
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
+				}
+			}
+		},
+		"flags" : {
+			"negative" : true
+		},
+		"animation" : {
+			"affect" : ["sprites/SoD/abilities/SP10_"]
+		},
+		"sounds" : {
+			"cast" : "sounds/SoD/abilities/PARALYZE"
+		},
+		"gainChance" : {
+			"castle" : 12,
+			"conflux" : 13,
+			"dungeon" : 13,
+			"fortress" : 13,
+			"inferno" : 13,
+			"necropolis" : 12,
+			"rampart" : 13,
+			"stronghold" : 12,
+			"tower" : 12
+		},
+	},
+	
+	"age" : {
+		"index" : 75,
+		"name" : "Age",
+		"level" : 5,
+		"power" : 0,
+		"school" : { },
+		"type" : "ability",
+		"targetType": "NO_TARGET",
+		"targetCondition" : {
+			"noneOf" : {
+				"bonus.NON_LIVING" : "absolute",
+				"bonus.UNDEAD" : "absolute",
+				"bonus.SIEGE_WEAPON" : "absolute",
+				"bonus.GARGOYLE" : "absolute"
+			}
+		},
+		"levels" : {
+			"base" : {
+				"effects" : {
+					"stackHealth" : {
+						"type" : "STACK_HEALTH",
+						"val" : -50,
+						"valueType" : "PERCENT_TO_ALL",
+						"duration" : "N_TURNS"
+					}
+				},
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
+				}
+			}
+		},
+		"flags" : {
+			"negative" : true
+		},
+		"animation" : {
+			"affect" : ["sprites/SoD/abilities/SP01_"]
+		},
+		"sounds" : {
+			"cast" : "sounds/SoD/abilities/AGE"
+		},
+		"gainChance" : {
+			"castle" : 12,
+			"conflux" : 13,
+			"dungeon" : 13,
+			"fortress" : 13,
+			"inferno" : 13,
+			"necropolis" : 12,
+			"rampart" : 13,
+			"stronghold" : 12,
+			"tower" : 12
+		}
+	},
+	
+	"deathCloud" : {
+		"index" : 76,
+		"name" : "Death Cloud",
+		"type" : "ability",
+		"power" : 0,
+		"school" : { },
+		"level" : 0,
+		"targetType": "NO_TARGET",
+		"targetCondition" : {
+			"noneOf" : {
+				"bonus.NON_LIVING" : "absolute",
+				"bonus.UNDEAD" : "absolute",
+				"bonus.SIEGE_WEAPON" : "absolute",
+				"bonus.GARGOYLE" : "absolute"
+			}
+		}
+		"levels" : {
+			"base" : {
+				"battleEffects" : {
+					"damage" : {
+						"type" : "core:damage"
+					}
+				},
+				"range" : "0-1"
+			}
+		},
+		"flags" : {
+			"indifferent" : true
+		},
+		"animation" : {
+			"hit" : ["sprites/SoD/abilities/SP04_"]
+		},
+		"sounds": {
+			"cast" : "sounds/SoD/abilities/DEATHCLD"
+		},
+		"gainChance" : {
+			"castle" : 12,
+			"conflux" : 13,
+			"dungeon" : 13,
+			"fortress" : 13,
+			"inferno" : 13,
+			"necropolis" : 12,
+			"rampart" : 13,
+			"stronghold" : 12,
+			"tower" : 12
+		},
+	},
+	
+	"thunderbolt" : {
+		"index" : 77,
+		"name" : "Thunderbolt",
+		"type" : "ability",
+		"level" : 0,
+		"power" : 0,
+		"school" : { },
+		"targetType": "NO_TARGET",
+		"levels" : {
+			"base" : {
+				"battleEffects" : {
+					"damage" : {
+						"type" : "core:damage"
+					}
+				},
+				"range" : "0"
+			}
+		},
+		"flags" : {
+			"damage" : true,
+			"negative" : true
+		},
+		"animation" : {
+			"affect" : [
+				{
+					"defName" : "sprites/SoD/abilities/C03SPA0",
+					"verticalPosition" : "bottom"
+				},
+				"C11SPA1"
+			]
+		},
+		"sounds" : {
+			"cast" : "sounds/SoD/abilities/LIGHTBLT"
+		},
+		"gainChance" : {
+			"castle" : 12,
+			"conflux" : 13,
+			"dungeon" : 13,
+			"fortress" : 13,
+			"inferno" : 13,
+			"necropolis" : 12,
+			"rampart" : 13,
+			"stronghold" : 12,
+			"tower" : 12
+		},
+	},
+	
+	"dispelHelpful" : {
+		"index" : 78,
+		"name" : "Dispel Helpful Spells",
+		"type" : "ability",
+		"level" : 0,
+		"power" : 0,
+		"school" : { },
+		"targetType": "NO_TARGET",
+		"levels" : {
+			"base" : {
+				"battleEffects" : {
+					"dispel" : {
+						"type" : "core:dispel"
+						"dispelNegative" : false,
+						"dispelNeutral" : false,
+						"dispelPositive" : true,
+						"ignoreImmunity" : true
+					}
+				},
+				"range" : "0"
+			}
+		},
+		"flags" : {
+			"negative" : true
+		},
+		"animation" : {
+			"affect" : ["sprites/SoD/abilities/C05SPW"]
+		},
+		"sounds": {
+			"cast" : "sounds/SoD/abilities/DISPELL"
+		},
+		"gainChance" : {
+			"castle" : 1,
+			"conflux" : 1,
+			"dungeon" : 1,
+			"fortress" : 1,
+			"inferno" : 1,
+			"necropolis" : 1,
+			"rampart" : 1,
+			"stronghold" : 1,
+			"tower" : 1
+		}
+	},
+	
+	"deathStare" : {
+		"index" : 79,
+		"name" : "Death Stare",
+		"type" : "ability",
+		"level" : 0,
+		"power" : 0,
+		"school" : { },
+		"targetType": "NO_TARGET",
+		"targetCondition" : {
+			"noneOf" : {
+				"bonus.NON_LIVING" : "absolute",
+				"bonus.UNDEAD" : "absolute",
+				"bonus.SIEGE_WEAPON" : "absolute",
+				"bonus.GARGOYLE" : "absolute"
+			}
+		},
+		"levels" : {
+			"base" : {
+				"battleEffects" : {
+					"destruction" : {
+						"type" : "core:damage",
+						"killByCount" : true
+					}
+				},
+				"range" : "0"
+			}
+		},
+		"flags" : {
+			"indifferent" : true
+		},
+		"animation" : {
+			"affect" : ["sprites/SoD/abilities/C07SPE0"]
+		},
+		"sounds": {
+			"cast" : "sounds/SoD/abilities/DEATHSTR"
+		},
+			"gainChance" : {
+			"castle" : 1,
+			"conflux" : 1,
+			"dungeon" : 1,
+			"fortress" : 1,
+			"inferno" : 1,
+			"necropolis" : 1,
+			"rampart" : 1,
+			"stronghold" : 1,
+			"tower" : 1
+		}
+	},
+	
+	"acidBreath" : {
+		"index" : 80,
+		"name" : "Acid breath",
+		"type" : "ability",
+		"level" : 0,
+		"power" : 0,
+		"school" : { },
+		"targetType": "NO_TARGET",
+		"levels" : {
+			"base" : {
+				"battleEffects" : {
+					"timed" : {
+						"bonus" : {
+							"primarySkill" : {
+								"type" : "PRIMARY_SKILL",
+								"subtype" : "primSkill.defence",
+								"val" : -3,
+								"valueType" : "ADDITIVE_VALUE",
+								"duration" : "PERMANENT"
+							}
+						},
+						"type" : "core:timed",
+						"cumulative" : true,
+						"ignoreImmunity" : true
+					}
+				},
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
+				}
+			}
+		},
+		"flags" : {
+			"indifferent" : true
+		},
+		"animation" : {
+			"affect" : ["sprites/SoD/abilities/C17SPW0"]
+		},
+		"sounds" : {
+			"cast" : "sounds/SoD/abilities/ACID"
+		},
+		"gainChance" : {
+			"castle" : 1,
+			"conflux" : 1,
+			"dungeon" : 1,
+			"fortress" : 1,
+			"inferno" : 1,
+			"necropolis" : 1,
+			"rampart" : 1,
+			"stronghold" : 1,
+			"tower" : 1
+		},
+	},
+	
+	"acidBreathDamage" : {
+		"index" : 81,
+		"name" : "Acid breath",
+		"type" : "ability",
+		"level" : 0,
+		"power" : 0,
+		"school" : { },
+		"targetType": "NO_TARGET",
+		"targetCondition" : {
+			"noneOf" : {
+				"bonus.DIRECT_DAMAGE_IMMUNITY" : "normal"
+			}
+		},
+		"levels" : {
+			"base" : {
+				"battleEffects" : {
+					"damage" : {
+						"type" : "core:damage",
+						"ignoreImmunity" : true
+					}
+				},
+				"range" : "0"
+			}
+		},
+		"flags" : {
+			"damage" : true,
+			"indifferent" : true
+		},
+
+		"animation" : {
+			"affect" : ["sprites/SoD/abilities/C17SPW0"]
+		},
+		"sounds" : {
+			"cast" : "sounds/SoD/abilities/ACID"
+		},
+		"gainChance" : {
+			"castle" : 1,
+			"conflux" : 1,
+			"dungeon" : 1,
+			"fortress" : 1,
+			"inferno" : 1,
+			"necropolis" : 1,
+			"rampart" : 1,
+			"stronghold" : 1,
+			"tower" : 1
+		}
+	}
+}
