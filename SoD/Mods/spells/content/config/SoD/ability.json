@@ -56,7 +56,7 @@
 			//need special animation
 		},
 		"sounds" : {
-			"cast": "sounds/SoD/abilities/PARALYZE"
+			"cast": "spells/SoD/abilities/PARALYZE"
 		},
 		"gainChance" : {
 			"castle" : 12,
@@ -113,10 +113,10 @@
 			"negative" : true
 		},
 		"animation" : {
-			"affect" : ["sprites/SoD/abilities/SP11_"]
+			"affect" : ["spells/SoD/abilities/SP11_"]
 		},
 		"sounds" : {
-			"cast" : "sounds/SoD/abilities/POISON"
+			"cast" : "spells/SoD/abilities/POISON"
 		},
 		"gainChance" : {
 			"castle" : 12,
@@ -156,10 +156,10 @@
 			"indifferent" : true
 		},
 		"animation" : {
-			"affect" : ["sprites/SoD/abilities/SP02_"]
+			"affect" : ["spells/SoD/abilities/SP02_"]
 		},
 		"sounds" : {
-			"cast" : "sounds/SoD/abilities/BIND"
+			"cast" : "spells/SoD/abilities/BIND"
 		},
 		"gainChance" : {
 			"castle" : 12,
@@ -215,10 +215,10 @@
 			"negative" : true
 		},
 		"animation" : {
-			"affect" : ["sprites/SoD/abilities/SP05_"]
+			"affect" : ["spells/SoD/abilities/SP05_"]
 		},
 		"sounds": {
-			"cast": "sounds/SoD/abilities/DISEASE"
+			"cast": "spells/SoD/abilities/DISEASE"
 		},
 		"gainChance" : {
 			"castle" : 12,
@@ -277,10 +277,10 @@
 			"negative" : true
 		},
 		"animation" : {
-			"affect" : ["sprites/SoD/abilities/SP10_"]
+			"affect" : ["spells/SoD/abilities/SP10_"]
 		},
 		"sounds" : {
-			"cast" : "sounds/SoD/abilities/PARALYZE"
+			"cast" : "spells/SoD/abilities/PARALYZE"
 		},
 		"gainChance" : {
 			"castle" : 12,
@@ -331,10 +331,10 @@
 			"negative" : true
 		},
 		"animation" : {
-			"affect" : ["sprites/SoD/abilities/SP01_"]
+			"affect" : ["spells/SoD/abilities/SP01_"]
 		},
 		"sounds" : {
-			"cast" : "sounds/SoD/abilities/AGE"
+			"cast" : "spells/SoD/abilities/AGE"
 		},
 		"gainChance" : {
 			"castle" : 12,
@@ -379,10 +379,10 @@
 			"indifferent" : true
 		},
 		"animation" : {
-			"hit" : ["sprites/SoD/abilities/SP04_"]
+			"hit" : ["spells/SoD/abilities/SP04_"]
 		},
 		"sounds": {
-			"cast" : "sounds/SoD/abilities/DEATHCLD"
+			"cast" : "spells/SoD/abilities/DEATHCLD"
 		},
 		"gainChance" : {
 			"castle" : 12,
@@ -422,14 +422,14 @@
 		"animation" : {
 			"affect" : [
 				{
-					"defName" : "sprites/SoD/abilities/C03SPA0",
+					"defName" : "spells/SoD/abilities/C03SPA0",
 					"verticalPosition" : "bottom"
 				},
 				"C11SPA1"
 			]
 		},
 		"sounds" : {
-			"cast" : "sounds/SoD/abilities/LIGHTBLT"
+			"cast" : "spells/SoD/abilities/LIGHTBLT"
 		},
 		"gainChance" : {
 			"castle" : 12,
@@ -470,10 +470,10 @@
 			"negative" : true
 		},
 		"animation" : {
-			"affect" : ["sprites/SoD/abilities/C05SPW"]
+			"affect" : ["spells/SoD/abilities/C05SPW"]
 		},
 		"sounds": {
-			"cast" : "sounds/SoD/abilities/DISPELL"
+			"cast" : "spells/SoD/abilities/DISPELL"
 		},
 		"gainChance" : {
 			"castle" : 1,
@@ -519,10 +519,10 @@
 			"indifferent" : true
 		},
 		"animation" : {
-			"affect" : ["sprites/SoD/abilities/C07SPE0"]
+			"affect" : ["spells/SoD/abilities/C07SPE0"]
 		},
 		"sounds": {
-			"cast" : "sounds/SoD/abilities/DEATHSTR"
+			"cast" : "spells/SoD/abilities/DEATHSTR"
 		},
 			"gainChance" : {
 			"castle" : 1,
@@ -573,10 +573,10 @@
 			"indifferent" : true
 		},
 		"animation" : {
-			"affect" : ["sprites/SoD/abilities/C17SPW0"]
+			"affect" : ["spells/SoD/abilities/C17SPW0"]
 		},
 		"sounds" : {
-			"cast" : "sounds/SoD/abilities/ACID"
+			"cast" : "spells/SoD/abilities/ACID"
 		},
 		"gainChance" : {
 			"castle" : 1,
@@ -621,10 +621,10 @@
 		},
 
 		"animation" : {
-			"affect" : ["sprites/SoD/abilities/C17SPW0"]
+			"affect" : ["spells/SoD/abilities/C17SPW0"]
 		},
 		"sounds" : {
-			"cast" : "sounds/SoD/abilities/ACID"
+			"cast" : "spells/SoD/abilities/ACID"
 		},
 		"gainChance" : {
 			"castle" : 1,

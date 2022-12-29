@@ -1,274 +1,670 @@
 {
 	"summonBoat" : {
 		"index" : 0,
-		
-		"targetType": "NO_TARGET",
-		"sounds": {
-			"cast": "SUMMBOAT"
+		"name" : "Summon Boat",
+		"type" : "adventure",
+		"level" : 1,
+		"power" : 0,
+		"school" : {
+			"water" : true
 		},
-		"levels" :{
-			"base":{
+		"targetType": "NO_TARGET",
+		"levels" : {
+			"base" : {
 				"range" : "X"
+			},
+			"none" : {
+				"cost" : 8,
+				"power" : 50,
+				"aiValue" : 10,
+				"description" : "{Summon Boat}\n\nSummons an existing, friendly, unoccupied boat from anywhere in the world to your location.\n\nChances for success are 50%.\n",
+			},
+			"basic" : {
+				"cost" : 7,
+				"power" : 50,
+				"aiValue" : 10,
+				"description" : "{Basic Summon Boat}\n\nSummons an existing, friendly, unoccupied boat from anywhere in the world to your location.\n\nChances for success are 50%.\n",
+			},
+			"advanced" : {
+				"cost" : 7,
+				"power" : 75,
+				"aiValue" : 20,
+				"description" : "{Advanced Summon Boat}\n\nSummons an existing, friendly, unoccupied boat from anywhere in the world to your location.  If no boats exist, one is created.\n\nChances for success are 75%.\n",
+			},
+			"expert" : {
+				"cost" : 7,
+				"power" : 100,
+				"aiValue" : 20,
+				"description" : "{Expert Summon Boat}\n\nSummons an existing, friendly, unoccupied boat from anywhere in the world to your location.  If no boats exist, one is created.\n",
 			}
 		},
 		"flags" : {
 			"indifferent": true
+		},
+		"sounds": {
+			"cast": "spells/SoD/adventure/SUMMBOAT"
+		},
+		"gainChance" : {
+			"castle" : 3,
+			"conflux" : 3,
+			"dungeon" : 5,
+			"fortress" : 3,
+			"inferno" : 5,
+			"necropolis" : 3,
+			"rampart" : 5,
+			"stronghold" : 5,
+			"tower" : 5
 		}
 	},
+	
 	"scuttleBoat" : {
 		"index" : 1,
-		"targetType": "LOCATION",
-		
-		"sounds": {
-			"cast": "SCUTBOAT"
+		"name" : "Scuttle Boat",
+		"type" : "adventure",
+		"level" : 2,
+		"power" : 0,
+		"school" : {
+			"water" : true
 		},
+		"targetType": "LOCATION",
 		"levels" : {
-			"base":{
+			"base" : {
 				"range" : "X"
+			},
+			"none" : {
+				"cost" : 8,
+				"power" : 50,
+				"aiValue" : 1,
+				"description" : "{Scuttle Boat}\n\nDestroys a boat you own.  Use with caution, the effects are permanent.\n\nChances for success are 50%.\n",
+			}
+			"basic" : {
+				"cost" : 6,
+				"power" : 50,
+				"aiValue" : 1,
+				"description" : "{Basic Scuttle Boat}\n\nDestroys a boat you own.  Use with caution, the effects are permanent.\n\nChances for success are 50%.\n",
+			},
+			"advanced" : {
+				"cost" : 6,
+				"power" : 75,
+				"aiValue" : 1,
+				"description" : "{Advanced Scuttle Boat}\n\nDestroys a boat you own.  Use with caution, the effects are permanent.\n\nChances for success are 75%.\n",
+			},
+			"expert" : {
+				"cost" : 6,
+				"power" : 100,
+				"aiValue" : 1,
+				"description" : "{Expert Scuttle Boat}\n\nDestroys a boat you own.  Use with caution, the effects are permanent.\n",
 			}
 		},
 		"flags" : {
 			"indifferent": true
-		}
+		},
+		"sounds": {
+			"cast": "spells/SoD/adventure/SCUTBOAT"
+		},
+		"gainChance" : {
+			"castle" : 6,
+			"conflux" : 4,
+			"dungeon" : 4,
+			"fortress" : 4,
+			"inferno" : 4,
+			"necropolis" : 4,
+			"rampart" : 4,
+			"stronghold" : 4,
+			"tower" : 4
+		},
 	},
+	
 	"visions" : {
 		"index" : 2,
-		"targetType": "NO_TARGET",
-		
-		"sounds": {
-			"cast": "VISIONS"
+		"name" : "Visions",
+		"type" : "adventure",
+		"level" : 2,
+		"power" : 0,
+		"school" : {
+			"air" : true,
+			"earth" : true,
+			"fire" : true,
+			"water" : true
 		},
+		"targetType": "NO_TARGET",
 		"levels" : {
-			"base":{
-				"range" : "0",
+			"base" : {
 				"effects" : {
 					"visionsMonsters" : {
 						"type" : "VISIONS",
 						"subtype" : 0,
-						"duration" : "ONE_DAY",
 						"val" : 1,
-						"valueType" : "INDEPENDENT_MAX"
+						"valueType" : "INDEPENDENT_MAX",
+						"duration" : "ONE_DAY"
 					}
-				}				
+				},
+				"range" : "0"
 			},
-			"advanced":{
+			"none" : {
+				"cost" : 4,
+				"power" : 1,
+				"aiValue" : 1,
+				"description" : "{Visions}\n\nGives you a basic idea of the strength of an opposing army, hero, or garrison.\n",
+			},
+			"basic" : {
+				"cost" : 2,
+				"power" : 1,
+				"aiValue" : 1,
+				"description" : "{Basic Visions}\n\nGives you a basic idea of the strength of an opposing hero or garrison.  In the case of nearby wandering monsters, gives you exact numbers of troops and tells you if they would be willing to join your hero.\n",
+			},
+			"advanced" : {
+				"cost" : 2,
+				"power" : 2,
+				"aiValue" : 1,
 				"effects" : {
-					"visionsMonsters" : {
-						"val" : 2
-					},
-					"visionsHeroes" :{
+					"visionsHeroes" : {
 						"type" : "VISIONS",
 						"subtype" : 1,
-						"duration" : "ONE_DAY",
 						"val" : 2,
-						"valueType" : "INDEPENDENT_MAX"					
+						"valueType" : "INDEPENDENT_MAX",
+						"duration" : "ONE_DAY"
+					},
+					"visionsMonsters" : {
+						"val" : 2
 					}
-					
-				}			
+				},
+				"description" : "{Advanced Visions}\n\nGives you a basic idea of the strength of an opposing garrison.  In the case of nearby wandering monsters, gives you exact numbers of troops and tells you if they would be willing to join your hero.  Allows you to view a nearby enemy hero's primary skill statistics, creature type and quantity, as if the hero was part of your kingdom.\n",
 			},
-			"expert":{
+			"expert" : {
+				"cost" : 2,
+				"power" : 3
+				"aiValue" : 1,
 				"effects" : {
+					"visionsHeroes" : {
+						"type" : "VISIONS",
+						"subtype" : 1,
+						"val" : 3,
+						"valueType" : "INDEPENDENT_MAX",
+						"duration" : "ONE_DAY"
+					},
 					"visionsMonsters" : {
 						"val" : 3
 					},
-					"visionsHeroes" :{
-						"type" : "VISIONS",
-						"subtype" : 1,
-						"duration" : "ONE_DAY",
-						"val" : 3,
-						"valueType" : "INDEPENDENT_MAX"					
-					},
-					"visionsTowns" :{
+					"visionsTowns" : {
 						"type" : "VISIONS",
 						"subtype" : 2,
-						"duration" : "ONE_DAY",
 						"val" : 3,
-						"valueType" : "INDEPENDENT_MAX"					
+						"valueType" : "INDEPENDENT_MAX",
+						"duration" : "ONE_DAY"
 					}
-				}			
+				},
+				"description" : "{Expert Visions}\n\nGives you exact numbers of wandering monsters and tells you if they would be willing to join your hero.  Allows you to view a nearby enemy hero's primary skill statistics, creature type and quantity, as if the hero was part of your kingdom, as well as a nearby town's statistics, garrison creatures and quantity.\n",
 			}
 		},
 		"flags" : {
 			"indifferent": true
-		}
+		},
+		"sounds": {
+			"cast": "spells/SoD/adventure/VISIONS"
+		},
+		"gainChance" : {
+			"castle" : 2,
+			"conflux" : 2,
+			"dungeon" : 2,
+			"fortress" : 2,
+			"inferno" : 4,
+			"necropolis" : 2,
+			"rampart" : 2,
+			"stronghold" : 2,
+			"tower" : 2
+		},
 	},
+	
 	"viewEarth" : {
 		"index" : 3,
-		"targetType": "NO_TARGET",
-		
-		"sounds": {
-			"cast": "VIEW"
+		"name" : "View Earth",
+		"type" : "adventure",
+		"level" : 1,
+		"power" : 0,
+		"school" : {
+			"earth" : true
 		},
+		"targetType": "NO_TARGET",
 		"levels" : {
-			"base":{
+			"base" : {
 				"range" : "X"
+			},
+			"none" : {
+				"cost" : 2,
+				"power" : 0,
+				"aiValue" : 1,
+				"description" : "{View earth}\n\nReveals the location of all resources to the caster.\n",
 			}
+			"basic" : {
+				"cost" : 1,
+				"power" : 0,
+				"aiValue" : 1,
+				"description" : "{Basic View Earth}\n\nReveals the location of all resources to the caster.\n",
+			},
+			"advanced" : {
+				"cost" : 1,
+				"power" : 0,
+				"aiValue" : 1,
+				"description" : "{Advanced View Earth}\n\nReveals the location of all resources and mines to the caster.\n",
+			},
+			"expert" : {
+				"cost" : 1,
+				"power" : 0,
+				"aiValue" : 1,
+				"description" : "{Expert View Earth}\n\nReveals the location of all resources and mines and reveals all terrain to the caster.\n",
+			},
 		},
 		"flags" : {
 			"indifferent": true
+		},
+		"sounds": {
+			"cast": "spells/SoD/adventure/VIEW"
+		},
+		"gainChance" : {
+			"castle" : 3,
+			"conflux" : 3,
+			"dungeon" : 3,
+			"fortress" : 3,
+			"inferno" : 3,
+			"necropolis" : 3,
+			"rampart" : 3,
+			"stronghold" : 3,
+			"tower" : 3
 		}
 	},
+	
 	"disguise" : {
 		"index" : 4,
-		"targetType": "NO_TARGET",
-		
-		"sounds": {
-			"cast": "DISGUISE"
+		"name" : "Disguise",
+		"type" : "adventure",
+		"level" : 2,
+		"power" : 0,
+		"school" : {
+			"air" : true
 		},
+		"targetType": "NO_TARGET",
 		"levels" : {
-			"base":{
-				"range" : "0",
+			"base" : {
 				"effects" : {
 					"stealth" : {
 						"type" : "DISGUISED",
-						"subtype" : 0, //required
-						"duration" : "ONE_DAY",
+						"subtype" : 0,
 						"val" : 1,
-						"valueType" : "INDEPENDENT_MAX"
+						"valueType" : "INDEPENDENT_MAX",
+						"duration" : "ONE_DAY"
 					}
-				}				
+				},
+				"range" : "0"
 			},
-			"advanced":{
-				"effects" : {
-					"stealth" : {
-						"val" : 2
-					}					
-				}			
+			"none" : {
+				"cost" : 4,
+				"power" : 0,
+				"aiValue" : 1,
+				"description" : "{Disguise}\n\nGives false information to an enemy attempting to view your hero.\n",
+			}
+			"basic" : {
+				"cost" : 2,
+				"power" : 0,
+				"aiValue" : 1,
+				"description" : "{Basic Disguise}\n\nMakes all units in your army look like your most powerful unit to enemies trying to view your hero.  Numbers in each group are unchanged.\n",
 			},
-			"expert":{
+			"advanced" : {
+				"cost" : 2,
+				"power" : 0
+				"aiValue" : 1,
 				"effects" : {
-					"stealth" : {
-						"val" : 3
-					}
-				}			
+					"stealth" : { "val" : 2 }
+				},
+				"description" : "{Advanced Disguise}\n\nMakes all units in your army look like your most powerful unit to enemies trying to view your hero.  Numbers in each group appear as zero.\n",
+			},
+			"expert" : {
+				"cost" : 2,
+				"power" : 0,
+				"aiValue" : 1,
+				"effects" : {
+					"stealth" : { "val" : 3 }
+				},
+				"description" : "{Expert Disguise}\n\nMakes all units in your army look like the most powerful unit affiliated to your hero type to enemies trying to view your hero.  Numbers in each group appear as zero.\n",
 			}
 		},
 		"flags" : {
 			"indifferent": true
+		},
+		"sounds": {
+			"cast": "spells/SoD/adventure/DISGUISE"
+		},
+		"gainChance" : {
+			"castle" : 2,
+			"conflux" : 2,
+			"dungeon" : 2,
+			"fortress" : 0,
+			"inferno" : 4,
+			"necropolis" : 2,
+			"rampart" : 2,
+			"stronghold" : 2,
+			"tower" : 2
 		}
 	},
+	
 	"viewAir" : {
 		"index" : 5,
-		"targetType": "NO_TARGET",
-		
-		"sounds": {
-			"cast": "VIEW"
+		"name" : "View Air",
+		"type" : "adventure",
+		"level" : 1,
+		"power" : 0,
+		"school" : {
+			"air" : true
 		},
+		"targetType": "NO_TARGET",
 		"levels" : {
-			"base":{
+			"base" : {
 				"range" : "X"
+			},
+			"none" : {
+				"cost" : 2,
+				"power" : 0,
+				"aiValue" : 1,
+				"description" : "{View Air}\n\nReveals the location of all unclaimed artifacts to the caster.\n",
+			},
+			"basic" : {
+				"cost" : 1,
+				"power" : 0,
+				"aiValue" : 1,
+				"description" : "{Basic View Air}\n\nReveals the location of all unclaimed artifacts to the caster.\n",
+			},
+			"advanced" : {
+				"cost" : 1,
+				"power" : 0,
+				"aiValue" : 1,
+				"description" : "{Advanced View Air}\n\nReveals the location of all unclaimed artifacts, plus enemy heroes to the caster.\n",
+			},
+			"expert" : {
+				"cost" : 1,
+				"power" : 0,
+				"aiValue" : 1,
+				"description" : "{Expert View Air}\n\nReveals the location of all unclaimed artifacts, plus enemy heroes and towns to the caster.\n",
 			}
 		},
 		"flags" : {
 			"indifferent": true
+		},
+		"sounds": {
+			"cast": "spells/SoD/adventure/VIEW"
+		},
+		"gainChance" : {
+			"castle" : 3,
+			"conflux" : 3,
+			"dungeon" : 3,
+			"fortress" : 3,
+			"inferno" : 3,
+			"necropolis" : 3,
+			"rampart" : 3,
+			"stronghold" : 3,
+			"tower" : 3
 		}
 	},
+	
 	"fly" : {
 		"index" : 6,
-		"targetType": "NO_TARGET",
-		
-		"sounds": {
-			"cast": "FLYSPELL"
+		"name" : "Fly",
+		"type" : "adventure",
+		"level" : 5,
+		"power" : 0,
+		"school" : {
+			"air" : true
 		},
+		"targetType": "NO_TARGET",
 		"levels" : {
-			"base":{
-				"range" : "0",
+			"base" : {
 				"effects" : {
 					"fly" : {
 						"type" : "FLYING_MOVEMENT",
-						"duration" : "ONE_DAY",
 						"val" : 40,
-						"valueType" : "INDEPENDENT_MIN"
+						"valueType" : "INDEPENDENT_MIN",
+						"duration" : "ONE_DAY"
 					}
-				}				
+				},
+				"range" : "0"
 			},
-			"advanced":{
-				"effects" : {
-					"fly" : {
-						"val" : 20
-					}
-				}			
+			"none" : {
+				"cost" : 20,
+				"power" : 60,
+				"aiValue" : 30,
+				"description" : "{Fly}\n\nAllows your army to use part of its movement to fly over obstacles.  You must land at the end of the turn.\n",
 			},
-			"expert":{
+			"basic" : {
+				"cost" : 15,
+				"power" : 60,
+				"aiValue" : 30,
+				"description" : "{Basic Fly}\n\nAllows your army to use part of its movement to fly over obstacles.  You must land at the end of the turn.\n",
+			},
+			"advanced" : {
+				"cost" : 15,
+				"power" : 80,
+				"aiValue" : 40,
 				"effects" : {
-					"fly" : {
-						"val" : 0
-					}
-				}			
+					"fly" : { "val" : 20 }
+				},
+				"description" : "{Advanced Fly}\n\nAllows your army to use most of its movement to fly over obstacles.  You must land at the end of the turn.\n",
+			},
+			"expert" : {
+				"cost" : 15,
+				"power" : 100,
+				"aiValue" : 50,
+				"effects" : {
+					"fly" : { "val" : 0 }
+				},
+				"description" : "{Expert Fly}\n\nAllows your army to use up to all of its movement to fly over obstacles.  You must land at the end of the turn.\n",
 			}
 		},
 		"flags" : {
 			"indifferent": true
+		},	
+		"sounds": {
+			"cast": "spells/SoD/adventure/FLYSPELL"
+		},
+		"gainChance" : {
+			"castle" : 0,
+			"conflux" : 13,
+			"dungeon" : 12,
+			"fortress" : 0,
+			"inferno" : 16,
+			"necropolis" : 16,
+			"rampart" : 16,
+			"stronghold" : 0,
+			"tower" : 16
 		}
 	},
+	
 	"waterWalk" : {
 		"index" : 7,
-		"targetType": "NO_TARGET",
-		
-		"sounds": {
-			"cast": "WATRWALK"
+		"name" : "Water Walk",
+		"type" : "adventure",
+		"level" : 4,
+		"power" : 0,
+		"school" : {
+			"water" : true
 		},
+		"targetType": "NO_TARGET",
 		"levels" : {
-			"base":{
-				"range" : "0",
+
+			"base" : {
 				"effects" : {
 					"waterWalk" : {
 						"type" : "WATER_WALKING",
-						"duration" : "ONE_DAY",
 						"val" : 40,
-						"valueType" : "INDEPENDENT_MIN"
+						"valueType" : "INDEPENDENT_MIN",
+						"duration" : "ONE_DAY"
 					}
-				}				
+				},
+				"range" : "0"
 			},
-			"advanced":{
-				"effects" : {
-					"waterWalk" : {
-						"val" : 20
-					}
-				}			
+			"none" : {
+				"cost" : 12,
+				"power" : 60,
+				"aiValue" : 15,
+				"description" : "{Water Walk}\n\nAllows your army to use part of its movement to walk across bodies of water.  You must end your movement on dry land.\n",
 			},
-			"expert":{
+			"basic" : {
+				"cost" : 8,
+				"power" : 60,
+				"aiValue" : 15,
+				"description" : "{Basic Water Walk}\n\nAllows your army to use part of its movement to walk across bodies of water.  You must end your movement on dry land.\n",
+			},
+			"advanced" : {
+				"cost" : 8,
+				"power" : 80,
+				"aiValue" : 20,
 				"effects" : {
-					"waterWalk" : {
-						"val" : 0
-					}
-				}			
+					"waterWalk" : { "val" : 20 }
+				},
+				"description" : "{Advanced Water Walk}\n\nAllows your army to use most of its movement to walk across bodies of water.  You must end your movement on dry land.\n",
+			},
+			"expert" : {
+				"cost" : 8,
+				"power" : 100,
+				"aiValue" : 25,
+				"effects" : {
+					"waterWalk" : { "val" : 0 }
+				},
+				"description" : "{Expert Water Walk}\n\nAllows your army to use up to all of its movement to walk across bodies of water.  You must end your movement on dry land.\n",
 			}
 		},
 		"flags" : {
 			"indifferent": true
+		},
+		"sounds": {
+			"cast": "spells/SoD/adventure/WATRWALK"
+		},
+		"gainChance" : {
+			"castle" : 10,
+			"conflux" : 10,
+			"dungeon" : 10,
+			"fortress" : 0,
+			"inferno" : 10,
+			"necropolis" : 10,
+			"rampart" : 10,
+			"stronghold" : 0,
+			"tower" : 10
 		}
 	},
+	
 	"dimensionDoor" : {
 		"index" : 8,
-		"targetType": "LOCATION",
-		
-		"sounds": {
-			"cast": "TELPTOUT"
+		"name" : "Dimension Door",
+		"type" : "adventure",
+		"level" : 5,
+		"power" : 0,
+		"school" : {
+			"air" : true
 		},
+		"targetType": "LOCATION",
 		"levels" : {
-			"base":{
+
+			"base" : {
 				"range" : "X"
+			},
+			"none" : {
+				"cost" : 25,
+				"power" : 1,
+				"aiValue" : 30,
+				"description" : "{Dimension Door}\n\nOnce per day, you may teleport your hero to a visible, unoccupied location on the adventure map.\n",
+			},
+			"basic" : {
+				"cost" : 20,
+				"power" : 2,
+				"aiValue" : 30,
+				"description" : "{Basic Dimension Door}\n\nTwice per day, you may teleport your hero to a visible, unoccupied location on the adventure map.\n",
+			},
+			"advanced" : {
+				"cost" : 20,
+				"power" : 3,
+				"aiValue" : 40,
+				"description" : "{Advanced Dimension Door}\n\nThree times per day, you may teleport your hero to a visible, unoccupied location on the adventure map.\n",
+			},
+			"expert" : {
+				"cost" : 20,
+				"power" : 4,
+				"aiValue" : 50,
+				"description" : "{Expert Dimension Door}\n\nFour times per day, you may teleport your hero to a visible, unoccupied location on the adventure map.\n",
 			}
 		},
 		"flags" : {
 			"indifferent": true
+		},
+		"sounds": {
+			"cast": "spells/SoD/adventure/TELPTOUT"
+		},
+		"gainChance" : {
+			"castle" : 0,
+			"conflux" : 13,
+			"dungeon" : 16,
+			"fortress" : 0,
+			"inferno" : 16,
+			"necropolis" : 16,
+			"rampart" : 20,
+			"stronghold" : 0,
+			"tower" : 14
 		}
 	},
+	
 	"townPortal" : {
 		"index" : 9,
-		"targetType": "NO_TARGET",
-		
-		"sounds": {
-			"cast": "TELPTOUT"
+		"name" : "Town Portal",
+		"type" : "adventure",
+		"level" : 4,
+		"power" : 0,
+		"school" : {
+			"earth" : true
 		},
+		"targetType": "NO_TARGET",
 		"levels" : {
-			"base":{
+
+			"base" : {
 				"range" : "X"
+			},
+			"none" : {
+				"cost" : 16,
+				"power" : 0,
+				"aiValue" : 5,
+				"description" : "{Town Portal}\n\nTeleports your hero to the nearest friendly town.  The town must be unoccupied.\n",
+			},
+			"basic" : {
+				"cost" : 12,
+				"power" : 0,
+				"aiValue" : 5,
+				"description" : "{Basic Town Portal}\n\nTeleports your hero to the nearest friendly town.  The town must be unoccupied.\n",
+			},
+			"advanced" : {
+				"cost" : 12,
+				"power" : 0,
+				"aiValue" : 70,
+				"description" : "{Advanced Town Portal}\n\nTeleports your hero to any friendly town.  The town must be unoccupied.\n",
+			},
+			"expert" : {
+				"cost" : 12,
+				"power" : 0,
+				"aiValue" : 70,
+				"description" : "{Expert Town Portal}\n\nTeleports your hero to any friendly town.  The town must be unoccupied.\n",
 			}
 		},
 		"flags" : {
 			"indifferent": true
+		},
+		"sounds": {
+			"cast": "spells/SoD/adventure/TELPTOUT"
+		},
+		"gainChance" : {
+			"castle" : 10,
+			"conflux" : 10,
+			"dungeon" : 10,
+			"fortress" : 0,
+			"inferno" : 10,
+			"necropolis" : 10,
+			"rampart" : 10,
+			"stronghold" : 0,
+			"tower" : 10
 		}
 	}
 }
