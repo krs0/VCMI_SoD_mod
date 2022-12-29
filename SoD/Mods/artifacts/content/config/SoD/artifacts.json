@@ -3928,6 +3928,17 @@
 
 	"magicWand":
 	{
+		//"index" : 141,
+		"type" : [ "CREATURE" ],
+		"class" : "RELIC",
+		"slot" : [ "SHOULDERS" ],
+		"text" : {
+			"description" : "{Diplomat's Suit}\n\nThis is a kick-ass artifact.",
+			"event" : "You trip over the Diplomat's Suit, dust it off, and stick it in your pack.",
+			"name" : "Diplomat's Suit"
+		},
+
+		"value" : 0,
 		"bonuses" : [
 			{
 				"type" : "CASTS",
@@ -3980,13 +3991,21 @@
 				"val" : 25,
 				"valueType" : "BASE_NUMBER"
 			}
-		],
-		"index" : 141,
-		"type" : ["CREATURE"]
+		]
 	},
 	
 	"goldTowerArrow":
 	{
+		//"index" : 142,
+		"type" : [ "CREATURE" ],
+		"class" : "RELIC",
+		"slot" : [ "TORSO" ],
+		"text" : {
+			"description" : "{Mired in Neutrality}\n\nThis is a kick-ass artifact.",
+			"event" : "You trip over the Mired in Neutrality, dust it off, and stick it in your pack.",
+			"name" : "Mired in Neutrality"
+		},
+		"value" : 0,
 		"bonuses" : [
 			{
 				"type" : "NO_DISTANCE_PENALTY",
@@ -4048,13 +4067,21 @@
 				"val" : 50,
 				"valueType" : "BASE_NUMBER"
 			}
-		],
-		"index" : 142,
-		"type" : ["CREATURE"]
+		]
 	},
 
 	"monstersPower":
 	{
+		//"index" : 143,
+		"type" : [ "CREATURE" ],
+		"class" : "RELIC",
+		"slot" : [ "RIGHT_HAND" ],
+		"text" : {
+			"description" : "{Ironfist of the Ogre}\n\nThis is a kick-ass artifact.",
+			"event" : "You trip over the Ironfist of the Ogre, dust it off, and stick it in your pack.",
+			"name" : "Ironfist of the Ogre"
+		},
+		"value" : 0,
 		"bonuses" : [
 			{
 				"type" : "STACK_HEALTH",
@@ -4097,8 +4124,6 @@
 				"val" : 0,
 				"valueType" : "BASE_NUMBER"
 			}
-		],
-		"index" : 143,
-		"type" : ["CREATURE"]
+		]
 	}
 }
