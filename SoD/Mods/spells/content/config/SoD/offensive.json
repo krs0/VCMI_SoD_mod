@@ -1,148 +1,340 @@
 {
 	"magicArrow" : {
 		"index" : 15,
-		"targetType": "CREATURE",
-
-		"animation":{
-			"projectile": [
-				{"minimumAngle": 0 ,"defName":"C20SPX4"},
-				{"minimumAngle": 0.60 ,"defName":"C20SPX3"},
-				{"minimumAngle": 0.90 ,"defName":"C20SPX2"},
-				{"minimumAngle": 1.20 ,"defName":"C20SPX1"},
-				{"minimumAngle": 1.50 ,"defName":"C20SPX0"}
-			],
-			"hit":["C20SPX"]
+		"name" : "Magic Arrow",
+		"type" : "combat",
+		"level" : 1,
+		"power" : 10,
+		"school" : {
+			"air" : true,
+			"earth" : true,
+			"fire" : true,
+			"water" : true
 		},
-		"sounds": {
-			"cast": "MAGICBLT"
-		},
-		"levels" : {
-			"base":{
-				"range" : "0",
-				"battleEffects" : {
-					"directDamage" : {"type":"core:damage"}
-				},
-				"targetModifier":{"smart":true}
-			}
-		},
-		"flags" : {
-			"damage": true,
-			"negative": true
-		},
+		"targetType" : "CREATURE",
 		"targetCondition" : {
 			"noneOf" : {
 				"bonus.DIRECT_DAMAGE_IMMUNITY" : "normal"
 			}
 		}
+		"levels" : {
+			"base" : {
+				"battleEffects" : {
+					"directDamage" : {
+						"type" : "core:damage"
+					}
+				},
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
+				}
+			},
+			"none" : {
+				"cost" : 5,
+				"power" : 10,
+				"aiValue" : 10,
+				"description" : "{Magic Arrow}\n\nCauses a bolt of magical energy to strike the selected unit.\n"
+			}
+			"basic" : {
+				"cost" : 4,
+				"power" : 10,
+				"aiValue" : 10,
+				"description" : "{Basic Magic Arrow}\n\nCauses a bolt of magical energy to strike the selected unit.\n"
+			},
+			"advanced" : {
+				"cost" : 4,
+				"power" : 20,
+				"aiValue" : 10,
+				"description" : "{Advanced Magic Arrow}\n\nCauses a bolt of magical energy to strike the selected unit.\n\nDamage inflicted is 10 points more than Basic Magic Arrow.\n"
+			},
+			"expert" : {
+				"cost" : 4,
+				"power" : 30,
+				"aiValue" : 10,
+				"description" : "{Expert Magic Arrow}\n\nCauses a bolt of magical energy to strike the selected unit.\n\nDamage inflicted is 20 points more than Basic Magic Arrow.\n"
+			}
+		},
+		"flags" : {
+			"damage" : true,
+			"negative" : true
+		},
+		"animation" : {
+			"projectile" : [
+				{"minimumAngle" : 0 ,"defName" : "spells/SoD/offensive/C20SPX4.def"},
+				{"minimumAngle" : 0.60 ,"defName" : "spells/SoD/offensive/C20SPX3.def"},
+				{"minimumAngle" : 0.90 ,"defName" : "spells/SoD/offensive/C20SPX2.def"},
+				{"minimumAngle" : 1.20 ,"defName" : "spells/SoD/offensive/C20SPX1.def"},
+				{"minimumAngle" : 1.50 ,"defName" : "spells/SoD/offensive/C20SPX0.def"}
+			],
+			"hit" : ["C20SPX.def"]
+		},
+		"sounds" : {
+			"cast" : "spells/SoD/offensive/MAGICBLT.wav"
+		},
+		"gainChance" : {
+			"castle" : 30,
+			"conflux" : 30,
+			"dungeon" : 30,
+			"fortress" : 30,
+			"inferno" : 30,
+			"necropolis" : 30,
+			"rampart" : 30,
+			"stronghold" : 30,
+			"tower" : 30
+		}
 	},
+	
 	"iceBolt" : {
 		"index" : 16,
-		"targetType": "CREATURE",
-
-		"animation":{
-			"projectile": [
-				{"minimumAngle": 0 ,"defName":"C08SPW4"},
-				{"minimumAngle": 0.60 ,"defName":"C08SPW3"},
-				{"minimumAngle": 0.90 ,"defName":"C08SPW2"},
-				{"minimumAngle": 1.20 ,"defName":"C08SPW1"},
-				{"minimumAngle": 1.50 ,"defName":"C08SPW0"}
-			],
-			"hit":["C08SPW5"]
+		"name" : "Ice Bolt",
+		"type" : "combat",
+		"level" : 2,
+		"power" : 20,
+		"school" : {
+			"water" : true
 		},
-		"sounds": {
-			"cast": "ICERAY"
-		},
-		"levels" : {
-			"base":{
-				"range" : "0",
-				"battleEffects" : {
-					"directDamage" : {"type":"core:damage"}
-				},
-				"targetModifier":{"smart":true}
-			}
-		},
-		"flags" : {
-			"damage": true,
-			"negative": true
-		},
+		"targetType" : "CREATURE",
 		"targetCondition" : {
 			"noneOf" : {
 				"bonus.DIRECT_DAMAGE_IMMUNITY" : "normal"
 			}
+		},
+		"levels" : {
+			"base" : {
+				"battleEffects" : {
+					"directDamage" : {
+						"type" : "core:damage"
+					}
+				},
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
+				}
+			},
+			"none" : {
+				"cost" : 8,
+				"power" : 10
+				"aiValue" : 20,
+				"description" : "{Ice Bolt}\n\nDrains the body heat from the selected enemy unit.\n"
+			},
+			"basic" : {
+				"cost" : 6,
+				"power" : 10
+				"aiValue" : 20,
+				"description" : "{Basic Ice Bolt}\n\nDrains the body heat from the selected enemy unit.\n"
+			},
+			"advanced" : {
+				"cost" : 6,
+				"power" : 20
+				"aiValue" : 20,
+				"description" : "{Advanced Ice Bolt}\n\nDrains the body heat from the selected enemy unit.\n\nDamage inflicted is 10 points more than Basic Ice Bolt.\n"
+			},
+			"expert" : {
+				"cost" : 6,
+				"power" : 50
+				"aiValue" : 20,
+				"description" : "{Expert Ice Bolt}\n\nDrains the body heat from the selected enemy unit.\n\nDamage inflicted is 40 points more than Basic Ice Bolt.\n"
+			}
+		},
+		"flags" : {
+			"damage" : true,
+			"negative" : true
+		},
+		"animation" : {
+			"projectile" : [
+				{"minimumAngle" : 0 ,"defName" : "spells/SoD/offensive/C08SPW4.def"},
+				{"minimumAngle" : 0.60 ,"defName" : "spells/SoD/offensive/C08SPW3.def"},
+				{"minimumAngle" : 0.90 ,"defName" : "spells/SoD/offensive/C08SPW2.def"},
+				{"minimumAngle" : 1.20 ,"defName" : "spells/SoD/offensive/C08SPW1.def"},
+				{"minimumAngle" : 1.50 ,"defName" : "spells/SoD/offensive/C08SPW0.def"}
+			],
+			"hit" : ["C08SPW5.def"]
+		},
+		"sounds" : {
+			"cast" : "spells/SoD/offensive/ICERAY.wav"
+		},
+		"gainChance" : {
+			"castle" : 50,
+			"conflux" : 25,
+			"dungeon" : 6,
+			"fortress" : 50,
+			"inferno" : 0,
+			"necropolis" : 6,
+			"rampart" : 50,
+			"stronghold" : 4,
+			"tower" : 6
 		}
 	},
+	
 	"lightningBolt" : {
 		"index" : 17,
-		"targetType": "CREATURE",
-
-		"animation":{
-			"affect":[{"defName":"C03SPA0", "verticalPosition":"bottom"}, "C11SPA1"]
+		"name" : "Lightning Bolt",
+		"type" : "combat",
+		"level" : 2,
+		"power" : 25,
+		"school" : {
+			"air" : true
 		},
-		"sounds": {
-			"cast": "LIGHTBLT"
-		},
-		"levels" : {
-			"base":{
-				"range" : "0",
-				"battleEffects" : {
-					"directDamage" : {"type":"core:damage"}
-				},
-				"targetModifier":{"smart":true}
-			}
-		},
-		"flags" : {
-			"damage": true,
-			"negative": true
-		},
+		"targetType" : "CREATURE",
 		"targetCondition" : {
 			"noneOf" : {
 				"bonus.DIRECT_DAMAGE_IMMUNITY" : "normal"
 			}
-		}
-	},
-	"implosion" : {
-		"index" : 18,
-		"targetType": "CREATURE",
-
-		"animation":{
-			"affect":["C05SPE0"]
-		},
-		"sounds": {
-			"cast": "DECAY"
 		},
 		"levels" : {
-			"base":{
-				"range" : "0",
+			"base" : {
 				"battleEffects" : {
-					"directDamage" : {"type":"core:damage"}
+					"directDamage" : {
+						"type" : "core:damage"
+					}
 				},
-				"targetModifier":{"smart":true}
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
+				}
+			},
+			"none" : {
+				"cost" : 10,
+				"power" : 10,
+				"aiValue" : 25,
+				"description" : "{Lightning Bolt}\n\nCauses a bolt of lightning to strike the selected unit.\n"
+			},
+			"basic" : {
+				"cost" : 8,
+				"power" : 10,
+				"aiValue" : 25,
+				"description" : "{Basic Lightning Bolt}\n\nCauses a bolt of lightning to strike the selected unit.\n"
+			},
+			"advanced" : {
+				"cost" : 8,
+				"power" : 20,
+				"aiValue" : 25,
+				"description" : "{Advanced Lightning Bolt}\n\nCauses a bolt of lightning to strike the selected unit.\n\nDamage inflicted is 10 points more than Basic Lightning Bolt.\n"
+			},
+			"expert" : {
+				"cost" : 8,
+				"power" : 50,
+				"aiValue" : 25,
+				"description" : "{Expert Lightning Bolt}\n\nCauses a bolt of lightning to strike the selected unit.\n\nDamage inflicted is 40 points more than Basic Lightning Bolt.\n"
 			}
 		},
 		"flags" : {
-			"damage": true,
-			"negative": true
+			"damage" : true,
+			"negative" : true
 		},
+		"animation" : {
+			"affect" : [
+				{
+					"defName" : "spells/SoD/offensive/C03SPA0.def",
+					"verticalPosition" : "bottom"
+				},
+				"C11SPA1.def"
+			]
+		},
+		"sounds" : {
+			"cast" : "spells/SoD/offensive/LIGHTBLT.wav"
+		},
+		"gainChance" : {
+			"castle" : 4,
+			"conflux" : 25,
+			"dungeon" : 50,
+			"fortress" : 4,
+			"inferno" : 20,
+			"necropolis" : 6,
+			"rampart" : 4,
+			"stronghold" : 50,
+			"tower" : 50
+		},
+	},
+	
+	"implosion" : {
+		"index" : 18,
+		"name" : "Implosion",
+		"type" : "combat",
+		"level" : 5,
+		"power" : 75,
+		"school" : {
+			"earth" : true
+		},
+		"targetType" : "CREATURE",
 		"targetCondition" : {
 			"noneOf" : {
 				"bonus.DIRECT_DAMAGE_IMMUNITY" : "normal",
 				"bonus.SIEGE_WEAPON" : "absolute"
 			}
-		}
-	},
-	"chainLightning" : {
-		"index" : 19,
-		"targetType": "CREATURE",
-
-		"animation":{
-			"affect":[{"defName":"C03SPA0", "verticalPosition":"bottom"}, "C11SPA1"]
-		},
-		"sounds": {
-			"cast": "CHAINLTE"
 		},
 		"levels" : {
-			"base":{
+			"base" : {
+				"battleEffects" : {
+					"directDamage" : {
+						"type" : "core:damage"
+					}
+				},
 				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
+				}
+			},
+			"none" : {
+				"cost" : 30,
+				"power" : 100,
+				"aiValue" : 75,
+				"description" : "{Implosion}\n\nInflicts massive damage to a single creature stack.\n"
+			},
+			"basic" : {
+				"cost" : 25,
+				"power" : 100,
+				"aiValue" : 75,
+				"description" : "{Basic Implosion}\n\nInflicts massive damage to a single creature stack.\n"
+			},
+			"advanced" : {
+				"cost" : 25,
+				"power" : 200,
+				"aiValue" : 75,
+				"description" : "{Advanced Implosion}\n\nInflicts massive damage to a single creature stack.\n\nDamage inflicted is 100 points more than Basic Implosion.\n"
+			},
+			"expert" : {
+				"cost" : 25,
+				"power" : 300,
+				"aiValue" : 75,
+				"description" : "{Expert Implosion}\n\nInflicts massive damage to a single creature stack.\n\nDamage inflicted 200 points more than Basic Implosion.\n"
+			}
+		},
+		"flags" : {
+			"damage" : true,
+			"negative" : true
+		},
+		"animation" : {
+			"affect" : ["spells/SoD/offensive/C05SPE0.def"]
+		},
+		"sounds" : {
+			"cast" : "spells/SoD/offensive/DECAY.wav"
+		},
+		"gainChance" : {
+			"castle" : 0,
+			"conflux" : 13,
+			"dungeon" : 12,
+			"fortress" : 0,
+			"inferno" : 16,
+			"necropolis" : 20,
+			"rampart" : 16,
+			"stronghold" : 0,
+			"tower" : 14
+		}
+	},
+	
+	"chainLightning" : {
+		"index" : 19,
+		"name" : "Chain Lightning",
+		"type" : "combat",
+		"level" : 4,
+		"power" : 40,
+		"school" : {
+			"air" : true
+		},
+		"targetType" : "CREATURE",
+		"levels" : {
+			"base" : {
 				"battleEffects" : {
 					"directDamage" : {
 						"type" : "core:damage",
@@ -150,198 +342,462 @@
 						"chainLength" : 4
 					}
 				},
-				"targetModifier":{"smart":true}
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
+				}
+			},
+			"none" : {
+				"cost" : 24,
+				"power" : 25,
+				"aiValue" : 75,
+				"description" : "{Chain Lightning}\n\nFires a bolt of lightning at the selected unit which then travels to the nearest adjacent unit, inflicting half damage before traveling to the next adjacent unit, again inflicting half damage, etc.  Strikes four units.\n"
+			},
+			"basic" : {
+				"cost" : 20,
+				"power" : 25,
+				"aiValue" : 75,
+				"description" : "{Basic Chain Lightning}\n\nFires a bolt of lightning at the selected unit which then travels to the nearest adjacent unit, inflicting half damage before traveling to the next adjacent unit, again inflicting half damage, etc.  Strikes four units.\n"
 			},
 			"advanced" : {
+				"cost" : 20,
+				"power" : 50,
 				"battleEffects" : {
 					"directDamage" : {
 						"chainLength" : 5
 					}
-				}
+				},
+				"aiValue" : 75,
+				"description" : "{Advanced Chain Lightning}\n\nFires a bolt of lightning at the selected unit which then travels to the nearest adjacent unit, inflicting half damage before traveling to the next adjacent unit, again inflicting half damage, etc.  Strikes five units.\n\nBase Damage inflicted is 25 points more than Basic Chain Lightning.\n"
 			},
 			"expert" : {
+				"cost" : 20,
+				"power" : 100
 				"battleEffects" : {
 					"directDamage" : {
 						"chainLength" : 5
 					}
-				}
+				},
+				"aiValue" : 75,
+				"description" : "{Expert Chain Lightning}\n\nFires a bolt of lightning at the selected unit which then travels to the nearest adjacent unit, inflicting half damage before traveling to the next adjacent unit, again inflicting half damage, etc.  Strikes five units.\n\nBase Damage inflicted is 75 points more than Basic Chain Lightning.\n"
 			}
 		},
 		"flags" : {
-			"damage": true,
-			"negative": true
+			"damage" : true,
+			"negative" : true
+		},
+		"animation" : {
+			"affect" : [
+				{
+					"defName" : "spells/SoD/offensive/C03SPA0.def",
+					"verticalPosition" : "bottom"
+				},
+				"C11SPA1.def"
+			]
+		},
+		"sounds" : {
+			"cast" : "spells/SoD/offensive/CHAINLTE.wav"
+		},
+		"gainChance" : {
+			"castle" : 10,
+			"conflux" : 10,
+			"dungeon" : 10,
+			"fortress" : 0,
+			"inferno" : 10,
+			"necropolis" : 10,
+			"rampart" : 10,
+			"stronghold" : 0,
+			"tower" : 10
 		}
 	},
+	
 	"frostRing" : {
 		"index" : 20,
-		"targetType": "LOCATION",
-
-		"animation":{
-			"hit":["C07SPW"] //C07SPW0 ???
+		"name" : "Frost Ring",
+		"type" : "combat",
+		"level" : 3,
+		"power" : 10,
+		"school" : {
+			"water" : true
 		},
-		"sounds": {
-			"cast": "FROSTING"
-		},
-		"levels" : {
-			"base":{
-				"range" : "1",
-				"battleEffects" : {
-					"directDamage" : {"type":"core:damage"}
-				},
-				"targetModifier":{"smart":false}
-			}
-		},
-		"flags" : {
-			"damage": true,
-			"negative": true
-		},
+		"targetType" : "LOCATION",
 		"targetCondition" : {
 			"noneOf" : {
 				"bonus.DIRECT_DAMAGE_IMMUNITY" : "normal"
 			}
+		},
+		"levels" : {
+			"base" : {
+				"battleEffects" : {
+					"directDamage" : {
+						"type" : "core:damage"
+					}
+				},
+				"range" : "1",
+				"targetModifier" : {
+					"smart" : false
+				}
+			},
+			"none" : {
+				"cost" : 12,
+				"power" : 15,
+				"aiValue" : 12,
+				"description" : "{Frost Ring}\n\nDrains the body heat of any units adjacent to the target location, without inflicting damage on the target.\n"
+			}
+			"basic" : {
+				"cost" : 9,
+				"power" : 15,
+				"aiValue" : 12,
+				"description" : "{Basic Frost Ring}\n\nDrains the body heat of any units adjacent to the target location, without inflicting damage on the target.\n"
+			},
+			"advanced" : {
+				"cost" : 9,
+				"power" : 30,
+				"aiValue" : 12,
+				"description" : "{Advanced Frost Ring}\n\nDrains the body heat of any units adjacent to the target location, without inflicting damage on the target.\n\nDamage inflicted is 15 points more than Basic Frost Ring.\n"
+			},
+			"expert" : {
+				"cost" : 9,
+				"power" : 60,
+				"aiValue" : 12,
+				"description" : "{Expert Frost Ring}\n\nDrains the body heat of any units adjacent to the target location, without inflicting damage on the target.\n\nDamage inflicted is 45 points more than Basic Frost Ring.\n"
+			}
+		},
+		"flags" : {
+			"damage" : true,
+			"negative" : true
+		},
+		"animation" : {
+			"hit" : ["spells/SoD/offensive/C07SPW.def"] //C07SPW0 ???
+		},
+		"sounds" : {
+			"cast" : "spells/SoD/offensive/FROSTING.wav"
+		},
+		"gainChance" : {
+			"castle" : 16,
+			"conflux" : 12,
+			"dungeon" : 12,
+			"fortress" : 4,
+			"inferno" : 0,
+			"necropolis" : 12,
+			"rampart" : 16,
+			"stronghold" : 12,
+			"tower" : 16
 		}
 	},
+	
 	"fireball" : {
 		"index" : 21,
-		"targetType": "LOCATION",
-
-		"animation":{
-			"hit":["C13SPF"] //C13SPF0 ???
+		"name" : "Fireball",
+		"level" : 3,
+		"type" : "combat",
+		"power" : 10,
+		"school" : {
+			"fire" : true
 		},
-		"sounds": {
-			"cast": "SPONTCOMB"
-		},
-		"levels" : {
-			"base":{
-				"range" : "0,1",
-				"battleEffects" : {
-					"directDamage" : {"type":"core:damage"}
-				},
-				"targetModifier":{"smart":false}
-			}
-		},
-		"flags" : {
-			"damage": true,
-			"negative": true
-		},
+		"targetType" : "LOCATION",
 		"targetCondition" : {
 			"noneOf" : {
 				"bonus.DIRECT_DAMAGE_IMMUNITY" : "normal"
 			}
+		},
+		"levels" : {
+			"advanced" : {
+				"cost" : 12,
+				"power" : 30,
+				"aiValue" : 15,
+				"description" : "{Advanced Fireball}\n\nCauses the selected target to burst into flames, inflicting fire damage to the target and any adjacent units.\n\nDamage inflicted is 15 points more than Basic Fireball.\n"
+			},
+			"base" : {
+				"battleEffects" : {
+					"directDamage" : {
+						"type" : "core:damage"
+					}
+				},
+				"range" : "0,1",
+				"targetModifier" : {
+					"smart" : false
+				}
+			},
+			"basic" : {
+				"cost" : 12,
+				"power" : 15,
+				"aiValue" : 15,
+				"description" : "{Basic Fireball}\n\nCauses the selected target to burst into flames, inflicting fire damage to the target and any adjacent units.\n"
+			},
+			"expert" : {
+				"cost" : 12,
+				"power" : 60,
+				"aiValue" : 15,
+				"description" : "{Expert Fireball}\n\nCauses the selected target to burst into flames, inflicting fire damage to the target and any adjacent units.\n\nDamage inflicted is 45 points more than Basic Fireball.\n"
+			},
+			"none" : {
+				"cost" : 15,
+				"power" : 15,
+				"aiValue" : 15,
+				"description" : "{Fireball}\n\nCauses the selected target to burst into flames, inflicting fire damage to the target and any adjacent units.\n"
+			}
+		},
+		"flags" : {
+			"damage" : true,
+			"negative" : true
+		},
+		"animation" : {
+			"hit" : ["spells/SoD/offensive/C13SPF.def"] //C13SPF0 ???
+		},
+		"sounds" : {
+			"cast" : "spells/SoD/offensive/SPONTCOMB.wav"
+		},
+		"gainChance" : {
+			"castle" : 8,
+			"conflux" : 12,
+			"dungeon" : 16,
+			"fortress" : 2,
+			"inferno" : 50,
+			"necropolis" : 12,
+			"rampart" : 8,
+			"stronghold" : 12,
+			"tower" : 8
 		}
 	},
+	
 	"inferno" : {
 		"index" : 22,
-		"targetType": "LOCATION",
-
-		"animation":{
-			"hit":["C04SPF0"]
+		"name" : "Inferno",
+		"type" : "combat",
+		"level" : 4,
+		"power" : 10,
+		"school" : {
+			"fire" : true
 		},
-		"sounds": {
-			"cast": "FIREBLST"
-		},
-		"levels" : {
-			"base":{
-				"range" : "0-2",
-				"battleEffects" : {
-					"directDamage" : {"type":"core:damage"}
-				},
-				"targetModifier":{"smart":false}
-			}
-		},
-		"flags" : {
-			"damage": true,
-			"negative": true
-		},
+		"targetType" : "LOCATION",
 		"targetCondition" : {
 			"noneOf" : {
 				"bonus.DIRECT_DAMAGE_IMMUNITY" : "normal"
 			}
+		},
+		"levels" : {
+			"base" : {
+				"battleEffects" : {
+					"directDamage" : {
+						"type" : "core:damage"
+					}
+				},
+				"range" : "0-2",
+				"targetModifier" : {
+					"smart" : false
+				}
+			},
+			"none" : {
+				"cost" : 16,
+				"power" : 20,
+				"aiValue" : 20,
+				"description" : "{Inferno}\n\nCauses a huge blast of fire to strike the selected target.  Don't be near this when it goes off!\n"
+			},
+			"basic" : {
+				"cost" : 12,
+				"power" : 20,
+				"aiValue" : 20,
+				"description" : "{Basic Inferno}\n\nCauses a huge blast of fire to strike the selected target.  Don't be near this when it goes off!\n"
+			},
+			"advanced" : {
+				"cost" : 12,
+				"power" : 40,
+				"aiValue" : 20,
+				"description" : "{Advanced Inferno}\n\nCauses a huge blast of fire to strike the selected target.  Don't be near this when it goes off!\n\nDamage inflicted is 20 points more than Basic Inferno.\n"
+			},
+			"expert" : {
+				"cost" : 12,
+				"power" : 80,
+				"aiValue" : 20,
+				"description" : "{Expert Inferno}\n\nCauses a huge blast of fire to strike the selected target.  Don't be near this when it goes off!\n\nDamage inflicted is 60 points more than Basic Inferno.\n"
+			}
+		},
+		"flags" : {
+			"damage" : true,
+			"negative" : true
+		},
+		"animation" : {
+			"hit" : ["spells/SoD/offensive/C04SPF0.def"]
+		},
+		"sounds" : {
+			"cast" : "spells/SoD/offensive/FIREBLST.wav"
+		},
+		"gainChance" : {
+			"castle" : 5,
+			"conflux" : 10,
+			"dungeon" : 5,
+			"fortress" : 0,
+			"inferno" : 10,
+			"necropolis" : 5,
+			"rampart" : 5,
+			"stronghold" : 0,
+			"tower" : 5
 		}
 	},
+	
 	"meteorShower" : {
 		"index" : 23,
-		"targetType": "LOCATION",
-
-		"animation":{
-			"hit":["C08SPE0"]
+		"name" : "Meteor Shower",
+		"type" : "combat",
+		"level" : 4,
+		"power" : 25,
+		"school" : {
+			"earth" : true
 		},
-		"sounds": {
-			"cast": "METEOR"
-		},
-		"levels" : {
-			"base":{
-				"range" : "0,1",
-				"battleEffects" : {
-					"directDamage" : {"type":"core:damage"}
-				},
-				"targetModifier":{"smart":false}
-			}
-		},
-		"flags" : {
-			"damage": true,
-			"negative": true
-		},
+		"targetType" : "LOCATION",
 		"targetCondition" : {
 			"noneOf" : {
 				"bonus.DIRECT_DAMAGE_IMMUNITY" : "normal"
 			}
-		}
-	},
-	"deathRipple" : {
-		"index" : 24,
-		"targetType" : "CREATURE",
-
-		"animation":{
-			"affect":["C04SPE0"]
-		},
-		"sounds": {
-			"cast": "DEATHRIP"
 		},
 		"levels" : {
-			"base":{
-				"range" : "X",
+			"base" : {
 				"battleEffects" : {
-					"directDamage" : {"type":"core:damage"}
+					"directDamage" : {
+						"type" : "core:damage"
+					}
 				},
-				"targetModifier":{"smart":false}
+				"range" : "0,1",
+				"targetModifier" : {
+					"smart" : false
+				}
+			},
+			"none" : {
+				"cost" : 16,
+				"power" : 25,
+				"aiValue" : 37,
+				"description" : "{Meteor Shower}\n\nCauses a meteor shower to rain down on the selected target and any adjacent units.\n"
+			},
+			"basic" : {
+				"cost" : 12,
+				"power" : 25,
+				"aiValue" : 37,
+				"description" : "{Basic Meteor Shower}\n\nCauses a meteor shower to rain down on the selected target and any adjacent units.\n"
+			},
+			"advanced" : {
+				"cost" : 12,
+				"power" : 50,
+				"aiValue" : 37,
+				"description" : "{Advanced Meteor Shower}\n\nCauses a meteor shower to rain down on the selected target and any adjacent units.\n\nDamage inflicted is 25 points more than Basic Meteor Shower.\n"
+			},
+			"expert" : {
+				"cost" : 12,
+				"power" : 100,
+				"aiValue" : 37,
+				"description" : "{Expert Meteor Shower}\n\nCauses a meteor shower to rain down on the selected target and any adjacent units.\n\nDamage inflicted is 75 points more than Basic Meteor Shower.\n"
 			}
 		},
 		"flags" : {
-			"damage": true,
-			"negative": true
+			"damage" : true,
+			"negative" : true
 		},
+		"animation" : {
+			"hit" : ["spells/SoD/offensive/C08SPE0.def"]
+		},
+		"sounds" : {
+			"cast" : "spells/SoD/offensive/METEOR.wav"
+		},
+		"gainChance" : {
+			"castle" : 10,
+			"conflux" : 10,
+			"dungeon" : 10,
+			"fortress" : 0,
+			"inferno" : 10,
+			"necropolis" : 10,
+			"rampart" : 10,
+			"stronghold" : 0,
+			"tower" : 10
+		}
+	},
+	
+	"deathRipple" : {
+		"index" : 24,
+		"name" : "Death Ripple",
+		"type" : "combat",
+		"level" : 2,
+		"power" : 5,
+		"school" : {
+			"earth" : true
+		},
+		"targetType" : "CREATURE",
 		"targetCondition" : {
 			"noneOf" : {
 				"bonus.DIRECT_DAMAGE_IMMUNITY" : "normal",
-				"bonus.SIEGE_WEAPON" : "absolute",
-				"bonus.UNDEAD" : "absolute"
+				"bonus.UNDEAD" : "absolute",
+				"bonus.SIEGE_WEAPON" : "absolute"
 			}
-		}
-	},
-	"destroyUndead" : {
-		"index" : 25,
-		"targetType" : "CREATURE",
-
-		"animation":{
-			"affect":["C14SPA0"]
-		},
-		"sounds": {
-			"cast": "SACBRETH"
 		},
 		"levels" : {
-			"base":{
-				"range" : "X",
+			"base" : {
 				"battleEffects" : {
-					"directDamage" : {"type":"core:damage"}
+					"directDamage" : {
+						"type" : "core:damage"
+					}
 				},
-				"targetModifier":{"smart":false}
+				"range" : "X",
+				"targetModifier" : {
+					"smart" : false
+				}
+			},
+			"none" : {
+				"cost" : 10,
+				"power" : 10,
+				"aiValue" : 20,
+				"description" : "{Death Ripple}\n\nSends a wave of death across the battlefield which damages all non-undead units.\n"
+			},
+			"basic" : {
+				"cost" : 8,
+				"power" : 10,
+				"aiValue" : 20,
+				"description" : "{Basic Death Ripple}\n\nSends a wave of death across the battlefield which damages all non-undead units.\n"
+			},
+			"advanced" : {
+				"cost" : 8,
+				"power" : 20,
+				"aiValue" : 20,
+				"description" : "{Advanced Death Ripple}\n\nSends a wave of death across the battlefield which damages all non-undead units.\n\nDamage inflicted is 10 points more than Basic Death Ripple.\n"
+			},
+			"expert" : {
+				"cost" : 8,
+				"power" : 30,
+				"aiValue" : 20,
+				"description" : "{Expert Death Ripple}\n\nSends a wave of death across the battlefield which damages all non-undead units.\n\nDamage inflicted is 20 points more than Basic Death Ripple.\n"
 			}
 		},
 		"flags" : {
-			"damage": true,
-			"negative": true
+			"damage" : true,
+			"negative" : true
 		},
+		"animation" : {
+			"affect" : ["spells/SoD/offensive/C04SPE0.def"]
+		},
+		"sounds" : {
+			"cast" : "spells/SoD/offensive/DEATHRIP.wav"
+		},
+		"gainChance" : {
+			"castle" : 0,
+			"conflux" : 0,
+			"dungeon" : 0,
+			"fortress" : 0,
+			"inferno" : 0,
+			"necropolis" : 50,
+			"rampart" : 0,
+			"stronghold" : 0,
+			"tower" : 0
+		},
+	},
+	
+	"destroyUndead" : {
+		"index" : 25,
+		"name" : "Destroy Undead",
+		"type" : "combat",
+		"level" : 3,
+		"power" : 10,
+		"school" : {
+			"air" : true
+		},
+		"targetType" : "CREATURE",
 		"targetCondition" : {
 			"allOf" : {
 				"bonus.UNDEAD" : "absolute"
@@ -349,60 +805,217 @@
 			"noneOf" : {
 				"bonus.DIRECT_DAMAGE_IMMUNITY" : "normal"
 			}
-		}
-	},
-	"armageddon" : {
-		"index" : 26,
-		"targetType" : "CREATURE",
-
-		"animation":{
-			"hit":["C06SPF0"]
-		},
-		"sounds": {
-			"cast": "ARMGEDN"
 		},
 		"levels" : {
-			"base":{
-				"range" : "X",
+			"advanced" : {
+				"cost" : 12,
+				"power" : 20,
+				"aiValue" : 40,
+				"description" : "{Advanced Destroy Undead}\n\nAttempts to destroy any undead creatures on the battlefield.\n\nDamage inflicted is 10 points more than Basic Destroy Undead.\n"
+			},
+			"base" : {
 				"battleEffects" : {
-					"directDamage" : {"type":"core:damage"}
+					"directDamage" : {
+						"type" : "core:damage"
+					}
 				},
-				"targetModifier":{"smart":false}
+				"range" : "X",
+				"targetModifier" : {
+					"smart" : false
+				}
+			},
+			"basic" : {
+				"cost" : 12,
+				"power" : 10,
+				"aiValue" : 40,
+				"description" : "{Basic Destroy Undead}\n\nAttempts to destroy any undead creatures on the battlefield.\n"
+			},
+			"expert" : {
+				"cost" : 12,
+				"power" : 50,
+				"aiValue" : 40,
+				"description" : "{Expert Destroy Undead}\n\nAttempts to destroy any undead creatures on the battlefield.\n\nDamage inflicted is 40 points more than Basic Destroy Undead.\n"
+			},
+			"none" : {
+				"cost" : 15,
+				"power" : 10,
+				"aiValue" : 40,
+				"description" : "{Destroy Undead}\n\nAttempts to destroy any undead creatures on the battlefield.\n"
 			}
 		},
 		"flags" : {
-			"damage": true,
-			"negative": true
+			"damage" : true,
+			"negative" : true
 		},
+		"animation" : {
+			"affect" : ["spells/SoD/offensive/C14SPA0.def"]
+		},
+		"sounds" : {
+			"cast" : "spells/SoD/offensive/SACBRETH.wav"
+		},
+		"gainChance" : {
+			"castle" : 12,
+			"conflux" : 4,
+			"dungeon" : 4,
+			"fortress" : 2,
+			"inferno" : 2,
+			"necropolis" : 0,
+			"rampart" : 8,
+			"stronghold" : 4,
+			"tower" : 8
+		}
+	},
+	
+	"armageddon" : {
+		"index" : 26,
+		"name" : "Armageddon",
+		"type" : "combat",
+		"level" : 4,
+		"power" : 50,
+		"school" : {
+			"fire" : true
+		},
+		"targetType" : "CREATURE",
 		"targetCondition" : {
 			"noneOf" : {
 				"bonus.DIRECT_DAMAGE_IMMUNITY" : "normal"
 			}
-		}
-	},
-	"titanBolt" : {
-		"index" : 57,
-		"targetType" : "CREATURE",
-
-		"animation":{
-			"hit":[{"defName":"C03SPA0", "verticalPosition":"bottom"}, "C11SPA1"]
-		},
-		"sounds": {
-			"cast": "LIGHTBLT"
 		},
 		"levels" : {
-			"base":{
-				"range" : "0",
+			"advanced" : {
+				"cost" : 20,
+				"power" : 60,
+				"aiValue" : 100,
+				"description" : "{Advanced Armageddon}\n\nRains fire down upon the battlefield, damaging all units.\n\nDamage inflicted is 30 points more than Basic Armageddon.\n"
+			},
+			"base" : {
 				"battleEffects" : {
-					"directDamage" : {"type":"core:damage"}
+					"directDamage" : {
+						"type" : "core:damage"
+					}
 				},
-				"targetModifier":{"smart":true}
+				"range" : "X",
+				"targetModifier" : {
+					"smart" : false
+				}
+			},
+			"basic" : {
+				"cost" : 20,
+				"power" : 30,
+				"aiValue" : 100,
+				"description" : "{Basic Armageddon}\n\nRains fire down upon the battlefield, damaging all units.\n"
+			},
+			"expert" : {
+				"cost" : 20,
+				"power" : 120,
+				"aiValue" : 100,
+				"description" : "{Expert Armageddon}\n\nRains fire down upon the battlefield, damaging all units.\n\nDamage inflicted is 90 points more than Basic Armageddon.\n"
+			},
+			"none" : {
+				"cost" : 24,
+				"power" : 30,
+				"aiValue" : 100,
+				"description" : "{Armageddon}\n\nRains fire down upon the battlefield, damaging all units.\n"
 			}
 		},
 		"flags" : {
-			"damage": true,
-			"negative": true,
-			"special": true
+			"damage" : true,
+			"negative" : true
+		},
+		"animation" : {
+			"hit" : ["spells/SoD/offensive/C06SPF0.def"]
+		},
+		"sounds" : {
+			"cast" : "spells/SoD/offensive/ARMGEDN.wav"
+		},
+		"gainChance" : {
+			"castle" : 0,
+			"conflux" : 0,
+			"dungeon" : 10,
+			"fortress" : 0,
+			"inferno" : 5,
+			"necropolis" : 5,
+			"rampart" : 0,
+			"stronghold" : 0,
+			"tower" : 0
+		}
+	},
+	
+	"titanBolt" : {
+		"index" : 57,
+		"name" : "Titan's Lightning Bolt",
+		"type" : "combat",
+		"level" : 5,
+		"power" : 0,
+		"school" : {
+			"air" : true
+		},
+		"targetType" : "CREATURE",
+		"levels" : {
+
+			"base" : {
+				"battleEffects" : {
+					"directDamage" : {
+						"type" : "core:damage"
+					}
+				},
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
+				}
+			},
+			"none" : {
+				"cost" : 0,
+				"power" : 600,
+				"aiValue" : 75,
+				"description" : "{Titan's Lightning Bolt}\n\nDoes 600 points of damage at no spell cost to the spellcaster."
+			},
+			"basic" : {
+				"cost" : 0,
+				"power" : 600,
+				"aiValue" : 75,
+				"description" : "{Titan's Lightning Bolt}\n\nDoes 600 points of damage at no spell cost to the spellcaster."
+			},
+			"advanced" : {
+				"cost" : 0,
+				"power" : 600,
+				"aiValue" : 75,
+				"description" : "{Titan's Lightning Bolt}\n\nDoes 600 points of damage at no spell cost to the spellcaster."
+			},
+			"expert" : {
+				"cost" : 0,
+				"power" : 600,
+				"aiValue" : 75,
+				"description" : "{Titan's Lightning Bolt}\n\nDoes 600 points of damage at no spell cost to the spellcaster."
+			}
+		},
+		"flags" : {
+			"damage" : true,
+			"negative" : true,
+			"special" : true
+		},
+		"animation" : {
+			"hit" : [
+				{
+					"defName" : "spells/SoD/offensive/C03SPA0.def",
+					"verticalPosition" : "bottom"
+				},
+				"C11SPA1.def"
+			]
+		},
+		"sounds" : {
+			"cast" : "spells/SoD/offensive/LIGHTBLT.wav"
+		},
+		"gainChance" : {
+			"castle" : 0,
+			"conflux" : 0,
+			"dungeon" : 0,
+			"fortress" : 0,
+			"inferno" : 0,
+			"necropolis" : 0,
+			"rampart" : 0,
+			"stronghold" : 0,
+			"tower" : 0
 		}
 	}
 }
