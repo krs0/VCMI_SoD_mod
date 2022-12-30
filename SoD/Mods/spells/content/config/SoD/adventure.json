@@ -42,7 +42,7 @@
 			"indifferent": true
 		},
 		"sounds": {
-			"cast": "spells/SoD/adventure/SUMMBOAT"
+			"cast": "spells/SoD/adventure/SUMMBOAT.wav"
 		},
 		"gainChance" : {
 			"castle" : 3,
@@ -100,7 +100,7 @@
 			"indifferent": true
 		},
 		"sounds": {
-			"cast": "spells/SoD/adventure/SCUTBOAT"
+			"cast": "spells/SoD/adventure/SCUTBOAT.wav"
 		},
 		"gainChance" : {
 			"castle" : 6,
@@ -201,7 +201,7 @@
 			"indifferent": true
 		},
 		"sounds": {
-			"cast": "spells/SoD/adventure/VISIONS"
+			"cast": "spells/SoD/adventure/VISIONS.wav"
 		},
 		"gainChance" : {
 			"castle" : 2,
@@ -259,7 +259,7 @@
 			"indifferent": true
 		},
 		"sounds": {
-			"cast": "spells/SoD/adventure/VIEW"
+			"cast": "spells/SoD/adventure/VIEW.wav"
 		},
 		"gainChance" : {
 			"castle" : 3,
@@ -332,7 +332,7 @@
 			"indifferent": true
 		},
 		"sounds": {
-			"cast": "spells/SoD/adventure/DISGUISE"
+			"cast": "spells/SoD/adventure/DISGUISE.wav"
 		},
 		"gainChance" : {
 			"castle" : 2,
@@ -390,7 +390,7 @@
 			"indifferent": true
 		},
 		"sounds": {
-			"cast": "spells/SoD/adventure/VIEW"
+			"cast": "spells/SoD/adventure/VIEW.wav"
 		},
 		"gainChance" : {
 			"castle" : 3,
@@ -462,7 +462,7 @@
 			"indifferent": true
 		},	
 		"sounds": {
-			"cast": "spells/SoD/adventure/FLYSPELL"
+			"cast": "spells/SoD/adventure/FLYSPELL.wav"
 		},
 		"gainChance" : {
 			"castle" : 0,
@@ -535,7 +535,7 @@
 			"indifferent": true
 		},
 		"sounds": {
-			"cast": "spells/SoD/adventure/WATRWALK"
+			"cast": "spells/SoD/adventure/WATRWALK.wav"
 		},
 		"gainChance" : {
 			"castle" : 10,
@@ -594,7 +594,7 @@
 			"indifferent": true
 		},
 		"sounds": {
-			"cast": "spells/SoD/adventure/TELPTOUT"
+			"cast": "spells/SoD/adventure/TELPTOUT.wav"
 		},
 		"gainChance" : {
 			"castle" : 0,
@@ -653,7 +653,7 @@
 			"indifferent": true
 		},
 		"sounds": {
-			"cast": "spells/SoD/adventure/TELPTOUT"
+			"cast": "spells/SoD/adventure/TELPTOUT.wav"
 		},
 		"gainChance" : {
 			"castle" : 10,
