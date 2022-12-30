@@ -17,25 +17,25 @@
 				"cost" : 8,
 				"power" : 50,
 				"aiValue" : 10,
-				"description" : "{Summon Boat}\n\nSummons an existing, friendly, unoccupied boat from anywhere in the world to your location.\n\nChances for success are 50%.\n",
+				"description" : "{Summon Boat}\n\nSummons an existing, friendly, unoccupied boat from anywhere in the world to your location.\n\nChances for success are 50%.\n"
 			},
 			"basic" : {
 				"cost" : 7,
 				"power" : 50,
 				"aiValue" : 10,
-				"description" : "{Basic Summon Boat}\n\nSummons an existing, friendly, unoccupied boat from anywhere in the world to your location.\n\nChances for success are 50%.\n",
+				"description" : "{Basic Summon Boat}\n\nSummons an existing, friendly, unoccupied boat from anywhere in the world to your location.\n\nChances for success are 50%.\n"
 			},
 			"advanced" : {
 				"cost" : 7,
 				"power" : 75,
 				"aiValue" : 20,
-				"description" : "{Advanced Summon Boat}\n\nSummons an existing, friendly, unoccupied boat from anywhere in the world to your location.  If no boats exist, one is created.\n\nChances for success are 75%.\n",
+				"description" : "{Advanced Summon Boat}\n\nSummons an existing, friendly, unoccupied boat from anywhere in the world to your location.  If no boats exist, one is created.\n\nChances for success are 75%.\n"
 			},
 			"expert" : {
 				"cost" : 7,
 				"power" : 100,
 				"aiValue" : 20,
-				"description" : "{Expert Summon Boat}\n\nSummons an existing, friendly, unoccupied boat from anywhere in the world to your location.  If no boats exist, one is created.\n",
+				"description" : "{Expert Summon Boat}\n\nSummons an existing, friendly, unoccupied boat from anywhere in the world to your location.  If no boats exist, one is created.\n"
 			}
 		},
 		"flags" : {
@@ -75,25 +75,25 @@
 				"cost" : 8,
 				"power" : 50,
 				"aiValue" : 1,
-				"description" : "{Scuttle Boat}\n\nDestroys a boat you own.  Use with caution, the effects are permanent.\n\nChances for success are 50%.\n",
+				"description" : "{Scuttle Boat}\n\nDestroys a boat you own.  Use with caution, the effects are permanent.\n\nChances for success are 50%.\n"
 			}
 			"basic" : {
 				"cost" : 6,
 				"power" : 50,
 				"aiValue" : 1,
-				"description" : "{Basic Scuttle Boat}\n\nDestroys a boat you own.  Use with caution, the effects are permanent.\n\nChances for success are 50%.\n",
+				"description" : "{Basic Scuttle Boat}\n\nDestroys a boat you own.  Use with caution, the effects are permanent.\n\nChances for success are 50%.\n"
 			},
 			"advanced" : {
 				"cost" : 6,
 				"power" : 75,
 				"aiValue" : 1,
-				"description" : "{Advanced Scuttle Boat}\n\nDestroys a boat you own.  Use with caution, the effects are permanent.\n\nChances for success are 75%.\n",
+				"description" : "{Advanced Scuttle Boat}\n\nDestroys a boat you own.  Use with caution, the effects are permanent.\n\nChances for success are 75%.\n"
 			},
 			"expert" : {
 				"cost" : 6,
 				"power" : 100,
 				"aiValue" : 1,
-				"description" : "{Expert Scuttle Boat}\n\nDestroys a boat you own.  Use with caution, the effects are permanent.\n",
+				"description" : "{Expert Scuttle Boat}\n\nDestroys a boat you own.  Use with caution, the effects are permanent.\n"
 			}
 		},
 		"flags" : {
@@ -145,13 +145,13 @@
 				"cost" : 4,
 				"power" : 1,
 				"aiValue" : 1,
-				"description" : "{Visions}\n\nGives you a basic idea of the strength of an opposing army, hero, or garrison.\n",
+				"description" : "{Visions}\n\nGives you a basic idea of the strength of an opposing army, hero, or garrison.\n"
 			},
 			"basic" : {
 				"cost" : 2,
 				"power" : 1,
 				"aiValue" : 1,
-				"description" : "{Basic Visions}\n\nGives you a basic idea of the strength of an opposing hero or garrison.  In the case of nearby wandering monsters, gives you exact numbers of troops and tells you if they would be willing to join your hero.\n",
+				"description" : "{Basic Visions}\n\nGives you a basic idea of the strength of an opposing hero or garrison.  In the case of nearby wandering monsters, gives you exact numbers of troops and tells you if they would be willing to join your hero.\n"
 			},
 			"advanced" : {
 				"cost" : 2,
@@ -169,7 +169,7 @@
 						"val" : 2
 					}
 				},
-				"description" : "{Advanced Visions}\n\nGives you a basic idea of the strength of an opposing garrison.  In the case of nearby wandering monsters, gives you exact numbers of troops and tells you if they would be willing to join your hero.  Allows you to view a nearby enemy hero's primary skill statistics, creature type and quantity, as if the hero was part of your kingdom.\n",
+				"description" : "{Advanced Visions}\n\nGives you a basic idea of the strength of an opposing garrison.  In the case of nearby wandering monsters, gives you exact numbers of troops and tells you if they would be willing to join your hero.  Allows you to view a nearby enemy hero's primary skill statistics, creature type and quantity, as if the hero was part of your kingdom.\n"
 			},
 			"expert" : {
 				"cost" : 2,
@@ -194,7 +194,7 @@
 						"duration" : "ONE_DAY"
 					}
 				},
-				"description" : "{Expert Visions}\n\nGives you exact numbers of wandering monsters and tells you if they would be willing to join your hero.  Allows you to view a nearby enemy hero's primary skill statistics, creature type and quantity, as if the hero was part of your kingdom, as well as a nearby town's statistics, garrison creatures and quantity.\n",
+				"description" : "{Expert Visions}\n\nGives you exact numbers of wandering monsters and tells you if they would be willing to join your hero.  Allows you to view a nearby enemy hero's primary skill statistics, creature type and quantity, as if the hero was part of your kingdom, as well as a nearby town's statistics, garrison creatures and quantity.\n"
 			}
 		},
 		"flags" : {
@@ -234,25 +234,25 @@
 				"cost" : 2,
 				"power" : 0,
 				"aiValue" : 1,
-				"description" : "{View earth}\n\nReveals the location of all resources to the caster.\n",
+				"description" : "{View earth}\n\nReveals the location of all resources to the caster.\n"
 			}
 			"basic" : {
 				"cost" : 1,
 				"power" : 0,
 				"aiValue" : 1,
-				"description" : "{Basic View Earth}\n\nReveals the location of all resources to the caster.\n",
+				"description" : "{Basic View Earth}\n\nReveals the location of all resources to the caster.\n"
 			},
 			"advanced" : {
 				"cost" : 1,
 				"power" : 0,
 				"aiValue" : 1,
-				"description" : "{Advanced View Earth}\n\nReveals the location of all resources and mines to the caster.\n",
+				"description" : "{Advanced View Earth}\n\nReveals the location of all resources and mines to the caster.\n"
 			},
 			"expert" : {
 				"cost" : 1,
 				"power" : 0,
 				"aiValue" : 1,
-				"description" : "{Expert View Earth}\n\nReveals the location of all resources and mines and reveals all terrain to the caster.\n",
+				"description" : "{Expert View Earth}\n\nReveals the location of all resources and mines and reveals all terrain to the caster.\n"
 			},
 		},
 		"flags" : {
@@ -301,13 +301,13 @@
 				"cost" : 4,
 				"power" : 0,
 				"aiValue" : 1,
-				"description" : "{Disguise}\n\nGives false information to an enemy attempting to view your hero.\n",
+				"description" : "{Disguise}\n\nGives false information to an enemy attempting to view your hero.\n"
 			}
 			"basic" : {
 				"cost" : 2,
 				"power" : 0,
 				"aiValue" : 1,
-				"description" : "{Basic Disguise}\n\nMakes all units in your army look like your most powerful unit to enemies trying to view your hero.  Numbers in each group are unchanged.\n",
+				"description" : "{Basic Disguise}\n\nMakes all units in your army look like your most powerful unit to enemies trying to view your hero.  Numbers in each group are unchanged.\n"
 			},
 			"advanced" : {
 				"cost" : 2,
@@ -316,7 +316,7 @@
 				"effects" : {
 					"stealth" : { "val" : 2 }
 				},
-				"description" : "{Advanced Disguise}\n\nMakes all units in your army look like your most powerful unit to enemies trying to view your hero.  Numbers in each group appear as zero.\n",
+				"description" : "{Advanced Disguise}\n\nMakes all units in your army look like your most powerful unit to enemies trying to view your hero.  Numbers in each group appear as zero.\n"
 			},
 			"expert" : {
 				"cost" : 2,
@@ -325,7 +325,7 @@
 				"effects" : {
 					"stealth" : { "val" : 3 }
 				},
-				"description" : "{Expert Disguise}\n\nMakes all units in your army look like the most powerful unit affiliated to your hero type to enemies trying to view your hero.  Numbers in each group appear as zero.\n",
+				"description" : "{Expert Disguise}\n\nMakes all units in your army look like the most powerful unit affiliated to your hero type to enemies trying to view your hero.  Numbers in each group appear as zero.\n"
 			}
 		},
 		"flags" : {
@@ -365,25 +365,25 @@
 				"cost" : 2,
 				"power" : 0,
 				"aiValue" : 1,
-				"description" : "{View Air}\n\nReveals the location of all unclaimed artifacts to the caster.\n",
+				"description" : "{View Air}\n\nReveals the location of all unclaimed artifacts to the caster.\n"
 			},
 			"basic" : {
 				"cost" : 1,
 				"power" : 0,
 				"aiValue" : 1,
-				"description" : "{Basic View Air}\n\nReveals the location of all unclaimed artifacts to the caster.\n",
+				"description" : "{Basic View Air}\n\nReveals the location of all unclaimed artifacts to the caster.\n"
 			},
 			"advanced" : {
 				"cost" : 1,
 				"power" : 0,
 				"aiValue" : 1,
-				"description" : "{Advanced View Air}\n\nReveals the location of all unclaimed artifacts, plus enemy heroes to the caster.\n",
+				"description" : "{Advanced View Air}\n\nReveals the location of all unclaimed artifacts, plus enemy heroes to the caster.\n"
 			},
 			"expert" : {
 				"cost" : 1,
 				"power" : 0,
 				"aiValue" : 1,
-				"description" : "{Expert View Air}\n\nReveals the location of all unclaimed artifacts, plus enemy heroes and towns to the caster.\n",
+				"description" : "{Expert View Air}\n\nReveals the location of all unclaimed artifacts, plus enemy heroes and towns to the caster.\n"
 			}
 		},
 		"flags" : {
@@ -431,13 +431,13 @@
 				"cost" : 20,
 				"power" : 60,
 				"aiValue" : 30,
-				"description" : "{Fly}\n\nAllows your army to use part of its movement to fly over obstacles.  You must land at the end of the turn.\n",
+				"description" : "{Fly}\n\nAllows your army to use part of its movement to fly over obstacles.  You must land at the end of the turn.\n"
 			},
 			"basic" : {
 				"cost" : 15,
 				"power" : 60,
 				"aiValue" : 30,
-				"description" : "{Basic Fly}\n\nAllows your army to use part of its movement to fly over obstacles.  You must land at the end of the turn.\n",
+				"description" : "{Basic Fly}\n\nAllows your army to use part of its movement to fly over obstacles.  You must land at the end of the turn.\n"
 			},
 			"advanced" : {
 				"cost" : 15,
@@ -446,7 +446,7 @@
 				"effects" : {
 					"fly" : { "val" : 20 }
 				},
-				"description" : "{Advanced Fly}\n\nAllows your army to use most of its movement to fly over obstacles.  You must land at the end of the turn.\n",
+				"description" : "{Advanced Fly}\n\nAllows your army to use most of its movement to fly over obstacles.  You must land at the end of the turn.\n"
 			},
 			"expert" : {
 				"cost" : 15,
@@ -455,7 +455,7 @@
 				"effects" : {
 					"fly" : { "val" : 0 }
 				},
-				"description" : "{Expert Fly}\n\nAllows your army to use up to all of its movement to fly over obstacles.  You must land at the end of the turn.\n",
+				"description" : "{Expert Fly}\n\nAllows your army to use up to all of its movement to fly over obstacles.  You must land at the end of the turn.\n"
 			}
 		},
 		"flags" : {
@@ -504,13 +504,13 @@
 				"cost" : 12,
 				"power" : 60,
 				"aiValue" : 15,
-				"description" : "{Water Walk}\n\nAllows your army to use part of its movement to walk across bodies of water.  You must end your movement on dry land.\n",
+				"description" : "{Water Walk}\n\nAllows your army to use part of its movement to walk across bodies of water.  You must end your movement on dry land.\n"
 			},
 			"basic" : {
 				"cost" : 8,
 				"power" : 60,
 				"aiValue" : 15,
-				"description" : "{Basic Water Walk}\n\nAllows your army to use part of its movement to walk across bodies of water.  You must end your movement on dry land.\n",
+				"description" : "{Basic Water Walk}\n\nAllows your army to use part of its movement to walk across bodies of water.  You must end your movement on dry land.\n"
 			},
 			"advanced" : {
 				"cost" : 8,
@@ -519,7 +519,7 @@
 				"effects" : {
 					"waterWalk" : { "val" : 20 }
 				},
-				"description" : "{Advanced Water Walk}\n\nAllows your army to use most of its movement to walk across bodies of water.  You must end your movement on dry land.\n",
+				"description" : "{Advanced Water Walk}\n\nAllows your army to use most of its movement to walk across bodies of water.  You must end your movement on dry land.\n"
 			},
 			"expert" : {
 				"cost" : 8,
@@ -528,7 +528,7 @@
 				"effects" : {
 					"waterWalk" : { "val" : 0 }
 				},
-				"description" : "{Expert Water Walk}\n\nAllows your army to use up to all of its movement to walk across bodies of water.  You must end your movement on dry land.\n",
+				"description" : "{Expert Water Walk}\n\nAllows your army to use up to all of its movement to walk across bodies of water.  You must end your movement on dry land.\n"
 			}
 		},
 		"flags" : {
@@ -569,25 +569,25 @@
 				"cost" : 25,
 				"power" : 1,
 				"aiValue" : 30,
-				"description" : "{Dimension Door}\n\nOnce per day, you may teleport your hero to a visible, unoccupied location on the adventure map.\n",
+				"description" : "{Dimension Door}\n\nOnce per day, you may teleport your hero to a visible, unoccupied location on the adventure map.\n"
 			},
 			"basic" : {
 				"cost" : 20,
 				"power" : 2,
 				"aiValue" : 30,
-				"description" : "{Basic Dimension Door}\n\nTwice per day, you may teleport your hero to a visible, unoccupied location on the adventure map.\n",
+				"description" : "{Basic Dimension Door}\n\nTwice per day, you may teleport your hero to a visible, unoccupied location on the adventure map.\n"
 			},
 			"advanced" : {
 				"cost" : 20,
 				"power" : 3,
 				"aiValue" : 40,
-				"description" : "{Advanced Dimension Door}\n\nThree times per day, you may teleport your hero to a visible, unoccupied location on the adventure map.\n",
+				"description" : "{Advanced Dimension Door}\n\nThree times per day, you may teleport your hero to a visible, unoccupied location on the adventure map.\n"
 			},
 			"expert" : {
 				"cost" : 20,
 				"power" : 4,
 				"aiValue" : 50,
-				"description" : "{Expert Dimension Door}\n\nFour times per day, you may teleport your hero to a visible, unoccupied location on the adventure map.\n",
+				"description" : "{Expert Dimension Door}\n\nFour times per day, you may teleport your hero to a visible, unoccupied location on the adventure map.\n"
 			}
 		},
 		"flags" : {
@@ -628,25 +628,25 @@
 				"cost" : 16,
 				"power" : 0,
 				"aiValue" : 5,
-				"description" : "{Town Portal}\n\nTeleports your hero to the nearest friendly town.  The town must be unoccupied.\n",
+				"description" : "{Town Portal}\n\nTeleports your hero to the nearest friendly town.  The town must be unoccupied.\n"
 			},
 			"basic" : {
 				"cost" : 12,
 				"power" : 0,
 				"aiValue" : 5,
-				"description" : "{Basic Town Portal}\n\nTeleports your hero to the nearest friendly town.  The town must be unoccupied.\n",
+				"description" : "{Basic Town Portal}\n\nTeleports your hero to the nearest friendly town.  The town must be unoccupied.\n"
 			},
 			"advanced" : {
 				"cost" : 12,
 				"power" : 0,
 				"aiValue" : 70,
-				"description" : "{Advanced Town Portal}\n\nTeleports your hero to any friendly town.  The town must be unoccupied.\n",
+				"description" : "{Advanced Town Portal}\n\nTeleports your hero to any friendly town.  The town must be unoccupied.\n"
 			},
 			"expert" : {
 				"cost" : 12,
 				"power" : 0,
 				"aiValue" : 70,
-				"description" : "{Expert Town Portal}\n\nTeleports your hero to any friendly town.  The town must be unoccupied.\n",
+				"description" : "{Expert Town Portal}\n\nTeleports your hero to any friendly town.  The town must be unoccupied.\n"
 			}
 		},
 		"flags" : {
