@@ -1,506 +1,980 @@
 {
 	"shield" : {
 		"index" : 27,
+		"name" : "Shield",
+		"type" : "combat",
+		"level" : 1,
+		"power" : 0,
+		"school" : {
+			"earth" : true
+		},
 		"targetType" : "CREATURE",
-
-		"animation":{
-			"affect":["C13SPE0"]
-		},
-		"sounds": {
-			"cast": "SHIELD"
-		},
 		"levels" : {
-			"base":{
-				"range" : "0",
-				"targetModifier":{"smart":true},
-				//no cumulative effect even with mods here
+			"base" : {
 				"effects" : {
 					"generalDamageReduction" : {
 						"type" : "GENERAL_DAMAGE_REDUCTION",
 						"subtype" : 0,
 						"duration" : "N_TURNS"
 					}
+				},
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
 				}
 			},
-			"expert":{
-				"range" : "X"
+			"none" : {
+				"cost" : 5,
+				"power" : 85,
+				"aiValue" : 10,
+				"description" : "{Shield}\n\nShields a selected unit, reducing the amount of damage received from hand-to-hand attacks.\n"
+			}
+			"basic" : {
+				"cost" : 4,
+				"power" : 85,
+				"aiValue" : 10,
+				"description" : "{Basic Shield}\n\nShields a selected unit, reducing the amount of damage received from hand-to-hand attacks.\n"
+			},
+			"advanced" : {
+				"cost" : 4,
+				"power" : 70,
+				"aiValue" : 20,
+				"description" : "{Advanced Shield}\n\nShields a selected unit, reducing the amount of damage received from hand-to-hand attacks.\n\nProtection is twice that of Basic Shield.\n"
+			},
+			"expert" : {
+				"cost" : 4,
+				"power" : 70,
+				"range" : "X",
+				"aiValue" : 20,
+				"description" : "{Expert Shield}\n\nShields all friendly units, reducing the amount of damage received from hand-to-hand attacks.\n\nProtection is twice that of Basic Shield.\n"
 			}
 		},
 		"flags" : {
 			"positive": true
-		}
-	},
-	"airShield" : {
-		"index" : 28,
-		"targetType" : "CREATURE",
-
+		},
 		"animation":{
-			"affect":["C01SPA0"]
+			"affect":["spells/SoD/timed/C13SPE0.def"]
 		},
 		"sounds": {
-			"cast": "AIRSHELD"
+			"cast": "spells/SoD/timed/SHIELD.wav"
 		},
+		"gainChance" : {
+			"castle" : 10,
+			"conflux" : 5,
+			"dungeon" : 5,
+			"fortress" : 5,
+			"inferno" : 3,
+			"necropolis" : 10,
+			"rampart" : 3,
+			"stronghold" : 5,
+			"tower" : 5
+		},
+	},
+	
+	"airShield" : {
+		"index" : 28,
+		"name" : "Air Shield",
+		"type" : "combat",
+		"level" : 3,
+		"power" : 0,
+		"school" : {
+			"air" : true
+		},
+		"targetType" : "CREATURE",
 		"levels" : {
-			"base":{
-				"range" : "0",
-				"targetModifier":{"smart":true},
-				//no cumulative effect even with mods here
+			"base" : {
 				"effects" : {
 					"generalDamageReduction" : {
 						"type" : "GENERAL_DAMAGE_REDUCTION",
 						"subtype" : 1,
 						"duration" : "N_TURNS"
 					}
+				},
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
 				}
 			},
-			"expert":{
-				"range" : "X"
+			"none" : {
+				"cost" : 12,
+				"power" : 75,
+				"aiValue" : 20,
+				"description" : "{Air Shield}\n\nShields a selected unit, reducing the amount of damage received from ranged attacks.\n"
+			},
+			"basic" : {
+				"aiValue" : 20,
+				"cost" : 9,
+				"description" : "{Basic Air Shield}\n\nShields a selected unit, reducing the amount of damage received from ranged attacks.\n"
+				"power" : 75
+			},
+			"advanced" : {
+				"cost" : 9,
+				"power" : 50,
+				"aiValue" : 50,
+				"description" : "{Advanced Air Shield}\n\nShields a selected unit, reducing the amount of damage received from ranged attacks.\n\nProtection is twice that of Basic Air Shield.\n"
+			},
+			"expert" : {
+				"cost" : 9,
+				"power" : 50,
+				"range" : "X",
+				"aiValue" : 50,
+				"description" : "{Expert Air Shield}\n\nShields all friendly units, reducing the amount of damage received from ranged attacks.\n\nProtection is twice that of Basic Air Shield.\n"
 			}
 		},
 		"flags" : {
 			"positive": true
-		}
-	},
-	"fireShield" : {
-		"index" : 29,
-		"targetType" : "CREATURE",
-
+		},
 		"animation":{
-			"affect":["C05SPF0"]
+			"affect":["spells/SoD/timed/C01SPA0.def"]
 		},
 		"sounds": {
-			"cast": "FIRESHIE"
+			"cast": "spells/SoD/timed/AIRSHELD.wav"
 		},
-		// It looks that fireshield has two separate sounds
-		//			"soundfile":"FIRESHLD.wav"
-		//
+		"gainChance" : {
+			"castle" : 4,
+			"conflux" : 4,
+			"dungeon" : 4,
+			"fortress" : 4,
+			"inferno" : 2,
+			"necropolis" : 4,
+			"rampart" : 8,
+			"stronghold" : 8,
+			"tower" : 8
+		}
+	},
+	
+	"fireShield" : {
+		"index" : 29,
+		"name" : "Fire Shield",
+		"type" : "combat",
+		"level" : 4,
+		"power" : 0,
+		"school" : {
+			"fire" : true
+		},
+		"targetType" : "CREATURE",
 		"levels" : {
-			"base":{
-				"range" : "0",
-				"targetModifier":{"smart":true},
+			"base" : {
 				"effects" : {
 					"fireShield" : {
 						"type" : "FIRE_SHIELD",
 						"duration" : "N_TURNS"
 					}
+				},
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
 				}
+			},
+			"none" : {
+				"cost" : 16,
+				"power" : 20,
+				"aiValue" : 10,
+				"description" : "{Fire Shield}\n\nCast on a friendly unit, it does not provide any additional protection, but any enemy attacking through the fire shield will suffer damage equal to a portion of what it inflicts.\n"
+			},
+			"basic" : {
+				"cost" : 12,
+				"power" : 20,
+				"aiValue" : 10,
+				"description" : "{Basic Fire Shield}\n\nCast on a friendly unit, it does not provide any additional protection, but any enemy attacking through the fire shield will suffer damage equal to a portion of what it inflicts.\n"
+			},
+			"advanced" : {
+				"cost" : 12,
+				"power" : 25,
+				"aiValue" : 12,
+				"description" : "{Advanced Fire Shield}\n\nCast on a friendly unit, it does not provide any additional protection, but any enemy attacking through the fire shield will suffer da mage equal to a portion of what it inflicts.\n\nDamage to attacking enemy units is 5% more than Basic Fire Shield.\n"
+			},
+			"expert" : {
+				"cost" : 12,
+				"power" : 30,
+				"aiValue" : 15,
+				"description" : "{Expert Fire Shield}\n\nCast on a friendly unit, it does not provide any additional protection, but any enemy attacking through the fire shield will suffer damage equal to a portion of what it inflicts.\n\nDamage to attacking enemy u nits is 10% more than Basic Fire Shield.\n"
 			}
 		},
 		"flags" : {
 			"positive": true
+		},
+		"animation":{
+			"affect":["spells/SoD/timed/C05SPF0.def"]
+		},
+		// It looks that fireshield has two separate sounds
+		//			"soundfile":"FIRESHLD.wav"
+		//
+		"sounds": {
+			"cast": "spells/SoD/timed/FIRESHIE.wav"
+		},
+		"gainChance" : {
+			"castle" : 5,
+			"conflux" : 5,
+			"dungeon" : 5,
+			"fortress" : 0,
+			"inferno" : 5,
+			"necropolis" : 5,
+			"rampart" : 5,
+			"stronghold" : 0,
+			"tower" : 5
 		}
 	},
+	
 	"protectAir" : {
 		"index" : 30,
+		"name" : "Protection from Air",
+		"type" : "combat",
+		"level" : 2,
+		"power" : 0,
+		"school" : {
+			"air" : true
+		},
 		"targetType" : "CREATURE",
-
-		"animation":{
-			"affect":["C11SPE0"]
-		},
-		"sounds": {
-			"cast": "PROTECTA"
-		},
 		"levels" : {
-			"base":{
-				"range" : "0",
-				"targetModifier":{"smart":true},
+			"base" : {
 				"effects" : {
 					"spellDamageReduction" : {
 						"type" : "SPELL_DAMAGE_REDUCTION",
 						"subtype" : 0,
-						"duration" : "N_TURNS",
-						"val" : 30
-					}
-				}
-			},
-			"advanced" : {
-				"effects" : {
-					"spellDamageReduction" : {
-						"val" : 50
-					}
-				}
-			},
-			"expert":{
-				"effects" : {
-					"spellDamageReduction" : {
-						"val" : 50
+						"val" : 30,
+						"duration" : "N_TURNS"
 					}
 				},
-				"range" : "X"
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
+				}
+			},
+			"none" : {
+				"cost" : 7,
+				"power" : 70,
+				"aiValue" : 2,
+				"description" : "{Protection from Air}\n\nProtects the selected unit, reducing damage received from Air spells.\n"
+			},
+			"basic" : {
+				"cost" : 5,
+				"power" : 70,
+				"aiValue" : 2,
+				"description" : "{Basic Protection from Air}\n\nProtects the selected unit, reducing damage received from Air spells.\n" 
+			},
+			"advanced" : {
+				"cost" : 5,
+				"power" : 50,
+				"aiValue" : 4,
+				"effects" : {
+					"spellDamageReduction" : { "val" : 50 }
+				},
+				"description" : "{Advanced Protection from Air}\n\nProtects the selected unit, reducing damage received from Air spells.\n\nProtection is nearly twice that of Basic Protection from Air.\n"
+			},
+			"expert" : {
+				"cost" : 5,
+				"power" : 50,
+				"effects" : {
+					"spellDamageReduction" : { "val" : 50 }
+				},
+				"range" : "X",
+				"aiValue" : 4,
+				"description" : "{Expert Protection from Air}\n\nProtects the selected unit, reducing damage received from Air spells.\n\nProtection is nearly twice that of Basic Protection from Air.\n"
 			}
 		},
 		"flags" : {
 			"positive": true
-		}
-	},
-	"protectFire" : {
-		"index" : 31,
-		"targetType" : "CREATURE",
-
+		},
 		"animation":{
-			"affect":["C11SPW0"]
+			"affect":["spells/SoD/timed/C11SPE0.def"]
 		},
 		"sounds": {
-			"cast": "PROTECTF"
+			"cast": "spells/SoD/timed/PROTECTA.wav"
 		},
+		"gainChance" : {
+			"castle" : 2,
+			"conflux" : 2,
+			"dungeon" : 2,
+			"fortress" : 2,
+			"inferno" : 4,
+			"necropolis" : 2,
+			"rampart" : 2,
+			"stronghold" : 2,
+			"tower" : 2
+		}
+	},
+	
+	"protectFire" : {
+		"index" : 31,
+		"name" : "Protection from Fire",
+		"type" : "combat",
+		"level" : 1,
+		"power" : 0,
+		"school" : {
+			"fire" : true
+		},
+		"targetType" : "CREATURE",
 		"levels" : {
-			"base":{
-				"range" : "0",
-				"targetModifier":{"smart":true},
+			"base" : {
 				"effects" : {
 					"spellDamageReduction" : {
 						"type" : "SPELL_DAMAGE_REDUCTION",
 						"subtype" : 1,
-						"duration" : "N_TURNS",
-						"val" : 30
-					}
-				}
-			},
-			"advanced" : {
-				"effects" : {
-					"spellDamageReduction" : {
-						"val" : 50
-					}
-				}
-			},
-			"expert":{
-				"effects" : {
-					"spellDamageReduction" : {
-						"val" : 50
+						"val" : 30,
+						"duration" : "N_TURNS"
 					}
 				},
-				"range" : "X"
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
+				}
+			},
+			"none" : {
+				"cost" : 5,
+				"power" : 70,
+				"aiValue" : 2,
+				"description" : "{Protection from Fire}\n\nProtects the selected unit, reducing damage received from Fire spells.\n"
+			},
+			"basic" : {
+				"cost" : 4,
+				"power" : 70,
+				"aiValue" : 2,
+				"description" : "{Basic Protection from Fire}\n\nProtects the selected unit, reducing damage received from Fire spells.\n"
+			},
+			"advanced" : {
+				"cost" : 4,
+				"power" : 50,
+				"aiValue" : 4,
+				"effects" : {
+					"spellDamageReduction" : { "val" : 50 }
+				},
+				"description" : "{Advanced Protection from Fire}\n\nProtects the selected unit, reducing damage received from Fire spells.\n\nProtection is nearly twice that of Basic Protection from Fire.\n"
+			},
+			"expert" : {
+				"cost" : 4,
+				"power" : 50,
+				"range" : "X",
+				"effects" : {
+					"spellDamageReduction" : { "val" : 50 }
+				},
+				"aiValue" : 4,
+				"description" : "{Expert Protection from Fire}\n\nProtects the selected unit, reducing damage received from Fire spells.\n\nProtection is nearly twice that of Basic Protection from Fire.\n"
 			}
 		},
 		"flags" : {
 			"positive": true
-		}
-	},
-	"protectWater" : {
-		"index" : 32,
-		"targetType" : "CREATURE",
-
+		},
 		"animation":{
-			"affect":["C11SPF0"]
+			"affect":["spells/SoD/timed/C11SPW0.def"]
 		},
 		"sounds": {
-			"cast": "PROTECTW"
+			"cast": "spells/SoD/timed/PROTECTF.wav"
 		},
+		"gainChance" : {
+			"castle" : 3,
+			"conflux" : 3,
+			"dungeon" : 3,
+			"fortress" : 3,
+			"inferno" : 3,
+			"necropolis" : 3,
+			"rampart" : 3,
+			"stronghold" : 3,
+			"tower" : 3
+		}
+	},
+	
+	"protectWater" : {
+		"index" : 32,
+		"name" : "Prot. from Water",
+		"type" : "combat",
+		"level" : 1,
+		"power" : 0,
+		"school" : {
+			"water" : true
+		},
+		"targetType" : "CREATURE",
 		"levels" : {
-			"base":{
-				"range" : "0",
-				"targetModifier":{"smart":true},
+			"base" : {
 				"effects" : {
 					"spellDamageReduction" : {
 						"type" : "SPELL_DAMAGE_REDUCTION",
 						"subtype" : 2,
-						"duration" : "N_TURNS",
-						"val" : 30
-					}
-				}
-			},
-			"advanced" : {
-				"effects" : {
-					"spellDamageReduction" : {
-						"val" : 50
-					}
-				}
-			},
-			"expert":{
-				"effects" : {
-					"spellDamageReduction" : {
-						"val" : 50
+						"val" : 30,
+						"duration" : "N_TURNS"
 					}
 				},
-				"range" : "X"
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
+				}
+			},
+			"none" : {
+				"cost" : 5,
+				"power" : 70,
+				"aiValue" : 2,
+				"description" : "{Protection from Water}\n\nProtects the selected unit, reducing damage received from Water spells.\n"
+			},
+			"basic" : {
+				"cost" : 4,
+				"power" : 70,
+				"aiValue" : 2,
+				"description" : "{Basic Protection from Water}\n\nProtects the selected unit, reducing damage received from Water spells.\n"
+			},
+			"advanced" : {
+				"cost" : 4,
+				"power" : 50,
+				"effects" : {
+					"spellDamageReduction" : { "val" : 50 }
+				},
+				"aiValue" : 4,
+				"description" : "{Advanced Protection from Water}\n\nProtects the selected unit, reducing damage received from Water spells.\n\nProtection is nearly twice that of Basic Protection from Water.\n"
+			},
+			"expert" : {
+				"cost" : 4,
+				"power" : 50,
+				"range" : "X",
+				"effects" : {
+					"spellDamageReduction" : { "val" : 50 }
+				},
+				"aiValue" : 4,
+				"description" : "{Expert Protection from Water}\n\nProtects the selected unit, reducing damage received from Water spells.\n\nProtection is nearly twice that of Basic Protection from Water.\n"
 			}
 		},
 		"flags" : {
 			"positive": true
-		}
-	},
-	"protectEarth" : {
-		"index" : 33,
-		"targetType" : "CREATURE",
-
+		},
 		"animation":{
-			"affect":["C13SPA0"]
+			"affect":["spells/SoD/timed/C11SPF0.def"]
 		},
 		"sounds": {
-			"cast": "PROTECTE"
+			"cast": "spells/SoD/timed/PROTECTW.wav"
 		},
+		"gainChance" : {
+			"castle" : 3,
+			"conflux" : 3,
+			"dungeon" : 3,
+			"fortress" : 3,
+			"inferno" : 3,
+			"necropolis" : 3,
+			"rampart" : 3,
+			"stronghold" : 3,
+			"tower" : 3
+		}
+	},
+	
+	"protectEarth" : {
+		"index" : 33,
+		"name" : "Prot. from Earth",
+		"type" : "combat",
+		"level" : 3,
+		"power" : 0,
+		"school" : {
+			"earth" : true
+		},
+		"targetType" : "CREATURE",
 		"levels" : {
-			"base":{
-				"range" : "0",
-				"targetModifier":{"smart":true},
+			"base" : {
 				"effects" : {
 					"spellDamageReduction" : {
 						"type" : "SPELL_DAMAGE_REDUCTION",
 						"subtype" : 3,
-						"duration" : "N_TURNS",
-						"val" : 30
-					}
-				}
-			},
-			"advanced" : {
-				"effects" : {
-					"spellDamageReduction" : {
-						"val" : 50
-					}
-				}
-			},
-			"expert":{
-				"effects" : {
-					"spellDamageReduction" : {
-						"val" : 50
+						"val" : 30,
+						"duration" : "N_TURNS"
 					}
 				},
-				"range" : "X"
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
+				}
+			},
+			"none" : {
+				"cost" : 12,
+				"power" : 70,
+				"aiValue" : 2,
+				"description" : "{Protection from Earth}\n\nProtects the selected unit, reducing damage received from Earth spells.\n"
+			},
+			"basic" : {
+				"cost" : 9,
+				"power" : 70,
+				"aiValue" : 2,
+				"description" : "{Basic Protection from Earth}\n\nProtects the selected unit, reducing damage received from Earth spells.\n"
+			},
+			"advanced" : {
+				"cost" : 9,
+				"power" : 50
+				"effects" : {
+					"spellDamageReduction" : { "val" : 50 }
+				},
+				"aiValue" : 4,
+				"description" : "{Advanced Protection from Earth}\n\nProtects the selected unit, reducing damage received from Earth spells.\n\nProtection is  nearly twice that of Basic Protection from Earth.\n"
+			},
+			"expert" : {
+				"cost" : 9,
+				"power" : 50,
+				"range" : "X",
+				"effects" : {
+					"spellDamageReduction" : { "val" : 50 }
+				},
+				"aiValue" : 4,
+				"description" : "{Expert Protection from Earth}\n\nProtects the selected unit, reducing damage received from Earth spells.\n\nProtection is  nearly twice that of Basic Protection from Earth.\n"
 			}
 		},
 		"flags" : {
 			"positive": true
+		},
+		"animation":{
+			"affect":["spells/SoD/timed/C13SPA0.def"]
+		},
+		"sounds": {
+			"cast": "spells/SoD/timed/PROTECTE.wav"
+		},
+		"gainChance" : {
+			"castle" : 4,
+			"conflux" : 4,
+			"dungeon" : 4,
+			"fortress" : 0,
+			"inferno" : 2,
+			"necropolis" : 4,
+			"rampart" : 4,
+			"stronghold" : 4,
+			"tower" : 4
 		}
 	},
+	
 	"antiMagic" : {
 		"index" : 34,
+		"name" : "Anti-Magic",
+		"type" : "combat",
+		"level" : 3,
+		"power" : 0,
+		"school" : {
+			"earth" : true
+		},
 		"targetType" : "CREATURE",
-
-		"animation":{
-			"affect":["C02SPE0"]
-		},
-		"sounds": {
-			"cast": "ANTIMAGK"
-		},
 		"levels" : {
-			"base":{
-				"range" : "0",
-				"targetModifier":{"smart":true},
-				"battleEffects":{
-					"spellImmunity":{
-						"type":"core:timed",
-						"bonus":{
-							"levelSpellImmunity":{
-								"addInfo" : 1, //absolute
-								"val" : 3,
-								"type" : "LEVEL_SPELL_IMMUNITY",
-								"valueType" : "INDEPENDENT_MAX",
-								"duration" : "N_TURNS"
-							}
-						}
+			"base" : {
+				"battleEffects" : {
+					"dispel" : {
+						"dispelNegative" : true,
+						"dispelNeutral" : true,
+						"dispelPositive" : false,
+						"optional" : true,
+						"type" : "core:dispel"
 					},
-					"dispel":{
-						"type":"core:dispel",
-						"optional":true,
-						"dispelNegative":true,
-						"dispelNeutral":true,
-						"dispelPositive":false
+					"spellImmunity" : {
+						"bonus" : {
+							"levelSpellImmunity" : {
+								"type" : "LEVEL_SPELL_IMMUNITY",
+								"val" : 3,
+								"valueType" : "INDEPENDENT_MAX",
+								"duration" : "N_TURNS",
+								"addInfo" : 1
+							}
+						},
+						"type" : "core:timed"
 					}
+				},
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
 				}
 			},
-			"advanced":{
-				"battleEffects":{
-					"spellImmunity":{
-						"bonus" :{
-							"levelSpellImmunity":{
-								"val" : 4
-							}
-						}
-					}
-				}
+			"none" : {
+				"cost" : 15,
+				"power" : 4,
+				"aiValue" : 10,
+				"description" : "{Anti-magic}\n\nProtects the selected unit from all low level spells.\n"
 			},
-			"expert":{
-				"battleEffects":{
-					"spellImmunity":{
-						"bonus":{
-							"levelSpellImmunity":{
-								"val" : 5
-							}
+			"basic" : {
+				"cost" : 12,
+				"power" : 4,
+				"aiValue" : 10,
+				"description" : "{Basic Anti-magic}\n\nProtects the selected unit from all low level spells.\n"
+			},
+			"advanced" : {
+				"cost" : 12,
+				"power" : 5,
+				"battleEffects" : {
+					"spellImmunity" : {
+						"bonus" : {
+							"levelSpellImmunity" : { "val" : 4 }
 						}
 					}
-				}
-			}
+				},
+				"aiValue" : 15,
+				"description" : "{Advanced Anti-magic}\n\nProtects the selected unit all but the most powerful spells.\n"
+			},
+			"expert" : {
+				"cost" : 12,
+				"power" : 6,
+				"aiValue" : 20,
+				"battleEffects" : {
+					"spellImmunity" : {
+						"bonus" : {
+							"levelSpellImmunity" : { "val" : 5 }
+						}
+					}
+				},
+				"description" : "{Expert Anti-magic}\n\nProtects the selected unit from all spells.\n"
+			},
+
 		},
 		"flags" : {
 			"positive": true
-		}
-	},
-	"magicMirror" : {
-		"index" : 36,
-		"targetType" : "CREATURE",
-
+		},
 		"animation":{
-			"affect":["C02SPA0"]
+			"affect":["spells/SoD/timed/C02SPE0.def"]
 		},
 		"sounds": {
-			"cast": "BACKLASH"
+			"cast": "spells/SoD/timed/ANTIMAGK.wav"
 		},
+		"gainChance" : {
+			"castle" : 12,
+			"conflux" : 12,
+			"dungeon" : 8,
+			"fortress" : 10,
+			"inferno" : 4,
+			"necropolis" : 8,
+			"rampart" : 8,
+			"stronghold" : 12,
+			"tower" : 8
+		}
+	},
+	
+	"magicMirror" : {
+		"index" : 36,
+		"name" : "Magic Mirror",
+		"type" : "combat",
+		"level" : 5,
+		"power" : 0,
+		"school" : {
+			"air" : true
+		},
+		"targetType" : "CREATURE",
 		"levels" : {
-			"base":{
-				"range" : "0",
-				"targetModifier":{"smart":true},
+			"base" : {
 				"effects" : {
 					"magicMirror" : {
 						"type" : "MAGIC_MIRROR",
 						"valueType" : "INDEPENDENT_MAX",
-						"duration" : "N_TURNS"
+						"duration" : "N_TURNS",
 					}
+				},
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
 				}
+			},
+			"none" : {
+				"cost" : 25,
+				"power" : 20,
+				"aiValue" : 12,
+				"description" : "{Magic Mirror}\n\nReflects hostile spells towards a random enemy creature 20% of the time.\n"
+			},
+			"basic" : {
+				"cost" : 20,
+				"power" : 20,
+				"aiValue" : 12,
+				"description" : "{Basic Magic Mirror}\n\nReflects hostile spells towards a random enemy creature 20% of the time.\n"
+			},
+			"advanced" : {
+				"cost" : 20,
+				"power" : 30,
+				"aiValue" : 18,
+				"description" : "{Advanced Magic Mirror}\n\nReflects hostile spells towards a random enemy creature 30% of the time.\n"
+			},
+			"expert" : {
+				"cost" : 20,
+				"power" : 40,
+				"aiValue" : 24,
+				"description" : "{Expert Magic Mirror}\n\nReflects hostile spells towards a random enemy creature 40% of the time.\n"
 			}
 		},
 		"flags" : {
 			"positive": true
+		},
+		"animation":{
+			"affect":["spells/SoD/timed/C02SPA0.def"]
+		},
+		"sounds": {
+			"cast": "spells/SoD/timed/BACKLASH.wav"
+		},
+		"gainChance" : {
+			"castle" : 0,
+			"conflux" : 13,
+			"dungeon" : 12,
+			"fortress" : 0,
+			"inferno" : 0,
+			"necropolis" : 0,
+			"rampart" : 16,
+			"stronghold" : 0,
+			"tower" : 14
 		}
 	},
+	
 	"bless" : {
 		"index" : 41,
-		"targetType" : "CREATURE",
-
-		"animation":{
-			"affect":["C01SPW"] //C01SPW0
+		"name" : "Bless",
+		"type" : "combat",
+		"level" : 1,
+		"power" : 0,
+		"school" : {
+			"water" : true
 		},
-		"sounds": {
-			"cast": "BLESS"
+		"targetType" : "CREATURE",
+		"targetCondition" : {
+			"noneOf" : {
+				"bonus.UNDEAD" : "absolute",
+				"bonus.SIEGE_WEAPON" : "absolute"
+			}
+		}
+		"counters" : {
+			"spell.curse" : true
 		},
 		"levels" : {
-			"base":{
-				"range" : "0",
-				"targetModifier":{"smart":true},
+			"base" : {
 				"effects" : {
 					"alwaysMaximumDamage" : {
-						"val" : 0,
 						"type" : "ALWAYS_MAXIMUM_DAMAGE",
 						"subtype" : -1,
+						"val" : 0,
 						"valueType" : "INDEPENDENT_MAX",
 						"duration" : "N_TURNS"
 					}
+				},
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
 				}
 			},
-			"expert":{
-				"range" : "X"
+			"none" : {
+				"cost" : 5,
+				"power" : 0,
+				"aiValue" : 10,
+				"description" : "{Bless}\n\nCauses the selected unit to inflict maximum damage in combat.\n"
+			},
+			"basic" : {
+				"cost" : 4,
+				"power" : 0,
+				"aiValue" : 10,
+				"description" : "{Basic Bless}\n\nCauses the selected unit to inflict maximum damage in combat.\n"
+			},
+			"advanced" : {
+				"cost" : 4,
+				"power" : 1,
+				"aiValue" : 11,
+				"description" : "{Advanced Bless}\n\nCauses the selected unit to inflict greater than their normal maximum damage in combat.\n"
+			},
+			"expert" : {
+				"cost" : 4,
+				"power" : 1,
+				"range" : "X",
+				"aiValue" : 11,
+				"description" : "{Expert Bless}\n\nCauses all friendly units to inflict greater than their normal maximum damage in combat.\n"
 			}
-		},
-		"counters" : {
-			"spell.curse": true
 		},
 		"flags" : {
 			"positive": true
 		},
-		"targetCondition" : {
-			"noneOf" : {
-				"bonus.SIEGE_WEAPON" : "absolute",
-				"bonus.UNDEAD" : "absolute"
-			}
-		}
-	},
-	"curse" : {
-		"index" : 42,
-		"targetType" : "CREATURE",
-
 		"animation":{
-			"affect":["C04SPW"]//C04SPW0
+			"affect":["spells/SoD/timed/C01SPW.def"] //C01SPW0
 		},
 		"sounds": {
-			"cast": "CURSE"
+			"cast": "spells/SoD/timed/BLESS.wav"
 		},
-		"levels" : {
-			"base":{
-				"range" : "0",
-				"targetModifier":{"smart":true},
-				"effects" : {
-					"alwaysMinimumDamage" : {
-						"addInfo" : 0,
-						"val" : 0,
-						"type" : "ALWAYS_MINIMUM_DAMAGE",
-						"subtype" : -1,
-						"valueType" : "INDEPENDENT_MAX",
-						"duration" : "N_TURNS"
-					}
-				}
-			},
-			"expert":{
-				"range" : "X"
+		"gainChance" : {
+			"castle" : 10,
+			"conflux" : 5,
+			"dungeon" : 3,
+			"fortress" : 5,
+			"inferno" : 0,
+			"necropolis" : 0,
+			"rampart" : 5,
+			"stronghold" : 3,
+			"tower" : 5
+		}
+	},
+	
+	"curse" : {
+		"index" : 42,
+		"name" : "Curse",
+		"type" : "combat",
+		"level" : 1,
+		"power" : 0,
+		"school" : {
+			"fire" : true
+		},
+		"targetType" : "CREATURE",
+		"targetCondition" : {
+			"noneOf" : {
+				"bonus.UNDEAD" : "absolute",
+				"bonus.SIEGE_WEAPON" : "absolute"
 			}
 		},
 		"counters" : {
 			"spell.bless": true
 		},
+		"levels" : {
+			"base" : {
+				"effects" : {
+					"alwaysMinimumDamage" : {
+						"type" : "ALWAYS_MINIMUM_DAMAGE",
+						"subtype" : -1,
+						"val" : 0,
+						"valueType" : "INDEPENDENT_MAX",
+						"duration" : "N_TURNS",
+						"addInfo" : 0
+					}
+				},
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
+				}
+			},
+			"none" : {
+				"cost" : 6,
+				"power" : 0,
+				"aiValue" : 10,
+				"description" : "{Curse}\n\nCauses the selected enemy unit to inflict minimum damage in combat.\n"
+			},
+			"basic" : {
+				"cost" : 5,
+				"power" : 0,
+				"aiValue" : 10,
+				"description" : "{Basic Curse}\n\nCauses the selected enemy unit to inflict minimum damage in combat.\n"
+			},
+			"advanced" : {
+				"cost" : 5,
+				"power" : 1,
+				"aiValue" : 11,
+				"description" : "{Advanced Curse}\n\nCauses the selected enemy unit to inflict less than their normal minimum damage in combat.\n"
+			},
+			"expert" : {
+				"cost" : 5,
+				"power" : 1,
+				"range" : "X",
+				"aiValue" : 11,
+				"description" : "{Expert Curse}\n\nCauses all enemy units to inflict less than their normal minimum damage in combat.\n"
+			}
+		},
 		"flags" : {
 			"negative": true
 		},
-		"targetCondition" : {
-			"noneOf" : {
-				"bonus.SIEGE_WEAPON" : "absolute",
-				"bonus.UNDEAD" : "absolute"
-			}
-		}
-	},
-	"bloodlust" : {
-		"index" : 43,
-		"targetType" : "CREATURE",
-
 		"animation":{
-			"affect":["SP12_"] //???
+			"affect":["spells/SoD/timed/C04SPW.def"]//C04SPW0
 		},
 		"sounds": {
-			"cast": "BLOODLUS"
+			"cast": "spells/SoD/timed/CURSE.wav"
 		},
-		"levels" : {
-			"base":{
-				"range" : "0",
-				"targetModifier":{"smart":true},
-				"effects" : {
-					"primarySkill" : {
-						"val" : 3,
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primSkill.attack",
-						"effectRange" : "ONLY_MELEE_FIGHT",
-						"duration" : "N_TURNS"
-					}
-				}
-			},
-			"advanced":{
-				"effects" : {
-					"primarySkill" : {
-						"val" : 6
-					}
-				}
-			},
-			"expert":{
-				"range" : "X",
-				"effects" : {
-					"primarySkill" : {
-						"val" : 6
-					}
-				}
+		"gainChance" : {
+			"castle" : 0,
+			"conflux" : 0,
+			"dungeon" : 5,
+			"fortress" : 0,
+			"inferno" : 5,
+			"necropolis" : 10,
+			"rampart" : 0,
+			"stronghold" : 0,
+			"tower" : 3
+		}
+	},
+	
+	"bloodlust" : {
+		"index" : 43,
+		"name" : "Bloodlust",
+		"type" : "combat",
+		"level" : 1,
+		"power" : 0,
+		"school" : {
+			"fire" : true
+		},
+		"targetType" : "CREATURE",
+		"targetCondition" : {
+			"noneOf" : {
+				"bonus.SIEGE_WEAPON" : "absolute"
 			}
 		},
 		"counters" : {
 			"spell.weakness": true
 		},
+		"levels" : {
+			"base" : {
+				"effects" : {
+					"primarySkill" : {
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primSkill.attack",
+						"val" : 3,
+						"duration" : "N_TURNS",
+						"effectRange" : "ONLY_MELEE_FIGHT"
+					}
+				},
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
+				}
+			},
+			"none" : {
+				"cost" : 5,
+				"power" : 3,
+				"aiValue" : 7,
+				"description" : "{Bloodlust}\n\nIncreases the hand-to-hand damage inflicted by the selected unit.\n"
+			}
+			"basic" : {
+				"cost" : 4,
+				"power" : 3,
+				"aiValue" : 7,
+				"description" : "{Basic Bloodlust}\n\nIncreases the hand-to-hand damage inflicted by the selected unit.\n"
+			},
+			"advanced" : {
+				"cost" : 4,
+				"power" : 6,
+				"effects" : {
+					"primarySkill" : { "val" : 6 }
+				},
+				"aiValue" : 15,
+				"description" : "{Advanced Bloodlust}\n\nIncreases the hand-to-hand damage inflicted by the selected unit.\n\nEffect is twice that of Basic Bloodlust.\n"
+			},
+			"expert" : {
+				"cost" : 4,
+				"power" : 6,
+				"aiValue" : 15,
+				"range" : "X",
+				"effects" : {
+					"primarySkill" : { "val" : 6 }
+				},
+				"description" : "{Expert Bloodlust}\n\nIncreases the hand-to-hand damage inflicted by all friendly units.\n\nEffect is twice that of Basic Bloodlust.\n"
+			}
+		},
 		"flags" : {
 			"positive": true
 		},
-		"targetCondition" : {
-			"noneOf" : {
-				"bonus.SIEGE_WEAPON" : "absolute"
-			}
-		}
-	},
-	"precision" : {
-		"index" : 44,
-		"targetType" : "CREATURE",
-
 		"animation":{
-			"affect":["C12SPA0"]
+			"affect":["spells/SoD/timed/SP12_.def"] //???
 		},
 		"sounds": {
-			"cast": "PRECISON"
+			"cast": "spells/SoD/timed/BLOODLUS.wav"
+		},
+		"gainChance" : {
+			"castle" : 0,
+			"conflux" : 5,
+			"dungeon" : 5,
+			"fortress" : 5,
+			"inferno" : 10,
+			"necropolis" : 5,
+			"rampart" : 0,
+			"stronghold" : 10,
+			"tower" : 0
+		}
+	},
+	
+	"precision" : {
+		"index" : 44,
+		"name" : "Precision",
+		"type" : "combat",
+		"level" : 2,
+		"power" : 0,
+		"school" : {
+			"air" : true
+		},
+		"targetType" : "CREATURE",
+		"targetCondition" : {
+			"allOf" : {
+				"bonus.SHOOTER" : "absolute"
+			}
 		},
 		"levels" : {
-			"base":{
-				"range" : "0",
-				"targetModifier":{"smart":true},
+			"base" : {
 				"effects" : {
 					"primarySkill" : {
 						"type" : "PRIMARY_SKILL",
@@ -509,47 +983,81 @@
 						"effectRange" : "ONLY_DISTANCE_FIGHT",
 						"duration" : "N_TURNS"
 					}
+				},
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
 				}
 			},
-			"advanced":{
+			"none" : {
+				"cost" : 8,
+				"power" : 3,
+				"aiValue" : 7,
+				"description" : "{Precision}\n\nIncreases the ranged attack damage inflicted by the selected unit.\n"
+			},
+			"basic" : {
+				"cost" : 6,
+				"power" : 3,
+				"aiValue" : 7,
+				"description" : "{Basic Precision}\n\nIncreases the ranged attack damage inflicted by the selected unit.\n"
+			},
+			"advanced" : {
+				"cost" : 6,
+				"power" : 6,
+				"aiValue" : 15,
 				"effects" : {
-					"primarySkill" : {
-						"val" : 6
-					}
-				}
+					"primarySkill" : { "val" : 6 }
+				},
+				"description" : "{Advanced Precision}\n\nIncreases the ranged attack damage inflicted by the selected unit.\n\nEffect is twice that of Basic Precision.\n"
 			},
-			"expert":{
+			"expert" : {
+				"cost" : 6,
+				"power" : 6,
 				"range" : "X",
+				"aiValue" : 15,
 				"effects" : {
-					"primarySkill" : {
-						"val" : 6
-					}
-				}
+					"primarySkill" : { "val" : 6 }
+				},
+				"description" : "{Expert Precision}\n\nIncreases the ranged attack damage inflicted by all friendly units.\n\nEffect is twice that of Basic Precision.\n"
 			}
 		},
 		"flags" : {
 			"positive": true
 		},
-		"targetCondition" : {
-			"allOf" : {
-				"bonus.SHOOTER" : "absolute"
-			}
-		}
-	},
-	"weakness" : {
-		"index" : 45,
-		"targetType" : "CREATURE",
-
 		"animation":{
-			"affect":["C0ACID"]
+			"affect":["spells/SoD/timed/C12SPA0.def"]
 		},
 		"sounds": {
-			"cast": "WEAKNESS"
+			"cast": "spells/SoD/timed/PRECISON.wav"
+		},
+		"gainChance" : {
+			"castle" : 6,
+			"conflux" : 2,
+			"dungeon" : 6,
+			"fortress" : 4,
+			"inferno" : 8,
+			"necropolis" : 2,
+			"rampart" : 6,
+			"stronghold" : 4,
+			"tower" : 4
+		}
+	},
+	
+	"weakness" : {
+		"index" : 45,
+		"name" : "Weakness",
+		"type" : "combat",
+		"level" : 2,
+		"power" : 0,
+		"school" : {
+			"water" : true
+		},
+		"targetType" : "CREATURE",
+		"counters" : {
+			"spell.bloodlust": true
 		},
 		"levels" : {
-			"base":{
-				"range" : "0",
-				"targetModifier":{"smart":true},
+			"base" : {
 				"effects" : {
 					"primarySkill" : {
 						"type" : "PRIMARY_SKILL",
@@ -557,46 +1065,79 @@
 						"val" : -3,
 						"duration" : "N_TURNS"
 					}
+				},
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
 				}
 			},
-
-			"advanced":{
+			"none" : {
+				"cost" : 8,
+				"power" : 3,
+				"aiValue" : 7,
+				"description" : "{Weakness}\n\nReduces the selected enemy unit's attack strength.\n"
+			},
+			"basic" : {
+				"cost" : 6,
+				"power" : 3,
+				"aiValue" : 7,
+				"description" : "{Basic Weakness}\n\nReduces the selected enemy unit's attack strength.\n"
+			},
+			"advanced" : {
+				"cost" : 6,
+				"power" : 6,
+				"aiValue" : 15,
 				"effects" : {
-					"primarySkill" : {
-						"val" : -6
-					}
-				}
+					"primarySkill" : { "val" : -6 }
+				},
+				"description" : "{Advanced Weakness}\n\nReduces the selected enemy unit's attack strength.\n\nEffect is twice that of Basic Weakness.\n"
 			},
-			"expert":{
+			"expert" : {
+				"cost" : 6,
+				"power" : 6,
 				"range" : "X",
 				"effects" : {
-					"primarySkill" : {
-						"val" : -6
-					}
-				}
+					"primarySkill" : { "val" : -6 }
+				},
+				"aiValue" : 15,
+				"description" : "{Expert Weakness}\n\nReduces the attack strength of all enemy units.\n\nEffect is twice that of Basic Weakness.\n"
 			}
-		},
-		"counters" : {
-			"spell.bloodlust": true
 		},
 		"flags" : {
 			"negative": true
-		}
-	},
-	"stoneSkin" : {
-		"index" : 46,
-		"targetType" : "CREATURE",
-
+		},
 		"animation":{
-			"affect":["C16SPE"] //C16SPE0
+			"affect":["spells/SoD/timed/C0ACID.def"]
 		},
 		"sounds": {
-			"cast": "TUFFSKIN"
+			"cast": "spells/SoD/timed/WEAKNESS.wav"
 		},
+		"gainChance" : {
+			"castle" : 2,
+			"conflux" : 4,
+			"dungeon" : 4,
+			"fortress" : 4,
+			"inferno" : 8,
+			"necropolis" : 4,
+			"rampart" : 2,
+			"stronghold" : 4,
+			"tower" : 2
+		}
+	},
+	
+	
+	"stoneSkin" : {
+		"index" : 46,
+		"name" : "Stone Skin",
+		"type" : "combat",
+		"level" : 1,
+		"power" : 0,
+		"school" : {
+			"earth" : true
+		},
+		"targetType" : "CREATURE",
 		"levels" : {
-			"base":{
-				"range" : "0",
-				"targetModifier":{"smart":true},
+			"base" : {
 				"effects" : {
 					"primarySkill" : {
 						"type" : "PRIMARY_SKILL",
@@ -604,43 +1145,78 @@
 						"val" : 3,
 						"duration" : "N_TURNS"
 					}
+				},
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
 				}
 			},
-			"advanced":{
+			"none" : {
+				"cost" : 5,
+				"power" : 3,
+				"aiValue" : 7,
+				"description" : "{Stone Skin}\n\nIncreases the selected unit's defense strength.\n"
+			},
+			"basic" : {
+				"cost" : 4,
+				"power" : 3,
+				"aiValue" : 7,
+				"description" : "{Basic Stone Skin}\n\nIncreases the selected unit's defense strength.\n"
+			},
+			"advanced" : {
+				"cost" : 4,
+				"power" : 6,
+				"aiValue" : 15,
 				"effects" : {
-					"primarySkill" : {
-						"val" : 6
-					}
-				}
+					"primarySkill" : { "val" : 6 }
+				},
+				"description" : "{Advanced Stone Skin}\n\nIncreases the selected unit's defense strength.\n\nEffect is twice that of Basic Stone Skin.\n"
 			},
-			"expert":{
+			"expert" : {
+				"cost" : 4,
+				"power" : 6,
 				"range" : "X",
 				"effects" : {
-					"primarySkill" : {
-						"val" : 6
-					}
-				}
+					"primarySkill" : { "val" : 6 }
+				},
+				"aiValue" : 15,
+				"description" : "{Expert Stone Skin}\n\nIncreases the defense strength of all friendly units.\n\nEffect is twice that of Basic Stone Skin.\n"
 			}
 		},
 		"flags" : {
 			"positive": true
-		}
-	},
-	"disruptingRay" : {
-		"index" : 47,
-		"targetType" : "CREATURE",
-
+		},
 		"animation":{
-			"affect":["C07SPA1"],
-			"projectile":[{"defName":"C07SPA0"}]//???
+			"affect":["spells/SoD/timed/C16SPE.def"] //C16SPE0
 		},
 		"sounds": {
-			"cast": "DISRUPTR"
+			"cast": "spells/SoD/timed/TUFFSKIN.wav"
 		},
+		"gainChance" : {
+			"castle" : 5,
+			"conflux" : 5,
+			"dungeon" : 5,
+			"fortress" : 5,
+			"inferno" : 5,
+			"necropolis" : 10,
+			"rampart" : 5,
+			"stronghold" : 10,
+			"tower" : 10
+		}
+	},
+	
+	"disruptingRay" : {
+		"index" : 47,
+		"name" : "Disrupting Ray",
+		"type" : "combat",
+		"level" : 2,
+		"power" : 0,
+		"school" : {
+			"air" : true
+		},
+		"targetType" : "CREATURE",
 		"levels" : {
-			"base":{
-				"range" : "0",
-				"targetModifier":{"smart":true},
+			"base" : {
 				"cumulativeEffects" : {
 					"primarySkill" : {
 						"type" : "PRIMARY_SKILL",
@@ -649,41 +1225,84 @@
 						"valueType" : "ADDITIVE_VALUE",
 						"duration" : "PERMANENT"
 					}
+				},
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
 				}
 			},
-			"advanced":{
-				"cumulativeEffects" : {
-					"primarySkill" : {
-						"val" : -4
-					}
-				}
+			"none" : {
+				"cost" : 10,
+				"power" : 3,
+				"aiValue" : 7,
+				"description" : "{Disrupting Ray}\n\nReduces the selected enemy unit's defense strength.  A single enemy may be targeted multiple times by this spell.\n"
 			},
-			"expert":{
+			"basic" : {
+				"cost" : 8,
+				"power" : 3,
+				"aiValue" : 7,
+				"description" : "{Basic Disrupting Ray}\n\nReduces the selected enemy unit's defense strength.  A single enemy may be targeted multiple times by this spell.\n"
+			},
+			"advanced" : {
+				"cost" : 8,
+				"power" : 4,
 				"cumulativeEffects" : {
-					"primarySkill" : {
-						"val" : -5
-					}
-				}
+					"primarySkill" : { "val" : -4 }
+				},
+				"aiValue" : 15,
+				"description" : "{Advanced Disrupting Ray}\n\nReduces the selected enemy unit's defense strength.  A single enemy may be targeted multiple times by this spell.\n\nEffect is greater than that of Basic Disrupting Ray.\n"
+			},
+			"expert" : {
+				"cost" : 8,
+				"power" : 5,
+				"cumulativeEffects" : {
+					"primarySkill" : { "val" : -5 }
+				},
+				"aiValue" : 15,
+				"description" : "{Expert Disrupting Ray}\n\nReduces the selected enemy unit's defense strength.  A single enemy may be targeted multiple times by this spell.\n\nEffect is greater than that of Advanced Disrupting Ray.\n"
 			}
 		},
 		"flags" : {
 			"negative": true
-		}
-	},
-	"prayer" : {
-		"index" : 48,
-		"targetType" : "CREATURE",
-
-		"animation":{
-			"affect":[{"defName":"C10SPW", "verticalPosition":"bottom"}]
+		},
+		"animation" : {
+			"affect" : [
+				"spells/SoD/timed/C07SPA1.def"
+			],
+			"projectile" : [
+				{
+					"defName" : "spells/SoD/timed/C07SPA0.def"
+				}
+			]
 		},
 		"sounds": {
-			"cast": "PRAYER"
+			"cast": "spells/SoD/timed/DISRUPTR.wav"
 		},
+		"gainChance" : {
+			"castle" : 6,
+			"conflux" : 8,
+			"dungeon" : 6,
+			"fortress" : 6,
+			"inferno" : 12,
+			"necropolis" : 4,
+			"rampart" : 4,
+			"stronghold" : 6,
+			"tower" : 6
+		}
+	},
+	
+	"prayer" : {
+		"index" : 48,
+		"name" : "Prayer",
+		"type" : "combat",
+		"level" : 4,
+		"power" : 0,
+		"school" : {
+			"water" : true
+		},
+		"targetType" : "CREATURE",
 		"levels" : {
 			"base":{
-				"range" : "0",
-				"targetModifier":{"smart":true},
 				"effects" : {
 					"attack" : {
 						"type" : "PRIMARY_SKILL",
@@ -698,517 +1317,898 @@
 						"duration" : "N_TURNS"
 					},
 					"stacksSpeed" : {
-						"addInfo" : 0,
 						"type" : "STACKS_SPEED",
 						"val" : 2,
-						"duration" : "N_TURNS"
+						"duration" : "N_TURNS",
+						"addInfo" : 0,
 					}
+				},
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
 				}
+			},
+			"none" : {
+				"cost" : 16,
+				"power" : 2,
+				"aiValue" : 8,
+				"description" : "{Prayer}\n\nBestows a bonus to the attack strength, defense strength and speed of the selected unit.\n"
+			},
+			"basic" : {
+				"cost" : 12,
+				"power" : 2,
+				"aiValue" : 8,
+				"description" : "{Basic Prayer}\n\nBestows a bonus to the attack strength, defense strength and speed of the selected unit.\n"
 			},
 			"advanced":{
 				"effects" : {
-					"attack" : {
-						"val" : 4
-					},
-					"defence" : {
-						"val" : 4
-					},
-					"stacksSpeed" : {
-						"val" : 4
-					}
-				}
+					"attack" : { "val" : 4 },
+					"defence" : { "val" : 4 },
+					"stacksSpeed" : { "val" : 4 }
+				},
+				"description" : "{Advanced Prayer}\n\nBestows a bonus to the attack strength, defense strength and speed of the selected unit.\n\nEffect is twice that of Basic Prayer.\n"
 			},
 			"expert":{
-				"range" : "X",
 				"effects" : {
-					"attack" : {
-						"val" : 4
-					},
-					"defence" : {
-						"val" : 4
-					},
-					"stacksSpeed" : {
-						"val" : 4
-					}
-				}
+					"attack" : { "val" : 4 },
+					"defence" : { "val" : 4 },
+					"stacksSpeed" : { "val" : 4 }
+				},
+				"range" : "X",
+				"description" : "{Expert Prayer}\n\nBestows a bonus to the attack strength, defense strength and speed of all friendly units.\n\nEffect is twice that of Basic Prayer.\n"
 			}
 		},
 		"flags" : {
 			"positive": true
-		}
-	},
-	"mirth" : {
-		"index" : 49,
-		"targetType" : "CREATURE",
-
-		"animation":{
-			"affect":["C09SPW0"]
+		},
+		"animation" : {
+			"affect" : [
+				{
+					"defName" : "spells/SoD/timed/C10SPW.def",
+					"verticalPosition" : "bottom"
+				}
+			]
 		},
 		"sounds": {
-			"cast": "MIRTH"
+			"cast": "spells/SoD/timed/PRAYER.wav"
 		},
-		"levels" : {
-			"base":{
-				"range" : "0",
-				"targetModifier":{"smart":true},
-				"effects" : {
-					"morale" : {
-						"type" : "MORALE",
-						"val" : 1,
-						"duration" : "N_TURNS"
-					}
-				}
-			},
-			"advanced":{
-				"effects" : {
-					"morale" : {
-						"val" : 2
-					}
-				}
-			},
-			"expert":{
-				"range" : "X",
-				"effects" : {
-					"morale" : {
-						"val" : 2
-					}
-				}
+		"gainChance" : {
+			"castle" : 10,
+			"conflux" : 5,
+			"dungeon" : 0,
+			"fortress" : 0,
+			"inferno" : 0,
+			"necropolis" : 0,
+			"rampart" : 5,
+			"stronghold" : 0,
+			"tower" : 5
+		}
+	},
+	
+	"mirth" : {
+		"index" : 49,
+		"name" : "Mirth",
+		"type" : "combat",
+		"level" : 3,
+		"power" : 0,
+		"school" : {
+			"water" : true
+		},
+		"targetType" : "CREATURE",
+		"targetCondition" : {
+			"noneOf" : {
+				"bonus.MIND_IMMUNITY" : "normal",
+				"bonus.NON_LIVING" : "normal",
+				"bonus.UNDEAD" : "absolute",
+				"bonus.SIEGE_WEAPON" : "absolute"
 			}
 		},
 		"counters" : {
 			"spell.sorrow":true
 		},
+		"levels" : {
+			"base" : {
+				"effects" : {
+					"morale" : {
+						"type" : "MORALE",
+						"val" : 1,
+						"duration" : "N_TURNS"
+					}
+				},
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
+				}
+			},
+			"none" : {
+				"cost" : 12,
+				"power" : 1,
+				"aiValue" : 1,
+				"description" : "{Mirth}\n\nIncreases the selected unit's morale.\n"
+			}
+			"basic" : {
+				"cost" : 9,
+				"power" : 1,
+				"aiValue" : 1,
+				"description" : "{Basic Mirth}\n\nIncreases the selected unit's morale.\n"
+			},
+			"advanced" : {
+				"cost" : 9,
+				"power" : 2,
+				"effects" : {
+					"morale" : { "val" : 2 }
+				},
+				"aiValue" : 2,
+				"description" : "{Advanced Mirth}\n\nIncreases the selected unit's morale.\n\nEffect is twice that of Basic Mirth.\n"
+			},
+			"expert" : {
+				"cost" : 9,
+				"power" : 2,
+				"range" : "X",
+				"effects" : {
+					"morale" : { "val" : 2 }
+				},
+				"aiValue" : 2,
+				"description" : "{Expert Mirth}\n\nIncreases the morale of all friendly units.\n\nEffect is twice that of Basic Mirth.\n"
+			}
+		},
 		"flags" : {
 			"positive": true
 		},
+		"animation":{
+			"affect":["spells/SoD/timed/C09SPW0.def"]
+		},
+		"sounds": {
+			"cast": "spells/SoD/timed/MIRTH.wav"
+		},
+		"gainChance" : {
+			"castle" : 4,
+			"conflux" : 4,
+			"dungeon" : 4,
+			"fortress" : 2,
+			"inferno" : 2,
+			"necropolis" : 4,
+			"rampart" : 4,
+			"stronghold" : 12,
+			"tower" : 4
+		}
+	},
+	
+	"sorrow" : {
+		"index" : 50,
+		"name" : "Sorrow",
+		"type" : "combat",
+		"level" : 4,
+		"power" : 0,
+		"school" : {
+			"earth" : true
+		},
+		"targetType" : "CREATURE",
 		"targetCondition" : {
 			"noneOf" : {
 				"bonus.MIND_IMMUNITY" : "normal",
 				"bonus.NON_LIVING" : "normal",
-				"bonus.SIEGE_WEAPON" : "absolute",
-				"bonus.UNDEAD" : "absolute"
+				"bonus.UNDEAD" : "absolute",
+				"bonus.SIEGE_WEAPON" : "absolute"
 			}
-		}
-	},
-	"sorrow" : {
-		"index" : 50,
-		"targetType" : "CREATURE",
-
-		"animation":{
-			"affect":["C14SPE0"]
 		},
-		"sounds": {
-			"cast": "SORROW"
+		"counters" : {
+			"spell.mirth":true
 		},
 		"levels" : {
-			"base":{
-				"range" : "0",
-				"targetModifier":{"smart":true},
+			"base" : {
 				"effects" : {
 					"morale" : {
 						"type" : "MORALE",
 						"val" : -1,
 						"duration" : "N_TURNS"
 					}
+				},
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
 				}
 			},
-			"advanced":{
-				"effects" : {
-					"morale" : {
-						"val" : -2
-					}
-				}
-			},
-			"expert":{
-				"range" : "X",
-				"effects" : {
-					"morale" : {
-						"val" : -2
-					}
-				}
+			"none" : {
+				"cost" : 16,
+				"power" : 1,
+				"aiValue" : 1,
+				"description" : "{Sorrow}\n\nReduces the morale of the selected enemy unit.\n"
 			}
-		},
-		"counters" : {
-			"spell.mirth":true
+			"basic" : {
+				"cost" : 12,
+				"power" : 1,
+				"aiValue" : 1,
+				"description" : "{Basic Sorrow}\n\nReduces the morale of the selected enemy unit.\n"
+			},
+			"advanced" : {
+				"cost" : 12,
+				"power" : 2,
+				"aiValue" : 2,
+				"effects" : {
+					"morale" : { "val" : -2 }
+				},
+				"description" : "{Advanced Sorrow}\n\nReduces the morale of the selected enemy unit.\n\nEffect is twice that of Basic Sorrow.\n"
+			},
+			"expert" : {
+				"cost" : 12,
+				"power" : 2,
+				"range" : "X"
+				"effects" : {
+					"morale" : { "val" : -2 }
+				},
+				"aiValue" : 2,
+				"description" : "{Expert Sorrow}\n\nReduces the morale of all enemy units.\n\nEffect is twice that of Basic Sorrow.\n"
+			}
 		},
 		"flags" : {
 			"negative": true
 		},
-		"targetCondition" : {
-			"noneOf" : {
-				"bonus.MIND_IMMUNITY" : "normal",
-				"bonus.NON_LIVING" : "normal",
-				"bonus.SIEGE_WEAPON" : "absolute",
-				"bonus.UNDEAD" : "absolute"
-			}
-		}
-	},
-	"fortune" : {
-		"index" : 51,
-		"targetType" : "CREATURE",
-
 		"animation":{
-			"affect":["C09SPA0"]
+			"affect":["spells/SoD/timed/C14SPE0.def"]
 		},
 		"sounds": {
-			"cast": "FORTUNE"
+			"cast": "spells/SoD/timed/SORROW.wav"
+		},
+		"gainChance" : {
+			"castle" : 5,
+			"conflux" : 5,
+			"dungeon" : 5,
+			"fortress" : 0,
+			"inferno" : 5,
+			"necropolis" : 5,
+			"rampart" : 5,
+			"stronghold" : 0,
+			"tower" : 5
+		}
+	},
+	
+	"fortune" : {
+		"index" : 51,
+		"name" : "Fortune",
+		"type" : "combat",
+		"level" : 2,
+		"power" : 0,
+		"school" : {
+			"air" : true
+		},
+		"targetType" : "CREATURE",
+		"counters" : {
+			"spell.misfortune": true
 		},
 		"levels" : {
-			"base":{
-				"range" : "0",
-				"targetModifier":{"smart":true},
+			"base" : {
 				"effects" : {
 					"luck" : {
 						"type" : "LUCK",
 						"val" : 1,
-						"duration" : "N_TURNS"
+						"duration" : "N_TURNS",
 					}
+				},
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
 				}
 			},
-			"advanced":{
-				"effects" : {
-					"luck" : {
-						"val" : 2
-					}
-				}
-			},
-			"expert":{
-				"range" : "X",
-				"effects" : {
-					"luck" : {
-						"val" : 2
-					}
-				}
+			"none" : {
+				"cost" : 7,
+				"power" : 1,
+				"aiValue" : 1,
+				"description" : "{Fortune}\n\nIncreases the selected unit's luck.\n"
 			}
-		},
-		"counters" : {
-			"spell.misfortune": true
+			"basic" : {
+				"cost" : 5,
+				"power" : 1,
+				"aiValue" : 1,
+				"description" : "{Basic Fortune}\n\nIncreases the selected unit's luck.\n
+			},
+			"advanced" : {
+				"cost" : 5,
+				"power" : 2,
+				"effects" : {
+					"luck" : { "val" : 2 }
+				},
+				"aiValue" : 2,
+				"description" : "{Advanced Fortune}\n\nIncreases the selected unit's luck.\n\nEffect is twice that of Basic Fortune.\n"
+			},
+			"expert" : {
+				"cost" : 5,
+				"power" : 2,
+				"range" : "X",
+				"aiValue" : 2,
+				"effects" : {
+					"luck" : { "val" : 2 }
+				},
+				"description" : "{Expert Fortune}\n\nIncreases the luck of all friendly units.\n\nEffect is twice that of Basic Fortune.\n"
+			},
+
 		},
 		"flags" : {
 			"positive": true
-		}
-	},
-	"misfortune" : {
-		"index" : 52,
-		"targetType" : "CREATURE",
-
+		},
 		"animation":{
-			"affect":["C10SPF0"]
+			"affect":["spells/SoD/timed/C09SPA0.def"]
 		},
 		"sounds": {
-			"cast": "MISFORT"
+			"cast": "spells/SoD/timed/FORTUNE.wav"
+		},
+		"gainChance" : {
+			"castle" : 4,
+			"conflux" : 2,
+			"dungeon" : 2,
+			"fortress" : 4,
+			"inferno" : 4,
+			"necropolis" : 2,
+			"rampart" : 6,
+			"stronghold" : 4,
+			"tower" : 4
+		}
+	},
+	
+	"misfortune" : {
+		"index" : 52,
+		"name" : "Misfortune",
+		"type" : "combat",
+		"level" : 3,
+		"power" : 0,
+		"school" : {
+			"fire" : true
+		},
+		"targetType" : "CREATURE",
+		"counters" : {
+			"spell.fortune" : true
 		},
 		"levels" : {
-			"base":{
-				"range" : "0",
-				"targetModifier":{"smart":true},
+			"base" : {
 				"effects" : {
 					"luck" : {
 						"type" : "LUCK",
 						"val" : -1,
 						"duration" : "N_TURNS"
 					}
+				},
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
 				}
 			},
-			"advanced":{
+			"none" : {
+				"cost" : 12,
+				"power" : 1,
+				"aiValue" : 1,
+				"description" : "{Misfortune}\n\nReduces the luck of the selected enemy unit.\n"
+			}
+			"basic" : {
+				"cost" : 9,
+				"power" : 1,
+				"aiValue" : 1,
+				"description" : "{Basic Misfortune}\n\nReduces the luck of the selected enemy unit.\n\nSpell Point cost is half that of Normal Misfortune.\n"
+			},
+			"advanced" : {
+				"cost" : 9,
+				"power" : 2
 				"effects" : {
-					"luck" : {
-						"val" : -2
-					}
-				}
+					"luck" : { "val" : -2 }
+				},
+				"aiValue" : 2,
+				"description" : "{Advanced Misfortune}\n\nReduces the luck of the selected enemy unit.\n\nEffect is twice that of Basic Misfortune.\n"
 			},
-			"expert":{
+			"expert" : {
+				"cost" : 9,
+				"power" : 2,
 				"range" : "X",
 				"effects" : {
-					"luck" : {
-						"val" : -2
-					}
-				}
+					"luck" : { "val" : -2 }
+				},
+				"aiValue" : 2,
+				"description" : "{Expert Misfortune}\n\nReduces the luck of all enemy units.\n\nEffect is twice that of Basic Misfortune.\n"
 			}
-		},
-		"counters" : {
-			"spell.fortune":true
 		},
 		"flags" : {
 			"negative": true
-		}
-	},
-	"haste" : {
-		"index" : 53,
-		"targetType" : "CREATURE",
-
+		},
 		"animation":{
-			"affect":["C15SPA0"]
+			"affect":["spells/SoD/timed/C10SPF0.def"]
 		},
 		"sounds": {
-			"cast": "TAILWIND"
+			"cast": "spells/SoD/timed/MISFORT.wav"
 		},
-		"levels" : {
-			"base":{
-				"range" : "0",
-				"targetModifier":{"smart":true},
-				"effects" : {
-					"stacksSpeed" : {
-						"addInfo" : 0,
-						"type" : "STACKS_SPEED",
-						"val" : 3,
-						"duration" : "N_TURNS"
-					}
-				}
-			},
-			"advanced":{
-				"effects" : {
-					"stacksSpeed" : {
-						"val" : 5
-					}
-				}
-			},
-			"expert":{
-				"range" : "X",
-				"effects" : {
-					"stacksSpeed" : {
-						"val" : 5
-					}
-				}
+		"gainChance" : {
+			"castle" : 4,
+			"conflux" : 4,
+			"dungeon" : 4,
+			"fortress" : 2,
+			"inferno" : 6,
+			"necropolis" : 8,
+			"rampart" : 4,
+			"stronghold" : 4,
+			"tower" : 4
+		}
+	},
+	
+	"haste" : {
+		"index" : 53,
+		"name" : "Haste",
+		"type" : "combat",
+		"level" : 1,
+		"power" : 0,
+		"school" : {
+			"air" : true
+		},
+		"targetType" : "CREATURE",
+		"targetCondition" : {
+			"noneOf" : {
+				"bonus.SIEGE_WEAPON" : "absolute"
 			}
 		},
 		"counters" : {
 			"spell.slow": true
 		},
+		"levels" : {
+			"base" : {
+				"effects" : {
+					"stacksSpeed" : {
+						"type" : "STACKS_SPEED",
+						"val" : 3,
+						"duration" : "N_TURNS",
+						"addInfo" : 0
+					}
+				},
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
+				}
+			},
+			"basic" : {
+				"cost" : 5,
+				"power" : 3,
+				"aiValue" : 5,
+				"description" : "{Basic Haste}\n\nIncreases the speed of the selected unit.\n"
+			},
+			"advanced" : {
+				"cost" : 5,
+				"power" : 5,
+				"effects" : {
+					"stacksSpeed" : { "val" : 5 }
+				},
+				"aiValue" : 10,
+				"description" : "{Advanced Haste}\n\nIncreases the speed of the selected unit.\n\nEffect is nearly twice that of Basic Haste.\n"
+			},
+			"expert" : {
+				"cost" : 5,
+				"power" : 5,
+				"range" : "X",
+				"effects" : {
+					"stacksSpeed" : { "val" : 5 }
+				},
+				"aiValue" : 10,
+				"description" : "{Expert Haste}\n\nIncreases the speed of all friendly units.\n\nEffect is nearly twice that of Basic Haste.\n"
+			},
+			"none" : {
+				"cost" : 6,
+				"power" : 3,
+				"aiValue" : 5,
+				"description" : "{Haste}\n\nIncreases the speed of the selected unit.\n"
+			}
+		},
 		"flags" : {
 			"positive": true
 		},
+		"animation":{
+			"affect":["spells/SoD/timed/C15SPA0.def"]
+		},
+		"sounds": {
+			"cast": "spells/SoD/timed/TAILWIND.wav"
+		},
+		"gainChance" : {
+			"castle" : 5,
+			"conflux" : 10,
+			"dungeon" : 10,
+			"fortress" : 10,
+			"inferno" : 5,
+			"necropolis" : 5,
+			"rampart" : 10,
+			"stronghold" : 5,
+			"tower" : 5
+		}
+	},
+	
+	"slow" : {
+		"index" : 54,
+		"name" : "Slow",
+		"type" : "combat",
+		"level" : 1,
+		"power" : 0,
+		"school" : {
+			"earth" : true
+		},
+		"targetType" : "CREATURE",
 		"targetCondition" : {
 			"noneOf" : {
 				"bonus.SIEGE_WEAPON" : "absolute"
-			}
-		}
-	},
-	"slow" : {
-		"index" : 54,
-		"targetType" : "CREATURE",
-
-		"animation":{
-			"affect":[{"defName":"C09SPE0", "verticalPosition":"bottom"}]
-		},
-		"sounds": {
-			"cast": "MUCKMIRE"
-		},
-		"levels" : {
-			"base":{
-				"range" : "0",
-				"targetModifier":{"smart":true},
-				"effects" : {
-					"stacksSpeed" : {
-						"addInfo" : 0,
-						"type" : "STACKS_SPEED",
-						"val" : -25,
-						"valueType" : "PERCENT_TO_ALL",
-						"duration" : "N_TURNS"
-					}
-				}
-			},
-			"advanced":{
-				"effects" : {
-					"stacksSpeed" : {
-						"val" : -50
-					}
-				}
-			},
-			"expert":{
-				"range" : "X",
-				"effects" : {
-					"stacksSpeed" : {
-						"val" : -50
-					}
-				}
 			}
 		},
 		"counters" : {
 			"spell.haste":true
 		},
+		"levels" : {
+			"base" : {
+				"effects" : {
+					"stacksSpeed" : {
+						"type" : "STACKS_SPEED",
+						"val" : -25,
+						"valueType" : "PERCENT_TO_ALL",
+						"duration" : "N_TURNS",
+						"addInfo" : 0
+					}
+				},
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
+				}
+			},
+			"none" : {
+				"cost" : 6,
+				"power" : 75,
+				"aiValue" : 5,
+				"description" : "{Slow}\n\nReduces the speed of the selected enemy unit.\n"
+			}
+			"basic" : {
+				"cost" : 5,
+				"power" : 75,
+				"aiValue" : 5,
+				"description" : "{Basic Slow}\n\nReduces the speed of the selected enemy unit.\n"
+			},
+			"advanced" : {
+				"cost" : 5,
+				"power" : 50,
+				"aiValue" : 15,
+				"effects" : {
+					"stacksSpeed" : { "val" : -50 }
+				},
+				"description" : "{Advanced Slow}\n\nReduces the speed of the selected enemy unit.\n\nEffect is twice that of Basic Slow.\n"
+			},
+			"expert" : {
+				"cost" : 5,
+				"power" : 50,
+				"range" : "X",
+				"effects" : {
+					"stacksSpeed" : { "val" : -50 }
+				},
+				"aiValue" : 15,
+				"description" : "{Expert Slow}\n\nReduces the speed of all enemy units.\n\nEffect is twice that of Basic Slow.\n"
+			}
+		},
 		"flags" : {
 			"negative": true
 		},
-		"targetCondition" : {
-			"noneOf" : {
-				"bonus.SIEGE_WEAPON" : "absolute"
-			}
-		}
-	},
-	"slayer" : {
-		"index" : 55,
-		"targetType" : "CREATURE",
-
-		"animation":{
-			"affect":["C13SPW0"]
+		"animation" : {
+			"affect" : [
+				{
+					"defName" : "spells/SoD/timed/C09SPE0.def",
+					"verticalPosition" : "bottom"
+				}
+			]
 		},
 		"sounds": {
-			"cast": "SLAYER"
+			"cast": "spells/SoD/timed/MUCKMIRE.wav"
 		},
+		"gainChance" : {
+			"castle" : 5,
+			"conflux" : 10,
+			"dungeon" : 5,
+			"fortress" : 5,
+			"inferno" : 10,
+			"necropolis" : 5,
+			"rampart" : 10,
+			"stronghold" : 5,
+			"tower" : 10
+		}
+	},
+	
+	"slayer" : {
+		"index" : 55,
+		"name" : "Slayer",
+		"type" : "combat",
+		"level" : 4,
+		"power" : 0,
+		"school" : {
+			"fire" : true
+		},
+		"targetType" : "CREATURE",
 		"levels" : {
-			"base":{
-				"range" : "0",
-				"targetModifier":{"smart":true},
+			"base" : {
 				"effects" : {
 					"slayer" : {
 						"type" : "SLAYER",
 						"duration" : "N_TURNS"
 					}
+				},
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
 				}
 			},
-			"none":{
+			"none" : {
+				"cost" : 16,
+				"power" : 8,
+				"aiValue" : 1,
 				"effects" : {
-					"slayer" : {
-						"val" : 0
-					}
-				}
+					"slayer" : { "val" : 0 }
+				},
+				"description" : "{Slayer}\n\nIncreases the amount of damage inflicted by a unit when fighting against Dragons, Behemoths and Hydras.\n"
 			},
-			"basic":{
+			"basic" : {
+				"cost" : 12,
+				"power" : 8,
 				"effects" : {
-					"slayer" : {
-						"val" : 1
-					}
-				}
+					"slayer" : { "val" : 1 }
+				},
+				"aiValue" : 1,
+				"description" : "{Basic Slayer}\n\nIncreases the amount of damage inflicted by a unit when fighting against Dragons, Behemoths and Hydras.\n"
 			},
-			"advanced":{
+			"advanced" : {
+				"cost" : 12,
+				"power" : 8,
 				"effects" : {
-					"slayer" : {
-						"val" : 2
-					}
-				}
+					"slayer" : { "val" : 2 }
+				},
+				"aiValue" : 1,
+				"description" : "{Advanced Slayer}\n\nIncreases the amount of damage inflicted by a unit when fighting against Dragons, Behemoths, Hydras, Devils and Angels.\n"
 			},
-			"expert":{
+			"expert" : {
+				"cost" : 12,
+				"power" : 8,
 				"effects" : {
-					"slayer" : {
-						"val" : 3
-					}
-				}
+					"slayer" : { "val" : 3 }
+				},
+				"aiValue" : 1,
+				"description" : "{Expert Slayer}\n\nIncreases the amount of damage inflicted by a unit when fighting against Dragons, Behemoths, Hydras, Devils, Angels and Titans.\n"
 			}
 		},
 		"flags" : {
 			"positive": true
-		}
-	},
-	"frenzy" : {
-		"index" : 56,
-		"targetType" : "CREATURE",
-
+		},
 		"animation":{
-			"affect":["C08SPF0"]
+			"affect":["spells/SoD/timed/C13SPW0.def"]
 		},
 		"sounds": {
-			"cast": "FRENZY"
+			"cast": "spells/SoD/timed/SLAYER.wav"
+		},
+		"gainChance" : {
+			"castle" : 5,
+			"conflux" : 5,
+			"dungeon" : 5,
+			"fortress" : 0,
+			"inferno" : 5,
+			"necropolis" : 5,
+			"rampart" : 5,
+			"stronghold" : 0,
+			"tower" : 5
+		}
+	},
+	
+	"frenzy" : {
+		"index" : 56,
+		"name" : "Frenzy",
+		"type" : "combat",
+		"level" : 4,
+		"power" : 0,
+		"school" : {
+			"fire" : true
+		},
+		"targetType" : "CREATURE",
+		"targetCondition" : {
+			"noneOf" : {
+				"bonus.SIEGE_WEAPON" : "absolute"
+			}
 		},
 		"levels" : {
-			"base":{
-				"range" : "0",
-				"targetModifier":{"smart":true},
+			"base" : {
 				"effects" : {
 					"inFrenzy" : {
 						"type" : "IN_FRENZY",
 						"val" : 100,
 						"duration" : "UNTIL_ATTACK"
 					}
+				},
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
 				}
 			},
-			"advanced":{
-				"effects" : {
-					"inFrenzy" : {
-						"val" : 150
-					}
-				}
+			"none" : {
+				"cost" : 16,
+				"power" : 100,
+				"aiValue" : 10,
+				"description" : "{Frenzy}\n\nSelected troop intentionally lowers its defenses to increase the ferocity of its attack.\n"
 			},
-			"expert":{
+			"basic" : {
+				"cost" : 12,
+				"power" : 100,
+				"aiValue" : 10,
+				"description" : "{Basic Frenzy}\n\nSelected troop intentionally lowers its defenses to increase the ferocity of its attack.\n"
+			},
+			"advanced" : {
+				"cost" : 12,
+				"power" : 150,
 				"effects" : {
-					"inFrenzy" : {
-						"val" : 200
-					}
-				}
+					"inFrenzy" : { "val" : 150 }
+				},
+				"aiValue" : 20,
+				"description" : "{Advanced Frenzy}\n\nSelected troop intentionally lowers its defenses to increase the ferocity of its attack.\n\nBonus to attack is 50% greater than Basic Frenzy.\n"
+			},
+			"expert" : {
+				"cost" : 12,
+				"power" : 200,
+				"effects" : {
+					"inFrenzy" : { "val" : 200 }
+				},
+				"aiValue" : 30,
+				"description" : "{Expert Frenzy}\n\nSelected troop intentionally lowers its defenses to increase the ferocity of its attack.\n\nBonus to attack is double Basic Frenzy.\n"
 			}
 		},
 		"flags" : {
 			"positive": true
 		},
+		"animation":{
+			"affect":["spells/SoD/timed/C08SPF0.def"]
+		},
+		"sounds": {
+			"cast": "spells/SoD/timed/FRENZY.wav"
+		},
+		"gainChance" : {
+			"castle" : 5,
+			"conflux" : 5,
+			"dungeon" : 5,
+			"fortress" : 0,
+			"inferno" : 5,
+			"necropolis" : 5,
+			"rampart" : 5,
+			"stronghold" : 0,
+			"tower" : 5
+		}
+	},
+	
+	"counterstrike" : {
+		"index" : 58,
+		"name" : "Counterstrike",
+		"type" : "combat",
+		"level" : 4,
+		"power" : 0,
+		"school" : {
+			"air" : true
+		},
+		"targetType" : "CREATURE",
 		"targetCondition" : {
 			"noneOf" : {
 				"bonus.SIEGE_WEAPON" : "absolute"
 			}
-		}
-	},
-	"counterstrike" : {
-		"index" : 58,
-		"targetType" : "CREATURE",
-
-		"animation":{
-			"affect":["C04SPA0"]
-		},
-		"sounds": {
-			"cast": "CNTRSTRK"
 		},
 		"levels" : {
-			"base":{
-				"range" : "0",
-				"targetModifier":{"smart":true},
+			"base" : {
 				"effects" : {
 					"additionalRetaliation" : {
 						"type" : "ADDITIONAL_RETALIATION",
 						"val" : 1,
 						"duration" : "N_TURNS"
 					}
+				},
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
 				}
 			},
-			"advanced":{
+			"none" : {
+				"cost" : 24,
+				"power" : 1,
+				"aiValue" : 20,
+				"description" : "{Counterstrike}\n\nThe selected unit will retaliate against one additional attack each round.\n"
+			},
+			"basic" : {
+				"cost" : 20,
+				"power" : 1,
+				"aiValue" : 20,
+				"description" : "{Basic Counterstrike}\n\nThe selected unit will retaliate against one additional attack each round.\n"
+			},
+			"advanced" : {
+				"cost" : 20,
+				"power" : 2,
 				"effects" : {
-					"additionalRetaliation" : {
-						"val" : 2
-					}
-				}
+					"additionalRetaliation" : { "val" : 2 }
+				},
+				"aiValue" : 30,
+				"description" : "{Advanced Counterstrike}\n\nThe selected unit will retaliate against two additional attacks each round.\n"
 			},
-			"expert":{
+			"expert" : {
+				"cost" : 20,
+				"power" : 2,
+				"effects" : {
+					"additionalRetaliation" : { "val" : 2 }
+				},
 				"range" : "X",
-				"effects" : {
-					"additionalRetaliation" : {
-						"val" : 2
-					}
-				}
+				"aiValue" : 30,
+				"description" : "{Expert Counterstrike}\n\nAll friendly units will retaliate against two additional attacks each round.\n"
 			}
 		},
 		"flags" : {
 			"positive": true
 		},
-		"targetCondition" : {
-			"noneOf" : {
-				"bonus.SIEGE_WEAPON" : "absolute"
-			}
-		}
-	},
-	"berserk" : {
-		"index" : 59,
-		"targetType" : "LOCATION",
-
 		"animation":{
-			"affect":["C01SPF"] //C01SPF0
+			"affect":["spells/SoD/timed/C04SPA0.def"]
 		},
 		"sounds": {
-			"cast": "BERSERK"
+			"cast": "spells/SoD/timed/CNTRSTRK.wav"
+		},
+		"gainChance" : {
+			"castle" : 5,
+			"conflux" : 5,
+			"dungeon" : 5,
+			"fortress" : 0,
+			"inferno" : 5,
+			"necropolis" : 5,
+			"rampart" : 10,
+			"stronghold" : 0,
+			"tower" : 5
+		}
+	},
+	
+	"berserk" : {
+		"index" : 59,
+		"name" : "Berserk",
+		"type" : "combat",
+		"level" : 4,
+		"power" : 0,
+		"school" : {
+			"fire" : true
+		},
+		"targetType" : "LOCATION",
+		"targetCondition" : {
+			"noneOf" : {
+				"bonus.MIND_IMMUNITY" : "normal",
+				"bonus.NON_LIVING" : "normal",
+				"bonus.UNDEAD" : "normal",
+				"bonus.SIEGE_WEAPON" : "absolute"
+			}
 		},
 		"levels" : {
-			"base":{
-				"range" : "0",
-				"targetModifier":{"smart":false},
+			"base" : {
 				"effects" : {
 					"attacksNearestCreature" : {
 						"type" : "ATTACKS_NEAREST_CREATURE",
 						"duration" : "STACK_GETS_TURN"
 					}
+				},
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : false
 				}
 			},
-			"advanced":{
-				"range" : "0-1"
+			"none" : {
+				"cost" : 20,
+				"power" : 0,
+				"aiValue" : 60,
+				"description" : "{Berserk}\n\nThe targeted unit will randomly attack the nearest unit, be it friend or foe.\n"
+			}
+			"basic" : {
+				"cost" : 16,
+				"power" : 0,
+				"aiValue" : 60,
+				"description" : "{Basic Berserk}\n\nThe targeted unit will randomly attack the nearest unit, be it friend or foe.\n"
 			},
-			"expert":{
-				"range" : "0-2"
+			"advanced" : {
+				"cost" : 16,
+				"power" : 1,
+				"range" : "0-1",
+				"aiValue" : 60,
+				"description" : "{Advanced Berserk}\n\nThe targeted unit will randomly attack the nearest unit, be it friend or foe.\n\nArea of effect is six hexes greater than Basic Berserk.\n"
+			},
+			"expert" : {
+				"cost" : 16,
+				"power" : 2,
+				"range" : "0-2",
+				"aiValue" : 60,
+				"description" : "{Expert Berserk}\n\nThe targeted unit will randomly attack the nearest unit, be it friend or foe.\n\nArea of effect is eighteen hexes greater than Basic Berserk.\n"
 			}
 		},
 		"counters" : {
@@ -1217,137 +2217,131 @@
 		"flags" : {
 			"negative": true
 		},
-		"targetCondition" : {
-			"noneOf" : {
-				"bonus.MIND_IMMUNITY" : "normal",
-				"bonus.NON_LIVING" : "normal",
-				"bonus.SIEGE_WEAPON" : "absolute",
-				"bonus.UNDEAD" : "normal"
-			}
-		}
-	},
-	"hypnotize" : {
-		"index" : 60,
-		"targetType" : "CREATURE",
-
 		"animation":{
-			"affect":["C10SPA0"]
+			"affect":["spells/SoD/timed/C01SPF.def"] //C01SPF0
 		},
 		"sounds": {
-			"cast": "HYPNOTIZ"
+			"cast": "spells/SoD/timed/BERSERK.wav"
 		},
-		"levels" : {
-			"base":{
-				"range" : "0",
-				"targetModifier":{"smart":true},
-				"effects" : {
-					"hypnotized" : {
-						"type" : "HYPNOTIZED",
-						"duration" : "N_TURNS"
-					}
-				}
-			},
-			"none":{
-				"effects" : {
-					"hypnotized" : {
-						"val" : 0
-					}
-				}
-			},
-			"basic":{
-				"effects" : {
-					"hypnotized" : {
-						"val" : 1
-					}
-				}
-			},
-			"advanced":{
-				"effects" : {
-					"hypnotized" : {
-						"val" : 2
-					}
-				}
-			},
-			"expert":{
-				"effects" : {
-					"hypnotized" : {
-						"val" : 3
-					}
-				}
-			}
+		"gainChance" : {
+			"castle" : 5,
+			"conflux" : 5,
+			"dungeon" : 5,
+			"fortress" : 0,
+			"inferno" : 5,
+			"necropolis" : 10,
+			"rampart" : 5,
+			"stronghold" : 0,
+			"tower" : 5
+		}
+	},
+	
+	"hypnotize" : {
+		"index" : 60,
+		"name" : "Hypnotize",
+		"type" : "combat",
+		"level" : 3,
+		"power" : 25,
+		"school" : {
+			"air" : true
 		},
-		"counters" : {
-			"spell.berserk": true
-		},
+		"targetType" : "CREATURE",
 		"targetCondition" : {
 			"allOf" : {
 				"healthValueSpecial" : "absolute"
 			},
 			"noneOf" : {
-				"bonus.SIEGE_WEAPON":"absolute",
-				"bonus.MIND_IMMUNITY":"normal",
-				"bonus.UNDEAD":"normal",
-				"bonus.NON_LIVING":"normal"
+				"bonus.MIND_IMMUNITY" : "normal",
+				"bonus.NON_LIVING" : "normal",
+				"bonus.UNDEAD" : "normal",
+				"bonus.SIEGE_WEAPON" : "absolute"
 			}
 		},
-		"flags" : {
-			"negative": true
-		}
-	},
-	"forgetfulness" : {
-		"index" : 61,
-		"targetType" : "CREATURE",
-
-		"animation":{
-			"affect":["C06SPW"]//C06SPW0
-		},
-		"sounds": {
-			"cast": "FORGET"
+		"counters" : {
+			"spell.berserk": true
 		},
 		"levels" : {
-			"base":{
-				"range" : "0",
-				"targetModifier":{"smart":true},
+			"base" : {
 				"effects" : {
-					"forgetful" : {
-						"type" : "FORGETFULL",
+					"hypnotized" : {
+						"type" : "HYPNOTIZED",
 						"duration" : "N_TURNS"
 					}
+				},
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
 				}
 			},
-			"none":{
+			"none" : {
+				"cost" : 18,
+				"power" : 10,
 				"effects" : {
-					"forgetful" : {
-						"val" : 0
-					}
-				}
+					"hypnotized" : { "val" : 0 }
+				},
+				"aiValue" : 25,
+				"description" : "{Hypnotize}\n\nPuts an enemy unit temporarily under your control.\n"
+			}
+			"basic" : {
+				"cost" : 15,
+				"power" : 10,
+				"effects" : {
+					"hypnotized" : { "val" : 1 }
+				},
+				"aiValue" : 25,
+				"description" : "{Basic Hypnotize}\n\nPuts an enemy unit temporarily under your control.\n"
 			},
-			"basic":{
+			"advanced" : {
+				"cost" : 15,
+				"power" : 20,
+				"aiValue" : 50,
 				"effects" : {
-					"forgetful" : {
-						"val" : 1
-					}
-				}
+					"hypnotized" : { "val" : 2 }
+				},
+				"description" : "{Advanced Hypnotize}\n\nPuts an enemy unit temporarily under your control.\n\nAllows you to control an additional 10 hit points of enemies over Basic Hypnotize.\n"
 			},
-			"advanced":{
+			"expert" : {
+				"cost" : 15,
+				"power" : 50,
+				"aiValue" : 100,
 				"effects" : {
-					"forgetful" : {
-						"val" : 2
-					}
-				}
-			},
-			"expert":{
-				"range" : "X",
-				"effects" : {
-					"forgetful" : {
-						"val" : 3
-					}
-				}
+					"hypnotized" : { "val" : 3 }
+				},
+				"description" : "{Expert Hypnotize}\n\nPuts an enemy unit temporarily under your control.\n\nAllows you to control an additional 40 hit points of enemies over Basic Hypnotize.\n"
 			}
 		},
 		"flags" : {
 			"negative": true
 		},
+		"animation":{
+			"affect":["spells/SoD/timed/C10SPA0.def"]
+		},
+		"sounds": {
+			"cast": "spells/SoD/timed/HYPNOTIZ.wav"
+		},
+		"gainChance" : {
+			"castle" : 4,
+			"conflux" : 12,
+			"dungeon" : 8,
+			"fortress" : 4,
+			"inferno" : 6,
+			"necropolis" : 0,
+			"rampart" : 4,
+			"stronghold" : 4,
+			"tower" : 8
+		}
+	},
+	
+	"forgetfulness" : {
+		"index" : 61,
+		"name" : "Forgetfulness",
+		"type" : "combat",
+		"level" : 3,
+		"power" : 0,
+		"school" : {
+			"water" : true
+		},
+		"targetType" : "CREATURE",
 		"targetCondition" : {
 			"allOf" : {
 				"bonus.SHOOTER" : "absolute"
@@ -1355,68 +2349,180 @@
 			"noneOf" : {
 				"bonus.MIND_IMMUNITY" : "normal",
 				"bonus.NON_LIVING" : "normal",
-				"bonus.SIEGE_WEAPON" : "absolute",
-				"bonus.UNDEAD" : "normal"
+				"bonus.UNDEAD" : "normal",
+				"bonus.SIEGE_WEAPON" : "absolute"
 			}
-		}
-	},
-	"blind" : {
-		"index" : 62,
-		"targetType" : "CREATURE",
-
-		"animation":{
-			"affect":["C02SPF0"]
-		},
-		"sounds": {
-			"cast": "BLIND"
 		},
 		"levels" : {
-			"base":{
-				"range" : "0",
-				"targetModifier":{"smart":true},
+			"base" : {
 				"effects" : {
-					"notActive" : {
-						"val" : 0,
-						"type" : "NOT_ACTIVE",
-						"subtype" : 62,
-						"duration" : [
-							"UNTIL_BEING_ATTACKED",
-							"N_TURNS"
-						]
-					},
+					"forgetful" : {
+						"type" : "FORGETFULL",
+						"duration" : "N_TURNS"
+					}
+				},
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
+				}
+			},
+			"none" : {
+				"cost" : 12,
+				"power" : 0,
+				"effects" : {
+					"forgetful" : {	"val" : 0 }
+				},
+				"aiValue" : 1,
+				"description" : "{Forgetfulness}\n\nHalf of the selected enemy unit forgets to use its ranged attack.\n"
+			},
+			"basic" : {
+				"cost" : 9,
+				"power" : 0,
+				"effects" : {
+					"forgetful" : { "val" : 1 }
+				},
+				"aiValue" : 1,
+				"description" : "{Basic Forgetfulness}\n\nHalf of the selected enemy unit forgets to use its ranged attack.\n"
+			},
+			"advanced" : {
+				"cost" : 9,
+				"power" : 0,
+				"aiValue" : 1,
+				"effects" : {
+					"forgetful" : { "val" : 2 }
+				},
+				"description" : "{Advanced Forgetfulness}\n\nCauses the selected enemy unit to forget to use its ranged attack in combat.\n"
+			},
+			"expert" : {
+				"cost" : 9,
+				"power" : 0,
+				"range" : "X",
+				"effects" : {
+					"forgetful" : { "val" : 3 }
+				},
+				"aiValue" : 1,
+				"description" : "{Expert Forgetfulness}\n\nCauses all enemy troops to forget to use their ranged attack in combat.\n"
+			}
+		},
+		"flags" : {
+			"negative": true
+		},
+		"animation":{
+			"affect":["spells/SoD/timed/C06SPW.def"]//C06SPW0
+		},
+		"sounds": {
+			"cast": "spells/SoD/timed/FORGET.wav"
+		},
+		"gainChance" : {
+			"castle" : 8,
+			"conflux" : 8,
+			"dungeon" : 4,
+			"fortress" : 4,
+			"inferno" : 4,
+			"necropolis" : 4,
+			"rampart" : 8,
+			"stronghold" : 4,
+			"tower" : 4
+		}
+	},
+	
+	"blind" : {
+		"index" : 62,
+		"name" : "Blind",
+		"type" : "combat",
+		"level" : 2,
+		"power" : 0,
+		"school" : {
+			"fire" : true
+		},
+		"targetType" : "CREATURE",
+		"targetCondition" : {
+			"noneOf" : {
+				"bonus.MIND_IMMUNITY" : "normal",
+				"bonus.NON_LIVING" : "normal",
+				"bonus.UNDEAD" : "absolute",
+				"bonus.SIEGE_WEAPON" : "absolute"
+			}
+		},
+		"levels" : {
+			"base" : {
+				"effects" : {
 					"generalAttackReduction" : {
 						"type" : "GENERAL_ATTACK_REDUCTION",
 						"duration" : [
 							"UNTIL_BEING_ATTACKED",
 							"N_TURNS"
 						]
-					}
-				}
-			},
-			"expert":{
-				"effects" : {
-					"noRetaliation" : {
+					},
+					"notActive" : {
+						"type" : "NOT_ACTIVE",
+						"subtype" : 62,
 						"val" : 0,
-						"type" : "NO_RETALIATION",
 						"duration" : [
 							"UNTIL_BEING_ATTACKED",
 							"N_TURNS"
 						]
 					}
+				},
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
 				}
+			},
+			"basic" : {
+				"cost" : 8,
+				"power" : 50,
+				"aiValue" : 50,
+				"description" : "{Basic Blind}\n\nBlinds a creature so that it cannot move and causes it to counterattack at half its normal attack strength.  Blindness persists until the unit is attacked or dispelled.\n"
+			},
+			"advanced" : {
+				"cost" : 8,
+				"power" : 25,
+				"aiValue" : 50,
+				"description" : "{Advanced Blind}\n\nBlinds a creature so that it cannot move and causes it to counterattack at one-quarter of its normal attack strength.  Blindness persists until the unit is attacked or dispelled.\n"
+			},
+			"expert" : {
+				"cost" : 8,
+				"power" : 0
+				"effects" : {
+					"noRetaliation" : {
+						"type" : "NO_RETALIATION",
+						"val" : 0,
+						"duration" : [
+							"UNTIL_BEING_ATTACKED",
+							"N_TURNS"
+						],
+					}
+				},
+				"aiValue" : 50,
+				"description" : "{Expert Blind}\n\nBlinds a creature so that it cannot move or counterattack.  Blindness persists until the unit is attacked or dispelled.\n"
+			},
+			"none" : {
+				"cost" : 10,
+				"power" : 50,
+				"aiValue" : 50,
+				"description" : "{Blind}\n\nBlinds a creature so that it cannot move and causes it to counterattack at half its normal attack strength.  Blindness persists until the unit is attacked or dispelled.\n"
 			}
 		},
 		"flags" : {
 			"negative": true
 		},
-		"targetCondition" : {
-			"noneOf" : {
-				"bonus.MIND_IMMUNITY" : "normal",
-				"bonus.NON_LIVING" : "normal",
-				"bonus.SIEGE_WEAPON" : "absolute",
-				"bonus.UNDEAD" : "absolute"
-			}
+		"animation":{
+			"affect":["spells/SoD/timed/C02SPF0.def"]
+		},
+		"sounds": {
+			"cast": "spells/SoD/timed/BLIND.wav"
+		},
+		"gainChance" : {
+			"castle" : 4,
+			"conflux" : 8,
+			"dungeon" : 4,
+			"fortress" : 6,
+			"inferno" : 12,
+			"necropolis" : 4,
+			"rampart" : 6,
+			"stronghold" : 4,
+			"tower" : 2
 		}
-
 	}
 }

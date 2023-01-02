@@ -1,735 +1,1472 @@
 {
 	"quicksand" : {
 		"index" : 10,
-		"targetType" : "NO_TARGET",
-
-		"sounds": {
-			"cast": "" // no casting sound, only obstacle placement sound
+		"name" : "Quicksand",
+		"type" : "combat",
+		"level" : 2,
+		"power" : 0,
+		"school" : {
+			"earth" : true
 		},
+		"targetType" : "NO_TARGET",
 		"levels" : {
-			"base":{
-				"range" : "X",
+			"base" : {
 				"battleEffects" : {
 					"obstacle" : {
-						"type":"core:obstacle",
+						"attacker" : {
+							"animation" : "spells/SoD/other/C17SPE1.def",
+							"appearAnimation" : "spells/SoD/other/C17SPE0.def",
+							"offsetY" : -42
+						},
+						"defender" : {
+							"animation" : "spells/SoD/other/C17SPE1.def",
+							"appearAnimation" : "spells/SoD/other/C17SPE0.def",
+							"offsetY" : -42
+						},
 						"hidden" : true,
 						"passable" : true,
+						"patchCount" : 4,
 						"trap" : true,
 						"trigger" : false,
-						"patchCount" : 4,
 						"turnsRemaining" : -1,
-						"attacker" :{
-							"animation" : "C17SPE1",
-							"appearAnimation" : "C17SPE0",
-							"offsetY" : -42
-						},
-						"defender" :{
-							"animation" : "C17SPE1",
-							"appearAnimation" : "C17SPE0",
-							"offsetY" : -42
-						}
-					}
-				}
-			},
-			"advanced":{
-				"battleEffects":{
-					"obstacle":{
-						"patchCount" : 6
-					}
-				}
-			},
-			"expert":{
-				"battleEffects":{
-					"obstacle":{
-						"patchCount" : 8
-					}
-				}
-			}
-		},
-		"flags" : {
-			"indifferent": true
-		}
-	},
-	"landMine" : {
-		"index" : 11,
-		"targetType" : "NO_TARGET",
-
-		"sounds": {
-			"cast": "" // no casting sound, only obstacle placement sound
-		},
-		"levels" : {
-			"base":{
-				"range" : "X",
-				"battleEffects" : {
-					"obstacle" : {
-						"type":"core:obstacle",
-						"hidden" : true,
-						"passable" : true,
-						"trap" : false,
-						"trigger" : true,
-						"removeOnTrigger" : true,
-						"patchCount" : 4,
-						"turnsRemaining" : -1,
-						"attacker" :{
-							"animation" : "C09SPF1",
-							"appearAnimation" : "C09SPF0"
-						},
-						"defender" :{
-							"animation" : "C09SPF1",
-							"appearAnimation" : "C09SPF0"
-						}
-					},
-					"damage":{
-						"type":"core:damage",
-						"optional":false,
-						"indirect":true,
-						"customEffectId" : 82
-					}
-				}
-			},
-			"advanced":{
-				"battleEffects":{
-					"obstacle":{
-						"patchCount" : 6
-					}
-				}
-			},
-			"expert":{
-				"battleEffects":{
-					"obstacle":{
-						"patchCount" : 8
-					}
-				}
-			}
-		},
-		"flags" : {
-			"damage": true,
-			"indifferent": true
-		},
-		"targetCondition" : {
-			"noneOf" : {
-				"bonus.DIRECT_DAMAGE_IMMUNITY" : "normal"
-			}
-		}
-	},
-	"forceField" : {
-		"index" : 12,
-		"targetType" : "LOCATION",
-
-		"sounds": {
-			"cast": "FORCEFLD"
-		},
-		"levels" : {
-			"base":{
-				"range" : "0",
-				"targetModifier":{
-					"clearAffected": true
-				},
-				"battleEffects":{
-					"obstacle":{
-						"type":"core:obstacle",
-						"hidden" : false,
-						"passable" : false,
-						"trap" : false,
-						"trigger" : false,
-						"patchCount" : 1,
-						"turnsRemaining" : 2,
-						"attacker" :{
-							"range" : [[""]],
-							"shape" : [[""], ["TR"]],
-							"animation" : "C15SPE1",
-							"appearAnimation" : "C15SPE0"
-						},
-						"defender" :{
-							"range" : [[""]],
-							"shape" : [[""], ["TL"]],
-							"animation" : "C15SPE4",
-							"appearAnimation" : "C15SPE0"
-						}
-					}
-				}
-			},
-			"advanced":{
-				"battleEffects":{
-					"obstacle":{
-						"attacker" :{
-							"shape" : [[""], ["TR"], ["TR", "TL"]],
-							"animation" : "C15SPE10",
-							"appearAnimation" : "C15SPE9"
-						},
-						"defender" :{
-							"shape" : [[""], ["TL"], ["TL", "TR"]],
-							"animation" : "C15SPE7",
-							"appearAnimation" : "C15SPE6"
-						}
-					}
-				}
-			},
-			"expert":{
-				"battleEffects":{
-					"obstacle":{
-						"attacker" :{
-							"shape" : [[""], ["TR"], ["TR", "TL"]],
-							"animation" : "C15SPE10",
-							"appearAnimation" : "C15SPE9"
-						},
-						"defender" :{
-							"shape" : [[""], ["TL"], ["TL", "TR"]],
-							"animation" : "C15SPE7",
-							"appearAnimation" : "C15SPE6"
-						}
-					}
-				}
-			}
-		},
-		"flags" : {
-			"indifferent": true
-		}
-	},
-	"fireWall" : {
-		"index" : 13,
-		"targetType" : "LOCATION",
-
-		"sounds": {
-			"cast": "FIREWALL"
-		},
-		"levels" : {
-			"base":{
-				"range" : "0",
-				"targetModifier":{
-					"clearAffected": true
-				},
-				"battleEffects":{
-					"obstacle":{
-						"type":"core:obstacle",
-						"hidden" : false,
-						"passable" : true,
-						"trap" : false,
-						"trigger" : true,
-						"patchCount" : 1,
-						"turnsRemaining" : 2,
-						"attacker" :{
-							"shape" : [[""]],
-							"range" : [[""], ["TR"]],
-							"animation" : "C07SPF61",
-							"appearAnimation" : "C07SPF60"
-						},
-						"defender" :{
-							"shape" : [[""]],
-							"range" : [[""], ["TL"]],
-							"animation" : "C07SPF61",
-							"appearAnimation" : "C07SPF60"
-						}
-					},
-					"damage":{
-						"type":"core:damage",
-						"optional":false,
-						"indirect":true
-					}
-				}
-			},
-			"advanced":{
-				"battleEffects":{
-					"obstacle":{
-						"attacker" :{
-							"range" : [[""], ["TR"], ["TR", "TL"]]
-						},
-						"defender" :{
-							"range" : [[""], ["TL"], ["TL", "TR"]]
-						}
-					}
-				}
-			},
-			"expert":{
-				"battleEffects":{
-					"obstacle":{
-						"attacker" :{
-							"range" : [[""], ["TR"], ["TR", "TL"]]
-						},
-						"defender" :{
-							"range" : [[""], ["TL"], ["TL", "TR"]]
-						}
-					}
-				}
-			}
-		},
-		"flags" : {
-			"damage": true,
-			"indifferent": true
-		},
-		"targetCondition" : {
-			"noneOf" : {
-				"bonus.DIRECT_DAMAGE_IMMUNITY" : "normal"
-			}
-		}
-	},
-	"earthquake" : {
-		"index" : 14,
-		"targetType" : "NO_TARGET",
-
-		"sounds": {
-			"cast": "ERTHQUAK"
-		},
-		"levels" : {
-			"base":{
-				"targetModifier":{"smart":true},
-				"battleEffects":{
-					"catapult":{
-						"type":"core:catapult",
-						"targetsToAttack": 2
+						"type" : "core:obstacle"
 					}
 				},
 				"range" : "X"
 			},
-			"advanced":{
-				"battleEffects":{
-					"catapult":{
-						"targetsToAttack": 3
-					}
-				}
+			"none" : {
+				"cost" : 8,
+				"power" : 0,
+				"aiValue" : 1,
+				"description" : "{Quicksand}\n\nRandomly places four small patches of quicksand on the battlefield which are only visible to the caster and creatures native to the terrain.  Walking into quicksand ends a unit's movement for the turn and makes it visible to all.\n"
 			},
-			"expert":{
-				"battleEffects":{
-					"catapult":{
-						"targetsToAttack": 4
-					}
-				}
+			"basic" : {
+				"cost" : 6,
+				"power" : 0,
+				"aiValue" : 1,
+				"description" : "{Basic Quicksand}\n\nRandomly places four small patches of quicksand on the battlefield which are only visible to the caster and creatures native to the terrain.  Walking into quicksand ends a unit's movement for the turn and makes it visible to all.\n"
+			},
+			"advanced" : {
+				"cost" : 6,
+				"power" : 0,
+				"battleEffects" : {
+					"obstacle" : { "patchCount" : 6 }
+				},
+				"aiValue" : 1,
+				"description" : "{Advanced Quicksand}\n\nRandomly places six small patches of quicksand on the battlefield which are only visible to the caster and creatures native to the terrain.  Walking into quicksand ends a unit's movement for the turn and makes it visible to all.\n"
+			},
+			"expert" : {
+				"cost" : 6,
+				"power" : 0,
+				"battleEffects" : {
+					"obstacle" : { "patchCount" : 8 }
+				},
+				"aiValue" : 1,
+				"description" : "{Expert Quicksand}\n\nRandomly places eight small patches of quicksand on the battlefield which are only visible to the caster and creatures native to the terrain.  Walking into quicksand ends a unit's movement for the turn and makes it visible to all.\n"
 			}
 		},
 		"flags" : {
 			"indifferent": true
+		},
+		"sounds": {
+			"cast": "" // no casting sound, only obstacle placement sound
+		},
+		"gainChance" : {
+			"castle" : 4,
+			"conflux" : 4,
+			"dungeon" : 4,
+			"fortress" : 6,
+			"inferno" : 4,
+			"necropolis" : 4,
+			"rampart" : 4,
+			"stronghold" : 6,
+			"tower" : 6
+		}
+	},
+	
+	"landMine" : {
+		"index" : 11,
+		"name" : "Land Mine",
+		"type" : "combat",
+		"level" : 3,
+		"power" : 10,
+		"school" : {
+			"fire" : true
+		},
+		"targetType" : "NO_TARGET",
+		"targetCondition" : {
+			"noneOf" : {
+				"bonus.DIRECT_DAMAGE_IMMUNITY" : "normal"
+			}
+		},
+		"levels" : {
+			"base" : {
+				"battleEffects" : {
+					"damage" : {
+						"customEffectId" : 82,
+						"indirect" : true,
+						"optional" : false,
+						"type" : "core:damage"
+					},
+					"obstacle" : {
+						"attacker" : {
+							"animation" : "spells/SoD/other/C09SPF1.def",
+							"appearAnimation" : "spells/SoD/other/C09SPF0.def"
+						},
+						"defender" : {
+							"animation" : "spells/SoD/other/C09SPF1.def",
+							"appearAnimation" : "spells/SoD/other/C09SPF0.def"
+						},
+						"hidden" : true,
+						"passable" : true,
+						"patchCount" : 4,
+						"removeOnTrigger" : true,
+						"trap" : false,
+						"trigger" : true,
+						"turnsRemaining" : -1,
+						"type" : "core:obstacle"
+					}
+				},
+				"range" : "X"
+			},
+			"none" : {
+				"cost" : 18,
+				"power" : 25,
+				"aiValue" : 1,
+				"description" : "{Land Mine}\n\nRandomly places four small areas of landmines on the battlefield which are only visible to the caster and creatures native to the terrain.  It inflicts damage to any unit walking over it.\n"
+			}
+			"basic" : {
+				"cost" : 15,
+				"power" : 25,
+				"aiValue" : 1,
+				"description" : "{Basic Land Mine}\n\nRandomly places four small areas of landmines on the battlefield which are only visible to the caster and creatures native to the terrain.  It inflicts damage to any unit walking over it.\n"
+			},
+			"advanced" : {
+				"cost" : 15,
+				"power" : 50,
+				"battleEffects" : {
+					"obstacle" : { "patchCount" : 6 }
+				},
+				"aiValue" : 1,
+				"description" : "{Advanced Land Mine}\n\nRandomly places six small areas of landmines on the battlefield which are only visible to the caster and creatures native to the terrain.  It inflicts damage to any unit walking over it.\n\nInflicted damage 25 points more than Basic Land Mine.\n"
+			},
+			"expert" : {
+				"cost" : 15,
+				"power" : 100,
+				"battleEffects" : {
+					"obstacle" : { "patchCount" : 8 }
+				},
+				"aiValue" : 1,
+				"description" : "{Expert Land Mine}\n\nRandomly places eight small areas of landmines on the battlefield which are only visible to the caster and creatures native to the terrain.  It inflicts damage to any unit walking over it.\n\nInflicted damage 75 points more than Basic Land Mine.\n"
+			}
+		},
+		"flags" : {
+			"damage": true,
+			"indifferent": true
+		},
+		"sounds": {
+			"cast": "" // no casting sound, only obstacle placement sound
+		},
+		"gainChance" : {
+			"castle" : 8,
+			"conflux" : 4,
+			"dungeon" : 12,
+			"fortress" : 2,
+			"inferno" : 6,
+			"necropolis" : 8,
+			"rampart" : 8,
+			"stronghold" : 8,
+			"tower" : 8
+		}
+	},
+	
+	"forceField" : {
+		"index" : 12,
+		"name" : "Force Field",
+		"type" : "combat",
+		"level" : 3,
+		"power" : 0,
+		"school" : {
+			"earth" : true
+		},
+		"targetType" : "LOCATION",
+		"levels" : {
+			"base" : {
+				"battleEffects" : {
+					"obstacle" : {
+						"attacker" : {
+							"animation" : "spells/SoD/other/C15SPE1.def",
+							"appearAnimation" : "spells/SoD/other/C15SPE0.def",
+							"range" : [
+								[ "" ]
+							],
+							"shape" : [
+								[ "" ],
+								[ "TR" ]
+							]
+						},
+						"defender" : {
+							"animation" : "spells/SoD/other/C15SPE4.def",
+							"appearAnimation" : "spells/SoD/other/C15SPE0.def",
+							"range" : [
+								[ "" ]
+							],
+							"shape" : [
+								[ "" ],
+								[ "TL" ]
+							]
+						},
+						"hidden" : false,
+						"passable" : false,
+						"patchCount" : 1,
+						"trap" : false,
+						"trigger" : false,
+						"turnsRemaining" : 2,
+						"type" : "core:obstacle"
+					}
+				},
+				"range" : "0",
+				"targetModifier" : {
+					"clearAffected" : true
+				}
+			},
+			"none" : {
+				"cost" : 12,
+				"power" : 0,
+				"aiValue" : 1,
+				"description" : "{Force Field}\n\nPlaces a small Force Field on the battlefield at a point specified by the caster. \n"
+			}
+			"basic" : {
+				"cost" : 9,
+				"power" : 0,
+				"aiValue" : 1,
+				"description" : "{Basic Force Field}\n\nPlaces a small Force Field on the battlefield at a point specified by the caster. \n"
+			},
+			"advanced" : {
+				"cost" : 9,
+				"power" : 0,
+				"battleEffects" : {
+					"obstacle" : {
+						"attacker" : {
+							"animation" : "C15SPE10.def",
+							"appearAnimation" : "C15SPE9.def",
+							"shape" : [
+								[ "" ],
+								[ "TR" ],
+								[ "TR", "TL" ]
+							]
+						},
+						"defender" : {
+							"animation" : "C15SPE7.def",
+							"appearAnimation" : "C15SPE6.def",
+							"shape" : [
+								[ "" ],
+								[ "TL" ],
+								[ "TL", "TR" ]
+							]
+						}
+					}
+				},
+				"aiValue" : 1,
+				"description" : "{Advanced Force Field}\n\nPlaces a medium sized Force Field on the battlefield at a point specified by the caster.\n"
+			},
+			"expert" : {
+				"cost" : 9,
+				"power" : 0,
+				"battleEffects" : {
+					"obstacle" : {
+						"attacker" : {
+							"animation" : "C15SPE10.def",
+							"appearAnimation" : "C15SPE9.def",
+							"shape" : [
+								[ "" ],
+								[ "TR" ],
+								[ "TR", "TL" ]
+							]
+						},
+						"defender" : {
+							"animation" : "C15SPE7.def",
+							"appearAnimation" : "C15SPE6.def",
+							"shape" : [
+								[ "" ],
+								[ "TL" ],
+								[ "TL", "TR" ]
+							]
+						}
+					}
+				},
+				"aiValue" : 1,
+				"description" : "{Expert Force Field}\n\nPlaces a medium sized Force Field on the battlefield at a point specified by the caster.\n"
+			}
+		},
+		"flags" : {
+			"indifferent": true
+		},
+		"sounds": {
+			"cast": "spells/SoD/other/FORCEFLD.wav"
+		},
+		"gainChance" : {
+			"castle" : 4,
+			"conflux" : 8,
+			"dungeon" : 8,
+			"fortress" : 4,
+			"inferno" : 2,
+			"necropolis" : 8,
+			"rampart" : 4,
+			"stronghold" : 4,
+			"tower" : 8
+		}
+	},
+	
+	"fireWall" : {
+		"index" : 13,
+		"name" : "Fire Wall",
+		"type" : "combat",
+		"level" : 2,
+		"power" : 10,
+		"school" : {
+			"fire" : true
+		},
+		"targetType" : "LOCATION",
+		"targetCondition" : {
+			"noneOf" : {
+				"bonus.DIRECT_DAMAGE_IMMUNITY" : "normal"
+			}
+		},
+		"levels" : {
+			"base" : {
+				"battleEffects" : {
+					"damage" : {
+						"indirect" : true,
+						"optional" : false,
+						"type" : "core:damage"
+					},
+					"obstacle" : {
+						"attacker" : {
+							"animation" : "spells/SoD/other/C07SPF61.def",
+							"appearAnimation" : "spells/SoD/other/C07SPF60.def",
+							"range" : [
+								[ "" ],
+								[ "TR" ]
+							],
+							"shape" : [
+								[ "" ]
+							]
+						},
+						"defender" : {
+							"animation" : "spells/SoD/other/C07SPF61.def",
+							"appearAnimation" : "spells/SoD/other/C07SPF60.def",
+							"range" : [
+								[ "" ],
+								[ "TL" ]
+							],
+							"shape" : [
+								[ "" ]
+							]
+						},
+						"hidden" : false,
+						"passable" : true,
+						"patchCount" : 1,
+						"trap" : false,
+						"trigger" : true,
+						"turnsRemaining" : 2,
+						"type" : "core:obstacle"
+					}
+				},
+				"range" : "0",
+				"targetModifier" : {
+					"clearAffected" : true
+				}
+			},
+			"basic" : {
+				"cost" : 6,
+				"power" : 10,
+				"aiValue" : 1,
+				"description" : "{Basic Fire Wall}\n\nPlaces a small wildfire on the battlefield at a point specified by the caster.  Any units passing through the wall take damage.\n"
+			},
+			"advanced" : {
+				"cost" : 6,
+				"power" : 20,
+				"battleEffects" : {
+					"obstacle" : {
+						"attacker" : {
+							"range" : [
+								[ "" ],
+								[ "TR" ],
+								[ "TR",	"TL" ]
+							]
+						},
+						"defender" : {
+							"range" : [
+								[ "" ],
+								[ "TL" ],
+								[ "TL", "TR" ]
+							]
+						}
+					}
+				},
+				"aiValue" : 1,
+				"description" : "{Advanced Fire Wall}\n\nPlaces a medium sized wildfire on the battlefield at a point specified by the caster.  Any units passing through the wall take damage.\n"
+			},
+			"expert" : {
+				"cost" : 6,
+				"power" : 50
+				"battleEffects" : {
+					"obstacle" : {
+						"attacker" : {
+							"range" : [
+								[ "" ],
+								[ "TR" ],
+								[ "TR", "TL" ]
+							]
+						},
+						"defender" : {
+							"range" : [
+								[ "" ],
+								[ "TL" ],
+								[ "TL", "TR" ]
+							]
+						}
+					}
+				},
+				"aiValue" : 1,
+				"description" : "{Expert Fire Wall}\n\nPlaces a medium sized wildfire on the battlefield at a point specified by the caster.  Any units passing through the wall take damage.\n"
+			},
+			"none" : {
+				"cost" : 8,
+				"power" : 10,
+				"aiValue" : 1,
+				"description" : "{Fire Wall}\n\nPlaces a small wildfire on the battlefield at a point specified by the caster.  Any units passing through the wall take damage.\n"
+			}
+		},
+		"flags" : {
+			"damage": true,
+			"indifferent": true
+		},
+		"sounds": {
+			"cast": "spells/SoD/other/FIREWALL.wav"
+		},
+		"gainChance" : {
+			"castle" : 4,
+			"conflux" : 8,
+			"dungeon" : 4,
+			"fortress" : 4,
+			"inferno" : 12,
+			"necropolis" : 4,
+			"rampart" : 4,
+			"stronghold" : 4,
+			"tower" : 4
+		}
+	},
+	
+	"earthquake" : {
+		"index" : 14,
+		"name" : "Earthquake",
+		"type" : "combat",
+		"level" : 3,
+		"power" : 1,
+		"school" : {
+			"earth" : true
+		},
+		"targetType" : "NO_TARGET",
+		"levels" : {
+			"base" : {
+				"battleEffects" : {
+					"catapult" : {
+						"targetsToAttack" : 2,
+						"type" : "core:catapult"
+					}
+				},
+				"range" : "X",
+				"targetModifier" : {
+					"smart" : true
+				}
+			},
+			"none" : {
+				"cost" : 20,
+				"power" : 2,
+				"aiValue" : 1,
+				"description" : "{Earthquake}\n\nRandomly damages two sections of castle wall in combat.\n"
+			},
+			"basic" : {
+				"cost" : 17,
+				"power" : 2,
+				"aiValue" : 1,
+				"description" : "{Basic Earthquake}\n\nRandomly damages two sections of castle wall in combat.\n"
+			},
+			"advanced" : {
+				"cost" : 17,
+				"power" : 3,
+				"battleEffects" : {
+					"catapult" : {
+						"targetsToAttack" : 3
+					}
+				},
+				"aiValue" : 1,
+				"description" : "{Advanced Earthquake}\n\nRandomly damages three sections of castle wall in combat.\n"
+			},
+			"expert" : {
+				"cost" : 17,
+				"power" : 4,
+				"battleEffects" : {
+					"catapult" : {
+						"targetsToAttack" : 4
+					}
+				},
+				"aiValue" : 1,
+				"description" : "{Expert Earthquake}\n\nRandomly damages four sections of castle wall in combat.\n"
+			}
+		},
+		"flags" : {
+			"indifferent": true
+		},
+		"sounds": {
+			"cast": "spells/SoD/other/ERTHQUAK.wav"
+		},
+		"gainChance" : {
+			"castle" : 4,
+			"conflux" : 4,
+			"dungeon" : 4,
+			"fortress" : 50,
+			"inferno" : 6,
+			"necropolis" : 4,
+			"rampart" : 8,
+			"stronghold" : 4,
+			"tower" : 4
 		}
 	},
 
 	"dispel" : {
 		"index" : 35,
+		"name" : "Dispel",
+		"type" : "combat",
+		"level" : 1,
+		"power" : 0,
+		"school" : {
+			"water" : true
+		},
 		"targetType" : "CREATURE",
-
-		"animation":{
-			"affect":["C05SPW"] //C05SPW0
-		},
-		"sounds": {
-			"cast": "DISPELL"
-		},
 		"levels" : {
- 			"base":{
-				"targetModifier":{
-					"smart":true
-				},
-				"battleEffects":{
-					"dispel":{
-						"type":"core:dispel",
-						"optional":false,
+			"base" : {
+				"battleEffects" : {
+					"dispel" : {
+						"dispelNegative" : true,
+						"dispelNeutral" : true,
+						"dispelPositive" : true,
 						"ignoreImmunity" : true,
-						"dispelNegative":true,
-						"dispelNeutral":true,
-						"dispelPositive":true
+						"optional" : false,
+						"type" : "core:dispel"
 					}
 				},
- 				"range" : "0"
- 			},
-			"advanced":{
-				"targetModifier":{"smart":false}
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
+				}
 			},
- 			"expert":{
-				"targetModifier":{"smart":false},
-				"battleEffects":{
-					"dispel":{
-						"optional":true
+			"none" : {
+				"cost" : 5,
+				"power" : 0,
+				"aiValue" : 3,
+				"description" : "{Dispel}\n\nRemoves all spell effects from a friendly creature.\n"
+			}
+			"basic" : {
+				"cost" : 4,
+				"power" : 0,
+				"aiValue" : 3,
+				"description" : "{Basic Dispel}\n\nRemoves all spell effects from a friendly creature.\n"
+			},
+			"advanced" : {
+				"cost" : 4,
+				"power" : 0,
+				"aiValue" : 3,
+				"targetModifier" : {
+					"smart" : false
+				},
+				"description" : "{Advanced Dispel}\n\nRemoves all spell effects from a friendly or hostile creature.\n"
+			},
+			"expert" : {
+				"cost" : 4,
+				"power" : 0,
+				"range" : "X",
+				"battleEffects" : {
+					"dispel" : {
+						"optional" : true
 					},
-					"removeObstacle":{
-						"optional":true,
-						"type":"core:removeObstacle",
+					"removeObstacle" : {
+						"type" : "core:removeObstacle",
+						"optional" : true,
 						"removeAllSpells" : true
 					}
 				},
- 				"range" : "X"
- 			}
+				"targetModifier" : {
+					"smart" : false
+				},
+				"aiValue" : 3,
+				"description" : "{Expert Dispel}\n\nRemoves all spell effects from all units on the battlefield.\n"
+			}
 		},
 		"flags" : {
 			"positive": true
+		},
+		"animation":{
+			"affect":["spells/SoD/other/C05SPW.def"] //C05SPW0
+		},
+		"sounds": {
+			"cast": "spells/SoD/other/DISPELL.wav"
+		},
+		"gainChance" : {
+			"castle" : 10,
+			"conflux" : 10,
+			"dungeon" : 10,
+			"fortress" : 10,
+			"inferno" : 10,
+			"necropolis" : 10,
+			"rampart" : 10,
+			"stronghold" : 10,
+			"tower" : 10
 		}
 	},
+	
 	"cure" : {
 		"index" : 37,
+		"name" : "Cure",
+		"type" : "combat",
+		"level" : 1,
+		"power" : 5,
+		"school" : {
+			"water" : true
+		},
 		"targetType" : "CREATURE",
-		"animation":{
-			"affect":["C03SPW"]//C03SPW0
-		},
-
-		"sounds": {
-			"cast": "CURE"
-		},
 		"levels" : {
-			"base":{
-				"targetModifier":{"smart":true},
-				"battleEffects":{
-					"heal":{
-						"type":"core:heal",
-						"healLevel":"heal",
-						"healPower":"permanent",
-						"optional":true
+			"base" : {
+				"battleEffects" : {
+					"cure" : {
+						"type" : "core:dispel",
+						"dispelNegative" : true,
+						"dispelNeutral" : false,
+						"dispelPositive" : false,
+						"optional" : true
 					},
-					"cure":{
-						"type":"core:dispel",
-						"optional":true,
-						"dispelNegative":true,
-						"dispelNeutral":false,
-						"dispelPositive":false
+					"heal" : {
+						"type" : "core:heal",
+						"healLevel" : "heal",
+						"healPower" : "permanent",
+						"optional" : true
 					}
 				},
-				"range" : "0"
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
+				}
 			},
-			"expert":{
-				"range" : "X"
+			"none" : {
+				"cost" : 6,
+				"power" : 10,
+				"aiValue" : 4,
+				"description" : "{Cure}\n\nRemoves all negative spell effects and heals a small number of hit points on the selected unit.\n"
+			}
+			"basic" : {
+				"cost" : 5,
+				"power" : 10,
+				"aiValue" : 4,
+				"description" : "{Basic Cure}\n\nRemoves all negative spell effects and heals a small number of hit points on the selected unit.\n"
+			},
+			"advanced" : {
+				"cost" : 5,
+				"power" : 20,
+				"aiValue" : 4,
+				"description" : "{Advanced Cure}\n\nRemoves all negative spell effects and heals a small number of hit points on all friendly units.\n\nDamage healed is 10 points more than Basic Cure.\n"
+			},
+			"expert" : {
+				"cost" : 5,
+				"power" : 30,
+				"range" : "X",
+				"aiValue" : 4,
+				"description" : "{Expert Cure}\n\nRemoves all negative spell effects and heals a small number of hit points on all friendly units.\n\nDamage healed is 20 points more than Basic Cure.\n"
 			}
 		},
 		"flags" : {
 			"positive": true
+		},
+		"animation":{
+			"affect":["spells/SoD/other/C03SPW.def"]//C03SPW0
+		},
+		"sounds": {
+			"cast": "spells/SoD/other/CURE.wav"
+		},
+		"gainChance" : {
+			"castle" : 10,
+			"conflux" : 5,
+			"dungeon" : 5,
+			"fortress" : 10,
+			"inferno" : 5,
+			"necropolis" : 0,
+			"rampart" : 10,
+			"stronghold" : 5,
+			"tower" : 5
 		}
 	},
+	
 	"resurrection" : {
 		"index" : 38,
+		"name" : "Resurrection",
+		"type" : "combat",
+		"level" : 4,
+		"power" : 50,
+		"school" : {
+			"earth" : true
+		},
 		"targetType" : "CREATURE",
-
-		"animation":{
-			"affect":["C01SPE0"]
-		},
-		"sounds": {
-			"cast": "RESURECT"
-		},
-		"levels" : {
-			"base":{
-				"range" : "0",
-				"battleEffects":{
-					"heal":{
-						"type":"core:heal",
-						"healLevel":"resurrect",
-						"healPower":"oneBattle",
-						"minFullUnits" : 1
-					},
-					"cure":{
-						"type":"core:dispel",
-						"indirect": true,
-						"optional":true,
-						"dispelNegative":true,
-						"dispelNeutral":false,
-						"dispelPositive":false
-					}
-				},
-				"targetModifier":{"smart":true}
-			},
-			"advanced":{
-				"battleEffects":{
-					"heal":{
-						"healPower":"permanent"
-					}
-				}
-			},
-			"expert":{
-				"battleEffects":{
-					"heal":{
-						"healPower":"permanent"
-					}
-				}
-			}
-		},
-		"flags" : {
-			"rising": true,
-			"positive": true
-		},
 		"targetCondition" : {
 			"noneOf" : {
 				"bonus.NON_LIVING" : "absolute",
-				"bonus.SIEGE_WEAPON" : "absolute",
 				"bonus.UNDEAD" : "absolute",
-				"bonus.GARGOYLE" : "absolute"
+				"bonus.GARGOYLE" : "absolute",
+				"bonus.SIEGE_WEAPON" : "absolute"
 			}
-		}
-	},
-	"animateDead" : {
-		"index" : 39,
-		"targetType" : "CREATURE",
-
-		"animation":{
-			"affect":["C01SPE0"]
-		},
-		"sounds": {
-			"cast": "ANIMDEAD"
 		},
 		"levels" : {
-			"base":{
-				"range" : "0",
-				"battleEffects":{
-					"heal":{
-						"type":"core:heal",
-						"healLevel":"resurrect",
-						"healPower":"permanent",
+			"base" : {
+				"battleEffects" : {
+					"cure" : {
+						"type" : "core:dispel",
+						"dispelNegative" : true,
+						"dispelNeutral" : false,
+						"dispelPositive" : false,
+						"indirect" : true,
+						"optional" : true
+					},
+					"heal" : {
+						"type" : "core:heal",
+						"healLevel" : "resurrect",
+						"healPower" : "oneBattle",
 						"minFullUnits" : 1
 					}
 				},
-				"targetModifier":{"smart":true}
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
+				}
+			},
+			"none" : {
+				"cost" : 20,
+				"power" : 40,
+				"aiValue" : 50,
+				"description" : "{Resurrection}\n\nResurrects units in the selected group by restoring a fixed number of hit points to the target.\n"
+			},
+			"basic" : {
+				"cost" : 16,
+				"power" : 40,
+				"aiValue" : 50,
+				"description" : "{Basic Resurrection}\n\nResurrects units in the selected group by restoring a fixed number of hit points to the target.\n"
+			},
+			"advanced" : {
+				"cost" : 16,
+				"power" : 80,
+				"battleEffects" : {
+					"heal" : { "healPower" : "permanent" }
+				},
+				"aiValue" : 60,
+				"description" : "{Advanced Resurrection}\n\nResurrects units in the selected group by restoring a fixed number of hit points to the target.\n\nProvides an additional 40 hit points over Basic Resurrection.\n"
+			},
+			"expert" : {
+				"cost" : 16,
+				"power" : 160,
+				"battleEffects" : {
+					"heal" : {
+						"healPower" : "permanent"
+					}
+				},
+				"aiValue" : 120,
+				"description" : "{Expert Resurrection}\n\nResurrects units in the selected group by restoring a fixed number of hit points to the target. \n\nProvides an additional 120 hit points over Basic Resurrection.\n"
 			}
 		},
 		"flags" : {
 			"rising": true,
 			"positive": true
 		},
+		"animation":{
+			"affect":["spells/SoD/other/C01SPE0.def"]
+		},
+		"sounds": {
+			"cast": "spells/SoD/other/RESURECT.wav"
+		},
+		"gainChance" : {
+			"castle" : 10,
+			"conflux" : 5,
+			"dungeon" : 10,
+			"fortress" : 0,
+			"inferno" : 10,
+			"necropolis" : 10,
+			"rampart" : 10,
+			"stronghold" : 0,
+			"tower" : 10
+		}
+	},
+	
+	"animateDead" : {
+		"index" : 39,
+		"name" : "Animate Dead",
+		"type" : "combat",
+		"level" : 3,
+		"power" : 50,
+		"school" : {
+			"earth" : true
+		},
+		"targetType" : "CREATURE",
 		"targetCondition" : {
 			"allOf" : {
 				"bonus.UNDEAD" : "absolute"
 			}
-		}
-	},
-	"sacrifice" : {
-		"index" : 40,
-		"targetType" : "CREATURE",
-
-		"animation":{
-			"affect":["C01SPE0"]
-		},
-		"sounds": {
-			"cast": "SACRIF1"
 		},
 		"levels" : {
-			"base":{
-				"range" : "0",
-				"battleEffects":{
-					"sacrifice":{
-						"type":"core:sacrifice",
-						"healLevel":"resurrect",
-						"healPower":"permanent",
-						"minFullUnits" : 0
+			"base" : {
+				"battleEffects" : {
+					"heal" : {
+						"type" : "core:heal",
+						"healLevel" : "resurrect",
+						"healPower" : "permanent",
+						"minFullUnits" : 1
 					}
 				},
-				"targetModifier":{"smart":true}
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
+				}
+			},
+			"none" : {
+				"cost" : 15,
+				"power" : 30,
+				"aiValue" : 60,
+				"description" : "{Animate Dead}\n\nRe-animates any destroyed undead in the selected group by restoring a fixed number of hit points to the target.\n"
+			},
+			"basic" : {
+				"cost" : 12,
+				"power" : 30,
+				"aiValue" : 60,
+				"description" : "{Basic Animate Dead}\n\nRe-animates any destroyed undead in the selected group by restoring a fixed number of hit points to the target.\n"
+			},
+			"advanced" : {
+				"cost" : 12,
+				"power" : 60,
+				"aiValue" : 60,
+				"description" : "{Advanced Animate Dead}\n\nRe-animates any destroyed undead in the selected group by restoring a fixed number of hit points to the target.\n\nProvides an additional 30 hit points over Basic Animate Dead.\n"
+			},
+			"expert" : {
+				"cost" : 12,
+				"power" : 160,
+				"aiValue" : 120,
+				"description" : "{Expert Animate Dead}\n\nRe-animates any destroyed undead in the selected group by restoring a fixed number of hit points to the target.\n\nProvides an additional 130  hit points over Basic Animate Dead.\n"
 			}
 		},
 		"flags" : {
 			"rising": true,
 			"positive": true
 		},
+		"animation":{
+			"affect":["spells/SoD/other/C01SPE0.def"]
+		},
+		"sounds": {
+			"cast": "spells/SoD/other/ANIMDEAD.wav"
+		},
+		"gainChance" : {
+			"castle" : 0,
+			"conflux" : 0,
+			"dungeon" : 0,
+			"fortress" : 0,
+			"inferno" : 0,
+			"necropolis" : 16,
+			"rampart" : 0,
+			"stronghold" : 0,
+			"tower" : 0
+		}
+	},
+	
+	"sacrifice" : {
+		"index" : 40,
+		"name" : "Sacrifice",
+		"type" : "combat",
+		"level" : 5,
+		"power" : 1,
+		"school" : {
+			"fire" : true
+		},
+		"targetType" : "CREATURE",
 		"targetCondition" : {
 			"noneOf" : {
 				"bonus.NON_LIVING" : "absolute",
-				"bonus.SIEGE_WEAPON" : "absolute",
 				"bonus.UNDEAD" : "absolute",
-				"bonus.GARGOYLE" : "absolute"
+				"bonus.GARGOYLE" : "absolute",
+				"bonus.SIEGE_WEAPON" : "absolute"
 			}
-		}
-	},
-	"teleport" : {
-		"index" : 63,
-		"targetType" : "CREATURE",
-
-		"sounds": {
-			"cast": "TELPTOUT"
 		},
 		"levels" : {
-			"base":{
-				"range" : "0",
-				"battleEffects":{
-					"teleport":{
-						"type":"core:teleport"
+			"base" : {
+				"battleEffects" : {
+					"sacrifice" : {
+						"type" : "core:sacrifice",
+						"healLevel" : "resurrect",
+						"healPower" : "permanent",
+						"minFullUnits" : 0
 					}
 				},
-				"targetModifier":{"smart":true}
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
+				}
+			},
+			"none" : {
+				"cost" : 25,
+				"power" : 3,
+				"aiValue" : 1,
+				"description" : "{Sacrifice}\n\nDestroys a friendly creature group in order to resurrect a dead group.  Number of resurrected creatures depends on the caster's spell power and the health of the destroyed stack.\n"
+			}
+			"basic" : {
+				"cost" : 20,
+				"power" : 3,
+				"aiValue" : 1,
+				"description" : "{Basic Sacrifice}\n\nDestroys a friendly creature group in order to resurrect a dead group.  Number of resurrected creatures depends on the caster's spell power and the health of the destroyed stack.\n"
+			},
+			"advanced" : {
+				"cost" : 20,
+				"power" : 6,
+				"aiValue" : 1,
+				"description" : "{Advanced Sacrifice}\n\nDestroys a friendly creature group in order to resurrect a dead group.  Number of resurrected creatures depends on the caster's spell power and the health of the destroyed stack.\n\nRestores more creature health than Basic Sacrifice.\n"
+			},
+			"expert" : {
+				"cost" : 20,
+				"power" : 10,
+				"aiValue" : 1,
+				"description" : "{Expert Sacrifice}\n\nDestroys a friendly creature group in order to resurrect a dead group.  Number of resurrected creatures depends on the caster's spell power and the health of the destroyed stack.\n\nRestores more creature health than Advanced Sacrifice.\n"
+			}
+		},
+		"flags" : {
+			"rising": true,
+			"positive": true
+		},
+		"animation":{
+			"affect":["spells/SoD/other/C01SPE0.def"]
+		},
+		"sounds": {
+			"cast": "spells/SoD/other/SACRIF1.wav"
+		},
+		"gainChance" : {
+			"castle" : 0,
+			"conflux" : 0,
+			"dungeon" : 12,
+			"fortress" : 0,
+			"inferno" : 20,
+			"necropolis" : 16,
+			"rampart" : 0,
+			"stronghold" : 0,
+			"tower" : 0
+		}
+	},
+	
+	"teleport" : {
+		"index" : 63,
+		"name" : "Teleport",
+		"level" : 3,
+		"power" : 0,
+		"school" : {
+			"water" : true
+		},
+		"targetType" : "CREATURE",
+		"targetCondition" : {
+			"noneOf" : {
+				"bonus.SIEGE_WEAPON" : "absolute"
+			}
+		},
+		"levels" : {
+			"base" : {
+				"battleEffects" : {
+					"teleport" : {
+						"type" : "core:teleport"
+					}
+				},
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
+				}
+			},
+			"none" : {
+				"cost" : 15,
+				"power" : 0,
+				"aiValue" : 20,
+				"description" : "{Teleport}\n\nTeleports any friendly unit to any unoccupied spot on the battlefield.\n"
+			}
+			"basic" : {
+				"cost" : 12,
+				"power" : 0,
+				"aiValue" : 20,
+				"description" : "{Basic Teleport}\n\nTeleports any friendly unit to an unoccupied spot on the battlefield.\n\nTroop cannot teleport over walls or moats.\n"
+			},
+			"advanced" : {
+				"cost" : 6,
+				"power" : 0,
+				"aiValue" : 20,
+				"description" : "{Advanced Teleport}\n\nTeleports any friendly unit to an unoccupied spot on the battlefield.\n\nTroop cannot teleport over walls.\n"
+			},
+			"expert" : {
+				"cost" : 3,
+				"power" : 0,
+				"aiValue" : 20,
+				"description" : "{Expert Teleport}\n\nTeleports any friendly unit to any unoccupied spot on the battlefield.\n"
 			}
 		},
 		"flags" : {
 			"positive": true
 		},
-		"targetCondition" : {
-			"noneOf" : {
-				"bonus.SIEGE_WEAPON" : "absolute"
-			}
+		"sounds": {
+			"cast": "spells/SoD/other/TELPTOUT.wav"
+		},
+		"gainChance" : {
+			"castle" : 8,
+			"conflux" : 8,
+			"dungeon" : 8,
+			"fortress" : 10,
+			"inferno" : 8,
+			"necropolis" : 8,
+			"rampart" : 8,
+			"stronghold" : 8,
+			"tower" : 8
 		}
 	},
+	
 	"removeObstacle" : {
 		"index" : 64,
+		"name" : "Remove Obstacle",
+		"type" : "combat",
+		"level" : 2,
+		"power" : 0,
+		"school" : {
+			"water" : true
+		},
 		"targetType" : "OBSTACLE",
-		"animation":{
-			"cast":[2]
-		},
-		"sounds": {
-			"cast": "REMOVEOB"
-		},
 		"levels" : {
-			"base":{
-				"range" : "0",
-				"battleEffects": {
+			"base" : {
+				"battleEffects" : {
 					"removeObstacle" : {
-						"optional":false,
-						"type":"core:removeObstacle",
+						"type" : "core:removeObstacle",
+						"optional" : false,
 						"removeUsual" : true
 					}
-				}
+				},
+				"range" : "0"
+			},
+			"none" : {
+				"cost" : 7,
+				"power" : 0,
+				"aiValue" : 1,
+				"description" : "{Remove Obstacle}\n\nRemoves any normal obstacle (trees, rocks, etc.) of the caster's choice from the battlefield.\n"
+			},
+			"basic" : {
+				"cost" : 5,
+				"power" : 0,
+				"aiValue" : 1,
+				"description" : "{Basic Remove Obstacle}\n\nRemoves any normal obstacle (trees, rocks, etc.) of the caster's choice from the battlefield.\n"
 			},
 			"advanced" : {
-				"battleEffects": {
+				"cost" : 5,
+				"power" : 0,
+				"battleEffects" : {
 					"removeObstacle" : {
-						"removeSpells" : ["fireWall"]
+						"removeSpells" : [
+							"fireWall"
+						]
 					}
-				}
+				},
+				"aiValue" : 1,
+				"description" : "{Advanced Remove Obstacle}\n\nRemoves any normal obstacle (trees, rocks, etc.) or Fire Wall of the caster's choice from the battlefield.\n"
 			},
 			"expert" : {
-				"battleEffects": {
+				"cost" : 5,
+				"power" : 0,
+				"battleEffects" : {
 					"removeObstacle" : {
 						"removeAllSpells" : true
 					}
-				}
+				},
+				"aiValue" : 1,
+				"description" : "{Expert Remove Obstacle}\n\nRemoves any normal or magical obstacle of the caster's choice from the battlefield.\n"
 			}
 		},
 		"flags" : {
 			"indifferent": true
-		}
-	},
-	"clone" : {
-		"index" : 65,
-		"targetType" : "CREATURE",
+		},
 		"animation":{
 			"cast":[2]
 		},
 		"sounds": {
-			"cast": "CLONE"
+			"cast": "spells/SoD/other/REMOVEOB.wav"
 		},
-		"levels" : {
-			"base":{
-				"range" : "0",
-				"battleEffects":{
-					"clone":{
-						"maxTier":5,
-						"type":"core:clone"
-					}
-				},
-				"targetModifier":{"smart":true}
-			},
-			"advanced":{
-				"battleEffects":{
-					"clone":{
-						"maxTier":6
-					}
-				}
-			},
-			"expert":{
-				"battleEffects":{
-					"clone":{
-						"maxTier":1000
-					}
-				}
-			}
+		"gainChance" : {
+			"castle" : 4,
+			"conflux" : 4,
+			"dungeon" : 4,
+			"fortress" : 4,
+			"inferno" : 4,
+			"necropolis" : 4,
+			"rampart" : 4,
+			"stronghold" : 4,
+			"tower" : 6
+		}
+	},
+	
+	"clone" : {
+		"index" : 65,
+		"name" : "Clone",
+		"type" : "combat",
+		"level" : 4,
+		"power" : 0,
+		"school" : {
+			"water" : true
 		},
-		"flags" : {
-			"positive": true
-		},
+		"targetType" : "CREATURE",
 		"targetCondition" : {
 			"noneOf" : {
 				"bonus.SIEGE_WEAPON" : "absolute"
 			}
+		},
+		"levels" : {
+			"base" : {
+				"battleEffects" : {
+					"clone" : {
+						"maxTier" : 5,
+						"type" : "core:clone"
+					}
+				},
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
+				}
+			},
+			"basic" : {
+				"cost" : 20,
+				"power" : 5,
+				"aiValue" : 20,
+				"description" : "{Basic Clone}\n\nCreates a duplicate of the selected unit stack.  The image is dispelled if it is attacked.\n\nClones creatures of levels 1-5.\n"
+			},
+			"advanced" : {
+				"cost" : 20,
+				"power" : 6,
+				"aiValue" : 40,
+				"battleEffects" : {
+					"clone" : { "maxTier" : 6 }
+				},
+				"description" : "{Advanced Clone}\n\nCreates a duplicate of the selected unit stack.  The image is dispelled if it is attacked.\n\nClones creatures of levels 1-6.\n"
+			},
+			"expert" : {
+				"cost" : 20,
+				"power" : 7,
+				"aiValue" : 50,
+				"battleEffects" : {
+					"clone" : { "maxTier" : 1000 }
+				},
+				"description" : "{Expert Clone}\n\nCreates a duplicate of the selected unit stack.  The image is dispelled if it is attacked.\n\nClones creatures of any level.\n"
+			},
+			"none" : {
+				"cost" : 24,
+				"power" : 5,
+				"aiValue" : 20,
+				"description" : "{Clone}\n\nCreates a duplicate of the selected unit stack.  The image is dispelled if it is attacked.\n\nClones creatures of levels 1-5.\n"
+			}
+		},
+		"flags" : {
+			"positive": true
+			},
+		"animation":{
+			"cast":[2]
+		},
+		"sounds": {
+			"cast": "spells/SoD/other/CLONE.wav"
+		},
+		"gainChance" : {
+			"castle" : 5,
+			"conflux" : 10,
+			"dungeon" : 5,
+			"fortress" : 0,
+			"inferno" : 5,
+			"necropolis" : 5,
+			"rampart" : 5,
+			"stronghold" : 0,
+			"tower" : 10
 		}
 	},
+	
 	"fireElemental" : {
 		"index" : 66,
+		"name" : "Fire Elemental",
+		"type" : "combat",
+		"level" : 5,
+		"power" : 0,
+		"school" : {
+			"fire" : true
+		},
 		"targetType" : "NO_TARGET",
-		"animation":{
-			"cast":[2]
-		},
-		"sounds": {
-			"cast": "SUMNELM"
-		},
 		"levels" : {
-			"base":{
+			"base" : {
 				"range" : "X",
-				"battleEffects":{
-					"summon":{
-						"exclusive":true,
-						"id":"fireElemental",
-						"permanent":false,
-						"type":"core:summon"
+				"battleEffects" : {
+					"summon" : {
+						"type" : "core:summon",
+						"id" : "fireElemental",
+						"exclusive" : true,
+						"permanent" : false
 					}
 				}
+			},
+			"none" : {
+				"cost" : 25,
+				"power" : 2,
+				"aiValue" : 50,
+				"description" : "{Summon Fire Elemental}\n\nAllows you to summon fire elementals.  Once cast, no other elemental types may be summoned.\n"
+			},
+			"basic" : {
+				"cost" : 20,
+				"power" : 2,
+				"aiValue" : 50,
+				"description" : "{Basic Summon Fire Elemental}\n\nAllows you to summon fire elementals.  Once cast, no other elemental types may be summoned.\n"
+			},
+			"advanced" : {
+				"cost" : 20,
+				"power" : 3,
+				"aiValue" : 100,
+				"description" : "{Advanced Summon Fire Elemental}\n\nAllows you to summon fire elementals.  Once cast, no other elemental types may be summoned.\n\nSummons approximately one-and-a-half times the number of units as Basic Summon Fire Elemental.\n"
+			},
+			"expert" : {
+				"cost" : 20,
+				"power" : 4,
+				"aiValue" : 150,
+				"description" : "{Expert Summon Fire Elemental}\n\nAllows you to summon fire elementals.  Once cast, no other elemental types may be summoned.\n\nSummons approximately twice the number of units as Basic Summon Fire Elemental.\n"
 			}
 		},
 		"flags" : {
 			"indifferent": true
+		},
+		"animation":{
+			"cast":[2]
+		},
+		"sounds": {
+			"cast": "spells/SoD/other/SUMNELM.wav"
+		},
+		"gainChance" : {
+			"castle" : 0,
+			"conflux" : 12,
+			"dungeon" : 12,
+			"fortress" : 0,
+			"inferno" : 16,
+			"necropolis" : 0,
+			"rampart" : 0,
+			"stronghold" : 0,
+			"tower" : 0
 		}
 	},
+	
 	"earthElemental" : {
 		"index" : 67,
+		"name" : "Earth Elemental",
+		"type" : "combat",
+		"level" : 5,
+		"power" : 0,
+		"school" : {
+			"earth" : true
+		},
 		"targetType" : "NO_TARGET",
-		"animation":{
-			"cast":[2]
-		},
-		"sounds": {
-			"cast": "SUMNELM"
-		},
 		"levels" : {
-			"base":{
+			"base" : {
 				"range" : "X",
-				"battleEffects":{
-					"summon":{
-						"exclusive":true,
-						"id":"earthElemental",
-						"permanent":false,
-						"type":"core:summon"
+				"battleEffects" : {
+					"summon" : {
+						"type" : "core:summon",
+						"id" : "earthElemental",
+						"exclusive" : true,
+						"permanent" : false
 					}
 				}
+			},
+			"none" : {
+				"cost" : 25,
+				"power" : 2,
+				"aiValue" : 50,
+				"description" : "{Summon Earth Elemental}\n\nAllows you to summon earth elementals.  Once cast, no other elemental types may be summoned.\n"
+			},
+			"basic" : {
+				"cost" : 20,
+				"power" : 2,
+				"aiValue" : 50,
+				"description" : "{Basic Summon Earth Elemental}\n\nAllows you to summon earth elementals.  Once cast, no other elemental types may be summoned.\n"
+			},
+			"advanced" : {
+				"cost" : 20,
+				"power" : 3,
+				"aiValue" : 100,
+				"description" : "{Advanced Summon Earth Elemental}\n\nAllows you to summon earth elementals.  Once cast, no other elemental types may be summoned.\n\nSummons approximately one-and-a-half times the number of units as Basic Summon Creature.\n"
+			},
+			"expert" : {
+				"cost" : 20,
+				"power" : 4,
+				"aiValue" : 150,
+				"description" : "{Expert Summon Earth Elemental}\n\nAllows you to summon earth elementals.  Once cast, no other elemental types may be summoned.\n\nSummons approximately twice the number of units as Basic Summon Creature.\n"
 			}
 		},
 		"flags" : {
 			"indifferent": true
+		},
+		"animation":{
+			"cast":[2]
+		},
+		"sounds": {
+			"cast": "spells/SoD/other/SUMNELM.wav"
+		},
+		"gainChance" : {
+			"castle" : 0,
+			"conflux" : 12,
+			"dungeon" : 12,
+			"fortress" : 0,
+			"inferno" : 16,
+			"necropolis" : 16,
+			"rampart" : 16,
+			"stronghold" : 0,
+			"tower" : 14
 		}
 	},
+	
 	"waterElemental" : {
 		"index" : 68,
+		"name" : "Water Elemental",
+		"type" : "combat",
+		"level" : 5,
+		"power" : 0,
+		"school" : {
+			"water" : true
+		},
 		"targetType" : "NO_TARGET",
-		"animation":{
-			"cast":[2]
-		},
-		"sounds": {
-			"cast": "SUMNELM"
-		},
 		"levels" : {
-			"base":{
+			"base" : {
 				"range" : "X",
-				"battleEffects":{
-					"summon":{
-						"exclusive":true,
-						"id":"waterElemental",
-						"permanent":false,
-						"type":"core:summon"
+				"battleEffects" : {
+					"summon" : {
+						"type" : "core:summon",
+						"id" : "waterElemental",
+						"exclusive" : true,
+						"permanent" : false
 					}
 				}
+			},
+			"none" : {
+				"cost" : 25,
+				"power" : 2,
+				"aiValue" : 50,
+				"description" : "{Summon Water Elemental}\n\nAllows you to summon water elementals.  Once cast, no other elemental types may be summoned.\n"
+			},
+			"basic" : {
+				"cost" : 20,
+				"power" : 2,
+				"aiValue" : 50,
+				"description" : "{Basic Summon Water Elemental}\n\nAllows you to summon water elementals.  Once cast, no other elemental types may be summoned.\n"
+			},
+			"advanced" : {
+				"cost" : 20,
+				"power" : 3,
+				"aiValue" : 100,
+				"description" : "{Advanced Summon Water Elemental}\n\nAllows you to summon water elementals.  Once cast, no other elemental types may be summoned.\n\nSummons approximately one-and-a-half times the number of units as Basic Summon Water Elemental.\n"
+			},
+			"expert" : {
+				"cost" : 20,
+				"power" : 4,
+				"aiValue" : 150,
+				"description" : "{Expert Summon Water Elemental}\n\nAllows you to summon water elementals.  Once cast, no other elemental types may be summoned.\n\nSummons approximately twice the number of units as Basic Summon Water Elemental.\n"
 			}
 		},
 		"flags" : {
 			"indifferent": true
+		},
+		"animation":{
+			"cast":[2]
+		},
+		"sounds": {
+			"cast": "spells/SoD/other/SUMNELM.wav"
+		},
+		"gainChance" : {
+			"castle" : 0,
+			"conflux" : 12,
+			"dungeon" : 12,
+			"fortress" : 0,
+			"inferno" : 0,
+			"necropolis" : 0,
+			"rampart" : 16,
+			"stronghold" : 0,
+			"tower" : 14
 		}
 	},
+	
 	"airElemental" : {
 		"index" : 69,
+		"name" : "Air Elemental",
+		"type" : "combat",
+		"level" : 5,
+		"power" : 0,
+		"school" : {
+			"air" : true
+		},
 		"targetType" : "NO_TARGET",
-		"animation":{
-			"cast":[2]
-		},
-		"sounds": {
-			"cast": "SUMNELM"
-		},
 		"levels" : {
-			"base":{
+			"base" : {
 				"range" : "X",
-				"battleEffects":{
-					"summon":{
-						"exclusive":true,
-						"id":"airElemental",
-						"permanent":false,
-						"type":"core:summon"
+				"battleEffects" : {
+					"summon" : {
+						"type" : "core:summon",
+						"id" : "airElemental",
+						"exclusive" : true,
+						"permanent" : false
 					}
 				}
+			},
+			"none" : {
+				"cost" : 25,
+				"power" : 2,
+				"aiValue" : 50,
+				"description" : "{Summon Air Elemental}\n\nAllows you to summon air elementals.  Once cast, no other elemental types may be summoned.\n"
+			}
+			"basic" : {
+				"cost" : 20,
+				"power" : 2,
+				"aiValue" : 50,
+				"description" : "{Basic Summon Air Elemental}\n\nAllows you to summon air elementals.  Once cast, no other elemental types may be summoned.\n"
+			},
+			"advanced" : {
+				"cost" : 20,
+				"power" : 3,
+				"aiValue" : 100,
+				"description" : "{Advanced Summon Air Elemental}\n\nAllows you to summon air elementals.  Once cast, no other elemental types may be summoned.\n\nSummons approximately one-and-a-half times the number of units as Basic Summon Air Elemental.\n"
+			},
+			"expert" : {
+				"cost" : 20,
+				"power" : 4,
+				"aiValue" : 150,
+				"description" : "{Expert Summon Air Elemental}\n\nAllows you to summon air elementals.  Once cast, no other elemental types may be summoned.\n\nSummons approximately twice the number of units as Basic Summon Air Elemental.\n"
 			}
 		},
 		"flags" : {
 			"indifferent": true
+		},
+		"animation":{
+			"cast":[2]
+		},
+		"sounds": {
+			"cast": "spells/SoD/other/SUMNELM.wav"
+		},
+		"gainChance" : {
+			"castle" : 0,
+			"conflux" : 12,
+			"dungeon" : 0,
+			"fortress" : 0,
+			"inferno" : 0,
+			"necropolis" : 16,
+			"rampart" : 0,
+			"stronghold" : 0,
+			"tower" : 14
 		}
 	}
 }
